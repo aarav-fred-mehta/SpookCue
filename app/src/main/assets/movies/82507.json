@@ -1,0 +1,34 @@
+{
+  "tmdb_id": 82507,
+  "title": "Sinister",
+  "release_year": 2012,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 1920000,
+      "type": "major",
+      "description": "Lawnmower rolls forward in dark footage and suddenly runs over a person",
+      "anchor_phonetic": ["LN", "MR", "FR"],
+      "offset_from_anchor_ms": 4100
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 3240000,
+      "type": "major",
+      "description": "Bughuul's face turns toward the camera in the paused laptop video screen",
+      "anchor_phonetic": ["P", "ST", "SK", "RN"],
+      "offset_from_anchor_ms": 3000
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 1915900,
+      "p": ["LN", "MR", "FR"]
+    },
+    {
+      "s": 3237000,
+      "p": ["P", "ST", "SK", "RN"]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "tmdb_id": 49018,
+  "title": "Insidious",
+  "release_year": 2010,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 1320000,
+      "type": "major",
+      "description": "Baby monitor suddenly emits loud aggressive voice shouting 'I want it now!'",
+      "anchor_phonetic": [
+        "BB",
+        "MN",
+        "TR"
+      ],
+      "offset_from_anchor_ms": 3200
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 2880000,
+      "type": "major",
+      "description": "Red-faced lipstick demon suddenly appears behind Josh at the dining table",
+      "anchor_phonetic": [
+        "LT",
+        "ST",
+        "K",
+        "DM"
+      ],
+      "offset_from_anchor_ms": 2400
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 3720000,
+      "type": "major",
+      "description": "Dancing boy ghost darts out of the wardrobe dancing to Tiptoe Through the Tulips",
+      "anchor_phonetic": [
+        "TP",
+        "T",
+        "TL",
+        "P"
+      ],
+      "offset_from_anchor_ms": 3800
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 1316800,
+      "p": [
+        "BB",
+        "MN",
+        "TR"
+      ]
+    },
+    {
+      "s": 2877600,
+      "p": [
+        "LT",
+        "ST",
+        "K",
+        "DM"
+      ]
+    },
+    {
+      "s": 3716200,
+      "p": [
+        "TP",
+        "T",
+        "TL",
+        "P"
+      ]
+    }
+  ]
+}

@@ -11,7 +11,8 @@ data class MovieCatalogItem(
     @SerialName("runtime_minutes") val runtimeMinutes: Int,
     @SerialName("scare_count") val scareCount: Int,
     @SerialName("poster_path") val posterPath: String? = null,
-    @SerialName("has_subtitles") val hasSubtitles: Boolean = true
+    @SerialName("has_subtitles") val hasSubtitles: Boolean = true,
+    @SerialName("last_synced_at") val lastSyncedAt: Long? = null
 )
 
 @Serializable

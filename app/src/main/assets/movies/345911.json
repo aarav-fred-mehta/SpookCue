@@ -1,0 +1,110 @@
+{
+  "tmdb_id": 345911,
+  "title": "Lights Out",
+  "release_year": 2016,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 202000,
+      "type": "major",
+      "description": "Esther flips the light switch off; silhouette appears right in front",
+      "anchor_phonetic": [
+        "SX",
+        "LTS",
+        "AF"
+      ],
+      "offset_from_anchor_ms": 2700
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 303000,
+      "type": "major",
+      "description": "As lights flicker back on, Diana stands looming directly behind Paul",
+      "anchor_phonetic": [
+        "PL",
+        "ARHS",
+        "PHNT"
+      ],
+      "offset_from_anchor_ms": 3100
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 1187000,
+      "type": "minor",
+      "description": "Shadowy figure lunges through doorway slit as Martin peeks through",
+      "anchor_phonetic": [
+        "MRTN",
+        "TR",
+        "MM"
+      ],
+      "offset_from_anchor_ms": 2400
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 1491000,
+      "type": "major",
+      "description": "Room plunges into darkness; Diana aggressively tackles Rebecca down",
+      "anchor_phonetic": [
+        "RPK",
+        "TRK",
+        "FLR"
+      ],
+      "offset_from_anchor_ms": 3300
+    },
+    {
+      "id": "scare_05",
+      "resolved_time_ms": 4421000,
+      "type": "major",
+      "description": "Diana crashes through ceiling plasterboard during the blacklight battle",
+      "anchor_phonetic": [
+        "PLKLT",
+        "SLNK",
+        "RNNK"
+      ],
+      "offset_from_anchor_ms": 3500
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 199300,
+      "p": [
+        "SX",
+        "LTS",
+        "AF"
+      ]
+    },
+    {
+      "s": 299900,
+      "p": [
+        "PL",
+        "ARHS",
+        "PHNT"
+      ]
+    },
+    {
+      "s": 1184600,
+      "p": [
+        "MRTN",
+        "TR",
+        "MM"
+      ]
+    },
+    {
+      "s": 1487700,
+      "p": [
+        "RPK",
+        "TRK",
+        "FLR"
+      ]
+    },
+    {
+      "s": 4417500,
+      "p": [
+        "PLKLT",
+        "SLNK",
+        "RNNK"
+      ]
+    }
+  ]
+}

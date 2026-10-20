@@ -1,0 +1,88 @@
+{
+  "tmdb_id": 493922,
+  "title": "Hereditary",
+  "release_year": 2018,
+  "runtime_minutes": 127,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 869000,
+      "type": "minor",
+      "description": "A bird abruptly collides into Charlie's classroom window",
+      "anchor_phonetic": [
+        "PRT",
+        "ANT"
+      ],
+      "offset_from_anchor_ms": 2500
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 4709000,
+      "type": "major",
+      "description": "Table candle suddenly flares up violently during the seance",
+      "anchor_phonetic": [
+        "KNTL",
+        "FLM",
+        "TPL"
+      ],
+      "offset_from_anchor_ms": 3100
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 5278000,
+      "type": "major",
+      "description": "Peter spots shadow in corner; an arm suddenly grabs him around the head",
+      "anchor_phonetic": [
+        "PTR",
+        "XT",
+        "KRNR"
+      ],
+      "offset_from_anchor_ms": 2800
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 6587000,
+      "type": "major",
+      "description": "Violent banging thuds reverberate directly through the attic floorboards",
+      "anchor_phonetic": [
+        "ATK",
+        "SLNK",
+        "NS"
+      ],
+      "offset_from_anchor_ms": 3400
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 866500,
+      "p": [
+        "PRT",
+        "ANT"
+      ]
+    },
+    {
+      "s": 4705900,
+      "p": [
+        "KNTL",
+        "FLM",
+        "TPL"
+      ]
+    },
+    {
+      "s": 5275200,
+      "p": [
+        "PTR",
+        "XT",
+        "KRNR"
+      ]
+    },
+    {
+      "s": 6583600,
+      "p": [
+        "ATK",
+        "SLNK",
+        "NS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "tmdb_id": 1008042,
+  "title": "Talk to Me",
+  "release_year": 2023,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 160000,
+      "type": "minor",
+      "description": "Cole frantically bangs through the bedroom door screaming at the party",
+      "anchor_phonetic": [
+        "APN",
+        "TR",
+        "PRT"
+      ],
+      "offset_from_anchor_ms": 2200
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 1151000,
+      "type": "minor",
+      "description": "Mia grasps the embalmed hand; grotesque entity twitches into view",
+      "anchor_phonetic": [
+        "TLK",
+        "LT",
+        "ANST"
+      ],
+      "offset_from_anchor_ms": 2900
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 2021000,
+      "type": "major",
+      "description": "Possessed Riley violently bashes his face against the wooden desk",
+      "anchor_phonetic": [
+        "PL",
+        "A",
+        "STP"
+      ],
+      "offset_from_anchor_ms": 3300
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 3771000,
+      "type": "minor",
+      "description": "Distorted rotting ghost suddenly lunges toward the hospital bed",
+      "anchor_phonetic": [
+        "HSPTL",
+        "RM",
+        "M0R"
+      ],
+      "offset_from_anchor_ms": 2700
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 157800,
+      "p": [
+        "APN",
+        "TR",
+        "PRT"
+      ]
+    },
+    {
+      "s": 1148100,
+      "p": [
+        "TLK",
+        "LT",
+        "ANST"
+      ]
+    },
+    {
+      "s": 2017700,
+      "p": [
+        "PL",
+        "A",
+        "STP"
+      ]
+    },
+    {
+      "s": 3768300,
+      "p": [
+        "HSPTL",
+        "RM",
+        "M0R"
+      ]
+    }
+  ]
+}

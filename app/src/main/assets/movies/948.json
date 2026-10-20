@@ -1,0 +1,90 @@
+{
+  "tmdb_id": 948,
+  "title": "Halloween",
+  "release_year": 1978,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 1509000,
+      "type": "minor",
+      "description": "Michael Myers suddenly drops out from behind the neighborhood hedge",
+      "anchor_phonetic": [
+        "HJ",
+        "STRT",
+        "AXNK"
+      ],
+      "offset_from_anchor_ms": 2600
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 3215000,
+      "type": "major",
+      "description": "Michael lunges from the dark backseat of the car choking Annie",
+      "anchor_phonetic": [
+        "KR",
+        "KS",
+        "ANLK"
+      ],
+      "offset_from_anchor_ms": 3200
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 4566000,
+      "type": "major",
+      "description": "Michael's pale white mask slowly illuminates out of the pitch darkness",
+      "anchor_phonetic": [
+        "XT",
+        "KLST",
+        "TRKNS"
+      ],
+      "offset_from_anchor_ms": 3600
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 4806000,
+      "type": "major",
+      "description": "Presumed-dead Michael sits bolt upright behind Laurie on the floor",
+      "anchor_phonetic": [
+        "TT",
+        "AFR",
+        "TNSTRS"
+      ],
+      "offset_from_anchor_ms": 2900
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 1506400,
+      "p": [
+        "HJ",
+        "STRT",
+        "AXNK"
+      ]
+    },
+    {
+      "s": 3211800,
+      "p": [
+        "KR",
+        "KS",
+        "ANLK"
+      ]
+    },
+    {
+      "s": 4562400,
+      "p": [
+        "XT",
+        "KLST",
+        "TRKNS"
+      ]
+    },
+    {
+      "s": 4803100,
+      "p": [
+        "TT",
+        "AFR",
+        "TNSTRS"
+      ]
+    }
+  ]
+}

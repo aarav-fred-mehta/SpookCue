@@ -45,8 +45,8 @@ class ModelSerializationTest {
               "runtime_minutes": 112,
               "scares": [
                 {
-                  "id": 1,
-                  "scare_time_ms": 1245000,
+                  "id": "scare_01",
+                  "resolved_time_ms": 1245000,
                   "type": "major",
                   "description": "Clap clap in the cellar",
                   "anchor_phonetic": ["KL", "P"],

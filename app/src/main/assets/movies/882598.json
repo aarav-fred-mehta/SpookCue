@@ -1,0 +1,34 @@
+{
+  "tmdb_id": 882598,
+  "title": "Smile",
+  "release_year": 2022,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 1140000,
+      "type": "major",
+      "description": "Patient Laura smiles demonically and slices her own throat in the office",
+      "anchor_phonetic": ["SM", "L", "LR"],
+      "offset_from_anchor_ms": 3200
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 4020000,
+      "type": "major",
+      "description": "Sister's head drops down unnaturally sideways through the car window with grotesque smile",
+      "anchor_phonetic": ["KR", "WN", "T"],
+      "offset_from_anchor_ms": 2800
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 1136800,
+      "p": ["SM", "L", "LR"]
+    },
+    {
+      "s": 4017200,
+      "p": ["KR", "WN", "T"]
+    }
+  ]
+}

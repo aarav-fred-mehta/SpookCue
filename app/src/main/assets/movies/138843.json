@@ -5,18 +5,78 @@
   "runtime_minutes": 112,
   "scares": [
     {
-      "id": 1,
-      "scare_time_ms": 1245000,
+      "id": "scare_01",
+      "resolved_time_ms": 1020000,
+      "type": "minor",
+      "description": "Dog Sadie barks aggressively at the cellar doorway",
+      "anchor_phonetic": ["TK", "ST"],
+      "offset_from_anchor_ms": 3100
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 1245000,
       "type": "major",
-      "description": "Clap clap game in the cellar hands appear behind Carolyn",
+      "description": "Clap clap game in cellar — hands suddenly clap behind Carolyn",
       "anchor_phonetic": ["KL", "P", "KL", "P"],
       "offset_from_anchor_ms": 4200
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 1830000,
+      "type": "major",
+      "description": "Something violently yanks Christine's leg from under the bed sheets",
+      "anchor_phonetic": ["SM", "0N", "NK"],
+      "offset_from_anchor_ms": 2800
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 2490000,
+      "type": "major",
+      "description": "Witch Bathsheba launches from the top of the wardrobe onto the girl",
+      "anchor_phonetic": ["WR", "TR", "P"],
+      "offset_from_anchor_ms": 3500
+    },
+    {
+      "id": "scare_05",
+      "resolved_time_ms": 3150000,
+      "type": "minor",
+      "description": "Picture frames abruptly crash off the hallway walls simultaneously",
+      "anchor_phonetic": ["PK", "TR", "KR"],
+      "offset_from_anchor_ms": 2200
+    },
+    {
+      "id": "scare_06",
+      "resolved_time_ms": 4200000,
+      "type": "major",
+      "description": "Music box reflection reveals ghostly child standing directly behind Lorraine",
+      "anchor_phonetic": ["MS", "K", "B", "KS"],
+      "offset_from_anchor_ms": 4100
     }
   ],
   "phonetic_index": [
     {
+      "s": 1016900,
+      "p": ["TK", "ST"]
+    },
+    {
       "s": 1240800,
       "p": ["KL", "P", "KL", "P"]
+    },
+    {
+      "s": 1827200,
+      "p": ["SM", "0N", "NK"]
+    },
+    {
+      "s": 2486500,
+      "p": ["WR", "TR", "P"]
+    },
+    {
+      "s": 3147800,
+      "p": ["PK", "TR", "KR"]
+    },
+    {
+      "s": 4195900,
+      "p": ["MS", "K", "B", "KS"]
     }
   ]
 }

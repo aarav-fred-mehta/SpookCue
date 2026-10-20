@@ -1,25 +1,355 @@
-"""WhenJumpScare parser for scraping jump scare timestamps and descriptions."""
+"""Where's The Jump? / WhenJumpScare scraper.
 
+Scrapes movie listings, jump scare timestamps, major/minor designations,
+and text descriptions from wheresthejump.com, with robots.txt compliance and pagination.
+"""
+
+from __future__ import annotations
+
+import asyncio
 import logging
-from typing import Any, Dict, List
+import re
+from typing import Any, Dict, List, Optional
+from urllib.parse import urljoin, urlparse
+from urllib.robotparser import RobotFileParser
+
+import httpx
+from bs4 import BeautifulSoup
+from spookcue_scraper.resolver import parse_timestamp_to_ms
 
 logger = logging.getLogger(__name__)
 
+TIME_PATTERN = re.compile(r"\b(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\b")
+RUNTIME_PATTERN = re.compile(r"(\d+)\s*(?:minutes?|mins?|m\b)", re.IGNORECASE)
+YEAR_PATTERN = re.compile(r"\((\d{4})\)|\b(19\d{2}|20\d{2})\b")
+
 
 class WhenJumpScareScraper:
-    """Scrapes movie indices and jump scare timestamps from wheresthejumpscare.com."""
+    """Scrapes movie indices and jump scare timestamps from wheresthejump.com."""
 
-    BASE_URL = "https://wheresthejumpscare.com"
+    DEFAULT_BASE_URL = "https://wheresthejump.com"
+    USER_AGENT = "SpookCue-Bot/1.0 (+https://github.com/spookcue/SpookCue)"
 
-    def __init__(self, delay_seconds: float = 2.0) -> None:
+    def __init__(
+        self,
+        base_url: str = DEFAULT_BASE_URL,
+        delay_seconds: float = 2.0,
+        client: Optional[httpx.AsyncClient] = None,
+    ) -> None:
+        self.base_url = base_url.rstrip("/")
         self.delay_seconds = delay_seconds
+        self._client = client
+        self._owns_client = client is None
+        self._robot_parser: Optional[RobotFileParser] = None
+        self._robots_loaded = False
 
-    async def fetch_movie_index(self) -> List[Dict[str, Any]]:
-        """Fetch all movie slugs and titles from WhenJumpScare index."""
-        # Phase 1 implementation
-        return []
+    async def _get_client(self) -> httpx.AsyncClient:
+        if self._client is None or self._client.is_closed:
+            self._client = httpx.AsyncClient(
+                headers={"User-Agent": self.USER_AGENT},
+                follow_redirects=True,
+                timeout=30.0,
+            )
+            self._owns_client = True
+        return self._client
 
-    async def parse_movie_page(self, slug: str) -> Dict[str, Any]:
-        """Parse individual movie jump scare timings and ratings."""
-        # Phase 1 implementation
-        return {}
+    async def close(self) -> None:
+        if self._owns_client and self._client and not self._client.is_closed:
+            await self._client.aclose()
+
+    async def init_robots_parser(self) -> None:
+        """Fetch and parse robots.txt to verify crawling permissions and crawl delay."""
+        if self._robots_loaded:
+            return
+
+        robots_url = f"{self.base_url}/robots.txt"
+        client = await self._get_client()
+        parser = RobotFileParser()
+
+        try:
+            resp = await client.get(robots_url, timeout=10.0)
+            if resp.status_code == 200:
+                parser.parse(resp.text.splitlines())
+                self._robot_parser = parser
+                # Check crawl-delay for our user-agent or wildcard
+                crawl_delay = parser.crawl_delay(self.USER_AGENT) or parser.crawl_delay("*")
+                if crawl_delay is not None and float(crawl_delay) > self.delay_seconds:
+                    logger.info("Adjusting delay_seconds to %.1fs per robots.txt", float(crawl_delay))
+                    self.delay_seconds = float(crawl_delay)
+                logger.info("Successfully loaded robots.txt from %s", robots_url)
+            else:
+                logger.debug("robots.txt returned status %d; proceeding with default delay", resp.status_code)
+        except Exception as exc:
+            logger.debug("Could not fetch robots.txt (%s); proceeding with default delay", exc)
+
+        self._robots_loaded = True
+
+    def can_fetch(self, url: str) -> bool:
+        """Check if robots.txt permits crawling the given URL."""
+        if self._robot_parser:
+            return self._robot_parser.can_fetch(self.USER_AGENT, url)
+        return True
+
+    @staticmethod
+    def parse_pagination_next_url(html: str, current_url: str) -> Optional[str]:
+        """Detect and extract 'next' page URL from pagination controls if present."""
+        soup = BeautifulSoup(html, "html.parser")
+        # Check standard pagination patterns: class contains 'next', rel='next', etc.
+        next_tag = soup.find("a", class_=lambda c: c and "next" in c.lower(), href=True)
+        if not next_tag:
+            next_tag = soup.find("a", rel=lambda r: r and "next" in str(r).lower(), href=True)
+        if not next_tag:
+            next_tag = soup.find("link", rel=lambda r: r and "next" in str(r).lower(), href=True)
+        if next_tag and next_tag.get("href"):
+            return urljoin(current_url, next_tag["href"])
+        return None
+
+    @staticmethod
+    def parse_index_html(html: str, base_url: str = DEFAULT_BASE_URL) -> List[Dict[str, Any]]:
+        """Parse movie index table HTML into a list of movie records."""
+        soup = BeautifulSoup(html, "html.parser")
+        movies: List[Dict[str, Any]] = []
+
+        table = soup.find("table")
+        if not table:
+            # Fallback: look for all links matching jump scare format
+            links = soup.find_all("a", href=True)
+            for link in links:
+                href = link["href"]
+                if "jump-scare" in href or "jumpscare" in href:
+                    title = link.get_text(strip=True)
+                    if title:
+                        movies.append({
+                            "title": title,
+                            "url": urljoin(base_url, href),
+                            "slug": href.strip("/").split("/")[-1],
+                            "year": None,
+                            "director": "",
+                            "jump_count": 0,
+                            "rating": 0.0,
+                        })
+            return movies
+
+        rows = table.find_all("tr")
+        for row in rows:
+            cols = row.find_all("td")
+            if not cols:
+                continue
+
+            name_col = cols[0]
+            link = name_col.find("a", href=True)
+            if not link:
+                continue
+
+            title = link.get_text(strip=True)
+            href = link["href"]
+            full_url = urljoin(base_url, href)
+            slug = href.strip("/").split("/")[-1]
+
+            director = cols[1].get_text(strip=True) if len(cols) > 1 else ""
+            year_text = cols[2].get_text(strip=True) if len(cols) > 2 else ""
+            year = int(year_text) if year_text.isdigit() else None
+
+            jump_count_text = cols[3].get_text(strip=True) if len(cols) > 3 else "0"
+            try:
+                jump_count = int(jump_count_text)
+            except ValueError:
+                jump_count = 0
+
+            rating_text = cols[4].get_text(strip=True) if len(cols) > 4 else "0.0"
+            try:
+                rating = float(rating_text)
+            except ValueError:
+                rating = 0.0
+
+            movies.append({
+                "title": title,
+                "url": full_url,
+                "slug": slug,
+                "year": year,
+                "director": director,
+                "jump_count": jump_count,
+                "rating": rating,
+            })
+
+        return movies
+
+    @staticmethod
+    def parse_movie_html(html: str) -> Dict[str, Any]:
+        """Parse individual movie jump scare page HTML into structured metadata and scares."""
+        soup = BeautifulSoup(html, "html.parser")
+
+        # 1. Title and Year
+        title = ""
+        year: Optional[int] = None
+
+        h1 = soup.find("h1")
+        if h1:
+            h1_text = h1.get_text(strip=True)
+            # Remove "Jump Scares in " prefix if present
+            clean_title = re.sub(r"^Jump Scares in\s+", "", h1_text, flags=re.IGNORECASE).strip()
+            # Check for year in title e.g. "The Conjuring (2013)"
+            year_match = YEAR_PATTERN.search(clean_title)
+            if year_match:
+                year_str = year_match.group(1) or year_match.group(2)
+                if year_str:
+                    year = int(year_str)
+                    clean_title = clean_title[:year_match.start()].strip()
+            title = clean_title
+
+        # 2. Runtime
+        runtime_minutes = 0
+        content_text = soup.get_text()
+        runtime_match = re.search(r"Runtime:\s*(\d+)\s*(?:minutes?|mins?|m\b)", content_text, re.IGNORECASE)
+        if runtime_match:
+            try:
+                runtime_minutes = int(runtime_match.group(1))
+            except ValueError:
+                pass
+
+        # 3. Check for embedded TMDB ID or IMDb link
+        tmdb_id: Optional[int] = None
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            m_tmdb = re.search(r"themoviedb\.org/movie/(\d+)", href, re.IGNORECASE)
+            if m_tmdb:
+                tmdb_id = int(m_tmdb.group(1))
+                break
+
+        # 4. Scares
+        scares: List[Dict[str, Any]] = []
+
+        for p in soup.find_all("p"):
+            p_text = p.get_text()
+            m = TIME_PATTERN.search(p_text)
+            if not m:
+                continue
+
+            time_str = m.group(1)
+            time_ms = parse_timestamp_to_ms(time_str)
+
+            # Check if this scare is marked as major (wrapped in <strong> or <b>)
+            bold_tag = p.find(["strong", "b"])
+            is_major = False
+            if bold_tag and time_str in bold_tag.get_text():
+                # Avoid false positives like "Runtime: 112 minutes" or "Jump Scares: 12"
+                if "jump scare" not in p_text.lower() and "runtime" not in p_text.lower():
+                    is_major = True
+
+            # Extract description text after timestamp
+            desc_part = p_text[m.end():]
+            desc = desc_part.strip(" \t\n\r–—-:")
+            # Remove ads or widget clutter if present
+            desc = re.sub(r"\s+", " ", desc).strip()
+
+            scares.append({
+                "time": time_str,
+                "resolved_time_ms": time_ms,
+                "type": "major" if is_major else "minor",
+                "description": desc,
+            })
+
+        # Sort scares chronologically
+        scares.sort(key=lambda s: s["resolved_time_ms"])
+        for idx, s in enumerate(scares, start=1):
+            s["id"] = f"scare_{idx:02d}"
+
+        return {
+            "title": title,
+            "year": year,
+            "runtime_minutes": runtime_minutes,
+            "tmdb_id": tmdb_id,
+            "scares": scares,
+            "scare_count": len(scares),
+        }
+
+    async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
+        """Fetch all movies from wheresthejump.com index, honoring robots.txt and following pagination."""
+        await self.init_robots_parser()
+        client = await self._get_client()
+
+        all_movies: List[Dict[str, Any]] = []
+        seen_slugs = set()
+
+        current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
+        visited_urls = set()
+        page_num = 1
+
+        while current_url and current_url not in visited_urls and page_num <= max_pages:
+            visited_urls.add(current_url)
+
+            if not self.can_fetch(current_url):
+                logger.warning("robots.txt disallows crawling %s; halting index pagination", current_url)
+                break
+
+            logger.info("Fetching movie index (page %d): %s", page_num, current_url)
+            try:
+                resp = await client.get(current_url)
+                resp.raise_for_status()
+
+                page_movies = self.parse_index_html(resp.text, base_url=self.base_url)
+                new_movies_on_page = 0
+                for m in page_movies:
+                    slug = m.get("slug")
+                    if slug not in seen_slugs:
+                        seen_slugs.add(slug)
+                        all_movies.append(m)
+                        new_movies_on_page += 1
+
+                logger.info("Page %d yielded %d new movies (total: %d)", page_num, new_movies_on_page, len(all_movies))
+
+                # Check if there is a next page
+                next_url = self.parse_pagination_next_url(resp.text, current_url)
+                if next_url and next_url not in visited_urls:
+                    current_url = next_url
+                    page_num += 1
+                    if self.delay_seconds > 0:
+                        await asyncio.sleep(self.delay_seconds)
+                else:
+                    current_url = None
+
+            except Exception as exc:
+                logger.error("Failed to fetch index page %s: %s", current_url, exc)
+                break
+
+        return all_movies
+
+    async def parse_movie_page(self, movie_url_or_slug: str) -> Dict[str, Any]:
+        """Fetch and parse an individual movie jump scare page, respecting robots.txt and rate limits."""
+        await self.init_robots_parser()
+        client = await self._get_client()
+
+        if movie_url_or_slug.startswith("http://") or movie_url_or_slug.startswith("https://"):
+            url = movie_url_or_slug
+        else:
+            url = f"{self.base_url}/{movie_url_or_slug.strip('/')}/"
+
+        if not self.can_fetch(url):
+            logger.warning("robots.txt disallows crawling %s", url)
+            return {
+                "title": "",
+                "year": None,
+                "runtime_minutes": 0,
+                "tmdb_id": None,
+                "scares": [],
+                "scare_count": 0,
+            }
+
+        if self.delay_seconds > 0:
+            await asyncio.sleep(self.delay_seconds)
+
+        try:
+            resp = await client.get(url)
+            resp.raise_for_status()
+            data = self.parse_movie_html(resp.text)
+            return data
+        except Exception as exc:
+            logger.error("Failed to parse movie page %s: %s", url, exc)
+            return {
+                "title": "",
+                "year": None,
+                "runtime_minutes": 0,
+                "tmdb_id": None,
+                "scares": [],
+                "scare_count": 0,
+            }

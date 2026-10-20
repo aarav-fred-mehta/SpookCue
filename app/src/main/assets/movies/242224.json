@@ -1,0 +1,25 @@
+{
+  "tmdb_id": 242224,
+  "title": "The Babadook",
+  "release_year": 2014,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 1560000,
+      "type": "minor",
+      "description": "Pop-up book pops out with disturbing mechanical snapping sound",
+      "anchor_phonetic": null,
+      "offset_from_anchor_ms": null
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 3780000,
+      "type": "major",
+      "description": "Babadook glides across the ceiling of the dark bedroom screeching 'Ba-ba-dook!'",
+      "anchor_phonetic": null,
+      "offset_from_anchor_ms": null
+    }
+  ],
+  "phonetic_index": []
+}

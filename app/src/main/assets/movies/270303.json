@@ -1,0 +1,90 @@
+{
+  "tmdb_id": 270303,
+  "title": "It Follows",
+  "release_year": 2014,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 1606000,
+      "type": "minor",
+      "description": "Jay stares at the window mirror when a ball abruptly shatters the silence",
+      "anchor_phonetic": [
+        "MRR",
+        "ANT",
+        "ATST"
+      ],
+      "offset_from_anchor_ms": 2400
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 2455000,
+      "type": "major",
+      "description": "Bedroom door creaks open; an abnormally tall hollow-eyed man appears",
+      "anchor_phonetic": [
+        "PHNT",
+        "TR",
+        "STNTNK"
+      ],
+      "offset_from_anchor_ms": 3500
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 2833000,
+      "type": "minor",
+      "description": "Jay opens closet and the back wall collapses revealing standing figure",
+      "anchor_phonetic": [
+        "KLST",
+        "ANST",
+        "HTNK"
+      ],
+      "offset_from_anchor_ms": 2100
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 3690000,
+      "type": "major",
+      "description": "A disheveled boy lunges violently through the shed door opening",
+      "anchor_phonetic": [
+        "XT",
+        "PRKN",
+        "RNNK"
+      ],
+      "offset_from_anchor_ms": 3200
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 1603600,
+      "p": [
+        "MRR",
+        "ANT",
+        "ATST"
+      ]
+    },
+    {
+      "s": 2451500,
+      "p": [
+        "PHNT",
+        "TR",
+        "STNTNK"
+      ]
+    },
+    {
+      "s": 2830900,
+      "p": [
+        "KLST",
+        "ANST",
+        "HTNK"
+      ]
+    },
+    {
+      "s": 3686800,
+      "p": [
+        "XT",
+        "PRKN",
+        "RNNK"
+      ]
+    }
+  ]
+}

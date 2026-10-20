@@ -4,8 +4,107 @@
     "title": "The Conjuring",
     "release_year": 2013,
     "runtime_minutes": 112,
-    "scare_count": 12,
+    "scare_count": 6,
     "poster_path": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 49018,
+    "title": "Insidious",
+    "release_year": 2010,
+    "runtime_minutes": 103,
+    "scare_count": 3,
+    "poster_path": "/tmlDFIUpGRKiuWm9Ixc6CYDk4y0.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 82507,
+    "title": "Sinister",
+    "release_year": 2012,
+    "runtime_minutes": 110,
+    "scare_count": 2,
+    "poster_path": "/nzx10sca3arCeYBAomHan4Q6wa1.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 447332,
+    "title": "A Quiet Place",
+    "release_year": 2018,
+    "runtime_minutes": 90,
+    "scare_count": 2,
+    "poster_path": "/nAU74olIpVRywmW6pcTrKMRub24.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 493922,
+    "title": "Hereditary",
+    "release_year": 2018,
+    "runtime_minutes": 127,
+    "scare_count": 4,
+    "poster_path": "/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 882598,
+    "title": "Smile",
+    "release_year": 2022,
+    "runtime_minutes": 115,
+    "scare_count": 2,
+    "poster_path": "/67Myda9zANAnlS54rRjQF4dHNNG.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 1008042,
+    "title": "Talk to Me",
+    "release_year": 2023,
+    "runtime_minutes": 95,
+    "scare_count": 4,
+    "poster_path": "/kdPMUMJzyYAc4roD52qavX0nLIC.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 270303,
+    "title": "It Follows",
+    "release_year": 2014,
+    "runtime_minutes": 100,
+    "scare_count": 4,
+    "poster_path": "/iwnQ1JH1wdWrGYkgWySptJ5284A.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 694,
+    "title": "The Shining",
+    "release_year": 1980,
+    "runtime_minutes": 146,
+    "scare_count": 3,
+    "poster_path": "/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 948,
+    "title": "Halloween",
+    "release_year": 1978,
+    "runtime_minutes": 91,
+    "scare_count": 4,
+    "poster_path": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+    "has_subtitles": true
+  },
+  {
+    "tmdb_id": 242224,
+    "title": "The Babadook",
+    "release_year": 2014,
+    "runtime_minutes": 94,
+    "scare_count": 2,
+    "poster_path": "/adw6ZOwtcZJUKH7vX4BSJgX1Qvb.jpg",
+    "has_subtitles": false
+  },
+  {
+    "tmdb_id": 345911,
+    "title": "Lights Out",
+    "release_year": 2016,
+    "runtime_minutes": 81,
+    "scare_count": 5,
+    "poster_path": "/sjSiLSCp9LS1Z0nyGpmquTBuUyr.jpg",
     "has_subtitles": true
   }
 ]

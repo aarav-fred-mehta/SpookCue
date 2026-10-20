@@ -1,0 +1,70 @@
+{
+  "tmdb_id": 694,
+  "title": "The Shining",
+  "release_year": 1980,
+  "runtime_minutes": 146,
+  "scares": [
+    {
+      "id": "scare_01",
+      "resolved_time_ms": 3008000,
+      "type": "minor",
+      "description": "Sudden jarring flash cuts to the butchered Grady twins in the hallway",
+      "anchor_phonetic": [
+        "HL",
+        "TNS",
+        "FRFR"
+      ],
+      "offset_from_anchor_ms": 2800
+    },
+    {
+      "id": "scare_02",
+      "resolved_time_ms": 7720000,
+      "type": "major",
+      "description": "Jack leaps out from behind a pillar swinging an axe into Hallorann",
+      "anchor_phonetic": [
+        "ANPT",
+        "LP",
+        "HL"
+      ],
+      "offset_from_anchor_ms": 3100
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 7972000,
+      "type": "minor",
+      "description": "Camera rapidly pans to a blood-soaked guest raising a glass: Great party",
+      "anchor_phonetic": [
+        "KRT",
+        "PRT",
+        "ASNT"
+      ],
+      "offset_from_anchor_ms": 2500
+    }
+  ],
+  "phonetic_index": [
+    {
+      "s": 3005200,
+      "p": [
+        "HL",
+        "TNS",
+        "FRFR"
+      ]
+    },
+    {
+      "s": 7716900,
+      "p": [
+        "ANPT",
+        "LP",
+        "HL"
+      ]
+    },
+    {
+      "s": 7969500,
+      "p": [
+        "KRT",
+        "PRT",
+        "ASNT"
+      ]
+    }
+  ]
+}

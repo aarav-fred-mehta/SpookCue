@@ -5,8 +5,8 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class JumpScare(
-    val id: Int,
-    @SerialName("scare_time_ms") val scareTimeMs: Long,
+    val id: String,
+    @SerialName("resolved_time_ms") val resolvedTimeMs: Long,
     val type: String, // "minor" or "major"
     val description: String = "",
     @SerialName("anchor_phonetic") val anchorPhonetic: List<String>? = null,

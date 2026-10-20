@@ -1,0 +1,27 @@
+name: Weekly Scrape
+on:
+  schedule:
+    - cron: '0 0 * * 0'   # Every Sunday at 00:00 UTC
+  workflow_dispatch: {}     # Manual trigger for testing
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -e ./scraper
+      - name: Run scraper pipeline
+        run: python -m spookcue_scraper.main
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          SUBDL_API_KEY: ${{ secrets.SUBDL_API_KEY }}
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): weekly scrape update"
+          file_pattern: "data/**"

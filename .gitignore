@@ -1,0 +1,58 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+scraper/dist/
+scraper/build/
+*.egg-info/
+
+# Gradle files
+.gradle/
+buildOutputCleanup/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+.shelf/
+local.properties
+.cxx/
+
+# Keystores and secrets
+*.jks
+*.keystore
+signing.properties
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+ENV/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini

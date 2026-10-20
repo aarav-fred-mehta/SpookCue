@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpookCue</string>
+    <string name="channel_name">SpookCue Listening Service</string>
+    <string name="channel_description">Notifies when SpookCue is actively listening for dialogue cues to warn against jump scares.</string>
+</resources>

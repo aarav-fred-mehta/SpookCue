@@ -7,15 +7,13 @@ from pathlib import Path
 from spookcue_scraper.tmdb import TmdbClient, TokenBucket
 
 
-class TestTmdb(unittest.TestCase):
-    def test_token_bucket_acquire(self):
-        async def run_test():
-            bucket = TokenBucket(capacity=5.0, refill_rate=100.0)
-            # Should acquire 5 without blocking
-            for _ in range(5):
-                await bucket.acquire()
-            self.assertLessEqual(bucket.tokens, 1.0)
-        asyncio.run(run_test())
+class TestTmdb(unittest.IsolatedAsyncioTestCase):
+    async def test_token_bucket_acquire(self):
+        bucket = TokenBucket(capacity=5.0, refill_rate=100.0)
+        # Should acquire 5 without blocking
+        for _ in range(5):
+            await bucket.acquire()
+        self.assertLessEqual(bucket.tokens, 1.0)
 
     def test_cache_read_write(self):
         with tempfile.TemporaryDirectory() as tmp_dir:

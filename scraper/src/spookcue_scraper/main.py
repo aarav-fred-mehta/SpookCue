@@ -44,7 +44,7 @@ logger = logging.getLogger("spookcue_scraper")
 
 RE_TMDB_EXPLICIT = re.compile(r"(?:tmdb|themoviedb)(?:[_-]?id)?[/_=-]?(\d{3,8})\b", re.IGNORECASE)
 RE_TMDB_LEAD = re.compile(r"^(\d{3,8})-[a-z0-9]")
-RE_TMDB_TRAIL = re.compile(r"-(\d{3,8})$")
+RE_TMDB_TRAIL = re.compile(r"-(\d{5,8})$")
 
 
 def extract_tmdb_id_from_slug(slug_or_url: str) -> Optional[int]:

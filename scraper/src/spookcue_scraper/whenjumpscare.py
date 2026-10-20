@@ -28,7 +28,24 @@ class WhenJumpScareScraper:
     """Scrapes movie indices and jump scare timestamps from whenjumpscare.com and wheresthejump.com."""
 
     DEFAULT_BASE_URL = "https://www.whenjumpscare.com"
-    USER_AGENT = "SpookCue-Bot/1.0 (+https://github.com/spookcue/SpookCue)"
+    USER_AGENT = (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    )
+    DEFAULT_HEADERS = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+    }
 
     def __init__(
         self,
@@ -46,7 +63,7 @@ class WhenJumpScareScraper:
     async def _get_client(self) -> httpx.AsyncClient:
         if self._client is None or self._client.is_closed:
             self._client = httpx.AsyncClient(
-                headers={"User-Agent": self.USER_AGENT},
+                headers=self.DEFAULT_HEADERS,
                 follow_redirects=True,
                 timeout=30.0,
             )
@@ -232,15 +249,33 @@ class WhenJumpScareScraper:
                     clean_title = clean_title[:year_match.start()].strip()
             title = clean_title
 
+        # Check for year in span if not found in title (e.g. WhenJumpScare <span class="timecode text-bone-2">2013</span>)
+        if year is None:
+            span_year = soup.find("span", class_=lambda c: c and "timecode" in c and any(cls in c for cls in ["text-bone-2", "text-bone"]))
+            if span_year and span_year.get_text().strip().isdigit():
+                y_val = int(span_year.get_text().strip())
+                if 1900 <= y_val <= 2100:
+                    year = y_val
+
         # 2. Runtime
         runtime_minutes = 0
         content_text = soup.get_text()
-        runtime_match = re.search(r"Runtime:\s*(\d+)\s*(?:minutes?|mins?|m\b)", content_text, re.IGNORECASE)
-        if runtime_match:
+        # Check "1h 52m" format first
+        hm_match = re.search(r"(\d+)\s*h(?:ours?)?\s*(\d+)?\s*m", content_text, re.IGNORECASE)
+        if hm_match:
             try:
-                runtime_minutes = int(runtime_match.group(1))
+                hrs = int(hm_match.group(1))
+                mins = int(hm_match.group(2)) if hm_match.group(2) else 0
+                runtime_minutes = hrs * 60 + mins
             except ValueError:
                 pass
+        if not runtime_minutes:
+            runtime_match = re.search(r"Runtime:\s*(\d+)\s*(?:minutes?|mins?|m\b)", content_text, re.IGNORECASE)
+            if runtime_match:
+                try:
+                    runtime_minutes = int(runtime_match.group(1))
+                except ValueError:
+                    pass
 
         # 3. Check for embedded TMDB ID or IMDb link
         tmdb_id: Optional[int] = None
@@ -255,60 +290,86 @@ class WhenJumpScareScraper:
         scares: List[Dict[str, Any]] = []
         seen_timestamps = set()
 
-        for tag in soup.find_all(["p", "li", "tr", "div"]):
-            # Skip if this element has child block tags that also contain timestamps
-            # to avoid double-processing container divs
-            child_has_time = any(
-                child.name in ["p", "li", "tr", "div"] and TIME_PATTERN.search(child.get_text())
-                for child in tag.find_all(["p", "li", "tr", "div"])
-            )
-            if child_has_time:
-                continue
+        # Check modern WhenJumpScare layout with <time> tags in <li> elements
+        time_tags = soup.find_all("time")
+        if time_tags:
+            for t_tag in time_tags:
+                time_str = t_tag.get_text(strip=True)
+                m = TIME_PATTERN.search(time_str)
+                if not m:
+                    continue
+                time_ms = parse_timestamp_to_ms(time_str)
+                if time_ms in seen_timestamps:
+                    continue
+                seen_timestamps.add(time_ms)
 
-            tag_text = tag.get_text(separator=" ", strip=True)
-            m = TIME_PATTERN.search(tag_text)
-            if not m:
-                continue
+                li = t_tag.find_parent("li")
+                if li:
+                    li_text = li.get_text(separator=" ", strip=True).lower()
+                    is_major = "major" in li_text
+                    p_desc = li.find("p")
+                    desc = p_desc.get_text(strip=True) if p_desc else ""
+                else:
+                    is_major = False
+                    desc = ""
 
-            # Skip header or metadata sections (e.g. "Runtime: 112 minutes")
-            lower_text = tag_text.lower()
-            if "runtime" in lower_text and len(tag_text) < 40:
-                continue
+                scares.append({
+                    "time": time_str,
+                    "resolved_time_ms": time_ms,
+                    "type": "major" if is_major else "minor",
+                    "description": desc,
+                })
+        else:
+            for tag in soup.find_all(["p", "li", "tr", "div"]):
+                # Skip if this element has child block tags that also contain timestamps
+                # to avoid double-processing container divs
+                child_has_time = any(
+                    child.name in ["p", "li", "tr", "div"] and TIME_PATTERN.search(child.get_text())
+                    for child in tag.find_all(["p", "li", "tr", "div"])
+                )
+                if child_has_time:
+                    continue
 
-            time_str = m.group(1)
-            time_ms = parse_timestamp_to_ms(time_str)
+                tag_text = tag.get_text(separator=" ", strip=True)
+                m = TIME_PATTERN.search(tag_text)
+                if not m:
+                    continue
 
-            if time_ms in seen_timestamps:
-                continue
-            seen_timestamps.add(time_ms)
+                # Skip header or metadata sections (e.g. "Runtime: 112 minutes")
+                lower_text = tag_text.lower()
+                if "runtime" in lower_text and len(tag_text) < 40:
+                    continue
 
-            # Determine major vs minor:
-            # - Explicit text indicator: "(major)", "[major]", or "major"
-            # - Wrapped in <strong> or <b> tags
-            # - Class or data attributes containing "major"
-            bold_tag = tag.find(["strong", "b"])
-            is_bold = bold_tag is not None and time_str in bold_tag.get_text()
-            tag_class = " ".join(tag.get("class", [])) if isinstance(tag.get("class"), list) else str(tag.get("class", ""))
-            has_major_marker = bool(
-                re.search(r"\bmajor\b", lower_text)
-                or "major" in tag_class.lower()
-                or tag.get("data-scare-type") == "major"
-            )
-            is_major = has_major_marker or is_bold
+                time_str = m.group(1)
+                time_ms = parse_timestamp_to_ms(time_str)
 
-            # Extract description text after timestamp
-            desc_part = tag_text[m.end():]
-            # Strip severity labels like "(major)", "[minor]", etc.
-            desc = re.sub(r"^\s*\[?(?:major|minor)\]?\s*[-–—:]?\s*", "", desc_part, flags=re.IGNORECASE)
-            desc = desc.strip(" \t\n\r–—-:")
-            desc = re.sub(r"\s+", " ", desc).strip()
+                if time_ms in seen_timestamps:
+                    continue
+                seen_timestamps.add(time_ms)
 
-            scares.append({
-                "time": time_str,
-                "resolved_time_ms": time_ms,
-                "type": "major" if is_major else "minor",
-                "description": desc,
-            })
+                # Determine major vs minor:
+                bold_tag = tag.find(["strong", "b"])
+                is_bold = bold_tag is not None and time_str in bold_tag.get_text()
+                tag_class = " ".join(tag.get("class", [])) if isinstance(tag.get("class"), list) else str(tag.get("class", ""))
+                has_major_marker = bool(
+                    re.search(r"\bmajor\b", lower_text)
+                    or "major" in tag_class.lower()
+                    or tag.get("data-scare-type") == "major"
+                )
+                is_major = has_major_marker or is_bold
+
+                # Extract description text after timestamp
+                desc_part = tag_text[m.end():]
+                desc = re.sub(r"^\s*\[?(?:major|minor)\]?\s*[-–—:]?\s*", "", desc_part, flags=re.IGNORECASE)
+                desc = desc.strip(" \t\n\r–—-:")
+                desc = re.sub(r"\s+", " ", desc).strip()
+
+                scares.append({
+                    "time": time_str,
+                    "resolved_time_ms": time_ms,
+                    "type": "major" if is_major else "minor",
+                    "description": desc,
+                })
 
         # Sort scares chronologically
         scares.sort(key=lambda s: s["resolved_time_ms"])
@@ -325,15 +386,59 @@ class WhenJumpScareScraper:
         }
 
     async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
-        """Fetch all movies from whenjumpscare.com index, honoring robots.txt and following pagination."""
+        """Fetch all movies from whenjumpscare.com index (sitemap or HTML pagination), honoring robots.txt."""
         await self.init_robots_parser()
         client = await self._get_client()
 
         all_movies: List[Dict[str, Any]] = []
         seen_slugs = set()
 
+        # Strategy 1: Sitemap from robots.txt (Instant, zero 403 risk, contains all 1,164 films)
         if "whenjumpscare.com" in self.base_url:
-            current_url: Optional[str] = f"{self.base_url}/all-jumpscares/"
+            sitemap_url = f"{self.base_url}/sitemap.xml"
+            try:
+                logger.info("Attempting to load movie index from sitemap: %s", sitemap_url)
+                resp = await client.get(sitemap_url)
+                if resp.status_code == 200 and "<urlset" in resp.text:
+                    import xml.etree.ElementTree as ET
+                    root = ET.fromstring(resp.text)
+                    for loc in root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
+                        if not loc.text:
+                            continue
+                        url = loc.text.strip()
+                        if "/movie/" in url:
+                            slug = url.rstrip("/").split("/")[-1]
+                            if slug not in seen_slugs:
+                                seen_slugs.add(slug)
+                                year = None
+                                year_match = YEAR_PATTERN.search(slug)
+                                if year_match:
+                                    y_str = year_match.group(1) or year_match.group(2)
+                                    if y_str:
+                                        year = int(y_str)
+                                # Extract preliminary title from slug
+                                clean_slug = re.sub(r"^\d+-", "", slug)
+                                if year:
+                                    clean_slug = re.sub(rf"-{year}$", "", clean_slug)
+                                title = clean_slug.replace("-", " ").title()
+                                all_movies.append({
+                                    "title": title,
+                                    "url": url,
+                                    "slug": slug,
+                                    "year": year,
+                                    "director": "",
+                                    "jump_count": 0,
+                                    "rating": 0.0,
+                                })
+                    if all_movies:
+                        logger.info("Successfully fetched %d movies from sitemap.xml", len(all_movies))
+                        return all_movies
+            except Exception as exc:
+                logger.warning("Could not parse sitemap.xml (%s); falling back to HTML crawling", exc)
+
+        # Strategy 2: HTML crawling fallback
+        if "whenjumpscare.com" in self.base_url:
+            current_url: Optional[str] = f"{self.base_url}/all-jumpscares"
         else:
             current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
         visited_urls = set()
@@ -367,6 +472,11 @@ class WhenJumpScareScraper:
                 if next_url and next_url not in visited_urls:
                     current_url = next_url
                     page_num += 1
+                    if self.delay_seconds > 0:
+                        await asyncio.sleep(self.delay_seconds)
+                elif "whenjumpscare.com" in self.base_url and new_movies_on_page > 0:
+                    page_num += 1
+                    current_url = f"{self.base_url}/all-jumpscares?page={page_num}"
                     if self.delay_seconds > 0:
                         await asyncio.sleep(self.delay_seconds)
                 else:

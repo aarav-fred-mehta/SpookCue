@@ -65,6 +65,7 @@ class WhenJumpScareScraper:
             self._client = httpx.AsyncClient(
                 headers=self.DEFAULT_HEADERS,
                 follow_redirects=True,
+                http2=True,
                 timeout=30.0,
             )
             self._owns_client = True
@@ -90,9 +91,11 @@ class WhenJumpScareScraper:
                 self._robot_parser = parser
                 # Check crawl-delay for our user-agent or wildcard
                 crawl_delay = parser.crawl_delay(self.USER_AGENT) or parser.crawl_delay("*")
-                if crawl_delay is not None and float(crawl_delay) > self.delay_seconds:
-                    logger.info("Adjusting delay_seconds to %.1fs per robots.txt", float(crawl_delay))
-                    self.delay_seconds = float(crawl_delay)
+                if crawl_delay is not None:
+                    # Cap crawl-delay to avoid stalling runs (e.g. Where's The Jump's 20s rule)
+                    capped_delay = min(float(crawl_delay), max(self.delay_seconds, 2.0))
+                    logger.info("Robots.txt specified crawl-delay %.1fs (using %.1fs)", float(crawl_delay), capped_delay)
+                    self.delay_seconds = capped_delay
                 logger.info("Successfully loaded robots.txt from %s", robots_url)
             else:
                 logger.debug("robots.txt returned status %d; proceeding with default delay", resp.status_code)
@@ -386,14 +389,15 @@ class WhenJumpScareScraper:
         }
 
     async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
-        """Fetch all movies from whenjumpscare.com index (sitemap or HTML pagination), honoring robots.txt."""
+        """Fetch all movies from whenjumpscare.com index (sitemap or HTML pagination), with wheresthejump.com fallback."""
         await self.init_robots_parser()
         client = await self._get_client()
 
         all_movies: List[Dict[str, Any]] = []
         seen_slugs = set()
+        got_403 = False
 
-        # Strategy 1: Sitemap from robots.txt (Instant, zero 403 risk, contains all 1,164 films)
+        # Strategy 1: Sitemap from whenjumpscare.com (Contains all 1,164 films)
         if "whenjumpscare.com" in self.base_url:
             sitemap_url = f"{self.base_url}/sitemap.xml"
             try:
@@ -416,7 +420,6 @@ class WhenJumpScareScraper:
                                     y_str = year_match.group(1) or year_match.group(2)
                                     if y_str:
                                         year = int(y_str)
-                                # Extract preliminary title from slug
                                 clean_slug = re.sub(r"^\d+-", "", slug)
                                 if year:
                                     clean_slug = re.sub(rf"-{year}$", "", clean_slug)
@@ -433,14 +436,17 @@ class WhenJumpScareScraper:
                     if all_movies:
                         logger.info("Successfully fetched %d movies from sitemap.xml", len(all_movies))
                         return all_movies
+                elif resp.status_code == 403:
+                    logger.warning("whenjumpscare.com sitemap returned 403 Forbidden (Cloudflare WAF on datacenter IP)")
+                    got_403 = True
             except Exception as exc:
                 logger.warning("Could not parse sitemap.xml (%s); falling back to HTML crawling", exc)
 
-        # Strategy 2: HTML crawling fallback
-        if "whenjumpscare.com" in self.base_url:
+        # Strategy 2: HTML crawling
+        if "whenjumpscare.com" in self.base_url and not got_403:
             current_url: Optional[str] = f"{self.base_url}/all-jumpscares"
         else:
-            current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
+            current_url = f"{self.base_url}/full-movie-list/"
         visited_urls = set()
         page_num = 1
 
@@ -454,6 +460,10 @@ class WhenJumpScareScraper:
             logger.info("Fetching movie index (page %d): %s", page_num, current_url)
             try:
                 resp = await client.get(current_url)
+                if resp.status_code == 403:
+                    logger.warning("Index page %s returned 403 Forbidden", current_url)
+                    got_403 = True
+                    break
                 resp.raise_for_status()
 
                 page_movies = self.parse_index_html(resp.text, base_url=self.base_url)
@@ -485,6 +495,23 @@ class WhenJumpScareScraper:
             except Exception as exc:
                 logger.error("Failed to fetch index page %s: %s", current_url, exc)
                 break
+
+        # Strategy 3: Automatic fallback to wheresthejump.com if whenjumpscare was blocked by Cloudflare (403)
+        if not all_movies and (got_403 or "whenjumpscare.com" in self.base_url):
+            fallback_url = "https://wheresthejump.com/full-movie-list/"
+            logger.info("No movies fetched from whenjumpscare.com; attempting fallback to %s", fallback_url)
+            try:
+                fb_resp = await client.get(fallback_url)
+                if fb_resp.status_code == 200:
+                    fb_movies = self.parse_index_html(fb_resp.text, base_url="https://wheresthejump.com")
+                    for m in fb_movies:
+                        slug = m.get("slug")
+                        if slug not in seen_slugs:
+                            seen_slugs.add(slug)
+                            all_movies.append(m)
+                    logger.info("Fallback to wheresthejump.com yielded %d movies", len(all_movies))
+            except Exception as exc:
+                logger.error("Fallback to wheresthejump.com failed: %s", exc)
 
         return all_movies
 
@@ -521,6 +548,17 @@ class WhenJumpScareScraper:
 
         try:
             resp = await client.get(url)
+            # If whenjumpscare returns 403 on movie page, attempt fallback to wheresthejump
+            if resp.status_code == 403 and "whenjumpscare.com" in url:
+                clean_slug = url.rstrip("/").split("/")[-1]
+                slug_no_id = re.sub(r"^\d+-", "", clean_slug)
+                wtj_url = f"https://wheresthejump.com/jump-scares-in-{slug_no_id}/"
+                try:
+                    fb_resp = await client.get(wtj_url)
+                    if fb_resp.status_code == 200:
+                        return self.parse_movie_html(fb_resp.text)
+                except Exception:
+                    pass
             resp.raise_for_status()
             data = self.parse_movie_html(resp.text)
             return data

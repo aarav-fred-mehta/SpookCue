@@ -69,7 +69,7 @@ def estimate_gzipped_size(movie_doc: Dict[str, Any]) -> int:
     return len(compressed)
 
 
-def verify_compression(movie_doc: Dict[str, Any], max_warning_kb: float = 6.0) -> Dict[str, Any]:
+def verify_compression(movie_doc: Dict[str, Any], max_warning_kb: float = 35.0) -> Dict[str, Any]:
     """Perform compression check on a movie document and return size statistics."""
     raw_bytes = len(json.dumps(movie_doc, separators=(",", ":")).encode("utf-8"))
     gzip_bytes = estimate_gzipped_size(movie_doc)
@@ -90,6 +90,13 @@ def verify_compression(movie_doc: Dict[str, Any], max_warning_kb: float = 6.0) -
             movie_doc.get("title", "Unknown"),
             gzip_kb,
             max_warning_kb,
+        )
+    else:
+        logger.debug(
+            "Movie '%s' compressed: %.2f KB gzipped (raw: %.1f KB)",
+            movie_doc.get("title", "Unknown"),
+            gzip_kb,
+            raw_bytes / 1024.0,
         )
 
     return stats

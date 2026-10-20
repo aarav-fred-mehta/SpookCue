@@ -137,7 +137,7 @@ async def process_movie(
     confirmed_runtime = tmdb_details.get("runtime") or runtime or 0
 
     # 3. Fetch subtitles
-    srt_content = await subtitles_fetcher.fetch_subtitles(tmdb_id, title=title)
+    srt_content = await subtitles_fetcher.fetch_subtitles(tmdb_id, title=title, year=year)
     has_subtitles = srt_content is not None and len(srt_content.strip()) > 0
 
     phonetic_index: List[Dict[str, Any]] = []

@@ -1,7 +1,7 @@
-"""Where's The Jump? / WhenJumpScare scraper.
+"""WhenJumpScare scraper (with Where's The Jump? fallback).
 
 Scrapes movie listings, jump scare timestamps, major/minor designations,
-and text descriptions from wheresthejump.com, with robots.txt compliance and pagination.
+and text descriptions from whenjumpscare.com, with robots.txt compliance and pagination.
 """
 
 from __future__ import annotations
@@ -94,10 +94,14 @@ class WhenJumpScareScraper:
     def parse_pagination_next_url(html: str, current_url: str) -> Optional[str]:
         """Detect and extract 'next' page URL from pagination controls if present."""
         soup = BeautifulSoup(html, "html.parser")
-        # Check standard pagination patterns: class contains 'next', rel='next', etc.
+        # Check standard pagination patterns: class contains 'next', rel='next', aria-label, etc.
         next_tag = soup.find("a", class_=lambda c: c and "next" in c.lower(), href=True)
         if not next_tag:
             next_tag = soup.find("a", rel=lambda r: r and "next" in str(r).lower(), href=True)
+        if not next_tag:
+            next_tag = soup.find("a", attrs={"aria-label": re.compile(r"next", re.I)}, href=True)
+        if not next_tag:
+            next_tag = soup.find("a", string=re.compile(r"next|»|›|>", re.I), href=True)
         if not next_tag:
             next_tag = soup.find("link", rel=lambda r: r and "next" in str(r).lower(), href=True)
         if next_tag and next_tag.get("href"):
@@ -106,34 +110,49 @@ class WhenJumpScareScraper:
 
     @staticmethod
     def parse_index_html(html: str, base_url: str = DEFAULT_BASE_URL) -> List[Dict[str, Any]]:
-        """Parse movie index table HTML into a list of movie records."""
+        """Parse movie index table or card HTML into a list of movie records."""
         soup = BeautifulSoup(html, "html.parser")
         movies: List[Dict[str, Any]] = []
 
         table = soup.find("table")
         if not table:
             # Fallback for whenjumpscare.com or modern card-based lists: look for all movie links
+            non_movie_slugs = {
+                "movie", "movies", "all-jumpscares", "popular-movies", "recently-added",
+                "find-movie", "submit-jumpscare", "contact", "about", "privacy-policy",
+                "terms", "terms-of-service", "disclaimer", "watch-along", "live-companion"
+            }
             links = soup.find_all("a", href=True)
             for link in links:
                 href = link["href"]
                 clean_href = href.strip("/")
                 parts = clean_href.split("/")
                 if (
-                    ("/movie/" in href or "jump-scare" in href or "jumpscare" in href)
-                    and clean_href not in ("movie", "movies", "popular-movies", "recently-added")
+                    ("/movie/" in href or "jump-scares-in-" in href or "jumpscare" in href)
+                    and clean_href not in non_movie_slugs
                     and len(parts) >= 1
                 ):
+                    slug = parts[-1]
+                    if slug in non_movie_slugs or slug.isdigit() or not slug:
+                        continue
+
                     title = link.get_text(strip=True)
                     if title and len(title) > 1:
-                        slug = parts[-1]
+                        # Clean title if it contains "Jump Scares", branding suffixes, etc.
+                        clean_title = re.sub(r"^Jump Scares in\s+", "", title, flags=re.IGNORECASE)
+                        clean_title = re.sub(r"\s+Jump Scares.*$", "", clean_title, flags=re.IGNORECASE)
+                        clean_title = re.sub(r"\s*[|–—-]\s*WhenJumpScare.*$", "", clean_title, flags=re.IGNORECASE).strip()
+
                         year = None
-                        year_match = YEAR_PATTERN.search(title)
+                        year_match = YEAR_PATTERN.search(clean_title)
                         if year_match:
                             y_str = year_match.group(1) or year_match.group(2)
                             if y_str:
                                 year = int(y_str)
+                                clean_title = clean_title[:year_match.start()].strip()
+
                         movies.append({
-                            "title": title,
+                            "title": clean_title,
                             "url": urljoin(base_url, href),
                             "slug": slug,
                             "year": year,
@@ -199,8 +218,11 @@ class WhenJumpScareScraper:
         h1 = soup.find("h1")
         if h1:
             h1_text = h1.get_text(strip=True)
-            # Remove "Jump Scares in " prefix if present
-            clean_title = re.sub(r"^Jump Scares in\s+", "", h1_text, flags=re.IGNORECASE).strip()
+            # Remove "Jump Scares in " prefix, trailing "Jump Scares", or branding
+            clean_title = re.sub(r"^Jump Scares in\s+", "", h1_text, flags=re.IGNORECASE)
+            clean_title = re.sub(r"\s+Jump Scares.*$", "", clean_title, flags=re.IGNORECASE)
+            clean_title = re.sub(r"\s*[|–—-]\s*WhenJumpScare.*$", "", clean_title, flags=re.IGNORECASE).strip()
+
             # Check for year in title e.g. "The Conjuring (2013)"
             year_match = YEAR_PATTERN.search(clean_title)
             if year_match:
@@ -231,28 +253,54 @@ class WhenJumpScareScraper:
 
         # 4. Scares
         scares: List[Dict[str, Any]] = []
+        seen_timestamps = set()
 
-        for p in soup.find_all(["p", "li", "tr"]):
-            p_text = p.get_text()
-            m = TIME_PATTERN.search(p_text)
+        for tag in soup.find_all(["p", "li", "tr", "div"]):
+            # Skip if this element has child block tags that also contain timestamps
+            # to avoid double-processing container divs
+            child_has_time = any(
+                child.name in ["p", "li", "tr", "div"] and TIME_PATTERN.search(child.get_text())
+                for child in tag.find_all(["p", "li", "tr", "div"])
+            )
+            if child_has_time:
+                continue
+
+            tag_text = tag.get_text(separator=" ", strip=True)
+            m = TIME_PATTERN.search(tag_text)
             if not m:
+                continue
+
+            # Skip header or metadata sections (e.g. "Runtime: 112 minutes")
+            lower_text = tag_text.lower()
+            if "runtime" in lower_text and len(tag_text) < 40:
                 continue
 
             time_str = m.group(1)
             time_ms = parse_timestamp_to_ms(time_str)
 
-            # Check if this scare is marked as major (wrapped in <strong> or <b>)
-            bold_tag = p.find(["strong", "b"])
-            is_major = False
-            if bold_tag and time_str in bold_tag.get_text():
-                # Avoid false positives like "Runtime: 112 minutes" or "Jump Scares: 12"
-                if "jump scare" not in p_text.lower() and "runtime" not in p_text.lower():
-                    is_major = True
+            if time_ms in seen_timestamps:
+                continue
+            seen_timestamps.add(time_ms)
+
+            # Determine major vs minor:
+            # - Explicit text indicator: "(major)", "[major]", or "major"
+            # - Wrapped in <strong> or <b> tags
+            # - Class or data attributes containing "major"
+            bold_tag = tag.find(["strong", "b"])
+            is_bold = bold_tag is not None and time_str in bold_tag.get_text()
+            tag_class = " ".join(tag.get("class", [])) if isinstance(tag.get("class"), list) else str(tag.get("class", ""))
+            has_major_marker = bool(
+                re.search(r"\bmajor\b", lower_text)
+                or "major" in tag_class.lower()
+                or tag.get("data-scare-type") == "major"
+            )
+            is_major = has_major_marker or is_bold
 
             # Extract description text after timestamp
-            desc_part = p_text[m.end():]
-            desc = desc_part.strip(" \t\n\r–—-:")
-            # Remove ads or widget clutter if present
+            desc_part = tag_text[m.end():]
+            # Strip severity labels like "(major)", "[minor]", etc.
+            desc = re.sub(r"^\s*\[?(?:major|minor)\]?\s*[-–—:]?\s*", "", desc_part, flags=re.IGNORECASE)
+            desc = desc.strip(" \t\n\r–—-:")
             desc = re.sub(r"\s+", " ", desc).strip()
 
             scares.append({
@@ -277,7 +325,7 @@ class WhenJumpScareScraper:
         }
 
     async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
-        """Fetch all movies from wheresthejump.com index, honoring robots.txt and following pagination."""
+        """Fetch all movies from whenjumpscare.com index, honoring robots.txt and following pagination."""
         await self.init_robots_parser()
         client = await self._get_client()
 
@@ -285,7 +333,7 @@ class WhenJumpScareScraper:
         seen_slugs = set()
 
         if "whenjumpscare.com" in self.base_url:
-            current_url: Optional[str] = f"{self.base_url}/"
+            current_url: Optional[str] = f"{self.base_url}/all-jumpscares/"
         else:
             current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
         visited_urls = set()
@@ -338,7 +386,14 @@ class WhenJumpScareScraper:
         if movie_url_or_slug.startswith("http://") or movie_url_or_slug.startswith("https://"):
             url = movie_url_or_slug
         else:
-            url = f"{self.base_url}/{movie_url_or_slug.strip('/')}/"
+            clean_slug = movie_url_or_slug.strip("/")
+            if "whenjumpscare.com" in self.base_url:
+                if not clean_slug.startswith("movie/"):
+                    url = f"{self.base_url}/movie/{clean_slug}/"
+                else:
+                    url = f"{self.base_url}/{clean_slug}/"
+            else:
+                url = f"{self.base_url}/{clean_slug}/"
 
         if not self.can_fetch(url):
             logger.warning("robots.txt disallows crawling %s", url)

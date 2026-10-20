@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: pip install -e ./scraper
       - name: Run scraper pipeline
-        run: python -m spookcue_scraper.main
+        run: python -m spookcue_scraper
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           SUBDL_API_KEY: ${{ secrets.SUBDL_API_KEY }}

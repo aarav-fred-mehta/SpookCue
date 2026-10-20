@@ -91,7 +91,7 @@ SpookCue/
 
 | # | Task | Details |
 |---|------|---------|
-| 1.1.1 | Fetch movie index | `GET https://wheresthejumpscare.com/movies` — paginate all pages, extract movie slugs |
+| 1.1.1 | Fetch movie index | `GET https://www.whenjumpscare.com/all-jumpscares/` — paginate all pages, extract movie slugs |
 | 1.1.2 | Parse individual movie pages | For each slug: extract title, year, jump scare timestamps, scare type (minor/major), and text descriptions |
 | 1.1.3 | Extract TMDB ID from slug | Many slugs map to TMDB IDs; fallback to TMDB search API `GET /search/movie?query={title}&year={year}` |
 | 1.1.4 | Polite rate limiting | 2-second delay between requests; respect `robots.txt` |
@@ -109,7 +109,7 @@ SpookCue/
 
 | # | Task | Details |
 |---|------|---------|
-| 1.3.1 | Primary source: SubDL | `GET /api/v1/subtitles?tmdb_id={id}&languages=en&type=srt` |
+| 1.3.1 | Primary source: SubDL | `GET /api/v1/subtitles?tmdb_id={id}&languages=en&type=movie` (fallback to `film_name` search) |
 | 1.3.2 | Fallback: OpenSubtitles | If SubDL returns no results, try OpenSubtitles REST API |
 | 1.3.3 | SRT parsing | Use `srt` library to parse into `Subtitle(index, start, end, content)` objects |
 | 1.3.4 | Graceful missing subs | If no English SRT found, mark movie as `"has_subtitles": false` in catalog; skip phonetic indexing but still include jump scare times (clock-only mode) |

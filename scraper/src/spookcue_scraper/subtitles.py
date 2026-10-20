@@ -90,32 +90,75 @@ class SubtitleFetcher:
         except Exception:
             return None
 
-    async def fetch_from_subdl(self, tmdb_id: int) -> Optional[str]:
-        """Query SubDL API for English subtitles by TMDB ID."""
-        if not self.subdl_api_key:
-            return None
-
-        client = await self._get_client()
-        params = {
-            "api_key": self.subdl_api_key,
+    @staticmethod
+    def build_subdl_params(
+        api_key: str,
+        tmdb_id: int,
+    ) -> Dict[str, Any]:
+        """Construct SubDL API query params ensuring type='movie' (type='srt' returns 422)."""
+        return {
+            "api_key": api_key,
             "tmdb_id": tmdb_id,
             "languages": "en",
             "type": "movie",
         }
 
+    @staticmethod
+    def build_subdl_fallback_params(
+        api_key: str,
+        title: str,
+        year: Optional[int] = None,
+    ) -> Dict[str, Any]:
+        """Construct SubDL API fallback query params using film_name and year."""
+        params: Dict[str, Any] = {
+            "api_key": api_key,
+            "film_name": title,
+            "languages": "en",
+            "type": "movie",
+        }
+        if year:
+            params["year"] = year
+        return params
+
+    async def fetch_from_subdl(
+        self,
+        tmdb_id: int,
+        title: str = "",
+        year: Optional[int] = None,
+    ) -> Optional[str]:
+        """Query SubDL API for English subtitles by TMDB ID (with fallback to title/year search)."""
+        if not self.subdl_api_key:
+            return None
+
+        client = await self._get_client()
+        # Note: SubDL requires type to be 'movie' or 'tv' (not 'srt', which triggers 422 Unprocessable Entity)
+        params = self.build_subdl_params(self.subdl_api_key, tmdb_id)
+
         try:
             resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=params)
             resp.raise_for_status()
             data = resp.json()
-            if not data.get("status"):
-                return None
+            subtitles = data.get("subtitles", []) if data.get("status") else []
 
-            subtitles = data.get("subtitles", [])
+            # If no subtitles found by tmdb_id, fall back to searching by title and year
+            if not subtitles and title:
+                fallback_params = self.build_subdl_fallback_params(self.subdl_api_key, title, year)
+                fb_resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=fallback_params)
+                if fb_resp.status_code == 200:
+                    fb_data = fb_resp.json()
+                    if fb_data.get("status"):
+                        subtitles = fb_data.get("subtitles", [])
+
             if not subtitles:
                 return None
 
-            # Pick the first English subtitle entry
-            dl_path = subtitles[0].get("url")
+            # Pick the first English subtitle entry with a download URL
+            dl_path = None
+            for sub in subtitles:
+                if sub.get("url"):
+                    dl_path = sub["url"]
+                    break
+
             if not dl_path:
                 return None
 
@@ -125,10 +168,15 @@ class SubtitleFetcher:
 
             return self.extract_srt_from_bytes(dl_resp.content)
         except Exception as exc:
-            logger.debug("SubDL fetch failed for TMDB ID %d: %s", tmdb_id, exc)
+            logger.debug("SubDL fetch failed for TMDB ID %d (%s): %s", tmdb_id, title, exc)
             return None
 
-    async def fetch_from_opensubtitles(self, tmdb_id: int) -> Optional[str]:
+    async def fetch_from_opensubtitles(
+        self,
+        tmdb_id: int,
+        title: str = "",
+        year: Optional[int] = None,
+    ) -> Optional[str]:
         """Query OpenSubtitles REST API fallback."""
         if not self.opensubtitles_api_key:
             return None
@@ -138,7 +186,7 @@ class SubtitleFetcher:
             "Api-Key": self.opensubtitles_api_key,
             "User-Agent": "SpookCue v1.0",
         }
-        params = {
+        params: Dict[str, Any] = {
             "tmdb_id": tmdb_id,
             "languages": "en",
         }
@@ -148,6 +196,19 @@ class SubtitleFetcher:
             resp.raise_for_status()
             data = resp.json()
             results = data.get("data", [])
+
+            # Fallback to query by title and year if tmdb_id yielded nothing
+            if not results and title:
+                fallback_params: Dict[str, Any] = {
+                    "query": title,
+                    "languages": "en",
+                }
+                if year:
+                    fallback_params["year"] = year
+                fb_resp = await client.get(f"{self.OPENSUBTITLES_API_BASE}/subtitles", params=fallback_params, headers=headers)
+                if fb_resp.status_code == 200:
+                    results = fb_resp.json().get("data", [])
+
             if not results:
                 return None
 
@@ -174,10 +235,15 @@ class SubtitleFetcher:
             content_resp.raise_for_status()
             return self.extract_srt_from_bytes(content_resp.content)
         except Exception as exc:
-            logger.debug("OpenSubtitles fetch failed for TMDB ID %d: %s", tmdb_id, exc)
+            logger.debug("OpenSubtitles fetch failed for TMDB ID %d (%s): %s", tmdb_id, title, exc)
             return None
 
-    async def fetch_subtitles(self, tmdb_id: int, title: str = "") -> Optional[str]:
+    async def fetch_subtitles(
+        self,
+        tmdb_id: int,
+        title: str = "",
+        year: Optional[int] = None,
+    ) -> Optional[str]:
         """Fetch English SRT content for a movie. Checks cache first, then SubDL, then OpenSubtitles."""
         # Check local cache first
         cached = self.read_cached_subtitles(tmdb_id)
@@ -185,11 +251,11 @@ class SubtitleFetcher:
             return cached
 
         # Primary: SubDL
-        srt_content = await self.fetch_from_subdl(tmdb_id)
+        srt_content = await self.fetch_from_subdl(tmdb_id, title=title, year=year)
 
         # Fallback: OpenSubtitles
         if not srt_content:
-            srt_content = await self.fetch_from_opensubtitles(tmdb_id)
+            srt_content = await self.fetch_from_opensubtitles(tmdb_id, title=title, year=year)
 
         if srt_content:
             self.write_cached_subtitles(tmdb_id, srt_content)

@@ -1,10 +1,13 @@
 """Unit tests for subtitle fetcher and zip extraction."""
 
+import asyncio
 import io
 import tempfile
 import unittest
 import zipfile
 from pathlib import Path
+from unittest.mock import AsyncMock, MagicMock
+import httpx
 from spookcue_scraper.subtitles import SubtitleFetcher
 
 
@@ -36,6 +39,30 @@ class TestSubtitles(unittest.TestCase):
 
             cached = fetcher.read_cached_subtitles(12345)
             self.assertEqual(cached, srt_content)
+
+    def test_subdl_params_use_movie_type_not_srt(self):
+        """Verify SubDL uses type='movie' to prevent 422 Unprocessable Entity."""
+        params = SubtitleFetcher.build_subdl_params(
+            api_key="test_api_key",
+            tmdb_id=8329,
+        )
+        self.assertEqual(params["type"], "movie")
+        self.assertNotEqual(params["type"], "srt")
+        self.assertEqual(params["tmdb_id"], 8329)
+        self.assertEqual(params["api_key"], "test_api_key")
+        self.assertEqual(params["languages"], "en")
+
+    def test_subdl_fallback_params_construction(self):
+        """Verify SubDL fallback params use film_name and year."""
+        params = SubtitleFetcher.build_subdl_fallback_params(
+            api_key="test_api_key",
+            title="[Rec]",
+            year=2007,
+        )
+        self.assertEqual(params["type"], "movie")
+        self.assertEqual(params["film_name"], "[Rec]")
+        self.assertEqual(params["year"], 2007)
+        self.assertEqual(params["languages"], "en")
 
 
 if __name__ == "__main__":

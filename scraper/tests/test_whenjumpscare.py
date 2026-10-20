@@ -60,6 +60,63 @@ Crawl-delay: 2
 """
 
 
+SAMPLE_WHENJUMPSCARE_INDEX_HTML = """
+<html>
+<body>
+<nav>
+  <a href="/">Home</a>
+  <a href="/all-jumpscares/">All Jumpscares</a>
+  <a href="/popular-movies/">Popular Movies</a>
+</nav>
+<div class="movie-grid">
+  <div class="card">
+    <a href="/movie/the-conjuring-2013/">
+      <h3>The Conjuring (2013)</h3>
+    </a>
+  </div>
+  <div class="card">
+    <a href="/movie/insidious-2010/">
+      <h3>Insidious (2010)</h3>
+    </a>
+  </div>
+  <div class="card">
+    <a href="/movie/rec-2007/">
+      <h3>[REC] (2007)</h3>
+    </a>
+  </div>
+</div>
+<div class="pagination">
+  <a class="next" href="/all-jumpscares/page/2/">Next Page »</a>
+</div>
+</body>
+</html>
+"""
+
+SAMPLE_WHENJUMPSCARE_MOVIE_HTML = """
+<html>
+<body>
+<h1>The Conjuring (2013) Jump Scares | WhenJumpScare</h1>
+<p>Runtime: 112 minutes</p>
+<p><a href="https://www.themoviedb.org/movie/138843">TMDB Link</a></p>
+<div class="timeline">
+  <div class="scare-row">
+    <span class="timestamp">00:03:36</span>
+    <span class="desc">(minor) – A loud bang startles the two girls.</span>
+  </div>
+  <div class="scare-row major">
+    <span class="timestamp">00:40:38</span>
+    <span class="desc">(major) – Hands clap behind Carolyn in the dark basement.</span>
+  </div>
+  <div class="scare-row">
+    <span class="timestamp">01:07:28</span>
+    <span class="desc">A sheet blows off the washing line and catches around a figure.</span>
+  </div>
+</div>
+</body>
+</html>
+"""
+
+
 class TestWhenJumpScare(unittest.TestCase):
     def test_parse_index_html(self):
         movies = WhenJumpScareScraper.parse_index_html(SAMPLE_INDEX_HTML)
@@ -107,6 +164,61 @@ class TestWhenJumpScare(unittest.TestCase):
         self.assertEqual(scares[1]["resolved_time_ms"], 2438000)
         self.assertEqual(scares[1]["type"], "major")
         self.assertIn("Hands clap", scares[1]["description"])
+
+    def test_parse_whenjumpscare_index_html(self):
+        movies = WhenJumpScareScraper.parse_index_html(
+            SAMPLE_WHENJUMPSCARE_INDEX_HTML, base_url="https://www.whenjumpscare.com"
+        )
+        self.assertEqual(len(movies), 3)
+
+        m1 = movies[0]
+        self.assertEqual(m1["title"], "The Conjuring")
+        self.assertEqual(m1["year"], 2013)
+        self.assertEqual(m1["slug"], "the-conjuring-2013")
+        self.assertEqual(m1["url"], "https://www.whenjumpscare.com/movie/the-conjuring-2013/")
+
+        m2 = movies[1]
+        self.assertEqual(m2["title"], "Insidious")
+        self.assertEqual(m2["year"], 2010)
+        self.assertEqual(m2["slug"], "insidious-2010")
+
+        m3 = movies[2]
+        self.assertEqual(m3["title"], "[REC]")
+        self.assertEqual(m3["year"], 2007)
+        self.assertEqual(m3["slug"], "rec-2007")
+
+    def test_parse_whenjumpscare_pagination(self):
+        next_url = WhenJumpScareScraper.parse_pagination_next_url(
+            SAMPLE_WHENJUMPSCARE_INDEX_HTML, "https://www.whenjumpscare.com/all-jumpscares/"
+        )
+        self.assertEqual(next_url, "https://www.whenjumpscare.com/all-jumpscares/page/2/")
+
+    def test_parse_whenjumpscare_movie_html(self):
+        data = WhenJumpScareScraper.parse_movie_html(SAMPLE_WHENJUMPSCARE_MOVIE_HTML)
+        self.assertEqual(data["title"], "The Conjuring")
+        self.assertEqual(data["year"], 2013)
+        self.assertEqual(data["runtime_minutes"], 112)
+        self.assertEqual(data["tmdb_id"], 138843)
+        self.assertEqual(data["scare_count"], 3)
+
+        scares = data["scares"]
+        self.assertEqual(len(scares), 3)
+
+        # Scare 1: minor
+        self.assertEqual(scares[0]["time"], "00:03:36")
+        self.assertEqual(scares[0]["resolved_time_ms"], 216000)
+        self.assertEqual(scares[0]["type"], "minor")
+        self.assertIn("loud bang", scares[0]["description"])
+
+        # Scare 2: major
+        self.assertEqual(scares[1]["time"], "00:40:38")
+        self.assertEqual(scares[1]["resolved_time_ms"], 2438000)
+        self.assertEqual(scares[1]["type"], "major")
+        self.assertIn("Hands clap behind Carolyn", scares[1]["description"])
+
+        # Scare 3: default minor
+        self.assertEqual(scares[2]["time"], "01:07:28")
+        self.assertEqual(scares[2]["type"], "minor")
 
     def test_robots_txt_checking(self):
         scraper = WhenJumpScareScraper()

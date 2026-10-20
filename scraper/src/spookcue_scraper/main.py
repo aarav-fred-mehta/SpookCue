@@ -203,6 +203,27 @@ async def run_pipeline(
         for item in existing_catalog if "title" in item and "tmdb_id" in item
     }
 
+    # Ensure any movie files on disk are indexed even if catalog was deleted or partial
+    if movies_dir.exists():
+        for mf in movies_dir.glob("*.json"):
+            try:
+                doc = load_json_bytes(mf.read_bytes())
+                tid = doc.get("tmdb_id")
+                if tid and tid not in catalog_by_id:
+                    catalog_by_id[tid] = {
+                        "tmdb_id": tid,
+                        "title": doc.get("title", ""),
+                        "release_year": doc.get("release_year"),
+                        "runtime_minutes": doc.get("runtime_minutes", 0),
+                        "scare_count": len(doc.get("scares", [])),
+                        "poster_path": doc.get("poster_path", ""),
+                        "has_subtitles": len(doc.get("phonetic_index", [])) > 0,
+                    }
+                if tid and doc.get("title"):
+                    known_tmdb_ids.setdefault(f"{doc['title'].lower()}::{doc.get('release_year')}", tid)
+            except Exception:
+                pass
+
     scraper = WhenJumpScareScraper(delay_seconds=delay_seconds)
     tmdb_client = TmdbClient()
     subtitles_fetcher = SubtitleFetcher()
@@ -211,13 +232,24 @@ async def run_pipeline(
         # Fetch movie index
         movie_items = await scraper.fetch_movie_index()
         if not movie_items:
-            logger.warning("No movies found from index; checking existing catalog files")
-            return {
-                "added": 0,
-                "updated": 0,
-                "total_movies": len(catalog_by_id),
-                "total_scares": sum(m.get("scare_count", 0) for m in catalog_by_id.values()),
-            }
+            if catalog_by_id:
+                logger.warning("No movies found from index; falling back to existing catalog for subtitle checks")
+                movie_items = [
+                    {
+                        "title": m["title"],
+                        "year": m.get("release_year"),
+                        "tmdb_id": m["tmdb_id"],
+                    }
+                    for m in catalog_by_id.values()
+                ]
+            else:
+                logger.warning("No movies found from index; checking existing catalog files")
+                return {
+                    "added": 0,
+                    "updated": 0,
+                    "total_movies": 0,
+                    "total_scares": 0,
+                }
 
         if limit:
             movie_items = movie_items[:limit]
@@ -229,15 +261,99 @@ async def run_pipeline(
             title = item.get("title", "")
             year = item.get("year")
             lookup_key = f"{title.lower()}::{year}"
-            existing_tmdb_id = known_tmdb_ids.get(lookup_key)
+            existing_tmdb_id = (
+                item.get("tmdb_id")
+                or known_tmdb_ids.get(lookup_key)
+                or extract_tmdb_id_from_slug(item.get("slug", ""))
+                or extract_tmdb_id_from_slug(item.get("url", ""))
+            )
 
             movie_file: Optional[Path] = None
             if existing_tmdb_id:
                 movie_file = movies_dir / f"{existing_tmdb_id}.json"
 
-            # Check if already processed
+            # Check if movie already exists on disk
             if movie_file and movie_file.exists() and not force:
-                logger.debug("Movie %s (%s) already exists at %s; skipping", title, year, movie_file)
+                cat_entry = catalog_by_id.get(existing_tmdb_id, {})
+                has_subs = cat_entry.get("has_subtitles", False)
+
+                # If already confirmed to have subtitles, skip completely
+                if has_subs:
+                    logger.debug("Movie '%s' (%s) already exists with subtitles; skipping", title, year)
+                    continue
+
+                # Load existing movie JSON
+                try:
+                    movie_doc = load_json_bytes(movie_file.read_bytes())
+                except Exception as exc:
+                    logger.warning("Could not read %s: %s; re-scraping movie", movie_file, exc)
+                    movie_doc = None
+
+                # If file already has phonetic index entries, mark has_subtitles=True and skip
+                if movie_doc and len(movie_doc.get("phonetic_index", [])) > 0:
+                    logger.debug("Movie '%s' (%s) already has phonetic index; skipping", title, year)
+                    if not cat_entry.get("has_subtitles"):
+                        cat_entry["has_subtitles"] = True
+                        catalog_by_id[existing_tmdb_id] = cat_entry
+                    continue
+
+                # If subtitle providers are exhausted, skip retrying subtitles for this run
+                if subtitles_fetcher.is_exhausted:
+                    logger.debug("Subtitle providers exhausted; skipping retry for '%s' (%s)", title, year)
+                    continue
+
+                # Existing movie is missing subtitles! Only fetch subtitles without re-scraping jump scares or TMDB
+                logger.info(
+                    "Movie '%s' (%s, TMDB %d) exists but lacks subtitles; attempting subtitle fetch...",
+                    title,
+                    year,
+                    existing_tmdb_id,
+                )
+                srt_content = await subtitles_fetcher.fetch_subtitles(
+                    existing_tmdb_id,
+                    title=title,
+                    year=year,
+                )
+
+                if srt_content and len(srt_content.strip()) > 0 and movie_doc is not None:
+                    sanitized_dialogue = sanitize_subtitles(srt_content)
+                    phonetic_index = build_phonetic_index(sanitized_dialogue)
+                    raw_scares = movie_doc.get("scares", [])
+                    resolved_scares = resolve_scares_to_anchors(raw_scares, phonetic_index)
+
+                    movie_doc["phonetic_index"] = phonetic_index
+                    movie_doc["scares"] = resolved_scares
+                    movie_file.write_bytes(dump_json_bytes(movie_doc))
+                    verify_compression(movie_doc)
+
+                    if existing_tmdb_id in catalog_by_id:
+                        catalog_by_id[existing_tmdb_id]["has_subtitles"] = True
+                    else:
+                        catalog_by_id[existing_tmdb_id] = {
+                            "tmdb_id": existing_tmdb_id,
+                            "title": title,
+                            "release_year": year,
+                            "runtime_minutes": movie_doc.get("runtime_minutes", 0),
+                            "scare_count": len(resolved_scares),
+                            "poster_path": "",
+                            "has_subtitles": True,
+                        }
+
+                    updated_count += 1
+                    logger.info(
+                        "Successfully attached %d subtitle anchors to '%s' (TMDB %d)",
+                        len(phonetic_index),
+                        title,
+                        existing_tmdb_id,
+                    )
+                else:
+                    logger.info(
+                        "Subtitles still unavailable for '%s' (TMDB %d); retaining clock-only mode",
+                        title,
+                        existing_tmdb_id,
+                    )
+
+                # Skip to next movie - do NOT call process_movie for an existing movie!
                 continue
 
             logger.info("Processing movie '%s' (%s)...", title, year)

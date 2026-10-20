@@ -7,9 +7,11 @@ from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock, patch
 
 from spookcue_scraper.main import (
+    dump_json_bytes,
     extract_tmdb_id_from_slug,
     load_existing_catalog,
     load_existing_version,
+    load_json_bytes,
     process_movie,
     run_pipeline,
 )
@@ -148,6 +150,169 @@ Do you hear clapping in the dark cellar?
                     result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
                     self.assertEqual(result["added"], 0)
                     self.assertEqual(result["updated"], 0)
+
+        asyncio.run(run_test())
+
+    def test_pipeline_skips_existing_movie_with_subtitles(self):
+        """Verify that an existing movie with subtitles is completely skipped (no web requests)."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                # Write existing movie with subtitles
+                movie_doc = {
+                    "tmdb_id": 138843,
+                    "title": "The Conjuring",
+                    "release_year": 2013,
+                    "runtime_minutes": 112,
+                    "scares": [],
+                    "phonetic_index": [{"s": 1000, "e": 2000, "p": ["HH", "L"]}],
+                }
+                (movies_dir / "138843.json").write_text(dump_json_bytes(movie_doc).decode("utf-8"))
+
+                catalog_data = [
+                    {
+                        "tmdb_id": 138843,
+                        "title": "The Conjuring",
+                        "release_year": 2013,
+                        "runtime_minutes": 112,
+                        "scare_count": 0,
+                        "poster_path": "",
+                        "has_subtitles": True,
+                    }
+                ]
+                (data_dir / "catalog.json").write_text(dump_json_bytes(catalog_data).decode("utf-8"))
+
+                mock_index = [{"title": "The Conjuring", "year": 2013, "tmdb_id": 138843}]
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock()) as mock_parse, \
+                     patch("spookcue_scraper.main.SubtitleFetcher.fetch_subtitles", AsyncMock()) as mock_fetch_subs:
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    self.assertEqual(result["added"], 0)
+                    self.assertEqual(result["updated"], 0)
+                    mock_parse.assert_not_called()
+                    mock_fetch_subs.assert_not_called()
+
+        asyncio.run(run_test())
+
+    def test_pipeline_retries_missing_subtitles_without_rescraping(self):
+        """Verify that existing movies lacking subtitles only fetch subtitles without re-scraping jumpscares."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                # Existing movie file missing subtitles (clock-only mode)
+                movie_doc = {
+                    "tmdb_id": 138843,
+                    "title": "The Conjuring",
+                    "release_year": 2013,
+                    "runtime_minutes": 112,
+                    "scares": [
+                        {
+                            "id": "scare_01",
+                            "resolved_time_ms": 2438000,
+                            "type": "major",
+                            "description": "Hands clap behind Carolyn.",
+                            "anchor_phonetic": None,
+                            "offset_from_anchor_ms": None,
+                        }
+                    ],
+                    "phonetic_index": [],
+                }
+                movie_file = movies_dir / "138843.json"
+                movie_file.write_text(dump_json_bytes(movie_doc).decode("utf-8"))
+
+                catalog_data = [
+                    {
+                        "tmdb_id": 138843,
+                        "title": "The Conjuring",
+                        "release_year": 2013,
+                        "runtime_minutes": 112,
+                        "scare_count": 1,
+                        "poster_path": "",
+                        "has_subtitles": False,
+                    }
+                ]
+                (data_dir / "catalog.json").write_text(dump_json_bytes(catalog_data).decode("utf-8"))
+
+                sample_srt = "1\n00:40:30,000 --> 00:40:35,000\nDo you hear clapping in the dark cellar?\n"
+                mock_index = [{"title": "The Conjuring", "year": 2013, "tmdb_id": 138843}]
+
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock()) as mock_parse, \
+                     patch("spookcue_scraper.main.TmdbClient.search_movie", AsyncMock()) as mock_tmdb_search, \
+                     patch("spookcue_scraper.main.SubtitleFetcher.fetch_subtitles", AsyncMock(return_value=sample_srt)) as mock_fetch_subs:
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    self.assertEqual(result["added"], 0)
+                    self.assertEqual(result["updated"], 1)
+
+                    # Ensure jump scares HTML and TMDB were NOT re-scraped
+                    mock_parse.assert_not_called()
+                    mock_tmdb_search.assert_not_called()
+
+                    # Subtitle fetcher WAS called
+                    mock_fetch_subs.assert_called_once_with(138843, title="The Conjuring", year=2013)
+
+                    # Verify movie file was updated with phonetic index and anchor
+                    updated_movie = load_json_bytes(movie_file.read_bytes())
+                    self.assertGreater(len(updated_movie["phonetic_index"]), 0)
+                    scare = updated_movie["scares"][0]
+                    self.assertIsNotNone(scare["anchor_phonetic"])
+                    self.assertIsNotNone(scare["offset_from_anchor_ms"])
+
+                    # Verify catalog was updated to has_subtitles: True
+                    updated_catalog = load_json_bytes((data_dir / "catalog.json").read_bytes())
+                    self.assertTrue(updated_catalog[0]["has_subtitles"])
+
+        asyncio.run(run_test())
+
+    def test_pipeline_skips_retry_when_subtitles_exhausted(self):
+        """Verify that when subtitle providers are exhausted, retry attempts are skipped."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                movie_doc = {
+                    "tmdb_id": 138843,
+                    "title": "The Conjuring",
+                    "release_year": 2013,
+                    "runtime_minutes": 112,
+                    "scares": [],
+                    "phonetic_index": [],
+                }
+                (movies_dir / "138843.json").write_text(dump_json_bytes(movie_doc).decode("utf-8"))
+
+                catalog_data = [
+                    {
+                        "tmdb_id": 138843,
+                        "title": "The Conjuring",
+                        "release_year": 2013,
+                        "runtime_minutes": 112,
+                        "scare_count": 0,
+                        "poster_path": "",
+                        "has_subtitles": False,
+                    }
+                ]
+                (data_dir / "catalog.json").write_text(dump_json_bytes(catalog_data).decode("utf-8"))
+
+                mock_index = [{"title": "The Conjuring", "year": 2013, "tmdb_id": 138843}]
+
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.SubtitleFetcher.is_exhausted", new_callable=lambda: True), \
+                     patch("spookcue_scraper.main.SubtitleFetcher.fetch_subtitles", AsyncMock()) as mock_fetch_subs:
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    self.assertEqual(result["added"], 0)
+                    self.assertEqual(result["updated"], 0)
+                    mock_fetch_subs.assert_not_called()
 
         asyncio.run(run_test())
 

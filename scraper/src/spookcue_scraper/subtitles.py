@@ -33,9 +33,31 @@ class SubtitleFetcher:
         self.cache_dir = cache_dir or Path(".subtitles_cache")
         self._client = client
         self._owns_client = client is None
+        self._subdl_exhausted = False
+        self._subdl_consecutive_429 = 0
+        self._opensubtitles_exhausted = False
+
+    @property
+    def is_exhausted(self) -> bool:
+        """Check if configured subtitle providers have hit rate limits or quotas."""
+        configured_providers = 0
+        exhausted_providers = 0
+        if self.subdl_api_key:
+            configured_providers += 1
+            if self._subdl_exhausted:
+                exhausted_providers += 1
+        if self.opensubtitles_api_key:
+            configured_providers += 1
+            if self._opensubtitles_exhausted:
+                exhausted_providers += 1
+
+        if configured_providers == 0:
+            return False
+
+        return configured_providers == exhausted_providers
 
     async def _get_client(self) -> httpx.AsyncClient:
-        if self._client is None or self._client.is_closed:
+        if self._client is None or self._client.is_closed is True:
             self._client = httpx.AsyncClient(timeout=30.0, follow_redirects=True)
             self._owns_client = True
         return self._client
@@ -127,7 +149,7 @@ class SubtitleFetcher:
         year: Optional[int] = None,
     ) -> Optional[str]:
         """Query SubDL API for English subtitles by TMDB ID (with fallback to title/year search)."""
-        if not self.subdl_api_key:
+        if not self.subdl_api_key or self._subdl_exhausted:
             return None
 
         client = await self._get_client()
@@ -136,6 +158,14 @@ class SubtitleFetcher:
 
         try:
             resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=params)
+            if resp.status_code == 429:
+                self._subdl_consecutive_429 += 1
+                logger.warning("SubDL API rate limit reached (HTTP 429) for TMDB ID %d (%s)", tmdb_id, title)
+                if self._subdl_consecutive_429 >= 2:
+                    logger.warning("SubDL quota appears exhausted; disabling SubDL for remainder of run.")
+                    self._subdl_exhausted = True
+                return None
+
             resp.raise_for_status()
             data = resp.json()
             subtitles = data.get("subtitles", []) if data.get("status") else []
@@ -144,6 +174,14 @@ class SubtitleFetcher:
             if not subtitles and title:
                 fallback_params = self.build_subdl_fallback_params(self.subdl_api_key, title, year)
                 fb_resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=fallback_params)
+                if fb_resp.status_code == 429:
+                    self._subdl_consecutive_429 += 1
+                    logger.warning("SubDL API rate limit reached (HTTP 429) for TMDB ID %d (%s)", tmdb_id, title)
+                    if self._subdl_consecutive_429 >= 2:
+                        logger.warning("SubDL quota appears exhausted; disabling SubDL for remainder of run.")
+                        self._subdl_exhausted = True
+                    return None
+
                 if fb_resp.status_code == 200:
                     fb_data = fb_resp.json()
                     if fb_data.get("status"):
@@ -164,8 +202,20 @@ class SubtitleFetcher:
 
             full_dl_url = f"{self.SUBDL_DL_BASE}{dl_path}" if dl_path.startswith("/") else dl_path
             dl_resp = await client.get(full_dl_url)
-            dl_resp.raise_for_status()
+            if dl_resp.status_code == 429:
+                self._subdl_consecutive_429 += 1
+                logger.warning(
+                    "SubDL download rate limit reached (HTTP 429) for TMDB ID %d (%s)",
+                    tmdb_id,
+                    title,
+                )
+                if self._subdl_consecutive_429 >= 2:
+                    logger.warning("SubDL download quota appears exhausted; disabling SubDL for remainder of run.")
+                    self._subdl_exhausted = True
+                return None
 
+            dl_resp.raise_for_status()
+            self._subdl_consecutive_429 = 0
             return self.extract_srt_from_bytes(dl_resp.content)
         except Exception as exc:
             logger.debug("SubDL fetch failed for TMDB ID %d (%s): %s", tmdb_id, title, exc)
@@ -178,7 +228,7 @@ class SubtitleFetcher:
         year: Optional[int] = None,
     ) -> Optional[str]:
         """Query OpenSubtitles REST API fallback."""
-        if not self.opensubtitles_api_key:
+        if not self.opensubtitles_api_key or self._opensubtitles_exhausted:
             return None
 
         client = await self._get_client()
@@ -193,6 +243,11 @@ class SubtitleFetcher:
 
         try:
             resp = await client.get(f"{self.OPENSUBTITLES_API_BASE}/subtitles", params=params, headers=headers)
+            if resp.status_code == 429:
+                logger.warning("OpenSubtitles API rate limit reached (HTTP 429)")
+                self._opensubtitles_exhausted = True
+                return None
+
             resp.raise_for_status()
             data = resp.json()
             results = data.get("data", [])
@@ -206,6 +261,10 @@ class SubtitleFetcher:
                 if year:
                     fallback_params["year"] = year
                 fb_resp = await client.get(f"{self.OPENSUBTITLES_API_BASE}/subtitles", params=fallback_params, headers=headers)
+                if fb_resp.status_code == 429:
+                    logger.warning("OpenSubtitles API rate limit reached (HTTP 429)")
+                    self._opensubtitles_exhausted = True
+                    return None
                 if fb_resp.status_code == 200:
                     results = fb_resp.json().get("data", [])
 
@@ -226,12 +285,22 @@ class SubtitleFetcher:
                 json={"file_id": file_id},
                 headers=headers,
             )
+            if dl_resp.status_code == 429:
+                logger.warning("OpenSubtitles download rate limit reached (HTTP 429)")
+                self._opensubtitles_exhausted = True
+                return None
+
             dl_resp.raise_for_status()
             dl_link = dl_resp.json().get("link")
             if not dl_link:
                 return None
 
             content_resp = await client.get(dl_link)
+            if content_resp.status_code == 429:
+                logger.warning("OpenSubtitles download rate limit reached (HTTP 429)")
+                self._opensubtitles_exhausted = True
+                return None
+
             content_resp.raise_for_status()
             return self.extract_srt_from_bytes(content_resp.content)
         except Exception as exc:
@@ -249,6 +318,10 @@ class SubtitleFetcher:
         cached = self.read_cached_subtitles(tmdb_id)
         if cached:
             return cached
+
+        if self.is_exhausted:
+            logger.debug("Subtitle providers exhausted; skipping fetch for TMDB ID %d (%s)", tmdb_id, title)
+            return None
 
         # Primary: SubDL
         srt_content = await self.fetch_from_subdl(tmdb_id, title=title, year=year)

@@ -64,6 +64,67 @@ class TestSubtitles(unittest.TestCase):
         self.assertEqual(params["year"], 2007)
         self.assertEqual(params["languages"], "en")
 
+    def test_subdl_429_exhaustion(self):
+        """Verify consecutive 429 responses trigger exhaustion and fast fail."""
+        async def run_test():
+            client = MagicMock()
+            resp_429 = MagicMock()
+            resp_429.status_code = 429
+            resp_429.headers = {}
+            client.get = AsyncMock(return_value=resp_429)
+
+            fetcher = SubtitleFetcher(subdl_api_key="mock_key", client=client)
+            self.assertFalse(fetcher.is_exhausted)
+
+            res1 = await fetcher.fetch_from_subdl(12345, "Scary Movie", 2000)
+            self.assertIsNone(res1)
+            self.assertFalse(fetcher.is_exhausted)
+
+            # Second 429 triggers exhaustion
+            res2 = await fetcher.fetch_from_subdl(12346, "Scary Movie 2", 2001)
+            self.assertIsNone(res2)
+            self.assertTrue(fetcher.is_exhausted)
+
+            # Third call returns None immediately without calling client.get
+            client.get.reset_mock()
+            res3 = await fetcher.fetch_from_subdl(12347, "Scary Movie 3", 2003)
+            self.assertIsNone(res3)
+            client.get.assert_not_called()
+
+        asyncio.run(run_test())
+
+    def test_subdl_download_429_exhaustion(self):
+        """Verify 429 on the binary download endpoint also triggers exhaustion."""
+        async def run_test():
+            client = MagicMock()
+            resp_search_ok = MagicMock()
+            resp_search_ok.status_code = 200
+            resp_search_ok.json.return_value = {
+                "status": True,
+                "subtitles": [{"url": "/subtitle/123.zip"}],
+            }
+
+            resp_dl_429 = MagicMock()
+            resp_dl_429.status_code = 429
+            resp_dl_429.headers = {}
+
+            # First call: search returns OK, download returns 429
+            # Second call: search returns OK, download returns 429 -> exhaustion
+            client.get = AsyncMock(side_effect=[resp_search_ok, resp_dl_429, resp_search_ok, resp_dl_429])
+
+            fetcher = SubtitleFetcher(subdl_api_key="mock_key", client=client)
+            self.assertFalse(fetcher.is_exhausted)
+
+            res1 = await fetcher.fetch_from_subdl(1001, "The Ring", 2002)
+            self.assertIsNone(res1)
+            self.assertFalse(fetcher.is_exhausted)
+
+            res2 = await fetcher.fetch_from_subdl(1002, "The Grudge", 2004)
+            self.assertIsNone(res2)
+            self.assertTrue(fetcher.is_exhausted)
+
+        asyncio.run(run_test())
+
 
 if __name__ == "__main__":
     unittest.main()

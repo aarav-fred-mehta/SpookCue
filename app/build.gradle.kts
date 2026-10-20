@@ -130,6 +130,7 @@ dependencies {
     // Unit Testing
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.serialization.json)
+    testImplementation(libs.kotlinx.coroutines.test)
 
     // Android Testing
     androidTestImplementation(libs.androidx.junit)

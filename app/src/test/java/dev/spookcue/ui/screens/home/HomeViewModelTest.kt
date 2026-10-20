@@ -5,10 +5,15 @@ import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.repository.MovieRepository
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.StandardTestDispatcher
+import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.setMain
+import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotNull
@@ -17,8 +22,10 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 
+@OptIn(ExperimentalCoroutinesApi::class)
 class HomeViewModelTest {
 
+    private val testDispatcher = StandardTestDispatcher()
     private lateinit var fakeRepository: FakeMovieRepository
     private lateinit var viewModel: HomeViewModel
 
@@ -49,11 +56,17 @@ class HomeViewModelTest {
 
     @Before
     fun setup() {
+        Dispatchers.setMain(testDispatcher)
         fakeRepository = FakeMovieRepository(
             initialMovies = listOf(testItem),
             detailsMap = mapOf(138843 to testDetails)
         )
         viewModel = HomeViewModel(fakeRepository)
+    }
+
+    @After
+    fun tearDown() {
+        Dispatchers.resetMain()
     }
 
     @Test

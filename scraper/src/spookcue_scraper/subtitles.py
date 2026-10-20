@@ -100,7 +100,7 @@ class SubtitleFetcher:
             "api_key": self.subdl_api_key,
             "tmdb_id": tmdb_id,
             "languages": "en",
-            "type": "srt",
+            "type": "movie",
         }
 
         try:

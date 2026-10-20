@@ -25,9 +25,9 @@ YEAR_PATTERN = re.compile(r"\((\d{4})\)|\b(19\d{2}|20\d{2})\b")
 
 
 class WhenJumpScareScraper:
-    """Scrapes movie indices and jump scare timestamps from wheresthejump.com."""
+    """Scrapes movie indices and jump scare timestamps from whenjumpscare.com and wheresthejump.com."""
 
-    DEFAULT_BASE_URL = "https://wheresthejump.com"
+    DEFAULT_BASE_URL = "https://www.whenjumpscare.com"
     USER_AGENT = "SpookCue-Bot/1.0 (+https://github.com/spookcue/SpookCue)"
 
     def __init__(
@@ -112,18 +112,31 @@ class WhenJumpScareScraper:
 
         table = soup.find("table")
         if not table:
-            # Fallback: look for all links matching jump scare format
+            # Fallback for whenjumpscare.com or modern card-based lists: look for all movie links
             links = soup.find_all("a", href=True)
             for link in links:
                 href = link["href"]
-                if "jump-scare" in href or "jumpscare" in href:
+                clean_href = href.strip("/")
+                parts = clean_href.split("/")
+                if (
+                    ("/movie/" in href or "jump-scare" in href or "jumpscare" in href)
+                    and clean_href not in ("movie", "movies", "popular-movies", "recently-added")
+                    and len(parts) >= 1
+                ):
                     title = link.get_text(strip=True)
-                    if title:
+                    if title and len(title) > 1:
+                        slug = parts[-1]
+                        year = None
+                        year_match = YEAR_PATTERN.search(title)
+                        if year_match:
+                            y_str = year_match.group(1) or year_match.group(2)
+                            if y_str:
+                                year = int(y_str)
                         movies.append({
                             "title": title,
                             "url": urljoin(base_url, href),
-                            "slug": href.strip("/").split("/")[-1],
-                            "year": None,
+                            "slug": slug,
+                            "year": year,
                             "director": "",
                             "jump_count": 0,
                             "rating": 0.0,
@@ -219,7 +232,7 @@ class WhenJumpScareScraper:
         # 4. Scares
         scares: List[Dict[str, Any]] = []
 
-        for p in soup.find_all("p"):
+        for p in soup.find_all(["p", "li", "tr"]):
             p_text = p.get_text()
             m = TIME_PATTERN.search(p_text)
             if not m:
@@ -271,7 +284,10 @@ class WhenJumpScareScraper:
         all_movies: List[Dict[str, Any]] = []
         seen_slugs = set()
 
-        current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
+        if "whenjumpscare.com" in self.base_url:
+            current_url: Optional[str] = f"{self.base_url}/"
+        else:
+            current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
         visited_urls = set()
         page_num = 1
 

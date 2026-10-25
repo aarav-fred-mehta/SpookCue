@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The dogs body opens up and blood sprays out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 117000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy grabs Paul’s hand and bites it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 277000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck suddenly drives by behind the boy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bert accidentally discharges his rifle.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears in Bert’s line of fire.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears, accompanied by a loud sound cue.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1394000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied man appears at the front door, pleading for help.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1661000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcy screams as a hand touches her shoulder.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2442000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The police officer suddenly turns around and points her gun.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcy shoots at the dog.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Karen, who is very sick, appears.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3263000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman with a rifle appears.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3538000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man jumps out of the water.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4597000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeff is shot in the head.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5562000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cabin Fever",
+  "tmdb_id": 298584
+}

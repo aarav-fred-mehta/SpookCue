@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to Laurie screaming while being wheeled through a hospital.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 202000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang from the inside of the van.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 557000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers suddenly appears and attacks Buddy from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers breaks through a window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1439000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a nightmare, hands come up through a table and grab Laurie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several disturbing quick-cuts during one of Laurie’s nightmares may startle some people.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man dressed as a werewolf is suddenly stabbed in the back by Myers.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers breaks through the back window of the van and attacks Harley.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a hallucination, Myers suddenly grabs Laurie.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers appears from behind a tree and attacks a police officer.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah and young Myers can be seen in the doorway, several seconds later Myers face can be seen in the mirror as Annie closes the medicine cabinet.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5177000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several short flash-backs to Annie being attacked by Myers.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers grabs Mya around the head while she in on the phone.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5475000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers begins to pound on the bathroom door.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Laurie gets into a car, Myers appears and grabs the driver.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers and Loomis burst out of the shed.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6334000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween II",
+  "tmdb_id": 24150
+}

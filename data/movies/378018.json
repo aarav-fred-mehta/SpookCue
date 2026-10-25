@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man breaks through a door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 74000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, a masked figure appears on the previously black screen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 171000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Allison ducks down to reveal Dr. Powell watching her from the doorway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is shown with his neck suddenly cut open.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3810000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights cut out suddenly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maggie has a sudden vision of a grotesque creature which causes her to fall backwards in fear.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4532000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature’s foot stamps on the ground.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4728000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Simon opens a door and Kim rushes out.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4961000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Void",
+  "tmdb_id": 378018
+}

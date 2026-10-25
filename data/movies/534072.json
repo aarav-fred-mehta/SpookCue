@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shark fin suddenly appears in the water next to the couple.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The yacht’s boom hits the girl in the face, knocking her unconscious into the water.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 231000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Benny suddenly turns around to see a severely attacked dead body.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1599000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An animal bumps into the raft.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2476000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charlie has a flashback of a shark attack.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2959000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Benny is pulled under the water.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark suddenly rams the raft from underneath.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3645000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joji is pushed up out of the water by the shark.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3706000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joji is taken away quickly by the shark.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3791000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A massive shark surfaces right next to the raft.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4113000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michelle suddenly grabs Kaz’s arm.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4895000,
+      "type": "minor"
+    }
+  ],
+  "title": "Great White",
+  "tmdb_id": 534072
+}

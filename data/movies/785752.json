@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure appears behind Meera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud gunshot.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A barking dog lunges at the car window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1406000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car horn sounds and a car crashes into Meera.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meera looks up to see a masked man pointing a gun at her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2071000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly knocks on the car window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A picture falls off a cabinet.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meera switches on a light to reveal a person tied to a chair.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4257000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Christina suddenly wakes up and Meera screams.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4321000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meera turns around to run and immediately runs into Henry.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4358000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry suddenly grabs Meera by the shoulder and throws her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4914000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meera suddenly Strikes Henry from behind.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5026000,
+      "type": "minor"
+    }
+  ],
+  "title": "Intrusion",
+  "tmdb_id": 785752
+}

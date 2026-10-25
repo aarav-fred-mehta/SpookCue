@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The child eater jumps out at the officer Wesley from the corner of the room.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3094000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ginger runs at officer Casey from behind and hits him with a shotgun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The child eater suddenly appears in the reflection of the mirror and attacks Ginger.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3375000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lucas walks down a hallway, there is a sudden cut to the child eater, accompanied by a lound sound.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3474000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucas points his flashlight at a corner and the child eater jumps out from behind it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3533000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucas turns around and the child eater crawls out from behind a corner in front of him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3603000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen picks up a seemingly dead Ginger’s glass eye, and Ginger grabs her by the arm.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3674000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen kneels down and the child eater is standing right behind her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4649000,
+      "type": "minor"
+    }
+  ],
+  "title": "Child Eater",
+  "tmdb_id": 417501
+}

@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some viewers might be startled at two stabbings at this point.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman says “talk to me” and turns to see a man in front of her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1151000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman says “talk to me” again and a woman appears in front of her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman barks like a dog suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man says “I let you in” and head tilts backwards.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2021000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Boy bites girl in the hand.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3771000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some viewers might be startled at man lunging at woman.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4644000,
+      "type": "minor"
+    }
+  ],
+  "title": "Talk To Me",
+  "tmdb_id": 1008042
+}

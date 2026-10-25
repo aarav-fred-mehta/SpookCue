@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 1980,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A piece of masonry falls to the floor in front of the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chair slides along the floor.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The windows in the truck shatter.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 829000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A fisherman is suddenly impaled by a knife.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The glass on the clock breaks.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Malone appears from the shadows startling Kathy.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2056000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Static hisses from the radio.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cupboard opens startling Elizabeth.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse falls onto Elizabeth.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2403000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The piece of driftwood suddenly sparks and catches fire.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fisherman suddenly collapses as he approaches Elizabeth.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, a large hairy arm reaches out and grabs Dan while he stands by the door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3667000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears in the doorway by Mrs. Kobritz.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the revenants can be seen watching the car from a distance.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4176000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through one of the windows in the church.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stevie is suddenly attacked by one of the revenants.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4873000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Fog",
+  "tmdb_id": 790
+}

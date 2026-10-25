@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kate jumps out of a box to scare Matt as a joke.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Kate is lowering a dead bird into the soil, some objects suddenly fall down on the ground right behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Matt is touching a wall, Kate suddenly calls out to him, frightening him and causing him to jump.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 680000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Matt opens the door, frightening Shane and causing him to drop the snow globe and shatter it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3221000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Matt says “It’s not loaded,” Shane suddenly fires the gun to the ground as a warning.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4348000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Room",
+  "tmdb_id": 582913
+}

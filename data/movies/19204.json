@@ -1,0 +1,225 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Larry looks inside a window and sees a white-eyed woman.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A telephone rings.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 671000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out through a dissolving hole in a wall, and attacks Joe.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1096000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera zooms in on Martha, and immediately after the camera switches over on a decomposing corpse, floating on the surface in some water.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera switches over to the white-eyed woman.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mary-Ann begins to scream, the Camera zooms in on her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1721000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jill turns around and sees two corpses.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1779000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jill opens a door and runs into a one-eyed zombie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jill opens her eyes and reveals that her eyes are now white.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2087000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Emily puts her hands on a painting, a bell suddenly stars ringing.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2257000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "when Emily takes her hands off the painting, she sees that her hands are bleeding.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2321000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After entering room 36, Liza opens the bathroom door, and sees Schweick’s corpse nailed on the wall.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liza looks through a window, and the camera suddenly shifts and zooms in on the book of Eibon.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2784000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As martin looks through a book, a unseen force knocks him off the ladder.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martha discovers a re-animated Joe in the bathtub, that attacks her.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera shifts over on a piano, that suddenly starts playing.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily ducks her head down, and a zombie is standing behind her.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3772000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Zombie appears in front of the screen.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily is crawling as the camera movers upwards to reveal another zombie.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dickie (the dog) turns around, and brutally kills Emily.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liza is suddenly attacked by the re-animated hotel worker.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A unseen force suddenly hits Liza and John with thunderstorm, and blood starts dripping down on them.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie smashes through the window, and attacks Liza.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4516000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The glass in a door suddenly breaks, and Dr. Harris is impaled by the glass splinter.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie leaps up, and attacks Liza.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4848000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John opens a door, and sees a zombie slowly walking towards him and Liza.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jill suddenly attack Liza.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4920000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Beyond",
+  "tmdb_id": 19204
+}

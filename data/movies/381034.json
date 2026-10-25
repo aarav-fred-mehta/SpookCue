@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is suddenly hit by a car while crossing the road.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3231000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Crowley calls out in her sleep.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Mr. Crowley bursts into the house.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4799000,
+      "type": "minor"
+    }
+  ],
+  "title": "I Am Not a Serial Killer",
+  "tmdb_id": 381034
+}

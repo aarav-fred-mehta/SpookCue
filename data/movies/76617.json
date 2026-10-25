@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 51000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 69000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 98000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kenny hits someone as he drives off from the gas station.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darryl turns around and is attacked by Leatherface.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1896000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darryl looks down a dark hallway and Leatherface suddenly appears out of the darkness and attacks him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2261000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather closes the closet door and sees a dead woman in the mirror.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2375000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface breaks a window with his chainsaw.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2938000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rat scuttles away in a neighboring room startling the officer.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The officer opens a chest freezer and a screaming Nikki is hiding inside.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3857000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The officer is attacked by Leatherface.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather pokes her knife through one of the holes in the barrier startling Carl.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather reaches out to touch Leatherface but he grabs her wrist.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5029000,
+      "type": "minor"
+    }
+  ],
+  "title": "Texas Chainsaw 3D",
+  "tmdb_id": 76617
+}

@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sudden scream, the title card cuts in during a conversation.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden thud wakes up Isaac.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1169000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The rabbit toy suddenly goes off and wakes up Isaac.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Isaac is looking around the hole, he shines the flashlight on a corpse.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1952000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound cue, Olga suddenly grabs Isaac’s hand as he reaches in through the hole.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2806000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Isaac turns the flashlight to his side, shining it on Olga covering her eyes while her nose bleeds.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Isaac is looking around the room with the flashlight, he shines it on Olga’s dad with blood all over his face.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to the previous jump scare during a quiet moment.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3869000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Isaac shines the flashlight on the mom while crawling through a duct, who quickly retreats out of frame.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4392000,
+      "type": "minor"
+    }
+  ],
+  "title": "Caveat",
+  "tmdb_id": 744746
+}

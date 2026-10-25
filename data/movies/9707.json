@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A scarab scuttles across the frame as the woman looks over the bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brief flashes to a car while Elvis is in bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarab jumps suddenly at Elvis.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarab jumps out of the bowl.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1719000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several cuts to photos as Elvis enters the room accompanied by a sound effect.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elvis is woken up by a hand grabbing him with a sound effect.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2294000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nurse turns and a man in standing right behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bubba Ho-Tep attacks Elvis from behind the tree.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bubba Ho-Tep steps into frame.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4614000,
+      "type": "minor"
+    }
+  ],
+  "title": "Bubba Ho-Tep",
+  "tmdb_id": 9707
+}

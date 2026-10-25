@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Gloria approaches the car, she is attacked from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 713000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Behind Thomas there is suddenly a man in a mask.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2487000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "From the dark corner of the room a screaming man suddenly shoots out.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3392000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Thomas turns around, two people in cape stand behind him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3962000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Heretics",
+  "tmdb_id": 438736
+}

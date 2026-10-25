@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Evan suddenly appears in the kitchen holding a knife.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 352000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bright camera flash may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evan’s dad is suddenly on top of Evan strangling him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 617000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lenny forcefully pushes Evan up against a wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2150000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Butterfly Effect",
+  "tmdb_id": 1954
+}

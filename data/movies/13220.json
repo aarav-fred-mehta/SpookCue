@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man gets attacked by a crazed animal.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 134000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The group run over something on the road while driving.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 913000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Seth goes to touch the road-kill when suddenly it jumps up at him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something bangs on the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the infected bodies slams against the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The group rotate to see a cop wielding a gun outside the front door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Seth pulls the police radio through the window, one of the infected hosts jumps down from the gas station roof. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3073000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The infected hand begins to run at the couple.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected body jumps on the car while Seth is inside.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected jumps out from behind one of the gas station stands.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4424000,
+      "type": "minor"
+    }
+  ],
+  "title": "Splinter",
+  "tmdb_id": 13220
+}

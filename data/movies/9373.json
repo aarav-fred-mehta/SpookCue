@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The group almost hit a person walking on the road with their van.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette walks past the camera from inside the building.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The group open a door and a possum is inside.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another silhouette walks past the camera while the legless man is being picked up.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1781000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the members of the group gets attacked from behind.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Morgan puts his arm into a car that then gets stuck.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2363000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy and Erin rotate to see Leatherface behind them holding a chainsaw.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2666000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Erin tries to start the van and the sheriff appears by the van’s window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2801000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chainsaw breaks through the back of the car.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chainsaw cuts through the roof of the car.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3570000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Erin is grabbed from behind while sitting outside a caravan.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3682000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Erin sees Morgan in a bath but as she approaches he jumps upwards.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface appears at the top of the stairs with his chainsaw.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands reach through the wall behind Erin and grab her.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4661000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Erin climbs underneath an opening in a door, Leatherface appears from behind and grabs her leg. [Video]",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4840000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface slices Erin’s car while she is driving along the road.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5487000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Texas Chainsaw Massacre",
+  "tmdb_id": 9373
+}

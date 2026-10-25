@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden bang on the window startles Manuel and Altair.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 784000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Manuel turns around with the camera, and Altair is standing right in front of him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Manuel turns the camera down from the ceiling and spots Altair standing in front of him with her back turned.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While unresponsively sitting on a chair and looking down, Altair suddenly grabs the camera as Manuel points it at her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3084000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door suddenly slams shut on its own.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While lying on the floor, Altair suddenly springs upwards and begins to scream.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ceiling lamp suddenly explodes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4107000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Altair plays with something bloody in her hands, an inhuman hand suddenly reaches and grabs her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4621000,
+      "type": "major"
+    }
+  ],
+  "title": "1974: The Possession of Altair",
+  "tmdb_id": 416079
+}

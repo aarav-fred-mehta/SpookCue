@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 1989,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Church jumps down the tree and yowls at Louis.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Victor suddenly grabs Louis on the shoulder.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1115000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Louis is lying in bed, there is a loud noise and Victor is suddenly standing in the doorway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Louis turns around and Victor is now standing right by the bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Victor grabs Louis from behind.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Church yowls at Louis in the garage.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead rat drops into the bathtub while Louis is in it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2318000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Victor appears beside Rachel.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face appears out of a rock pile and comes towards Louis.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ball bounces across the room.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4724000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Church yowls.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Church yowls and jumps down behind Rachel.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4972000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel’s dead body drops down from a rope. [Video] .",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5615000,
+      "type": "major"
+    }
+  ],
+  "title": "Pet Sematary",
+  "tmdb_id": 8913
+}

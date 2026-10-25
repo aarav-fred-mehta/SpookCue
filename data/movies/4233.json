@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 1997,
+  "runtime_minutes": 120,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface pops up at a window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Phil, wearing a Ghostface mask, scares Maureen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 338000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Phil is suddenly stabbed through the toilet cubicle wall by a man wearing a Ghostface mask.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dawnie comes up behind Cici, startling her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Cici answers the ringing phone, Ghostface bursts into the room behind her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2062000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sidney runs out of the house and is grabbed by Derek.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone runs into Randy while trying to catch a football.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3795000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface grabs Randy and drags him into the van.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cotton comes into view behind Sidney.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4039000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface pops up behind Gale.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4749000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gale sees Ghostface on the other side of a window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4809000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface pops up in front of the windscreen when the cop car is stopped at a red light. [Video] .",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5161000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sidney attempts to remove the Ghostface mask from the killer she accidentally bumps the horn.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface grabs Hallie around the neck.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gale bumps into Cotton.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5532000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the stage props drops down behind Sidney.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Loomis jumps through the curtain and grabs Sidney.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gale’s hand reaches out of the fog as Sidney checks on Mrs. Loomis. [Video] .",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6566000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mickey, who appears to be dead, suddenly leaps to his feet.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6613000,
+      "type": "minor"
+    }
+  ],
+  "title": "Scream 2",
+  "tmdb_id": 4233
+}

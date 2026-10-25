@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sam jumps on Amelia’s bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 941000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thump followed by a scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amelia sees the Babadook through the window of Mrs. Roach’s house.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2779000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Babadook crawls across the ceiling above Amelia’s bed. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2963000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Babadook comes down towards Amelia who then wakes up from a nightmare. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2977000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amelia sees the Babadook through her rear view mirror.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is some loud inaudible talking just before Amelia wakes up.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Babadook stretches out his arms.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hat falls down into the fireplace.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amelia screams loudly at Sam.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4590000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud roaring noise as something approaches Amelia.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5265000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Babadook",
+  "tmdb_id": 242224
+}

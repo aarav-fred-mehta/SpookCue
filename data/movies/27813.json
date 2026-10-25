@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The doctor turns on the lights and Belial is revealed to be hiding on the wall.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Belial jumps out of the basket as it’s opened.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2470000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The basket is opened and Belial starts screaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Belial starts screaming.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4695000,
+      "type": "minor"
+    }
+  ],
+  "title": "Basket Case",
+  "tmdb_id": 27813
+}

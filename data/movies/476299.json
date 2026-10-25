@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After opening a secret cupboard, a doll pops out startling Beth and Vera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 486000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, we see the candy truck’s lights in the distance.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large man suddenly runs at Pauline while she is on the phone.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 772000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Beth attempts to get up, the door is suddenly slammed in her face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1025000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied hand appears on the door handle.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1037000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming Vera bursts through the door and tackles Beth.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1713000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth turns to see a doll watching her in the hallway.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1943000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doll starts laughing maniacally and Beth suddenly wakes from a nightmare.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1963000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Beth looks through the keyhole, a figure suddenly appears in front of it.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2470000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming Vera runs out of the room.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2523000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone bangs on the door grate from the other side as Beth tries to talk to her sister.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2670000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth turns to see the fat man walk past her in the hallway.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth says “Mom?” before she is attacked from behind.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2761000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After opening the door to the cupboard slowly, the mysterious woman rushes at Beth.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3318000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a bang on the door as Beth tries to open it.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fat man grabs Beth.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3901000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Beth listens by the door, a hammer comes crashing through from the other side.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3974000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doll starts laughing beside Beth who is hiding in a closet.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4057000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene the doll starts laughing once more.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is suddenly shot.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Beth runs towards Vera she suddenly finds herself back in reality as she crashes through a mirror.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4791000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ghostland",
+  "tmdb_id": 476299
+}

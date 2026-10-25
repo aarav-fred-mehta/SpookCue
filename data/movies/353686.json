@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, Eveleigh removes her blankets to reveal blood around her pregnant stomach.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 889000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eveleigh looks through the peephole in the door and sees a dark hooded figure right by the door. She then turns around and runs into David.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1494000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud knock at the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The wine bottles explode suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles Eveleigh.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2114000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David suddenly transforms into the hooded figure.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2316000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eveleigh turns around and a mannequin is suddenly right behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window suddenly breaks in front of Eveleigh and a few seconds later Eveleigh is pushed to the ground by an unseen force.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2855000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead body suddenly splashes in the water.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A blood splatter appears on the wall beside Eveleigh.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3195000,
+      "type": "minor"
+    }
+  ],
+  "title": "Visions",
+  "tmdb_id": 353686
+}

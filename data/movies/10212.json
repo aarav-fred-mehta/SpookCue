@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bat screeches and flies away.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2108000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Colqhoun drops down in front of Reich.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reich suddenly grabs Boyd around the neck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Colqhoun falls through some wood and lands in front of Boyd.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5353000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ravenous",
+  "tmdb_id": 10212
+}

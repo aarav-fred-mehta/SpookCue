@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Two of Holt’s friends sneak up on him and scare him as he talks on his webcam to Julia.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a nightmare, an arm reaches out and grabs Julia around the mouth.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 868000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera suddenly zooms in on Samara’s face before cutting to Skye’s transformed face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia looks through a keyhole and briefly sees Samara.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1860000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skye’s head suddenly rolls back in the chair, revealing her grotesque face to Julia.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia runs into Holt as she goes through a door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on a door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2305000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird hits the car windscreen.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck almost runs over Julia.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2429000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sudden opening of an umbrella may startle some viewers.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang from behind Julia.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samara appears behind Julia.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holt grabs Julia and pulls her away.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3597000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog starts to bark.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3613000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A snake slithers past Julia.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud bangs on a door over the next 20 seconds or so.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia turns the torch on to reveal a young woman running at her while screaming “the child”.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4578000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samara appears in the reflection of the mirror.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A closeup of Burke’s grotesque face may be startling to some viewers.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5469000,
+      "type": "minor"
+    }
+  ],
+  "title": "Rings",
+  "tmdb_id": 14564
+}

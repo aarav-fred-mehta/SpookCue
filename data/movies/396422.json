@@ -1,0 +1,193 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Samuel jumps out and grabs his daughter (as a joke).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to Samuel banging on a car wheel with a tire iron may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 401000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A broken doll falls to the ground.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samuel grabs Janice’s hand as she goes to open a door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shutter slides back up startling Sister Charlotte.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1073000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Linda sees the doll which, accompanied by a loud noise, suddenly disappears into the darkness.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon suddenly appears inside the tent and puts her hand on the face of one of the girls.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2431000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl at the window turns around to reveal a demonic face.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2961000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After several seconds silence, Janice is suddenly pulled off her chair into the air by an unseen force.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3110000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Janice falls back to the ground.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3139000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The toy gun is suddenly pulled out of Linda’s hand.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3651000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Janice’s wheelchair is hit by an unseen force.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Janice’s wheelchair is flung away from Janice’s outstretched hand.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3893000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bee suddenly begins crawling towards Janice.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3964000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands come out of the well and pull Linda into it.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4606000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Linda is suddenly pulled across the ground.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the scarecrow disappears, Kate suddenly bangs on the truck door scaring the girls inside.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5158000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the door as Linda tries to open the window.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5169000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After several seconds of silence, a hand comes from off screen to break the lightbulb beside Carol.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud bangs on the door.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Esther’s torso suddenly comes to life and chases after Linda.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5497000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Janice suddenly bursts into the room where Linda is hiding.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annabelle suddenly appears at the door to her parents bedroom.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6177000,
+      "type": "minor"
+    }
+  ],
+  "title": "Annabelle: Creation",
+  "tmdb_id": 396422
+}

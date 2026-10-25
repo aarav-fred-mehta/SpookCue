@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1983,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure pops up from underneath the water in front of Kenny.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meg is stabbed through the shower wall while taking a shower.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body falls through the shower curtain and lands in front of Mel.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judy screams and we see the silhouette of her raised hands.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4345000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arrow pierces Mel in the neck.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4543000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt cut from the flashback back to Angela who jumps up and hisses at the group.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4824000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sleepaway Camp",
+  "tmdb_id": 13567
+}

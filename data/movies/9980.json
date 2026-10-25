@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1986,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A gas pump nozzle suddenly splatters a man’s face with gasoline (accompanied by a loud sound).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 568000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An electric knife turns on and cuts a woman’s arm (again, accompanied by a loud sound).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lawnmower turns itself on.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Seemingly dead man suddenly gets up with a scream.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3865000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "mark might startle more sensitive viewers. The movie’s atmosphere is very light in general and everybody should handle the whole picture with ease.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3870000,
+      "type": "minor"
+    }
+  ],
+  "title": "Maximum Overdrive",
+  "tmdb_id": 9980
+}

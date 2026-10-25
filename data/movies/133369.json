@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron turns around after entering the cabin and sees several of the group members.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4616000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Conspiracy",
+  "tmdb_id": 133369
+}

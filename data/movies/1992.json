@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A grotesque looking hand comes through the roof of Abby’s car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 799000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A patient opens his mouth to reveal his diseased tongue.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1396000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie breaks into El Wray’s truck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carlos stands up and Hague is suddenly standing right behind him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2618000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie bites Carlos on the arm as he goes to give Tolo his ring back.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car explodes.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While feeding his wife some soup, Earl briefly looks away and when he looks back his wife has transformed into a zombie. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2920000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A burning man bumps into Dakota’s car.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crow bar slams into Dakota’s car window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3345000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead J.T. suddenly sits up and points his gun at Hague.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a single gun shot as Dakota walks towards the house.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Block grabs Dakota by the hair.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zombies break into the restaurant.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4084000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie runs out of some bushes.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5919000,
+      "type": "minor"
+    }
+  ],
+  "title": "Planet Terror",
+  "tmdb_id": 1992
+}

@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl narrates about her respect for her policeman father, who is looking at the camera and smiling. Suddenly, his head explodes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 60000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mutant jumps out from behind some cops.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man in the black coat walks past in the background accompanied by a string sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1994000,
+      "type": "minor"
+    }
+  ],
+  "title": "Tokyo Gore Police",
+  "tmdb_id": 16061
+}

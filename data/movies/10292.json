@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As a person approaches the window from outside, there is a sudden flash with a loud noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bloody Mary suddenly appears on the road while Tom is driving.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bloody Mary grabs Buck from under the bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David is suddenly grabbed from behind with a plastic bag over his face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Samantha is walking, Bloody Mary suddenly flashes on the screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samantha is startled by a steam pipe suddenly going off.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden flash.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4506000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts from Bill back to Bloody Mary to show her face has changed.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5177000,
+      "type": "minor"
+    }
+  ],
+  "title": "Urban Legends: Bloody Mary",
+  "tmdb_id": 10292
+}

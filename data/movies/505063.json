@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "With a loud thud a pack of syringes drops from the chimney.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The slit closes onto Scott’s fingers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2438000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate opens doors, startling Nick.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tony has abrupt flashbacks of Kate falling.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3442000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature jumps towards the phone camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3654000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "“I see you” message appears on the TV.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Abrupt jump cut with a sound effect.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4604000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nick jumps onto Tony.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "TV explodes.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4774000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tony breaks through the glass pane.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4938000,
+      "type": "minor"
+    }
+  ],
+  "title": "Await Further Instructions",
+  "tmdb_id": 505063
+}

@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The security guard’s reflection stabs itself in the throat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben looks at himself in a mirror when a bird suddenly flies away.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1125000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben looks up from the sink into the mirror and his reflected face is distorted.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1367000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben puts his hand against the mirror which then cracks.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Burning people appear in the mirror behind Ben.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A female voice begins screaming inside the building.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1814000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand pokes out of the room when Ben looks at it through the mirror.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mother turns off the TV which cuts to Michael viewing a screaming woman in the mirror.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the morgue, the reflection of Gary’s corpse abruptly turns sideways and speaks to Ben. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2484000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben looks into the car mirror and sees his sister sitting in the back seat.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben’s reflection pulls out a gun and shoots at Ben.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3945000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amy bends down to look at Michael’s reflection in the water. She suddenly gets cut on the face by the reflection.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The female entity appears in the roofing above Ben.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5952000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity jumps down onto Ben.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something breaks through the wall and jumps at Ben.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6002000,
+      "type": "minor"
+    }
+  ],
+  "title": "Mirrors",
+  "tmdb_id": 13515
+}

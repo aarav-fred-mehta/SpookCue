@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah steps outside, the homeless man walks right in front of her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1723000,
+      "type": "minor"
+    }
+  ],
+  "title": "Horse Girl",
+  "tmdb_id": 653601
+}

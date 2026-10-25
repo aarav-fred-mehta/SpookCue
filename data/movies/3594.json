@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "being the only one likely to truly startle viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Walter slams his fist on a metallic fence.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some birds fly up at Agatha.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4008000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Number 23",
+  "tmdb_id": 3594
+}

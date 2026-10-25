@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The girl attempts to make a phone call but is interupted by the guy who says “What are you doing?” from right behind her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1347000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The guy once again startles the girl, this time by saying “hey” from behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1820000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The guy puts his hand down the back of the seat and suddenly starts screaming (as a joke).",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The guy sees some hands in the ice.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2656000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The guy sees a frozen corpse.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2680000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl puts her hand on the back of a figure walking the other direction but quickly withdraws as he is very cold to the touch. The man then turns around to reveal a grossly deformed face.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone knocks on the car door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car radio turns on.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "is probably the most significant as it is a very sudden, loud moment in a previously quiet scene.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3510000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl suddenly sits up in the back seat.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3577000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl sees some bare feet in front of her as she crawls through the snow.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The policeman jumps out of the burning car and tries to attack the girl and the truck driver.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The policeman is suddenly standing beside the truck as the girl tries to call for help.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4899000,
+      "type": "minor"
+    }
+  ],
+  "title": "Wind Chill",
+  "tmdb_id": 14223
+}

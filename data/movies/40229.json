@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scene jump cuts from Vicki practicing her gun shooting skills to a champagne bottle popping and the sorority girls screaming in excitement.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 556000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Slater’s scares Vicki and her boyfriend making out and uses her cane to slashes the waterbed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stevie kicks a chain in the dark boiler room beneath the pool and startles herself.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Stevie steadies the swinging lightbulb a hand grab her neck and forces her against the wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diane frightens Jeanie in the garden looking for Mrs. Slater.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2657000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The attic door in the ceiling opens and Morgan screams as the camera rushes towards her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2737000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the Jack-in-the-Box stops spinning the killer runs Mrs. Slater’s cane through her back.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katey is started when she turns around in the attic after discovering a clown costume resembling the Jack-in-the-Box.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diane jumps when an object falls from the van’s dashboard.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand and Mrs. Slater’s cane come in through the van’s sunroof and attack Diane.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Discovering Liz dead in the van, Vicki turns around terrified to see a figure wielding Mrs. Slater’s cane.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4982000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The murder in the clown mask opens his eyes, and the movie ends.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5400000,
+      "type": "minor"
+    }
+  ],
+  "title": "The House on Sorority Row",
+  "tmdb_id": 40229
+}

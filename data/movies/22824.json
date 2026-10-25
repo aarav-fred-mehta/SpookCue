@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After the screen fades out from a quiet scene, there is a sudden cut to Will loudly getting stabbed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Abigail asks “Scott?” he suddenly bolts upright and begins to scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3612000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The audio makes a loud distorted noise during a quiet scene.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4140000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Fourth Kind",
+  "tmdb_id": 22824
+}

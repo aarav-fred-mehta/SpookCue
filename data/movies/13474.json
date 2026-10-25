@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The opening scene involves the camera slowly zooming in on the trunk of a parked car while Christmas music plays. Suddenly, the trunk lock pops out and we see a woman’s eye and this is accompanied by a very loud sound effect. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 134000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela bumps into a security guard as she walks around a corner.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Angela enters the security office a dog barks at her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 591000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela trips over something on the floor.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1153000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela looks at her phone and the light from it reveals Thomas standing right behind her. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1185000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog barks at Angela once more as she enters the office.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2954000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the lift opens, Angela sees Thomas watching her from behind a door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body falls into the flooded lift.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela sees the policeman on the security camera, she then turns around but Thomas is standing right behind her. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4115000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog jumps through a broken window into the car that Angela is hiding in.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4671000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently dead dog suddenly barks at Angela.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela appears behind Thomas after he opens a locker door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela turns the car on and loud heavy metal music plays on the radio.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5141000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car smashes into Angela’s car.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5189000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela suddenly stabs Thomas in the eye.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Thomas grabs Angela around the ankle.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5428000,
+      "type": "minor"
+    }
+  ],
+  "title": "P2",
+  "tmdb_id": 13474
+}

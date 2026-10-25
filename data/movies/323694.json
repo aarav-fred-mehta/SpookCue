@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The store owner starts yelling “Whoa!” as an item is knocked over.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 285000,
+      "type": "minor"
+    }
+  ],
+  "title": "Nina Forever",
+  "tmdb_id": 323694
+}

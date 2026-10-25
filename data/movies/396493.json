@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After Sara leaves the toilet Aaron jumps out and screams at her (as a joke).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1675000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron attempts to scare Sara again as he jumps out from around a corner.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1703000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron opens the shower curtain in another attempt to scare Sara however she scares him first by screaming at him while wearing tape on her face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah pops up in front of a window to scare Aaron.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron drops the camera at the base of a tree.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4239000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sara suddenly runs at Aaron while screaming.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4255000,
+      "type": "minor"
+    }
+  ],
+  "title": "Creep 2",
+  "tmdb_id": 396493
+}

@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah hallucinates the masked gunman coming out of her closet. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 570000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah has a flashback of her screaming while in the fear chamber.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr Andover suddenly rises from the bathtub.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 803000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The machine starts sparking suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1397000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah sees the gunman in the mirror.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dylan suddenly appears behind Caylee while she is sitting on a park bench.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1927000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot startles Caylee.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2012000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nurse moves to reveal a disfigured woman standing behind her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bauer, wearing a mask, sneaks up behind Gage.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blake sees a disfigured man under his bed.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4227000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fear creature grabs Osborn.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4966000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The gunman bursts through the door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5034000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blake hallucinates various dead people from the diner shooting.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5070000,
+      "type": "minor"
+    }
+  ],
+  "title": "Fear Clinic",
+  "tmdb_id": 287524
+}

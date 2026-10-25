@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A beaver swims past Walt.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 304000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Walt suddenly surfaces in front of the boat.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kelly and Hank’s boat flips over.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1414000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hank moves a branch to reveal Hector standing behind it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile jumps out of the water and bites off a man’s head.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2362000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hank is pulled into the air by a trap.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kelly stands on a branch and a decomposing head flies out at her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile jumps up and grabs the helicopter.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile surfaces beside the helicopter.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4023000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile appears in front of Hank.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4066000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile surfaces once more beside the helicopter.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4202000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile grabs Hector.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4350000,
+      "type": "minor"
+    }
+  ],
+  "title": "Lake Placid",
+  "tmdb_id": 9825
+}

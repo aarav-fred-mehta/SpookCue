@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden noise comes from the locked room when the family is eating dinner.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jin-Seok is attempting to open the door, his brother comes quietly and makes Jin-Seok scare.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 666000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jin-Seok is attacked by a frightening woman standing on his right.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1292000,
+      "type": "major"
+    }
+  ],
+  "title": "Forgotten (Gi-eok-ui bam)",
+  "tmdb_id": 488623
+}

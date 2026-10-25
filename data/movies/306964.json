@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kyle jumps out from behind a couch to scare Lizzie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 255000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lizzie puts her hand on Kyle’s shoulder while he is watching TV.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 550000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Timothy suddenly appears in frame, chasing after Lizzie.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 758000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Timothy’s hand appears in front of Mikey.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 789000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out from underneath a car to grab a woman.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s face is suddenly engulfed in flames.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1617000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady walks into another woman dressed in a Halloween costume.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2661000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady leans back on the sofa to reveal Mary Bailey is sitting beside her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2841000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Over the next few seconds there are several sudden cuts to Bobbie (in red witch form) that may startle some viewers.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2961000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobbie turns around to face Jack and her face morphs into the red witch.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3217000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer bursts through the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The previously dead girl suddenly sits up and screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4025000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl bursts through the door.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The “child” jumps out at one of the kidnappers.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4474000,
+      "type": "minor"
+    }
+  ],
+  "title": "Tales of Halloween",
+  "tmdb_id": 306964
+}

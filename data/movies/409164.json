@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A crow flies out from behind Corey and Jonah, startling them.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1805000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jonah jumps out from behind a desk to scare Jango and his gang.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Corey turns on the lighter and there is a cut to the ghost girl standing right in front of him and screaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4322000,
+      "type": "major"
+    }
+  ],
+  "title": "Boys in the Trees",
+  "tmdb_id": 409164
+}

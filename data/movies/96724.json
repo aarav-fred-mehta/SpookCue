@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 129,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves past an open doorway in the background.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman moves to reveal a man standing behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 163000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hooded man attacks the woman.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a memory flashback, Robert’s face appears in front of young Anna as she looks through a chair.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure (presumed to be Anna), appears at a window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3442000,
+      "type": "minor"
+    }
+  ],
+  "title": "Anna",
+  "tmdb_id": 96724
+}

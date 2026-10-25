@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The homeless man suddenly yells “Shut up!” startling Jessica.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 744000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A box is thrown in front of Jessica.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1392000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica sees a figure with a bloody pentagram on their face through the window on the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1542000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn back on and we see two more bloodied figures with bags over their heads standing behind Jessica.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1674000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud static noise as the bag-headed man moves around.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The homeless man moves away from the door to reveal several figures hanging from the ceiling.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The homeless man suddenly appears back at the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3117000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3243000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica is knocked unconscious as she approaches an open door.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3824000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica sees a woman with a disfigured face under the table.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The disfigured woman runs past the opening that Jessica is hiding in.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4108000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica opens her eyes and the disfigured woman is right in front of her.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4148000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The homeless man passes behind Jessica.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica tases the homeless man and he turns to reveal a disfigured face with eyes that appear to have been removed and then stitched back into his head.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4329000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans back up and one of the bag-headed cultists is standing behind Jessica.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4433000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We see a close up of the bag-headed cultist’s face.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4548000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paymon screeches at Jessica from behind.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4582000,
+      "type": "major"
+    }
+  ],
+  "title": "Last Shift",
+  "tmdb_id": 296065
+}

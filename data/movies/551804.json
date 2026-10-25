@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud slamming noise scares the boy, causing him to drop the bottle of wine.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy stands up and gets grabbed on the head by the butcher.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 282000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The butcher kicks the door open.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 329000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While running through a hallway the butcher steps in front of the girl.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 511000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Millie is walking through her highschool, someone jumps at her and screams as a joke.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 874000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Millie peaks out from underneath the bleachers, and the butcher jumps in front of her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryler rushes out of the bathroom and once she gets to the door the butcher (in Millie’s body) steps out in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Millie (in the butcher’s body) is walking through a haunted house, a toy ghost flies out at her from the side.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife pierces through the door.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4447000,
+      "type": "minor"
+    }
+  ],
+  "title": "Freaky",
+  "tmdb_id": 551804
+}

@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud noise, a figure runs behind Lucie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An emaciated arm comes out from underneath the bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old emaciated woman on the bed suddenly screams and reaches out for Lucie.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 483000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is shot as he answers the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 718000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young man is suddenly shot.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 781000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucie sees the old emaciated woman in the kitchen.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1063000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman jumps on Lucie.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucie slowly opens the door and is once again attacked by the old woman.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna looks in the mirror and sees the mother looking at her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1764000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman slides out from behind the bathtub.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden flashback, accompanied by the loud metallic noise of a door opening may startle some viewers.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2029000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucie appears in the hallway as Anna tries to help the mother to the door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chain on the floor suddenly moves.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3018000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna shines the torch on a mutilated, chained up woman.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is suddenly shot.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3460000,
+      "type": "minor"
+    }
+  ],
+  "title": "Martyrs",
+  "tmdb_id": 9539
+}

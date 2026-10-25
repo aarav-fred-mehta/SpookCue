@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The cop is about to open the bag containing Chucky’s remains when his police radio blares into life.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 169000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tiffany suddenly attacks the cop as he looks into the bag.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A spider lands on Damien while he is looking under the bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 791000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a bolt of lightning and Chucky is suddenly sitting on the bed beside Tiffany.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 870000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead Tiffany suddenly jumps up from underneath the water in the bathtub.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Warren, who was supposedly dead, suddenly jumps up out of the storage container.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3238000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David knocks on the car window, startling Jade.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3862000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tiffany’s burnt face suddenly appears in the oven window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4383000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tiffany bursts out of the oven and attacks Jade.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4404000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chucky hits Tiffany over the head with a spade.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tiffany suddenly springs to life and screams at the investigator.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5051000,
+      "type": "minor"
+    }
+  ],
+  "title": "Bride of Chucky",
+  "tmdb_id": 11932
+}

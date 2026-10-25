@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A farmer is pulled into the ground by an unseen entity.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Val lifts a hat off the ground and Fred’s head is underneath it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The generator suddenly pops out of the ground.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim is attacked by one of the snakes.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1481000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and the car begins to shake.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1566000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant snake like creature comes out of the ground.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A snake attacks the piece of wood Val is hitting the ground with.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2391000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The giant snake surfaces just in front of a group of people.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pogo stick pops up out of the ground.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3007000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The snake bursts through the floor of the store.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another snake bursts through the floor.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A snake comes through the wall of Burt and Heather’s house.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3549000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nestor is dragged underground by one of the creatures.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The building begins to cave in suddenly.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4099000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the snake heads comes out of the water and screeches at Rhonda.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4358000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The remaining snake bursts out of the ground in front of Val and Earl.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5160000,
+      "type": "minor"
+    }
+  ],
+  "title": "Tremors",
+  "tmdb_id": 9362
+}

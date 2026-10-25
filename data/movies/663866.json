@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to a horror film on TV in which a screaming woman covered in blood swings a knife towards the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 422000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A phone suddenly rings.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Enid walks into a room to see her mom with her back turned. There is a cut to Enid, and then a sudden cut back to the mom with her screaming at the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2126000,
+      "type": "major"
+    }
+  ],
+  "title": "Censor",
+  "tmdb_id": 663866
+}

@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Roses’s car runs into a deer.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a high pitch piano note, Georgina can be seen walking past the hallway in the background of the shot.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1771000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Chris spies Georgina looking out from a window in the house.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1826000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a high pitch piano note, Georgina turns around and looks at Chris.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, Chris closes a door to reveal Rose is watching him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a long period of silence Chris suddenly runs at Dean and attacks him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chris goes to leave, Jeremy runs up and grabs him from behind.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chris drives into Georgina.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5607000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The side mirror beside Chris is suddenly blown off by a gunshot.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Chris turns to the side and sees Rose looking at him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5804000,
+      "type": "minor"
+    }
+  ],
+  "title": "Get Out",
+  "tmdb_id": 419430
+}

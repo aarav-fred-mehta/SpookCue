@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a quiet establishing shot of a stately room, a man suddenly falls through the roof.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 68000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Danny suddenly falls through the ice.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2775000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Ben says “I have the antidote” he is suddenly tackled by Jason.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4781000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Zoe says “Ben, get up”, she is suddenly attacked by the Game-master.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5219000,
+      "type": "minor"
+    }
+  ],
+  "title": "Escape Room",
+  "tmdb_id": 522681
+}

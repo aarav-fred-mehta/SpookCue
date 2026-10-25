@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Tangles’ audio cable is ripped away.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2550000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The frozen image of the creatures face appears on the camera footage.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": ", 1:09:21, and 1:13:57 being the most significant.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3411000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Peter climbs through a small opening, he is suddenly pulled away by the creature.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4161000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature rushes at the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature that Natasha is following turns around and breaks the camera.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4682000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Tunnel",
+  "tmdb_id": 46221
+}

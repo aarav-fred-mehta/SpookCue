@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bottle tips over and falls on its own.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alarm goes off during a tense and quiet scene.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3783000,
+      "type": "minor"
+    }
+  ],
+  "title": "Pulse / Kairo",
+  "tmdb_id": 27324
+}

@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The movie starts with a flashback to Senan in an infected state, the screen briefly goes black before we see a bloodied hand touch a man on the ground (accompanied by a sound effect).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The protesters begin to throw things at the bus, startling Senan.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 299000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a nightmare we see a boy walking down the street before being attacked by infected Senan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1347000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During another nightmare we see Seenan panting heavily before a quick cut to a bloodied man accompanied by a screaming sound effect.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the resistant patients suddenly lunges at Dr. Lyons as she reaches out to touch her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3130000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Abbie goes outside to investigate a noise and is startled by Senan as he touches her on the shoulder.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3264000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man breaks down the door and attacks Senan.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3333000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several loud gunshots ring out.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4335000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is tackled to the ground by Senan.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck blows up.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Lyons is suddenly attacked by one of the infected after she shares a moment with a cured patient.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4498000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the infected runs at Abbie.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The infected that Conor is standing beside is suddenly shot.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4618000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The soldier who shot the infected man is herself tackled by another infected person.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4624000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Abbie shoots dead one of the infected, the soldier lying on the ground suddenly reaches out to grab her.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4988000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected person runs at Abbie and her son.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5114000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Cured",
+  "tmdb_id": 469721
+}

@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Pete opens his umbrella behind Miranda.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miranda sees a girl standing on the road.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden flashback to the girl on the bridge.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1246000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An invisible presence breathes on the window in front of Miranda.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nurse’s hand reaches out to grab Miranda.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thump as Miranda walks down a corridor.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chloe’s face suddenly appears at the window of the cell door. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3009000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miranda bends down to reveal Rachel standing behind her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miranda turns around and screams as she sees Rachel’s face in front of her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently unconscious Miranda suddenly jumps up and screams as a guard reaches down to check on her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3510000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While holding her breath underwater, Miranda opens her eyes and sees Rachel screaming at her. [Video] .",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3759000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miranda sees Rachel in the rear view mirror.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3877000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car lights and stereo suddenly turn on.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An owl startles Miranda.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4401000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A policeman grabs Miranda on the shoulder.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands grab at Miranda from underneath some steps.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4666000,
+      "type": "minor"
+    }
+  ],
+  "title": "Gothika",
+  "tmdb_id": 4970
+}

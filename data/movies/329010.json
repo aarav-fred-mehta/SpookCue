@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The phone suddenly rings as Jake reaches for it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car that Dan and his wife are in is suddenly hit by another car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bin explodes as Emelie opens it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4296000,
+      "type": "minor"
+    }
+  ],
+  "title": "Emelie",
+  "tmdb_id": 329010
+}

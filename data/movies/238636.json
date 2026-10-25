@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Diego surprises Eva as she opens a door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man wearing a purge mask shoulder charges Shane.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 639000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud explosion startles Eva and Cali.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud gunfire may startle some viewers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two paramilitary men break into the closet that Eva and Cali are hiding in.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to a door bursting open.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leo sees Shane and Liz hiding in his car.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2108000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied man lunges at Liz.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2858000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A group of men ambush Leo after he climbs a fence.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is some loud gunfire with several more bursts of gunfire occurring over the next few minutes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4624000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Through Leo’s night vision googles we see a woman suddenly jump out in front of him.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud gunfire occurs as Shane and Liz are talking. [Video]",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4920000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leo is shot as he walks out of the house.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5500000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Purge: Anarchy",
+  "tmdb_id": 238636
+}

@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Principal Drake turns around and is surprised by Coach Willis standing behind her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 246000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Coach Willis appears behind Casey.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1134000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs Brummel appears behind Stan in the showers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1592000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Casey runs out of the closet.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gabe runs into Stan in the school hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2794000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zeke screams as he enters the classroom.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3299000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Principal Drake, who appeared to be dead, suddenly stands up.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4597000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stan jumps up at the window while Stokes is looking out.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4754000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Delilah surprises Casey.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4958000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marybeth hits Stokes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zeke grabs onto the fence, surprising Stokes and Casey. [Video] .",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5811000,
+      "type": "major"
+    }
+  ],
+  "title": "The Faculty",
+  "tmdb_id": 9276
+}

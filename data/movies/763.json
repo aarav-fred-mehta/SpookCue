@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1992,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Lionel’s mother appears behind the nurse.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lionel’s mother comes up behind Lionel as he turns on the lights.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2177000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands break through the door and grab Lionel around his neck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4168000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dead Alive (Braindead)",
+  "tmdb_id": 763
+}

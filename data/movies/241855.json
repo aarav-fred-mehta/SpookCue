@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Louise attempts to bite Evan.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5843000,
+      "type": "minor"
+    }
+  ],
+  "title": "Spring",
+  "tmdb_id": 241855
+}

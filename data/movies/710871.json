@@ -1,0 +1,201 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Wee wakes up to a bunch of medical dolls standing in the room.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 132000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nurses tell the story of a man who died in the ER, with third degree burns. While they talk, pictures and short unsettling clips show up accompanied by loud noises.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 186000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A security guard trips and falls over a metal tray cart during a tense and quiet scene.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead man turns toward the camera and growls as Wee snaps a picture with his phone.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 681000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When young Gla closes the fridge door there’s a doll sitting behind it, with sudden eerie music.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 921000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Young Gla’s father suddenly appears close to the camera with a loud sound.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 954000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thud when Wee accidentally walks into some boxes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The wheelchair is right in front of them when they turn their camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1556000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An echoing thud as the third wheelchair crashes into the first two.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1578000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Things start falling down from the shelves and furniture moves by itself, accompanied with eerie music.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A quick flashback of the first ghost encounter is shown in a way less intense moment.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3156000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The laptop opens up by itself.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Wee is screaming at the ghost of Gla, the elevator shakes and the light turns off, with a loud bang.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5093000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The elevator makes a loud sudden noise.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights break as Wee removes Mai’s shirt.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wee is thrown away from Mai’s body.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5483000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There’s a loud clatter as the whiteboard starts to move on its own.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a silent moment there’s a fast camera movement to suddenly show an angry Gla appearing in front of Wee, followed by a loud bang.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5550000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The paper cutter is thrown against Wee.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A medical doll appears behind Wee accompanied by a loud noise as its head falls off.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5582000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During this scene, Wee is thrown against the wall 2 times, as well as thrown up into the air while the room spins around.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gla appears and pushes Wee.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body in the body bag next to Wee suddenly rises up.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Wee turns around to film the body of Gla, his face has turned demonic.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5921000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ghost Lab",
+  "tmdb_id": 710871
+}

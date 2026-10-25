@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud gunfire can be heard coming from the bus in front.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The soldier outside the bus is attacked by a zombie.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently dead soldier suddenly opens his eyes and attacks.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie breaks through the car window and attacks Emma.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 522000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature leaps out at Patrick.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2154000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Patrick is lying in the snow, a creature stands over him and screeches.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chained up creature tries to attack Jack.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3452000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lu turns around and comes face to face with one of the creatures.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature pops up at one of the boarded up windows.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature suddenly snarls at Lu who is hiding behind some stairs.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5623000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature jumps onto the table above Lu.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5639000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creatures start banging on the walls of the house.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5961000,
+      "type": "minor"
+    }
+  ],
+  "title": "Extinction",
+  "tmdb_id": 338676
+}

@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dennis bites Paul on the hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 329000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul leaves the camp fire and is startled by Grim and his dog.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1223000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeff opens the door and the infected man is standing outside.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1432000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bert jumps out at Marcy in the kitchen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2115000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a gunshot as the scene abruptly cuts to Bert and Jeff.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2594000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man puts his hand on Paul’s shoulder while he is looking into a bedroom.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3053000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Karen vomits blood over the windscreen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3326000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul sees a deer on the road.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4327000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul dreams about happier times with Karen, the dream is interrupted by an image of Karen’s horribly diseased face. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4621000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeff is shot repeatedly.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4925000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cabin Fever",
+  "tmdb_id": 11547
+}

@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The water is suddenly started as the camera zooms into the sink.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera turns and a pair of legs can be seen running away, paired with a sound effect.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the boy backs up he is hit by a bus.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A thump comes from within the freezer.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2670000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rosentock is stabbed in the hand as he examines the cupboard.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3135000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon in the cupboard moves suddenly, moving all of the utensils with it.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature in the window of the background suddenly appears in the foreground.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tall demon suddenly appears from under the bed.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon hand comes out and kills Mora.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the woman approaches in the background she suddenly hits the car with a distorted appearance, paired with the car starting.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The undead child appears in the doorway suddenly as Funes is closing the door.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4778000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man with glass in his eyes is suddenly crouched beside Funes.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chair suddenly flies towards the camera.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5127000,
+      "type": "minor"
+    }
+  ],
+  "title": "Terrified (Aterrados)",
+  "tmdb_id": 489430
+}

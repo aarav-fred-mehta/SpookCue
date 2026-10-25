@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Clayton Trips while wading in the water.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A fish suddenly swims by.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Clayton suddenly pops up from under the water.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 363000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Travis’s handless bloodied arm breaks through the van window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1033000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shelby suddenly throws up.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A piranha jumps out of the water directly at the camera.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1404000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A piranha jumps out of the lake to chase the girls – literally!",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1457000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A presumed to be dead piranha suddenly moves.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1495000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead girls arm moves, being pulled by a piranha.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A huge piranha jumps straight towards the camera.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2581000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A piranha gobbles up another piranha.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3840000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A piranha jumps up out of the water and decapitates a young boy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A piranha jumps out of the bathtub directly towards the camera.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4417000,
+      "type": "minor"
+    }
+  ],
+  "title": "Piranha 3DD",
+  "tmdb_id": 71668
+}

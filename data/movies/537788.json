@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man walks into a coffee shop and unexpectedly shoots a customer.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a quiet scene there is suddenly a sound of glass shattering and a cut to the sound waking Luke up.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Luke slowly moves towards a seemingly passed out Daniel, who suddenly bites at him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doctor Braun calls out to Daniel, followed by a cut to Daniel standing right beside his ear and speaking which frightens him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Luke is walking through a hallway, there is a sudden cut to a deformed face zooming towards the camera while roaring.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4827000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The deformed man runs at Luke while screaming.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5245000,
+      "type": "minor"
+    }
+  ],
+  "title": "Daniel Isn’t Real",
+  "tmdb_id": 537788
+}

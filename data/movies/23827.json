@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #5) Katie suddenly wakes up out of bed gasping for air.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #5) The noise of something banging comes from another room.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1649000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #13) The couple wake up in their bed and a loud noise sounds from another room, followed by a bang.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #15) Micah enters the house again where he hears a bang.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #18) The bedroom door slams shut.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #18) The door slams shut again.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3811000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something bangs upstairs.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3981000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #21) Katie begins to scream loudly.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #21) Micah’s body is hurled at the screen from the doorway. (theatrical version) [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5040000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Night #21) Katie crawls up to the screen and lunges at it as her face begins to turn demonic. (theatrical version) [Video] .",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5073000,
+      "type": "major"
+    }
+  ],
+  "title": "Paranormal Activity",
+  "tmdb_id": 23827
+}

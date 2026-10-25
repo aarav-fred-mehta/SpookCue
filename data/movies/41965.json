@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1988,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The ceramic legs suddenly shatter on their own.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1931000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna’s smiling father suddenly becomes angry and lunges at the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2500000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden thud.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3166000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The front door quickly opens by itself.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna’s father suddenly rises out of the shadows in front of the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3658000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna’s father quickly pulls the door open and runs into the room.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3914000,
+      "type": "major"
+    }
+  ],
+  "title": "Paperhouse",
+  "tmdb_id": 41965
+}

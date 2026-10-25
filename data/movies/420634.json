@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The disfigured woman suddenly attacks the TV host.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tara backs into a woman standing behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After standing motionless for several seconds, the clown suddenly runs after Tara.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, the clown suddenly looks towards where Tara is hiding.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1689000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown stabs Tara in the leg.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1797000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Tara yells “Mister!”, the clown grabs her from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2047000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown lifts the hammer and lunges at Tara causing her to flinch.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2141000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown again lunges at Tara with the hammer.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pest exterminator turns around and almost walks into a woman standing behind him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown (disguised as Tara), suddenly sits up behind Vicky.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown appears in front of the peep hole that Vicky is looking through.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3540000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, a mop falls out of a bucket creating a loud noise.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3677000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown suddenly places some plastic wrap over Vicky’s face.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to Tara’s mutilated corpse.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4058000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown appears through a door and attacks the pest exterminator.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown reaches through a gap in the doors to grab Vicky.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4407000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and the lights start to flicker.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4784000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown grabs the coroner by the neck.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4821000,
+      "type": "minor"
+    }
+  ],
+  "title": "Terrifier",
+  "tmdb_id": 420634
+}

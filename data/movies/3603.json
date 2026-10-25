@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sheep carcass comes down from the ceiling.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hanging sheep moves.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2366000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sheep hybrid comes out of the darkness.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4575000,
+      "type": "minor"
+    }
+  ],
+  "title": "Black Sheep",
+  "tmdb_id": 3603
+}

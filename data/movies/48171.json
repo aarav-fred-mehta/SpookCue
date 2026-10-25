@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A cat jumps up from the other side of the window that Michael is looking through.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The possessed girl suddenly grabs Michael around the neck.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream, an unseen person grabs Michael around the neck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4214000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Lucas suddenly hits a young girl.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, Father Lucas appears behind Michael.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5221000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, Father Lucas’ hands are pulled back by an unseen force.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5432000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Lucas suddenly leaps from the chair and attacks Angelina.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6023000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Rite",
+  "tmdb_id": 48171
+}

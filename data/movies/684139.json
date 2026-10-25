@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl is pulled away by an evil entity. This is used a few times in the movie so it won’t be terrifying or startling.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 193000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a couple seconds of silence and buildup, the possessed and demonic Claire runs with a knife in front of the camera and her sister. This is probably the most effective jump scare since it was somewhat unexpected.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3079000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The elevator making a loud noise might startle some viewers. Not that something particularly frightening is happening, just the noise is quite startling.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3141000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire is pulled away by an evil entity.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire is attacked by an entity.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4172000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old lady is pulled by the evil force.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4604000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An evil entity suddenly runs at the main character in the mirror.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 66780000,
+      "type": "minor"
+    }
+  ],
+  "title": "Behind You",
+  "tmdb_id": 684139
+}

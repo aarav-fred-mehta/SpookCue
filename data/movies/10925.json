@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1985,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While a person is contacting the police on the phone, a zombie jumps through the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3245000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Return of the Living Dead",
+  "tmdb_id": 10925
+}

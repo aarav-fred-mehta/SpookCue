@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A glass window suddenly breaks.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A glass panel on the ceiling falls down.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1105000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some concrete blocks fall from the ceiling.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1971000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Price walks around a corner, startling the group.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost begins to move towards Melissa and several disturbing images flash across the screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2831000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot may startle some viewers.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3044000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s chair is turned around to reveal he is missing his face.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman with a distorted mouth and no eyes suddenly appears in front of Mr Price in the water.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3772000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pritchett starts talking which startles Sara and Eddie.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3861000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evelyn suddenly grabs Blackburn around the neck.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4019000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chamber door is opened to reveal a severed head.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4302000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Price appears in front of Sara.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4391000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Price suddenly grabs Evelyn.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4566000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The floor begins to explode.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4951000,
+      "type": "minor"
+    }
+  ],
+  "title": "House on Haunted Hill",
+  "tmdb_id": 11377
+}

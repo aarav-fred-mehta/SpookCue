@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1993,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman bends down to feed her cat when a man (unseen from the waist up) grabs her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the basement, Andy looks at a box on the table when Mr Leemus suddenly appears behind him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3516000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Leemus grabs Andy around the neck as he leaves the basement.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3597000,
+      "type": "minor"
+    }
+  ],
+  "title": "Malice",
+  "tmdb_id": 2246
+}

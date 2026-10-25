@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The doors burst open.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A squirrel falls into the fireplace.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1530000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to some knocking.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost boy appears directly in front of the scope.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1735000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The closet door behind the sniper slams shut.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "It is revealed to be a ghost woman standing at the desk.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2603000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A nazi body falls and is hanged.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2642000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy appears in the water and then a moment later behind the soldier.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost woman appears and screams.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3977000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman appears behind the sniper.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4160000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ghosts of War",
+  "tmdb_id": 608195
+}

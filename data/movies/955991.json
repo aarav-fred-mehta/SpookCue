@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bat flies across the screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 115000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bucket is slammed to the ground.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The eyes of the corpse are now open.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1101000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse shifts.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old man rushes out of the closet.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1558000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera screams in Claire’s ear.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hemish bursts into the room.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2200000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon is seen as Saul lights a lamp.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl appears in front of Claire.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2968000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girls is standing in the room and looks up with a musical sting.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3032000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the sheet is pulled away the girl says “Help Me”",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hard cut to a body coming out of a freezer.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3232000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden knocking at the door.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3570000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman startles Claire.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The claws of the demon come out of the door as Claire reaches for it.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is seen looking under the table.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire looks up and the demon lashes down at her.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5181000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Offering",
+  "tmdb_id": 955991
+}

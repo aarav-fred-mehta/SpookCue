@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dark figure moves behind Marvin.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman jumps out at Marvin to scare him as a joke.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Marvin looks around the room he suddenly spots a girl jumping up and down on the bed. Not really a jump scare, but accompanied by a loud sound.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 963000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The little girl appears out of the darkness and runs into the elevator.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marvin turns around and the policeman is standing right in front of him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4366000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera scrolls to the hallway to reveal the ghost woman kneeling down in front of a door, accompanied by a loud sound effect.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5749000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The policeman runs out of a hallway and towards Marvin.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6000000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Echo",
+  "tmdb_id": 110285
+}

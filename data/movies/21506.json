@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After Marika begins to groan and enters some sort of trance, several birds slam into the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4676000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing some camera footage, Hori suddenly becomes very agitated.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4903000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some birds fly out at Kobayashi as he opens a sliding door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut from a quiet scene where Kana is sleeping to an earlier scene where Hori is screaming may startle some viewers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6430000,
+      "type": "minor"
+    }
+  ],
+  "title": "Noroi: The Curse",
+  "tmdb_id": 21506
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "and 1:03:48 (both involving Frank) may unsettle some people (although neither is really a jump scare).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2590000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In Doctor Thurman’s office, Donnie screams “I can see him right now” and, accompanied by a sound effect, the camera cuts to Frank who is standing in front of him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6153000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ricky (one of the bullies) grabs Gretchen in Grandma Death’s cellar.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6782000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud explosion on the plane.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7198000,
+      "type": "minor"
+    }
+  ],
+  "title": "Donnie Darko",
+  "tmdb_id": 141
+}

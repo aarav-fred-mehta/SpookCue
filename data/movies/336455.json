@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A daydreaming Emma is interrupted by Gracie who appears in front of her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 155000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gracie coughs blood onto a boy.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 996000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A helicopter flies overhead startling Emma.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma looks through the letterbox flap and sees a figure move past the front door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1416000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene Stacey’s boyfriend jumps out at Emma (as a joke).",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1448000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma watches through a hole in the wall as a girl is attacked by an infected person.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The infected boy appears in front of the peephole.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2127000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang startles Stacey and Emma.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bright lights appear in front of Emma and Stacey as they drive down a dark road.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma looks through the peephole on the front door and sees Evan’s father (who is now infected).",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3066000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves past the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3099000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang from outside the house.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evan’s father bursts through a window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3128000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a gunshot (followed by another approximately 15 seconds later).",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stacey grabs CJ and pulls him towards the opening in the wall.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stacey’s hand reaches out to grab the plate of food.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stacey wakes up as Emma attempts to pull the worm out.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4125000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evan shines the torch into a room full of infected people.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4550000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected person lunges at Emma and Evan as they are running away.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected person punches a hole through the door.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4689000,
+      "type": "minor"
+    }
+  ],
+  "title": "Viral",
+  "tmdb_id": 336455
+}

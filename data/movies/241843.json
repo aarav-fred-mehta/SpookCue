@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Patriot grabs Shelly’s pigtail and it comes right off to reveal a bloody patch on her scalp. A few seconds later Shelly turns around and lunges at Patriot.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shelly lunges at another student in the playground.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears on the door of the nurses office.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wade bursts into the staff room, startling the other teachers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A group of infected students appear in front of the window behind Rebekkah.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1632000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected student jumps up from the back seat to grab the policeman.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wade opens the staff room door and an infected student is standing right behind it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1715000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A teacher appears from around a corner.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1773000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights suddenly cut out.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is some loud banging as the children attempt to break into the room where the teachers are hiding.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucy grabs Clint around the ankle while he is crawling through the ventilation duct.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3239000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected child puts his hand on the grate over the ventilation duct.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The vending machine makes a noise, causing the nearby infected child to scream.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected child reaches into the car and grabs Clint.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4566000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doug turns a torch on and his face suddenly appears on screen, scaring the others.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4809000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cooties",
+  "tmdb_id": 241843
+}

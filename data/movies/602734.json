@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts back from the mannequin to the cop to reveal a man in a pig mask who suddenly attacks him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 175000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Fitch quickly removes the cloak to reveal a pig mask underneath.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1952000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Fitch is walking away, he is jumped by the man in the pig mask.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1987000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After showing the spiral for a few seconds, there is a loud glitch sound and the video cuts away to a pig doll.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zeke opens the car door and a dead pig falls out, startling him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans around the room to reveal the man in the pig mask in front of Angie.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3581000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden loud cut from Zeke sitting in his car to him screaming.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3969000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Zeke walks out the door, he is attacked by the man in the pig mask.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4003000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcus turns back around and is jumped by the man in the pig mask.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4154000,
+      "type": "major"
+    }
+  ],
+  "title": "Spiral: From the Book of Saw",
+  "tmdb_id": 602734
+}

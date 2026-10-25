@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie lunges at the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 46000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie attacks a man in the toilet.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie bursts out of a toilet door and lunges at Columbus.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 334000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie appears in the back seat of the car that Columbus is driving.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Columbus has a vision of a clown crawling under the toilet cubicle door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Columbus wakes up on the couch and turns around to see his neighbour has turned into a zombie. [Video]",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 987000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie neighbour reaches for the door-handle.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mechanical figure pops out at Columbus in the haunted house attraction.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie attacks Columbus from behind. [Video]",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4516000,
+      "type": "major"
+    }
+  ],
+  "title": "Zombieland",
+  "tmdb_id": 19908
+}

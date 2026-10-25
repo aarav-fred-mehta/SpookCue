@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound over intercom interrupts Odell.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 891000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lightbulb explodes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A radio turns as Stumbo is getting close the body, causing him to fall backwards down a ladder in fright.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Claire pushes the closet door closed it suddenly opens back up and an image of a man flashes across the screen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1917000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brice shines light on some men as he turns around, frightening him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2340000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A manta ray charges towards the camera.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2727000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud banging sound frightens the group.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2910000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Odell shines the flashlight down at the water and Coors’ dead body suddenly rises up from it.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3125000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Odell grabs Claire on the shoulder, causing her to scream.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4254000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wallace begins to freak out and shout as Odell touches his shoulder.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire grabs the files and when she turns back around Odell is standing right in front of her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5063000,
+      "type": "major"
+    }
+  ],
+  "title": "Below",
+  "tmdb_id": 12590
+}

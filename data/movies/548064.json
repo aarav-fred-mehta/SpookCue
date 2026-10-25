@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Freddie turns around and the killer is right on front of him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer suddenly runs at Ted.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bob is suddenly pierced through the chest with a knife.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Steve, wearing a mask, jumps out at the counselors to scare them as a joke.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Drew grabs Sam from behind as a joke.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2559000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sam turns around he is suddenly stabbed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4840000,
+      "type": "minor"
+    }
+  ],
+  "title": "You Might Be the Killer",
+  "tmdb_id": 548064
+}

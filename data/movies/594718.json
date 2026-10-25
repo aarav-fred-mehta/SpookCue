@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While jogging, Tatyana suddenly runs into an inmate.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tatyana places her hand on the window, and the alien suddenly lunges at the glass.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While reaching out to the alien, Tatyana suddenly slips on the goo on the floor and falls.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3057000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sputnik",
+  "tmdb_id": 594718
+}

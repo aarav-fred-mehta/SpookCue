@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Barnabas appears behind Roger as he searches for the secret room.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angelique suddenly projectile vomits towards Barnabas.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5758000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dark Shadows",
+  "tmdb_id": 62213
+}

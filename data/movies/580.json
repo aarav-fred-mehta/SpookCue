@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A still shot of the ocean is suddenly interrupted by the shark jumping out of it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Michael swims through the water, there is a cut to a moray eel swimming at his face/the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a cut to the shark quickly rising out of the water.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4822000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jaws: The Revenge",
+  "tmdb_id": 580
+}

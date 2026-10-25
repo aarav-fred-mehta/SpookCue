@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 135,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As the young woman and Jake begin to kiss, there is suddenly a cut to an old man watching them with loud echoing noises.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6254000,
+      "type": "minor"
+    }
+  ],
+  "title": "I’m Thinking of Ending Things",
+  "tmdb_id": 500840
+}

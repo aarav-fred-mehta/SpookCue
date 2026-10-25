@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A cat walks out from behind a lamp just after Josephina turns it on.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bryson looks in the rear view mirror and sees a man in the back seat.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2577000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monkey’s hand comes out of the painting and grabs Bryson around the head.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2678000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man walks in front of Morf accompanied by a loud jump scare sound effect.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3303000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jon adjusts the lightbulb a hand suddenly appears above him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Morf looks at the painting and a hand suddenly moves.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3893000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gretchen’s arm is suddenly pulled into the sphere.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Morf sees Gretchen on the side of the bus and she moves to reveal a dismembered arm.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly opens the door to the sound proof room.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hoboman suddenly reaches out and bangs on the wall with one his crutches (just missing Morf).",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5916000,
+      "type": "minor"
+    }
+  ],
+  "title": "Velvet Buzzsaw",
+  "tmdb_id": 463684
+}

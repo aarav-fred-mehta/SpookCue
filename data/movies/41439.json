@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While walking towards the tricycle, Jill is jumped by Hoffman in a pig mask.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby is grabbed by a man in a pig mask while looking into his car from the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden, very large explosion in the junkyard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The coroner opens up a body bag, and Hoffman jumps out from inside and attacks him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Hoffman is walking away, he is jumped by three people in pig masks.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    }
+  ],
+  "title": "Saw 3D",
+  "tmdb_id": 41439
+}

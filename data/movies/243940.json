@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera begins to shake and there is a loud bang followed by a high pitched whining noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Niko, wearing a pig mask, suddenly appears beside Zoe.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 495000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands appear beneath a door during a dream Zoe is having.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The previously dead dog suddenly jumps up on the table and barks.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 839000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Clay is startled by a loud crash coming from another room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1304000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Clay stands up and the dog barks at him, having suddenly appeared on top of the table.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1369000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog appears directly in front of Clay.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zoe surprises Frank while he is at his computer.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1463000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank turns around and the previously dead Zoe now appears to be sitting up underneath the sheet.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror in front of Zoe cracks.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zoe opens her eyes and they are black.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zoe appears behind Niko.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force pushes Niko into a cabinet.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the shrouded bodies suddenly jumps up.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights cut out briefly, when they come back on Zoe is standing right beside Frank.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The record player suddenly turns on and begins to play opera music.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zoe appears behind Eva.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4346000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank is shocked back to life.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4631000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Lazarus Effect",
+  "tmdb_id": 243940
+}

@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 124,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The Engineer’s head explodes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, something falls off one of the dead creatures that Filfield and Milburn are examining.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meredith is startled by Janek playing a note on his accordion.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The snake-like creature latches onto Milburn’s hand.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the snake-like creatures shoots out of Milburn’s mouth.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Shaw suddenly jumps off the operating table.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4857000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the giant alien’s arms appears in front of the door that Dr. Shaw is looking through.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6614000,
+      "type": "minor"
+    }
+  ],
+  "title": "Prometheus",
+  "tmdb_id": 70981
+}

@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth wakes up to a loud noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2289000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming woman runs by in the distance.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2368000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly appears and runs by Beth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2391000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire’s foot falls through the wooden floor.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bathroom door slams shut.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bathroom door is suddenly pushed open.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5192000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Night House",
+  "tmdb_id": 547565
+}

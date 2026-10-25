@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A truck plows into the drivers side of the car that Jessabelle and her boyfriend are in.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 132000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leon appears behind Jessabelle suddenly and turns off the TV.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1115000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crash from upstairs.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost woman in the bathtub screams.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost woman appears behind Jessabelle in the mirror.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2919000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Davis grabs Jessabelle around the head and pulls her back.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3709000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Preston picks up Jessabelle and puts her in his truck, however when she turns around she has transformed into the ghost woman.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost woman screams as she suddenly appears in front of Preston.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The TV turns on suddenly.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4428000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jessabelle",
+  "tmdb_id": 203834
+}

@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chastity suddenly appears beside Jeff.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 262000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Pike’s chest suddenly explodes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3579000,
+      "type": "minor"
+    }
+  ],
+  "title": "Porno",
+  "tmdb_id": 576004
+}

@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The baby suddenly opens its eyes and Sadako’s hair flies out of her mouth.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 145000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman jumps out of the well towards the camera. (There are a few seconds of her climbing up as a warning beforehand.)",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something causes Fuko to be startled and then there is a cut to a dead body in the bath tub.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the body bag is opened a hand reaches out of it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Fuko is running up to the apartment the nanny drops onto the car next to her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The seemingly dead nanny grabs Fuko by the leg.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Koiso whispers Sadako, followed by a cut to Nagi pushing his wheelchair from behind.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn off, and as they come back on Sadako runs at the camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3144000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A coat hanging on a rack suddenly turns into a woman and attacks Fuko.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3230000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman jumps out of the computer screen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Fuko’s mon drops down under the bed and growls at her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3656000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Takanori’s face suddenly begins to distort and he runs at Fuko.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nagi is suddenly grabbed by Fuko.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4696000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone jumps through a glass window, shattering it and grabbing the detective.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Akane is shot.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5048000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sadako 3D 2",
+  "tmdb_id": 257527
+}

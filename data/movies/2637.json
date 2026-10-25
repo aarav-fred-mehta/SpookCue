@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sudden appearance of a moth-like figure on the road causes Mary to swerve and crash the car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 446000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mary gasps and appears shocked to see her husband sitting beside her bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John turns over in bed and has a vision of his wife lying in the bed beside him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John smashes his head into the mirror. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4388000,
+      "type": "major"
+    }
+  ],
+  "title": "The Mothman Prophecies",
+  "tmdb_id": 2637
+}

@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Laura suddenly commits suicide. No classical jump-scare but a very frightening scene with a loud bang.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 446000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grace breaks through the ice.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1865000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the dog barks, the camera shows various settings of the dark lodge. Suddenly a loud cut to Grace standing in front of the piano follows.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2559000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a nightmare Grace sees something under the ice on the lake. She suddenly breaks in.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3096000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Richard runs towards Grace, a shot is fired and kills him. Very distressing and sudden.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5788000,
+      "type": "major"
+    }
+  ],
+  "title": "The Lodge",
+  "tmdb_id": 474764
+}

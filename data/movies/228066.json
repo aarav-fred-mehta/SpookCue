@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Victor receives a shock of electricity and is thrown to the floor.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A jump scare sound effect plays as Igor enters a room (although no actual scare occurs).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2792000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a spark of electricity and an implement shakes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2816000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gordon jumps onto Igor.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2840000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorelei opens the carriage door to reveal Turpin standing behind her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Prometheus gets up and knocks Igor away.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6012000,
+      "type": "minor"
+    }
+  ],
+  "title": "Victor Frankenstein",
+  "tmdb_id": 228066
+}

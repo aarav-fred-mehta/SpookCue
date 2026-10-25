@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Donald turns around after looking at the sky and a lady is standing right behind him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A table suddenly moves, startling Susan.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2417000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A jet of liquid escapes the cylinder and covers Susan’s face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A jet of liquid suddenly comes out of Susan’s mouth and lands on Lisa.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa attacks Calder.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3706000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s hand comes out from behind the door and tries to grab Brian.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5252000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brian has the recurring dream however Catherine is now in the place of the dark figure. After appearing to wake up he turns over in bed and briefly sees Catherine’s bloodied face before waking up for real. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5877000,
+      "type": "major"
+    }
+  ],
+  "title": "Prince of Darkness",
+  "tmdb_id": 8852
+}

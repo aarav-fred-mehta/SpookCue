@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During the opening plane scene, immediately after a soldier vomits, heavy machine gun fire pierces the hull of the plane.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Boyce reaches dry land, he hears voices in the distance but is forced to duck when heavy gunfire rings out around him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud gunfire may startle some as one of the Americans is executed by Nazi soldiers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "which comes out of nowhere).",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Boyce approaches a slightly ajar door to look at Chloe’s aunt. He hears a noise behind him and turns around, when he looks back a disfigured person is standing in front of the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1690000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chloe starts talking from behind Boyce.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1700000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the scientist and soldier leave, Boyce looks through the hole in the wall once more and this time a mutated person lunges towards the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2780000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Boyce inspects the tar pit, something moves in the bag suspended above it.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chase walks away from Wafner (who appears to be unconscious) saying “I think I’m gonna need…” he is suddenly tripped by Wafner.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3735000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chloe talks to Paul in the tunnel, a mutated person reaches in and pulls her off screen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ford turns around after setting the explosives and Wafner is standing directly in front of him.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5042000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wafner is suddenly shot after saying “I am a god, Corporal”.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5355000,
+      "type": "minor"
+    }
+  ],
+  "title": "Overlord",
+  "tmdb_id": 438799
+}

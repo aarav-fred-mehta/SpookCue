@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An old woman appears from under the sheets.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 645000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man jumps out from behind a wall.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 919000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dark arms protrude from the mirror.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bang comes from the wardrobe.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tommy suddenly combusts.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1674000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Lane shakes and makes a loud noise.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2347000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A second bang comes from the wardrobe.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2736000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rat jumps out from behind a box.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Lane turns and looks at Max.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2990000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand touches Max’s shoulder.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon grabs Chris’s leg from under the toilet stall.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3191000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon jumps towards the camera.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3338000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A third bang comes from the wardrobe.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3514000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Lane suddenly looks up.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4561000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Cleansing Hour",
+  "tmdb_id": 608994
+}

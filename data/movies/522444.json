@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Eric pretends to be pulled into the water to scare Cash as a joke.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After hearing a splashing noise, Eric and Cash turn around to see something in the water leaping straight at them.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile suddenly drags the floating dead body underwater.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2287000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something touches Cash under the water, startling him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2525000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Yolanda hears a splash and turns around in fright, shining the light on the dead body.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While looking around for the crocodile, it suddenly appears right next to Cash and bites him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3234000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile suddenly jumps out of the water onto the rock.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3882000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Viktor looks around the water with a flashlight, the crocodile suddenly jumps out and attacks him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4425000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile jumps out of the water towards the car.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5409000,
+      "type": "minor"
+    }
+  ],
+  "title": "Black Water: Abyss",
+  "tmdb_id": 522444
+}

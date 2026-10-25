@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1979,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some ice cubes fall out of a refrigerator ice machine which makes a loud noise in an otherwise quiet scene.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jill opens the door and a detective is standing on the other side.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tracy almost trips over a homeless man while walking up some steps.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3531000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Duncan appears from around a corner and puts his hand over Tracy’s mouth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3751000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jill tries to wake up her husband however the man beside her in the bed is revealed to be Duncan. [Video]",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5609000,
+      "type": "major"
+    }
+  ],
+  "title": "When a Stranger Calls",
+  "tmdb_id": 45964
+}

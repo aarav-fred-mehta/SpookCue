@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An emergency vehicle rushes past.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman’s face appears through shelving.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman grabs Chris from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie man jumps into frame.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans back to Jonathan. A zombie screams beside Him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3191000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie grabs man from the shadows.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3851000,
+      "type": "minor"
+    }
+  ],
+  "title": "Black Friday",
+  "tmdb_id": 765869
+}

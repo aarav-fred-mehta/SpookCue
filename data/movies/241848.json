@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After a quiet opening scene, the title screen abruptly appears accompanied by a loud sound effect. This may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 79000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "being quite significant.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5042000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another loud bang as Anna and Luke run past the same trap on the way back.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5269000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David bangs on the fence as Luke hides.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David stabs Anna in the leg.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5531000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Guest",
+  "tmdb_id": 241848
+}

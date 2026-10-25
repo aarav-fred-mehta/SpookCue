@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to a man struggling in a cage trap.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1093000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Zepp’s eye is revealed in Daina’s closet, the closet doors slam open.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man lunges at Dr. Gordon while he is on phone.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A toy begins making laughing noises behind Adam.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam’s camera flashes to reveal a masked man hiding in a cupboard.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4243000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Gordon is electrocuted while he is sobbing on the floor.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5227000,
+      "type": "minor"
+    }
+  ],
+  "title": "Saw",
+  "tmdb_id": 176
+}

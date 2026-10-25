@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hammer crashes through some floorboards.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 92000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a suspenseful scene, Rebecca is hit by a teddy-bear.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 728000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The knife slips, cutting Rebecca’s finger.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca turns around and is startled to see Todd standing right behind her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1582000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming face briefly appears on Todd’s laptop.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1953000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Todd appears in the doorway, startling Rebecca.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2251000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca sees a face in her wine glass and screams.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang startles Rebecca.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3429000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A burnt hand comes out of the folder Rebecca is reading.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3589000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans upwards to reveal Francine standing behind Rebecca.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5101000,
+      "type": "minor"
+    }
+  ],
+  "title": "Restoration",
+  "tmdb_id": 718480
+}

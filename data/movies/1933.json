@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Heavy breathing can be heard behind Grace.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2124000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone knocks at the door startling Grace.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door slams shut on Grace.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The children are hiding in a closet when it is suddenly opened. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5407000,
+      "type": "major"
+    }
+  ],
+  "title": "The Others",
+  "tmdb_id": 1933
+}

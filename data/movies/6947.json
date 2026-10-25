@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure in red passes by the base of a ladder.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucius suddenly grabs Ivy’s outstretched hand as a creature approaches.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2023000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ivy falls into a hole.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4744000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature with the red cloak suddenly runs at Ivy.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5072000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Village",
+  "tmdb_id": 6947
+}

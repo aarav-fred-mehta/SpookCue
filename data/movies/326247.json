@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jennifer opens a door and sees the outline of a figure standing there.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud knock at the door during a tense scene.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1498000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Luke comes through a door, scaring Jennifer and Lauren.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2452000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jennifer turns around and sees a shadow moving across the wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Luke bursts through the bedroom door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4059000,
+      "type": "minor"
+    }
+  ],
+  "title": "The House on Pine Street",
+  "tmdb_id": 326247
+}

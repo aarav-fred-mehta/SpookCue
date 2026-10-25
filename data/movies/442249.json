@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Skeletor suddenly appears beside Isaiah.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skeletor appears behind a man trying to pry open the ATM.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1766000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Isiah rounds a corner he bumps into Kels and his gang.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2093000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Isiah walks down a dark corridor, a man with his face covered appears behind him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2642000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skeletor grabs Nya from behind as she looks at her phone.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Isiah and Nya fist bump, a man in a mask suddenly appears in front of them.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arm reaches out to grab Nya as she walks up the church steps.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3472000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife blade barely misses Nya as the group runs past a construction sign.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3888000,
+      "type": "minor"
+    }
+  ],
+  "title": "The First Purge",
+  "tmdb_id": 442249
+}

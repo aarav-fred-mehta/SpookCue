@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the Heptapods places a tentacle on the barrier near where Louise is standing.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2779000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream where Louise is talking to Ian in her room, Louise looks up and Ian has been replaced by a Heptapod.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3761000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Heptapod places a tentacle on the barrier causing Louise and Ian to be pushed back by an unseen force.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4547000,
+      "type": "minor"
+    }
+  ],
+  "title": "Arrival",
+  "tmdb_id": 329865
+}

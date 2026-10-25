@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 130,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Claire gets a shock from the bathroom power socket.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 151000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An eye appears suddenly on the other side of the fence hole that Claire is looking through.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 826000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire is startled by the phone ringing.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The radio turns on suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire looks into various rooms of her neighbours house with binoculars, in one of the rooms she sees Warren looking at her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire turns around and her husband is standing right behind her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The reflection of another woman can be seen in the bathtub water.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door opens during the Seance and the dog Cooper walks in.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2822000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A reflection moves in the steamed-up bathroom mirror.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman closes the fridge door and Claire is standing behind it.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman appears behind Claire.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire’s head falls back and she briefly appears as a decomposing corpse, startling Norman. [Video]",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6389000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman’s hand appears over the side of the bathtub.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire stands on something sharp and screams.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman’s fingers twitch as Claire tries to get the phone.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6950000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman appears in the rear window of the ute.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7072000,
+      "type": "minor"
+    }
+  ],
+  "title": "What Lies Beneath",
+  "tmdb_id": 2655
+}

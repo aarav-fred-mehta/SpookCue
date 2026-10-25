@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman dressed in white appears beside Frank’s car window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 509000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laura pokes at a skull on the wall and it falls to the floor, startling her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brad peeks at the baby and discovers that it is dead.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard gets out of the car to investigate the baby’s pram on the road, as he looks in he pretends to be pulled into the carriage and eaten.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1603000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and the car shakes as a tire blows out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden bump as the car hits something.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2302000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank lights a match and the woman in white is standing right behind him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4008000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The silhouette of someone appears at the window beside Marion.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marion turns around and runs into the woman in white.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4361000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dead End",
+  "tmdb_id": 11427
+}

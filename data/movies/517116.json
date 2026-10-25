@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A pumpkin is thrown at the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise is heard in the conversation.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the man in the red cape stands in front of the gate, the door behind Harper suddenly opens with a loud bang.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 483000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The advertising sign on the left in the picture suddenly goes on after a long camera movement.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Evan laughs and turns around, a fake skeleton shoots into the picture with a loud scream from the right corner and frightens him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 994000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A big spider crawls through the opening. Suddenly there is a bang and hundreds of small spiders fall into the room.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1354000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nathan puts his hand in the hole to help Bailey find her ring. His hand suddenly gets pulled further in.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1671000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Harper looks at the door with the Emergency Exit sign, something from the other side hits this.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1774000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Smoke comes out of the shaft under Nathan and frightens him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Angela reaches through the fence for the crowbar, someone suddenly steps on her hand. It is teased relatively long, but the impact is still quite effective.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2523000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fake skeleton scares Evan again.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2986000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Since the last 20 minutes scenes have been set up very often without any real jump scare. Here someone bangs on the door as Harper hides under the bed and tries to solve the house puzzle.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4123000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shotgun suddenly shoots through the door where The End is.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4243000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shotgun shoots again in a quiet scene.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The unmasked man is suddenly shot as he squats by the box.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4841000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Clown face appears behind Harper’s mother as she hugs her.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5150000,
+      "type": "major"
+    }
+  ],
+  "title": "Haunt",
+  "tmdb_id": 517116
+}

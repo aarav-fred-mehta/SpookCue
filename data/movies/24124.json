@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, a man suddenly sits up in his bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by another sound effect, the camera cuts to a close up of a skull covered in worms.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A burnt hand reaches out to grab one of the doctors. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 463000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sally opens the shower curtain and screams.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alfred sees a figure at the window (a jarring sound effect plays at the same time).",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies out as Todd opens a door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1954000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man in a mask jumps out (as a prank), scaring the group. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2589000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cropsy appears as Karen reaches for her dress.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cropsy jumps out of the canoe and attacks the group. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3549000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cropsy appears in front of Sally.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3867000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Glazer is stabbed by Cropsy.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Todd sees Glazer’s dead body.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4113000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand from one of the corpses falls onto Michelle.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse floats to the surface scaring Michelle once more.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4294000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cropsy’s hand appears from around a corner to grab Alfred.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4667000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene Todd puts his foot through a floorboard and falls to the ground.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4827000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some dirt falls down the mine-shaft startling Todd.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, Todd sees a corpse. [Video] .",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4906000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cropsy’s disfigured face suddenly appears on screen (once again accompanied by a loud sound effect. [Video] .",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5095000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several short sharp flashbacks over the next 20 seconds may startle some viewers.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cropsy leaps up to attack Todd and Alfred. [Video] .",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5213000,
+      "type": "major"
+    }
+  ],
+  "title": "The Burning",
+  "tmdb_id": 24124
+}

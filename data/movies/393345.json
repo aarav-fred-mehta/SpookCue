@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chucky attempts to bite Andy’s hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 307000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "is completely out of the blue.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alarm goes off as Nica looks at the spokes on the wheelchair.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chucky pops up in front of Claire who is strapped on the gurney.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt cut to Nica picturing herself attacking Angela and Claire.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2932000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chucky smashes a bottle over Foley’s head.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3023000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An image of Chucky’s mangled face flashes across the screen twice (accompanied by a piercing sound effect).",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Foley suddenly yells “Madeleine!” during a tense scene.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chucky stabs Nica with a needle.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3773000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Madeleine stands up and a nurse is standing right behind her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3860000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to Chucky with his arm in Madeleine’s mouth.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4035000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Foley falls back and Chucky hits him over the head with a bottle.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tiffany suddenly appears behind the police officer looking in her car.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael is suddenly stabbed in the head with an electric drill.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4888000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cult of Chucky",
+  "tmdb_id": 393345
+}

@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 78,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron is startled by Josef while in his car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josef surfaces from under the water in the bathtub.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron pulls back a curtain and is startled by a scary mask.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josef jumps out from behind a boulder and scares Aaron.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 937000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josef jumps out of a doorway and scares Aaron as he is entering the house.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1638000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josef wakes up suddenly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2322000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a noise.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2607000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josef starts speaking behind Aaron.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2667000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aaron is startled by a loud noise while he is in bed.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josef appears in front of the camera and lets out a scream. [Video] .",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4449000,
+      "type": "major"
+    }
+  ],
+  "title": "Creep",
+  "tmdb_id": 250574
+}

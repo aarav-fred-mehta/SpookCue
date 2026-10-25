@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera slowly zooms in on a silhouette on the window, and then quickly cuts to the dead guest’s disfigured face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Masao opens the fridge door and there is a cut to a dead body inside.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden flashback to screaming faces.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The front door suddenly opens during a quiet scene and a bunch of leaves fly inside.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4574000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Happiness of the Katakuris",
+  "tmdb_id": 16184
+}

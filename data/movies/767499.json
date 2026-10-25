@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As the curtain is pulled back, a black figure is standing over the woman.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lightning illuminates a black silhouette at the foot of the bed, and then again a few seconds later.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1429000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure is crawling along the ceiling.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annette is standing over Judith as the light is turned on.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure crawls out of the window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3630000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Manor",
+  "tmdb_id": 767499
+}

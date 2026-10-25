@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The title card appears abruptly on the screen accompanied by a scream. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 167000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The gas station attendant suddenly appears in front of Holden.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 631000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holden removes a painting from the wall to reveal a window with Dana standing behind it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 937000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cellar door opens by itself.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jules is stabbed in the hand while having sex.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2517000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An agitated Curt suddenly appears beside Marty.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something punches through the cabin wall.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie breaks through the window and grabs Marty.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2999000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie hand comes through the window in Dana’s room.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3089000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holden is stabbed in the back by a zombie.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3189000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holden is stabbed in the neck while driving.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The father zombie bangs his chain down in front of Dana.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3810000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dana puts her face up to a window and a werewolf lunges at the glass from the other side. [Video] .",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4189000,
+      "type": "major"
+    }
+  ],
+  "title": "The Cabin In The Woods",
+  "tmdb_id": 22970
+}

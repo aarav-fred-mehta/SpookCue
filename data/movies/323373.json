@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Zakk surprises Brodie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 749000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rikki suddenly opens his eyes and attacks Zakk and Brodie.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Terry, who is now possessed, appears beside Brodie in the bathroom.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied hand bursts through Abigail’s chest.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The face of Abigail, who is now possessed, pops up in front of Zakk and Brodie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2871000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Uncle Albert, who is now possessed, suddenly appears behind Brodie.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3201000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An axe head hits the wall just beside Brodie.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3684000,
+      "type": "minor"
+    }
+  ],
+  "title": "Deathgasm",
+  "tmdb_id": 323373
+}

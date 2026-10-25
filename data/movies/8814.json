@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A monkey jumps against a cage and screeches.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1172000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pipe comes loose causing The Kid to shoot his gun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something jumps down onto a table behind Portman and Goat.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Carmack grabs Samantha while lying on the operating table.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Destroyer pokes his head through a hole and is attacked by a monkey. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2160000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Portman is pulled under the water.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Goat is attacked by a creature.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature jumps out at John.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2637000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samantha runs into Duke.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3109000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mac is suddenly beheaded.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature grabs Destroyer.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature’s hand reaches down and grabs Portman around the face. [Video] .",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4046000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several infected people suddenly rush at the remaining soldiers.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "For a 5 minute period, the camera switches to John’s first person POV and various creatures leap out suddenly and attack John.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarge bursts through a glass wall behind John.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5993000,
+      "type": "minor"
+    }
+  ],
+  "title": "Doom",
+  "tmdb_id": 8814
+}

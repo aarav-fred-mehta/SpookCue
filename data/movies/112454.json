@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Meg turns around and comes face to face with her dad.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 668000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand enters the tent, startling one of the boys sleeping in it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1931000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown grabs the boy’s wrist as he approaches.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meg sees a figure move past the screen on the camera footage she is reviewing.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack touches his mother which causes her to scream.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown appears in front of Meg.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5231000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jack peeks out of an opening, the clown suddenly appears.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5359000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large concrete block moves across the opening.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown rips through some floor boards causing Jack to scream.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5451000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown suddenly stands up and runs at Meg.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5549000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently dead clown suddenly grabs Meg around the leg.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5583000,
+      "type": "minor"
+    }
+  ],
+  "title": "Clown",
+  "tmdb_id": 112454
+}

@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 1992,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Clara turns the light off and Candyman appears behind her for a brief moment. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 319000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trevor jumps onto Helen while she is in bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 966000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen takes a photo of a door and at the same time, the door opens and a dog barks.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bernie is startled by Helen poking her head through the hole in the wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen closes the medicine cabinet and in the mirror a girl and her dog can be seen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen looks into a window and a dog jumps up from the other side.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1964000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt flashback to a boy screaming.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Images of the graffitied head on the wall flash up accompanied by loud noises.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2683000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Candyman’s hook comes through the medicine cabinet at Helen. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3486000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen runs into the living room and sees Bernie’s bloodied body.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Candyman’s hand appears above Helen.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3869000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Candyman’s hook appears in front of the baby.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3938000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Burke is stabbed by Candyman.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4259000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Candyman opens his eyes as Helen is about to attack him.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Candyman appears and puts his hand over Helen’s mouth.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen appears behind Trevor in the mirror. [Video] .",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5678000,
+      "type": "major"
+    }
+  ],
+  "title": "Candyman",
+  "tmdb_id": 9529
+}

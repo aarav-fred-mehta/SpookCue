@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something appears behind Heidi.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Camera cuts to an old lady.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A strange baby-like creature with extra extremities starts screeching.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4094000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Lords of Salem",
+  "tmdb_id": 104755
+}

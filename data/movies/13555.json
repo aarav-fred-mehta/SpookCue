@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Buzz bumps into a beam in the dark looking for an exit.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3155000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reached out under the Funhouse bunting and grabs Joey.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3836000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Funhouse electricity kicks on causing the animatronic monsters to move and the loud thunder and lightning sound effects to turn on.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3908000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A skeleton leaps out of the floor and a rope drops around Richie’s neck.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4131000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liz falls screaming through a trap door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4270000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Buzz attempts to comfort Amy, the monster-son falls between them and attacks Amy.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4740000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The father, impaled on the sword grabs Buzz.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4868000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amy is started by the monster-son lurking amongst the Funhouse animatronic characters.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5029000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster breaks through a locked door.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5089000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A piece of equipment falls from the upper mechanical deck.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5280000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A wooden ladder slam onto the floor in front of Amy.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5296000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Even with the power cut, The Fat Lady starts moving and cackling and surprises Amy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5530000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of steam releasing from a pump startles Liz.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7200000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In an homage to both John Carpenter’s classic Halloween (1978) and Hitchcock’s Psycho (1960) young Joey sneaks into the bathroom dressed as a maniacal clown, rips back the shower curtain, raises a knife, and surprises his horrified sister.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 20100000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The son of the carny tears his Frankenstein mask off revealing his disfigured face.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 46800000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joey is startled by a menacing dog.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 50580000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A magician scares the audience when an volunteer from the audience steps into The Impaler and gets a stake hammered into the her heart.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 61200000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creepy man offers Joey a ride then unexpectedly points a shotgun at him.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 63180000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Funhouse",
+  "tmdb_id": 13555
+}

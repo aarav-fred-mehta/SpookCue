@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl jumps up and bangs on the window to scare Kyle.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 292000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Kyle pulls down his bed sheets, the tooth fairy jumps on top of him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 592000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kyle grabs his mom’s arm from the doorway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 627000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kyle’s mom sees the tooth fairy in the mirror.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 677000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door suddenly swings open.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Raymond jumps at Kyle from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tooth fairy jumps at Raymond.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse falls on top of Larry after he says “You’re a grown man. You’re completely safe.”.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1867000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screeching cat suddenly jumps on the car’s trunk.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow flies by the front window after Larry says “What if I don’t?”.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tooth fairy drops down on Larry from above.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tooth fairy appears in front of the police officer.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3189000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tooth fairy drops down behind Caitlin.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the group looks up the scene cuts away to the Tooth Fairy flying at them.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Michael and Caitlin force the elevator door open a hand reaches inside accompanied by a loud sound effect.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the doctor says “We’re safe in the car,” the window shatters and he is grabbed away.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Kyle says “Get back in the light,” Matthew is grabbed from above.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4078000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tooth fairy drops down on Kyle as the camera pans up.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4300000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The child is grabbed on the arm by her mother.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4474000,
+      "type": "minor"
+    }
+  ],
+  "title": "Darkness Falls",
+  "tmdb_id": 10727
+}

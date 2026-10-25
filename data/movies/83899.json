@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing blood in the window, Eric turns around and is attacked by a man in a mask.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 252000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang can be heard from upstairs.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Crispian grabs Paul from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 644000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Erin is attacked as she passes by a window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2238000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man jumps in front of one of the family members.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window breaks as Erin is bringing some knives to the others.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2902000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dad opens the door to see Felix and Zee behind.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the masked killers attacks a family member from behind.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Erin looks through a hole in the door and sees an eye.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man sticks his head out the window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Erin points her torch at a masked man.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4056000,
+      "type": "minor"
+    }
+  ],
+  "title": "You’re Next",
+  "tmdb_id": 83899
+}

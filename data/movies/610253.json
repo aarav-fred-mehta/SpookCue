@@ -1,0 +1,185 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The police officer lying on the ground suddenly gasps.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 166000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the distance someone shouts ‘Hawkins’, accompanied by a sound cue.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Police officers searching the house get startled by each other.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 520000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly runs in from the right and attacks the police officer.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 610000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly smashes the lightbulb in the bathroom.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand smashes through a window and grabs the old man by the head.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1602000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael stabs a lady in the neck with a fluorescent lightbulb.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person in the back seat starts moving and Vanessa screams.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The house front door slams shut.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2290000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl on the floor comes alive and screams.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2302000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody mask lands on the car windshield.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bullet hits the car window,.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2963000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches down from on top of the car and grabs Marion.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcus tries to leave the car but is pushed back in by Michael.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3003000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael stabs Marcus in the eye.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3036000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While being shot at by Vanessa, Michael pushes open the car door which hits Vanessa’s gun, causing her to shoot herself.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3060000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a quiet and intense scene, a hospital door is opened loudly.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael appears behind Big John and stabs him in the armpit.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot is heard from inside the house.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5184000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael storms out of the closet.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael comes back to life and stabs the police officer.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5826000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly appears behind Karen.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5975000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween Kills",
+  "tmdb_id": 610253
+}

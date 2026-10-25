@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The box moves twice and then the woman is grabbed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene Red says “lose something?”",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 970000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tape suddenly screams.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1889000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is grabbed from the side and dragged away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2483000,
+      "type": "minor"
+    }
+  ],
+  "title": "No One Gets Out Alive",
+  "tmdb_id": 740925
+}

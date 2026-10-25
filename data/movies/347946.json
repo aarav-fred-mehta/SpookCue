@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostly boy’s hand is seen holding a woman’s waist.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 306000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostly boy’s face is seen underneath a glass table.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a man reaches for a newspaper on the floor, a hand suddenly grabs his arm.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 657000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a woman looks through a strange notebook, she closes it and sees a pale woman on the reflection of the glass table.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1106000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a hospitalized little girl looks at another house through her window, she notices a ghostly boy pass by.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1390000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s voice suddenly distorts.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly appears in a closet.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1708000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a girl picks up a picture frame, the faces of the two people on the image suddenly appear distorted.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the hospitalized little girl looks through her window again, the ghostly boy appears again (yet this time on the balcony of the other house)",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2531000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An abrupt cut to a moving train is made.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming boy suddenly appears as the lights flicker.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2933000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a girl moves over and lifts the table cloth to look under the table again, she sees a ghostly boy sitting under it.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3202000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a mother and daughter talk to each other, a ghostly woman suddenly rushes over to the door.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3493000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a flashback scene plays, the man suddenly transitions back to the present.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4132000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the elevator door opens, it reveals many versions of the ghostly boy inside of it.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4452000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ju On: The Final Curse",
+  "tmdb_id": 347946
+}

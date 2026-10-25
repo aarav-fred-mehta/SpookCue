@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1989,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An apparition of a young Jason emerges from a mirror.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason punches through a bathroom door and grabs one of the students.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crew member surprises Mr. McCulloch and a jump scare sound effect can be heard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason surprises Rennie and Sean by knocking over some boxes (and other stuff).",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4957000,
+      "type": "minor"
+    }
+  ],
+  "title": "Friday the 13th Part VIII: Jason Takes Manhattan",
+  "tmdb_id": 10283
+}

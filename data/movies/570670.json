@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 124,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "When Cecilia flees the house, she runs into a dog bowl after she came out of the room with the suits. Although the bowl is visible, the loud bang is very shocking.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 389000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Cecilia gets into the car, her husband runs out of the forest and hits the car window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 606000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sydney is suddenly slapped by the invisible man while talking to Cecilia.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Cecilia tilts the bucket of white paint from the attic, the invisible man suddenly appears right in front of her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3383000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Cecilia turns off the tap in the kitchen and looks around she is suddenly grabbed by the invisible man.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The invisible man suddenly appears beside Cecilia under the trunk.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5553000,
+      "type": "major"
+    }
+  ],
+  "title": "The Invisible Man",
+  "tmdb_id": 570670
+}

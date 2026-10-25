@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1997,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Nick appears behind Alex after she hears the Djinn whispering.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 897000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie version of Nick is sitting beside Alex.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1806000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone shoves a jar of eyeballs into the camera as it proceeds down the hallway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2035000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone in a mask jumps right in Alex’s face with no warning.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2509000,
+      "type": "major"
+    }
+  ],
+  "title": "Wishmaster",
+  "tmdb_id": 10351
+}

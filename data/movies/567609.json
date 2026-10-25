@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man reaches out to Daniel from behind after Daniel hides his brother in a closet.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 134000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While kissing Alex, Grace looks up at the mirror and sees Aunt Helene watching them.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Grace peers out into the hallway, a hand suddenly grabs her around the mouth and pulls her back.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1696000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the maid calls out for Georgie, she is suddenly shot in the head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1740000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A maid is suddenly shot in the mouth with an arrow.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2403000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tony suddenly stands up and hits Alex over the head.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2855000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grace opens the elevator and sees a maid hiding in there.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grace picks up the torch and shines it on a goat.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3246000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Grace rests on the steering wheel, she looks up just as Stevens appears by the window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4030000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Various characters suddenly explode over the next couple of minutes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5202000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ready or Not",
+  "tmdb_id": 567609
+}

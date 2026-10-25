@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 122,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Scene abruptly cuts to a cat’s loud hiss.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 684000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door bangs loudly, startling Emily.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1347000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a whooshing noise as Emily shuts the door to her room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1381000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily is flung back onto the bed by an unseen force.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lightning flashes as Emily stares out of the window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1818000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily turns to the student beside her and sees his face turns demonic.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1929000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The faces of the women in the church turn demonic.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2011000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Moore sees a silhouette outside of the jail cell.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2432000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily screams as Jason touches her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3102000,
+      "type": "major"
+    }
+  ],
+  "title": "The Exorcism of Emily Rose",
+  "tmdb_id": 8643
+}

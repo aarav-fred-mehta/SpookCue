@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog runs towards Darrin.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darrin turns the camera and is startled by Raid.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darrin is startled by a water stream.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4700000,
+      "type": "minor"
+    }
+  ],
+  "title": "Area 51",
+  "tmdb_id": 57876
+}

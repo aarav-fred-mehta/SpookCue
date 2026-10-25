@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Richard turns to look at the backseat while driving, and a few seconds later there is a cut to a deer on the road in front of them.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 745000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard turns around and Sadie is standing right next to him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 795000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something suddenly falls down from the trees behind Richard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is suddenly a splash in the water.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard looks at the Jersey Devil, followed by it shrieking and the camera zooming in on its face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3735000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Barrens",
+  "tmdb_id": 135368
+}

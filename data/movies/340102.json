@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The security camera suddenly starts glitching.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Danielle says, “what’s happening to me?” it suddenly cuts back to the glitching security camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A burnt hand appears from out of the pool.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2964000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Illyana opens the door to find a picture of the smiley man on the wall. (Not really a classic jump scare, but still may startle some)",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts to a loud shower after a freaky scene.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3251000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bear reappears over the closet and yells.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4677000,
+      "type": "minor"
+    }
+  ],
+  "title": "The New Mutants",
+  "tmdb_id": 340102
+}

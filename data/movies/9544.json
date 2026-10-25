@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Turnbull looks up and the camera quickly pans to reveal the ghost girl standing outside the car window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1393000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera pans up from a woman’s feet, it cuts to a different screaming woman just before it gets to her face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Terry spots a corpse in the water which startles her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3969000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse’s head suddenly turns towards Terry.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While walking through the darkness, the tortured girl suddenly comes into Terry’s view.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4313000,
+      "type": "minor"
+    }
+  ],
+  "title": "FearDotCom",
+  "tmdb_id": 9544
+}

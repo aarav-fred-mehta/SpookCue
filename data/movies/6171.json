@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 134,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A phone rings during a tense scene.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 302000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 322000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is hit by a car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead woman suddenly reaches out and grabs Pete.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid that Beaver is sitting on.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid that Beaver is sitting on.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2712000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jonesy suddenly returns to the room, startling Beaver.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2736000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2810000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2844000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang on the underside of the toilet lid.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2880000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the door (followed by several more over the next 20 seconds).",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3023000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A red dust erupts from the aliens head.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry has a sharp and sudden vision of Jonesy’s possession.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck drives into a shed, nearly running over Henry.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6068000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dreamcatcher",
+  "tmdb_id": 6171
+}

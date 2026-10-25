@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl is stabbed up through the bottom of her chin.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 389000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of a door slamming shut.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2057000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hiding under a car, Frank suddenly cuts a girl’s Achilles tendon as she comes close.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2348000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna’s friend Martin is suddenly sliced with a cleaver through his mouth and face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4480000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martin, who we presume is dead at the time, suddenly hits Frank with a baseball bat.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4515000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Frank opens his van door, Anna, presumed to be still out cold, suddenly stabs him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4651000,
+      "type": "major"
+    }
+  ],
+  "title": "Maniac",
+  "tmdb_id": 103620
+}

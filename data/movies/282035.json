@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During the opening title screen, we see a quote from the Egyptian Prayer of Resurrection, this fades out and a few seconds later there is a loud noise and what appears to be sparks appear on screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 70000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some earth falls on Jenny, Nick, and Vail.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1054000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nick shoots Vail a third time.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the plane crash we see several plastic body bags lying in a morgue when one of them (Nick) suddenly sits up.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2059000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nick looks around while sitting on the morgue table and sees the ghost of Vail behind him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2094000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some birds screech and fly away as a man shines a torch on the mummy sarcophagus.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ahmanet suddenly attacks the rescue worker.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The second rescue worker is attacked by Ahmanet.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nick sees several rats near some rubbish and suddenly a mummified hand appears in the foreground.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ahmanet tackles a man to the ground and kisses him (turning him into a corpse).",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nick is tackled as he walks into a hallway.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2973000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mummy breaks through the ambulance window and tries to grab Nick.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3236000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mummy smashes into the windscreen.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vail appears beside Nick on the bus.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mummified hand bursts out of a tomb.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4844000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of Ahmanet’s minions attacks Nick and Jenny.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4999000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Mummy",
+  "tmdb_id": 282035
+}

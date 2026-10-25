@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera spins around to see bloody girl with yellow eyes and black lips appears in front of the camera (reused footage from second film).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 330000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman with pale eyes is seen in a dark basement (reused footage from second film).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera turns around to reveal a woman’s face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2307000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera focuses on the severed head of a blonde woman hanging on the wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2629000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights come on to reveal a man being attacked by another man, his head covered in blood.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4281000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hell House LLC III: Lake of Fire",
+  "tmdb_id": 614722
+}

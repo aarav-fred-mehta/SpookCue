@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mary closes the fridge door to reveal Max standing behind it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry puts his hand over Zoey’s mouth.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James bumps into something while searching the house.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is some loud banging on the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2305000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James briefly glimpses the outline of someone.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zoey’s face pops up in front of the camera on Max’s remote controlled car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James sees the stranger holding a gun to Zoey’s head.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window is broken.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A member of the masked gang appears in front of Max. [Video]",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3677000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another purger bursts through a window and attacks James.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The gang leader appears and stabs James.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3960000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A purger appears in a doorway and screams at Mary.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4090000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Purge",
+  "tmdb_id": 158015
+}

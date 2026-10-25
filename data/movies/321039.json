@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Gayson suddenly jumps out of his seat and lunges over the table.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gayson runs up to the car from outside and loudly bangs on the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the men bangs his hand on the car window to scare the others as a joke.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1891000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien runs out into the road in front of the motorcycle.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cameraman turns around and an alien runs across the field near them.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boarded window suddenly explodes and an alien reaches in and grabs one of the men.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3540000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden explosion outside.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cameraman turns around and an alien crashes through the boards and begins chasing them.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cameraman turns the camera at an alien who lunges forward at him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4226000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien foot stomps down in front of the camera.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4241000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Phoenix Incident",
+  "tmdb_id": 321039
+}

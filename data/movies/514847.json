@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is suddenly shot in the head after saying “that almost hit me”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud explosion after a man steps on a mine.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 912000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pig suddenly drops onto the ramp startling the group.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martin is suddenly shot in the head with bloody results.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3236000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Hunt",
+  "tmdb_id": 514847
+}

@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 124,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An explosion in the sand scares rick.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Evy is searching where a sound comes from a skeleton pops up with a very loud sound effect (but it turns out to be a joke from Jonathan).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 966000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rick throws a bag on the table scaring Evy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1566000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Evy comes up from picking her brush, Hook from the Medjai is suddenly behind her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1773000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Rick and the group turns around the group of Americans are pointing guns at them.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2561000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mild jump scare when Jonathan suddenly takes his hand out of his bag.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Rick and Jonathan first open Imhotep’s sarcophagus, his wet corpse pops out.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3354000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Evy reads from the book of the dead Imhotep´s corpse suddenly wakes up and lets out a roar.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow suddenly passes by.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3745000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ground suddenly shakes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3774000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand pops out of the ground.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Daniels checks the window and suddenly a sandstorm blows towards him.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Rick decapitates a mummy, the mummy holds his head and Rick then slams the sword to the head causing the mummy´s head to fly towards the screen.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anck Su Namun pops up behind Rick and Evy.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evy runs into Anck Su Namuns.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6462000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Mummy",
+  "tmdb_id": 564
+}

@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure suddenly appears on Sami’s car’s back seat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sami’s car radio comes on.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sami’s car radio comes on, again.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1742000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sami shuts the hood of her car, an shadow of a figure unexpectedly appears on it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sami turns around, a man with a bloodied face suddenly appears in her car’s back seat.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound cue, a figure suddenly appears in a dark doorway.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2294000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A brick is thrown through a window accompanied by the sound of glass breaking.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2562000,
+      "type": "minor"
+    }
+  ],
+  "title": "Phobias",
+  "tmdb_id": 793967
+}

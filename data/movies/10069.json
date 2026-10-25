@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A child appears in the broken window to the left accompanied by a scream.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 125000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden phone call may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 205000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Loomis is asleep, you hear a scream and are suddenly inside the game and the red lady (countess Elizabeth Bathory) approaches.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Loomis walks down the stairs, we suddenly see the lady in red scream.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 335000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden noise and figure in the kitchen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 411000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to a train’s “bell” may startle some viewers.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 724000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Phineas says “lighter works” fire erupts the screen with a scream.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hutch looks inside the peeping hole and his friend Swink suddenly appears.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to an action scene of the game may startle some viewers.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1232000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The red lady runs up from behind and kills Miller Banks.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Hutch asks if Miller will try to get back into the game, a figure appears running in the hallway with a startling sound.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1355000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to flames.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1788000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to kid approaching.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1972000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car horn may startle some viewers.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody girl walking in the back may startle some viewers.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure suddenly appears on the road.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "October sees a girl in the window accompanied by a sound.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3045000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to a doll with worms.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3682000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The table Abigail leans on suddenly breaks.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3715000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden sound and the red lady approaches.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4145000,
+      "type": "minor"
+    }
+  ],
+  "title": "Stay Alive",
+  "tmdb_id": 10069
+}

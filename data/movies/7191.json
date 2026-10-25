@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An apparent earthquake causes the camera to shake violently.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1101000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster’s tail slams into the bridge.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1700000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster’s foot comes down in front of Rob.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2103000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An air-conditioning unit falls off the building.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3507000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A parasite drops down from the ceiling.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3801000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster suddenly lunges at the helicopter.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bomb hits while Rob and Beth are hiding under the bridge causing debris to cover the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4375000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cloverfield",
+  "tmdb_id": 7191
+}

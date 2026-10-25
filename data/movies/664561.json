@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The dog turns into a demon.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 469000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands come from the drain and grab Liz.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2221000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liz is thrown against the wall.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand hits the camera.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2566000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman is grabbed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2917000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something approaches out of the darkness.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3260000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman is pulled backwards.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4405000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cruel Peter",
+  "tmdb_id": 664561
+}

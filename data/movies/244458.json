@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Fiona looks up and screams suddenly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback, a sock puppet briefly appears on screen accompanied by an electronic noise that may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa backs into Jerry.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4219000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Voices",
+  "tmdb_id": 244458
+}

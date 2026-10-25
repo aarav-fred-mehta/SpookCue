@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The door suddenly closes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Corey’s body suddenly gets dragged.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2327000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael grabs Corey in the neck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2441000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Corey looks at the sewers, he is startled by the old man.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2517000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Corey jumps out and suffocates the officer with a jacket.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3257000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, the officer looks around in the sewer and sees Corey standing in front of him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3334000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael appears and attacks the officer.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Corey smashes the piano, the scene suddenly cuts to him riding a motorcycle.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4421000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A guy suddenly bangs on the window yelling for help.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4776000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot was heard.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Michael reaches to the door handle, a microwave sound was heard.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5632000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Laurie stabs Michael, he suddenly gets back up.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5745000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween Ends",
+  "tmdb_id": 616820
+}

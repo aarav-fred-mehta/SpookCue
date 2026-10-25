@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera focuses on a framed photo for several seconds, suddenly the charred face of a woman appears in the reflection of the frame.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1260000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The charred woman runs at the electrician.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1541000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joe is attacked from behind by another charred figure.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A picture falls off the wall, startling Anne.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The charred woman grabs Harry.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniella sees the charred woman in the rear vision mirror, she is then impaled through the stomach.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2453000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul sees two charred figures in the doorway, he then turns to his wife in bed but there is a shrivelled corpse in her place.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3099000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jacob is pushed back on his chair by an unseen force.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3615000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "May is shot in the head as she opens the door and blood splatters onto the camera.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3972000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is impaled through the stomach by one of the charred people.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is grabbed around the ankle by one of the charred figures.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4080000,
+      "type": "minor"
+    }
+  ],
+  "title": "We Are Still Here",
+  "tmdb_id": 291272
+}

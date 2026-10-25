@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1986,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Taylor shines the flashlight on a corpse with a screaming sound cue.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Robbie moves away from the mirror to reveal several corpses watching them on the other side.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2868000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Steve sits down on an armchair, and is flung forward with a sudden burst of lightning.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3042000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden screech that startles Diane and Steven, and the monster stomps its foot down as they turn around.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4304000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diane opens the closet and several corpses jump out at her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4440000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A light suddenly and loudly turns on behind Diane and Steven.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4781000,
+      "type": "minor"
+    }
+  ],
+  "title": "Poltergeist II: The Other Side",
+  "tmdb_id": 11133
+}

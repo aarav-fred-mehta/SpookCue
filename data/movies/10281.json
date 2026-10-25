@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1988,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dan chopping wood with a machete makes a brief surprising sound effect.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason bursts through the wall of a tool shed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body hanging from a tree appears in front of Tina.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4336000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason grabs Tina in a classic moment where the good guys think that it’s all over.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4978000,
+      "type": "minor"
+    }
+  ],
+  "title": "Friday the 13th Part VII: The New Blood",
+  "tmdb_id": 10281
+}

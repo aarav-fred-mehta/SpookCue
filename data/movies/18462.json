@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 1984,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Reggie’s coworker opens the door, followed by a cut to a zombified man attacking him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 893000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reggie turns around to leave and the zombified man suddenly jumps up from behind some boxes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1097000,
+      "type": "minor"
+    }
+  ],
+  "title": "Night of the Comet",
+  "tmdb_id": 18462
+}

@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Alice gets grabbed from behind the doorway.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 782000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Blue jumps down at Rain while she is fixing the power.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body falls out from behind the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1065000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Inside a liquid-containing tank, a body wakes up abruptly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie slams against the window from the other side.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3109000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands grab through some grating on the side of the tunnel.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette walks past the screen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5504000,
+      "type": "minor"
+    }
+  ],
+  "title": "Resident Evil",
+  "tmdb_id": 1576
+}

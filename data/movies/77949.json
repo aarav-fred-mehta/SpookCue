@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden loud noise as the scene changes to a classroom setting.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A reflection in the window suddenly moves, accompanied by a sound effect.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Florence as she reaches into the lake.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A distorted child’s face comes into view through the peep hole.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3257000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face comes out of the pillow beside Florence.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4602000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A child ghost jumps out at the groundskeeper as he hovers over the unconscious Florence.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4845000,
+      "type": "major"
+    }
+  ],
+  "title": "The Awakening",
+  "tmdb_id": 77949
+}

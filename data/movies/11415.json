@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1986,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jim sees Mrs Hooper hanging from the ceiling.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream Roger is having, an arm comes up out of the ground beside a child.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Roger opens a closet door and a monster attacks him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harold appears by the door of Roger’s room.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sandy bends down to pick a bullet up off the floor, when she stands up she has been replaced by a monster.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2742000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Roger opens the closet door and the monster is there.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4194000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tentacle comes out of the medicine cabinet hole and attacks Roger.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4549000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flying skeletal monster jumps out at Roger.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flying monster attacks Roger once more.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4713000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Roger opens the front door and the skeleton of Big Ben is standing there.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Big Ben comes out of a doorway and attacks Roger.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5088000,
+      "type": "minor"
+    }
+  ],
+  "title": "House",
+  "tmdb_id": 11415
+}

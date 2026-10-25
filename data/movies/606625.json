@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2161000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden bang on the door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4381000,
+      "type": "major"
+    }
+  ],
+  "title": "No Escape (Follow Me)",
+  "tmdb_id": 606625
+}

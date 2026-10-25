@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jacob sees some birds flying above him at the party.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2282000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jacob sees a horn come out of Jezzie’s mouth as she dances.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2359000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to a car braking and hitting a bike might startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5390000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jacob sees the reflection of his son in the mirror and reaches out to touch it however a demon head appears and he pulls back.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5431000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jacob’s Ladder",
+  "tmdb_id": 2291
+}

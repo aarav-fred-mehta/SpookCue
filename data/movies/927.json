@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 1984,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Gizmo jumps up from inside the box.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1084000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gizmo is startled by the camera flash.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pete accidentally spills some water on Gizmo.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1528000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the new Mogwai snaps at Pete’s finger.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1629000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gremlin hand reaches out and grabs Pete as he goes to use the phone.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gremlin comes out of a cupboard. [Video] .",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3056000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A glass object is thrown at Billy’s mother.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several plates are thrown at Billy’s mother by a gremlin.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gremlin pokes Billy’s mother from behind.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gremlin, hiding in the Christmas tree, attacks Billy’s mother.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The YMCA bell rings.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gremlin jumps onto Billy’s face. [Video] .",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3634000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gremlin appears on the television.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A saw blade is thrown at Billy.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ball hits Billy.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5520000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The skeletal remains of a gremlin jump out at Billy. [Video] .",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5874000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy’s mother turns around and the antique store owner is standing right behind her.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5955000,
+      "type": "minor"
+    }
+  ],
+  "title": "Gremlins",
+  "tmdb_id": 927
+}

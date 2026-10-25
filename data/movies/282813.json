@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the workers appears in front of the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sphinx creature runs across the screen while shrieking.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1054000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large brick falls on Zahir after he says “What the hell is wrong with you, man?”",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sphinx runs across the screen again.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anubis appears out of the hole and begins to pull the soldier in.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2731000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The large hanging brick that Holden is investigating falls down.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holden is impaled by the Anubis after he says “We have to keep going.”",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3913000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anubis quickly turns toward the camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anubis walks around the corner while growling.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Fitzie places his hand over Nora’s mouth.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera’s light comes back on the Anubis jumps towards it.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4667000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anubis jumps out of the hole and grabs Nora.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4728000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Nora calls out to Fitzie the Anubis crushes his face.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4766000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the boy turns around The Anubis jumps at him.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5029000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Pyramid",
+  "tmdb_id": 282813
+}

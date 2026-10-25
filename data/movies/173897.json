@@ -1,0 +1,241 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A young boy lying motionless on the ground suddenly jumps up and attacks a man.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 177000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied hand appears on a window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 200000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice starts to drink from a pond when a mutant suddenly jumps out of it and attacks her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 417000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster breaks out from underneath some rubble.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature pierces the roof of the truck that Alice is driving.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After colliding with Alice’s car, the creature suddenly roars at Alice.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise as Alice bangs into a metallic object.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice is startled by a printer kicking into life.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 807000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The red queen says “behind you” and Alice turns around to see a mutant running at her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An armed man pops up as Alice approaches the Umbrella Corporation motorbike.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1060000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie runs at Chu.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie rushes at Alice as she enters Dr. Isaacs’ tank.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice shoots a flaming zombie.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the dogs suddenly attacks Christian.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire yells out to Alice who turns around as a zombie attacks her.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3169000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights start to switch back on.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3607000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The blades of the fan start to spin as Claire and Abigail go through it.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3623000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man falls through a trap door.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mutant rushes past the screen.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4005000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Razor drops down behind Alice.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4036000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the chained up corpses suddenly lunges at Razor as he walks past it.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mutant attacks Razor.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mutant gets up and runs away.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice walks into a chain.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mutant drops down from the ceiling.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently dead creature gets up and attacks once more.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doc puts his hand on Alice’s shoulder.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud (although not unexpected) explosion.",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie attacks Dr. Isaacs.",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5616000,
+      "type": "minor"
+    }
+  ],
+  "title": "Resident Evil: The Final Chapter",
+  "tmdb_id": 173897
+}

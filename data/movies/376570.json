@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah bangs loudly on the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 700000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer’s face appears at a window as Maddie tries to leave the house.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1257000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears in front of a window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears around the corner of the house.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2054000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer walks past a window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2203000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears at the window just as Sarah closes it.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2814000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John suddenly gets up and tackles the killer.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3526000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hush",
+  "tmdb_id": 376570
+}

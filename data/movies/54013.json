@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1979,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden loud noise startles the detective.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The detective reaches in towards a plant, and Katie’s pet bird suddenly flies out from it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie’s bird suddenly flies in through the car window and attacks the detective.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie jumps out from behind Barbara.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden loud noise startles Barbara.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bird suddenly flies out of the darkness and screeches.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Barbara approaches Katie, and she suddenly turns around to reveal her face is distorted.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5897000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Visitor",
+  "tmdb_id": 54013
+}

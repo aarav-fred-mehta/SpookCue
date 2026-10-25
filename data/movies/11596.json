@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1994,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chase startles Dylan with a fake crocodile head popping out of a popcorn box.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The electronic Freddy claw suddenly cut one of Chase’s fingers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 190000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Freddy claw attaches itself to one of the workers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 206000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large crack appears in the bedroom wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 548000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man opens the limousine door beside Heather.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 902000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy’s claw bursts through the car seat cover and attacks Chase.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather looks down into the hole and sees Freddy taking Dylan away.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy’s tongue comes out of the telephone and licks Nancy. [Video]",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3280000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy suddenly appears out of the closet. [Video]",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4080000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John appears in Nancy’s kitchen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dylan runs up behind Heather and grabs her as she reads the script.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5723000,
+      "type": "minor"
+    }
+  ],
+  "title": "Wes Craven’s New Nightmare",
+  "tmdb_id": 11596
+}

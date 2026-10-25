@@ -1,0 +1,249 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A distressed woman appears on screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 49000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bright lights flash accompanied by loud sound effects.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 123000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The telephone booth crashes down behind the shop attendant.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 172000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "April walks backwards into a masked man holding an axe.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn off suddenly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1843000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fuse box sparks.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud banging can be heard from upstairs.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flash of lightning illuminates an alien outside walking towards the house.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2094000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lex is suddenly lifted into the alien ship.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "On some camera footage, a girl is suddenly abducted into the alien ship.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2520000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman bursts out of a closet.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Travis grabs Seth and puts a knife to his neck.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2698000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien silhouette appears behind Travis.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Travis, who is hiding underneath a bed, sees some alien feet.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3045000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand grabs Travis around the face.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3074000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bang can be heard from the other side of the door.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "April looks through the peep hole in the door and sees an alien eye.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3232000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles the sheriff.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien runs quickly past the sheriff.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3536000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sheriff turns the car lights on to reveal an alien standing in front of the car.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "April appears by the car window beside Seth.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3822000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and a red light illuminates the room.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3974000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a momentary silence there is a loud noise and flashing blue lights.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The floor boards begin to break up.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4061000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Seth is attacked by an alien.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kyle approaches a mirror, suddenly an alien hand bursts through and grabs him.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4470000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something sparks near April.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The power suddenly comes back on.",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4608000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The probe device suddenly opens.",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5041000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien/human hybrid opens its eyes.",
+      "id": "scare_30",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5194000,
+      "type": "minor"
+    }
+  ],
+  "title": "Extraterrestrial",
+  "tmdb_id": 265016
+}

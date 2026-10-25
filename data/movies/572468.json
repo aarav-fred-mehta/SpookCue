@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the statues falls over and then someone appears behind the gate.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone says “help” and then a girl appears in the seat beside the driver.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4889000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The three girls appear at the back of the room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The grandmother appears in the mirror.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6252000,
+      "type": "minor"
+    }
+  ],
+  "title": "Impetigore",
+  "tmdb_id": 572468
+}

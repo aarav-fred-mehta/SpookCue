@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some scissors fall from a shelf while Carlos is filling his water jug.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost boy appears behind Carlos and touches him on the shoulder before disappearing.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carlos is surprised by his friends pulling the curtain beside his bed across while he is sleeping.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carlos looks out of a keyhole and an eye suddenly appears. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3533000,
+      "type": "major"
+    }
+  ],
+  "title": "The Devil’s Backbone",
+  "tmdb_id": 1433
+}

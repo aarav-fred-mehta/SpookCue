@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Child suddenly suffocated.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cutting of an abdomen and Human organ manipulation.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1440000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Threading needles into lips and mouth.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden unzipping of abdomen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quick camera close up of cutting into side of foot and bone.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3600000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two sudden drills pulled out and drilling to the head.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5520000,
+      "type": "major"
+    }
+  ],
+  "title": "Crimes of the Future",
+  "tmdb_id": 819876
+}

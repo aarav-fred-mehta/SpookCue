@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A teenage boy jumps out with a gas mask on and growling to scare Sarah.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The same teenage boy is suddenly stabbed all the way from the back of his head and out through his eye socket, pushing his eyeball out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 527000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah is suddenly grabbed from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry Ward is shot from behind just as he was about to attack Tom.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 822000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "‘Frank The Trucker’ opens his cab door, only to see Harry Ward in the cab, immediately followed by Harry Stabbing Frank through the top of his skull.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1532000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden sound cue and visual of pool balls being hit.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tom turns around and is suddenly attacked by Harry Ward.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2541000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tom turns around in the cage only to be face to face with the killer.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry Ward suddenly appears and attacks Ben Foley.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights in the grocery store abruptly and loudly turn off.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pick-axe goes through the door missing Sarah’s face by a hair.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3829000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry Ward suddenly appears at the window.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3941000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ex-Sheriff Burke suddenly bangs on the car window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4195000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The deputy opens the bloodied dryer door and a steaming, grotesque head falls out.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4366000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ex-Sheriff Burke turns around and is immediately stabbed by Harry Ward.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4373000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry’s shadow appears on the wall.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4952000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A miner’s uniform suddenly falls.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry ward suddenly appears.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tom swings a pick-axe at his rescuer, stabbing him through the head.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5621000,
+      "type": "minor"
+    }
+  ],
+  "title": "My Bloody Valentine",
+  "tmdb_id": 14435
+}

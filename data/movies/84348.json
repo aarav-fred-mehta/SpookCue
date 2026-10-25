@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the men opens a door and becomes startled by something they see while entering.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the men bursts through the door behind the lead character in the bathroom.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cameraman spots a figure in the basement.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A small child runs through the doorway behind Emily.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4777000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily uses the camera’s flash and spots the small child in a room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4919000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily spins the camera and stops it, revealing a kid’s face.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5185000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera moves from a severed head and reveals a figure in the doorway.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5572000,
+      "type": "minor"
+    }
+  ],
+  "title": "V/H/S",
+  "tmdb_id": 84348
+}

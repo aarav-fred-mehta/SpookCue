@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A homeless man bangs on the door of the taxi.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 96000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia stares at her reflection in the window and it abruptly changes to another image of her looking distressed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1059000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia sees a dead rat.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a metallic bang from the other side of a door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1505000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and visual disturbance from the camera feed that Julia and Dennis are watching.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door unlocks and opens as Julia is walking away.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1927000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog barking may startle some viewers.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2107000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia walks into a bucket.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia shines her torch on a girl sitting hunched over on a bed.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2347000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia stands on a baby doll causing it to make a laughing noise.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2445000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves quickly past a window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2678000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia shines the torch on a disfigured person.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2690000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A distressed Julia suddenly appears out of the darkness.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2710000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure passes behind Jim.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette can be seen standing right behind Jim.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Children can be seen on the security footage peeking at Dennis from behind some pillars.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and Dennis’s wheelchair begins to shake.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3729000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl hovering on the ceiling turns her head.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise from behind Dennis.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3936000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a scream and Dennis is pushed off his wheelchair.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia shines the torch on Jim’s bloodied face.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4103000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Abandoned",
+  "tmdb_id": 345875
+}

@@ -1,0 +1,185 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A stuffed rabbit toy suddenly turns its head towards Heather.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 123000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife suddenly impales Harry.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 251000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden scene change to a close-up of a pop tart popping out of a toaster.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A homeless man’s face suddenly transforms into a disfigured eyeless head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man startles Heather.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 661000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vincent appears behind Heather, startling her out of her hallucination.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 906000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure crosses in front of Harry as he opens a door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man turns around to reveal his eyes and mouth are sewn shut.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster (The Missionary) drops down behind Douglas and attacks him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Missionary appears once more and pulls Douglas away.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1302000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud metallic clanking as a door opens.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather has a dream of Alessa in Silent Hill.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alessa’s image briefly flashes across the screen.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2305000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vincent is grabbed by The Missionary.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2445000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather is startled by one of the statues.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2926000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The statue turns to Heather and opens its eyes.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The spider-like creature attacks Heather.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather shines her torch on a monster.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leonard rushes out of the darkness at Heather.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A prisoner grabs at Heather through some bars. [Video] .",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3879000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doors burst open as Vincent is wheeled in on a hospital bed.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather looks to her left and sees a man in a gas mask beside her.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4423000,
+      "type": "minor"
+    }
+  ],
+  "title": "Silent Hill: Revelation",
+  "tmdb_id": 61012
+}

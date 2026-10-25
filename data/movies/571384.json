@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sticky hand hits the wall.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 203000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door is pushed open.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The booth door blows open after the lights flicker.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene a girl walks by laughing.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Oliver is holding the camera up, the skeleton face growls loudly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1317000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lightbulbs start to break.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1926000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The table starts to move.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2097000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chair moves when she says “Hello”",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2438000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a jump cut back to Larry attacking Byron.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2702000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The closet door is pushed open.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crunch as Larry is seen in the reflection of the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3373000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hand in the screen cracks before Larry attacks.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3976000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Larry appears in the window and growls.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Larry drops down to the floor.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4800000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Larry charges out of the grass.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4952000,
+      "type": "minor"
+    }
+  ],
+  "title": "Come Play",
+  "tmdb_id": 571384
+}

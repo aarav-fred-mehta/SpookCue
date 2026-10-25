@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1965,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Carol closes the closet door, the reflection of a man can briefly be seen in the closet mirror.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2862000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Carol turns on a light, a crack opens up on the wall.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3096000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady screams as Carol cuts her finger.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3453000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bridget opens Carol’s purse and sees a rotting rabbit’s heart.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3591000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands reach out of the walls to grab Carol while she is in the hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4647000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carol turns around a man is lying beside her in bed who then attacks her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5594000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands once again come out of the walls and attempt to grab Carol.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5690000,
+      "type": "minor"
+    }
+  ],
+  "title": "Repulsion",
+  "tmdb_id": 11481
+}

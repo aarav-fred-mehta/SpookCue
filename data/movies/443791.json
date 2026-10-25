@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Norah points her flashlight in front of her, the camera scrolls to reveal a dead body right in her face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Smith and Paul investigate the back of a dead body, something suddenly jumps out from inside the body right at the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2256000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily pokes the creature, which causes it to suddenly get up and shriek.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2278000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a quiet scene, something hits the outside of the building, making a loud noise.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul puts his ear on a wall, followed by a loud noise that startles him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another banging sound that startles the crew.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2414000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something hits the outside of the building again.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the crew point a flashlight to a window in the ceiling, a bunch of tentacles suddenly smash against it.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2478000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norah points her lights in front of her, which reveals a creature who swims at the camera.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the creatures swims right in front of Norah.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the creatures suddenly appears behind Norah as the captain shines his light on her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3434000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the captain looks in front of him, one of the creatures swims towards the camera.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3513000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norah shines the light on a creature that suddenly attempts to grab her.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3744000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The leg of one the creatures drops down in front of Norah.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4575000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norah is suddenly grabbed in the face by one of the creatures and dragged upwards.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4614000,
+      "type": "major"
+    }
+  ],
+  "title": "Underwater",
+  "tmdb_id": 443791
+}

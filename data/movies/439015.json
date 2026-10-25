@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Hallie sees a shadowy figure moving in the living room.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1100000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After falling over, Chloe looks up and sees Slender Man towering above her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Wren is startled by Hallie.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2278000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wren and Hallie spot Chloe standing by herself with a dazed expression.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, a woman walks in front of Wren.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Slender Man appears in front of Wren.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3011000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Slender Man appears behind Wren.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3078000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chloe suddenly appears in front of her window startling Wren and Hallie.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Tom says “Hey, come here”, Hallie looks back at him and his face takes on a horrible distorted expression and a loud staticky sound effect plays.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3618000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hallie is suddenly attacked by Slender Man as she hides behind a tree trunk.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lizzie grabs Hallie’s arm.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4345000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tentacle breaks through the window and pulls Wren outside.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4830000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hallie looks around and Slender Man appears right in front of her face.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tentacles wrap themselves around Hallie.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5058000,
+      "type": "minor"
+    }
+  ],
+  "title": "Slender Man",
+  "tmdb_id": 439015
+}

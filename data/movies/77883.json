@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thump comes from the box as a lady reaches out to touch it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 103000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bandaged lady suddenly slams on the window, startling Em.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 798000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A small creature suddenly races out of the dog door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1359000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hannah opens the bathroom cupboard and a large number of moths fly out.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1573000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We see a hand coming out of Em’s throat as she looks inside her mouth with a torch.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A book suddenly flies out of Clyde’s hand as he reads to Em.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3300000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stephanie bursts into the room.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tzadok suddenly breaks the glass on the box.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Em suddenly drops down in front of Clyde as he notices blood dripping on his hand.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4840000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck suddenly slams into a car.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5241000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Possession",
+  "tmdb_id": 77883
+}

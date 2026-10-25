@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of Edith’s mother reaches out and touches Edith on the bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 178000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of Edith’s mother turns around and screams at Edith.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 867000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost reaches through the door and grabs Edith. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 896000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost appears at the half opened door and pulls it shut.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3466000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost appears out of the ground and begins crawling down the hallway towards Edith.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette moves past the bedroom window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Edith is pulled to the floor by an unseen force.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3860000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost in the bathtub suddenly moves.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucille lunges at Edith with a cleaver.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6454000,
+      "type": "minor"
+    }
+  ],
+  "title": "Crimson Peak",
+  "tmdb_id": 201085
+}

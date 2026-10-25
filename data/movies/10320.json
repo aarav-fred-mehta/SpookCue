@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears at the entrance to the well.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel unzips the body bag to reveal Jake’s horribly contorted face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rachel zips up the body bag, Samara’s arm suddenly grabs her. [Video]",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 879000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samara briefly flashes up on the screen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deer smashes through the car window beside Rachel. [Video]",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1877000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel attempts to pull Aidan from the bathtub but he has been replaced by Samara.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aidan grabs Rachel’s arm.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3039000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rachel goes to open a door, it is suddenly opened on the other side.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3388000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aidan comes up behind Rachel and hugs her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Max slumps back in the drivers seat to reveal a horribly contorted face.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samara surfaces from the well once more.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5657000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Ring Two",
+  "tmdb_id": 10320
+}

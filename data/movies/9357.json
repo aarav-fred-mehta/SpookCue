@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a nightmare, Sy is standing in an empty SavMart store with his eyes shut. He opens his eyes to reveal they are filled with blood. Suddenly he yells out and covers his face as blood gushes out of his eyes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3580000,
+      "type": "minor"
+    }
+  ],
+  "title": "One Hour Photo",
+  "tmdb_id": 9357
+}

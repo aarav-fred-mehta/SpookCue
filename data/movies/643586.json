@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a very loud sudden cut from the protagonist staring at an animatronic, to a door opening.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 759000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another loud and sudden cut to a fridge opening.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1061000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ostrich animatronic suddenly begins to shake violently accompanied by a sound cue.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut on its own.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the protagonist looks around a bathroom stall, an animatronic drops down from the ceiling right at the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1635000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Liv is crawling around an airduct, an animatronic suddenly runs up behind her at a very quick speed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1961000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a cut to the siren animatronic running behind some trees accompanied by a sound cue.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The siren animatronic jumps at Liv from the side.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knight animatronic suddenly stabs one of the teenagers.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2685000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy notes that one of the animatronics disappeared, and Bob responds “Where did it go?” after which the animatronic springs up behind them and attacks.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3043000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An animatronic hand swoops down from the car window and grabs the police officer.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The siren animatronic springs back to life as seen through a rear-view mirror.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4896000,
+      "type": "minor"
+    }
+  ],
+  "title": "Willy’s Wonderland",
+  "tmdb_id": 643586
+}

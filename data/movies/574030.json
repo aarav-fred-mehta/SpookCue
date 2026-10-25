@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As they touch the woman she reanimates as a demon and the music comes in very loudly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2308000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica yells now as a demon.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2951000,
+      "type": "minor"
+    }
+  ],
+  "title": "Here Comes Hell",
+  "tmdb_id": 574030
+}

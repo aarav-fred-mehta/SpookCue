@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sheets blow upwards at a lady setting up Halloween decorations.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 258000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Wilkins is startled by noise and movement coming from a body bag.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1202000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy jumps up from behind the table.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster jumps from the swamp.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie spins around and comes face to face with a man dressed in a black costume.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An egg is thrown at the old man’s window from outside.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3638000,
+      "type": "minor"
+    }
+  ],
+  "title": "Trick ‘r Treat",
+  "tmdb_id": 23202
+}

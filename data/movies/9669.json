@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Mai is walking towards an open window, she suddenly gasps loudly and there is a cut to Sadako on the other side of the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1887000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ringu 2",
+  "tmdb_id": 9669
+}

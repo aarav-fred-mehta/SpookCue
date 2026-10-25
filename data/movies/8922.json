@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Darry is surprised by rats as he looks into the pipe.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out of the body bag and grabs Darry around the ankle. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1368000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crow caws loudly, startling Trish.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darry suddenly appears at the car window. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1888000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A phone rings.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2135000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a gunshot, followed by a second gunshot a few seconds later.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature drops down onto the windscreen in front of Darry and Trish.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3421000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature jumps down onto a police officer and kills him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature comes around a corner while Darry, Trish, and Jezelle are arguing.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4512000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature grabs Jezelle around the head.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature bursts through the door of the interrogation room.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4633000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jeepers Creepers",
+  "tmdb_id": 8922
+}

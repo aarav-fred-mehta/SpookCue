@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some viewers may be startled by a sudden bright flash that appears on camera footage the crew are watching.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2309000,
+      "type": "minor"
+    }
+  ],
+  "title": "Europa Report",
+  "tmdb_id": 174772
+}

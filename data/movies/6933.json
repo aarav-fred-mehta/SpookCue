@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A young girl’s screaming face appears at the window of a burning building.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 83000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young woman leans over a pond when a hang emerges from the water and pulls her in.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hand grabs a cat and pulls it into the pond.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car horn sounds as Brian is nearly run over.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud explosion while Brian and Beth are talking.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1372000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "is probably the most startling (mainly due to the loud jump scare sound effect that conicides with it).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1642000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth opens a closet door and a puppet hanging from the ceiling drops down in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand holding a phone appears beside Taylor.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure passes behind Beth.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth runs into Jack.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3716000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out from between some doors to grab Beth.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack shines his torch on a figure in the corner of the room.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3769000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth shines her torch on a decayed corpse.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3952000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse begins to move towards Beth.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4021000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A doorbell rings during a tense scene.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4720000,
+      "type": "minor"
+    }
+  ],
+  "title": "One Missed Call",
+  "tmdb_id": 6933
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden growl.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1700000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature growls and comes forward quickly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1902000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cop is impaled from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature breaks through the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4760000,
+      "type": "minor"
+    }
+  ],
+  "title": "Antlers",
+  "tmdb_id": 516329
+}

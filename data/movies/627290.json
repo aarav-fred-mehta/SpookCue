@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Veronica is suddenly attacked from the side by the senator while entering a shed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5186000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Veronica turns around, shining the torch’s light on the captain.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5509000,
+      "type": "minor"
+    }
+  ],
+  "title": "Antebellum",
+  "tmdb_id": 627290
+}

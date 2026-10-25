@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Julia jumps out at Billy from behind a hallway and snaps a photo with her camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 635000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A balloon suddenly explodes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1372000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Detective Carlson enters the kitchen, Aunt Cheryl jumps out at him from the side.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1999000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While walking away from the house, Julia is grabbed by the detective hiding behind some bushes.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aunt Cheryl runs into the kitchen shouting from the porch door while Julia is looking around.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3886000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Margie looks around, there is a cut to Aunt Cheryl watching her from the bushes.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4665000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aunt Cheryl suddenly jumps back up from the ground behind Billy.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5134000,
+      "type": "major"
+    }
+  ],
+  "title": "Butcher, Baker, Nightmare Maker / Night Warning",
+  "tmdb_id": 67740
+}

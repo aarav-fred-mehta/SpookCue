@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden musical burst as Charlie sees someone in the car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 951000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The coffin lid blows open.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4638000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Betty sees Charlie in the car mirror.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4904000,
+      "type": "minor"
+    }
+  ],
+  "title": "Woe",
+  "tmdb_id": 759955
+}

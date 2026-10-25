@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie suddenly gets up and growls at Anna.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1870000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bunch of zombies suddenly burst through the wall.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2334000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the end of a musical track, there is a sudden cut to Anna jumping out of a kiddie pool.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2831000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie lunges out from behind the christmas trees.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Chris closes the door there is a loud cut to Anna running through some plastic curtains.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4367000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the red ribbon flies across the screen a zombie santa appears behind it and jumps towards the camera.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5565000,
+      "type": "major"
+    }
+  ],
+  "title": "Anna and the Apocalypse",
+  "tmdb_id": 461928
+}

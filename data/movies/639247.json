@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The boy is suddenly standing behind the refrigerator.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Gail and Luke are playing the piano, the keyboard lid slams shut out of nowhere.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 722000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ruth suddenly appears behind Gail and Josh.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1189000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josh suddenly screams.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4268000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dreamkatcher",
+  "tmdb_id": 639247
+}

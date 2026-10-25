@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang after someone says “Jonas, there’s something outside the ship”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 141000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise as the sub is hit.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1304000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Suyin starts counting down something slams into the glider.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1971000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tentacle suddenly lands on the glider startling Suyin.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Megalodon bites into the glass startling Meiying.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A whale bangs into the window in front of Mac.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2852000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Megalodon suddenly attacks the whale.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jonas submerges once more and the shark is now swimming directly in front of him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shark bumps into the tank that Suyin is in.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3538000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Megalodon rams the tank.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3582000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Megalodon rams the tank once more.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3611000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As The Wall leans in to the shark carcass for a picture, the carcass suddenly moves and he falls overboard.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Megalodon jumps out of the water and swallows The Wall.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4062000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Morris leans out of the boat to look at the carcass and is startled when a man jumps down beside him.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4987000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Morris briefly rests on the carcass of the dead whale before the Megalodon appears and eats him.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark lunges out of the water and attacks the group of beach swimmers.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5499000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Megalodon suddenly appears in front of Jonas.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud splash startles DJ and Meiying.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5824000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Meg",
+  "tmdb_id": 345940
+}

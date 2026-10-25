@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As the crew explore the Icarus I, something dislodges from the ship and makes a loud bang.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3006000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Icarus II abruptly disengages from Icarus I.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pinbacker suddenly attacks Capa.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4533000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pinbacker impales Corazon with a scalpel.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4718000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An abrupt cut to Mace crying out as he climbs out of the coolant reservoir may startle some viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pinbacker grunts loudly and punches through a glass wall.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4995000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sunshine",
+  "tmdb_id": 1272
+}

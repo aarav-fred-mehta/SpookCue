@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1953,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse on a gurney sits up.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Box 27 is opened, revealing the body of the man who was recently murdered.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2591000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The guillotine blade drops.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2832000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Professor Jarod’s face peels away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4697000,
+      "type": "minor"
+    }
+  ],
+  "title": "House Of Wax",
+  "tmdb_id": 18573
+}

@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sophia sees Courtney on the other side of the elevator.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Courtney quickly opens the shower curtain during a tense scene.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A coprse appears in the bathtub from under the shower curtain.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2090000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears on the window of the wrecked car that Courtney is looking through.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3233000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A few short cuts to the car crash may startle some viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3559000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie’s girlfriend appears behind him briefly before the phone rings.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3798000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud static comes out of the radio.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Courtney tries to leave down the fire escape but Tessa appears in front of her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4097000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While swimming, Marlo has a flashback to her “flatlining” experience where she is floating face down in the water.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marlo looks up and sees the word “MURDERER” written on the morgue cabinet.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse appears behind Marlo.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The radio crackles into life.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4634000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "All the cabinets on Jamie’s boat suddenly open.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie sees his ex-girlfriend.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4723000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out and touches Jamie’s shoulder.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie is stabbed in the hand as he tries to climb out of the water.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4794000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the elevator door begins to close, Sophia briefly sees the girl from her class.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5234000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marlo is suddenly suffocated with a plastic bag.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5734000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse suddenly grabs Marlo around the throat.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5856000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marlo is suddenly lifted in the air and thrown backwards by an unseen force.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5918000,
+      "type": "minor"
+    }
+  ],
+  "title": "Flatliners",
+  "tmdb_id": 400710
+}

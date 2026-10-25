@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Uri pretends that something has grabbed his hand in the water.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul touches a mutated fish and it moves.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1079000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bear appears in the hallway and charges at the group.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul bangs on the van window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several dogs jump at the van windows.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the van.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A small fish splashes in a pond which startles the group.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Amanda reaches for the gun, the creature suddenly moves.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something falls down beside Paul.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3260000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something breaks the van window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3595000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chair hits a wall and breaks.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3801000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A distressed Natalie appears around a corner.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3813000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amanda shines the torch on a dead guard hanging upside down.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4029000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mutated creature jumps out from underneath a blanket. [Video] .",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4368000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature attacks Amanda from behind.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amanda is suddenly attacked by a large group of mutated creatures. [Video] .",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4828000,
+      "type": "major"
+    }
+  ],
+  "title": "Chernobyl Diaries",
+  "tmdb_id": 93856
+}

@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The car Max and her mother are in suddenly hits something and flips over.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy comes into view, accompanied by a loud noise on the sound track.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1702000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy appears behind a hiker and kills him. Seconds later, he appears behind a girl who he also kills.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Duncan is suddenly impaled by the killer’s machete.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer’s face appears in the window behind Gertie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2389000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy is suddenly standing behind Max, Nancy, and Chris.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3987000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Max enters the barn and sees two dead bodies.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4167000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy appears behind Max while she in untying Nancy.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4200000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Final Girls",
+  "tmdb_id": 293970
+}

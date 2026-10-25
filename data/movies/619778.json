@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man is thrown backwards through a door, hitting a wall.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden sound of a blender coming from the kitchen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 736000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A TV suddenly turns on.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure suddenly attacks Derek.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Madison suddenly gasps as she sees a dead body.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure suddenly slams the front door shut as Madison is trying to escape.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 952000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maddie suddenly appears at the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body with a bloodied face falls from the ceiling.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1914000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a screech, a mysterious figure can be seen downstairs suddenly running from one side to the other.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2127000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Madison turns after putting clothes in the washer, a screaming woman suddenly appears on the other side of the washer door glass.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2185000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the prisoner tries to cut her ropes, a trophy/dagger is thrown landing in a wooden post and just missing her face.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure suddenly appears.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2719000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A carriage suddenly moves, accompanied by a sound.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gabriel suddenly jumps down from his hiding place.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3957000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An escaping woman falls through the attic floor.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4418000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Madison shouts and gets angry, the lights in the interrogation room explode.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4576000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lot of light bulbs in the police station explode all at once.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hospital security guard’s pacemaker explodes out of his chest.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6036000,
+      "type": "minor"
+    }
+  ],
+  "title": "Malignant",
+  "tmdb_id": 619778
+}

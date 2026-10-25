@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow person runs towards the camera. (It is visible from a second or so beforehand, but viewers who do not spot it may be be startled when it makes a more clear appearance.)",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A friend of the librarian jumps at her from behind as a joke.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1670000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The librarian opens her eyes to see a shadow person standing behind the shower curtain.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1813000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The librarian looks out to the hallway to see a shadow person standing around a corner.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charlie looks at the turned off TV and sees the reflection of a shadow person right next to him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3002000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charlie turns around to see if there’s anyone there, but doesn’t see anything. He turns back to the TV, staring at it for a few seconds when a shadow behind him suddenly moves very quickly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow person runs across the hallway.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3366000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans back to the hallway to reveal a man standing right there, and he jumps at the camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3381000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shadow person suddenly opens its mouth and lunges at the camera.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3912000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a mid-credits scene, Preston’s shadow begins to move on its own. After a few seconds of slow build up of an arm morphing out of the shadow, it suddenly grabs him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4885000,
+      "type": "minor"
+    }
+  ],
+  "title": "Shadow People",
+  "tmdb_id": 176570
+}

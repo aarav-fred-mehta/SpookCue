@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby is suddenly grabbed on the shoulder by a deformed looking hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby’s apartment door suddenly shuts off on its own.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Bobby is leaning down to grab the coins, the laundry machine suddenly goes off on its own.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2444000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby is suddenly grabbed by bloody hands and dragged away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3671000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the man throws his trash down the chute, he is grabbed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3901000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby opens his eyes and sees a ghost woman floating above him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A box of pins suddenly drops down on a chair.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4206000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apartment door shuts off on its own.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carly is grabbed from behind and dragged into the darkness.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5005000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Echo",
+  "tmdb_id": 25329
+}

@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Caroline is surprised by a woman with milky eyes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 772000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Caroline turns around and almost walks into a man standing behind her. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 797000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben grabs Caroline around the wrist.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 913000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to the attic slams shut.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1354000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Violet steps out in front of Caroline. [Video]",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1384000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Caroline bumps into something, she turns around quickly and sees a hanging Hoodoo doll. [Video]",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2054000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flower-pot breaks as it is dropped to the floor.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud clap of thunder while Caroline is performing the ritual on Ben.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3483000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Luke comes up behind Caroline and attempts to strangle her with some cord.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4904000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Violet lifts a sheet to reveal Ben who is holding some garden shears.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Violet opens a door and appears in front of Caroline.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5209000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Skeleton Key",
+  "tmdb_id": 9913
+}

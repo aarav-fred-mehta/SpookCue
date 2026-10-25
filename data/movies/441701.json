@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Diana and Rosa are startled as they shine their torches on each other.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Veronica suddenly sits up and lets out an unnatural scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Veronica reaches out to touche the glass cup, the television suddenly turns on.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands reach out and pull Veronica onto the bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, the demon walks into Lucia’s room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Veronica sees a figure in the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Veronica touches the mattress and a hand reaches out of it and grabs her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5205000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Antoñito, who is standing by the kitchen door, is pulled away by the demon.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon walks past the window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a bolt of lightning and the demon can briefly be seen in the corner of the room.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5362000,
+      "type": "minor"
+    }
+  ],
+  "title": "Veronica",
+  "tmdb_id": 441701
+}

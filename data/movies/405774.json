@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 124,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An ambulance crashes into a car in front of Malorie and Jess.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 627000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Malorie shoots her gun several times, the stranger suddenly grabs her and yells “take your damn blindfold off”.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2227000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After repeating Malorie’s name several times, the girl is pulled to the ground and dragged away.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3721000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot may startle very sensitive viewers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5779000,
+      "type": "minor"
+    }
+  ],
+  "title": "Bird Box",
+  "tmdb_id": 405774
+}

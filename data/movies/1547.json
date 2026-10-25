@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "David attacks the security guard in the parking lot.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael screams in horror as the brothers drop into the fog from the train bridge.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1945000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The family dog attacks Michael when he enters the bathroom to kill Sam.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Thor the dog lunges at Lucy.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Edgar plunges a wooden spike through Marko’s heart.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4264000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul leaps out from behind the bathroom door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4809000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Max turns around revealing he is a vampire.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5389000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grandpa drives his jeep into the house killing Max with a large wooden spike.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5452000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Lost Boys",
+  "tmdb_id": 1547
+}

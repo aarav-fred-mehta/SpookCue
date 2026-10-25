@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 122,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sound effect plays as Jeremiah becomes agitated when asking Marlene to fetch Brother Swan.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the lights flicker, the Black Skulls suddenly grab Red and Mandy from their beds.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Red looks in a bedroom to see a dead couple covered in blood.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud gunshot and the television blows out.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5028000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Red tastes the contents of the jar, he violently hallucinates and some unsettling imagery flashes across the screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5162000,
+      "type": "minor"
+    }
+  ],
+  "title": "Mandy",
+  "tmdb_id": 460885
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The movie title card is displayed suddenly, accompanied by a loud noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 199000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thud on the tent.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bear lets out a roar and attacks the tent.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3614000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bear attacks the tent once more.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3720000,
+      "type": "minor"
+    }
+  ],
+  "title": "Backcountry",
+  "tmdb_id": 228973
+}

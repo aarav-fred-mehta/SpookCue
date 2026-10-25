@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1997,
+  "runtime_minutes": 134,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Fred opens the car trunk and the man inside jumps out and grabs him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7392000,
+      "type": "minor"
+    }
+  ],
+  "title": "Lost Highway",
+  "tmdb_id": 638
+}

@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1988,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The blob suddenly slides up the stick.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 975000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Brian sits down, the can man appears behind Brian with an axe.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After talking on the phone, Paul looks up, and sees the blob drop down on him from the roof.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1594000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Scott starts groping Vicky, the blob wraps itself around Scott’s arm and Vicky’s face begins to melt.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The blob launches up from the sink drain, and pulls the diner worker through it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2596000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brian slips and falls down on the floor.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2829000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the theatre manager is walking through the projector room, a yoyo drops down right in front of him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After being dragged under the water in the sewer by the blob, a badly dissolved Eddie jumps up from the water.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4310000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A soldier is suddenly grabbed by the blob.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4358000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After leaving the motorcycle behind in the sewer, a soldier abruptly walks into Brian.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The blob crashes up through the sewer hole.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4875000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Blob",
+  "tmdb_id": 9599
+}

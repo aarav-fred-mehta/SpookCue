@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1994,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A homeless man pops up against the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1110000,
+      "type": "minor"
+    }
+  ],
+  "title": "Leprechaun 2",
+  "tmdb_id": 18009
+}

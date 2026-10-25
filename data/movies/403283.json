@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden noise in the distance.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1536000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the group look around the room with a flashlight, there is suddenly a cut to a creepy old man behind some shelves who turns at the camera with a sound cue.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1772000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paulina leans in towards the seemingly dead creepy old man, who suddenly grabs her the shoulder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden, very loud noise scares the entire group.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1909000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire approaches Dave in bed before disappearing. When, Dave turns around, she is right in front of his face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3423000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While walking backwards, Alan runs into the creepy old man.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The soldier touches the seemingly dead man with a knife, and he springs back up.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3789000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alan turns around, shining the light on the creepy old man who is standing right in front of him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3839000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Paulina slowly reaches out for her son’s shoulder, he quickly turns around.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3961000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The son runs at Paulina, briefly going out of frame. When he reappears, his face shifts and he begins attacking Paulina.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden earthquake.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4407000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A closet door closes on its own, revealing Claire with a knife behind it.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire appears on screen and screams as she attacks the camera.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4640000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden scream is heard in the distance.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Tyler and Paulina walk into the dark corridor, there is a gasping sound right in front of them.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4818000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera’s night vision shows a woman right in front of Tyler and Paulina who looks up at the camera and screams.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4856000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The water begins to bubble, scaring Paulina.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paulina looks up from the ground and sees her son right in front of her, who then screams.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4985000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paulina stands up, and there is a rotting corpse right in front of her face.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paulina looks down from the ceiling with the flashlight and shines it on Pepe.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5200000,
+      "type": "minor"
+    }
+  ],
+  "title": "Gehenna: Where Death Lives",
+  "tmdb_id": 403283
+}

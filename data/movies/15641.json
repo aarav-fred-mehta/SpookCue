@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears outside the window while the couple in the car are making out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 162000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Caleb says “This was a mistake,” a friend jumps out from the back seat to scare them as a joke.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car is suddenly hit, causing it to shake.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2634000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Caleb is dragged back in through the window while Tanner and Jessica are trying to pull him out.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Reece is moving closer towards the dead body, Jessica suddenly jumps out from underneath it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4199000,
+      "type": "minor"
+    }
+  ],
+  "title": "Vacancy 2: First Cut",
+  "tmdb_id": 15641
+}

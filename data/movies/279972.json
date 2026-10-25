@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Will turns on the camera light and a monster is standing right in front of him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1826000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is suddenly a loud bang in the middle of a conversation.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1989000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam grabs his boot from the grave and stands up to reveal Dekker standing right behind him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4121000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Adam and Dekker are arguing, Will points the camera downwards and a monster runs straight at him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4247000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is suddenly an incredibly loud screech that wakes up Adam and his wife.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5114000,
+      "type": "major"
+    }
+  ],
+  "title": "Digging Up the Marrow",
+  "tmdb_id": 279972
+}

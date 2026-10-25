@@ -1,0 +1,225 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A possessed Linda pops up in front of Ash.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 352000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash lifts his head out of a puddle and screams, showing that he is possessed himself.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombified hand comes out of the ground.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1053000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zombie Linda appears at the window as Ash looks out.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1112000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Linda’s head falls into Ash’s lap.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1159000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Headless Linda bursts into the shed holding a chainsaw.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash sees himself in the mirror the mirror Ash comes out of the mirror and grabs him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1479000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to Ash’s possessed hand.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1700000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash stabs his own hand with a knife.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1798000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jake jumps at Ash.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Henrietta bursts through the cellar floor.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2410000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henrietta’s horribly contorted face pokes through the cellar door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2475000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ed is possessed and screams from behind Annie.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2660000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud roaring noise.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2832000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jake and Bobby Joe break through a door.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A possessed tree roars at Bobby Joe.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash becomes possessed once more and lets out a roar.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3514000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Ash appears at the cabin door.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3531000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Ash appears at a window.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3648000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henrietta pops out of the cellar door and drags Jake into the cellar.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3782000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annie walks into possessed Ash.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash ducks out of the way as Annie swings an axe at him.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3909000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The skeleton of Jake appears beside Ash.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4190000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henrietta grabs Ash through the cellar stairs.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henrietta rises up out of a hole in the floor.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4282000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud boom and a tree branch falls on the cabin.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The physical incarnation of evil appears in the cabin doorway.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4537000,
+      "type": "minor"
+    }
+  ],
+  "title": "Evil Dead 2",
+  "tmdb_id": 765
+}

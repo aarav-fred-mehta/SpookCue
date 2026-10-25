@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 1991,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog lunges at Leroy.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1180000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dust suddenly comes out of the grate that Fool is talking into.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1636000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Fool is tackled from behind by a boy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leroy, who is lying on the floor, jumps up as Fool touches him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Roach suddenly reaches through a gap in the wall and grabs Leroy.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daddy shoots through the wall beside Fool.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog jumps up at the hole in the door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daddy bursts into Alice’s room.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3042000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spikes come out of the wall just in front of Fool and Alice.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3658000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daddy, wearing his suit, jumps out at Fool. [Video]",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4470000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mommy grabs Alice.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4966000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands burst through the stairs.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5522000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several people come out of the walls and attack Mommy.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5552000,
+      "type": "minor"
+    }
+  ],
+  "title": "The People Under the Stairs",
+  "tmdb_id": 13122
+}

@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A worker is abruptly and quickly pulled out of the frame.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A walkie-talkie suddenly makes a noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cracking sound is heard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1291000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly reaches through the grate.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1323000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud shriek is heard through the headphones.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2251000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is suddenly pulled toward the mine shaft.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2282000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is grabbed accompanied by a loud sound.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2702000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden loud monstrous shriek.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creatures face suddenly appears at a door window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3311000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A walkie-talkie suddenly makes a sound.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3350000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature suddenly appears behind Arianne.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arianne’s hand is grabbed as she reaches into the water.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4135000,
+      "type": "major"
+    }
+  ],
+  "title": "The Devil Below",
+  "tmdb_id": 760875
+}

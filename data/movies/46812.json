@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to a vampire POV shot outside alongside a string sound effect.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1772000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is suddenly thrown out the window in the background.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2056000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screeching woman jumps in front of the two kids.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2723000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman suddenly begins to screech and bites into the boy’s neck.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2742000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A plate of iron suddenly falls from the ceiling.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another sudden cut to a vampire POV shot as it screeches and jumps at Edgar and Zoe.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3177000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Peter suddenly appears behind Edgar and screeches.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4244000,
+      "type": "minor"
+    }
+  ],
+  "title": "Lost Boys 3: The Thirst",
+  "tmdb_id": 46812
+}

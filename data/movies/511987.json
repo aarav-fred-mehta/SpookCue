@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A tree smashes through the kitchen window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alligator jumps through the wooden stairs in the basement.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1274000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alligator jumps out from behind the daughter.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1774000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another alligator attacks the daughter from behind a wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1832000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alligator jumps at the opening of the wall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alligator jumps at the glass store window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alligator jumps at the cop through the basement.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alligator jumps at the daughter from the water.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alligator snaps at the father.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4558000,
+      "type": "minor"
+    }
+  ],
+  "title": "Crawl",
+  "tmdb_id": 511987
+}

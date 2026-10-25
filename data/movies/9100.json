@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1996,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream, the witches burst into Sarah’s room and attack her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4381000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bathroom stall slams open to reveal the witches standing outside.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nancy quickly opens a shower door, startling Sarah.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nancy suddenly and aggressively attacks Sarah.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5525000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Craft",
+  "tmdb_id": 9100
+}

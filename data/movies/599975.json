@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Courtney’s phone makes a high pitched screaming noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 338000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of the shower curtain being pulled back during a tense scene may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force suddenly flings Courtney into the air.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 454000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure in the hospital mirror suddenly rushes forward and the mirror cracks.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Courtney’s head suddenly turns and a sound effect plays.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1215000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the countdown timer reaches zero, Evan falls onto the stairs.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn closes the laptop screen and briefly sees an apparition of demonic Evan in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1734000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly appears on the car window startling Quinn.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1803000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Quinn looks again in the reversing camera, ghastly hands suddenly cover her eyes.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2085000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demonic boy hisses and throws himself at Matt.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man puts his hand on Matt’s shoulder.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2527000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghastly hand pulls Quinn under the covers.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3324000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entire bed is suddenly flung into the air as Jordan hides from the demon.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jordan looks around and the demon screams “Where is she?”.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3561000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Matt says “We did it, they let me go” he is suddenly hit by a car.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3957000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jordan looks at the countdown timer, the demon suddenly rushes towards her.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon attacks Jordan from behind.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4591000,
+      "type": "major"
+    }
+  ],
+  "title": "Countdown",
+  "tmdb_id": 599975
+}

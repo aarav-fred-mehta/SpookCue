@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 129,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Maisie jumps out at her nanny (as a joke).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some small raptors run out of the abandoned car as Owen approaches it, a few seconds later a larger raptor jumps on the car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1971000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Indoraptor suddenly clamps on to Wheatley’s arm.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Indoraptor suddenly tackles one of the armed guards as Eli talks to Claire and Owen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5656000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, we see the dead guard suddenly pulled out of sight.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5858000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fighting Raptors break the window in front of Owen and Maisie as they scale the side of the house.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6452000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A T-Rex suddenly ambushes Eli as he bends down to pick up the DNA sample.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6885000,
+      "type": "major"
+    }
+  ],
+  "title": "Jurassic World: Fallen Kingdom",
+  "tmdb_id": 351286
+}

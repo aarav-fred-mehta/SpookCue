@@ -1,0 +1,225 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The toy’s sudden noise may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric gets scared by Sara when she opens the bathroom door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 543000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The toy’s noise startles Eric.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound comes from the walkie-talkie.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene, Daniel’s hand suddenly covers Eric’s mouth.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 922000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The TV turns on loudly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1781000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel jumping from the chair after hearing to Eric’s voice along with a loud sound may startle some viewers.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1961000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel’s voice scares Ruth.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The voice of Ruth interrupting the silent tense scene may startle some viewers.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2658000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene, a loud noise comes out of Gérman’s headphones.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The screen cuts abruptly to a woman screaming.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2816000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A toy’s noise spooks Sara.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3414000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Sara tries to touch Eric, he quickly crawls under the bed.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3459000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric jumps off the bed to the front of Sara.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3560000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch puts her hand on Sara’s face accompanied by a loud noise.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3575000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hanged body of Sara bursts through the room’s window.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3629000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something jumps on Daniel.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3968000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot is fired frightening Ruth and Gérman.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts abruptly to a man yelling.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming woman runs by in front of Gérman.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4521000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch jumps on Gérman.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4664000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch screams at Ruth twice.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4849000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric runs past Daniel accompanied by a loud sound.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4938000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch screams at Daniel.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4958000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some viewers might get scared when Ruth shows up in front of Gérman.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric’s voice on the walkie-talkie may startle some viewers.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a post-credit scene, a woman being exorcised jumps and screams.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5838000,
+      "type": "major"
+    }
+  ],
+  "title": "Don’t Listen  (Voces)",
+  "tmdb_id": 726208
+}

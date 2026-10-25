@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1984,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Axel comes up to the nurse and scares her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 641000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason’s hand falls onto the nurse’s leg, scaring her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason kills Axel from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 840000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise is heard as the woman turns her head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason grabs the woman through the window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3710000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason breaks through the shower glass.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason throws a body through the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4663000,
+      "type": "minor"
+    }
+  ],
+  "title": "Friday the 13th Part IV: The Final Chapter",
+  "tmdb_id": 9730
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1978,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sudden buzzing of an alarm clock may startle some people.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 737000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth puts her hand on Matthew’s shoulder, startling him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mutating body suddenly opens it’s eyes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Matthew points at Nancy and lets out a scream, revealing that he has been converted into a pod person. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6833000,
+      "type": "major"
+    }
+  ],
+  "title": "Invasion of the Body Snatchers",
+  "tmdb_id": 11850
+}

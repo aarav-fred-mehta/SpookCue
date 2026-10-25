@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A reporter walks down a dark hallway and is hit by a stick held by someone off-screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 27000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alison lifts up a can of bug spray to reveal Dale standing behind it watching her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 201000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chloe puts her hand on Alison’s shoulder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen person appears in camera shot, ambushing the woman hiding behind the tree trunk.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 769000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chad taps on the car door and yells out (as a joke) which startles Alison.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 852000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chloe jumps out in front of the cop car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud gunshots.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2658000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chad ambushes Tucker who is attempting to hide behind a tree trunk.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dale looks up and sees Mitch impaled on the tree.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3321000,
+      "type": "minor"
+    }
+  ],
+  "title": "Tucker and Dale vs. Evil",
+  "tmdb_id": 46838
+}

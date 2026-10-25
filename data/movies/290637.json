@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some children are hiding in a cellar when something breaks through from above.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike looks out the window and sees a shadow creeping down the street below, suddenly the shadow transforms into a face that appears right at the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1557000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog barks at Mike.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2129000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hooded figure with a burnt face briefly appears behind Mike.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike looks at some grainy video camera footage, all of a sudden a scary face pops up on screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2509000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pan suddenly catches fire.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3134000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figures standing outside Mike’s house suddenly catch fire. Seconds later, Mike turns around and has a vision of a large number of children standing in his house.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently dead psychic suddenly grabs Mike’s wrist.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3477000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen turns around suddenly, accompanied by a noise on the soundtrack.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hooded figure attacks Hannah, pushing her out the window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some birds fly at Mike while he is on the bridge.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4666000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike approaches a woman, when he touches her she bursts into flame and Mike begins to have a flashback.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hooded figure rushes at Mike on the bridge.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5058000,
+      "type": "minor"
+    }
+  ],
+  "title": "Pay The Ghost",
+  "tmdb_id": 290637
+}

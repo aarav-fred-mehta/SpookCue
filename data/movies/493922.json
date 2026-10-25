@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 128,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies into the window of Charlie’s classroom however we see the bird flying towards the window beforehand which substantially reduces the impact.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 869000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We see a decapitated head on the road crawling with ants (not a jump scare but some viewers might find the image disturbing).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Annie drives home from the seance she is startled by the tongue-clicking noise that her daughter makes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the seance at home, Peter starts to freak out however this is interrupted when a glass cabinet suddenly breaks.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shortly after Annie says “Charlie, what’s wrong?” the candle on the table flares up.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4709000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Peter thinks he sees Charlie in the corner of the room but it turns out to be a ball that drops and rolls across the floor. After a short pause, an arm suddenly grabs Peter around the head.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5278000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Peter hears a loud noise from upstairs.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6587000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a very tense scene, Peter sees a naked man in the doorway. He then looks up to the ceiling where Annie previously was but no one is there. Suddenly, Annie rushes at him from the corner of the room.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6802000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hereditary",
+  "tmdb_id": 493922
+}

@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A boy stands up wearing a pig head.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 327000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Betty falls through a trap door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ike starts yelling at another inmate.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 880000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette presses up against the glass, startling Elizabeth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 967000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth turns around and Jackson is standing right behind her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1099000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights flicker on and off and suddenly an inmate is standing above Elizabeth.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jackson kicks the inmate.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1786000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jackson jumps out of the boot as Ike opens it.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth falls backwards and lands on a corpse.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2629000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth looks around and sees Ike behind her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3006000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bud attacks Ike from behind.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ranger Hartman pulls Elizabeth out of the car.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth and Hartman are ambushed by one of the Sawyer brothers as they pass the stairs.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4524000,
+      "type": "minor"
+    }
+  ],
+  "title": "Leatherface",
+  "tmdb_id": 300665
+}

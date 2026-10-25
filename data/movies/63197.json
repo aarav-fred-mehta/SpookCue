@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The lid of a barrel is removed to reveal a decomposed corpse.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4153000,
+      "type": "minor"
+    }
+  ],
+  "title": "Megan Is Missing",
+  "tmdb_id": 63197
+}

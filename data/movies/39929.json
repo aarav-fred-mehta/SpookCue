@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The bag of paper shredding explodes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1635000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess is thrown through the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vicky is grabbed by the chalk board.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3463000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is crushed in the lockers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4054000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mary Lou snarls at the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5251000,
+      "type": "major"
+    }
+  ],
+  "title": "Hello Mary Lou: Prom Night II",
+  "tmdb_id": 39929
+}

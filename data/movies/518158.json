@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Lila has a vision of the leprechaun in between the seats.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 61000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck backs into some barrels.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 155000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody Ozzy is standing over Lila.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Matt comes around the corner.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a stuffed panda on the bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy sneaks up and grabs Katie.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2259000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The leprechaun jumps out in front of the closet.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2703000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rabbit knocks into a barrel.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3722000,
+      "type": "minor"
+    }
+  ],
+  "title": "Leprechaun Returns",
+  "tmdb_id": 518158
+}

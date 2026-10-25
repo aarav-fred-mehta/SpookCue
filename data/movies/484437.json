@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah shines her light on Chris behind a tree, who quickly moves away accompanied by a sound cue.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Noreen suddenly bangs her hands on the car window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1776000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah approaches Noreen laying down on the ground, there is a cut to Noreen’s body with a sound cue.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chris slowly lays his hand on the floor, and then suddenly hisses and quickly reaches out to grab the spider.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2769000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Chris is touching Sarah’s scar, he suddenly begins to push down on it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut from a quiet scene to Sarah sitting between a clapping audience.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights cut out, and when they turn back on, Chris’ face looks rotten and he grunts at Sarah.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the lights are flickering, Chris suddenly opens his eyes and shrieks.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly reaches out from the darkness and grabs Sarah.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4715000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Hole in the Ground",
+  "tmdb_id": 484437
+}

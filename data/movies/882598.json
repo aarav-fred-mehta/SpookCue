@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings during a scene transition.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 110000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laura screams and falls back in her chair.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera flashes to Laura on the ground with a loud soundtrack noise.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 766000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trevor speaks from offscreen and Rose drops her wine glass.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1091000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The home security alarm goes off and Rose drops her glass.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1874000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings suddenly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings suddenly again.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rose awakens abruptly from a nightmare.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon abruptly screams at Rose during a tense scene.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2313000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts to a smiling partygoer standing very close to Rose with an accompanying sound effect.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2779000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon screams Rose’s name and the scene abruptly changes.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3133000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts to a mangled cadaver.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holly’s head unnaturally drops from her shoulders and dangles in front of the car window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4199000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon grabs Rose’s face and proceeds to scream.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5098000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doctor knocks on Rose’s car window, startling her.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts back to the doctor who is now replaced by a smiling Carl with blood dripping from his mouth.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5355000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rose’s mother yells her name.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon grabs the door that Rose is trying to close.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon appears behind Rose and throws her against the wall.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6114000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joel begins running at Rose with an associated loud sound effect.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rose turns to see she is back at her childhood home.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6438000,
+      "type": "minor"
+    }
+  ],
+  "title": "Smile",
+  "tmdb_id": 882598
+}

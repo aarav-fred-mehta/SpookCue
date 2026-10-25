@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1979,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The mannequin on the floor springs up as the man touches it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mannequin suddenly crashes through the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 340000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man opens a door, and a cackling mannequin jumps out at him from inside.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 349000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror suddenly smashes by itself.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1455000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The curtain suddenly flies up by itself.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to a creepy mannequin sitting on a chair with a loud sound cue.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mannequin opens its arms and springs forward towards the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer steps in front of Molly from the side accompanied by a sound cue.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3067000,
+      "type": "minor"
+    }
+  ],
+  "title": "Tourist Trap",
+  "tmdb_id": 13570
+}

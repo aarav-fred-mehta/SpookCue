@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn listens against the wall and some sort of generator noise starts.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a quiet scene a car suddenly slams on its brakes and runs over a girl.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1108000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn looks around in her sleep and a face jumps at her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise jumps while lying in bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Quinn is resting, a hand grabs her from above.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise follows dark footsteps onto the wall and looks up to see a demon.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2264000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn’s friend on skype notices someone in the room. Quinn glances around to see a figure behind the curtain.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2383000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn looks under the bed and is grabbed from above.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn is grabbed while lying on the ground.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn looks out the window and is grabbed by the demon.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise approaches the back of a female who spreads her hair revealing her face.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dark clothed woman jumps at Elise.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3599000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera spins around to reveal Quinn.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4115000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise approaches a man sitting on a bed when she gets jumped by something.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The red demon jumps out from behind Elise.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5427000,
+      "type": "major"
+    }
+  ],
+  "title": "Insidious: Chapter 3",
+  "tmdb_id": 280092
+}

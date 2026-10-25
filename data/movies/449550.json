@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Young Holly turns and her mother is in the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 417000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holly’s hair is suddenly grabbed by a child.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A robed figure rises from the tent accompanied by a clicking noise.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2932000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holly starts screaming suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied Hazel jumps up after she walks down the hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3645000,
+      "type": "minor"
+    }
+  ],
+  "title": "Housewife",
+  "tmdb_id": 449550
+}

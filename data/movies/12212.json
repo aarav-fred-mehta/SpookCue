@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man bangs on the front window of the plane from the outside, after which it’s revealed the plane is actually a set.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is suddenly grabbed by a plastic bag on the face while going through a rack of clothes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1015000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog jumps at the window behind the girl and starts barking.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone suddenly runs across the room behind the plastic sheets.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2454000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Simon turns out and is struck by the killer.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hammer smashes the glass as Amy leans in for a look.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3079000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mannequin drops onto the table from above.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4565000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While running away from the killer, Amy runs into Trevor.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4742000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Toby is startled while driving, followed by a cut to Amy standing in the middle of the road.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4905000,
+      "type": "minor"
+    }
+  ],
+  "title": "Urban Legends: Final Cut",
+  "tmdb_id": 12212
+}

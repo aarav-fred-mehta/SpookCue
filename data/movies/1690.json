@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some children appear in front of Josh and Paxton.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shrouded figure grabs Josh in the museum.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1934000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hostel",
+  "tmdb_id": 1690
+}

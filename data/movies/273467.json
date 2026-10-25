@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 140,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While the player left behind by the bus runs to catch up to it, he is suddenly tackled by the zombie from the side.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1045000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorit suddenly punches the framed picture on the wall, causing the glass to shatter.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2761000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman outside is suddenly slammed against the phone booth while the doctor is inside it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2814000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lorit and Cleo look out of a window, a woman suddenly jumps in through the glass.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden bang startles the group.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3831000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While giving a speech, the coach is tackled from the side by a zombie.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4063000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diago is grabbed by the mouth and pulled into a room.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4525000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie jumps out of the back seat.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4799000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie arm smashes through the door and grabs Diago.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5051000,
+      "type": "minor"
+    }
+  ],
+  "title": "Goal of the Dead",
+  "tmdb_id": 273467
+}

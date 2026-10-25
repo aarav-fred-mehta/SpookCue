@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mark’s son breaks a glass.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1151000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud whirring sound and smoke appears.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to a car flipping over.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1791000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car drives forward after being cussed out and honked at by Mark and Henry and is immediately hit by another car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry screams at Mark.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3328000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cut to Mark shaking up and down after seeing another version of himself.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3438000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Stranger",
+  "tmdb_id": 848791
+}

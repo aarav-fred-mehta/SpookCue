@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Marion runs into Jimmy who is wearing a mask.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts to the body of Jimmy who who has an ice skate attached to his face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marion opens a door and the body of Jimmy’s friend falls on top of her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 461000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie dreams of Myers breaking through a closet wall to get to her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 841000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out from underneath the toilet cubicle door to grab a lady’s bag.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ronny is surprised by some students while on the phone. [Video] .",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1548000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some kids in Halloween costumes run past Laurie, startling her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1651000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some kids bang on the window beside Laurie which again startles her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1821000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John surprises Molly while she is walking through the dimly lit basement. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2184000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie turns around and walks into Norma.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2466000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie opens her eyes and Will is suddenly standing right in front of her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie opens the door and is surprised to see Ronny standing right there.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3347000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After retrieving the corkscrew, Charlie turns around and Myers is standing right in front of him.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers jumps out of the bushes and grabs Molly.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers suddenly grabs a door-handle and starts hacking at the door with a knife.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4025000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied Ronny leaps out and grabs Laurie as she is about to finish off Myers.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4478000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween H20: 20 Years Later",
+  "tmdb_id": 11675
+}

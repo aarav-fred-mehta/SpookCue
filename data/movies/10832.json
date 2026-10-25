@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 77,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles Sanda.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some mud hits the window on Sanda’s side of the car, followed by more mud seconds later.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sanda is strangled from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 470000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears at the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lucas moves towards their car, the lights turn on and the car begins to drive away.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1771000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The power in the house suddenly goes out.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and a bright light at the window that Lucas is looking out of.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Windows in the house begin to open and shut.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2018000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alarm clock suddenly goes off beside Lucas and Clémentine.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2151000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone runs behind Lucas causing him to swing the poker and break a window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone pushes the door with the broken window into Lucas.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sharp object is pushed through the hole in the door that Clementine is looking through.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2495000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Clementine hears a noise while in the attic.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An intruder grabs at Clementine through the plastic sheeting.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2858000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera pans, the hooded intruder comes into view.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2910000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucas is dragged away suddenly.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3928000,
+      "type": "minor"
+    }
+  ],
+  "title": "Them",
+  "tmdb_id": 10832
+}

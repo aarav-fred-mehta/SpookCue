@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 152,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears in a dark doorway.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand starts moving from behind the shower curtain.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound, the shot abruptly changes to show an old lady in a bathtub.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 684000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Dan’s hand.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Abra suddenly opens her pupil-less, all white eyes.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shot abruptly changes to show Abra sitting on the edge of her bed, her eyes all white.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound, a light suddenly turns on in a dark corridor.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shot abruptly changes to an axe going through a door accompanied by screams and noise.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7206000,
+      "type": "minor"
+    }
+  ],
+  "title": "Doctor Sleep",
+  "tmdb_id": 501170
+}

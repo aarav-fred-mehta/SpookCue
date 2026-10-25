@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Leilani and Jibran argue in the car, a cyclist suddenly slams into the windshield.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 561000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the two get back into the car, a man suddenly strikes the window pane and frightens Jibran.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 607000,
+      "type": "major"
+    }
+  ],
+  "title": "The Lovebirds",
+  "tmdb_id": 576156
+}

@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 129,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a slight scare as Thomas bumps into Ffion.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the blood runs through a crack in the floorboards, we see a woman licking hungrily from underneath.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Thomas crawls through the water, a bird suddenly squawks and starts thrashing about.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4025000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot may startle some viewers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jennifer gasps as The Grinder suddenly attacks Thomas.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6282000,
+      "type": "minor"
+    }
+  ],
+  "title": "Apostle",
+  "tmdb_id": 424121
+}

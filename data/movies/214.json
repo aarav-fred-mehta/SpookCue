@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kerry wipes the steam off the mirror and sees Eric’s reflection.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 708000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person wearing a pig’s mask suddenly jumps out at Lynn while she is on the phone in the locker room.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1290000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amanda grabs Lynn and pulls her close.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lynn reaches for a phone but a trap goes off causing her to pull back. Seconds later Amanda appears behind Lynn, startling her once more.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2977000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback, Amanda is attacked by Eric.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6277000,
+      "type": "minor"
+    }
+  ],
+  "title": "Saw III",
+  "tmdb_id": 214
+}

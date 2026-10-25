@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 1985,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Arnie is decapitated by an unseen assailant.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two eyes can be seen peering out from underneath some floorboards.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1432000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A spider drops down in front of a man during a tense scene.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pot breaks.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1466000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf’s hand bursts through the floorboards and grabs a man.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man accidentally stands on a bear trap during a tense scene.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf attacks a man from behind.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf suddenly puts a hand on a man’s face.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s bloodied face suddenly appears out of the fog.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jane is startled by a mouse.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "and 1:30:56 are likely to cause much alarm.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jane sees the werewolf at the window.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5203000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf suddenly cuts the power to the house.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5282000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf breaks down the wall behind Red.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5322000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lowe, who appears to be dead, suddenly spasms back into life. [Video] .",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5456000,
+      "type": "major"
+    }
+  ],
+  "title": "Silver Bullet",
+  "tmdb_id": 17898
+}

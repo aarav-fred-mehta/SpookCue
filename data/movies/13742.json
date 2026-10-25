@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A creepy doll is in the mirror when the lights turn on.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jasmine suddenly wakes up and grabs Bart’s hand.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4628000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sheitan",
+  "tmdb_id": 13742
+}

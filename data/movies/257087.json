@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During one of Sarah’s visions, a young Sarah reaches for a hand under a sheet when two people suddenly lunge at her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1024000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah has a vision of her younger self standing in a hallway.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maggie shines a torch on a decayed corpse.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1682000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chandelier explodes.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The table suddenly lifts off the floor and hits the ceiling.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse suddenly jumps up from underneath a sheet and grabs Sarah.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2481000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly stands up and shrieks.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A desk lifts off the ground and hits Nick.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sudden appearance of Sarah scares the group.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3269000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim begins to spasm.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied Ed appears in front of Jill and Matt.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3842000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim grabs young Sarah’s hand.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4839000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Veil",
+  "tmdb_id": 257087
+}

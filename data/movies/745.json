@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy presence moves behind Dr. Crowe and girlfriend.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady walks past Cole while he is in the toilet.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cole notices bodies hanging in the school hallway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of a boy walks through the hallway behind Cole.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy ghost turns around to reveal a gaping wound on the back of his head.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna Crowe and her new boyfriend are startled by a window breaking.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4037000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The vomiting ghost girl suddenly appears in Cole’s tent. [Video]",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4589000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The vomiting girl’s hand comes out from underneath her bed to grab Cole. [Video]",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4902000,
+      "type": "major"
+    }
+  ],
+  "title": "The Sixth Sense",
+  "tmdb_id": 745
+}

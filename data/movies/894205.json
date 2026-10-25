@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 55,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden loud noise as Jack and Elsa “bump” into each other.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 938000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joshua comes up behind Jack and screams as he swings an axe at him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Elsa is slowly walking towards the door, Liorn suddenly comes out and shoots an arrow at her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack is leaning against some bushes and a large hand grabs him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf suddenly roars and grabs Verussa.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf jumps at Elsa.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2619000,
+      "type": "minor"
+    }
+  ],
+  "title": "Werewolf By Night",
+  "tmdb_id": 894205
+}

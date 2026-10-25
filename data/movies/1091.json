@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog leaps out at Clark.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1779000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves past a doorway in front of Fuchs.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3937000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norris and Nauls attack MacReady from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4417000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Copper attempts to defibrillate Norris when a giant hole opens in Norris’s chest. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4522000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Palmer’s blood has a violent reaction when MacReady tests it with the copper wire.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4978000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blair appears behind Garry.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ground begins to erupt in front of MacReady.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5859000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Thing",
+  "tmdb_id": 1091
+}

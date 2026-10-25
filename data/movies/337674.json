@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 131,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A gloved hand suddenly appears as Michèle attempts to close the glass doors.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 960000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt flashback to the masked man attacking Michèle.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies into a window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1893000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michèle’s cat jumps on her during a tense scene.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked man appears behind Michèle.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4977000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deer jumps in front of Michèle’s car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michèle turns around and the masked man is standing in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6962000,
+      "type": "minor"
+    }
+  ],
+  "title": "Elle",
+  "tmdb_id": 337674
+}

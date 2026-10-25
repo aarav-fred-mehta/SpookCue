@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The little girl suddenly turns around with blood all over her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Because Sissy is lost in her thoughts, she hits a kangaroo with the car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sissy stares at the creepy painting and therefore gets scared by Alex coming in.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex grabs the phone and looks around as she discovers the dead body of Jamie in the grass.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4418000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sissy starts hitting herself with her phone.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4654000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After removing a few towels from under the bed, Emma finds Tracey’s corpse.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Emma is trying to process what happened, Sissy appears in the door behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4858000,
+      "type": "major"
+    }
+  ],
+  "title": "Sissy",
+  "tmdb_id": 934207
+}

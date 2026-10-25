@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mort removes a sheet to reveal his dead dog.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mort taps on the glass of a car and the man inside moves suddenly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves in the reflection of the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2050000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise behind Mort as he goes to open a door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The medicine cabinet falls down.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2228000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shooter begins talking from behind Mort.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bus roars past behind where Mort and Ted are arguing.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt flashback to Ted yelling at Mort.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mort sees a dead body which is accompanied by some loud noises.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3739000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead body in the back seat slumps over.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4000000,
+      "type": "minor"
+    }
+  ],
+  "title": "Secret Window",
+  "tmdb_id": 1586
+}

@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a very loud bang on the door, followed by some rattling and clanking noises over the next few minutes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1629000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen opens the curtains and sees a masked man in the window. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1733000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen peeks behind the door and sees a dolls mask.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes into view from behind James while he is in car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2109000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen grabs James as he steps back inside the house. [Video]",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2250000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the bedroom window followed by several more over the next few seconds.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James is standing in front of the door when a loud bang is heard.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rock is thrown through Mike’s wind-shield.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James shoots Mike with a shotgun.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A metallic noise is heard while Kristen is in the shed.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud clattering and banging noises over the next minute or so.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3469000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked woman appears from behind the table.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked woman suddenly appears in front of Kristen while she is hiding. [Video]",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3937000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked man grabs Kristen as she walks into the hallway.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4129000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen screams as she is dragged away.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4183000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen screams and grabs onto one of the Mormon boys. [Video]",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4579000,
+      "type": "major"
+    }
+  ],
+  "title": "The Strangers",
+  "tmdb_id": 10665
+}

@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A crocodile quickly leaps out of the water and eats the meat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 308000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boat is suddenly hit by something in the water.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile hits the boat.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam is pulled into the water.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2881000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crocodile jumps upwards out of the water at Grace while she is walking on a branch.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3194000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Lee is looking around the still water, the crocodile unexpectedly leaps out of the water right at her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4459000,
+      "type": "major"
+    }
+  ],
+  "title": "Black Water",
+  "tmdb_id": 14138
+}

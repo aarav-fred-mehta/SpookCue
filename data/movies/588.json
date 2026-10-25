@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 125,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The dead janitor, Colin, begins to crawl out of the toilet in the school bathroom.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2713000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rose screams loudly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2974000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cybil moves in front of Rose and she drops the torch.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3014000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant knife pierces the wall, almost hitting Rose and Cybil.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3105000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arm comes through the hole in the wall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Birds fly out of a pit.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nurses twitch as Rose walks between them.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5189000,
+      "type": "minor"
+    }
+  ],
+  "title": "Silent Hill",
+  "tmdb_id": 588
+}

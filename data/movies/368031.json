@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The cat lunges at the screen and hisses.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 141000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream sequence, Laura follows a wasp along the window and suddenly sees Marina standing in front of her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 713000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A startling image of some disfigured faces flashes up on the screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 806000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Laura backs away from the mirror, a demonic face appears beside her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1342000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sketch of Laura’s face is pulled away from the camera suddenly to reveal a disheveled looking Marina.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gustavo looks down and sees the two disfigured faces from Marina’s Facebook page.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Gustavo and the screen goes black.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gustavo runs past the camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2193000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A close up of some eyes suddenly appears on the computer screen.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demonic face appears at the door as Kobe runs towards it.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3033000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse like figure on the bed sits up.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3114000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The person in the bathtub looks at Isabel.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3178000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Olivia looks up from the paper and sees a girl slitting her throat.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3530000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A phone rings during a tense scene.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3794000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Olivia looks through a peephole and sees the demonic girl’s face.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3818000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body falls on Tyler’s car.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is suddenly attacked by Olivia.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Kobe backs away from the demon girl he bumps into Laura.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4271000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kobe stabs Laura.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laura turns around and the demonic girl rushes at her.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5143000,
+      "type": "major"
+    }
+  ],
+  "title": "Friend Request",
+  "tmdb_id": 368031
+}

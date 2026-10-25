@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jonas removes a sheet covering a dead person.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Obi puts his hand up to the glass window of the oven as he burns alive.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2510000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Obi’s hand reaches through the broken oven window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2525000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amanda turns around and bumps into Jonas.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked figure in the bath tub jumps up and stabs Eric with a syringe. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5042000,
+      "type": "major"
+    }
+  ],
+  "title": "Saw II",
+  "tmdb_id": 215
+}

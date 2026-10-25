@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The door slams shut.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden loud noise and the camera goes fuzzy.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sasha’s hair gets lifted from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2006000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "T.C. gets pushed down the stairs.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bed frame lifts off the ground.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl runs through the hallway.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The film crew approach a girl in the corner of a room when she spins around and screams.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3715000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through the door behind Sasha and grabs her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4047000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone jumps out of a bath tub full of blood and drags in T.C.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4412000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lance finds a tongue in the corner of the room, looks up, and sees a ghost on the roof.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4609000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure runs at Lance in the hallway.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lance spins around to see a group of doctors working on a patient. Suddenly one jumps up close to Lance and screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5379000,
+      "type": "major"
+    }
+  ],
+  "title": "Grave Encounters",
+  "tmdb_id": 50698
+}

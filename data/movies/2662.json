@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Baby jumps at Bill from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The group in the car turn on the car’s headlights revealing a man in front of the car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1438000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In one of the unusual dream-like parts of the film, a character jumps out at the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2922000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Denise begins walking out the room when Otis jumps at her from behind.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An old man approaches Denise so she rotates to see another man behind at her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4417000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the doors suddenly close, Denise begins to look around the room when one of the monsters comes at her from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4589000,
+      "type": "minor"
+    }
+  ],
+  "title": "House of 1000 Corpses",
+  "tmdb_id": 2662
+}

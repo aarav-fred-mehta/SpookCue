@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The can rolls and reveals a girl in a gas mask.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1757000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is suddenly in front of him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is attacked by a vampire.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4508000,
+      "type": "minor"
+    }
+  ],
+  "title": "Blood Vessel",
+  "tmdb_id": 618585
+}

@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog runs through the hallway of the old ladies apartment as the rescue team approach her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Espinoza lunges at the rescue team.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1121000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the rescue team falls from a height and lands on the ground with a thud.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1312000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming lady runs into a wall in front of Angela.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Espinoza runs at the rescue team and is shot repeatedly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blood suddenly appears on the other side of a glass window, a few seconds later an infected breaks through the glass.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3409000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Briana bites her mother.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Briana attacks Danny.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Espinoza appears suddenly.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3671000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The CDC inspector breaks through the glass door and grabs Yuri.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4016000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected runs into the lift.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An attic door drops down beside Angela.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scott looks into the attic with the video camera, as the camera pans around the attic, an infected boy suddenly comes into view. [Video] .",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4783000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela crawls towards the camera but is suddenly dragged away. [Video] .",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5095000,
+      "type": "major"
+    }
+  ],
+  "title": "Quarantine",
+  "tmdb_id": 13812
+}

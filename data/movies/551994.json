@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The vampire attacks Stan from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden screaming is heard from Stan’s grandpa.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1470000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud musical accent as Stan opens the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doorknob rattles.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The grandpa calls out “Stanley!”",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Banging on the door and yelling wakes up Stan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The vampire breaks through the door of the shed.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The vampire appears in the hole.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a dream sequence, Roxy turns into the vampire.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2855000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a second fake-out dream sequence, the vampire is under the bed.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shed door rattles.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dommer bursts out of the shed.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4455000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ozzy gets grabbed from above.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4857000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shutters bang closed.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5221000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vampire Ozzy roars behind Pitt.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Roxy is grabbed from behind.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5314000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Shed",
+  "tmdb_id": 551994
+}

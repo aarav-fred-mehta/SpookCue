@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is banging on the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shower shoots blood onto David.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David charges forward with a knife.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a very tense scene Arne sees a woman who grabs him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chainsaw starts up again in Arne’s hand.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon Bruno charges out of the shadows.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out of the water bed.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2000000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arne’s head is grabbed by the demon behind him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2822000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two girls with flashlights appear running and laughing.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3292000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorraine is grabbed by a demon hand.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body in the corner reanimates and runs at Ed.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is behind Lorraine after she closes the door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5569000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Conjuring: The Devil Made Me Do It",
+  "tmdb_id": 423108
+}

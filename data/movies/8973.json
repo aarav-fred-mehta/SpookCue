@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 1995,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A cultist grabs the woman walking down the hallway from around the corner.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man tackles D’Amour while he’s looking at the tied up man in the apartment.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1182000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The presumably passed out man begins to run at D’Amour while screaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man in the bomber jacket smacks D’Amour with a wooden board as he about to walk around the corner.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2369000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "D’Amour spasms in his sleep accompanied by a loud sound.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "D’Amour has a flashing nightmare about Quaid screaming at him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2855000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two hands suddenly reach out of the hole.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster appears behind Billy after he calls out for Harry.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Flames burst out behind D’Amour.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3942000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "D’Amour’s foot slips and he falls into the open grave.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4772000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs D’Amour from the shoulder.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4792000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the cultists runs into frame and grabs Dorothea.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5050000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone reaches out from under a table and grabs D’Amour by the legs.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5305000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Butterfield attacks D’Amour with a knife after Dorothea says “We can’t leave him there.”",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5661000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The presumably dead cultist buried in the dirt grabs Dorothea’s arm.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5870000,
+      "type": "minor"
+    }
+  ],
+  "title": "Lord of Illusions",
+  "tmdb_id": 8973
+}

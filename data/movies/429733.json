@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There are three quick cuts to The Reaper ferociously cutting a pot plant accompanied by heavy metal music.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Towers smashes the television screen with his golf club.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2996000,
+      "type": "minor"
+    }
+  ],
+  "title": "Mayhem",
+  "tmdb_id": 429733
+}

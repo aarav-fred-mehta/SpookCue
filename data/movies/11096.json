@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "David has a brief flashback which causes him to wake up.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat jumps out of the closet.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily shows Amy her doll, which now has a mutilated face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a “jump scare” sound effect, the lights turn off.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2461000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang as the generator kicks back on.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2498000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David pulls a dead cat out of the bath.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth opens the closet and screams as she sees something.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a bang on the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans around David to reveal Stephen standing behind him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David parts the curtain and sees Stephen standing outside.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a “jump scare” sound effect, the lights turn off.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4888000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sheriff closes the closet door and is attacked by David.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4976000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David surprises Katherine.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The seemingly dead sheriff suddenly grabs Elizabeth’s arm.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David shines the torch on Katherine and calls her name.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David turns the torch back on and Katherine is standing in front of him holding a gun.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5710000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hide and Seek",
+  "tmdb_id": 11096
+}

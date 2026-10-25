@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A honking car horn startles Nicole.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly appears in the doorway as Nicole takes photos.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1067000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a very loud sound effect, a boy appears behind a window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1770000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demonic face briefly flashes up on Nicole’s laptop screen along with a loud sound effect.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2089000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adelina turns around quickly to reveal she is possessed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nicole slowly approaches the door which is opening and closing by itself, suddenly she sees a screaming woman by the door trying to get in.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3129000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nicole backs away from the door and turns around to see another screaming woman standing behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog jumps up and barks at the door while Nicole is in the car.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3276000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog jumps up at the car once more.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stefan shines the torch around the sleep-out and Adelina suddenly appears and screeches at him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Nicole is in the bathtub, there is a loud sound effect and the lights turn off.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window slams shut.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3757000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a knock on the door and the lights turn back on.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3763000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a dream where Nicole is having sex with Father Anton, a woman’s screaming face suddenly appears on screen and Nicole wakes up.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nicole briefly sees someone in the rear view mirror.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4163000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands wrap around Nicole’s feet.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4175000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While running through the fields, Nicole stops and turns around to see the figure from the car standing there.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A low pitched demonic voice interupts Nicole’s conversation with Anton.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Nicole opens her eyes as a sound effect plays.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4959000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Crucifixion",
+  "tmdb_id": 394830
+}

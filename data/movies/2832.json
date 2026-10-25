@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A car tire blows out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 324000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice is suddenly hit by a car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone attacks Caroline.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ed finds a severed head in the dryer.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1824000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ginny puts her head up to the door and Lou suddenly bangs on it from the other side.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the mirror Ginny sees a shadow moving across the room.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2505000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Officer Rhodes grabs Ginny.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2528000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ed surprises Paris.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car suddenly explodes.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paris bumps into Ed.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Timmy suddenly appears beside Paris.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5110000,
+      "type": "minor"
+    }
+  ],
+  "title": "Identity",
+  "tmdb_id": 2832
+}

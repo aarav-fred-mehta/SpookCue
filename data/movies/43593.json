@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied and mutilated hand reaches up out of the water.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dock collapses causing Sheriff Forester to fall into the water.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mutilated dead body suddenly pops up out of the water onto Sheriff Forester’s back.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 934000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A fish embryo inside an egg suddenly starts moving.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Piranha suddenly bites the diver’s hand.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2232000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Piranhas suddenly appear, chasing a girl in the water.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2873000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl who was parasailing is lifted out of the water revealing her missing legs and mutilated body.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2906000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl being carried out of the water, suddenly splits in two.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3968000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant piranha suddenly jumps out of the water and over the boat, taking Novak with it.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4929000,
+      "type": "minor"
+    }
+  ],
+  "title": "Piranha 3D",
+  "tmdb_id": 43593
+}

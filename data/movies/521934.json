@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 76,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The lights suddenly flicker.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 829000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flashlight illuminates the electrician.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 840000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sound effect as the camera moves into the mirror and the scene suddenly changes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1255000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights suddenly go out.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch opens her eyes.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2419000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera panes to the witch in the car with a sound effect.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3626000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Witch In The Window",
+  "tmdb_id": 521934
+}

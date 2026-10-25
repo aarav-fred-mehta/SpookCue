@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1986,
+  "runtime_minutes": 77,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the killerbots pierces through the poster with its arm.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A phone suddenly starts ringing, startling Mike.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something falls from the ceiling towards Alison.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A killerbot appears right behind Alison.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screeching cat jumps out in front of Alison.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4005000,
+      "type": "minor"
+    }
+  ],
+  "title": "Chopping Mall",
+  "tmdb_id": 28941
+}

@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A car crashes into Jess and Matt’s car from the side.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 62000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Matt approaches the closet, Jess jumps out to scare him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a hand reaches out from behind, Matt is suddenly pulled away.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Matt reaches for Trey’s phone a hand suddenly grabs him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1635000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound may startle some viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Trey is talking into the camera a hand suddenly grabs him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2308000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Matt is suddenly dragged away.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a sudden loud growl Julia turns around to see the monster running at her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The balloons pop after Matt says “they’re here.”.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4166000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess gets pulled into the sky.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4406000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Gracefield Incident",
+  "tmdb_id": 327253
+}

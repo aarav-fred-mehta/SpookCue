@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 1989,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The Hermit is suddenly grabbed by Michael.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 329000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A brick is suddenly thrown through a window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 733000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doorbell suddenly rings.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sammy jumps at Tina (as a joke)",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1489000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette suddenly appears in the window accompanied by a sound effect.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead animal suddenly falls out of a chute.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2111000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tina jumps out at Mikey wearing a mask (as a joke)",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy bumps into Jamie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2947000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat suddenly jumps on Tina’s hand.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3229000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large pile of hay suddenly falls in front of Tina.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3277000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spitz suddenly grabs Sammy’s leg.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3377000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spitz and Sammy’s bodies fall on Tina.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3749000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly appears in the smoke.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3969000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene changes to Michael suddenly smashing through the car window.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly bursts through the door.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael comes into view from the chute accompanied by a loud sound effect.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4919000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween 5: The Revenge of Michael Myers",
+  "tmdb_id": 11361
+}

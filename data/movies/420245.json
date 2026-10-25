@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A fast moving figure moves past in the foreground followed by another a few seconds later.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 498000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Danny jumps out at Chloe (as a joke).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 663000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure of an old woman can be seen by the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An eye suddenly appears at the peephole that Danny is looking through.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 803000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Danny’s laptop starts to make a ringing noise.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A scary face suddenly appears on Chloe’s laptop screen.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 910000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, a door opens as Chloe approaches it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After waking from a dream, Jess looks across and sees Chloe watching her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1649000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess starts talking from behind Chloe.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2195000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chloe sees a mummified corpse in the mirror.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door starts to close on Jess.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3161000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure moves past in the foreground.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3199000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly appears in front of Chloe shouting “RUN!”.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3260000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies out from underneath the red sheet which startles Jess.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3855000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly touches Jess on the shoulder.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4812000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs the cage that Chloe is trapped in.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess approaches the cage and is startled to see Chloe in it.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Detective Boardman shines the torch on the old woman who reaches out for him.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5166000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang on the door startles Jess and Chloe.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5459000,
+      "type": "minor"
+    }
+  ],
+  "title": "Don’t Knock Twice",
+  "tmdb_id": 420245
+}

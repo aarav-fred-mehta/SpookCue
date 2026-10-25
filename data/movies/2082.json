@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The man that finds the bodies rotates to see Michael Myers behind him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The person wearing the blanket is suddenly jumped at by Michael.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie’s father is abruptly attacked by a knife-wielding Michael. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4545000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the couple are making out, Michael approaches from behind and grabs the boy by the neck.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5215000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie is grabbed at from behind.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something loud bangs on the door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5595000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael hits the police officer against the door while Laurie is unlocking it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5698000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael breaks the car window and grabs Laurie. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6357000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael begins to break down the wall.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6583000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween",
+  "tmdb_id": 2082
+}

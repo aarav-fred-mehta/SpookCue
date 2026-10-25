@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Anna touches the door handle and receives a sharp electric shock.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 257000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden gunshot as Anna looks at a skull may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna jumps down from the tree and attacks one of the hunters.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna attacks one of the hunters from behind as he talks to Sheriff Cooper.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4592000,
+      "type": "minor"
+    }
+  ],
+  "title": "Wildling",
+  "tmdb_id": 362826
+}

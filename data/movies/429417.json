@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The title screen suddenly appears accompanied by a scream.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 51000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An ornament shatters.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 394000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The walkie talkie makes a screeching noise.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1351000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Tony shines the torch around and says “hello”, several birds suddenly fly away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1613000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Tony shines the torch down a hallway and sees a girl in the distance.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears in the bottom right corner of the screen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2002000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Tony approaches the door there is a loud bang.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2049000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door slams shut behind Tony.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2123000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Tony struggles with his torch, a ghoulish girl who is missing an eye appears in front of him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2141000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Professor Goodman sees movement from the upstairs room and as he pulls back Simon is standing right behind him.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2561000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Simon hits a figure with his car as he talks on the phone.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2960000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on Simon’s car.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Simon leans back to reveal a figure at the driver’s side window.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3263000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Goodman sees a ghostly image of himself inside the car.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Priddle approaches the baby crib, the towels behind him are suddenly flung into the air.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3810000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hooded figure in the distance suddenly appears directly in front of Goodman.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3903000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is the sound of glass breaking somewhere in the house.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghoulish Maria suddenly races towards Priddle.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hooded figure suddenly jumps out of the crib behind Goodman.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5207000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies into the window.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5560000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ghost Stories",
+  "tmdb_id": 429417
+}

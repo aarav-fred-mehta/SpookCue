@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While on the Thunder Mountain rollercoaster, a man’s head hits against a ceiling, becomes decapitated, and flies at the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 161000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A park guest’s face shifts into a creepy smile accompanied by a sound cue as she walks past the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3016000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden explosion at the Spaceship Earth attraction and it collapses.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3501000,
+      "type": "minor"
+    }
+  ],
+  "title": "Escape from Tomorrow",
+  "tmdb_id": 158752
+}

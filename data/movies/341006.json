@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man knocks on a car window, startling the occupant.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 94000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman’s head suddenly explodes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s head explodes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1231000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud gunshots.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2452000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike is hit over the head with a fire extinguisher as he descends some stairs.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2878000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is shot in the head (followed by several more people over the next minute or so).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s head explodes unexpectedly.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3873000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is shot (somewhat unexpectedly).",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4297000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Belko Experiment",
+  "tmdb_id": 341006
+}

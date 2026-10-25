@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The girl walks away from the window and is suddenly pulled down to bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts to the child in the background to reveal its disfigured face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The child slowly approaches the girl and there is a sudden cut to him wildly flailing his head around.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman suddenly opens her eyes, and they are the eyes of a goat, not a human.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1648000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the girl walks around the house, a door shuts on its own.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2045000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Field Guide to Evil",
+  "tmdb_id": 436549
+}

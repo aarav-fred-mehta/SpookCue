@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sheet on top of the doll suddenly lifts off and wraps itself around Lisa. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 558000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie sees the doll standing beside his bed. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1549000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie sees an old lady behind the curtain, the camera zooms in on her face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1575000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera flashes, an image if Lisa’s dead face flashes up on the screen briefly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie sees the doll in the drivers side window of the car. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2081000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie comes out of the bathroom and sees the doll.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2122000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Young Henry sees Mary’s dead body lying beside him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2789000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The reflection of a dead lady can be seen briefly in the mirror.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry turns around and sees Mary Shaw behind him. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3476000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Detective Lipton begins speaking behind Jamie.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead boy’s head jerks back, starling Detective Lipton.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Detective Liptons dead body comes out from behind the curtain.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie sees Mary Shaw’s face as he tries to climb back on to the bridge.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mary Shaw comes through the window.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ella appears behind Jamie.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5190000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dead Silence",
+  "tmdb_id": 14001
+}

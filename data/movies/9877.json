@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The gas station attendant appears beside Michelle’s window. [Video]",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 259000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Damon comes up behind Brenda and Natalie and surprises them. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 823000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie is surprised by the janitor as she enters her campus hall.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone appears behind Damon and puts a rope around his neck while he is urinating in the woods.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hooded figure appears in front of Natalie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1766000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sasha runs into Natalie in the library. [Video]",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2189000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer grabs Tosh around the mouth.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie opens a door in Professor Wexler’s office and is surprised by a coat resembling the one worn by the killer.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie pulls back a door to reveal Professor Wexler.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reese puts her hand on Dean Adams shoulder as he goes to open his car door.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife appears from underneath the car, and Dean Adams ankle is cut.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3522000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The janitor surprises Reese.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3777000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sasha walks up to a window as is surprised by the hooded killer appearing on the other side.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sasha runs into the killer on some stairs.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie and Paul are surprised by Brenda coming around a corner.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie opens a door and Parker’s dead body falls out.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie opens another door and sees Damon’s dead body hanging.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5012000,
+      "type": "minor"
+    }
+  ],
+  "title": "Urban Legend",
+  "tmdb_id": 9877
+}

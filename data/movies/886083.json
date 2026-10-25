@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chrissy starts screaming.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thud.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2311000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chrissy screams and scares Shawn.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Shawn moves the tablet down, Mildred’s face is behind it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2837000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature under the bedsheets suddenly lurches towards Shawn.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3049000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shawn moves the sheets and Mildred is underneath them.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crash outside the car.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through the car window behind Shawn.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3628000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s hand comes out of the bathtub and strangles Shawn.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man explodes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4528000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mildred comes down from the ceiling.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4591000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shawn screams when he sees a “stick man” nearby.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 22680000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shawn screams at a hanging coat.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 32160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thud.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 82620000,
+      "type": "major"
+    }
+  ],
+  "title": "Deadstream",
+  "tmdb_id": 886083
+}

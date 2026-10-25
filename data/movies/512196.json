@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man jumps up from a bush as Ryan walks past.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 96000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Ryan opens a storage cupboard, Samar puts his hand on Ryan’s shoulder giving him a scare.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 446000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person in a baby mask suddenly appears behind Ryan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 459000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Tree and Carter check the cupboard and find it empty, Babyface suddenly appears behind Ryan.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Babyface suddenly appears from behind some Babyface costumes that Ryan is walking through.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1231000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Babyface suddenly tackles the security guard escorting Tree.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2329000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn back on and Dr. Butler is standing right by Carter.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3018000,
+      "type": "minor"
+    }
+  ],
+  "title": "Happy Death Day 2U",
+  "tmdb_id": 512196
+}

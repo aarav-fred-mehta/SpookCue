@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Eve looks through the window and a man pops in-front of it from the other side.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 583000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eve walks up to a rocking baby crib, and upon getting close is grabbed by a hand. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1232000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies by the window while Eve is looking out of it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman gets hung behind Eve while she is looking the other way.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man comes back and grabs Eve by her throat.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3578000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone lights a match and a face appears behind one of the girls.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The room begins sparking from it’s electrical components.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4393000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jean opens her eyes and looks behind to see the woman in black. [Video]",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4489000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry grabs Edward to see that he has a ghost-like face. [Video]",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4566000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eve passes a lady who screams at her as she walks by.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4613000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eve looks back at the bed to see the boy has disappeared.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4913000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eve looks back to see no one is there, but then jumps upon seeing a girl as she looks up.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4973000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Edward is suddenly pulled under the water while he is walking towards Eve.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5276000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The photo breaks revealing the woman in black in it’s reflection. [Video]",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5577000,
+      "type": "major"
+    }
+  ],
+  "title": "The Woman in Black 2: Angel of Death",
+  "tmdb_id": 288158
+}

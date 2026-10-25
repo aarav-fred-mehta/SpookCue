@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out and grabs Jesse’s walkie talkie which is lying on the ground.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 153000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow passes by the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 630000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam calls out for Paul to stop the car as her sees something in the woods.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something hits the light behind Paul causing it to shatter.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2474000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves away as Paul shines his torch on some hay bales.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature passes in front of the police car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3003000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature moves quickly past the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3280000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim puts his hand on Paul’s shoulder.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3521000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves quickly across the screen on the camera footage.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something bangs on the outside of the house.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature knocks over Donny as he runs to the house.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang startles the occupants of the church.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some chairs fall to the floor.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4835000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature grabs Donny.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5015000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A light falls to the ground and breaks. A few seconds later the creature drops from the ceiling and reveals itself.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5228000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature turns around and lunges at the camera.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5446000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dark Was The Night",
+  "tmdb_id": 300467
+}

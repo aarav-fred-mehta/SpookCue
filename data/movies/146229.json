@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Footage of a woman running from the killers (starts with a classic jump scare sound).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 88000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bit more footage of the killers’ victim (also starting loudly, to startle the audience).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 109000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The same victim crying for help as she’s surrounded by her attackers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Justine is startled by a fellow student near the lockers area.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car engine revs, accompanied by a jump scare sound, as Justine exits a store.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Justine is driving and has her eyes on the road again: a jump scare sound when she notices a car motionless in the middle of the road.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another jump scare sound as Justine is walking down a hallway and the lights go out for a moment.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mystery person walks past one of the dorm rooms in the dark (accompanied by a jump scare sound effect).",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1968000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman with the hoodie (that Justine met at the store) suddenly appears in front of Justine.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2073000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the killers shows up onscreen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The campus security guard is attacked by one of the killers.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Violet (hoodie woman) jumps in front of Justine.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2226000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another member of the group of killers appears in the hallway as Justine is running away.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2262000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the killers “jumps in” a static shot, attempting to surprise Justine (this is one of the loudest jump scare sounds of the movie).",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2416000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Justine’s friend Scott appears from an adjacent room and wielding a shotgun (yet another classic jump scare sound effect).",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2733000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scott is grabbed by one of the killers as soon as he opens the front door of his own place.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2873000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(Yet) another jump scare sound effect as it’s shown that one of the killers is watching Justine from a distance.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3091000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Justine reaches the edge of a rooftop and when she turns around: all the killers have caught up to her.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the killers rushes past Aaron’s car.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3373000,
+      "type": "minor"
+    }
+  ],
+  "title": "Kristy",
+  "tmdb_id": 146229
+}

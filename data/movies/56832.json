@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 130,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Several compartments suddenly come out of the sphere with a loud mechanical noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien child suddenly spits a strange goo over the group.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1205000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The child suddenly implodes, splattering black goo all over the room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1420000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kishimoto suddenly tackles the alien from the side.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several compartments once again suddenly come out of Gantz.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The presumably dead alien jumps back up behind Kato.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien loudly implodes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4050000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The large statue implodes, sending rocks flying everywhere.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The statue suddenly begins to move, attacking Kurono with its swords.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the statue’s reflection slowly becomes visible, it attacks, shattering the glass.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The statue suddenly begins to attack at extreme speed.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6072000,
+      "type": "minor"
+    }
+  ],
+  "title": "Gantz",
+  "tmdb_id": 56832
+}

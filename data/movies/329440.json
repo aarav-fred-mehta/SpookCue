@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man bangs on the car window, startling Sara.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 327000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream, Sara unzips a tent to reveal a girl however the girl’s face suddenly turns demonic.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sara removes a sheet from a body and sees a decayed corpse.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An elderly lady suddenly lunges at Sara.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1710000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves just outside the tent.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2958000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sara looks out of the tent and has a vision of an old lady running towards her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3002000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sara turns around and sees a girl watching her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A skeletal figure appears behind Sara.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl appears behind Sara calling her name.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3949000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sara looks through a reel of photos and a man’s face suddenly pops up in front of one of the images.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4173000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead man suddenly sits up and screams.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4834000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands reach out of the ground to grab Sara.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5096000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michi looks into the forest and sees Sara’s spirit which rushes at him.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5212000,
+      "type": "major"
+    }
+  ],
+  "title": "The Forest",
+  "tmdb_id": 329440
+}

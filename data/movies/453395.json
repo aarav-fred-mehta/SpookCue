@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 126,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "America turns around and strange and Wong are standing behind her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 856000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "America looks into a puddle and suddenly an eye pops out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wanda sees a reflection of the Scarlet witch in the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3069000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Wong turns around a monster suddenly roars.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3662000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman with a shield suddenly attacks Wanda coming out of the steam.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man approaches a dark hole and after a long focus on the hole Wanda suddenly pops out.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4665000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As red smoke begins forming in the background there is 2 seconds of silence and then suddenly a demonic looking Wanda snaps a man’s neck.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4704000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a long focus on a door labeled “Blast door” Wanda suddenly pops out with red glowing eyes.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5002000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wanda suddenly pulls America backwards by magic force.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Christine approaches a seemingly dead evil strange his eye suddenly opens accompanied by a scare chord.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Christine opens Strange’s eye, an evil soul suddenly fly’s towards the screen.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Strange’s 3rd eye suddenly opens while he screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6918000,
+      "type": "minor"
+    }
+  ],
+  "title": "Doctor Strange in the Multiverse of Madness",
+  "tmdb_id": 453395
+}

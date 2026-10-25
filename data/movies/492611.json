@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Kate searches for Flora in the barn, something pops in the background.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 743000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate suddenly finds herself in front of a horse that is being flushed out. The horse is not visible beforehand, a cheap thrill for no reason.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 776000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Kate tries to close the window, a ghost suddenly appears in the reflection. Very effective.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate turns around and suddenly a mannequin is standing by her door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sewing machine suddenly turns on as Kate leaves the room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1327000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A spider comes out of the ground and eats the ant.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate jumps into the water as she thinks she sees Flora drowning. Shortly before Kate reaches the person under water she grabs her and screams.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate dives in the tub when you recognize Miles Silhouette. Two seconds later a loud bang sounds for no reason.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a figure in the mirror.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate gets the flashlight ripped from her hand.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4156000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate turns around and a mannequin stands behind her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out of the water and pulls Kate in.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4755000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quint is suddenly visible in the rear view mirror of the car.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5179000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Turning",
+  "tmdb_id": 492611
+}

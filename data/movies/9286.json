@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Wendy’s lamp light sparks and goes out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The engine fan stuck in Frankie’s head suddenly spins causing his head to jerk forward.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2905000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The weights come down on Lewis’s head, causing it to explode.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wendy and Kevin bang on the gate to get Erin’s attention.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3505000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl is suddenly impaled by a flagpole.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4617000,
+      "type": "minor"
+    }
+  ],
+  "title": "Final Destination 3",
+  "tmdb_id": 9286
+}

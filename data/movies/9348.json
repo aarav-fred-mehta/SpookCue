@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1995,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The young girl suddenly breaks out of her dome.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature grabs the train conductor.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand pierces the cubicle and impales the girl on the toilet.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A squirrel jumps out of a tree and latches onto Laura.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A homeless man jumps out of a dumpster startling Dan. A couple of seconds later Dan turns around and finds himself face to face with Sil. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4137000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Preston startles the rest of the group in the sewers.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5326000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature jumps out of the water and grabs Fitch. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5512000,
+      "type": "major"
+    }
+  ],
+  "title": "Species",
+  "tmdb_id": 9348
+}

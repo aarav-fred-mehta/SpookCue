@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Anna goes to open a bag when a corpse pops out and slumps to the ground, a few seconds later the corpse’s head turns to face Anna and it says “Don’t go home”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna looks through a crack in the door to the boathouse and has a flashback to her mother in bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 683000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a metallic clanking noise as the door to Anna’s room is opened.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1087000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Anna’s bed. [Video]",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1139000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand pops out from underneath a blanket.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1639000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An empty can falls out of the rubbish bag Anna is looking through.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna looks under the oven and sees a ghostly girl screaming. [Video]",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3138000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna walks backwards into a hole in the ground.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel appears at the car window as Anna attempts to drive off.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna has a vision of her mother, but her face suddenly transforms into Rachel’s.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna opens the rubbish bag and sees Rachel’s dead body.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4258000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Uninvited",
+  "tmdb_id": 14254
+}

@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow movies behind Ellison.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1089000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trevor begins screaming while coming out of a box.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1482000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang startles Ellison.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2353000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud banging noise while Ellison is in the attic.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellison lifts a box lid to uncover a snake.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellison falls through the attic floor. [Video] .",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2593000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bughuul’s face on Ellison’s laptop begins to move.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellison lowers the print of Bughuul’s face only to see the same face mirrored in the backyard outside. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3317000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellison sees Trevor’s face hiding in the bushes.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several deceased children are seen standing behind Ellison.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tied up body suddenly comes into view in front of lawnmower. [Video] .",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3834000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deceased girl appears beside Ellison. [Video] .",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4124000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deceased girl in a yellow coat appears in the hallway.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deceased girl sits beside Ashley’s bed.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4276000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bughuul’s face suddenly appears in front of Ellison while he is peering into the attic. [Video] .",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5147000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A box labelled home movies drops from the attic and lands on the floor beside Ellison.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bughuul’s face abruptly drops into view, just before the final credits roll. [Video] .",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6222000,
+      "type": "major"
+    }
+  ],
+  "title": "Sinister",
+  "tmdb_id": 82507
+}

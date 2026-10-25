@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1980,
+  "runtime_minutes": 144,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There are several quick cuts to the twins lying in the hallway covered in blood.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack jumps out and attacks Hallorann with an axe.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera quickly pans to show a bloodied man standing in the hallway behind Wendy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7972000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Shining",
+  "tmdb_id": 694
+}

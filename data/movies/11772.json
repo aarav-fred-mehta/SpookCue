@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1963,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The banging on the wall resumes, much louder and faster than before. It continues on and off over the next few minutes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2566000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5269000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grace’s face suddenly appears from a trapdoor in the rafters causing Eleanor to scream. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6161000,
+      "type": "major"
+    }
+  ],
+  "title": "The Haunting",
+  "tmdb_id": 11772
+}

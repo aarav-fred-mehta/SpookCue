@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1996,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah enters a room and there is a cut to Karen’s dead body accompanied by a sound cue.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah runs out of the room, Dr. Feinstone steps in front of her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4800000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The detective suddenly puts his hand over Sarah’s mouth.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4936000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Dentist",
+  "tmdb_id": 9568
+}

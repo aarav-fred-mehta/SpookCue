@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 138,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The doors to the cemetery vault that Teddy and Chuck are in burst open.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2879000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Teddy has several disturbing dreams, during one of them, a girl who appears to be dead, suddenly opens her eyes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3512000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Teddy and Chuck go exploring in Ward C, a guard comes around a corner and startles them.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An inmate jumps out at Teddy and Chuck as they are exploring Ward C. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4048000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The inmate comes out of of the dark and grabs Teddy.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An inmate reaches out of his cell and tries to grab Teddy.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Teddy runs into Dr. Naehring as he is trying to escape without notice.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An explosion in a previously quiet scene may startle some viewers.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden gunfire may startle some viewers.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6920000,
+      "type": "minor"
+    }
+  ],
+  "title": "Shutter Island",
+  "tmdb_id": 11324
+}

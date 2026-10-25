@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Yamaguchi jumps out, startling Kirie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Yamaguchi jumps out, startling Kirie and her friend.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1200000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body (Miyazaki) falls past Kirie, startling her. This is followed up immediately by a graphic shot of splattered brain matter from Miyazaki’s head along with a scream from Kirie.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1274000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Yamaguchi jumps out, startling Kirie.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2200000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The box opens and a Jack-in-the-Box pops out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Before Shuichi can finish his sentence, his mother lets out a loud scream and it cuts to her face which is now distorted slightly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2737000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The TV switches off suddenly.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3062000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the car turns the corner, Kirie’s dad flashes on the screen with a twisted tongue causing the occupants of the car to scream.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3217000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The face opens it’s mouth and eyes, a spiral tongue flicking out as the camera quickly zooms in, and Kirie screams.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3407000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Yamaguchi runs in front of, and is hit by a car. This is followed by an unsettingly gory scene.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4059000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera rapidly and repeatedly zooms into the eye in the center of the spiral crack.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4091000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The screen silently cycles through all the upsetting imagery that has appeared in the movie thus far.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The channel changes quickly.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shuichi clasps his arms around Kirie.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shuichi raises himself in front of the camera.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5030000,
+      "type": "minor"
+    }
+  ],
+  "title": "Uzumaki",
+  "tmdb_id": 11366
+}

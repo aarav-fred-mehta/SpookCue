@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to a closeup of the zombie’s face in a flashback.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Buzzer’s severed head suddenly opens eyes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The church employee taps Noddy on the shoulder from behind, startling him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The motorcycle suddenly traps the priest’s fingers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3898000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The surface of the motorcycle’s fuel tank reacts to holy water.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The motorcycle breaks through the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5036000,
+      "type": "major"
+    }
+  ],
+  "title": "I Bought A Vampire Motorcycle",
+  "tmdb_id": 41153
+}

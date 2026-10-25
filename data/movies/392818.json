@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a low pitched sound effect Milo suddenly attacks a girl.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4155000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Milo imagines hinself suddenly stabbing Sophie in the neck (a low pitched sound effect plays at the same time).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4920000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Transfiguration",
+  "tmdb_id": 392818
+}

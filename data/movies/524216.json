@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The kid takes a picture, and the flash reveals an old man standing on the other side of the door looking directly at him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sam puts her ear against the coffin, there is suddenly a mechanical sound that startles her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2794000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carol suddenly grabs Wendell on the arm.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3663000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carol suddenly gets up and screams at Wendell as the saw touches her leg.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3906000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wendell reaches for the box and the elevator suddenly begins to fall down.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera zooms in on Wendell’s face there is a flash of Carol’s ghost screaming at the camera.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the horror movie Sam is watching on TV, a girl begins to call out “hello?” while looking out of the shower and is grabbed by her boyfriend scaring her as a joke.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4814000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam turns around and the bloody man is standing right in front of her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly reaches out of the burning book very fast.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6120000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Mortuary Collection",
+  "tmdb_id": 524216
+}

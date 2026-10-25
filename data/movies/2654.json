@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 1994,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through the glass in the cell where John is staying.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After waking from a dream, John looks across and sees the deformed policeman sitting beside him. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1466000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The strange cyclist appears in front of Linda while she is driving and she crashes into him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cyclist appears behind Linda before driving off.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1982000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arm comes out from behind the door and grabs Linda on the shoulder.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Linda grabs John from behind as he goes back into his room.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3348000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts to a creature making a screeching noise.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sutter Cane’s head appears beside John.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to John’s cell starts to shake.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow walks past the screen, accompanied by a loud noise.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5303000,
+      "type": "minor"
+    }
+  ],
+  "title": "In The Mouth Of Madness",
+  "tmdb_id": 2654
+}

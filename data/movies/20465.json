@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Lucifer, the black cat, suddenly jumps out from the back seat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Alicia slowly walks backwards under the stage, the killer drops down from above behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4624000,
+      "type": "minor"
+    }
+  ],
+  "title": "StageFright",
+  "tmdb_id": 20465
+}

@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden scene change to toast popping out of a toaster might startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1195000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a second explosion (much louder and more violent than the initial one).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1592000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "in particular is extremely effective and will likely cause most viewers to jump.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves past in the reflection of the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2930000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shideh looks through the peep hole in the door and sees a figure pass quickly through the hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3840000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shideh sees a floating figure on the stairs.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3851000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The floating spectre suddenly appears close to the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4111000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "“Dorsa” looks up to reveal it is not her but an entity with a large set of teeth.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4557000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The floating spectre suddenly grabs Dorsa.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4633000,
+      "type": "major"
+    }
+  ],
+  "title": "Under the Shadow",
+  "tmdb_id": 375012
+}

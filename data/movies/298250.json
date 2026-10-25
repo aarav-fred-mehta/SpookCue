@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Three syringes drop down from a chain in front of where Ryan is standing.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1012000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pitchfork lands near Mitch while he is trapped in the grain silo.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2354000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "At Eleanor’s storage unit – Halloran turns the light on and the shredded body of Mitch suddenly drops down in front of him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3252000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Back in his house – Logan turns around and sees Eleanor standing there watching him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3435000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Anna attempts to escape, a figure wearing a pig mask appears and stabs her with a syringe.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3541000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Logan backs away from Eleanor he is suddenly grabbed by Halloran.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen person stabs Halloran with a syringe as he looks for Eleanor.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4478000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jigsaw",
+  "tmdb_id": 298250
+}

@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Abby suddenly attacks the man who picked her up.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1856000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The police officer attempts to break down the door, frightening Owen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5570000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Owen shouts at the police officer, causing him to turn around, Abby then jumps up and attacks the police officer from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5798000,
+      "type": "minor"
+    }
+  ],
+  "title": "Let Me In",
+  "tmdb_id": 41402
+}

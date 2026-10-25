@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie appears in the doorway behind Jeong.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jeong raises his rifle to look through the scope, a group of zombies suddenly appears in the night vision.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie in the driver’s seat suddenly opens his eyes, accompanied by a loud noise.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car slams into the side of the truck.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5721000,
+      "type": "minor"
+    }
+  ],
+  "title": "Peninsula",
+  "tmdb_id": 581392
+}

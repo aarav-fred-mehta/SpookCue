@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 70,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Frank approaches a seemingly dead man it lunges at him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 700000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature in the stove suddenly puts its arm back out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A fetus flies at Frank’s face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1396000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank looks up to see a demon right in front of his face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1474000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cultist quickly turns around and attacks Frank.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1882000,
+      "type": "major"
+    }
+  ],
+  "title": "Hotel Inferno 2: The Cathedral of Pain",
+  "tmdb_id": 484415
+}

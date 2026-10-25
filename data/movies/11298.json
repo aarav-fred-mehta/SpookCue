@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog jumps up at a window that Terry is looking out of.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 945000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a gunshot and some glass breaks (during a flashback).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An abrupt scene change accompanied by a loud gunshot may startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf jumps out from behind Bill.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, Terry walks into a bone hanging from the roof.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3309000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf hand breaks through some wood paneling to grab Terry.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf hand reaches out to grab the files from Terry.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Karen backs away from the door, a man suddenly jumps out behind her from under a sheet.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4022000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on Karen’s car as she gets into it.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window that Chris is standing in front of suddenly breaks.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4583000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Howling",
+  "tmdb_id": 11298
+}

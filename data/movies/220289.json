@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The original Em suddenly appears crawling in the hallway.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4928000,
+      "type": "minor"
+    }
+  ],
+  "title": "Coherence",
+  "tmdb_id": 220289
+}

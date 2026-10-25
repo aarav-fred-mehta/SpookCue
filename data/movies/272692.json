@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A previously quiet scene is interrupted by high pitched static.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 393000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man wearing a scary mask appears in front of the camera (accompanied by a sound effect).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly jolts awake.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The medium suddenly grabs Michael and there is a burst of static.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly screams as the footage distorts and we get another burst of static.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1854000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The footage cuts to a close up of a stereo accompanied by a loud static noise.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2003000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During Michael’s hypnotism, everything goes quiet briefly before Michael suddenly appears standing directly in front of the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies into the window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2299000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie’s toy makes a noise from behind Michael.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A trashcan falls over making a loud noise.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael in the television footage suddenly turns and looks at the real Michael and once again this is accompanied by a static sound effect.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2783000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael opens a drawer to reveal a bloodied knife and a static sound effect plays once more.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something sparks in the background after Michael says “Why are you doing this?”",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The book Michael is reading from is suddenly thrown away by an unseen force.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael violently spasms several times as he lies handcuffed to the bed.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Michael reaches for the phone of the floor, a bloodied hand hangs down from the ceiling.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3913000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael headbutts the mirror.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The plug holding the hairdryer explodes.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4152000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Michael jumps out of the house, we see Michael lying motionless on the ground for several seconds before we hear a thudding noise and the camera moves slightly.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4536000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Samantha bends down to pick up the coin, a car slams into her.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4588000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Possession of Michael King",
+  "tmdb_id": 272692
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise sounds after David closes a manhole and looks upwards at a shadowy figure.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow appears behind David’s son after his son spins the laptop around.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sophie gets abruptly tackled by something.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David wakes up from his sleep to see a man bagging a human body on the ground. The body then suddenly jolts upwards and yells.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4148000,
+      "type": "major"
+    }
+  ],
+  "title": "The Canal",
+  "tmdb_id": 265010
+}

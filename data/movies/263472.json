@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Evan looks between some clothes in his closet and Bel pops out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2631000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Genesis appears behind Evan while he is kneeling on the floor and hits him over the head.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3220000,
+      "type": "minor"
+    }
+  ],
+  "title": "Knock Knock",
+  "tmdb_id": 263472
+}

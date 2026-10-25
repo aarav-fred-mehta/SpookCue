@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud music begins to play after AJ says “I just got these new speakers”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During the “Agatha” movie, there is a loud metallic noise as a girl is restrained by chains as she tries to escape.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After blacking out, the camera footage comes back on and an intruder is now standing right behind Kelly.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2477000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens loudly behind AJ.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3873000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the door of AJ’s house.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the results of the poll show Matias is to die, a van suddenly collides with him. (An alternative ending exists that lacks this jump scare with Matias instead being buried alive).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5302000,
+      "type": "major"
+    }
+  ],
+  "title": "Unfriended: Dark Web",
+  "tmdb_id": 505058
+}

@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "and the sound of a match being lit at 1:01:45 may startle those who are using headphones or who have the volume turned up.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2663000,
+      "type": "minor"
+    }
+  ],
+  "title": "Berberian Sound Studio",
+  "tmdb_id": 116811
+}

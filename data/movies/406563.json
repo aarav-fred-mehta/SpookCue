@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A boy runs past the screen in the background after Christian asks Elise “What are you doing?”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy in the closet appears beside Christian who is hiding in bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 542000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise as Elise turns a crank may startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang as the generator shuts off.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 721000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a bang and the generator springs back into life.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The spirit of Elise’s father carrying his wife passes by in front of Elise as she approaches the end of the hallway.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1597000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door suddenly being opened may startle some viewers.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise reaches out to touch the ghost woman in front of her, suddenly the woman appears right beside Elise and says “help her”.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2142000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Elise is about to blow the whistle the girl suddenly appears beside her and knocks her over.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3143000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Specs slams the door into Ted and his gun discharges.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3338000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During an interview at the station, Elise looks up and sees a ghostly woman standing beside the detective (this is probably the biggest scare in the film as it occurs in a non-scary scene).",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3549000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "comes out of nowhere.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Melissa lifts a sheet to reveal a hand which throws her across the room.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene, Elise opens the final suitcase and Key Face reaches out and grabs her.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4509000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Key Face throws Elise across the room.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5219000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise has a vision of the demon from the first film looking through a window into Dalton’s bedroom.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5741000,
+      "type": "major"
+    }
+  ],
+  "title": "Insidious: The Last Key",
+  "tmdb_id": 406563
+}

@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 124,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Hannibal’s sudden reappearance and subsequent attack on Will may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "might shock some viewers due to its sudden and unexpected nature.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1292000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hannibal lunges towards Will (but is stopped by the chain holding him).",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2779000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out of the van to grab Freddy.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4308000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Tooth Fairy suddenly puts his hands over Freddy’s face. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4680000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man looks up and sees Hannibal standing right in front of him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5861000,
+      "type": "minor"
+    }
+  ],
+  "title": "Red Dragon",
+  "tmdb_id": 9533
+}

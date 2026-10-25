@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 1993,
+  "runtime_minutes": 127,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A worker is suddenly pulled into the crate.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 169000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The remains of the goat drop on the roof of the truck after Lex asks: “Where’s the goat?”.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Tyrannosaurus breaks through the roof of the truck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3959000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Dilophosaur’s frill opens and it screeches at Dennis.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4416000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Ellie says “Mr. Hammond I think we’re back in business”, a Velociraptor bursts through the wall behind her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6231000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Velociraptor sudden lunges at Ellie from behind the fence after she finds Mr. Arnold’s arm.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Velociraptor tips some pots and pans over.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6618000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Velociraptor pokes its head through the air duct that Lex is crawling through.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6919000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Velociraptor jumps at Lex as she is pulled back through the air duct (this is particularly effective in the 3D version).",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6932000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jurassic Park",
+  "tmdb_id": 329
+}

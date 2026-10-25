@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Isaac’s head jolts up suddenly as he regains consciousness.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tenderizing machine suddenly spins as Sam tries to remove a piece of meat stuck in it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Agent Block is shot several times.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4773000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The gun sitting on the gas burner discharges by itself.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4941000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Debris from the plane crash falls through the roof and crushes Nathan.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5180000,
+      "type": "minor"
+    }
+  ],
+  "title": "Final Destination 5",
+  "tmdb_id": 55779
+}

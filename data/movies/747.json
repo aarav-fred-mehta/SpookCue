@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Nelson startles Shaun as he is looking at the paper.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Noel surprises Shaun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shaun walks into Yvonne.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 797000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shaun and Ed turn around and see another zombie in the back yard.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pete’s hand reaches out from behind the shower curtain.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2409000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Barbara bursts into the lounge startling Shaun.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2649000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie appears behind Phillip.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2797000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shaun looks back at Phillip who has now turned into a zombie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3239000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shaun’s group runs into another group of survivors.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3355000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shaun and a zombie break through the fence.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3496000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie puts his hand on David’s shoulder.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4271000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombies break the window that David is standing in front of.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4936000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombified Ed leans down and attempts to eat Shaun’s arm.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5626000,
+      "type": "minor"
+    }
+  ],
+  "title": "Shaun of the Dead",
+  "tmdb_id": 747
+}

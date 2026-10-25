@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Philip pushes the puppet off the bed. (Not really a jump scare but somewhat sudden and accompanied by a loud sound.).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1671000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The puppet rushes towards Philip.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3598000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Philip approaches a door, the puppet steps in front of a window on it and stares at him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4388000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked assailant suddenly runs at Philip from a dark corner of the room.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4766000,
+      "type": "major"
+    }
+  ],
+  "title": "Possum",
+  "tmdb_id": 472269
+}

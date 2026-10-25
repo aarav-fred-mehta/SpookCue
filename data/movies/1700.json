@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Paul wakes up and Annie is standing directly over his bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4803000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annie shoots Buster through the back with a shotgun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5619000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annie jumps on Paul as he crawls away.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6100000,
+      "type": "minor"
+    }
+  ],
+  "title": "Misery",
+  "tmdb_id": 1700
+}

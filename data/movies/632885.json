@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The demon who appeared behind Alfie appears again but this time with a sound effect and a scream.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 683000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost running up the stairs suddenly snarls.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The new demon appears at the top of the ladder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2595000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon bursts through the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2648000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon suddenly pulls back the curtain.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2797000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon charges out of the darkness at the car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ayub comes out from around the corner.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leo looks up and has no skin on his face.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5243000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two girl demons suddenly appear.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5297000,
+      "type": "minor"
+    }
+  ],
+  "title": "May The Devil Take You Too",
+  "tmdb_id": 632885
+}

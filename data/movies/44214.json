@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Nina turns around and Beth is standing right behind her. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2105000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nina looks around while masturbating and sees her mother sleeping in the chair beside her bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2432000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nina backs into a nurse while in Beth’s hospital room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2623000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nina looks up from underneath the water in the bathtub and sees another version of herself staring back at her. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3113000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure crosses a hallway in front of Nina.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth grabs Nina’s hand.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4906000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth stabs herself in the cheek.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nina turns on the kitchen light and there is a bloodied figure standing in the corner. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5009000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nina turns on a light and her mother’s paintings begin to talk.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5032000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lily suddenly sits up and grabs Nina around the neck.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5607000,
+      "type": "minor"
+    }
+  ],
+  "title": "Black Swan",
+  "tmdb_id": 44214
+}

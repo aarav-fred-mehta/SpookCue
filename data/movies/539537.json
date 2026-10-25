@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Sloane hides in the apartment, suddenly the phone on the table rings.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sloane is pulled forward under the table.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 134000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Gwen walks through her apartment and passes the mirror again, you suddenly see the figure of a man. This is accompanied by a sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 517000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patrick is suddenly grabbed from behind.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1597000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patrick’s arguing with Sullivan. Suddenly, one of the soldiers standing around them is shot.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sloane and Melanie are talking. As Sloane turns around again, the doctor’s hand suddenly comes out of the bushes and grabs her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2438000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patrick is looking for someone with the flashlight. When he turns around, there’s a man standing behind him. This is accompanied by a sound effect.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Melanie runs with Sloane and Damon through the water in the cave. She grabs a rock and shines into a dark corner where suddenly a man is standing.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3493000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Damon says “Lets go” he is suddenly attacked by the doctor from the side.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sloane sees a double of her. After she says “I will never be you again”, the doctor attacks her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5351000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patrick is suddenly attacked by Melanie with a knife.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5495000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sloane is attacked again by her double.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5680000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Behind Melanie a man suddenly jumps out of the water and pulls her in.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5956000,
+      "type": "minor"
+    }
+  ],
+  "title": "Fantasy Island",
+  "tmdb_id": 539537
+}

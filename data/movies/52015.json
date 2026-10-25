@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A vampire jumps into frame roaring as the camera pans down from the corner of the room. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 270000,
+      "type": "major"
+    }
+  ],
+  "title": "Stake Land",
+  "tmdb_id": 52015
+}

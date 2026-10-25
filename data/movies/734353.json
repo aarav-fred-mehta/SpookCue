@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jackson turns his head to reveal some blood.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 439000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy appears at the back door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy runs across the living room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah notices the strangled man on the floor.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2568000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The detective walks back into the room and shoots herself.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4360000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The detective opens her eyes and there is a loud drum sound.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5455000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The handyman slams into the side window of the car.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5530000,
+      "type": "minor"
+    }
+  ],
+  "title": "Anything For Jackson",
+  "tmdb_id": 734353
+}

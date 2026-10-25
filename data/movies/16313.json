@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The little girl turns to face the side while on the ground and a corpse with gouged out eyes is right in front of her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the lights go out while Som is banging on the door, it suddenly opens.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shane looks up and sees someone standing behind a transcluent curtain.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shane leans forwards to pick up the watch he dropped, revealing the ghost woman sitting in the seat right next to his.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2636000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shane forces the elevator door open, followed by a cut to the ghost woman right outside jumping at him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2706000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostified looking Som lunges at Shane from the darkness.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Shane is standing on top of a cardboard cut-out of the ghost, it suddenly turns into the real ghost when he looks down at it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the ghost woman is slowly approaching Shane from behind, when he turns around she moves right in front of the camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4397000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Shane is running the ghost woman suddenly appears in front of him and attacks with a knife.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4417000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The screen fades to black, and a few seconds later there is a cut to the ghost woman on the film’s poster.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4597000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The credits begin to roll over a still frame of the woman hanging, but she suddenly springs back upwards a few seconds later and looks at the camera.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4679000,
+      "type": "minor"
+    }
+  ],
+  "title": "Coming Soon",
+  "tmdb_id": 16313
+}

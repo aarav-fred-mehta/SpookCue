@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A basketball hits Cole in the head as the title credits show on the screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 72000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans around to reveal Bee watching Cole as he attempts to jump out the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2113000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cole backs into Sam’s corpse.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2773000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sonya slams her fist into some couragated iron near where Cole is hiding.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Max is suddenly behind Cole.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3489000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud sound effect as Cole bumps into something (but it’s only a potplant).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3878000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alison grabs Cole around the leg.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3971000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alison is suddenly shot in the head (with gory results).",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4126000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Babysitter",
+  "tmdb_id": 419479
+}

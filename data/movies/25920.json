@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The woman suddenly screams while driving, followed by a cut to a deformed looking man on the car window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A vulture suddenly screeches and flies into the car through a side window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a wide shot of some ruins while Paul is driving down a road. Suddenly, a burnt hand appears on one of the bricks accompanied by a string sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1331000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul reaches in for the water, and Djinn’s hand suddenly reaches out of it and grabs him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4791000,
+      "type": "minor"
+    }
+  ],
+  "title": "Born of Fire",
+  "tmdb_id": 25920
+}

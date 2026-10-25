@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera rounds a corner to see a clown figure standing in the hallway.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A scary-looking clown’s head is suddenly looking straight at the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2392000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A clown figure is seen standing in a doorway at the bottom of stairs.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bedcovers are lifted to reveal a girl’s bloody face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3237000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera turns back to reveal scary clown mannequins sitting on the ground.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A black figure standing behind a girl suddenly moves towards the camera, while screams are heard.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5373000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hell House LLC",
+  "tmdb_id": 359246
+}

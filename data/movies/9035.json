@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The alien creature shoots a parasite into Grant.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grant suddenly jumps up and grabs Brenda.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 684000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grant suddenly appears beside Starla.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead dog suddenly falls onto Starla. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1868000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Starla walks past the window while on the phone, Grant can be seen watching her from outside.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1902000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Starla opens the door and Grant is standing outside.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1928000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kylie runs into her mother as she tries to escape the parasite.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the infected policemen suddenly sits up.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3420000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Starla suddenly shoots one of the infected men in the head.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3624000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure quickly moves past the camera as Bill tries to use the phone.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4285000,
+      "type": "minor"
+    }
+  ],
+  "title": "Slither",
+  "tmdb_id": 9035
+}

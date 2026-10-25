@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The clock begins to chime as Munder reaches out to touch it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Munder falls through the floor.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Epps climbs some steps she sees the ghost girl standing above her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Murphy looks in the mirror and sees the reflection of another man.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2180000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Epps opens a door and a flood of water (along with several bodies) rushes out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Epps opens a wooden crate to reveal a large number of rats inside.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two bodies being held in hanging sacks start to struggle and scream. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2574000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "All the doors to the passenger’s rooms suddenly close as Epps walks down a hallway.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Epps opens a sliding door and is greeted by a decomposed corpse hanging from the ceiling.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Murphy turns around and comes face to face with Santos.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Murphy turns around and once again Santos is there.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Francesca turns into a decomposed corpse.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3893000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ghost Ship",
+  "tmdb_id": 9645
+}

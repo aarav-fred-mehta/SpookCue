@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Cary sets off some fireworks.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 831000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Woodward’s hand suddenly brushes away the map that the children are looking at. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1393000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A container suddenly crashes through a fence.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2221000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window explodes behind the gas station attendant.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2311000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature comes out of the trees and rushes at the lineman from behind.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2735000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The white cube suddenly shoots through Joe’s bedroom wall.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3718000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The truck that two military personnel are standing beside explodes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The military suddenly burst into the room.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4642000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien slams into the military bus. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4802000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien suddenly grabs a man.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4891000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand breaks through the bus.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4961000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large explosion knocks the children to the ground.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5260000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cary turns around and sees a body hanging from the ceiling.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5495000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sheriff Pruitt is suddenly grabbed by the alien.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5760000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The windows of a shop suddenly break as metallic objects fly out of it.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5928000,
+      "type": "minor"
+    }
+  ],
+  "title": "Super 8",
+  "tmdb_id": 37686
+}

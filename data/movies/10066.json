@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sound effect plays during a tense scene (although nothing scary happens on screen).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1035000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wade startles Carly from behind and a sound effect plays.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1148000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carly suddenly falls down a bank and into a pit.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wade bends down to touch what he thinks is a wax dog sculpture but it turns out to be a real dog that barks at him before running away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carly cleans the mirror and in the reflection sees a man watching her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carly hears a knocking noise and turns around to see the deformed wax figure of a housekeeper standing right in front of her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2390000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carly turns the headlights on to reveal Bo standing in front of the car.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carly breaks an arm off one of the wax figures.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bo grabs Carly.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A wax figure appears at the window startling Nick;.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4227000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paige turns the light on to reveal Vincent looming over her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4416000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paige is stabbed in the foot as a blade comes up through the metal grate she is walking across.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4514000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vincent opens the car door.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4591000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vincent throws a spike at Paige.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4618000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nick grabs Carly as she walks up the stairs.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5523000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife blade comes through the wall near Carly.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5984000,
+      "type": "minor"
+    }
+  ],
+  "title": "House of Wax",
+  "tmdb_id": 10066
+}

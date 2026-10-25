@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears behind Mark.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mark speaks into his walkie-talkie, an unconscious man suddenly rears up and grabs Mark.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 517000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A barking dog suddenly lunges at the car window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of glass breaking during a quiet scene may startle some viewers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1790000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera pans around Michelle, a ghostly face appears behind her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1949000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies out of a dark room.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2700000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bryan sees the ghostly image of a boy standing in front of an open door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2838000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands shoot out from underneath a bed that Sam is standing in front of.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jules briefly glimpses a woman climbing the stairs.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michelle turns around and the face of a demonic woman suddenly appears in front of her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3097000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jules is suddenly pulled backwards by an unseen force.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John has a vision of his mother who suddenly transforms into the demonic woman.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bryan turns around to show his eyes are now black and his mouth full of a dark liquid.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3771000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John turns around and is attacked by Bryan.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3905000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bryan suddenly opens his eyes and attacks an officer.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large number of birds burst out of John’s mouth.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4588000,
+      "type": "major"
+    }
+  ],
+  "title": "Demonic",
+  "tmdb_id": 234212
+}

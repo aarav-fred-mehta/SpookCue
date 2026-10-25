@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1984,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jake sees the Indian man following Gloria at the mall through Bellini’s store window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Indian man appears as the elevator door opens.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jake’s claustrophobia forces him against the tunnel wall in a state of panic.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gloria walks into her bedroom just as the burglar jumps behind a door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3524000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The intruder presses the moving drill bit into Gloria’s back.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3744000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jake hears Gloria screaming as the drill bit punctures through the ceiling.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two hands grab Jake’s neck as he peers into the grave where Holly has been buried.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6148000,
+      "type": "major"
+    }
+  ],
+  "title": "Body Double",
+  "tmdb_id": 11507
+}

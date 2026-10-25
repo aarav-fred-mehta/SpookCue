@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Various small scares for the next few seconds as actors scare the group.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 917000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the doll girl appears there is a sudden scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1020000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone jumps out of the curtains as someone says “ashes”",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1035000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mickey is scared by a man in a mask.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A little girl comes out from the left side and then a few seconds later a man comes out of the wall directly in front of the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera is facing the mirror there is a sudden cut.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights come on and reveal a lot of clowns surrounding the vehicle.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3774000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He is jumped by the doll girl.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey slams a hand against the window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4941000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Houses October Built",
+  "tmdb_id": 293572
+}

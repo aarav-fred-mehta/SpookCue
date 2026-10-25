@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 49,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hammer suddenly strikes out of the hole in the wall.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 725000,
+      "type": "minor"
+    }
+  ],
+  "title": "Haze",
+  "tmdb_id": 26040
+}

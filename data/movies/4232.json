@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 1996,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A chair is thrown through the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 533000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Casey looks in the window as a masked man turns around.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sidney peers out of the window as Billy pops up.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man comes out of the door behind Sidney.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1716000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy climbs through the window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1788000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sidney opens front door to Deputy Dewey holding the killer’s mask. [Video] .",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1831000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Principal Himbry closes the door revealing the masked man standing behind it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3184000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gale turns around and almost runs into Deputy Dewey.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some tools fall down.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3904000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy suddenly appears.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked man grabs Sidney’s arm.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4912000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Randy pops up beside Gale’s window.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kenny’s dead body slides off the roof onto the windscreen.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked man pops up from the back-seat behind Sidney.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5311000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy opens the door and Randy bursts in.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5420000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Randy grabs Sidney while she is kneeling on the floor.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6069000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy punches Randy.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6077000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead looking Billy reaches out his hand suddenly.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6152000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sidney’s father falls out of the closet.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6160000,
+      "type": "minor"
+    }
+  ],
+  "title": "Scream",
+  "tmdb_id": 4232
+}

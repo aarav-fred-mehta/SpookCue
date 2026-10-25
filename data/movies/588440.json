@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 68,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Frank quickly removes a woman’s hood and underneath is revealed to be a burnt corpse that begins to growl.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 55000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Frank slowly reaches for the the hood, the woman suddenly stabs him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 124000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman suddenly attacks Frank.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon smashes through the wall as Frank turns around.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank peers into a dark alleyway and the camera quickly zooms onto one of the mini demons as it shrieks.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank looks up at the ceiling and sees a large chicken claw dangling from above the boards accompanied by a sound cue.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1901000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon jumps out from behind a pile of flesh and bones.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2614000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank looks down on the floor and sees there is a demon right underneath him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3210000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hotel Inferno 3: The Castle of Screams",
+  "tmdb_id": 588440
+}

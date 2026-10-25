@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After a girl enters the Vision Quest building, a mechanical owl jumps out at her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 407000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason, wearing a mask, jumps out at Zora in the bathroom.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1095000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Frisbee whizzes past Adelaide and Kitty as they talk on the beach.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1658000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud bangs on the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2412000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked person pops up outside the window beside Zora.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crash as a boy crawls out from behind Zora, Jason, and Adelaide.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2631000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Jason runs to Adelaide, his doppelganger suddenly appears in the hallway behind him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adelaide grabs a saucepan and swings around to attack one of the doppelganger twins who jumps on her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Zora doppelganger breaks through the sun roof.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doppelganger girl reaches out towards Adelaide as she searches for her in the bushes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5065000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mechanical owl jumps out at Adelaide as she enters the house of mirrors.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5471000,
+      "type": "minor"
+    }
+  ],
+  "title": "Us",
+  "tmdb_id": 458723
+}

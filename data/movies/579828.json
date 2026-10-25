@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud alarm blares, startling the people in the elevator.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Kira turns to look away for a moment, Olga lunges forward and bangs her head against the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2563000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an explosion in the wall panel on the right.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Petr suddenly fires his gun during the tense standoff.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5175000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some wiring crackles loudly behind Anna, startling her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5394000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden rockfall happens in the corridor.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5812000,
+      "type": "minor"
+    }
+  ],
+  "title": "Kola Superdeep / The Superdeep / Кольская сверхглубокая / Kolskaya Sverhglubokaya",
+  "tmdb_id": 579828
+}

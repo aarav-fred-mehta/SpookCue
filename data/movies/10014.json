@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1985,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse runs away from the door and walks right into Freddy Krueger.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jesse pours a beer, a man approaches from behind and grabs his arm.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa runs away from the locked door, turns around a corner and runs straight into Freddy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3958000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy grabs Lisa’s face after she drops the knife.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4053000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy jumps out of the ground near the poolside.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa walks out of the car and is suddenly greeted by two human-faced dogs.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4323000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa stands up and spins to see Freddy right behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy’s arm breaks through the person sitting behind Jesse and Lisa on the bus.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4947000,
+      "type": "minor"
+    }
+  ],
+  "title": "A Nightmare on Elm Street 2: Freddy’s Revenge",
+  "tmdb_id": 10014
+}

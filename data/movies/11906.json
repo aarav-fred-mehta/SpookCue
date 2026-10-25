@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Sara flees down a hallway we see holes open up in the floor and one of her legs falls through.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5943000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Klemperer’s wife suddenly disappears and as he looks around for her, one of the witches suddenly runs at him screaming.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6973000,
+      "type": "minor"
+    }
+  ],
+  "title": "Suspiria",
+  "tmdb_id": 11906
+}

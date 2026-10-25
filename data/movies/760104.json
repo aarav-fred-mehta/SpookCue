@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Maxine is looking at the kitchen, when the old lady appears behind her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1967000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Maxine is running through the grass away from the house, Wayne suddenly grabs her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2252000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After RJ starts driving, the old woman appears in front of the car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something is pushed through the hole in the wall, Wayne is looking through.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4124000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Lorraine pulls the trigger for the lightbulb, there is a sudden cut to Wayne getting the spikes pulled out of his head.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4181000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorraine turns on the light and the naked, cuffed body of RJ is shown.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Howard suddenly appears in front of Jackson.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4887000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maxine realizes who is laying next to her and screams.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4968000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby-Lynn opens the door and sees the old woman running towards her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4978000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Lorraine is trying to unlock the door, her hand gets smashed by the owner of the house.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5019000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman slaps Bobby-Lynn after she’s trying to help her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby-Lynn is thrown into the lake.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crocodile attacks Bobby-Lynn.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5156000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorraine jumps up from behind the door and screams.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5594000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Lorraine runs out of the house, she gets shot from the side.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5623000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorraine makes a surprising noise which scares Howard.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5693000,
+      "type": "minor"
+    }
+  ],
+  "title": "X",
+  "tmdb_id": 760104
+}

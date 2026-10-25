@@ -1,0 +1,193 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The Prowler appears behind Rosemary and Roy, impaling them.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 528000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While walking backwards, Pam bumps into Mark.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carl opens that shower door, startling Sherry.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1292000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Prowler grabs Carls neck, and stabs him in the head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1354000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by sound effect, Pam sees the the Prowler.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1823000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A few sightings of the Prowler over the next 40 seconds, might startle some viewers (with sound effect).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1841000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While running, a Chatman grabs Pam’s arm.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1904000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pam runs into Mark.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1932000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera suddenly shifts over on the Prowler.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Once again, camera suddenly shifts over on the Prowler.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2392000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While swimming, the Prowler appears in front of Lisa.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the pool, the Prowler jumps up behind Lisa, killing her.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Prowler (hiding in a tree) grabs Allison (while running), and stabs her.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3251000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chatham appears outside the car window, Scaring Pam.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3693000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mark opens a coffin, revealing Lisa’s Body.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera abruptly shifts over on the Prowler, taking a knife out of the pocket.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lamp turns off.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Prowler appears behind Mark.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights in the living room turn on (with sound effect).",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse falls down inside the fireplace.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4515000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Prowler appears in front of the camera, holding a rose.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4525000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Seemingly dead, The Prowler leaps up, and shoots Otto.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the shower, Carl’s arm lashes out at Pam, grabbing her.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5067000,
+      "type": "major"
+    }
+  ],
+  "title": "The Prowler",
+  "tmdb_id": 44247
+}

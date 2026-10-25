@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The man is standing in the hallway.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man appears.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1358000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The attacker starts hitting the door with an axe.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2880000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The attacker appears in the hole.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2938000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The officer is hit with an axe.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3250000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Boy Behind The Door",
+  "tmdb_id": 741613
+}

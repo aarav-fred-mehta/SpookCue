@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sadako’s hand reaches out of the computer.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 227000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man walks out to the road and gets hit by a bus.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 310000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the laptop flies towards the screen Sadako’s hair suddenly bursts out of it towards the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Morisaki picks up her phone Sadako’s hand suddenly reaches out of it and grabs her by the arm.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 901000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud sound of something banging against a window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Akane turns around and Kitayama is standing right in front of her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1176000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sadako jumps out of the PC and grabs Akane by the shoulder.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2932000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Koiso turns around there is a cut to Sadako standing right in front of the camera.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3531000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Takanori calls out to Akane, causing her to turn around and see him hanging from a noose.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Koiso touches the wall, causing the wallpaper to turn into a group of moths and fly at him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3743000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kitayama is grabbed by the arm by Sadako.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A wall suddenly explodes as Akane is sneaking down a hallway.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the Sadako zombies crawls across the floor in front of the camera.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Sadako zombie suddenly jumps up from behind Akane.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5000000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sadako’s hand reaches out of the phone and grabs Akane.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5012000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sadako 3D",
+  "tmdb_id": 140441
+}

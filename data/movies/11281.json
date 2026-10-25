@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1981,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mike Myers jumps up in front of the camera and stabs Alice. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 741000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man carrying a radio walks into Myers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1561000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat jumps out of the dumpster at Mr. Garrett.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Garrett closes a door to reveal Myers standing behind.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2404000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Karen is startled by a buzzing noise.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Karen approaches a bed and Budd suddenly grabs her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jimmy puts his hand on Jill’s shoulder.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3860000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to Myers’ face may startle some people.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4729000,
+      "type": "minor"
+    }
+  ],
+  "title": "Halloween II",
+  "tmdb_id": 11281
+}

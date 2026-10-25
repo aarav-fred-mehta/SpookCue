@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1961,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The wind blows the window shut.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1666000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miss Giddens sees a face appear at the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2353000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A thunder clap wakes Miss Giddens.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2494000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a scream and the camera suddenly zooms in on a statue.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4316000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Innocents",
+  "tmdb_id": 16372
+}

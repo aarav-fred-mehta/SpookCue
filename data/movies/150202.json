@@ -1,0 +1,265 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The woman in the corner of the room suddenly appears in front of Lisa.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa lies down on the bed and her daughter Heidi is revealed to be standing behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 166000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy opens the door and sees a raccoon standing there.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 309000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa pokes at the bush with a rake and sees a decomposing corpse. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 520000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa sees a woman sitting by the bathtub.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 712000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa sees a blood covered hand move through the water.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, the lights and radio turn back on.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure watches Lisa in the kitchen.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1056000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The decomposing corpse appears directly in front of Lisa as she opens her eyes. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1262000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joyce sees the silhouette of a woman walking through the trees.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Gordy puts his hand on Heidi’s shoulder.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heidi suddenly sees an African American man swinging on the previously empty swing.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heidi sees someone hanging from a tree.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After waking from a nightmare, Lisa turns around in bed and sees an African American woman with white eyes looking at her.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2268000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lisa approaches the bathtub, the mummified corpse comes into view.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2758000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a vision, Joyce sees Heidi briefly take on a skeletal appearance.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2996000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heidi is woken by a loud thump.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heidi sees the spirit of an African American woman pass in front of her as she enters the piano room.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3175000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A photo-frame with a picture of Heidi in it cracks.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3278000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After waking from a nightmare, Lisa lies back down and sees a skeleton lying in bed beside her. [Video] .",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3312000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something walks past Heidi while she is stuck in the hole.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mummified corpse appears in front of Heidi.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light beside Andy crackles, briefly startling him. As Andy walks back inside, a silhouette of a man can be seen watching him.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joyce sees a corpse-like figure appear at the trailer window.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The rotting corpse of the stationmaster appears at the car window beside Heidi. [Video] .",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4346000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears behind Lisa while she is looking in a cupboard.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4367000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While driving Andy sees a female ghost standing on the road, causing him to swerve.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa looks back at Joyce who briefly appears as a decomposing corpse.",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa is startled by various taxidermied animals around her.",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mummified body falls on Lisa.",
+      "id": "scare_30",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lisa crawls through the hole, the stationmaster grabs her around the legs.",
+      "id": "scare_31",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa is pulled through the hole.",
+      "id": "scare_32",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5410000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Haunting in Connecticut 2: Ghosts of Georgia",
+  "tmdb_id": 150202
+}

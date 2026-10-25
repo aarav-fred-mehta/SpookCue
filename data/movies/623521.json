@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Scene cut to stuffed pig with snort sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 79000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mom walks away revealing a figure behind her (no sound)",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door shuts.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 312000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bloody face appears with loud sound.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1214000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman turns into a bloody face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2501000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kid jumps out to scare the other kids.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A teen hold a jar with a spider in it. The jar suddenly breaks.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3343000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door opens with Credence standing there accompanied by a loud sound effect.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3510000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dominic appears behind the girls and grabs them as they scream.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5505000,
+      "type": "major"
+    }
+  ],
+  "title": "The Dare",
+  "tmdb_id": 623521
+}

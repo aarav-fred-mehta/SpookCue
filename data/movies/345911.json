@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Esther turns the lights on and off several times seeing the silhouette of a woman in the darkness each time. As Ether turns the lights off once more, the silhouette of the woman suddenly appears much closer to Esther than previous times.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 202000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the lights turn back on, the figure appears standing behind Paul.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paul is suddenly dragged away into the darkness.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 411000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure appears on the other side of the door that Martin looks through.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the room goes dark once again, the silhouette attacks Rebecca.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1491000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca is pulled towards the ceiling by Diana.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martin looks up and sees Diana directly above him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2430000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martin is suddenly pulled under the bed.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Martin backs away, Diana appears behind him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3592000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martin is dragged along the floor by Diana.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3598000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diana pulls Bret away.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diana suddenly appears directly in front of Bret.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3716000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diana jumps out at Bret as he runs down the driveway.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sophie is thrown to the floor as she reaches for her pills.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca shines the black light on a figure with its back turned to her, it suddenly turns around and screams.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4100000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Rebecca around the wrist.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diana attacks a police officer.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4273000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches for Rebecca out of the slightly ajar door behind her.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4403000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Diana drops down behind Rebecca.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4421000,
+      "type": "minor"
+    }
+  ],
+  "title": "Lights Out",
+  "tmdb_id": 345911
+}

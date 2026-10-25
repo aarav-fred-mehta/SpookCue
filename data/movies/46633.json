@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1992,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A masked crew member jumps out of a kitchen cupboard to scare Sarah.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden thud from upstairs.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3318000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut from the studio to a loud scream might startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3376000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat suddenly screeches.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another loud thud from upstairs.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5203000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door shuts on its own after Sarah enters the room under the stairs.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5258000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ghostwatch",
+  "tmdb_id": 46633
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1991,
+  "runtime_minutes": 128,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings which startles the family at the dinner table.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2576000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Graciella turns around and it is revealed to be Cady in disguise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cady grabs Sam around the neck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cady puts a gun to Sam’s head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6741000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cape Fear",
+  "tmdb_id": 1598
+}

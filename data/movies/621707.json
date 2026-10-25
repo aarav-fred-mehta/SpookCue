@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The light bulb explodes as Yakov touches it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1874000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body on the floor is suddenly pulled off-screen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2043000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Mazzik jumps out at Yakov from the darkness.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2733000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud shriek is heard over the phone.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Yakov sees the Mazzik standing at the top of the stairs.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah is grabbed from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Mazzik’s head bursts into flames.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4407000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Vigil",
+  "tmdb_id": 621707
+}

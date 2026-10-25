@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog barks during a tense scene.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zach, who appears to be asleep, suddenly jumps out of bed to scare Sam.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 587000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During what appears to be some sort of ritual, there is a sudden bright light accompanied by a high pitched noise.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1086000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam grabs Zach’s wrist.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1556000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to a dog barking.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of a door being pushed open during a tense scene may startle some viewers.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2703000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam suddenly appears in front of the camera screaming “get out”. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2753000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Thomas suddenly yells at Zach.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3498000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl is pulled into the air by a supernatural force.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam screams and the door slams shut. A few seconds later the door is blasted off it’s hinges.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam screams and the furniture lifts off the ground.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4615000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam screams once more and the pictures on the wall fly into the opposite wall.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam tilts her neck causing Zach to go flying backwards.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4666000,
+      "type": "minor"
+    }
+  ],
+  "title": "Devil’s Due",
+  "tmdb_id": 79316
+}

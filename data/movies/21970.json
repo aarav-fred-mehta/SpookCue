@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 1980,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sudden loud music might startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window cracks in front of Jan.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jan is looking in the mirror, it breaks and she sees a blindfolded girl.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 686000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie scares Jan with a green mask while she’s reading in bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dramatic zoom in on the writing on the window, with sudden loud music.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1097000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A strange blue light strikes next to Jan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1409000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lightning strikes again, this time making Jan fall into the water.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is lightning, screaming and intense music during a flashback scene.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1677000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jan has a vision of the blindfolded girl.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird screeches and flies into Jan’s face.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2390000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A spooky figure suddenly shows up on the screen.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2638000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat jumps at Jan as it screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3091000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Watcher in the Woods",
+  "tmdb_id": 21970
+}

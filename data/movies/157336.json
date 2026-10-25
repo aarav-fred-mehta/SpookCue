@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 169,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene the spaceship explodes mid sentence.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7643000,
+      "type": "minor"
+    }
+  ],
+  "title": "Interstellar",
+  "tmdb_id": 157336
+}

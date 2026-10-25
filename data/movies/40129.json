@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While Kyra reaches for the mirror cabinet there is a knock on the door, startling her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sharp blade suddenly pierces through the wall.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deformed looking man jumps in front of the camera while it zooms in on a dark room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3243000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through the door and grabs Kyra.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3497000,
+      "type": "minor"
+    }
+  ],
+  "title": "Kolobos",
+  "tmdb_id": 40129
+}

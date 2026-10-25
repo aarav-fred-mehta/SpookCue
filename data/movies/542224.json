@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Gretel’s mother suddenly hits the table with an axe.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 544000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crow flies past Gretel.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1029000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud change to the laughing Gretel could frighten very sensitive viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1223000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cut to Hansel in the witch’s house follows. There is loud music and the witch suddenly stands in the left corner.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the witch points with her finger a silhouette runs past the door. In addition there is a loud scream.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1715000,
+      "type": "minor"
+    }
+  ],
+  "title": "Gretel & Hansel",
+  "tmdb_id": 542224
+}

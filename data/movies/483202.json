@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand print appears on the window, accompanied by a loud sound effect.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1143000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eli wakes up suddenly (this is accompanied by a sound effect).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1544000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A stone suddenly hits the window, startling Eli.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1634000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Eli wipes the condensation off the window, the girl jumps out and says “BOO!”.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Eli runs down the hallway, he shines the torch back into the darkness and the ghostly girl is suddenly running right towards him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1941000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn back on and a shadowy figure stands right behind Eli.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1949000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shadowy figure bursts through the curtain but it is revealed to only be Eli’s father.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1964000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eli moves the mirror slightly to reveal a ghostly girl standing in the room behind him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly grabs onto the cupboard.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2253000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Eli slowly turns around, a hand reaches out from behind the shower curtain.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2637000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An invisible presence pulls at Eli’s top (not particularly startling however it is accompanied by a high pitched sound effect).",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2903000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, the sound of the automatic door closing behind Eli may be startling to some.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3531000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rose pushes the top off the stone well to reveal several corpses inside.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4639000,
+      "type": "minor"
+    }
+  ],
+  "title": "Eli",
+  "tmdb_id": 483202
+}

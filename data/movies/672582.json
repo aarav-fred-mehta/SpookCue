@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A large fish swims out of a window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A doll floats into view, and Tina gasps.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette is seen sitting inside a bed canopy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A statue of Jesus appears in the drone’s feed .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A light illuminates some pale legs floating underwater.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An undead woman appears over Ben’s shoulder.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2908000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A fish darts across the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The undead chained up couple open their eyes.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3327000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The undead father appears standing by a wall. After the light dims, he appears seconds later, much closer, chasing Tina.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3827000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The undead daughter appears beneath the bed, and lunges for Ben.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3864000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rip appears in the projection, and the undead daughter swims through it.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben grabs Tina from behind.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4300000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Deep House",
+  "tmdb_id": 672582
+}

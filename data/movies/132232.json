@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette runs past the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The father is grabbed by something behind him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A small child runs around the corner.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the girls jumps into sight from behind the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1097000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Isabelle jumps from behind the bench onto the bench while the lights are flickering.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1975000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dark shadow is seen by Annabel in the mirror.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucas looks into a hole in the wall where a dark object launches out.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mama appears behind Annabel. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2936000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Annabel is sleeping, a hand stretches across her face.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3558000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mama appears in the closet when Annabel isn’t looking.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Victoria tells Lilly not to look at mama, then mama flies towards Lilly when she looks back at her. [Video] .",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4818000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mama appears on the ceiling in the girl’s room.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mama jumps out from a room in the hallway.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4879000,
+      "type": "minor"
+    }
+  ],
+  "title": "Mama",
+  "tmdb_id": 132232
+}

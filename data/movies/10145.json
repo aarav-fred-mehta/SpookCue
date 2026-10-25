@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A car slams into the car that Telly and Ash are in.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Agent Petalis is suddenly sucked through the roof at great speed by an unseen force. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3650000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne Pope is sucked off the ground and disappears into the sky. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4321000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While chasing Sam, Telly runs around a corner and sees the agent standing in front of her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4708000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The agent’s face suddenly distorts and the windows around him blow out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4788000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The agent grabs Telly around the neck.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The agent is sucked through the roof of the hangar.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4981000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Forgotten",
+  "tmdb_id": 10145
+}

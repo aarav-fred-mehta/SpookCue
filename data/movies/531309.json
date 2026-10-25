@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The room suddenly shakes and the lights cut out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 124000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brandon jumps out at Tori (as a joke).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 310000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves quickly past in the foreground as Tori returns to the house.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brandon suddenly lunges at his mother and makes a barking noise.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 657000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Caitlyn backs away from the open window and is startled when the bedroom door behind her bursts open.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1394000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is the sound of twigs snapping and suddenly Brandon appears right in front of Tori.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light suddenly breaks above the waitress.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2367000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves past in the foreground.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2429000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door is suddenly pulled away.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2476000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brightburn suddenly lunges at the waitress.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2491000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a knock at the door during a tense scene.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2814000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brightburn suddenly flies through the truck window.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3140000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sharp flashback to earlier in the movie as Kyle lies in bed.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3441000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The baby with red eyes suddenly lunges at the camera just as Kyle wakes up from a dream.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crash and Tori screams.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4414000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the 911 operator answers, Brightburn suddenly smashes through the living room.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4461000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Tori says “I’m here I’m here” Brightburn flies past right in front of her.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brightburn suddenly tackles the sheriff as he says “you’re safe now” to Tori.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans back to the deputy and Brightburn is now standing right behind her.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brightburn suddenly flies into the room where Tori is hiding.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4703000,
+      "type": "minor"
+    }
+  ],
+  "title": "Brightburn",
+  "tmdb_id": 531309
+}

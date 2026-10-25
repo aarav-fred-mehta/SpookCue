@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 1979,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The man is suddenly grabbed by the Tall Man.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 391000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mike rides his motorcycle the camera pans to the Tall Man. There follows a bang and Mike falls off the bike.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 834000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike’s having a nightmare. His bed is suddenly in a graveyard where the Tall Man is buried. Suddenly zombies burst out of the ground and grab his arms.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1527000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mike runs towards the Tall Man something scratches across the soundtrack and the Tall Man runs towards Mike.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike opens the box from which suddenly a creature with wings jumps and screams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jodie is suddenly jumped from behind.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2829000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Reggie creeps through the hall his wife suddenly comes out of a dark corner and screams at him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3189000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Over Jodie suddenly hands come out of the wall.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3439000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike opens the front door and the Tall Man suddenly appears before him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3875000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike pulls back the curtain and sees the Tall Man standing outside the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4776000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Behind Mike, the door flies open and the Tall Man is in the doorway.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4837000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Tall Man suddenly storms out of the bushes.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the Tall Man says “Boy” Mike is pulled into the mirror.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5184000,
+      "type": "minor"
+    }
+  ],
+  "title": "Phantasm",
+  "tmdb_id": 9638
+}

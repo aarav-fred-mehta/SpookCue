@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Beth wipes the window of the courier van to reveal the driver is dead.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Jack-In-A-Box suddenly opens.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1613000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tom and Howard burst through the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2277000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles the group.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3826000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rosie and the Jack-In-A-Box fall through the ceiling.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demonic doll comes through the ceiling and attacks Howie.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elves burst into the living room.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4362000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The silhouette of an elf appears at the car window, a few seconds later another elf comes through the broken windscreen.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4889000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demonic toys suddenly appear in front of the screen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5544000,
+      "type": "major"
+    }
+  ],
+  "title": "Krampus",
+  "tmdb_id": 287903
+}

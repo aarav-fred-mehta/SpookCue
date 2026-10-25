@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The witch grabs Caleb around the head, revealing a gnarled claw-like hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch turns around and lets out a cackle.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The goat attacks William.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4530000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Thomasin reaches down to touch William, Katherine suddenly pulls her away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4635000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Witch",
+  "tmdb_id": 310131
+}

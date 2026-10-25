@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dirty water starts pouring into the bath.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1183000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies out of the fireplace.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bird flaps again.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1470000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears behind Arthur.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1570000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Arthur looks through a hole in the door, a face appears.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2249000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arthur spins a lamp and sees a face inside.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arthur looks up at a building window and sees a face inside.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2759000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face comes up behind Arthur as he looks out the window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arthur touches the window and upon contact is greeted with a screaming lady.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3474000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arthur sees something in the mirror.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming face appears.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arthur opens the door and Mr. Bentley is standing there.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3799000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman in black yells and slides towards Arthur.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4975000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman in black screams once more.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arthur looks around the train station and sees the woman in black.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5260000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Bentley sees the woman in black behind the train.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5287000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Woman in Black",
+  "tmdb_id": 65086
+}

@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s hand suddenly appears inside Megan’s car holding a cigarette lighter. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2157000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Samantha is startled by the doorbell as she climbs the stairs.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thump can be heard on the other side of the attic door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A grimacing bloody face briefly appears on the screen several times.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5040000,
+      "type": "minor"
+    }
+  ],
+  "title": "The House of the Devil",
+  "tmdb_id": 25983
+}

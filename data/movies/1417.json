@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Ofelia enters the labyrinth, the fairy lands on what appears to be a rock however it moves to reveal it is actually a faun (while not strictly a jump scare this may startle some viewers).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1333000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The toad’s tongue suddenly shoots out and takes the bug crawling on Ofelia’s face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pale man’s hand suddenly moves after Ofelia eats a grape.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vidal turns around after hearing an explosion, this is followed by a sudden scene change to a car exploding.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4151000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vidal pulls Ofelia out from underneath the bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4881000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While attempting to escape, Mercedes moves the umbrella to reveal Vidal watching her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5446000,
+      "type": "minor"
+    }
+  ],
+  "title": "Pan’s Labyrinth",
+  "tmdb_id": 1417
+}

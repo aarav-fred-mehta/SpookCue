@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1978,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Brody flips over a wooden board and a burnt corpse rises out of the water alongside it towards the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2199000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark appears from the side of the screen and attacks a diver.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4073000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark jumps out of the water and attacks the helicopter.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5549000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark rises out of the water while screeching.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6273000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark jumps out of the water and rips through the sail.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6408000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jaws 2",
+  "tmdb_id": 579
+}

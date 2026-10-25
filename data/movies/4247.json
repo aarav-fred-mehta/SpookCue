@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface suddenly opens the curtains in front of Drew.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface taps Drew on the shoulder.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby startles Cindy as she looks out the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A noise startles Cindy as she waits in her room for the police.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cindy opens the door and sees the Ghostface mask.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface pops up behind Ray.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface bursts through the wooden cabinet and attacks Cindy again.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4479000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming Cindy is suddenly run over by a car.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4775000,
+      "type": "minor"
+    }
+  ],
+  "title": "Scary Movie",
+  "tmdb_id": 4247
+}

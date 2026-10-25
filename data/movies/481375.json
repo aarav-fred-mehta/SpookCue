@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a very tense scene, Angela slowly approaches three mannequins by a window when one of them makes a hissing noise and briefly transforms into a person.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 540000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An old man walks around the corner startling Jackson.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2035000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, Angela turns around to see Elliot right beside her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl runs past the screen in the foreground.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2228000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Jackson says “Beth” one of the young girls appears in front of Jackson and Angela.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3544000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth’s bloodied body appears by the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure moves past the screen in front of Angela.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand is placed on Angela’s shoulder.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4381000,
+      "type": "minor"
+    }
+  ],
+  "title": "Malevolent",
+  "tmdb_id": 481375
+}

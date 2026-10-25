@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1994,
+  "runtime_minutes": 123,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Louis moves swiftly to the light switch before returning to in front of Daniel.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lestat suddenly grabs Louis and bites him on the neck. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 708000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Louis answers the door but no-one is there, as he goes to close it a corpse-like Lestat suddenly grabs him around the neck. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3933000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Claudia kisses Louis, a group of vampires suddenly burst onto the balcony.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Daniel protests that Louis hasn’t failed him, Louis swiftly moves to him and lifts him by the neck.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6858000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel listens to the tape in the car and says “good stuff” before Lestat’s hand reaches out to grab him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6965000,
+      "type": "minor"
+    }
+  ],
+  "title": "Interview With the Vampire",
+  "tmdb_id": 628
+}

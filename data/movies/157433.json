@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A truck drives by startling Rachel after she says “everything is inside”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The injured man grabs Louis around the arm as he wheels him into theater.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights flicker and the previously dead man is suddenly sitting up on the bed behind Louis.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1047000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Louis sits in his car lost in thought as he goes to drive off a truck suddenly races past in front of him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Victor’s hand suddenly reaches out to grab Louis around the ankle as he climbs the pile of branches.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1482000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback, young Rachel is startled as her disfigured sister suddenly falls down the dumbwaiter shaft.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Louis opens the closet revealing Church who screeches at him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2190000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie is suddenly scratched by the cat as she tries to remove something from its fur.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Church screeches at Louis from behind.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Louis walks through a door and finds himself back outside in the woods, a truck horn suddenly blares.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel has a hallucination where the medicine cabinet in the bathroom transforms into the dumbwaiter shaft which her sister once again falls through.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2694000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Louis finds the mask, Ellie appears behind him and says “Daddy”.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4214000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jud spots Church in the hallway and suddenly Ellie stabs him in the ankle.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4902000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After waking from a nightmare Rachel looks up to find Gage safe. Suddenly Ellie leaps at her with a knife.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5338000,
+      "type": "major"
+    }
+  ],
+  "title": "Pet Sematary",
+  "tmdb_id": 157433
+}

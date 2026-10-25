@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A boy runs past a girl in a hallway and says “Where are you?”.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man calls out, startling Dr. Arnolds who is napping on a chair.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Futterman places a hand on Malcolm’s shoulder after he opens the shower door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Dr. Arnolds approaches Emily in the corner, she is suddenly attacked by Charlie who screams “I won’t let you!”.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1957000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Dr. Arnolds closes the bathroom cabinet she sees a child in the mirror.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2107000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door suddenly shuts on Sarah as she goes to check on Daniel.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2663000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah comes out of a doorway behind Dr. Arnolds.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bed moves across the room.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3660000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel is pulled under water.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A boy runs past Dr. Arnold.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4261000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon appears on top of Daniel.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amado suddenly attacks Dr. Arnold.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4567000,
+      "type": "minor"
+    }
+  ],
+  "title": "Slumber",
+  "tmdb_id": 463602
+}

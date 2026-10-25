@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Several lights blow as Dana flicks the light switch.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An animal in the bushes startles Dana as she takes a photograph.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 666000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Lucas reveals his bloodied hands.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bats fly out of a cupboard.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure passes the camera in the foreground.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dana bumps into Ben while following the kite.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2322000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dana closes the bathroom cabinet and sees David in the mirror.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3704000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dana turns around and sees Ben hanging from a tree.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog leaps at Dana as she opens a door.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4443000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Disappointments Room",
+  "tmdb_id": 293452
+}

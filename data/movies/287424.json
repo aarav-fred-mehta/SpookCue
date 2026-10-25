@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Wade opens a door and is attacked by a zombie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 540000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maggie has some flash-backs to when she was attacked by zombies.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1381000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maggie has further flash-backs while she is sleeping.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2989000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maggie appears in the doorway while Wade is sleeping.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4454000,
+      "type": "minor"
+    }
+  ],
+  "title": "Maggie",
+  "tmdb_id": 287424
+}

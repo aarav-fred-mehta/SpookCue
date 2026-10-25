@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 1989,
+  "runtime_minutes": 140,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Hippy spies on the SEALs attaching the warhead to one of the remote operated vehicles. He tries to go back to warn the others but Coffey is standing right behind him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4554000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lindsey attempts to radio for help and gets as far as “Deep Core this is Cab One we need assist…..” before sparks come out of the electronics and the power goes out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5739000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Abyss",
+  "tmdb_id": 2756
+}

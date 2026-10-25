@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A cult member runs at Jay.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4878000,
+      "type": "minor"
+    }
+  ],
+  "title": "Kill List",
+  "tmdb_id": 74725
+}

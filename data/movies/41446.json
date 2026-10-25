@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface suddenly appears and attacks Trudie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body is thrown through a window, several seconds later Ghostface appears.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface opens the door that Jenny is hiding behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A van speeds past, narrowly missing Kirby’s car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 881000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trevor surprises Jill.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1728000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Olivia’s closet door bursts open.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sound effect plays moments before Ghostface lunges at Jill.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car alarm turns on.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2678000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca’s phone rings during a tense scene.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2713000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface jumps on the bonnet of Rebecca’s car. [Video] .",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2738000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car alarm turns on once again. [Video] .",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2798000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to a window breaking (inside the Stab movie being screened at the party).",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3590000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Perkins scares Hoss as a joke.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate appears at the window startling Sidney.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3957000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Robbie walks into a hanging pot plant.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface appears in front of Sidney.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sidney backs into Kirby.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4879000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charlie grabs Sidney.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5165000,
+      "type": "minor"
+    }
+  ],
+  "title": "Scream 4",
+  "tmdb_id": 41446
+}

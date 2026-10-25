@@ -1,0 +1,129 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden alarm ring startles Berman.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 180000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Tommy walks into a room, Alice jumps out at him as a joke.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1977000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cindy is grabbed on the shoulder while looking into the caves with a flashlight.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Cindy walks through the darkness, Alice says “Boo!” and startles her with a sound cue.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3034000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeremy looks up and sees Tommy standing right in front of him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice looks up and with a sound cue, sees Sarah Fier standing in front of her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice shines the flashlight on an eyeless corpse standing up.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ziggy is suddenly grabbed on the shoulder by some Sunnyvalers.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3652000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette walks by in the foreground with a sound cue.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Becky walks into a room and sees Tommy standing on the side of the door.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The campers light a match and it reveals Tommy standing in front of them.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4069000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gary grabs Ziggy on the shoulder.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden bang on the door.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ziggy is grabbed on the head by Tommy and dragged up.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alarm suddenly rings, starling Deena and Josh.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5848000,
+      "type": "minor"
+    }
+  ],
+  "title": "Fear Street Part Two: 1978",
+  "tmdb_id": 591274
+}

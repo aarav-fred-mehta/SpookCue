@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a screeching noise as a man in a mask grabs Christian’s face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2003000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a suspenseful scene, the light suddenly turns back on.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2139000,
+      "type": "minor"
+    }
+  ],
+  "title": "They Look Like People",
+  "tmdb_id": 325302
+}

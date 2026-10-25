@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 1985,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah touches the calendar, zombie hands come out of the wall in front of her. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 66000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chained up zombie lunges at Sarah from behind. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1366000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie on the table breaks free of its shackles.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah walks down a hallway to investigate a noise, two men burst out of a door in front of her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie hand bursts out of the earth as Sarah picks up a shovel.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie grabs Sarah.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bat flies past John.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4874000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie grabs Steel as he waits for Bub.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5395000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John startles Sarah.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5442000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah enters the helicopter a zombie grabs her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5801000,
+      "type": "minor"
+    }
+  ],
+  "title": "Day of the Dead",
+  "tmdb_id": 8408
+}

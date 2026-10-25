@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise as something bangs on the shelter door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 59000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies past while Zoe looks through the periscope.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zoe sees a figure while looking through the periscope.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2200000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire grabs Zoe from behind.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2282000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thump from above.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2603000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rock hits the family’s parked car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3195000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hidden",
+  "tmdb_id": 360784
+}

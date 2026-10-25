@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A silhoutte runs past the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman runs out of the darkness and shrieks.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 523000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Guy’s bloody hand grabs the side of the metro door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate looks around the corner and there is a cut to a dog that’s barking at her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1481000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate touches a sleeping man, frightening him and causing him to bolt upwards.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The security guard is grabbed by the killer from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jimmy is grabbed by the killer from above.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2689000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body rises from the water.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate turns the flashlight back on and the killer is right in front of the camera. (No accompanying sound.)",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2870000,
+      "type": "minor"
+    }
+  ],
+  "title": "Creep",
+  "tmdb_id": 8555
+}

@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Tom has some visions of a girl while he is by the fridge.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tom sits up on the couch and turns on the TV, when he lies back down on the couch, there is a girl sitting next to him. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1097000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jake suddenly begins talking while Debbie is listening on the baby monitor.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone runs up some stairs beside Maggie while she is walking down a dark alley.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3016000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead girl can be seen in the medicine cabinet mirror as Maggie closes it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3226000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maggie walks past the dead girl in the basement.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone grabs Tom and he has a series of visions while Lisa is hypnotizing him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A decomposed body is shown close up on screen, accompanied by a screaming noise.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry grabs Maggie.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5456000,
+      "type": "minor"
+    }
+  ],
+  "title": "Stir of Echoes",
+  "tmdb_id": 11601
+}

@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a short scream and the webcam, which was focused on Val, suddenly falls to the ground.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thud and the webcam moves to Val’s motionless body lying on the ground.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2226000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several seconds of broken video from Ken’s webcam which show a distressed Ken being slammed into the computer desk and putting his hands and face in a blender.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2844000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess’s webcam shows a brief image of her crouching on the bathroom floor screaming. Several seconds later the webcam shows Jess with a hair straightener in her mouth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4165000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands reach down and close the laptop screen, accompanied by a loud NO!, a few seconds later the ghost of Laura lunges at the screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4592000,
+      "type": "major"
+    }
+  ],
+  "title": "Unfriended",
+  "tmdb_id": 277685
+}

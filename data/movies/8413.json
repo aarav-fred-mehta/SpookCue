@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1997,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens from behind Dr. William Weir.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Weir is grabbed on his shoulder from behind.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miller is startled by a floating hand that appears from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1575000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disfigured face pops out from behind one of the crew members as she investigates a stuck CD.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights flicker then Weir sees a person appear next to him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2698000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lights explode around one of the crew members.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something bangs heavily on the door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3022000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Flashing images occur as Miller puts his head against the wall.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3474000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Peters falls down a hole in the ground.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "D.J. gets attacked after spinning around.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the crew member’s helmets is opened dramatically.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5444000,
+      "type": "minor"
+    }
+  ],
+  "title": "Event Horizon",
+  "tmdb_id": 8413
+}

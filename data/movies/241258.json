@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a high pitched sound effect, a fast moving figure passes Cameron.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 280000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a long build up, Cameron looks upwards and a woman drops down from the ceiling and attacks him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 328000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears at a window startling Dr. Ember.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sound effect plays as Cameron suddenly lunges at Dr. Ember.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Ember suddenly pushes Dan off a chair.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cameron suddenly grabs Dan’s arm and breaks it.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2811000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dan begins talking from behind Dr. Ember.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Ember goes through a door and is attacked by a demon.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A high pitched sound plays as Dr. Ember starts convulsing.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4587000,
+      "type": "minor"
+    }
+  ],
+  "title": "Incarnate",
+  "tmdb_id": 241258
+}

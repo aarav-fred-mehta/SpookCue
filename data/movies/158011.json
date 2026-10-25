@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A window is broken.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 454000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After we see an extreme closeup of Leah’s face she is suddenly pulled out from under the bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "and the parking garage scene at 22:37 are the most significant.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 760000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car pulls out in front of Casey in the parking garage.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael breaks a car window with a shovel as Alan calls 911 (we get a small amount of warning beforehand).",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alan suddenly gasps as Casey is talking to Jordan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael suddenly opens the door during a tense scene.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4599000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jordan sees Michael looking at her through a crack in the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jordan knocks out Michael.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4916000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Call",
+  "tmdb_id": 158011
+}

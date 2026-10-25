@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden noise makes the car go off the road.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the tent slowly opened, a mangled corpse comes through the opening. The boar then attacks.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sheri is suddenly impaled by the boar, revealed by the flashlight.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2640000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bernie’s truck is suddenly hit by the boar.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Robert is suddenly taken out by the boar.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4312000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boar is at the door as Bernie opens it.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4840000,
+      "type": "minor"
+    }
+  ],
+  "title": "Boar",
+  "tmdb_id": 416724
+}

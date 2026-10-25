@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An alien creature screeches at Moses as he searches through the car, a couple of seconds later it leaps at his face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien suddenly attacks one of the policemen as he closes the van doors, a few seconds later it pounces on the other policeman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1564000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien appears by the door to the van.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien lunges at the windscreen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien attacks Hi Hatz’ henchman as he turns around.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1984000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on the door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2573000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Moses looks through the peephole in the door a second time and the alien suddenly lunges at the door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2600000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien smashes in the recycling bin that Biggz is hiding in.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2917000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien lunges at Biggz as he peers out of the recycling bin.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3473000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien bangs on the lift.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien knocks over Jerome.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jerome grabs Pest’s ankle.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3852000,
+      "type": "minor"
+    }
+  ],
+  "title": "Attack the Block",
+  "tmdb_id": 59678
+}

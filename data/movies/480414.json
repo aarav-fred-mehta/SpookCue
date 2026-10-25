@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The title credits appearing on the screen accompanied by a sound effect may startle some.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens loudly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 795000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing water drip on the floor, Carlos looks up and La Llorona is hovering right above him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 924000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "La Llorona suddenly runs out of the shadows and grabs Chris around the arm.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1199000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chris shuts the car door, La Llorona appears at the window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1229000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car lock suddenly pops up.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam lifts the umbrella out of the water and La Llorona suddenly appears in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1682000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force suddenly pushes the door open as Anna holds Chris.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2263000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alarm clock suddenly goes off.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "La Llorona suddenly rushes at Chris from behind the curtains.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2748000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "La Llorona comes out of the room behind Chris and tackles him.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "La Llorona pushes Sam under the water.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3087000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chris points and says “Mom”, causing Anna to look around and see La Llorona’s face right beside her.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3153000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud roar from upstairs.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3828000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna and the childen look up to see La Llorona towering above them.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure under the tablecloth suddenly rushes at the children.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The glass behind Rafael suddenly cracks.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4108000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force hurls Sam backwards.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shrieking La Llorona suddenly swims at Anna as she approaches Sam.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4322000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the sheet drops to reveal La Llorona’s reflection, the glass shatters and she screams at the children.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5005000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Curse of La Llorona",
+  "tmdb_id": 480414
+}

@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 126,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A creature lands on the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3435000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud clanking noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the group is grabbed from behind by a man trapped in a spider web.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The returning group bang on the door of the supermarket.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5093000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The soldier outside the supermarket is taken away suddenly by a creature.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5702000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Mist",
+  "tmdb_id": 5876
+}

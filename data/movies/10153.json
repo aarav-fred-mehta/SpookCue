@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 134,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An elevator suddenly starts, propelling Norman and Beth upwards.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth turns around and sees a mummified corpse.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1773000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holographic images of space appear in front of Beth after she taps on the computer screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1886000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sea snake attacks Norman.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5298000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sphere",
+  "tmdb_id": 10153
+}

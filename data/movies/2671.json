@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The image of a dead girl hiding in a wardrobe with a terrified expression may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1243000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A picture is shown accompanied by a startling sound.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reiko has a vision of her son lying in his bed beside her. Suddenly an image of a man with a towel over his head is superimposed over her son’s bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears from under the water that grabs Reiko’s wrist.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A close-up of one of Sadako’s eyes suddenly appears on screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5286000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reiko sees the man with the towel over his head in the television reflection.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5459000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ringu",
+  "tmdb_id": 2671
+}

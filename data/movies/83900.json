@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "William runs at the car from the side of the screen and bangs on the window to scare Ben.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "William suddenly bangs on the car window to scare the kids outside.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "William shines the flashlight on a taxidermy wolf with a loud sound cue.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2444000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A doll suddenly moves on its own, turning towards the group and startling them.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden loud noise startles Ben.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3280000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden scream that startles Deborah.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3666000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben suddenly lunges forward to attack William.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3936000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah suddenly appears behind William and grabs him while screaming.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4058000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna quickly lifts her head up while Lucie is looking at her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anna, looking down, suddenly lunges at and grabs Lucie.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4337000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A seemingly dead Deborah springs back up.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4898000,
+      "type": "minor"
+    }
+  ],
+  "title": "Livid",
+  "tmdb_id": 83900
+}

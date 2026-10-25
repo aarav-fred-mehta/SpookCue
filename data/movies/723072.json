@@ -1,0 +1,193 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 57,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A knock is heard at Seylan’s door, which is revealed to just be a late delivery.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1078000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jemma suddenly screams loudly as she claims to have felt something touch her neck.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1168000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Haley is suddenly dragged backwards in her chair.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1421000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thud is heard.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1581000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma’s drinking glass suddenly shatters.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1897000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A warbling sound is heard as the lights in everyone’s rooms begin to flicker.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2078000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Caroline becomes visible through her virtual background as she appears to fall towards the webcam, knocking the laptop over.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2324000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma’s camera pans down and a floating face filter is seen.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma’s cabinet doors burst open.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alan’s body falls to the floor behind Radina.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2501000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Caroline once again becomes visible through her virtual background as she starts repeatedly slamming her head.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2547000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Haley’s chair gets pulled away.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mysterious face appears in Teddy’s view.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2744000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another mysterious face appears in Teddy’s view as loud screaming is heard.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2762000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Thudding is heard in the distance.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2811000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Teddy’s flashlight explodes.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A scream is heard as another explosion occurs, blowing Teddy backwards.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emma screams loudly after she throws a blanket and it lands in mid-air.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3007000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window shatters off-screen as Jemma breaks into Haley’s house.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3041000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jemma’s hand reaches for the camera.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3100000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Haley’s cabinets and drawers burst open.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3119000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hayley appears from under the desk as her chair knocks over.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3190000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Haley snaps a portrait, a mysterious and bloodied figure suddenly screams and lunges towards her and Jemma, but is then abruptly cut off due to the Zoom meeting reaching its time limit.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3278000,
+      "type": "major"
+    }
+  ],
+  "title": "Host",
+  "tmdb_id": 723072
+}

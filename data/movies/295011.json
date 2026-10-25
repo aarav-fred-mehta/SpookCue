@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie snatches away the plate that Morgan holds out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several of the infected start attacking Morgan’s car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2389000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the apparently dead soldiers suddenly jumps up and bites a man.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2479000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette passes by in the foreground.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2546000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected person jumps out at Colonel Knox.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2563000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": ") therefore most of the jump scares lack any real impact.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4120000,
+      "type": "minor"
+    }
+  ],
+  "title": "Patient Zero",
+  "tmdb_id": 295011
+}

@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A stranger rushes at Alex with a knife.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 364000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dark figure rushes toward the screen behind Alex’s nana.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 742000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam startles himself awake chasing Lucy in a library dream sequence.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry notices Adam’s fingers moving as he and Liz dump the bodies.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5103000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pollidori backs away from Liz’s body and us startled by his wife in the hall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam punches through Pollidori’s car window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6343000,
+      "type": "major"
+    }
+  ],
+  "title": "Depraved",
+  "tmdb_id": 501977
+}

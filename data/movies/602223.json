@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "In a dark tunnel, a boys face suddenly appears.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 179000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dylan closes his gun safe door to reveal his wife unexpectedly standing there.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A horse suddenly bolts out of it’s stall.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1963000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A scary man suddenly appears in front of Dylan.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2009000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Adela pulls a lever to free a goat from it’s cage, a bar suddenly clamps down on her neck.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2047000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darius suddenly hits a ‘Rabbit Head’ man who is attacking Adela.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2110000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man with an axe bangs on the truck cab window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2899000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man with a sledgehammer attacks Dylan.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2943000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bat skeleton suddenly falls from the ceiling right in front of Adela.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3981000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A presumed to be dead body that is pinned against the wall, suddenly attacks Adela.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4032000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of a gun lever action is suddenly heard behind Adela.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4421000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An eye suddenly opens in the socket of a Texas Longhorn skull.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5237000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Forever Purge",
+  "tmdb_id": 602223
+}

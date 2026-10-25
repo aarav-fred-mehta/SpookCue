@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After a long period if silence, a door slams loudly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gray jumps out at Deacon as he investigates a strange noise. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1993000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gray turns and is startled by a dog standing in front of him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise as Mark appears to hit his head on something.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2219000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A book falls to the floor.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crucifix falls off the wall.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3186000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Crellick who appears to be dead, suddenly grabs Gray by the arm.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deacon kicks a beer can during a tense scene.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3838000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several lights suddenly explode.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A panicked Gray runs into Deacon.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts out for several seconds before coming back to Gray who is screaming in agony.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5328000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Borderlands (Final Prayer)",
+  "tmdb_id": 207774
+}

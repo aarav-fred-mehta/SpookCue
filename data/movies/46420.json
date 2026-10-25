@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Brent is grabbed by Lola from behind while looking down the hole.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lola’s scrapbook flies at the windshield while Holly is driving.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the camera slowly zooms in on Lola there is a cut to the car right in front of her when they collide.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4662000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Loved Ones",
+  "tmdb_id": 46420
+}

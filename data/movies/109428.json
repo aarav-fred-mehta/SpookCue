@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure runs past the screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 88000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The tied up girl suddenly becomes possessed and begins to yell. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 267000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl’s possessed face flashes briefly on the screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As she is driving, Mia sees a girl standing in the middle of the road.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl rises up out of the water behind Mia.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia turns around suddenly as David begins to talk to her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1744000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia sees the demonic girl in the mirror.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1834000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a quick cut to Mia attacking the dog with a hammer.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1996000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia starts to scream as the door bursts open and wind gushes in.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia grabs Olivia’s arm as she tries to get the gun.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Olivia sees a demonic version of her reflection and the mirror breaks.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise coming from the cellar startles Natalie.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2723000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natalie is dragged back into the cellar.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2836000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud crash startles David while he is in the cellar.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3921000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia suddenly appears and attacks David with a knife.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David stops to look at a photo. Possessed Eric appears behind him and stabs him in the neck. [Video] .",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4479000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out of the earth and grabs Mia. [Video] .",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4648000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The abomination appears at the driver-side window of the car and breaks through the glass.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4682000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The abomination appears in front of Mia.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife comes through the wall just in front of Mia.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4805000,
+      "type": "minor"
+    }
+  ],
+  "title": "Evil Dead",
+  "tmdb_id": 109428
+}

@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody man runs towards the camera. Footage from original film.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 719000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person appears in the mirror.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody man is on the ceiling. Footage from the original film.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2033000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man bloody man jumps out of the bathtub. Footage from original film.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The spirit board arrow jump out of their hands.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2641000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2657000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The furniture in the room gets flipped over.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2667000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jerry is pulled out the window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2933000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise is heard.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3117000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A childs face distorts and screams.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3134000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door flies open.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise is heard.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3337000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The security guard wakes up.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man with a distorted face crashes through the window.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3501000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A jet of steam busts from a pipe.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man runs at the thermal camera.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3798000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A child with a distorted face runs towards the camera in the vent.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3862000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sean jumps.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4219000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang is heard.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A light suddenly switches on.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostly women jumps into view.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5104000,
+      "type": "major"
+    }
+  ],
+  "title": "Grave Encounters 2",
+  "tmdb_id": 134366
+}

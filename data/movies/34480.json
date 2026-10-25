@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody woman smashes against the car window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 103000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog runs out of dark hole.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A camouflage crawler screams at Sarah.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler suddenly apears next the the thermal camera.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1992000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans to the left exposing a crawler.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2588000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah grabs Rios from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dan is attacked by a crawler.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2706000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler appears through a hole in the rocks.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2864000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flashlight startles Cath and Greg.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3053000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A human hand drops from the roof.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler attacks Greg.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler attacks Cath.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah touches Rios shoulder.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3640000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler jumps towards Vaines.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3827000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler jumps out from under the water.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler jumps out from under the water a second time.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Juno comes into camera view and screams.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Juno.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4977000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rios gets hit with a shovel.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crawler jumps out of the hole towards the camera.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5368000,
+      "type": "major"
+    }
+  ],
+  "title": "The Descent: Part 2",
+  "tmdb_id": 34480
+}

@@ -1,0 +1,217 @@
+{
+  "phonetic_index": [
+    {
+      "p": [
+        "T",
+        "A",
+        "RMMPR",
+        "AN0NK",
+        "APT",
+        "A0",
+        "HPNT"
+      ],
+      "s": 8000
+    },
+    {
+      "p": [
+        "AAF",
+        "KT",
+        "A",
+        "PT",
+        "FLNK",
+        "APT",
+        "0S"
+      ],
+      "s": 25000
+    },
+    {
+      "p": [
+        "AAF",
+        "KT",
+        "A",
+        "PT",
+        "FLNK",
+        "APT",
+        "0S",
+        "0R",
+        "HTNK",
+        "SM0NK",
+        "FRM",
+        "AS"
+      ],
+      "s": 25000
+    },
+    {
+      "p": [
+        "0R",
+        "HTNK",
+        "SM0NK",
+        "FRM",
+        "AS"
+      ],
+      "s": 26100
+    },
+    {
+      "p": [
+        "AF",
+        "NT",
+        "A",
+        "AL",
+        "0S",
+        "SKRT"
+      ],
+      "s": 28000
+    },
+    {
+      "p": [
+        "0",
+        "STRPS",
+        "ARNNT",
+        "PRKN"
+      ],
+      "s": 31000
+    },
+    {
+      "p": [
+        "0",
+        "STRPS",
+        "ARNNT",
+        "PRKN",
+        "SMN",
+        "LT",
+        "AT",
+        "K"
+      ],
+      "s": 31000
+    },
+    {
+      "p": [
+        "AT",
+        "0",
+        "HL",
+        "AS",
+        "KNK",
+        "AN",
+        "AT",
+        "0R"
+      ],
+      "s": 37000
+    },
+    {
+      "p": [
+        "0S",
+        "TKTRS",
+        "HF",
+        "SKT",
+        "AP",
+        "AFR"
+      ],
+      "s": 39000
+    },
+    {
+      "p": [
+        "ATTS",
+        "APFS",
+        "0NKS",
+        "HF",
+        "KT",
+        "AT",
+        "AF",
+        "HNT"
+      ],
+      "s": 42000
+    },
+    {
+      "p": [
+        "S",
+        "KL",
+        "AFR",
+        "A",
+        "HF",
+        "T",
+        "KL",
+        "ANT",
+        "KT",
+        "AS",
+        "AT",
+        "AF",
+        "HR"
+      ],
+      "s": 44000
+    },
+    {
+      "p": [
+        "N",
+        "AN",
+        "AL",
+        "KM",
+        "T",
+        "RSK",
+        "AS"
+      ],
+      "s": 46400
+    }
+  ],
+  "release_year": 2015,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An infected lunges out from a doorway.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Guzman appears behind Angela.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1578000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Edwin, now an infected, suddenly turns around and snarls.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2195000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anciana, as an infected, suddenly screams.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected is revealed behind the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected appears and attacks a soldier.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monkey appears and shrieks.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4572000,
+      "type": "minor"
+    }
+  ],
+  "title": "[REC] 4: Apocalypse",
+  "tmdb_id": 185341
+}

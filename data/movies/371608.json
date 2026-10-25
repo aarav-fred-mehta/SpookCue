@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Luke enters the trailer Kinsey jumps out at him (as a joke).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang as Kinsey and Luke approach the door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1644000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog yelps and runs out of the room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sound effect plays as Kinsey removes a sheet revealing two disfigured corpses.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1728000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Kinsey climbs out through the skylight, Dollface starts breaking down the wall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2023000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window breaks as something is thrown through it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window is once again broken.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2352000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A concrete block is thrown at the windshield of Mike’s minivan.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Kinsey, who is hiding in a tunnel, yells “Leave us alone!” Pin Up girl appears from the shadows beside her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2677000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Jack In The Box toy pops up as Dollface reveals herself.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3122000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck smashes through the wall of the caravan just after Luke tells Kinsey that they need to find a landline and call 911.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3391000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Man in the Mask slams on the window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a knock at the door (this isn’t particularly startling although it does occur during a tense scene).",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4673000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Strangers: Prey at Night",
+  "tmdb_id": 371608
+}

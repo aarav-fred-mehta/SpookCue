@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman walking behind Cindy, Brenda, and Alex, is suddenly run over by a bus.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cindy is startled by Hanson as she enters the kitchen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cat breaks a glass object startling Cindy and Buddy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1870000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The toy clown grabs Ray as he looks under the bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A skeleton suddenly sits up in the furnace as Cindy sifts through the ashes.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3097000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams as Cindy and Buddy are talking.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cain rams Dwight’s wheelchair.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3680000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window blows out.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4279000,
+      "type": "minor"
+    }
+  ],
+  "title": "Scary Movie 2",
+  "tmdb_id": 4248
+}

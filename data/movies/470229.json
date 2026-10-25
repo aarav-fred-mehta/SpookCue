@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The desk that Davey and Mackey are carrying bangs into something metallic making a loud noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 176000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Davey’s friends startle him as he watches Mackey and a boy through the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen assailant suddenly abducts a boy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1930000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ringing telephone startles the boys as they explore a house.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears on the light switch as Woody approaches it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2688000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Davey runs past a window, Mackey suddenly slides it open.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2923000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mackey appears directly behind Davey.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2981000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Davey looks through his binoculars and, accompanied by a sound effect, sees Mackey watching him from his window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3087000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Faraday and Woody startle Davey and Tommy as they look through Mackey’s shed.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3427000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nikki appears at the window after Woody says “just make this quick ok”.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4651000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Davey’s walkie talkie bursts into life startling the group.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light bulb blows as Davey tries to turn it on.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4824000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang from behind as the group approach a door.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tommy takes off his headphones after hearing a noise, Farraday then startles him as a joke.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing a body in the bathtub, a hand reaches out and grabs Nikki around the ankle.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5033000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Davey opens his eyes and a cloth is placed over his mouth.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rock smashes into the windscreen.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mackey appears at the car window.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5511000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Davey’s ankle is suddenly cut as he hides behind a tree.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5654000,
+      "type": "minor"
+    }
+  ],
+  "title": "Summer of 84",
+  "tmdb_id": 470229
+}

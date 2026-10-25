@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jude scares Lisa from behind as she stands by the shoes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 122000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights come on and suddenly a masked man stands behind Lisa.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 326000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Lisa is sleeping, she is suddenly strangled.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 574000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Lisa says “This is where you found him,” a cut follows and a dog suddenly barks. It happens out of nowhere.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1187000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa is suddenly grabbed by a burglar.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brahms’ eyes turn white and suddenly flies fly from his mouth. The sound effect is very loud.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2437000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When lisa is standing in the kitchen there is suddenly a bang.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2728000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette whizzes past the window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2964000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Lisa is behind the wall, a silhouette flies by behind her and a sound effect plays.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lisa runs through the corridor, bats suddenly fly out of the ceiling.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3086000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Lisa finds Jude and they hug, something bangs on the door behind them and moves the handle.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3217000,
+      "type": "minor"
+    }
+  ],
+  "title": "Brahms: The Boy II",
+  "tmdb_id": 555974
+}

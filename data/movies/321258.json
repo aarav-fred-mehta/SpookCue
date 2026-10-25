@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Greta is surprised by Malcolm.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Greta is pulled into the family portrait before waking from a nightmare.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1552000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The attic door suddenly closes trapping Greta inside.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2163000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Greta sees a figure causing her to scream and fall down.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The attic stairs pull up as Greta and Malcolm are talking.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2435000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During another nightmare, Brahms’ head suddenly snaps back after Greta moves it.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mirror shatters beside Cole.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4798000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Greta and Malcolm try to escape they run into Brahms.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Greta goes to open a door and Brahms is standing behind it.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4938000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Greta sees something move while looking through a gap.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5087000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brahms breaks through a wall behind Greta and Malcolm.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5095000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Boy",
+  "tmdb_id": 321258
+}

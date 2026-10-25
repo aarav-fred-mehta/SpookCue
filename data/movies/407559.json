@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The phone is yanked out of Lily’s hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lily turns around and sees Iris watching her from the doorway.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lily catches a glimpse of Polly in the reflection of the television screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2652000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lily gasps and the reflection of Polly can be seen in Lily’s eye.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4244000,
+      "type": "minor"
+    }
+  ],
+  "title": "I Am the Pretty Thing That Lives in the House",
+  "tmdb_id": 407559
+}

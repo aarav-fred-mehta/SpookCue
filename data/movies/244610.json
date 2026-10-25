@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 77,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A scary figure appears behind a boy. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 101000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth suddenly jumps up in bed and screams as Damien touches her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Damien gets into his car and a masked man can be seen sitting in the back seat.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man appears behind Jenni and hits her head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud electronic noise as Elizabeth clicks on the link.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2349000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jenni, who is lying in a bathtub full of blood, suddenly begins to convulse as Elizabeth touches her. [Video] .",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2608000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door bursts open and a masked man stands behind it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2880000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth opens a door and finds the police officer chained up and dead.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3348000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth turns around and the masked man is right behind her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked man attacks Elizabeth once more.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud metallic noise.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth sees a masked man standing in a dark hallway.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3930000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth runs around a corner and comes face to face with a masked man. [Video] .",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4012000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A vehicle collides with the car Elizabeth is driving.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4096000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Den",
+  "tmdb_id": 244610
+}

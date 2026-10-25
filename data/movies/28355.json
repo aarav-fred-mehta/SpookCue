@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Margaret gets up from the floor carrying a knife.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man knocks on Emily’s car window while she’s focused on something else.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog jumps at a window and starts to bark.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily turns around to go back inside and is startled by Lily standing in the door-frame.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Margaret’s dishevelled face appears at her cell window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily sees Lily’s feet as she searches for a screw.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4324000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang on Emily’s bedroom door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disfigured Margaret appears from between the clothes in Emily’s closet. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4692000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lily grabs Emily’s hand.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6110000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lily’s hand punches through the tail light to grab Emily.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6174000,
+      "type": "minor"
+    }
+  ],
+  "title": "Case 39",
+  "tmdb_id": 28355
+}

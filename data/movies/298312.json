@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Doris crawls around the corner and snarls at Tyler.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1222000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris runs past the door as Tyler looks out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca bursts through a door to scare Tyler.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris pops up in front of the camera and snarls.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3332000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris bangs hard on the children’s bedroom door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris bangs on the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris appears in front of the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris’s hand comes up from underneath the bed and she laughs maniacally.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4829000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Visit",
+  "tmdb_id": 298312
+}

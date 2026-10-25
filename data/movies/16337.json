@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 1986,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "With very little warning, Leatherface comes out of the record vault after Choptop points it out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2193000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface crashes through the door behind LG.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2412000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface breaks through the wall behind Stretch.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden chainsaw noises up ahead startle Stretch.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4360000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface bursts out of the tunnel in front of Stretch.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4405000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stretch is grabbed from above by Choptop.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5313000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Texas Chainsaw Massacre 2",
+  "tmdb_id": 16337
+}

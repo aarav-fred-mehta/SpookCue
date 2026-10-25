@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sawyer bangs on the door and it is suddenly opened by an orderly (there is a muted sound effect as the door opens but the scene is not startling enough to qualify as a true jump scare).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1439000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Sawyer escapes the building she hides behind a tank but the camera pans around to reveal David who attacks her from behind (there is no sound effect and the scene is heavily telegraphed which lessens the impact).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5290000,
+      "type": "minor"
+    }
+  ],
+  "title": "Unsane",
+  "tmdb_id": 467660
+}

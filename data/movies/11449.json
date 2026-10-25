@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1979,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As the real estate agent opens a bedroom door, there is a sudden flashback to the shooting (several more flashbacks occur over the next few minutes).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 411000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disembodied voice screams “get out” at Father Delaney.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "George is startled by a yowling black cat at the window. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1829000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy hears something and looks into another room, when she returns to the kitchen her daughter is suddenly standing there.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy sits up in bed and screams.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amy sneaks up on George and Kathy.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3953000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy looks out of the bedroom window and sees two glowing eyes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "George falls through the stairs into the brown liquid below.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6778000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Amityville Horror",
+  "tmdb_id": 11449
+}

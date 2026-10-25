@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The silhouette figure suddenly bursts through the curtain.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 273000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie’s mom bursts into the room causing the group to scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sheets are suddenly ripped off Lina’s bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris suddenly sits up in bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears as Doris looks through the Ouija planchette.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris looks through the planchette once more and sees a figure move away accompanied by a loud noise.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris looks at a mirror though the planchette and sees a demon standing with her. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2506000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris is suddenly beside Lina’s bed.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to Doris with white eyes and an unnaturally wide mouth.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris suddenly appears beside Mikey.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey’s body suddenly drops down from a noose. [Video] .",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4300000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn off.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris suddenly glides towards Father Tom.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4619000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Tom looks up and sees Doris on the ceiling.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice is pushed back by an unseen force as Mikey drops down to grab Lina. [Video] .",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4729000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris begins talking from directly behind Alice.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice looks up as she is being dragged away and sees Doris.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4824000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lina knocks Doris away with a chair.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4948000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ouija: Origin of Evil",
+  "tmdb_id": 335796
+}

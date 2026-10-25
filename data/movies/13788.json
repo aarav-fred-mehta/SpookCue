@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Casey uncovers a fetus which suddenly opens its eyes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Matty hits Casey over the head with the mirror.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Casey breaks an egg and a large bug falls out of the shell and lands in the pan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 558000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Casey opens the bathroom cabinet and a screaming child is inside. [Video]",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden scene transition to a loud train passing may startle sensitive viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Casey has a vision of the demonic boy while in a night club. He suddenly moves closer to the camera and screams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Casey looks through a hole in the bathroom stall when a brown liquid and a large number of insects shoot out.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream, Casey goes to touch her mom who is hunched over with her face obscured from the camera. She suddenly looks up and screams to reveal a horribly distorted face with a large mouth. [Video]",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3145000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demonic boy appears behind Sofi who is hiding in a small room. [Video]",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3369000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We see a close up of the boy on Casey’s laptop (accompanied by a sound effect).",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3701000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Matty stabs Romy in the stomach.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several disturbing images flash across the screen in quick succession.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands burst through the wall behind Mark and pull him through the hole.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Mark appears right behind Casey.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4701000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Unborn",
+  "tmdb_id": 13788
+}

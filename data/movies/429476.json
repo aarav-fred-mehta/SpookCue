@@ -1,0 +1,233 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An actor for the horror maze jumps out at the girls.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 95000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another actor jumps out from behind them.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 100000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another actor jumps out from the blue curtains to the left side of the corridor.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 110000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A robot witch comes out from the wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A robot jester comes out from the wall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 125000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the park actors scares Natalie with a chainsaw while she’s talking to Gavin.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 712000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An actor dressed as a clown jumps in front of Natalie and Gavin while they’re walking.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 977000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The actor standing still turns and screams at Taylor.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1127000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cloaked actor jumps in front of group.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brooke turns around to leave and runs into Quinn.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1762000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mechanical spider drops down from the ceiling in front of Brooke and Quinn.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2274000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead man Ash is looking inside assuming it was a prop suddenly grabs him.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2599000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the actors grabs Taylor and lifts her up.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lights suddenly turn on above the doctor sitting on the chair and he turns to look at the group.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2774000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman on the mattress grabs Ash as he is reaching for the syringe.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2818000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Brooke from above the fog.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2861000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the hands touches Taylor, frightening her.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2936000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights of a train suddenly turn on behind Ash and Quinn and its horn goes off.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2967000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer bangs on the glass.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3034000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A light turns on in front of Ash and there is a cut to a growling gargoyle.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer suddenly opens his eyes as Ash shines the flashlight on him.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the park actors growls and runs at the group.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Natalie is drying her hair, the camera cuts to the empty bathroom stalls. It then cuts back to Natalie drying her hair and when it cuts to the stalls again the killer is standing right in front of her.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3321000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer’s hand slowly reaches for Natalie’s hair and then suddenly pulls down accompanied by a loud thud sound.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3527000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mechanical prop springs out of the box after Brooke says “He’s not in here.”",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4481000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden growl.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A prop appears on the wall, frightening Brooke. The same prop appears on two more walls as she runs through the hall.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4744000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer’s axe suddenly slashes through the wall.",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4756000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hell Fest",
+  "tmdb_id": 429476
+}

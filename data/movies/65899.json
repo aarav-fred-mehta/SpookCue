@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 1993,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Elizabeth leans forward, the railing suddenly breaks and she falls forwards.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A wooden plank snaps beneath Elizabeth’s feet and she screams and falls down.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2556000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dark Waters",
+  "tmdb_id": 65899
+}

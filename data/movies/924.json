@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Luis breaks through bathroom door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 464000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady runs up to Ana’s car and pleads for help.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 548000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone opens the drivers side door of Ana’s car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gunfire is directed at Ana and Kenneth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 873000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie lunges at the glass door in front of Andre.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie jumps down onto Bart’s back.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4019000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombified Luda suddenly sits up in bed and lunges at Andre.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4201000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Steve looks up and sees a zombie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zombified Steve makes a screeching noise.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5928000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another zombie jumps out from behind some rubble.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5933000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dawn of the Dead",
+  "tmdb_id": 924
+}

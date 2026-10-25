@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera suddenly cuts from an extreme close up of Nelson’s face to a top down shot of a field (accompanied by a sound effect).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window blind suddenly opens.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2989000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nelson turns around and Billy is standing behind him with a hockey stick.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3287000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel sees an image of her bloodied father in the mirror.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4312000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Billy suddenly pops up in the front of the car holding a pickaxe.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5127000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David suddenly knocks on the door behind Rachel.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to Billy’s coffin accompanied by a sound effect.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6132000,
+      "type": "minor"
+    }
+  ],
+  "title": "Flatliners",
+  "tmdb_id": 1551
+}

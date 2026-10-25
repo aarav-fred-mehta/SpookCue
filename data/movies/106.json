@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A flock of birds fly out at Billy as he sees several flayed corpses hanging in the trees.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 959000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dillon almost runs into Mac.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blood splatters on Blaine’s shoulder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2824000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Predator is suddenly caught in the net just as Dutch begins to turn back.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mac puts his hand over Dillon’s mouth.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4179000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Predator shoots a laser at Poncho from the trees.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Predator traps Dutch’s head between two spikes that come out of its arm.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5642000,
+      "type": "minor"
+    }
+  ],
+  "title": "Predator",
+  "tmdb_id": 106
+}

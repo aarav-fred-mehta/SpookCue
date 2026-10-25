@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Jude after he opens the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1404000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The counselor jumps out from behind a gravestone and punches Jude.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1775000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "June jumps on Jude from a tree branch.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2686000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "June turns on a light switch and it causes a lamp to explode.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2812000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the kids are walking away a flashlight suddenly turns on in front of their faces.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wallace grabs June’s hair.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jude looks towards Eric it suddenly cuts away to Eric jumping at him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deer flies through the car window, shattering it.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4447000,
+      "type": "minor"
+    }
+  ],
+  "title": "Seven in Heaven",
+  "tmdb_id": 500535
+}

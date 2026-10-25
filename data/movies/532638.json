@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mary opens the bathroom door and sees a man drowning a girl in the bathtub.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a music cue as Mary looks up.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out of the toilet and grabs Mary’s arm.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody girl appears beside Mary.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two hands break through the wall behind Mary.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby wakes up and cries out.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mary sees Jason in the mirror.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5981000,
+      "type": "minor"
+    }
+  ],
+  "title": "Open 24 Hours",
+  "tmdb_id": 532638
+}

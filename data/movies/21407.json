@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Arkin from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man jumps out of the box Arkin opens.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2600000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Collector",
+  "tmdb_id": 21407
+}

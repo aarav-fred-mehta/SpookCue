@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "When Eddie tries to meditate a loud noise from the neighbors bothers him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1439000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming lady runs into eddie.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eddie looks in the mirror and a voice says eddie and his eyes become black.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2411000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Venom suddenly says FOOD when eddie is on the phone.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2539000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eddie reacts violently when the MRI Scan starts.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another mild jumpscare when Venom suddenly says HUNGRY.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2829000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eddie is bothered by the neighbour again and when the neighbour said “whatever” Eddie suddenly roars at him with a scary face.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2941000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Dan says we don’t got a lot of time, venom suddenly grabs him by the neck.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4322000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Carlton drake says “This is the last time I’m asking you where is my symbiote,” he suddenly transforms to Riot shout WHERE IS HE.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4568000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Riot suddenly grabs one of his researchers.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4847000,
+      "type": "minor"
+    }
+  ],
+  "title": "Venom",
+  "tmdb_id": 335983
+}

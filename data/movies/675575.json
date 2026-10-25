@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some lights come on and an animal in a trap is seen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman suddenly attacks from behind.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4098000,
+      "type": "minor"
+    }
+  ],
+  "title": "Honeydew",
+  "tmdb_id": 675575
+}

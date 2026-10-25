@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bear roars suddenly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 811000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman’s face flashes in front of Sarchie’s view from night vision goggles.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 858000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat meows unexpectedly.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mousetrap snaps shut.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body falls out of the wall behind Sarchie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1722000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dog begins to bark as a police team enter a bedroom.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied head pops up on security camera footage.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2567000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man jumps out and grabs Sarchie from behind.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarchie sees bloodied head man climbing over his daughters bed in the mirror.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4020000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hooded man appears in elevator.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hooded man is shown above Sarchie crawling along pipes.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man jumps out of a chest and puts Sarchie in a headlock.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4844000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A clown pops out of a jack in the box.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5472000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body lands on Sarchie’s windscreen.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Santino hisses at Sarchie.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5764000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Santino’s head snaps back during the exorcism.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6296000,
+      "type": "minor"
+    }
+  ],
+  "title": "Deliver Us From Evil",
+  "tmdb_id": 184346
+}

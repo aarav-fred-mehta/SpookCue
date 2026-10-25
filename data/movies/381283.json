@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 121,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mother walks backwards towards the house and her husband suddenly puts his hands on her shoulders.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mother walks towards a wall to and there is a loud rumbling noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mother closes a cupboard and the guest is revealed to be standing behind it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1178000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a suspenseful scene Mother bends down to pick something up to reveal one of the brothers standing behind her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3044000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mother attempts to make a phone call, her husband suddenly appears in the house.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mother looks out a dark window when a light is turned on to reveal a man smiling at her from outside.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4758000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mother crawls along the floor and is suddenly grabbed by her husband.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5714000,
+      "type": "minor"
+    }
+  ],
+  "title": "Mother!",
+  "tmdb_id": 381283
+}

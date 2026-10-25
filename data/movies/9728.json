@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A snake slithers out of the rabbit cage.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 795000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out and grabs Chris.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The motorcycle gang member gets stabbed by a pitchfork.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chuck suddenly bumps into Debbie.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3264000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bag falls from the ceiling.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hanging corpse falls from the tree.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse is thrown through the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4520000,
+      "type": "minor"
+    }
+  ],
+  "title": "Friday the 13th Part III",
+  "tmdb_id": 9728
+}

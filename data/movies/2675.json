@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An alien like figure can be seen on the roof.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 802000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Graham’s dog leaps at him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2100000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Merrill watches video footage of a children’s birthday party where an alien comes into view. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3499000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Graham sees an alien claw underneath the pantry door. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3695000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud banging noises can be heard.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4604000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "More banging noises are heard.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4857000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand grabs Morgan from behind. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4943000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien can be seen in the reflection of TV. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5575000,
+      "type": "major"
+    }
+  ],
+  "title": "Signs",
+  "tmdb_id": 2675
+}

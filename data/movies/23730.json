@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1984,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The cardboard boxes fall over.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 532000,
+      "type": "minor"
+    }
+  ],
+  "title": "C.H.U.D.",
+  "tmdb_id": 23730
+}

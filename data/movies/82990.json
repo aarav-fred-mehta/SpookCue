@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scarecrow suddenly scares Ben.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 201000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans around the tree-house and Robbie is suddenly in frame.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 648000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex jumps in front of the webcam to scare Ben.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex’s mum enters the house, scaring Alex.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a whooshing noise as a figure moves past the screen while Alex is talking to Robbie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben pulls Alex off her bed while she is looking into her webcam.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a bang as Alex walks towards her bedroom door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wyatt’s toy train turns on.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2318000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chandelier falls from the ceiling and smashes in front of Alex. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2363000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady suddenly appears in front of Alex while she is spying on the neighbours at night.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2550000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A book drops down in front of the camera.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3255000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife drops down in front of the camera.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3751000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sheets are pulled off Alex’s bed suddenly.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The garage door slams down suddenly, narrowly missing Alex.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4749000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A book drops from the shelf.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holly is suddenly lifted off the ground and flung at the ceiling by an unseen force.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5081000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thump as Ben looks at the camera.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben sits down at Alex’s laptop and Katie is suddenly standing behind him.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5258000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex is flung back out of a doorway by an unseen force.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5381000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex sees her dad being flung against a wall.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex sees a large group of women approaching her, she turns around and is then attacked by the possessed Katie.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5520000,
+      "type": "minor"
+    }
+  ],
+  "title": "Paranormal Activity 4",
+  "tmdb_id": 82990
+}

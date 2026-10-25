@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man wearing a purge mask jumps out in front of a woman walking down the street.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears right beside the ambulance window which startles Laney.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A close up of several men being suddenly shot in the head may startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead man lying on a car jumps up and attacks Leo.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is gunfire from outside the ambulance.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3317000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ambulance is shot at by a helicopter.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck slams into the ambulance.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen person pulls Roan out of the ambulance.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leo stabs a man in the back.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5319000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Purge: Election Year",
+  "tmdb_id": 316727
+}

@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, a man appears on the road.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Logan’s foot breaks through one of the wooden steps as he climbs some stairs.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car horn blares.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1171000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Logan turns around and bumps into Martha.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1232000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Logan wakes to see a hand hovering over his face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Logan walks towards an open door, the real estate agent surprises him from the other side.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1746000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We hear a loud thud during a tense scene where Logan lowers his ear to the carpet.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2097000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to the basement slams shut.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Logan lights a match to reveal a man standing behind him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2897000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect we see a man walking past the bedroom door.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The plumber puts his hand on Naomi’s shoulder as she looks at a photo.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3255000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer slams Logan onto the car.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The stereo turns on.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Naomi yells “Logan” and runs at him.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5052000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Open House",
+  "tmdb_id": 485774
+}

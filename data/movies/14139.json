@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Hector looks down the naked woman’s body, an unseen assailant suddenly stabs Héctor in the arm.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 696000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man with the bandaged head suddenly looks through the window at Héctor.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A table is thrown at Héctor as he climbs the stairs.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3257000,
+      "type": "minor"
+    }
+  ],
+  "title": "Timecrimes",
+  "tmdb_id": 14139
+}

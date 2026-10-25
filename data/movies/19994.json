@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Needy suddenly appears at Jennifer’s window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 317000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Needy turns around and sees a bloodied Jennifer standing right behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1404000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crow caws and flies away as Colin climbs some stairs.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jennifer suddenly lands on top of Needy’s car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3470000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jennifer appears in front of Chip.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Needy bursts through Jennifer’s bedroom window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5715000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jennifer’s Body",
+  "tmdb_id": 19994
+}

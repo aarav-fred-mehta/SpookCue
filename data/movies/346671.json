@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The principal suddenly closes the blinds as Gary stares at Lucas.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Karl startles Gary by putting his hand on Gary’s back.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1619000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gary closes the fridge door to reveal Lucas sitting on the kitchen table.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1927000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Gary looks back at the swing Lucas is gone (this is accompanied by a loud sound effect).",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Gary suddenly shines the torch into an empty room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3335000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the toys in Lucas’s room begins talking.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3368000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "however it is heavily telegraphed and therefore unlikely to scare many viewers.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3474000,
+      "type": "minor"
+    }
+  ],
+  "title": "Little Evil",
+  "tmdb_id": 346671
+}

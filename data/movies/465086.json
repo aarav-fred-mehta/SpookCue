@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand knocks out the garbage bag.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman suddenly takes the hand of Detective Muldoon.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 874000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the radio has tuned out, a girl is suddenly standing on the street.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 967000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the monster looks out of the bathtub Peter suddenly hits the window pane and frightens his wife.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster suddenly jumps up from the edge of the bed. This happens with an extremely loud sound effect.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1579000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Detective Muldoon is pushed into the sink from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Goodman’s colleague shoots himself off-screen. The sound is very startling.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2441000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Goodman’s colleague in the car turns around again, a screaming woman knocks on the car window. This is very startling.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2959000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans to the left where suddenly a zombie stands in the light cone.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3159000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands suddenly come out of the bathtub and reach for Peter.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3707000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Peter turns around and suddenly the dead woman stands in front of him and screams at him.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Suddenly the screaming ghost appears in the left corner of the cupboard.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3772000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming ghost appears over Faith. The sound effect is very sudden.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4027000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A screaming ghost appears in the car behind Lorna.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4233000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Detective Muldoon turns off the light, a ghost appears before her.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4611000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost appears once again.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4634000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost suddenly opens the door.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4677000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Just after the son runs into the dark corner of the room, the female ghost comes out of it shortly after and murmurs to Detective Muldoon.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4708000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After it turns out that it is not Muldoon’s real son in her arms, the screaming spirit of a child suddenly appears in her arms.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5221000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Grudge",
+  "tmdb_id": 465086
+}

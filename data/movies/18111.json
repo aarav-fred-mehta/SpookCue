@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Herbert yells “Boo!”",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1024000,
+      "type": "minor"
+    }
+  ],
+  "title": "Bride of Re-Animator",
+  "tmdb_id": 18111
+}

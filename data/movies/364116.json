@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A decaying hand falls out of the coffin.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1057000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies at Maria.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maria turns around and sees a man watching her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chair moves across the room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maria sees the outline of a creature on the other side of the curtain.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maria turns around and a strange man is standing right in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The head of a dead person lying on the road suddenly turns to face Maria.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Oliver’s corpse can briefly be seen in the doorway.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Oliver appears right beside Lucy.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3371000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maria turns around and sees a strange creature behind her.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Piki speaks to Maria as she closes the door.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Lucy “clone” turns around to reveal a contorted face.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The strange creature rushes at Maria before disappearing.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Piki looks down and sees a decaying hand holding her own hand.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4184000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man standing outside Michael’s car knocks on the window and suddenly screams at him.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4592000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Other Side of the Door",
+  "tmdb_id": 364116
+}

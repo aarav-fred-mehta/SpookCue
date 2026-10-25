@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An eye appears in the man’s belongings.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears in front of the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 941000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Banging from the coffin knocks things over.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Edwards turns around.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2245000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hayley looks around with the camera and a severed hand moving around on its own causes her to scream.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2294000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hayley looks up from the ground and Mr. Edwards is running straight at her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the soldiers reaches out for the woman who quickly grabs him on the arm.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden loud noise during a quiet scene as someone gets attacked in another room.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The police officer appears behind her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3927000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The subject runs into frame and rams into the soldier from the side.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A strange creature eats a man’s face.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5603000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature reappears.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5667000,
+      "type": "minor"
+    }
+  ],
+  "title": "V/H/S/94",
+  "tmdb_id": 753453
+}

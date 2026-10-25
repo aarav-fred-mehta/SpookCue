@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 120,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A snake crawls out in front of Ig.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The waitress looks in the rear view mirror and sees Ig.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several disturbing images flash across the screen as Terry overdoses on drugs.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4860000,
+      "type": "minor"
+    }
+  ],
+  "title": "Horns",
+  "tmdb_id": 149509
+}

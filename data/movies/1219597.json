@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Josh is behind the fridge door holding a knife.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature follows Josh through the tube.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel hits the balcony behind the parents.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1682000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Z appears in the tub in front of Beth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2622000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Multiple toy lights start flashing.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Z lunges out of the wall.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Z bangs on the table and startles Beth.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3709000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Z is standing behind the doctor.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3905000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flashlight reveals a hanging body.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4170000,
+      "type": "minor"
+    }
+  ],
+  "title": "Z (2019)",
+  "tmdb_id": 1219597
+}

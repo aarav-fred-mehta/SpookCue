@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is suddenly a loud flash of several spooky images accompanied by a loud sound effect.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 957000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Oz has a vision where he sees a clone of himself slowly approaching him. Suddenly, there is a cut to the clone’s face as he begins to scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden flash of Oz’s clone screaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2723000,
+      "type": "minor"
+    }
+  ],
+  "title": "Sequence Break",
+  "tmdb_id": 444490
+}

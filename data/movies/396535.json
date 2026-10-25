@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang from a man’s truck as he reaches for his phone.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man bangs on the train window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie appears at the window of a parked train.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5403000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the burnt zombies lying on the ground twitches.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6643000,
+      "type": "minor"
+    }
+  ],
+  "title": "Train to Busan",
+  "tmdb_id": 396535
+}

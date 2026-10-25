@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is suddenly a loud sound as someone creeps through the house.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a loud noise, Julian turns around and George is standing right behind him at the doorframe.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "George turns on a light switch, revealing something in the basement that screeches and runs away.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2007000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As George reaches out for a girl, her hand suddenly reaches out and grabs him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a “false awakening” jump scare, George wakes up and turns to his side, and the girl suddenly jumps out at him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car crash suddenly explodes into flames.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4080000,
+      "type": "minor"
+    }
+  ],
+  "title": "Head Trauma",
+  "tmdb_id": 50317
+}

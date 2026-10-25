@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "John turns around and Louisa is no longer in bed. There is a flash of lightning and suddenly Louisa is standing right beside him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John opens a ball and a spider crawls out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2038000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud thunderclap.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2317000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves across the road in front of John’s car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A stone hits the car window, startling John.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow moves past Sam in the attic and he falls of the ladder.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3396000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John shines the torch around the room and is surprised by a man watching him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The officer slams the breaks on suddenly as something appears in front of the car.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The officer is attacked after he puts his head out the window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature breaks through the window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John shoots a creature as it comes through a doorway.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5531000,
+      "type": "minor"
+    }
+  ],
+  "title": "The New Daughter",
+  "tmdb_id": 37534
+}

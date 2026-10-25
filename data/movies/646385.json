@@ -1,0 +1,185 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While Tara’s typing, she’s startled by the phone suddenly ringing.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tara opens the front door and Ghostface is standing on the porch.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 510000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tara slowly backs away to a wall, and is startled by her phone ringing.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 583000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface runs up to Tara from behind her back.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 614000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vince leans down to look inside his car. When he gets back up, Ghostface is standing right behind him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam leans back up from a sink and sees an apparition of Billy Loomis in the mirror.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface slams a door shut behind Sam, revealing itself to be behind it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam turns around and runs into Richie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1790000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car passes by in front of Sam’s car and honks loudly while she’s driving.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2654000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judy turns around and is startled when she runs into Wes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2718000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface jumps out from behind a plant on Judy’s front porch.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wes turns around and Ghostface is standing right in front of him.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tara’s phone suddenly begins to ring.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface appears behind Richie while he’s standing in a doorway.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3684000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface jumps at Dewey from the side while he’s running through the hallway.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amber closes the fridge door and Mindy is standing behind it.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4517000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chad turns around and Ghostface attacks him.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4795000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liv jumps down on the couch next to Mindy, startling her.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface barges out of a closet behind Sidney.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5540000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sam jumps out of the closet at Richie.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amber runs into the room screaming.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6251000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface quickly flashes on screen before the credits roll.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6489000,
+      "type": "minor"
+    }
+  ],
+  "title": "Scream",
+  "tmdb_id": 646385
+}

@@ -1,0 +1,225 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect a hand reaches out towards the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 201000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, the silhoutte of a bird moves past a window behind Jess.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 590000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jess looks through the window we get a quick cut to a closeup of the bird as it flies past the window once more.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 608000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jess reaches out to pick up the toy tractor it suddenly moves towards her and a sound effect plays.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 683000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow moves past screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 873000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some ghostly legs can briefly be seen under a sheet as Denise makes the bed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 959000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead bird suddenly squawks and flies away as Jess prods it with a piece of wood.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1869000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The stairs suddenly collapse and several ghostly screams can be heard over the next minute or so.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostly hands reach out and grab Jess.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2338000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden transition from a quiet scene back to Jess being held back by the ghostly hands.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2362000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John taps on the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2381000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, the camera suddenly zooms out.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure moves past the screen.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostly hands grab Jess once more.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3128000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost grabs Jess around the ankle.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A short, jarring flashback might startle some viewers.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, a figure walks past the screen.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3428000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After staring at Jess for several seconds, the ghost suddenly lunges at her.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are a couple more sharp flashback cuts.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Denise runs into John.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door slams shut on Jess and Bobby.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4439000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door bangs loudly as Jess approaches it.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John smashes into the door from the other side causing Jess and Bobby to flee.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pitchfork comes through the door, narrowly missing Jess.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John suddenly stabs Roy in the back.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out of the mud to grab Jess around the ankle.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4869000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Messengers",
+  "tmdb_id": 9966
+}

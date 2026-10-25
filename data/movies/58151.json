@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man is thrown out of a bedroom.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 123000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ed is surprised by a cardboard cut-out.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 903000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While skateboarding down the street, Ed is suddenly pushed over by Mark.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While hiding from Mark, Ed turns around and runs straight into Jerry.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charley looks through a peephole in a door and a hand suddenly appears.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2276000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doris suddenly explodes into ash as she leaves the house.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2595000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A motorbike breaks through the back window of the car causing Amy to scream.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jerry attacks the security guard.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amy screams and disappears from view.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charley bumps into Peter.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5052000,
+      "type": "minor"
+    }
+  ],
+  "title": "Fright Night",
+  "tmdb_id": 58151
+}

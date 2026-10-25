@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The small lizard is suddenly grabbed and eaten by a different, much larger type of lizard.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 65000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Jonas looks to his left, the megalodon suddenly appears next to the submersible.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone grabs Jonas by the shoulder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2274000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A previously unseen large eel suddenly leaps at the character’s helmet, shown from his POV.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2350000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shoal of fish startles the characters.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lizard suddenly appears in front of Jonas, shown from his POV, and lunges at him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3506000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The megalodon rams the glass wall behind the speaking character, shattering it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4354000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A megalodon suddenly appears and swallows the boat with the mercenaries.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4470000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something rams the boat, startling its passengers.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4689000,
+      "type": "minor"
+    }
+  ],
+  "title": "Meg 2: The Trench",
+  "tmdb_id": 615656
+}

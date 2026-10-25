@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After a series of slow moving grayscale images, there is a sudden rattle and a face flies at the screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 75000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An identical repeat of the last jump scare, but instead of a face, there is a burning portrait and a scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a rattle and the stick-toy quickly flashes on the screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rebecca runs through the dark attic, the cult leader jumps out in front of her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4563000,
+      "type": "major"
+    }
+  ],
+  "title": "The Collingswood Story",
+  "tmdb_id": 54511
+}

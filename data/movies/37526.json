@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Doctor Feinstone grabs Robbie from behind after he opens a door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doctor Feinstone breaks the glass and grabs Jamie.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5194000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Dentist 2",
+  "tmdb_id": 37526
+}

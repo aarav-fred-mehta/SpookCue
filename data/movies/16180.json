@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 1973,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After the ectoplasm envelops the jar, it disappears in a crack, startling Mrs. Barrett and Ms. Tanner.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1661000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Barrett’s teacup shatters in his hand.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1878000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Fischer jerks up and starts to scream directly at the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3215000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ms. Tanner comes across the black cat’s mangled body in the shower, accompanied with a loud sound effect.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Belasco’s spirit roars and lights up the stained glass window behind the crucifix, startling Ms. Tanner.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4345000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crucifix falls on Ms. Tanner, critically injuring her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Barrett’s equipment suddenly blows up in his face, injuring him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The stained glass window shatters after a long closeup on Mr. Fischer’s face.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5398000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Legend of Hell House",
+  "tmdb_id": 16180
+}

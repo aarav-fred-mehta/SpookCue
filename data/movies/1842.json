@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1972,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The Fouke Monster unexpectedly opens a window and reaches its hand inside at the family.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4329000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Fouke Monster hits the bathroom window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Bobby walks back towards the house, he suddenly runs into the Fouke Monster.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4733000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Legend of Boggy Creek",
+  "tmdb_id": 1842
+}

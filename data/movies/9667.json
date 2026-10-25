@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Various images flash across the screen while Jack lies in the dark.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 875000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Images flash across the screen as Jack lies in the dark once more.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1353000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack sees a bright flash as a glass breaks.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Images of the shooting briefly flash across the screen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "More images flash across the screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack experiences several more flash-backs which cause him to fall over.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5325000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Jacket",
+  "tmdb_id": 9667
+}

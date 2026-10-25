@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1990,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The doors to the church are blown open by a sudden gust of wind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 167000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window is broken an a man falls out of a house.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sliding screen to the confession booth is opened quickly, startling Lieutenant Kinderman.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice runs into Kinderman as he turns around.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2751000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Damien makes a horrible roaring noise.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3582000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud clattering noise as Nurse Amy is about to enter a room.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4412000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man sits up in his bed and yells at Amy. [Video] .",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4460000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shrouded figure comes out of the room just behind Amy holding a large pair of scissors. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4592000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Damien yells NO! at Kinderman.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kinderman bursts into a darkened room where a nurse is seeing a patient.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The priests ritual book explodes while he is performing an exorcism.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5914000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Exorcist III",
+  "tmdb_id": 11587
+}

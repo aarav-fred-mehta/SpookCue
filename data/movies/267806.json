@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The ice cream truck quickly drives in from the side and runs over a cop.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 360000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden loud shriek and the woman on the bed is flung to the side.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 724000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Demonic hands suddenly appear out of the cape and grab Scarlett.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1347000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to the gate suddenly flies upwards by itself.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cameraman suddenly screams as a bone cracking sound is heard, followed by him turning back to the woman who rips his arm out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3467000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera suddenly shatters as the cameraman is stabbed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3583000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cloud of dust shoots out of the sewer gate as a growl is heard.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While the camera is lying on the ground, a cloud of dust shoots into screen from the side after a few seconds.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ice cream truck suddenly begins blasting music which startles Kev.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4380000,
+      "type": "minor"
+    }
+  ],
+  "title": "V/H/S: Viral",
+  "tmdb_id": 267806
+}

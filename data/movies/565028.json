@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Candyman slits Jerrica’s throat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1981000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trapped in a mirrored elevator, Anthony looks up and sees Candyman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In pitch black darkness, Sherman suddenly turns his flashlight on as Brianna screams.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4655000,
+      "type": "minor"
+    }
+  ],
+  "title": "Candyman",
+  "tmdb_id": 565028
+}

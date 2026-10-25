@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A demon head pops out of the clock beside Lewis.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 707000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tentacled creature bursts out of the door behind Jonathan.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback, Isaac grabs Jonathan’s throat after Jonathan checks him for a pulse.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1715000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some manure suddenly lands on Lewis.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Birds fly out of the secret entrance as Jonathan crawls inside.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lewis shines his torch on a statue and Tarby suddenly shouts “BOO!”.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3047000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang from inside the coffin.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3163000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the toys grabs Lewis around the ankle.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5348000,
+      "type": "minor"
+    }
+  ],
+  "title": "The House with a Clock in Its Walls",
+  "tmdb_id": 463821
+}

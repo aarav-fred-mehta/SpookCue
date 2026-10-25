@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While spoiling as little as possible, during a scene in which Amanda is in bed and Maud is next to her, Amanda says something that upsets Maud, causing her to begin crying. A few seconds later, Amanda suddenly springs upwards and her face looks distorted.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4452000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hard to describe without spoiling as it is literally the final shot of the movie, but can roughly be described as a scene in which Maud is lifting her arms and people are bowing down, there is a sudden cut to her screaming.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4758000,
+      "type": "major"
+    }
+  ],
+  "title": "Saint Maud",
+  "tmdb_id": 575776
+}

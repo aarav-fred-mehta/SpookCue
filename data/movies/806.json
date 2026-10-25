@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Damien suddenly appears with vampire like teeth, accompanied by a sound cue.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2095000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gorilla slams against the glass, cracking it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2375000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katherine Thorn closes the bathroom cabinet door revealing a demon in the mirror.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2637000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Brennan is impaled by a metal pole.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3034000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog suddenly attacks Robert Thorn.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4892000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Keith is decapitated.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5761000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Baylock suddenly jumps on Mr. Thorn’s back and attacks him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6037000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Baylock smashes the car windshield.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6082000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Omen",
+  "tmdb_id": 806
+}

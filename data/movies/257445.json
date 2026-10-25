@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Lorraine bursts into the room, startling Zach and Gale.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies at Zach.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 829000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cuckoo clock springs into life in front of Zach.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1554000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hannah appears suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A can of soda shoots across the floor causing Champ to scream.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The poodle suddenly snarls at Lorraine.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3117000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Coach Carr scares Amy.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches up from under the ground to grab Zach.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant mantis breaks through the school hall to grab a boy.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf appears in the hallway.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4504000,
+      "type": "minor"
+    }
+  ],
+  "title": "Goosebumps",
+  "tmdb_id": 257445
+}

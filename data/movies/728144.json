@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mike suddenly grabs Lisa from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3800000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Special",
+  "tmdb_id": 728144
+}

@@ -1,0 +1,177 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound of breaking branches and movement in the trees.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 128000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden sound and movement of something very close.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something grabs Dave by the ankles and throws him around.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 172000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Finn pulls back a tarp to reveal a wolf.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 958000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trisha opens a window blind and screams.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Finn pulls on something he finds buried in the snow, and pulls up an arm.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1693000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeanine pulls off a tarp covering a dead body.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches for Jeanine’s shoulder from behind.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pete gets dragged out of bed.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2733000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cecily suddenly appears.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeanine suddenly appears.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A blinding light suddenly turns on.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3952000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A blinding light suddenly turns on.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Devon is suddenly stabbed at the same time as something kicks open the guest house front door.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4067000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flashlight turns on revealing a face.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcus gets hit by a truck.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gwen is shot in the head.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4290000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the back door is opened, Trisha is there.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arrow strikes Finn.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf is hit in the back of the head with a shovel.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf jumps on Emerson’s back and attacks.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5161000,
+      "type": "minor"
+    }
+  ],
+  "title": "Werewolves Within",
+  "tmdb_id": 800497
+}

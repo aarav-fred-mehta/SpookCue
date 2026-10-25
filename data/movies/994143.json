@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kaylee drops her flashlight and screams as Kevin comes back from the bathroom.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2125000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs the doorframe and Kaylee screeches.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2840000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kaylee’s eyeless and mouthless face suddenly appears on screen with a loud droning whine sound.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3499000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shot of the toy phone cuts to a near identical shot where the phone is smiling wider and looking at the camera, accompanied by a loud ringing.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5574000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large gush of blood spills out of the hall accompanied by a scream. This shot repeats 3 times.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5718000,
+      "type": "minor"
+    }
+  ],
+  "title": "Skinamarink",
+  "tmdb_id": 994143
+}

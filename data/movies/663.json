@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure bursts through some plastic sheeting and lunges at Rigg.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person wearing a pig mask appears behind Detective Hoffman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cecil suddenly pops up at a window, startling Jill.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2868000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cecil bursts through the door, injuring Jill in the process.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2922000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead woman suddenly jerks awake, startling Rigg.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3397000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John suddenly grabs Jill’s hand.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4239000,
+      "type": "minor"
+    }
+  ],
+  "title": "Saw IV",
+  "tmdb_id": 663
+}

@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1980,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man grabs Kate from behind in the shower while she fantasizes about her husband.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 240000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the elevator door opens Kate comes face to face with a blonde woman wielding a razor.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liz glances up to see a woman watching her with binoculars and quickly get into a taxi.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3600000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liz runs frantically through a moving subway car to avoid an angry gang. As she struggles to close a door connecting two trains, a shiny razorblade appears in the window next to her head. She is grabbed and attacked!",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4075000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Liz emerges from the shower horrified to see someone standing just outside the bathroom door. She slowly walks to the medicine cabinet for a straight razor. Closing the mirror, the murderer appears in the reflection behind her, the film jump cuts to empty shoes, and Liz screaming.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6145000,
+      "type": "major"
+    }
+  ],
+  "title": "Dressed to Kill",
+  "tmdb_id": 11033
+}

@@ -1,0 +1,169 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After holding the map up to the car window, Lorraine suddenly moves it away. The sudden noise and movement accompanied by the tension of the scene may startle some people.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lorraine looks into the rear view mirror during a tense scene, the car horn suddenly blares.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Ed says “that should do it” and lowers the bonnet, Lorraine sees a group of ghosts standing behind him, seconds later one of the ghosts pushes Ed to the ground.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 433000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck suddenly appears out of the fog and almost runs Ed over.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 444000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A box on the shelf suddenly closes startling Daniela.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Daniela approaches the empty rocking chair, the door suddenly slams closed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3630000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera pans across to Daniela, we see the disfigured face of her father beside her and he screams “you did this to me!”.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3716000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the door to the chicken coup closes, we here loud snarling noises from the dog outside.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3792000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mary Ellen holds the silver coin up, the Ferryman suddenly appears in front of her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4460000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judy is suddenly pulled towards the end of the bed.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4544000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Judy is pulled back once again.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judy looks under the bed sheets and sees Annabelle, suddenly a girl jumps out of the sheets ad attacks Judy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4575000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing the shadow of the demon on her wall, the demon suddenly appears beside Judy.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4615000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Judy escapes the bedroom and reunites with Mary Ellen, the door is pushed open and we hear a demonic roar.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4624000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Daniela says “everything”, all the objects in the room suddenly turn on at once.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bride suddenly grabs Daniela around the neck.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4902000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the windows in the car breaks startling Judy.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog suddenly jumps on the roof of the car.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Mary Ellen doppelganger holding Annabelle suddenly screams.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5421000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Judy attempts to put Annabelle back in her case, the door shuts and Judy turns around to see the demon right behind her.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5535000,
+      "type": "minor"
+    }
+  ],
+  "title": "Annabelle Comes Home",
+  "tmdb_id": 521029
+}

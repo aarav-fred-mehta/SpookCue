@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A car suddenly crashes into the back of Kylie’s car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 260000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The driver of the white car walks up to Kylie’s window, accompanied with a loud musical sting.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 271000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The computer that Kylie’s using, short-circuits.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 783000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The freezer makes a mechanical noise, startling Kylie.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A statue of Jesus wrapped in a white sheet stumbles and falls towards Kylie.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1329000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Kylie’s ankle bracelet beeps, grabbing her attention, a diseased-looking hand comes out from under a piece of furniture and grabs her leg.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1356000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While she’s in the shower, Kylie crouches and is then attacked by the possessed teddy bear, accompanied by a loud musical sting.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1967000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Graham startles Kylie while she’s dancing.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2276000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights come back on and a veiled figure suddenly appears besides Dennis, accompanied by a loud musical stinger.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Amos is trying to look through the presumed killer’s window, Kylie suddenly opens it from inside, startling Amos in the process, accompanied by a musical stinger.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3391000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flash from Amos’s camera reveals the presumed killer’s silhouette standing behind a window, staring at Amos. This is accompanied by a loud musical stinger.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The burned teddy bear in the back of Amos’s car suddenly starts to speak and startles him, accompanied by a musical stinger.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eugene slams into the door of the pick-up truck just as Kylie closes it. Accompanied by a musical stinger.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kylie turns around and Miriam suddenly appears in front of her.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden scene transition from a silent scene to Kylie loudly and violently opening a kitchen shelf may startle some viewers.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dennis suddenly goes on the attack, accompanied by a musical stinger.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miriam opens a cupboard in the bathroom and Eugene stumbles out of it, prompting both of them to scream. Close-up on Miriam’s face as she’s screaming. Accompanied by a musical stinger.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5412000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After stabbing Eugene through the wall, Dennis suddenly kicks down the wall.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5973000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dennis suddenly comes out of frame and punches Kylie unconscious.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6128000,
+      "type": "minor"
+    }
+  ],
+  "title": "Housebound",
+  "tmdb_id": 253306
+}

@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1987,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While kissing Alex, Dan is shocked to discover that Alex has slit her wrists.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2123000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dan jumps in the parking garage when the car alarm goes off.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4516000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth screams upon finding Ellen’s rabbit boiling in a pot on the stove.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5258000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Beth slams into a car while frantically looking for her daughter Ellen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5922000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex jumps towards Dan with a knife when he threatens to expose her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6203000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dan pulls the tea kettle off the stove and hears Beth screaming.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6759000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex emerges from the tub screaming and wielding a knife.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6880000,
+      "type": "major"
+    }
+  ],
+  "title": "Fatal Attraction",
+  "tmdb_id": 10998
+}

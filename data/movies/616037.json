@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "When Gorr is walking slowly towards the camera, he suddenly appears closer.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2156000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gorr suddenly appears in a cage where Axl tells a story to the kidnapped Asgardian children.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3150000,
+      "type": "minor"
+    }
+  ],
+  "title": "Thor: Love and Thunder",
+  "tmdb_id": 616037
+}

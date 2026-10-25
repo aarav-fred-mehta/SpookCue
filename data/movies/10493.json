@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 1989,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something comes loose on the boat and almost hits John.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "and a half-scare at 24:31.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4420000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dead Calm",
+  "tmdb_id": 10493
+}

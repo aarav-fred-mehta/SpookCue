@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise and some birds fly away.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man turns around and is suddenly attacked by a werewolf. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 137000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a crack of a whip accompanied by a sudden scene change.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog suddenly barks at Lawrence.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 632000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Lawrence lifts the sheet to view his brothers decomposed corse.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 809000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is tackled by a fast moving werewolf.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A policeman’s outstretched hand is suddenly attacked by the werewolf.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1832000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf jumps down onto Lawrence from atop a stone pillar.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a hallucination, the werewolf attacks Lawrence while he is in bed. [Video]",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2146000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lawrence is startled as his father appears in front of him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man shoots his gun and the muzzle flash reveals the werewolf standing right beside him.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3909000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a hallucination, Lawrence looks at the mirror while holding Gwen and sees the reflection of a werewolf.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4166000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf suddenly appears from behind Lawrence and lets out a roar. [Video]",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4177000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thump startles Gwen as she walks through her antique shop.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5035000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lawrence lights a match and looks up to see a dead man hanging in front of him.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog barks at Lawrence.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5879000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf roars as it appears in front of Gwen.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6464000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently dead werewolf suddenly grabs Gwen’s arm.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6577000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Wolfman",
+  "tmdb_id": 7978
+}

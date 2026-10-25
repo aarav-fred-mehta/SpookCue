@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot startles Jane as she arranges some flowers in a vase.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 672000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sheet slips off the mirror behind Sam.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack looks through the hole in the ceiling and sees a corpse suddenly crawl past him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2282000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jane puts her hand through the hole to pet the raccoon, the ghost places his hand on top of hers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3684000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Billy looks back into the room and sees a man holding a match.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4220000,
+      "type": "minor"
+    }
+  ],
+  "title": "Marrowbone",
+  "tmdb_id": 399366
+}

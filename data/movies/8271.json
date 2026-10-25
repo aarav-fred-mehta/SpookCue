@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kale’s mother surprises him while he is looking at the neighbors through his binoculars.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1881000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kale looks around Mr Turner’s house with the binoculars and sees Mr Turner staring at him through a window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kale closes the fridge door and Mr Turner is standing behind it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3067000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud noise from Mr Turner’s house and blood splatters on the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3654000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt cut back to Mr Turner’s house, accompanied by a sound effect.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ashley runs into another girl while on the phone at the store.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3803000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Turner appears in front of Ashley as she drives out of the car-park.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kale opens a wardrobe door and sees an apparently unconscious Ronnie lying there. Suddenly Ronnie jumps up and scares Kale.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4791000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Turner breaks into Kale’s room with a baseball bat. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5246000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kale turns his head and sees a dead body beside him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5420000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Turner’s face can be seen watching Kale through the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5453000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body floats up beside Kale while he is in the water.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5642000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr Turner appears behind Kale’s mother after he frees her.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5725000,
+      "type": "minor"
+    }
+  ],
+  "title": "Disturbia",
+  "tmdb_id": 8271
+}

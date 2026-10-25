@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud noise from silence as a man plugs in a microphone.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 76000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A raccoon makes a noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2644000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something hits the side of Kelly & Jim’s tent.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3794000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something hits the side of Kelly and Jim’s tent.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something crashes down in the forest behind Kelly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something jumps from behind a bush at Kelly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something makes a noise in the forest behind Kelly and Jim.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something breaks a stick in the forest near the characters.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Naked woman appears moaning.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4590000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something drags camera away from frame.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4631000,
+      "type": "minor"
+    }
+  ],
+  "title": "Willow Creek",
+  "tmdb_id": 185460
+}

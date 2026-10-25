@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud explosion followed by another about 15 seconds later.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3221000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an explosion and sparks fly from up ahead in the tunnel.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4014000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Holly screams loudly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4021000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several more explosions and sparks fly once more.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an explosion and more sparks as Holly runs through the tunnel.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4637000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the creatures appears in front of the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4674000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two creatures appear behind Holly.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4706000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature appears in front of Holly as she approaches J.P.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4751000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another creature appears as Holly opens a door.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4760000,
+      "type": "minor"
+    }
+  ],
+  "title": "Devil’s Pass",
+  "tmdb_id": 169219
+}

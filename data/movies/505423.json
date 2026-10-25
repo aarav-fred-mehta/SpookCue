@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "(-1:11:10) A quiet scene suddenly cuts to a loud ventilator.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1476000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(-1:05:14) A hand suddenly comes out of the hole in the decapitated head.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1832000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(-45:04) As Will opens the cupboard a cockroach flies out.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3042000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(-44:02) The man at the table suddenly spits out blood.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(-33:45) The creature jumps at the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3721000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(-30:49) As Will enters the bedroom he sees a mask accompanied by a sound effect.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3897000,
+      "type": "minor"
+    }
+  ],
+  "title": "Wounds",
+  "tmdb_id": 505423
+}

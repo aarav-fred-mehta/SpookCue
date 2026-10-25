@@ -1,0 +1,161 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Luis spins the camera back around and Deborah is suddenly standing right in front of him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 657000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 690000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah suddenly appears in the room and begins talking to Deborah.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1215000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah screams into the camera.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": ", 32:36, 1:14:49, and in the cave scenes towards the end.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah suddenly appears in front of Luis. [Video]",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1956000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A phone rings loudly.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2073000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles the group.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2183000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang comes from outside followed by several more over the next few seconds.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3020000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang startles the group.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The television suddenly comes off its stand and slams into Harris.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3674000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A snake crawls out of the bag.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4056000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face can briefly be seen in the window.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah suddenly bites the security guard on the neck.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah spits at one of the police officers.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window breaks in front of Sarah and Mia.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4489000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah slowly approaches Deborah in an attempt to sedate her, however Deborah spins around and attacks her. [Video]",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4701000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deborah opens her mouth in a horribly contorted manner and roars at Sarah.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4818000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Taking of Deborah Logan",
+  "tmdb_id": 297608
+}

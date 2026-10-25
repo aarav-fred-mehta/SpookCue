@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A blind woman whispers in Julia’s ear that there is a man behind her. Julia turns around and sees a man running from the room.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia sees the outline of a man and shrieks in fright.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The security guard bumps into Julia.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia bumps into something while she is looking for Isaac.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julia turns around quickly and puts her hand on the mysterious man.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4271000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lia grabs Julia’s wrist while she is by the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ivan leaps up and grabs Julia around the neck.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6449000,
+      "type": "minor"
+    }
+  ],
+  "title": "Julia’s Eyes",
+  "tmdb_id": 52274
+}

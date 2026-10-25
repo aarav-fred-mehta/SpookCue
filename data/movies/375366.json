@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of a door opening may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 816000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A child suddenly lunges at the Sergeant.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 862000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected child attacks Kieran.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5066000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Girl with All the Gifts",
+  "tmdb_id": 375366
+}

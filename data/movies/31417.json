@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1960,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The professor suddenly grabs Edna by the mouth with chloroform.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2121000,
+      "type": "minor"
+    }
+  ],
+  "title": "Eyes Without a Face",
+  "tmdb_id": 31417
+}

@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An isopod crawls out of a fish.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A swimmer is pulled under water.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1950000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a high pitched screeching noise, the diver is attacked by an isopod.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3335000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna screams as some blood falls on her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead man’s eyeball suddenly moves.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3689000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot may startle some viewers (this is followed by a second gunshot a few seconds later).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car crashes into the mayor’s vehicle.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4393000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stephanie is about to start the cop car when a diseased person jumps up from the back seat and grabs her. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4611000,
+      "type": "major"
+    }
+  ],
+  "title": "The Bay",
+  "tmdb_id": 123105
+}

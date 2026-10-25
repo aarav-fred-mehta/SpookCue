@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 1973,
+  "runtime_minutes": 122,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud rattling noises coming from the ceiling can be heard periodically over the next 30-40 seconds.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 660000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "More rattling noises come from the ceiling.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1728000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Karl startles Chris while she is in the attic.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1852000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Regan sees a demon appear for a brief moment.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1972000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to Regan screaming.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2832000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Regan spider-walks down the stairs with blood coming from her mouth.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3648000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The possessed Regan vomits green liquid over Father Karras.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings loudly.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5786000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud moan from the upstairs bedroom.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Regan sits up in bed and attacks Father Karras from behind.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The house begins to shake violently.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6729000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Exorcist",
+  "tmdb_id": 9552
+}

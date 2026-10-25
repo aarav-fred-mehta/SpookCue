@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand unexpectedly appears on the bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": ", 1:06:42, 1:24:40, 1:27:07, and 1:30:23 might cause some alarm to sensitive viewers. A couple of these moments verge on jump scare territory but a lack of an accompanying sound effect lessens their impact.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2520000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback young Jessie looks across the bed to see a scary looking bald man (the Moonlight Man) licking her feet.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessie looks in the rear vision mirror and sees the deformed bald man.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5227000,
+      "type": "minor"
+    }
+  ],
+  "title": "Gerald’s Game",
+  "tmdb_id": 343674
+}

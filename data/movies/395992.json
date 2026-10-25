@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin suddenly attaches itself to Hugh’s hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin grips Hugh’s hand tighter.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin suddenly grabs the mouse.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2062000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin drops down onto Rory.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin jumps out of the coolant valve.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2783000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin moves past a window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3252000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David sees a dead body.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Calvin lunges at David.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5185000,
+      "type": "minor"
+    }
+  ],
+  "title": "Life",
+  "tmdb_id": 395992
+}

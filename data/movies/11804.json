@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost flashes on screen before the title card shows up.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 95000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As John reaches towards a clock, a very loud noise comes from the radio.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 597000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The screen fades out, followed by a cut to a moving truck’s door loudly opening a few seconds later which might startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jonathan’s phone suddenly goes off during a quiet scene.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1279000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Jonathan is driving without paying attention to the road, there is a cut to a car honking at him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights flicker and a trio of ghastly silhouettes appear behind Jonathan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2100000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud scream.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2118000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a cut to loud static as Jonathan flips a page.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost unexpectedly flashes on the screen and jumps straight at the camera.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2665000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A truck passes by in front of the camera while honking.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2882000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jonathan leans into the screen, it suddenly cuts from static to a woman jumping at the screen.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3249000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jonathan looks in through the car window and nothing is visible in the dark. Suddenly, a woman jumps at the glass and screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3469000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud cut to static.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hallway lights begin to flicker as Jonathan leans into the bathroom sink, and three trio of ghosts suddenly appear.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4370000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dark figure walks by infront of the camera.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5046000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden screams startles Jonathan.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5055000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah quickly turns to her side, and the camera quickly pans and then cuts to black accompanied by a loud sound.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5600000,
+      "type": "minor"
+    }
+  ],
+  "title": "White Noise",
+  "tmdb_id": 11804
+}

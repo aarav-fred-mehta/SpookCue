@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A train roars past startling Peter.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth’s hand slams on the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1043000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door-bell buzzes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang and the lights go out on the train, a few seconds later Erica’s face suddenly becomes grotesque and she screams at Peter.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1514000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disfigured man suddenly appears behind Peter.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth suddenly bangs on the window that Peter is standing in front of.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2894000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams behind Peter.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth runs at Peter and attacks him.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird suddenly flaps at the window and flies away.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3564000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a thump, a hand-print suddenly appears on the window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elizabeth bangs on the window as young Peter watches.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "William sees Elizabeth float through the front of the car screaming at him.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "William sees Elizabeth in the rear view mirror.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "William turns around and Elizabeth screams at him once more.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4853000,
+      "type": "minor"
+    }
+  ],
+  "title": "Backtrack",
+  "tmdb_id": 332704
+}

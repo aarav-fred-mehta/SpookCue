@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 1996,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost flies out of the ground and towards the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly appears out of the bathroom mirror.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2649000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Magda’s ghost springs upwards behind Frank.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray’s ghost suddenly runs into the room behind Lucy.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray’s ghost drops onto Lucy’s car from above.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4544000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucy moves away from the window to reveal Milton standing behind her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4950000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of Bartlett walks behind Lucy with a sound cue.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Milton suddenly appears behind some wooden boards.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Milton jumps out of the door behind Lucy.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6223000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Frighteners",
+  "tmdb_id": 10779
+}

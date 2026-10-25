@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A clown doll falls from the ceiling with a loud horn.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 922000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A skeleton reaches through a break in the wall.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The female skeleton slams into the chain fence nd starts screaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1982000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cartoon clown jumps on the screen right at the camera.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2137000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman starts banging on the car door and screaming.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2312000,
+      "type": "minor"
+    }
+  ],
+  "title": "Extremity",
+  "tmdb_id": 521509
+}

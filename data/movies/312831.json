@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Claire turns around and is startled by Adam.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Adam takes a photograph, a creature appears in the woods.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1317000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam looks up and Colm is standing on the road.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1812000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car trunk suddenly slams down on Adam.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure moves past a window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a high pitched squawk and Adam shoots his gun.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2290000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam shuts the car bonnet which reveals several creatures standing behind him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something comes through the keyhole that Adam is looking through and pierces his eye.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2810000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam looks through a crack in the door and sees one of the creatures.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through the attic floor.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3073000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire looks up and sees a creature at the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3394000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the creatures squeals at Claire.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Finn’s face suddenly turns demonic.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam bangs loudly on the door behind Claire.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4219000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Adam suddenly grabs Claire’s ankle.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4348000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cora screams at Adam.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature stands up behind Adam and impales him through the stomach.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5084000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During mid-credits scene, we see the logging truck drive off while calming music plays only to reveal the creature screeching at the camera.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5574000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Hallow",
+  "tmdb_id": 312831
+}

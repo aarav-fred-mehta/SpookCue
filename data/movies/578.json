@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1975,
+  "runtime_minutes": 124,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Hooper looks into a hole in Ben Gardner’s boat when a human head appears from inside. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2995000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark jumps out while Brody is throwing bait into the water.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4870000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The men begin pulling rope out of the water when the shark emerges.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5879000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark slams into the shark proof cage.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6855000,
+      "type": "minor"
+    }
+  ],
+  "title": "Jaws",
+  "tmdb_id": 578
+}

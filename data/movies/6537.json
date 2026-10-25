@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Benigna is revealed in the shed behind Laura accompanied by a startling sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1118000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crash as Laura listens against the wall.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A presumably dead Benigna grabs Laura’s arm. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2742000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window slides shut suddenly and breaks.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A child’s hand grabs Laura from behind. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5078000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand slams the door closed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow flies past Laura as she walks down the stairs.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5279000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Orphanage",
+  "tmdb_id": 6537
+}

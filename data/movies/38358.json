@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Caleb throws a rock at the back window as Daniel begins to drive away.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 950000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nell’s bed starts to shake.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nell suddenly rushes at the cat and starts beating it with the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3044000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nell cuts Marcus and runs away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3591000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nell suddenly attacks the cameraman.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3755000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, the camera zooms in on an occult symbol on the wall.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4633000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel hears a noise and spins the camera around to see Caleb standing right in front of him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4897000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Last Exorcism",
+  "tmdb_id": 38358
+}

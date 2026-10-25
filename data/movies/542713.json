@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Aubrey closes the door a man runs up to it and pounds on the window pane.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aubrey closes her eyes and the screen cuts to black. A second later, the screen suddenly cuts back in to show the creature standing right above her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2892000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Aubrey begins to doze off there is suddenly a loud flash of a woman undressing.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights go out, and a few seconds later a red light comes on to reveal a creature standing right in front of Aubrey.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4033000,
+      "type": "minor"
+    }
+  ],
+  "title": "Starfish",
+  "tmdb_id": 542713
+}

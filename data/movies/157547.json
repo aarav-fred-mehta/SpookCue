@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Alan trips over a box.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 706000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alan briefly glimpses a strange lady with strange mirror eyes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 716000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream, Kaylie turns away from the mirror and is attacked by Alan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 835000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kaylie is about to remove a sheet covering a statue when she is surprised by one of the delivery men. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1127000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt flashback to a young Kaylie and Tim attacking the mirror.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2020000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marie, who is chained to the wall in her room, tries to attack young Kaylie. [Video] .",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4237000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Young Tim opens the door to Alan’s study and the lady with the mirror eyes appears behind Alan.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4568000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kaylie turns around and sees her mother. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4619000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Kaylie turns around again, the lady with the mirror eyes is standing right in front of her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4974000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim opens the door and Kaylie sees Marie standing in the doorway.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5113000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Young Tim and Kaylie run around a corner and come across Marie.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marie grabs Kaylie.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5375000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alan shoots Marie.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Young Tim and Kaylie run past the lady with the mirror eyes.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5440000,
+      "type": "minor"
+    }
+  ],
+  "title": "Oculus",
+  "tmdb_id": 157547
+}

@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Nicholas grabs Deadra’s shoulder.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An eye appears on the other side of the keyhole that Deadra is looking out from.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 910000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David grabs Russell by the wrist.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead Bill suddenly jumps up and starts screaming in his cell. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1396000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim attacks David with a metallic instrument.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim appears above David holding some sort of circular saw.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1617000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large number of military personnel apprehend David as he exits the shed.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David is grabbed around the neck by one of the Crazies.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3403000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The female Crazie drops to the ground to reveal the male Crazie standing behind her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Becca screams suddenly.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3736000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The face of a Crazie comes in to view in the back window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3870000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car is hit by a missile from a helicopter and explodes.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is shot through the head without warning.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judy pears around a corner and sees a Crazie. [Video] .",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4981000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David grabs Judy from behind and puts his hand over her mouth. [Video] .",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5129000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David opens a truck door and a dead body falls out.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs David around the ankle.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5203000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judy startles David.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5303000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Crazies",
+  "tmdb_id": 29427
+}

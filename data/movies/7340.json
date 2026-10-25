@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A boy bangs on the car window, startling Carrie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl smashing into the window in front of Sue may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carrie’s mother, who appears to be dead, suddenly gasps.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(alternative ending) As Sue lies on the surgical table after giving birth, a bloodied hand suddenly appears. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5733000,
+      "type": "major"
+    }
+  ],
+  "title": "Carrie",
+  "tmdb_id": 7340
+}

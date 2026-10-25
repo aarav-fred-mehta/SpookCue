@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 180,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a high pitched noise, the lamp flickers and the scene abruptly changes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4152000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden scene change to a man attacking a woman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another abrupt scene change.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud scream can be heard.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A torch shines on Susan as she walks towards the camera with an unnaturally wide smile on her face, as she gets closer her face suddenly appears directly in front of the camera. [Video] .",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7022000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crack of thunder may startle some viewers.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt cut to a man hitting a woman.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 8170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nikki shoots “The Phantom” several times, his face is then replaced with a disturbing image of Nikki’s own face. [Video] .",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 9919000,
+      "type": "major"
+    }
+  ],
+  "title": "Inland Empire",
+  "tmdb_id": 1730
+}

@@ -1,0 +1,105 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Someone appears beside the driver’s side window of the car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 499000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is some very loud banging on the door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1628000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Further loud banging on the door startles Amy.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights briefly turn on and a masked figure can be seen at the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked face appears at the bathroom window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a short pause, the banging on the door resumes again.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone booth is lit up by a car’s lights.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2603000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The motel manager comes up beside the truck driver.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3039000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang as a man attempts to enter the room through a door in the floor.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the police officer lowers the bonnet, a masked man can be seen standing behind him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3931000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David opens the motel door and is immediately attacked by a masked man.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4152000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The motel manager grabs Amy around the neck.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4559000,
+      "type": "minor"
+    }
+  ],
+  "title": "Vacancy",
+  "tmdb_id": 10294
+}

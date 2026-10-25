@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The old lady groans and appears suddenly beside Mun.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 986000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mun walks slowly down a corridor, as she approaches a light there is a rattling noise behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1483000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly appears while Mun is learning calligraphy. She asks “why are you sitting on my chair?” and lunges at Mun. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2176000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An elderly man appears in the lift with Mun.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2888000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mun sees a dark figure standing behind Ying Ying.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3507000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Eye",
+  "tmdb_id": 10389
+}

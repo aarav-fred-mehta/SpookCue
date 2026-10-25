@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sebastian suddenly begins to spasm.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out and touches Linda while she is sleeping.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2181000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sebastian begins to move violently.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah wakens suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Linda’s bedroom window breaks.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Invisible Sebastian suddenly starts talking directly in front of Dr. Kramer.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Linda bumps into Sebastian.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Through the thermal goggles Janice sees Sebastian burst through the door and attack her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Linda around the ankle.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6543000,
+      "type": "minor"
+    }
+  ],
+  "title": "Hollow Man",
+  "tmdb_id": 9383
+}

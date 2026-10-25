@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 123,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Alice is looking at Margaret, there is a sudden cut to someone’s face in the darkness, and a male voice hums a melody.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 623000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to some blurred imagery of lights in a darkened room.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 858000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to footage of female dancers reflected in a distorted mirror.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Margaret’s husband pulls the curtain, there is a brief flash of some face with wide open eyes for 2 frames.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to footage of twitching dancers in disturbing makeup.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1617000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another cut to the same footage of dancers in makeup, closer to the camera this time, as the eerie music becomes louder.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another cut to the same dancers in disturbing makeup, now up close and with one of them lunging at the camera. A second later, Alice wakes up from a nightmare.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1622000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to a closeup of an opening eye.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another cut to the same eye.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3304000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An extended creepy sequence of visions begins.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face in disturbing makeup suddenly appears in the foreground, and Alice jolts awake in the bathtub.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3332000,
+      "type": "major"
+    }
+  ],
+  "title": "Don’t Worry Darling",
+  "tmdb_id": 619730
+}

@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2011,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something appears to move in front of the camera which is filming the two astronauts on the moon and there is a loud burst of static.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 624000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera zooms in on Nate, who is snoring, he suddenly opens his eyes and yells (as a joke).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": ".",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1608000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead cosmonauts appears to jerk violently as Ben looks through his suit.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1654000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is several loud bangs and the camera that is viewing the Russian lander suddenly tips over.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2117000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate suddenly shatters the rock with a hammer as Ben examines it.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2817000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate, who appears to be sleeping, suddenly grabs Ben’s arm.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3304000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate is pulled into the crater.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3745000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate bangs on the window of the lander just as Ben is about to launch.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4249000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate’s head explodes.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4291000,
+      "type": "minor"
+    }
+  ],
+  "title": "Apollo 18",
+  "tmdb_id": 50357
+}

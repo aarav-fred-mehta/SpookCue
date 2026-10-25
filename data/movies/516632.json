@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 137,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The camera is zoomed in on a sleeping woman’s face, then suddenly cuts to a zoomed out shot to reveal Paul whispering something into her ear, accompanied by a loud sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a very misty scene in which almost nothing is visible, the empty man suddenly comes into view right in front of the camera and attacks Davara.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3340000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut and a screech during a flashback.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6020000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James looks out into the hallway and sees a shadowy figure that suddenly springs up to reveal that it’s the empty man.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to the empty man screeching and running towards the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7492000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Empty Man",
+  "tmdb_id": 516632
+}

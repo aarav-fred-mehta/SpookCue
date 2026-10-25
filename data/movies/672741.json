@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mark asks Emma if she is happy and then shoots himself in the head.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1427000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Emma explores the house she is startled by a picture of Bobby Ray in her photo developing room.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1841000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby Ray rips back the cover on the boat where he thinks Emma is hiding.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3262000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Emma tries to escape, Bobby Ray smashes the car window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4076000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby Ray attempts to wrestle a weapon away from his brother, Jimmy, and accidentally slams his head into a coat rack hook on the wall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After breaking through the ice, Emma stabs Bobby Ray in the eye to release herself from his grip.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4842000,
+      "type": "minor"
+    }
+  ],
+  "title": "Till Death",
+  "tmdb_id": 672741
+}

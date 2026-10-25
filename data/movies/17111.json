@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jane looks at the bottom of the door when the door-handle begins rattling.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tun begins to develop a photo, when he looks closely at one of the faces in the photo, it spins around suddenly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1199000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The room goes dark and flashing lights from Tun’s camera reveal a person standing behind him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1874000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tun walks into a room where a silhouette walks past the camera.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jane walks backwards and a loud yell sounds from around her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natre appears on the front of the car.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tun flips Natre over in her bed to reveal a skeleton.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Tun from behind.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Natre is crouched on the ground and Tun sees her head sticking above the mattress.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tun looks to his side to see a face.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4277000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tun climbs down the ladder and sees a face.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4431000,
+      "type": "minor"
+    }
+  ],
+  "title": "Shutter",
+  "tmdb_id": 17111
+}

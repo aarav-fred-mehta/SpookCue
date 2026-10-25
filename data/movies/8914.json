@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shark bursts through a boat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flare is shot into the air during a quiet scene.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two sharks attempt to attack Carter who is swimming through a cage tunnel.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sleeping shark suddenly rears up as Susan attempts to examine it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1828000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark suddenly attacks Dr. Whitlock as he crouches down beside it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2031000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dudley’s parrot suddenly squawks and flies away.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shark suddenly jumps out of the water.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3250000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shark suddenly jumps out of the water and grabs Russell.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3612000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body appears in front of Carter while he is swimming underwater.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4467000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shark jumps out at Susan.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4920000,
+      "type": "minor"
+    }
+  ],
+  "title": "Deep Blue Sea",
+  "tmdb_id": 8914
+}

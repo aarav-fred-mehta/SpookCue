@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud orchestral chord, Winslow turns around to see Wake towering over him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Water breaks through the window accompanied by a discordant orchestral note.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Winslow suddenly punches the clock.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wake suddenly runs at Winslow with an axe (this is accompanied by a loud orchestral beat).",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6015000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Lighthouse",
+  "tmdb_id": 503919
+}

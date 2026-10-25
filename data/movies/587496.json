@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mina grabs Josh from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 885000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josh yells while looking through the telescope.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A music cue sounds as someone enters the frame.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to the crawlspace bangs shut.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4414000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Josh is struck with a hammer as he opens the closet.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4563000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man appears from behind the house to chase Mina.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4670000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Rental",
+  "tmdb_id": 587496
+}

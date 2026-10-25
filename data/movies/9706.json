@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a quick flash of static after doctor closes his eyes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2338000,
+      "type": "minor"
+    }
+  ],
+  "title": "Spiral (Rasen)",
+  "tmdb_id": 9706
+}

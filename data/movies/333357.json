@@ -1,0 +1,153 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The blender suddenly starts spinning while Stephanie has her hand in it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 264000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We hear the creature growl from outside the tent.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a flash of lightning and the boy in the doorway starts to jerk unnaturally.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stephanie stands in a rotting pumpkin.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 947000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Stephanie sees a dead animal on the table.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The washing machine suddenly turns on.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flash of lightning reveals a silhouette by the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stephanie reaches up to grab her mother’s hand but she suddenly lets out a cry of anger and brushes some papers off her desk.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "From under the water, Stephanie suddenly has a vision of her father lunging at her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something smashes into the window beside Stephanie.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2940000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door slams after Stephanie says “Dad”.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3014000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doorknob rattles as Stephanie reaches out to touch it.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3029000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stephanie’s father bangs the spade on the ground.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3039000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens loudly.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3127000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Stephanie’s mother says “come on, its clear” she is pulled away by an unseen force.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3258000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chandelier suddenly drops from the ceiling and smashes into the table.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3575000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Stephanie’s father says “princess” he is pushed into the window by an unseen force.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4366000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Stephanie descends the stairs, her mother slams into the wall behind her.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4444000,
+      "type": "minor"
+    }
+  ],
+  "title": "Stephanie",
+  "tmdb_id": 333357
+}

@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie suddenly rushes past the stranger as he’s scanning the area with his flashlight.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1606000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound can be heard suddenly as Liv taps on a window from the inside the cabin.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2457000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie’s hand bursts through a window and grabs Liv.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2572000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound can be heard as Vegard in looking at helmets that he has found in a cave.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3060000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie’s hand bursts through the snow and right next to Vegard’s head.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie partially appears in frame and is about to attack Vegard.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie suddenly appears (in an extreme close up).",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6060000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound can be heard in the nearby woods as Liv pauses for a moment to see if someone is close.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 55260000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sound can be heard as a mysterious stranger is behind Roy.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 57660000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dead Snow",
+  "tmdb_id": 14451
+}

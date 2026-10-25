@@ -1,0 +1,185 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shadowy figure passes the window behind James and the camera footage cuts out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An image of James with a disfigured face briefly flashes across the camera footage.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 517000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang in an otherwise quiet scene may startle some people.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 831000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne shines the torch on a figure standing in the darkness.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An invisible force appears to drag Patient 11 away.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1638000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patient 11 suddenly screams and pounds on the observation window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1657000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne sees a mysterious figure standing by the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang followed by screaming.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne shines the torch on Callie who now has black eyes and is vomiting a red liquid.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2630000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patient 14 begins to scream and shake violently.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2842000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Patient 14 suddenly appears in front of the scientist.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2944000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne looks in the car mirror and sees Thomas’s face has turned a red color.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3089000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Anne around the ankle as she walks up the stairs.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3730000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Thomas wakes up in the back seat and yells which startles Anne.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A researcher gets an electric shock.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse on the examination table suddenly screams and grabs the researcher around the neck.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne looks into a hole built into the wall and a pale face with hollow eyes suddenly appears.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4291000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne looks down a corridor and sees an alien figure coming towards her.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4323000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something begins to bang on the door.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4403000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand with long fingers suddenly appears on the locker that Anne is hiding in.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne turns around and sees a grotesque figure standing beside her.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4471000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anne turns around and sees her friends face has the same black eyes and deformed expression as previous victims.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4886000,
+      "type": "minor"
+    }
+  ],
+  "title": "Banshee Chapter",
+  "tmdb_id": 207769
+}

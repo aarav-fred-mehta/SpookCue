@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Ma bangs on the window as the group are about to drive off.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 628000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some eggs are thrown at Ma’s car window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2452000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While in Ma’s bedroom, Haley and Maggie are startled by a girl holding a scary mask over her face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3481000,
+      "type": "minor"
+    }
+  ],
+  "title": "Ma",
+  "tmdb_id": 502416
+}

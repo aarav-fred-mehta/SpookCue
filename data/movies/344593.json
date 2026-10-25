@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While Faith walks through the house in a dream sequence, her father suddenly drops down from the ceiling right in front of her face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 855000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Faith looks to her side and there is a cut to some masked coven members standing in the room accompanied by a sound effect.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Faith leans forwards and Sissy is revealed to be standing behind her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a cut with a sound effect to a masked coven member watching Amy from a window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3790000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Faith says “My son is the devil,” followed by a cut to the child and a quick zoom as his face becomes distorted.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4996000,
+      "type": "major"
+    }
+  ],
+  "title": "Cherry Tree",
+  "tmdb_id": 344593
+}

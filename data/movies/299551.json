@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud scream from someone off camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 57000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chair one of the men is sitting on suddenly moves.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1065000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The security footage cuts back to Judith’s room and there is a loud electronic noise along with objects in the room moving around.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1311000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a quick cut to Judith screaming while being held down.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to Judith banging her fist on a table.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1516000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judith vomits a black liquid.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights flash back on and Judith’s face is right by the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2088000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The frog on the table suddenly explodes.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2305000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judith grabs Marcus from behind.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2383000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud bangs.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2834000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Robert’s hand hits the glass booth.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judith suddenly rears up in the chair and screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4561000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judith’s heart appears to explode from inside her body.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4726000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Atticus Institute",
+  "tmdb_id": 299551
+}

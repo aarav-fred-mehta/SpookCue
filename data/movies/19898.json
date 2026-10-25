@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to Corporal Bower struggling in his hyper-sleep chamber.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 177000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hyper-sleep chamber drops down, accompanied by a loud noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 310000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bower shines his torch on a dead person hanging by some rope. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mystery girl attacks Bower.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1227000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hanging body is suddenly pulled up.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1307000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something runs past Bower.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster tries to attack Bower through a grate.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A child’s face appears beside Bower during a scene transition.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hanging man suddenly opens his eyes as Bower gets close to him. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1967000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monsters start screaming from above Bower.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster lunges at Bower.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster jumps down on Nadia.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3279000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Payton closes a cabinet door which reveals Gallo standing behind it.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3823000,
+      "type": "minor"
+    }
+  ],
+  "title": "Pandorum",
+  "tmdb_id": 19898
+}

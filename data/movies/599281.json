@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A child runs out in front of Rain and is grabbed by someone in all black.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1168000,
+      "type": "minor"
+    }
+  ],
+  "title": "Fear of Rain",
+  "tmdb_id": 599281
+}

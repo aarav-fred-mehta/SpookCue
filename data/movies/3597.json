@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 1997,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The presumed dead man suddenly grabs Helen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The drowning man suddenly opens his eyes, startling Barry.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Missy appears behind Julie and Helen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2835000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Helen turns around and is startled by a hanging coat.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Missy bangs on the car window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3084000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elsa puts her hand on Helen’s shoulder.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julie opens the car boot and sees Max’s corpse covered in crabs.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Missy approaches Julie with a knife.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4027000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer jumps out from underneath a plastic sheet and attacks Helen. [Video] .",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4788000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer suddenly appears behind Helen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse slides down in front of Julie.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5475000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julie puts her hand on the face of another corpse.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dark figure crashes through the door. [Video] .",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5806000,
+      "type": "major"
+    }
+  ],
+  "title": "I Know What You Did Last Summer",
+  "tmdb_id": 3597
+}

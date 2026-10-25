@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The bear appears in the foreground in the heavily zoomed shot, with a dramatic music chord.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 326000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone in the foreground rings loudly, and Sari jumps up on the bed, startled by it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 947000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to a bear’s paw reaching for the lunch, with a dramatic music chord.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1358000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bear quickly runs across the frame in the background, accompanied by a scare chord.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1377000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Peter is suddenly grabbed from behind and pulled back with force.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a few seconds of drawn out tension, the bear finally lunges towards the park ranger in the foreground with a roar.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2202000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Just when Sari finally decides to step out from behind the tree, the bear’s paw suddenly smashes into it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2321000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bear’s paw breaks through the glass and grabs the teenager’s head.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2693000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied hand suddenly smashes against the window in the foreground, accompanied by a scare chord.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a long buildup of tension, a broom falls across the doorframe in front of the medic, startling him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3015000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bear barges through the door in front of the medic.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3060000,
+      "type": "minor"
+    }
+  ],
+  "title": "Cocaine Bear",
+  "tmdb_id": 804150
+}

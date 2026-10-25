@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chuckie grabs Auggie from behind (as a joke).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chuckie hides from the woman in the bedroom, the door suddenly opens (but it is only Auggie behind it).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1202000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1331000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Tommy turns around, he comes face to face with the scarecrow.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1932000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Auggie is suddenly pulled under the bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2788000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The police chief is suddenly thrown against the cell.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4996000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Ramon drives away, The Jangly man suddenly lands on the windscreen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5114000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly looks under the bed where Stella is hiding.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5468000,
+      "type": "major"
+    }
+  ],
+  "title": "Scary Stories to Tell in the Dark",
+  "tmdb_id": 417384
+}

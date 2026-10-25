@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something bangs on the outhouse.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An old man appears behind Lynn.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bobby bangs against the caravan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1571000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone runs past the camera while Bobby is searching for his dog.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1932000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doug sees the baby through the window and turns to see a mutant walk from behind the building.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4560000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Doug is leaving the building he is a confronted by a mutant.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the mutants jumps through the door.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5086000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mutant jumps through the wall.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mutant jumps onto Doug from above.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5905000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Hills Have Eyes",
+  "tmdb_id": 9792
+}

@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 693000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A load noise as Elliot enters the room through a beaded curtain may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Elliot says “The Bye Bye Man” there is a high pitched screaming noise and the candle blows out.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, Elliot sees a dog walking across a doorway.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2343000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The coat hanging on the wall suddenly morphs into the Bye Bye Man who walks towards Elliot.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2551000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lecturer slams his book on John’s desk.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene (where the Bye Bye Man sits closer and closer to Elliot), the librarian suddenly appears in front of Elliot and starts yelling at him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Bye Bye Man suddenly appears in the reflection of the shop window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3256000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sasha looks at the detective’s face and her eyes and mouth are covered in blood.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3698000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs Redmon yells out “leave”.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elliot turns around and the librarian is standing directly in front of his car.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4750000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John turns around and sees a bloodied Kim standing in front of him.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young girl sees her parents is bed with blood coming out of their eyes and mouth.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5167000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Bye Bye Man",
+  "tmdb_id": 292280
+}

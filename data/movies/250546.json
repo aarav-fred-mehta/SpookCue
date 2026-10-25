@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Blood splatters on the neighbors’ wall.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 757000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John runs out of the neighbors house.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 891000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force pulls Mia towards the fire.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The curtain suddenly blows into Mia’s face and she falls to the ground, a few seconds later a young girl runs past her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2947000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young girl runs at Mia and becomes a full grown adult as she barges through the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2990000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia looks in a baby pram and a black hand grabs her wrist.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3393000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A black figure is lying at the bottom of the staircase and its face flashes on the screen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3532000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Mia looks under the door at her baby, Annabelle’s face pops up under the other side of the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force blows Father Perez back as he goes to enter the church.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Father Perez knocks on Mia’s door with his back facing away from it. Mia opens the door and the father shouts “May god have mercy on your soul!”.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4967000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A black figure jumps down from the ceiling of the house.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5044000,
+      "type": "minor"
+    }
+  ],
+  "title": "Annabelle",
+  "tmdb_id": 250546
+}

@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Eric reaches out to open the door and a maid comes through the door from the other side startling him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric readjusts the mirror a third time and sees a ghostly boy appear behind it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1040000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric adjusts the mirror once more and in the reflection sees a ghostly boy holding a pitchfork.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1071000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric has a vision of a spirit crawling up the stairs towards him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry looks under the bed and a toy train suddenly races past.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1693000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette moves past the screen accompanied by a sound effect.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1757000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric watches Sarah through the partially open door when he is startled by a spirit who suddenly appears at the opening.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2422000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry shoots at Sarah.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Henry shoots through a wall at Sarah.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah opens a door from the other side startling Eric.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3481000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After hanging up the phone, Eric bumps into Ben.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3585000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Ben says “They will all die” he transforms into a spirit.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marion turns around and sees a hand sticking out of the rubble.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4153000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eric opens a door and sees a ghost in front of him.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4174000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bell rings during a tense scene.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The wooden train races past Marion.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4651000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marion turns around and a spirit is beside her.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4802000,
+      "type": "minor"
+    }
+  ],
+  "title": "Winchester",
+  "tmdb_id": 416234
+}

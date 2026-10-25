@@ -1,0 +1,25 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Jesse approaches the motel door there is a loud bang.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah suddenly appears in the hallway and attacks Jesse.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5658000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Neon Demon",
+  "tmdb_id": 301365
+}

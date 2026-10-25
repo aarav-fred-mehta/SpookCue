@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 1985,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The cat jumps up at Dan’s face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2151000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body suddenly jolts upwards and begins yelling.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3065000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Megan’s father abruptly hits his head on the window behind Megan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand breaks through the door while Dan and Megan are talking.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5200000,
+      "type": "minor"
+    }
+  ],
+  "title": "Re-Animator",
+  "tmdb_id": 1694
+}

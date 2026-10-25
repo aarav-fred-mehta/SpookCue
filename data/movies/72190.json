@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A police officer on a motorbike gets hit by a truck.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud explosion. Several seconds later a zombie falls onto a car behind Gerry’s family.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1032000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Gerry looks down a stairwell, a zombie suddenly rushes at him. [Video]",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1457000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie spurts into life beside a group of soldiers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3011000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie runs into the gun of an armed woman.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3947000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An air hostess opens a compartment in the plane and an infected man jumps out at her. [Video]",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4568000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Gerry turns around, a zombie bangs on the window in front of him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6387000,
+      "type": "minor"
+    }
+  ],
+  "title": "World War Z",
+  "tmdb_id": 72190
+}

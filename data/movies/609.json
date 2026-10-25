@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostly hand reaches out of the TV to meet Carol’s hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Carol’s hand comes up from the bottom of the screen to pull at her mother.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1758000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant tree smashes through the window of the children’s bedroom.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2215000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mother opens the bathroom door to a loud noise.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant skull comes out of the doorway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5461000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown toy appears suddenly and drags Robbie under the bed.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5979000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts back to Robbie under the bed with the clown toy.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A skull comes out of the water behind the wife.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A skeleton lands on the wind-shield of the family car.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6456000,
+      "type": "minor"
+    }
+  ],
+  "title": "Poltergeist",
+  "tmdb_id": 609
+}

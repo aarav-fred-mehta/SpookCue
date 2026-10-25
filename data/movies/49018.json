@@ -1,0 +1,201 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A ladder cracks while Dalton is climbing it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A voice in the baby monitor yells “NOW”.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1352000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Renai sees a man standing behind her daughter’s crib.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The burglar alarm goes off.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The burglar alarm goes off again.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1783000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Renai wakes from a nightmare.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2155000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A strange man walks through Renai’s bedroom before lunging at her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2216000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A small boy runs behind Renai.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2469000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door bursts open behind Renai.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The small boy opens the wardrobe door and runs out in front of Renai.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2584000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lorraine sees a red faced demon standing behind Josh.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2765000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tucker sees the image of two women in dresses through his UV light camera.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2981000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a cracking sound and a bright flash of light, followed by several more flashes of light over the next few minutes.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3792000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dalton suddenly appears beside the table.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman in a wedding dress walks past Josh.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A strange smiling family suddenly appear in front of Josh.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4910000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly appears in front of the red door.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4951000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A red faced demon appears beside Josh.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5161000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out of the drawer as it is being closed.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5429000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door bursts open and the strange screaming family are revealed.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tucker shines a torch on a mysterious man.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dalton opens the door in his bedroom and the red demon jumps out from behind.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5566000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon grabs Daltons leg from underneath the bed.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5579000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mysterious lady lunges at Elise.",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5908000,
+      "type": "minor"
+    }
+  ],
+  "title": "Insidious",
+  "tmdb_id": 49018
+}

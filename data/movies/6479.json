@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2007,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A deer runs in front of Robert’s car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 246000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Robert is about to shoot a deer, a lion suddenly pounces on it. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 419000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback, an infected person suddenly lunges at the car window while Robert and his wife are talking. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 914000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected rat lunges at the wall of its container.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Robert shines his light on a group of infected people.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected person lunges at Robert.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The apparently unconscious infected person suddenly jumps up on the table.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2193000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected person suddenly tackles Robert.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5041000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several of the infected burst into the lab.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5278000,
+      "type": "minor"
+    }
+  ],
+  "title": "I Am Legend",
+  "tmdb_id": 6479
+}

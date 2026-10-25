@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thump comes from somewhere in the house.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost appears beside Maureen (it gradually fades in which lessens its impact somewhat).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A glass falls to the floor and breaks from behind Maureen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5598000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several loud thumps over the next minute or so may startle some viewers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5870000,
+      "type": "minor"
+    }
+  ],
+  "title": "Personal Shopper",
+  "tmdb_id": 340676
+}

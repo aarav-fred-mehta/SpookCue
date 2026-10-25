@@ -1,0 +1,113 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Spoon begins to tell a joke a dead cow is thrown into the campfire startling the soldiers. [Video] .",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1082000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Captain Ryan pops up beside Corporal Campbell and screams.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette moves past the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1724000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Corporal Campbell attempts to flee the area but runs into, and is impaled by, a tree trunk.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf roars and Campbell is slashed across the face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1776000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarge crouches down and a werewolf passes by in the trees above him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf hand comes through the roof of the truck.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog jumps out at Coop.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf tries to break through the door.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf is spotted outside.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window blind behind Terry suddenly closes, a couple of seconds later a werewolf grabs him and pulls him though the window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3689000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Coop sees a corpse hanging from a rope.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5996000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf suddenly punches Coop.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6009000,
+      "type": "minor"
+    }
+  ],
+  "title": "Dog Soldiers",
+  "tmdb_id": 11880
+}

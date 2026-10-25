@@ -1,0 +1,41 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is an explosion from the wreckage of the aircraft.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A spear pierces through Kara’s neck.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2590000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the tribesmen grabs Justine around the leg.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Justine has a dream where she bites Alejandro on the neck after he returns from the jungle.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5704000,
+      "type": "major"
+    }
+  ],
+  "title": "The Green Inferno",
+  "tmdb_id": 171424
+}

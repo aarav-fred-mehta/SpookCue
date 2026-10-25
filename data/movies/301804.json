@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jessie drops a glass during a suspenseful scene.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Cody sits up in bed, a demonic child suddenly appears behind him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2995000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demonic child appears under the bed and grabs Cody’s leg.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3041000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mud suddenly spurts out of Sean’s mouth.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3530000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large number of butterflies fly off the stairs as Jessie approaches.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4482000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessie turns around and the demonic child appears in front of her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4617000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cody’s mother suddenly walks past Jessie.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4716000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mark, now with a hollow face, steps in front of Jessie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Cankerman grabs Jessie’s shoulder and throws her backwards.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4858000,
+      "type": "minor"
+    }
+  ],
+  "title": "Before I Wake",
+  "tmdb_id": 301804
+}

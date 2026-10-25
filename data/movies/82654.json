@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A personal trainer zombie attacks the glass.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 100000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Body parts fall from the fire escape and land on a dumpster.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 527000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pack of zombies, led by R, bust through the pharmacy lab doors.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 638000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zombie dad makes a run and lunges at Perry before being shot dead.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The skeleton eaters jump and claw at the door as R and Julie escape.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "M runs over three skeleton eaters with a luggage cart.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2511000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Julie’s dad pulls a gun on R.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4603000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body/zombie jumps on Julie.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4915000,
+      "type": "major"
+    }
+  ],
+  "title": "Warm Bodies",
+  "tmdb_id": 82654
+}

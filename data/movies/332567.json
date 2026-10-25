@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shark lunges at the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dolphin jumps out of the water in front of Nancy.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1290000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark grabs Nancy and pulls her underwater as she tries to get back on her surfboard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark leaps out of the water and grabs a surfer.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2871000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A broken surfboard pops out of the water in front of Nancy.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man tries to climb onto the rock that Nancy is stranded on.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nancy turns around to see the shark leap out of the water and attempt to bite her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark rams the buoy.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark bites the buoy from underneath the water.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4422000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Shallows",
+  "tmdb_id": 332567
+}

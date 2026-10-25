@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Louis, who appears to be dead, suddenly coughs which startles the mortuary assistant.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A book slams down in front of the hamster.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2150000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound effect may startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2551000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": ").",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A strange looking humanoid creature covered in barnacles suddenly looks up at Dr. Pascal.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2901000,
+      "type": "minor"
+    }
+  ],
+  "title": "The 9th Life of Louis Drax",
+  "tmdb_id": 294795
+}

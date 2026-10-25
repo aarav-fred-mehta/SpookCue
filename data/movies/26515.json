@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1988,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A crow cried loudly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Steve is grabbed from above.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2812000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door opens and one of the girls is wielding a cleaver.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tracey says “What do you mean, marked?” and there is a quick cut to Pumpkinhead.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3476000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ed is suddenly in the kid’s way.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4200000,
+      "type": "minor"
+    }
+  ],
+  "title": "Pumpkinhead",
+  "tmdb_id": 26515
+}

@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Zooey jumps out at Astrid as she enters the house.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to the painting of the boy screaming accompanied by a sound effect may startle some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several quick cuts to a burning girl may startle some viewers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Astrid startles Jesse out of his trance.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2812000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse’s tire blows out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse suddenly begins to slash his painting with a knife.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a car crash outside the house.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud gunshot.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3874000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Devil’s Candy",
+  "tmdb_id": 354216
+}

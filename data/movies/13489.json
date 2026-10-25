@@ -1,0 +1,89 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the surfers shows its fangs and begins to screech.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nicole suddenly gets in front of Chris at a very fast speed and grabs him by the throat.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1933000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As a camera shows an empty room through a window, Nicole appears from the side at extreme speed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2397000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While running, Evan bumps into one of the vampires.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The barn door swings open.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden flash of light revealing one of the vampires reaching out to grab Evan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2782000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the vampires facing away from the camera quickly turns its head to reveal that it’s fully shifted into its true form.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden screech and Chris is dragged out of screen.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lightbulb suddenly explodes.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aunt Jillian suddenly swings the door open.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5331000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Lost Boys: The Tribe",
+  "tmdb_id": 13489
+}

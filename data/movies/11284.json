@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 1991,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The plane’s ceiling suddenly flies off.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 179000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tracy grabs Spencer on the shoulder while he’s looking into a room, scaring him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spencer falls onto the floor as the house suddenly flies into the air.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Doc touches a passed out Freddy, he springs back up.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4033000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Doc is standing still, Maggie and Tracy suddenly run up to him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4121000,
+      "type": "minor"
+    }
+  ],
+  "title": "Freddy’s Dead: The Final Nightmare",
+  "tmdb_id": 11284
+}

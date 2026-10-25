@@ -1,0 +1,137 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A person lands on the roof of a car behind two Vietnamese workers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy rolls over in bed and sees Chucky right in front of him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1020000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shane closes the fridge door and is startled by Chucky who makes a scary face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a slight scare during the movie the kids are watching as a man bursts into a room holding a chainsaw.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1559000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shane turns around and sees Chucky standing on the bench.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1724000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense and quiet scene where Andy is walking towards Chucky, Karen suddenly walks past (the loud sound effect is very startling).",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1992000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shane is startled by Chucky while urinating.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2086000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow moves past in the foreground.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing Shane’s skinned face, Andy is startled by Chucky who says “surprise”.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud crash as Gabe watches Karen on the security camera.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gabe is suddenly cut on the leg.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chucky suddenly attacks Doreen after saying “Peka-BOO!”.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Andy looks closely at the toy bear, he is suddenly grabbed on the shoulder (a few seconds later there is another slight scare as a balloon pops).",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4275000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Andy looks for Chucky, a shadow moves past in the foreground.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Chucky says “when they’re all gone”, Andy is knocked out from behind.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4731000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the Buddi song starts playing again, Andy turns around and Chucky suddenly lunges at him.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4903000,
+      "type": "minor"
+    }
+  ],
+  "title": "Child’s Play",
+  "tmdb_id": 533642
+}

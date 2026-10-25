@@ -1,0 +1,97 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy’s car hits something on the road.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A severed arm lands on the windscreen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2554000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene Lizzy’s toy starts playing a song.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3231000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster breaks through the window and pulls Kathy out of the car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3327000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ambulance medic falls onto the windscreen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches into the ambulance and pulls the driver out.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3514000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster slams into the side of the ambulance as it drives away.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3566000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Over the next 20 seconds or so there are several loud bangs on the exterior of the ambulance.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3807000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster drops down in front of Kathy and Lizzy.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3826000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature suddenly tackles Kathy.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature roars at Lizzy as she approaches it.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4882000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Monster",
+  "tmdb_id": 340103
+}

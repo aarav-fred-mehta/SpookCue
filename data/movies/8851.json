@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 1958,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The nurse screams when she sees the blob, and loud music begins to play.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1368000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Steve gets startled by Jane when he walks around the corner.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Steve goes off screen, there’s a loud sound of cans falling down.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3280000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Blob",
+  "tmdb_id": 8851
+}

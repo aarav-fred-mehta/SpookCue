@@ -1,0 +1,81 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A figure is seen moving in the reflection of the TV.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 362000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie opens the bedroom door and the scene abruptly changes to a close up of the television.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene suddenly changes to Katie’s horribly contorted face. [Video]",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 930000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The reflection from the TV appears to distort.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1095000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mysterious long haired girl grabs Rachel’s arm.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2936000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A horse snorts loudly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3409000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A centipede crawls along a piece of paper.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand emerges from under the water to grab Rachel.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5452000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl from the TV moves extremely fast towards Noah.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6113000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Ring",
+  "tmdb_id": 565
+}

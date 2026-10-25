@@ -1,0 +1,145 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "George sees a girl with a noose around her neck while him and Kathy are having sex.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1045000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost appears next to Michael when he is trying to use the tap. [Video] .",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1444000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "George walks into a room where a girl is held to the roof with someone else’s hands.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette runs past the camera as Kathy is washing the dishes.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl appears behind Lisa.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2238000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands grab George while he is in the bathtub and pull him under the water.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2655000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A teddy bear fals on the ground next to George.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2797000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face in the projector changes to a demonic face.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something runs at George and he retaliates using his axe.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Flies fly out of the vent at Father Callaway. [Video] .",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3773000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy spins around to see George.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3807000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure jumps out at George from inside a cell. [Video] .",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4097000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kathy begins to walk through the doorway and George appears.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4383000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "George grabs Kathy.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face appears in the window Kathy is trying to open.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "George wakes up suddenly.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4764000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost girl is grabbed through the floor.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4909000,
+      "type": "minor"
+    }
+  ],
+  "title": "The Amityville Horror",
+  "tmdb_id": 10065
+}

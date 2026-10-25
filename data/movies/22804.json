@@ -1,0 +1,33 @@
+{
+  "phonetic_index": [],
+  "release_year": 2009,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "William is grabbed from behind by an individual weafring a pig mask.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1562000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pamela is abducted as she walks down a hallway.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2077000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Jigsaw puppet suddenly lunges towards William.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2269000,
+      "type": "minor"
+    }
+  ],
+  "title": "Saw VI",
+  "tmdb_id": 22804
+}

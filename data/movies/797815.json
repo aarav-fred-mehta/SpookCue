@@ -1,0 +1,49 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The woman wakes up and grabs Leah.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden shift to loud noises.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 206000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leah is suddenly hit from behind by her sister.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leah gasps loudly as she is woken up.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leah’s mom goes from sitting on the bed to charging towards her, causing Leah to wake up suddenly with a loud gasp.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2110000,
+      "type": "minor"
+    }
+  ],
+  "title": "Martyrs Lane",
+  "tmdb_id": 797815
+}

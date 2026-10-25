@@ -1,0 +1,17 @@
+{
+  "phonetic_index": [],
+  "release_year": 2017,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The person on the phone suddenly cries out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 391000,
+      "type": "minor"
+    }
+  ],
+  "title": "Four Hands",
+  "tmdb_id": 459937
+}

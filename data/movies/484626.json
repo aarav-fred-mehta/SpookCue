@@ -1,0 +1,121 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The trapdoor Ted and Brad are standing on suddenly breaks and they fall down.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles Ted.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 337000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A very loud noise comes from the other side of the hole.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ted suddenly hits his head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2228000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another very loud noise comes from the other side of the hole.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2450000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ted calls out into the cave, followed immediately by a loud noise that startles him and Brad.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Ted turns around, something suddenly pulls down the shower curtain, screeches, and attacks him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2761000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ted wakes up to reveal the last scene was a nightmare. As he gets up, the creature suddenly jumps out from behind him. Basically the common ‘false awakening’ jump scare.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2784000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise from behind Ted startles him and he quickly turns around.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3350000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ted looks around the room, and when he looks at the doorway, there is a silhoutte standing right behind it.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The silhoutte runs straight towards Ted as he turns off the light.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ted gets out from under the sheets and looks around the room. As he turns towards the window, the silhoutte is standing right in front of him.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3846000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brad turns around and shines the light of the flare on the creature.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4443000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brad looks to his side and camera pans to reveal the creature standing right there.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4463000,
+      "type": "minor"
+    }
+  ],
+  "title": "Living Dark: The Story of Ted the Caver",
+  "tmdb_id": 484626
+}

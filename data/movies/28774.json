@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 1989,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Whitley jumps out at his wife Anne from behind a wall to scare her as a joke.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden flash of light accompanied by a loud sound.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The curtains are suddenly pulled open by alien hands.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person in a Halloween costume jumps out from behind a table.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1501000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A floating robot glides into the room, followed by a cut to it quickly flying towards Whitley.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Whitley suddenly jolts awake from the hypnosis and begins to scream.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The house lights turn on by themselves.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5317000,
+      "type": "minor"
+    }
+  ],
+  "title": "Communion",
+  "tmdb_id": 28774
+}

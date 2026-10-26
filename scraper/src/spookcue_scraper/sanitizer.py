@@ -126,8 +126,10 @@ def parse_srt_safely(raw_srt_content: str) -> List[srt.Subtitle]:
     if not raw_srt_content:
         return []
 
+    # Strip null bytes (defense-in-depth against UTF-16 misdecoding)
+    content = raw_srt_content.replace("\x00", "")
     # Strip UTF-8 BOM if present
-    content = raw_srt_content.lstrip("\ufeff")
+    content = content.lstrip("\ufeff")
     # Normalize line endings to \n
     content = content.replace("\r\n", "\n").replace("\r", "\n")
 

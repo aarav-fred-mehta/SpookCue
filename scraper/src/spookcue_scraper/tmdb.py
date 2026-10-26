@@ -6,9 +6,10 @@ import asyncio
 import json
 import logging
 import os
-import time
 from pathlib import Path
-from typing import Any, Dict, Optional
+import re
+import time
+from typing import Any, Dict, List, Optional
 
 import httpx
 
@@ -16,6 +17,42 @@ logger = logging.getLogger(__name__)
 
 # Cache duration: 6 months (~180 days)
 CACHE_TTL_SECONDS = 180 * 24 * 3600
+
+RE_EDITION_SUFFIX = re.compile(
+    r"\s*(?:[-–—:]\s*|\()\s*(?:Director['’]s Cut|Extended Cut|Unrated.*|Original Australian.*|Blu-Ray.*|Collector['’]s Edition|Alternate Ending|Special Edition|Remastered|Theatrical Cut|Ultimate Edition|International Cut|Final Cut|Restored|\d+fps).*",
+    re.IGNORECASE,
+)
+
+
+def generate_title_candidates(title: str) -> List[str]:
+    """Generate search candidates for a title by stripping cut/edition qualifiers and subtitles."""
+    candidates = [title]
+
+    # 1. Strip common edition/cut patterns (e.g. " – Director’s Cut", " (Extended Cut)")
+    cleaned = RE_EDITION_SUFFIX.sub("", title).rstrip(" )").strip()
+    if cleaned and cleaned not in candidates:
+        candidates.append(cleaned)
+
+    # 2. Split on dash/en-dash/em-dash if present (e.g. "Army of Darkness – Director's Cut")
+    for sep in (" – ", " — ", " - "):
+        if sep in title:
+            base = title.split(sep)[0].strip()
+            if base and base not in candidates:
+                candidates.append(base)
+
+    # 3. Strip parenthetical qualifiers (e.g. "Movie Title (US)")
+    no_parens = re.sub(r"\s*\([^)]*\)", "", title).strip()
+    if no_parens and no_parens not in candidates:
+        candidates.append(no_parens)
+
+    # 4. Clean colons (e.g. "1974: The Possession of Altair" -> "1974 The Possession of Altair")
+    if ":" in title:
+        no_colon_sub = title.replace(":", " ")
+        no_colon_sub = re.sub(r"\s+", " ", no_colon_sub).strip()
+        if no_colon_sub and no_colon_sub not in candidates:
+            candidates.append(no_colon_sub)
+
+    return candidates
 
 
 class TokenBucket:
@@ -64,7 +101,7 @@ class TmdbClient:
         self.rate_limiter = rate_limiter or TokenBucket()
 
     async def _get_client(self) -> httpx.AsyncClient:
-        if self._client is None or self._client.is_closed:
+        if self._client is None or self._client.is_closed is True:
             self._client = httpx.AsyncClient(timeout=15.0)
             self._owns_client = True
         return self._client
@@ -100,23 +137,17 @@ class TmdbClient:
         except Exception as exc:
             logger.debug("Error writing cache for %s: %s", key, exc)
 
-    async def search_movie(self, title: str, year: Optional[int] = None) -> Optional[int]:
-        """Search for TMDB ID given movie title and release year."""
-        if not self.api_key:
-            logger.warning("No TMDB_API_KEY provided; skipping TMDB search for '%s'", title)
-            return None
-
-        cache_key = f"search_{title}_{year}"
-        cached = self._read_cache(cache_key)
-        if cached is not None:
-            return cached.get("tmdb_id")
-
-        client = await self._get_client()
+    async def _query_tmdb_search(
+        self,
+        client: httpx.AsyncClient,
+        query: str,
+        year: Optional[int] = None,
+    ) -> Optional[int]:
+        """Execute a single TMDB search query with rate limiting."""
         await self.rate_limiter.acquire()
-
         params: Dict[str, Any] = {
             "api_key": self.api_key,
-            "query": title,
+            "query": query,
             "include_adult": False,
         }
         if year:
@@ -128,11 +159,39 @@ class TmdbClient:
             data = resp.json()
             results = data.get("results", [])
             if results:
-                tmdb_id = results[0].get("id")
+                return results[0].get("id")
+        except Exception as exc:
+            logger.debug("TMDB search query failed for '%s' (%s): %s", query, year, exc)
+        return None
+
+    async def search_movie(self, title: str, year: Optional[int] = None) -> Optional[int]:
+        """Search for TMDB ID given movie title and release year, using candidate fallback."""
+        if not self.api_key:
+            logger.warning("No TMDB_API_KEY provided; skipping TMDB search for '%s'", title)
+            return None
+
+        cache_key = f"search_{title}_{year}"
+        cached = self._read_cache(cache_key)
+        if cached is not None:
+            return cached.get("tmdb_id")
+
+        client = await self._get_client()
+        candidates = generate_title_candidates(title)
+
+        # 1. Try each candidate with year
+        for candidate in candidates:
+            tmdb_id = await self._query_tmdb_search(client, candidate, year)
+            if tmdb_id:
                 self._write_cache(cache_key, {"tmdb_id": tmdb_id})
                 return tmdb_id
-        except Exception as exc:
-            logger.error("TMDB search failed for '%s' (%s): %s", title, year, exc)
+
+        # 2. If not found and year was provided, try candidates without year (covers festival offset)
+        if year:
+            for candidate in candidates:
+                tmdb_id = await self._query_tmdb_search(client, candidate, None)
+                if tmdb_id:
+                    self._write_cache(cache_key, {"tmdb_id": tmdb_id})
+                    return tmdb_id
 
         return None
 

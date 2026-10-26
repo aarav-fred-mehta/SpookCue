@@ -14,6 +14,71 @@ import httpx
 logger = logging.getLogger(__name__)
 
 
+def decode_subtitle_bytes(raw_bytes: bytes) -> Optional[str]:
+    """Decode raw subtitle bytes supporting UTF-8 (with/without BOM), UTF-16 LE/BE, and CP1252."""
+    if not raw_bytes:
+        return None
+
+    # 1. Check Byte Order Marks (BOM)
+    if raw_bytes.startswith(b"\xef\xbb\xbf"):
+        return raw_bytes[3:].decode("utf-8", errors="replace")
+    if raw_bytes.startswith(b"\xff\xfe"):
+        return raw_bytes[2:].decode("utf-16-le", errors="replace")
+    if raw_bytes.startswith(b"\xfe\xff"):
+        return raw_bytes[2:].decode("utf-16-be", errors="replace")
+
+    # 2. Detect UTF-16 LE without BOM: in UTF-16 LE ASCII text, odd indices are 0x00
+    sample = raw_bytes[:min(len(raw_bytes), 256)]
+    if len(sample) >= 4 and sample[1::2].count(0) > len(sample) // 4:
+        try:
+            decoded = raw_bytes.decode("utf-16-le", errors="replace")
+            if "\x00" not in decoded:
+                return decoded
+        except Exception:
+            pass
+
+    # 3. Detect UTF-16 BE without BOM
+    if len(sample) >= 4 and sample[0::2].count(0) > len(sample) // 4:
+        try:
+            decoded = raw_bytes.decode("utf-16-be", errors="replace")
+            if "\x00" not in decoded:
+                return decoded
+        except Exception:
+            pass
+
+    # 4. Try standard UTF-8 (strict first)
+    try:
+        decoded = raw_bytes.decode("utf-8")
+        if "\x00" not in decoded:
+            return decoded
+        # If null bytes are present, attempt utf-16-le
+        try:
+            u16 = raw_bytes.decode("utf-16-le", errors="replace")
+            if "\x00" not in u16:
+                return u16
+        except Exception:
+            pass
+        return decoded.replace("\x00", "")
+    except UnicodeDecodeError:
+        pass
+
+    # 5. Try UTF-16
+    try:
+        decoded = raw_bytes.decode("utf-16", errors="replace")
+        if "\x00" not in decoded:
+            return decoded
+    except Exception:
+        pass
+
+    # 6. Fallback: CP1252 / Latin-1
+    try:
+        decoded = raw_bytes.decode("cp1252", errors="replace")
+    except Exception:
+        decoded = raw_bytes.decode("latin-1", errors="replace")
+
+    return decoded.replace("\x00", "")
+
+
 class SubtitleFetcher:
     """Fetches English SRT subtitle tracks for horror movies."""
 
@@ -102,15 +167,12 @@ class SubtitleFetcher:
                         return None
                     largest_file = max(srt_names, key=lambda n: zf.getinfo(n).file_size)
                     raw_bytes = zf.read(largest_file)
-                    return raw_bytes.decode("utf-8", errors="replace")
+                    return decode_subtitle_bytes(raw_bytes)
             except Exception as exc:
                 logger.warning("Failed to extract zip archive for subtitles: %s", exc)
                 return None
 
-        try:
-            return data.decode("utf-8", errors="replace")
-        except Exception:
-            return None
+        return decode_subtitle_bytes(data)
 
     @staticmethod
     def build_subdl_params(
@@ -170,25 +232,43 @@ class SubtitleFetcher:
             data = resp.json()
             subtitles = data.get("subtitles", []) if data.get("status") else []
 
-            # If no subtitles found by tmdb_id, fall back to searching by title and year
+            # If no subtitles found by tmdb_id, fall back to searching by title candidates and year
             if not subtitles and title:
-                fallback_params = self.build_subdl_fallback_params(self.subdl_api_key, title, year)
-                fb_resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=fallback_params)
-                if fb_resp.status_code == 429:
-                    self._subdl_consecutive_429 += 1
-                    logger.warning("SubDL API rate limit reached (HTTP 429) for TMDB ID %d (%s)", tmdb_id, title)
-                    if self._subdl_consecutive_429 >= 2:
-                        logger.warning("SubDL quota appears exhausted; disabling SubDL for remainder of run.")
-                        self._subdl_exhausted = True
-                    return None
+                from spookcue_scraper.tmdb import generate_title_candidates
+                candidates = generate_title_candidates(title)
+                for candidate in candidates:
+                    fallback_params = self.build_subdl_fallback_params(self.subdl_api_key, candidate, year)
+                    fb_resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=fallback_params)
+                    if fb_resp.status_code == 429:
+                        self._subdl_consecutive_429 += 1
+                        logger.warning("SubDL API rate limit reached (HTTP 429) for TMDB ID %d (%s)", tmdb_id, title)
+                        if self._subdl_consecutive_429 >= 2:
+                            logger.warning("SubDL quota appears exhausted; disabling SubDL for remainder of run.")
+                            self._subdl_exhausted = True
+                        return None
 
-                if fb_resp.status_code == 200:
-                    fb_data = fb_resp.json()
-                    if fb_data.get("status"):
-                        subtitles = fb_data.get("subtitles", [])
+                    if fb_resp.status_code == 200:
+                        fb_data = fb_resp.json()
+                        if fb_data.get("status") and fb_data.get("subtitles"):
+                            subtitles = fb_data.get("subtitles", [])
+                            break
+
+                # Also try candidates without year if year was provided and no results found
+                if not subtitles and year:
+                    for candidate in candidates:
+                        fb_params = self.build_subdl_fallback_params(self.subdl_api_key, candidate, None)
+                        fb_resp = await client.get(f"{self.SUBDL_API_BASE}/subtitles", params=fb_params)
+                        if fb_resp.status_code == 200:
+                            fb_data = fb_resp.json()
+                            if fb_data.get("status") and fb_data.get("subtitles"):
+                                subtitles = fb_data.get("subtitles", [])
+                                break
 
             if not subtitles:
+                logger.info("SubDL returned 0 English subtitles for '%s' (TMDB %d)", title, tmdb_id)
                 return None
+
+            logger.info("SubDL found %d English subtitle track(s) for '%s' (TMDB %d)", len(subtitles), title, tmdb_id)
 
             # Pick the first English subtitle entry with a download URL
             dl_path = None

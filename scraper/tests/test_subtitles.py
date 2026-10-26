@@ -125,6 +125,33 @@ class TestSubtitles(unittest.TestCase):
 
         asyncio.run(run_test())
 
+    def test_extract_srt_from_utf16le_with_bom(self):
+        """Verify UTF-16 LE with BOM is decoded correctly without null bytes."""
+        raw_text = "1\r\n00:00:10,000 --> 00:00:12,000\r\nHello Freddy\r\n"
+        data = raw_text.encode("utf-16")  # writes BOM \xff\xfe
+        extracted = SubtitleFetcher.extract_srt_from_bytes(data)
+        self.assertNotIn("\x00", extracted)
+        self.assertIn("Hello Freddy", extracted)
+
+    def test_extract_srt_from_utf16le_without_bom(self):
+        """Verify UTF-16 LE without BOM (Error 3) is decoded cleanly without null bytes."""
+        raw_text = "1\r\n00:00:10,000 --> 00:00:12,000\r\nJesse runs away from the door\r\n"
+        data = raw_text.encode("utf-16-le")  # no BOM
+        extracted = SubtitleFetcher.extract_srt_from_bytes(data)
+        self.assertNotIn("\x00", extracted)
+        self.assertIn("Jesse runs away", extracted)
+
+    def test_extract_srt_from_zip_utf16le(self):
+        """Verify ZIP archive containing UTF-16 LE subtitle is extracted cleanly."""
+        raw_text = "1\r\n00:01:00,000 --> 00:01:05,000\r\nFreddy grabs Lisa's face\r\n"
+        zip_buffer = io.BytesIO()
+        with zipfile.ZipFile(zip_buffer, "w") as zf:
+            zf.writestr("nightmare2.srt", raw_text.encode("utf-16-le"))
+
+        extracted = SubtitleFetcher.extract_srt_from_bytes(zip_buffer.getvalue())
+        self.assertNotIn("\x00", extracted)
+        self.assertIn("Freddy grabs Lisa's face", extracted)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -41,6 +41,9 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 )
 logger = logging.getLogger("spookcue_scraper")
+# Suppress low-level HTTP transport noise (avoids confusing HTTP 200 OK with data found)
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("httpcore").setLevel(logging.WARNING)
 
 RE_TMDB_EXPLICIT = re.compile(r"(?:tmdb|themoviedb)(?:[_-]?id)?[/_=-]?(\d{3,8})\b", re.IGNORECASE)
 RE_TMDB_LEAD = re.compile(r"^(\d{3,8})-[a-z0-9]")

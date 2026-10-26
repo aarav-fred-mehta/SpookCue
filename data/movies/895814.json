@@ -1,0 +1,57 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 68,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Ray clicks through the endlessly scrolling hallway, a ghost suddenly appears on screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1368000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray’s camera turns back on and a scary face briefly flashes across the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rachel clicks the painting of the forest and it opens a video file, and a scary face immediately flashes in front of the camera in the video.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2223000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The image of Amy with her face covered immediately shifts to reveal her face is distorted.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3198000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud screech and the screen begins to glitch out.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The image of Rachel and Amy begins to pop up all over the screen, then all of the images suddenly disappear off the screen to reveal Ray’s face looking very over-exposed and bleeding in front of the camera.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3801000,
+      "type": "major"
+    }
+  ],
+  "title": "Deadware",
+  "tmdb_id": 895814
+}

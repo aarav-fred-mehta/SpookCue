@@ -1,0 +1,73 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As the friends zoom in on the dead body on Google maps, the killer suddenly turns up and faces the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 867000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a few seconds of silenty zooming in on the killer, a phone suddenly starts vibrating, scaring the group.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 877000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer unexpectedly jumps out of a garbage can.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car’s back camera turns on to reveal the killer standing outside.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera turns back on to reveal the killer now standing right in front of it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer jumps out from the back seat and grabs Phil.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Fiona approaches a door curtain to peek at the other side and it’s suddenly pulled open.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3873000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden pounding on the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4537000,
+      "type": "minor"
+    }
+  ],
+  "title": "Who Was Phone?",
+  "tmdb_id": 759071
+}

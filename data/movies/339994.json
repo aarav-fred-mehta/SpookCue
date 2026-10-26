@@ -5,29 +5,61 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A loud gunshot may startle some viewers.",
+      "description": "As Ethan walks around holding the camera he is startled by the cat.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1715000,
+      "resolved_time_ms": 461000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Accompanied by a sound effect a bloodied man runs into view.",
+      "description": "The door slams and the lights go out (as a joke played on the girls).",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1755000,
+      "resolved_time_ms": 767000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": ") and a couple of other scenes that, while not true jump scares, might nevertheless startle viewers.",
+      "description": "A door slams loudly.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3529000,
+      "resolved_time_ms": 1335000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Grainey is suddenly in front of the camera holding an axe.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1578000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "being the only really effective scare.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1794000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ethan’s mother suddenly bursts into the bedroom.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2604000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window in Grainey’s room shatters.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2801000,
       "type": "minor"
     }
   ],
-  "title": "The Neighbor",
+  "title": "The Good Neighbor",
   "tmdb_id": 339994
 }

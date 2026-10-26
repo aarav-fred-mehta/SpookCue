@@ -29955,143 +29955,182 @@
       "s": 5412273
     }
   ],
-  "release_year": 1984,
+  "release_year": 2010,
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
-      "description": "Freddy Krueger appears suddenly behind Tina.",
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "HRT",
+        "SM0NK"
+      ],
+      "description": "Dean falls asleep and Freddy grabs him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 214000,
+      "offset_from_anchor_ms": 33900,
+      "resolved_time_ms": 534000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "AAM",
-        "KNK",
-        "T",
-        "PNX",
-        "AT",
-        "AR",
-        "AKL",
-        "LTS"
-      ],
-      "description": "Rod tackles Glen.",
-      "id": "scare_02",
-      "offset_from_anchor_ms": 20647,
-      "resolved_time_ms": 557000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
+        "A",
         "MN",
-        "TN",
-        "A",
-        "0",
-        "HL",
-        "AS",
-        "0T"
-      ],
-      "description": "Tina runs into Freddy.",
-      "id": "scare_03",
-      "offset_from_anchor_ms": 54408,
-      "resolved_time_ms": 981000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
-        "AR",
-        "AT",
-        "NT",
-        "0T",
-        "A",
-        "HF",
-        "PT",
-        "TRMS"
-      ],
-      "description": "Nancy runs into a girl in the school hallway.",
-      "id": "scare_04",
-      "offset_from_anchor_ms": 46325,
-      "resolved_time_ms": 1523000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
-        "AR",
-        "A",
-        "0R",
-        "FRT",
-        "AAM",
-        "HR"
-      ],
-      "description": "Freddy jumps out at Nancy from behind a bush.",
-      "id": "scare_05",
-      "offset_from_anchor_ms": 3306,
-      "resolved_time_ms": 2433000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
-        "H",
-        "ASNNT",
-        "RL",
-        "H",
-        "ASNNT",
-        "R"
-      ],
-      "description": "Freddy crashes through a mirror.",
-      "id": "scare_06",
-      "offset_from_anchor_ms": 201,
-      "resolved_time_ms": 2485000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
-        "FRT",
-        "AAM",
-        "AR",
-        "PFRNT",
-        "N",
-        "NNS"
-      ],
-      "description": "A tongue comes out of the phone and licks Nancy.",
-      "id": "scare_07",
-      "offset_from_anchor_ms": 915,
-      "resolved_time_ms": 4040000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
-        "ANT",
+        "TNNT",
+        "LF",
+        "M",
+        "ALN",
+        "A0",
         "0S",
-        "AS",
-        "STXN",
-        "KRKR",
-        "LFNK",
-        "0",
-        "AR"
+        "LNTK"
       ],
-      "description": "Freddy’s claw comes out of the bed.",
-      "id": "scare_08",
-      "offset_from_anchor_ms": 4176,
-      "resolved_time_ms": 4098000,
+      "description": "A hand grabs Kris from the ground.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": 6898,
+      "resolved_time_ms": 626000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "KM",
-        "AT",
-        "ANT",
-        "X",
-        "ARSLF",
-        "A",
-        "PSTRT"
+        "RT",
+        "RT",
+        "TN",
+        "RT",
+        "TN",
+        "HLP",
+        "M",
+        "A"
       ],
-      "description": "Freddy suddenly jumps out at Nancy.",
+      "description": "Freddy jumps out at Kris in the attic.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": 24398,
+      "resolved_time_ms": 1061000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "0",
+        "SM",
+        "AS",
+        "TR",
+        "AN",
+        "A",
+        "TFRNT",
+        "A"
+      ],
+      "description": "Someone jumps into view from outside Kris’s window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": 11,
+      "resolved_time_ms": 1424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette walks past the camera when Kris is in a hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "AL",
+        "NT",
+        "A",
+        "HL",
+        "PS"
+      ],
+      "description": "Kris lies back down on her bed but Freddy is lying there and says “found you”.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": 45634,
+      "resolved_time_ms": 1763000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "H",
+        "HT",
+        "NFS",
+        "FR",
+        "FNKRS"
+      ],
+      "description": "Jesse jumps behind Nancy as she is painting.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": 10468,
+      "resolved_time_ms": 1877000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "TRN",
+        "AF",
+        "0",
+        "LT"
+      ],
+      "description": "Quentin walks through the library and sees Freddy reading to kids. Freddy then spins around.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": 3874,
+      "resolved_time_ms": 2216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse gets attacked in his dream from behind.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 9669,
-      "resolved_time_ms": 4812000,
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "A",
+        "MN",
+        "0S",
+        "PRS",
+        "MRJ",
+        "AS",
+        "JST",
+        "PNK",
+        "KTS"
+      ],
+      "description": "Freddy pulls Nancy out of the car.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": 1519,
+      "resolved_time_ms": 3853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "SR",
+        "0TTL",
+        "P",
+        "AKSKTL",
+        "HLF",
+        "PST",
+        "MTNT"
+      ],
+      "description": "Freddy stands ahead of the car while Quentin is driving.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": 1139,
+      "resolved_time_ms": 4266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "XS",
+        "T",
+        "FR",
+        "KN",
+        "T",
+        "P",
+        "APL",
+        "T",
+        "HNTL",
+        "0S"
+      ],
+      "description": "Quentin sees Freddy attack Nancy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": 38930,
+      "resolved_time_ms": 4346000,
       "type": "minor"
     },
     {
@@ -30102,25 +30141,42 @@
         "FRT",
         "NNS"
       ],
-      "description": "Freddy jumps out from behind Nancy’s bed, just after she has woken from a nightmare. [Video] .",
-      "id": "scare_10",
-      "offset_from_anchor_ms": 33099,
-      "resolved_time_ms": 4872000,
-      "type": "major"
+      "description": "Freddy grabs Quentin.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": 99,
+      "resolved_time_ms": 4839000,
+      "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "M0R",
-        "RT",
-        "ATTS",
-        "KNK",
-        "AN"
+        "MP",
+        "A",
+        "PTR",
+        "K",
+        "TL",
+        "0",
+        "LTNNT"
       ],
-      "description": "Freddy’s hand bursts through the door and grabs Nancy’s mother. [Video] .",
-      "id": "scare_11",
-      "offset_from_anchor_ms": 12052,
-      "resolved_time_ms": 5332000,
-      "type": "major"
+      "description": "As Jesse hides in the closet, Freddy appears next to her and says “boo!”.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": 4406,
+      "resolved_time_ms": 4970000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "ALT",
+        "P",
+        "AL",
+        "RT",
+        "SLPNK",
+        "A"
+      ],
+      "description": "Freddy appears in the mirror behind Nancy’s mother.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": 15727,
+      "resolved_time_ms": 5428000,
+      "type": "minor"
     }
   ],
   "title": "A Nightmare on Elm Street",

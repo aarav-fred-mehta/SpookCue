@@ -1,119 +1,111 @@
 {
   "phonetic_index": [],
-  "release_year": 2018,
+  "release_year": 1978,
   "runtime_minutes": 91,
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "After Laurie says goodbye to Allyson there is a loud gunshot as the scene abruptly cuts to Laurie shooting some targets.",
+      "description": "Mike Myers climbs onto a car roof.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1247000,
+      "resolved_time_ms": 599000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "After a boy is left alone in the car by his father, the boy is startled by a bang on the passenger window.",
+      "description": "A hand reaches through a window to grab lady.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1726000,
+      "resolved_time_ms": 608000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "A gun discharges after the boy prods the cop lying on the ground.",
+      "description": "A hand smashes through car window.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1807000,
-      "type": "major"
+      "resolved_time_ms": 631000,
+      "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "As the boy begins to drive away, Michael appears in the back seat.",
+      "description": "A silhouette watches Laurie walk away from the house.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1863000,
+      "resolved_time_ms": 827000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Ray opens the door startling Karen. Immediately after this Laurie yells “gotcha” on the stairs startling both Ray and Karen.",
+      "description": "Tommy runs into Myers while at school.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2556000,
+      "resolved_time_ms": 1038000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Vicky is startled by her boyfriend (who scares her as a joke) after going outside to empty the trash.",
+      "description": "Laurie runs into Sheriff Brackett.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3252000,
+      "resolved_time_ms": 1509000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Vicky jumps out of Julian’s bedroom screaming (as a joke) after pretending to be abducted.",
+      "description": "A window smashes.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3398000,
+      "resolved_time_ms": 2298000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Vicky tries to close the closet door but it won’t close. Suddenly Michael walks out and attacks Vicky.",
+      "description": "Myers steps out from a car.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3505000,
+      "resolved_time_ms": 3050000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Sheriff Hawkings startles Laurie from behind.",
+      "description": "Myers appears behind Annie in the car.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3789000,
-      "type": "minor"
+      "resolved_time_ms": 3215000,
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
-      "description": "The motion sensor light turns back on and Oscar is suddenly attacked by Michael.",
+      "description": "A shadow crosses the bed while Lynda and Bob are in it.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4247000,
-      "type": "major"
+      "resolved_time_ms": 3793000,
+      "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Ray opens the door to the police car and sees two bloodied and dead police officers.",
+      "description": "Bob opens door and is attacked by Myers.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5036000,
+      "resolved_time_ms": 3916000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Laurie waits by the door for Michael when his hand suddenly bursts through a glass panel and grabs her.",
+      "description": "Dead Bob swings upside down from a door frame.",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5135000,
+      "resolved_time_ms": 4566000,
       "type": "major"
     },
     {
       "anchor_phonetic": null,
-      "description": "After seeing a trail of blood, Laurie opens a closet door and finds Ray’s dead body.",
+      "description": "Myers pops up from behind a sofa.",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5538000,
+      "resolved_time_ms": 4806000,
       "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "Mike appears from behind one of the mannequins.",
-      "id": "scare_14",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5596000,
-      "type": "major"
     }
   ],
   "title": "Halloween",

@@ -25,34 +25,60 @@ RE_EDITION_SUFFIX = re.compile(
 
 
 def generate_title_candidates(title: str) -> List[str]:
-    """Generate search candidates for a title by stripping cut/edition qualifiers and subtitles."""
-    candidates = [title]
+    """Generate search candidates for a title by normalizing punctuation, stripping edition qualifiers, and trying sub-titles."""
+    if not title:
+        return []
 
-    # 1. Strip common edition/cut patterns (e.g. " – Director’s Cut", " (Extended Cut)")
-    cleaned = RE_EDITION_SUFFIX.sub("", title).rstrip(" )").strip()
+    # Normalize unicode apostrophes/quotes
+    normalized = title.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"').strip()
+    candidates = [normalized]
+
+    # 1. & vs and variations (e.g. "Things Heard and Seen" <-> "Things Heard & Seen")
+    if " and " in normalized.lower():
+        candidates.append(re.sub(r"\band\b", "&", normalized, flags=re.IGNORECASE).strip())
+    if " & " in normalized:
+        candidates.append(normalized.replace(" & ", " and ").strip())
+
+    # 2. Strip common edition/cut patterns (e.g. " – Director’s Cut", " (Extended Cut)")
+    cleaned = RE_EDITION_SUFFIX.sub("", normalized).rstrip(" )").strip()
     if cleaned and cleaned not in candidates:
         candidates.append(cleaned)
 
-    # 2. Split on dash/en-dash/em-dash if present (e.g. "Army of Darkness – Director's Cut")
+    # 3. Split on dash/en-dash/em-dash if present (e.g. "Army of Darkness – Director's Cut")
     for sep in (" – ", " — ", " - "):
-        if sep in title:
-            base = title.split(sep)[0].strip()
+        if sep in normalized:
+            base = normalized.split(sep)[0].strip()
             if base and base not in candidates:
                 candidates.append(base)
 
-    # 3. Strip parenthetical qualifiers (e.g. "Movie Title (US)")
-    no_parens = re.sub(r"\s*\([^)]*\)", "", title).strip()
+    # 4. Strip parenthetical qualifiers (e.g. "Movie Title (US)")
+    no_parens = re.sub(r"\s*\([^)]*\)", "", normalized).strip()
     if no_parens and no_parens not in candidates:
         candidates.append(no_parens)
 
-    # 4. Clean colons (e.g. "1974: The Possession of Altair" -> "1974 The Possession of Altair")
-    if ":" in title:
-        no_colon_sub = title.replace(":", " ")
-        no_colon_sub = re.sub(r"\s+", " ", no_colon_sub).strip()
-        if no_colon_sub and no_colon_sub not in candidates:
-            candidates.append(no_colon_sub)
+    # 5. Handle colon separated subtitles (e.g. "Vacancy 3: Terror Trap" -> "Terror Trap")
+    if ":" in normalized:
+        parts = [p.strip() for p in normalized.split(":", 1) if p.strip()]
+        if len(parts) == 2:
+            prefix, subtitle = parts[0], parts[1]
+            if len(subtitle) >= 3 and subtitle not in candidates:
+                candidates.append(subtitle)
+            if len(prefix) >= 3 and prefix not in candidates:
+                candidates.append(prefix)
+            space_ver = f"{prefix} {subtitle}".strip()
+            if space_ver not in candidates:
+                candidates.append(space_ver)
 
-    return candidates
+    # Return unique ordered list (case-insensitive deduplication)
+    seen = set()
+    result = []
+    for c in candidates:
+        low = c.lower()
+        if low not in seen:
+            seen.add(low)
+            result.append(c)
+
+    return result
 
 
 class TokenBucket:
@@ -221,6 +247,7 @@ class TmdbClient:
                 "original_language": data.get("original_language"),
                 "release_date": data.get("release_date"),
                 "title": data.get("title"),
+                "imdb_id": data.get("imdb_id"),
             }
             self._write_cache(cache_key, details)
             return details

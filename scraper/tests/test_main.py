@@ -257,7 +257,7 @@ Do you hear clapping in the dark cellar?
                     mock_tmdb_search.assert_not_called()
 
                     # Subtitle fetcher WAS called
-                    mock_fetch_subs.assert_called_once_with(138843, title="The Conjuring", year=2013)
+                    mock_fetch_subs.assert_called_once_with(138843, title="The Conjuring", year=2013, imdb_id=None)
 
                     # Verify movie file was updated with phonetic index and anchor
                     updated_movie = load_json_bytes(movie_file.read_bytes())

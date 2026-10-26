@@ -134,13 +134,19 @@ async def process_movie(
     raw_scares = movie_page_data.get("scares", [])
     runtime = movie_page_data.get("runtime_minutes") or 0
 
-    # 2. Get TMDB details (poster, confirmed runtime, release date)
+    # 2. Get TMDB details (poster, confirmed runtime, release date, imdb_id)
     tmdb_details = await tmdb_client.get_movie_details(tmdb_id)
     poster_path = tmdb_details.get("poster_path") or ""
     confirmed_runtime = tmdb_details.get("runtime") or runtime or 0
+    imdb_id = tmdb_details.get("imdb_id")
 
     # 3. Fetch subtitles
-    srt_content = await subtitles_fetcher.fetch_subtitles(tmdb_id, title=title, year=year)
+    srt_content = await subtitles_fetcher.fetch_subtitles(
+        tmdb_id,
+        title=title,
+        year=year,
+        imdb_id=imdb_id,
+    )
     has_subtitles = srt_content is not None and len(srt_content.strip()) > 0
 
     phonetic_index: List[Dict[str, Any]] = []
@@ -312,10 +318,14 @@ async def run_pipeline(
                     year,
                     existing_tmdb_id,
                 )
+                tmdb_details = await tmdb_client.get_movie_details(existing_tmdb_id)
+                imdb_id = tmdb_details.get("imdb_id")
+
                 srt_content = await subtitles_fetcher.fetch_subtitles(
                     existing_tmdb_id,
                     title=title,
                     year=year,
+                    imdb_id=imdb_id,
                 )
 
                 if srt_content and len(srt_content.strip()) > 0 and movie_doc is not None:
@@ -350,11 +360,18 @@ async def run_pipeline(
                         existing_tmdb_id,
                     )
                 else:
-                    logger.info(
-                        "Subtitles still unavailable for '%s' (TMDB %d); retaining clock-only mode",
-                        title,
-                        existing_tmdb_id,
-                    )
+                    if subtitles_fetcher.is_exhausted:
+                        logger.info(
+                            "Subtitle download quota reached (50/day); '%s' (TMDB %d) will be retried on next run",
+                            title,
+                            existing_tmdb_id,
+                        )
+                    else:
+                        logger.info(
+                            "Subtitles still unavailable for '%s' (TMDB %d); retaining clock-only mode",
+                            title,
+                            existing_tmdb_id,
+                        )
 
                 # Skip to next movie - do NOT call process_movie for an existing movie!
                 continue

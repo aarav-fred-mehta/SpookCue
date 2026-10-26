@@ -152,6 +152,13 @@ class TestSubtitles(unittest.TestCase):
         self.assertNotIn("\x00", extracted)
         self.assertIn("Freddy grabs Lisa's face", extracted)
 
+    def test_extract_srt_utf8_not_misdecoded_as_utf16(self):
+        """Verify ASCII/UTF-8 subtitles with HTML tags (Item 2) are NOT mistakenly decoded as UTF-16."""
+        raw_text = "1\r\n00:00:01,000 --> 00:00:04,000\r\n<font color=red><u>facebook.com/subtitles</u></font>\r\n"
+        data = raw_text.encode("utf-8")
+        extracted = SubtitleFetcher.extract_srt_from_bytes(data)
+        self.assertEqual(extracted, raw_text)
+
 
 if __name__ == "__main__":
     unittest.main()

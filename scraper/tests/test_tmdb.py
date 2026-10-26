@@ -27,6 +27,12 @@ class TestTmdb(unittest.IsolatedAsyncioTestCase):
         candidates_colon = generate_title_candidates("1974: The Possession of Altair")
         self.assertIn("1974 The Possession of Altair", candidates_colon)
 
+        candidates_and = generate_title_candidates("Things Heard and Seen")
+        self.assertIn("Things Heard & Seen", candidates_and)
+
+        candidates_vacancy = generate_title_candidates("Vacancy 3: Terror Trap")
+        self.assertIn("Terror Trap", candidates_vacancy)
+
     async def test_search_movie_candidate_fallback(self):
         """Verify search_movie falls back to stripped candidate title when raw title yields 0 results."""
         client_mock = MagicMock()

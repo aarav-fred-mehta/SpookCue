@@ -1,0 +1,65 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 120,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A rocking chair unexpectedly moves as a child screams.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden vibrating sound.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure unexpectedly appears, followed by a perfectly timed scream.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a somewhat intense scene, Catherine turns around quickly and bumps into her husband.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2386000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A clown lamp explodes.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2957000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something large suddenly crashes through the bedroom window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5351000,
+      "type": "minor"
+    }
+  ],
+  "title": "Things Heard and Seen",
+  "tmdb_id": 631060
+}

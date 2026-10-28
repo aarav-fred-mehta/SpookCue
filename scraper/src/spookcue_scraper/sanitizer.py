@@ -130,6 +130,18 @@ def parse_srt_safely(raw_srt_content: str) -> List[srt.Subtitle]:
     content = raw_srt_content.replace("\x00", "")
     # Strip UTF-8 BOM if present
     content = content.lstrip("\ufeff")
+
+    # Defense against mojibake misdecoded as UTF-16LE:
+    # If the text lacks standard '-->' but contains '\u2d2d' (paired '--' in 16-bit) or '\u3030' (paired '00'):
+    if "-->" not in content and ("\u2d2d" in content or ("\u3030" in content and "\u303a" in content)):
+        try:
+            recovered_text = content.encode("utf-16-le").decode("utf-8", errors="replace")
+            if "-->" in recovered_text:
+                logger.info("Automatically recovered UTF-16LE mojibake subtitle content to valid UTF-8 SRT")
+                content = recovered_text
+        except Exception as exc:
+            logger.debug("Mojibake recovery failed: %s", exc)
+
     # Normalize line endings to \n
     content = content.replace("\r\n", "\n").replace("\r", "\n")
 
@@ -138,19 +150,37 @@ def parse_srt_safely(raw_srt_content: str) -> List[srt.Subtitle]:
     except Exception as exc:
         logger.warning("Standard SRT parsing failed (%s), attempting line recovery...", exc)
         try:
-            # Try parsing with lenience
             recovered = []
-            for block in content.split("\n\n"):
-                block = block.strip()
-                if not block:
+            import datetime
+            ts_regex = re.compile(
+                r"(\d{1,2}):(\d{2}):(\d{2})[,\.](\d{1,3})\s*-->\s*(\d{1,2}):(\d{2}):(\d{2})[,\.](\d{1,3})"
+            )
+            blocks = re.split(r"\n\s*\n+", content)
+            idx = 1
+            for block in blocks:
+                lines = [l.strip() for l in block.split("\n") if l.strip()]
+                if not lines:
                     continue
-                try:
-                    for sub in srt.parse(block):
-                        recovered.append(sub)
-                except Exception:
-                    continue
+                match = None
+                text_start_idx = 0
+                for line_i, line in enumerate(lines[:3]):
+                    m = ts_regex.search(line)
+                    if m:
+                        match = m
+                        text_start_idx = line_i + 1
+                        break
+                if match:
+                    h1, m1, s1, ms1 = int(match.group(1)), int(match.group(2)), int(match.group(3)), int(match.group(4).ljust(3, "0")[:3])
+                    h2, m2, s2, ms2 = int(match.group(5)), int(match.group(6)), int(match.group(7)), int(match.group(8).ljust(3, "0")[:3])
+                    start = datetime.timedelta(hours=h1, minutes=m1, seconds=s1, milliseconds=ms1)
+                    end = datetime.timedelta(hours=h2, minutes=m2, seconds=s2, milliseconds=ms2)
+                    text = "\n".join(lines[text_start_idx:]).strip()
+                    if text:
+                        recovered.append(srt.Subtitle(index=idx, start=start, end=end, content=text))
+                        idx += 1
             return recovered
-        except Exception:
+        except Exception as rec_exc:
+            logger.debug("Line recovery failed: %s", rec_exc)
             return []
 
 

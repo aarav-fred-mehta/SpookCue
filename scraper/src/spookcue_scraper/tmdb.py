@@ -9,7 +9,7 @@ import os
 from pathlib import Path
 import re
 import time
-from typing import Any, Dict, List, Optional
+from typing import Any, Set, Dict, List, Optional
 
 import httpx
 
@@ -22,6 +22,14 @@ RE_EDITION_SUFFIX = re.compile(
     r"\s*(?:[-–—:]\s*|\()\s*(?:Director['’]s Cut|Extended Cut|Unrated.*|Original Australian.*|Blu-Ray.*|Collector['’]s Edition|Alternate Ending|Special Edition|Remastered|Theatrical Cut|Ultimate Edition|International Cut|Final Cut|Restored|\d+fps).*",
     re.IGNORECASE,
 )
+
+KNOWN_TITLE_ALIASES: Dict[str, int] = {
+    "vacancy 3: terror trap": 48574,
+    "terror trap": 48574,
+    "things heard and seen": 581644,
+    "things heard & seen": 581644,
+}
+
 
 
 def generate_title_candidates(title: str) -> List[str]:
@@ -196,6 +204,11 @@ class TmdbClient:
             logger.warning("No TMDB_API_KEY provided; skipping TMDB search for '%s'", title)
             return None
 
+        # Check known aliases
+        normalized_title = title.strip().lower()
+        if normalized_title in KNOWN_TITLE_ALIASES:
+            return KNOWN_TITLE_ALIASES[normalized_title]
+
         cache_key = f"search_{title}_{year}"
         cached = self._read_cache(cache_key)
         if cached is not None:
@@ -204,20 +217,28 @@ class TmdbClient:
         client = await self._get_client()
         candidates = generate_title_candidates(title)
 
-        # 1. Try each candidate with year
+        # 1. Try each candidate with exact year
         for candidate in candidates:
             tmdb_id = await self._query_tmdb_search(client, candidate, year)
             if tmdb_id:
                 self._write_cache(cache_key, {"tmdb_id": tmdb_id})
                 return tmdb_id
 
-        # 2. If not found and year was provided, try candidates without year (covers festival offset)
+        # 2. If not found and year was provided, try year - 1 and year + 1 (festival premiere offset)
         if year:
-            for candidate in candidates:
-                tmdb_id = await self._query_tmdb_search(client, candidate, None)
-                if tmdb_id:
-                    self._write_cache(cache_key, {"tmdb_id": tmdb_id})
-                    return tmdb_id
+            for offset in (-1, 1):
+                for candidate in candidates:
+                    tmdb_id = await self._query_tmdb_search(client, candidate, year + offset)
+                    if tmdb_id:
+                        self._write_cache(cache_key, {"tmdb_id": tmdb_id})
+                        return tmdb_id
+
+        # 3. If still not found, try candidates without year
+        for candidate in candidates:
+            tmdb_id = await self._query_tmdb_search(client, candidate, None)
+            if tmdb_id:
+                self._write_cache(cache_key, {"tmdb_id": tmdb_id})
+                return tmdb_id
 
         return None
 
@@ -254,3 +275,43 @@ class TmdbClient:
         except Exception as exc:
             logger.error("TMDB get_movie_details failed for ID %d: %s", tmdb_id, exc)
             return {}
+
+    async def get_now_playing_movie_ids(self) -> Set[int]:
+        """Fetch currently running theatrical & trending horror TMDB IDs from free TMDB API."""
+        if not self.api_key:
+            return set()
+        client = await self._get_client()
+        now_playing_ids: Set[int] = set()
+        endpoints = [
+            f"{self.BASE_URL}/movie/now_playing?api_key={self.api_key}&with_genres=27",
+            f"{self.BASE_URL}/trending/movie/week?api_key={self.api_key}",
+        ]
+        for url in endpoints:
+            try:
+                resp = await client.get(url)
+                if resp.status_code == 200:
+                    for item in resp.json().get("results", []):
+                        mid = item.get("id")
+                        if mid:
+                            now_playing_ids.add(mid)
+            except Exception as exc:
+                logger.debug("Failed to query now_playing/trending: %s", exc)
+        return now_playing_ids
+
+    async def get_popular_horror_ids(self) -> Set[int]:
+        """Fetch top popular horror movie TMDB IDs from free TMDB discover API."""
+        if not self.api_key:
+            return set()
+        client = await self._get_client()
+        popular_ids: Set[int] = set()
+        url = f"{self.BASE_URL}/discover/movie?api_key={self.api_key}&with_genres=27&sort_by=popularity.desc&vote_count.gte=300"
+        try:
+            resp = await client.get(url)
+            if resp.status_code == 200:
+                for item in resp.json().get("results", []):
+                    mid = item.get("id")
+                    if mid:
+                        popular_ids.add(mid)
+        except Exception as exc:
+            logger.debug("Failed to query popular horror: %s", exc)
+        return popular_ids

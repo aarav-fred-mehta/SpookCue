@@ -408,6 +408,24 @@ async def run_pipeline(
             else:
                 updated_count += 1
 
+        # Dynamic Tagging from TMDB free API & current release calendar
+        try:
+            now_playing_ids = await tmdb_client.get_now_playing_movie_ids()
+            popular_ids = await tmdb_client.get_popular_horror_ids()
+            cur_year = datetime.now(timezone.utc).year
+            for entry in catalog_by_id.values():
+                entry_tags = []
+                tid = entry.get("tmdb_id")
+                yr = entry.get("release_year")
+                scares = entry.get("scare_count", 0)
+                if (tid in now_playing_ids) or (yr and yr >= cur_year - 1):
+                    entry_tags.append("NEW")
+                if (tid in popular_ids) or (scares >= 12):
+                    entry_tags.append("HOT")
+                entry["tags"] = entry_tags
+        except Exception as exc:
+            logger.debug("Dynamic tagging fallback: %s", exc)
+
         # Only update catalog and version if changes occurred or catalog was missing
         if added_count > 0 or updated_count > 0 or not catalog_path.exists():
             sorted_catalog = sorted(catalog_by_id.values(), key=lambda m: (m.get("title", "").lower()))

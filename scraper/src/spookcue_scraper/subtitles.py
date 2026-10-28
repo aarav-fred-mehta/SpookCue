@@ -23,39 +23,66 @@ def decode_subtitle_bytes(raw_bytes: bytes) -> Optional[str]:
     if raw_bytes.startswith(b"\xef\xbb\xbf"):
         return raw_bytes[3:].decode("utf-8", errors="replace").replace("\x00", "")
     if raw_bytes.startswith(b"\xff\xfe"):
-        return raw_bytes[2:].decode("utf-16-le", errors="replace").replace("\x00", "")
-    if raw_bytes.startswith(b"\xfe\xff"):
-        return raw_bytes[2:].decode("utf-16-be", errors="replace").replace("\x00", "")
-
-    # 2. Only attempt UTF-16 detection if raw_bytes actually contains null bytes
-    if b"\x00" in raw_bytes:
-        # Check UTF-16 LE (most common Windows format)
+        candidate_utf16 = raw_bytes[2:].decode("utf-16-le", errors="replace").replace("\x00", "")
+        if "-->" in candidate_utf16:
+            return candidate_utf16
         try:
-            decoded = raw_bytes.decode("utf-16-le", errors="replace")
-            # In valid UTF-16 LE text, decoding consumes all null bytes and yields timestamps or newlines
-            if "\x00" not in decoded and ("-->" in decoded or "\n" in decoded):
-                return decoded
+            candidate_utf8 = raw_bytes[2:].decode("utf-8")
+            if "-->" in candidate_utf8:
+                return candidate_utf8.replace("\x00", "")
+        except UnicodeDecodeError:
+            pass
+        if "\u2d2d" in candidate_utf16:
+            try:
+                recovered = candidate_utf16.encode("utf-16-le").decode("utf-8", errors="replace")
+                if "-->" in recovered:
+                    return recovered.replace("\x00", "")
+            except Exception:
+                pass
+        return candidate_utf16
+    if raw_bytes.startswith(b"\xfe\xff"):
+        candidate_utf16 = raw_bytes[2:].decode("utf-16-be", errors="replace").replace("\x00", "")
+        if "-->" in candidate_utf16:
+            return candidate_utf16
+        try:
+            candidate_utf8 = raw_bytes[2:].decode("utf-8")
+            if "-->" in candidate_utf8:
+                return candidate_utf8.replace("\x00", "")
+        except UnicodeDecodeError:
+            pass
+        return candidate_utf16
+
+    # 2. Heuristic check using SRT timestamp separator '-->'
+    # In UTF-16LE, '-->' is b"-\x00-\x00>\x00"
+    # In UTF-16BE, '-->' is b"\x00-\x00-\x00>"
+    # In UTF-8 / ASCII, '-->' is b"-->"
+    if b"-\x00-\x00>\x00" in raw_bytes:
+        try:
+            return raw_bytes.decode("utf-16-le", errors="replace").replace("\x00", "")
         except Exception:
             pass
 
-        # Check UTF-16 BE
+    if b"\x00-\x00-\x00>" in raw_bytes:
         try:
-            decoded = raw_bytes.decode("utf-16-be", errors="replace")
-            if "\x00" not in decoded and ("-->" in decoded or "\n" in decoded):
-                return decoded
+            return raw_bytes.decode("utf-16-be", errors="replace").replace("\x00", "")
         except Exception:
             pass
 
     # 3. Standard UTF-8 (strict first)
     try:
         decoded = raw_bytes.decode("utf-8")
-        if "\x00" not in decoded:
-            return decoded
         return decoded.replace("\x00", "")
     except UnicodeDecodeError:
         pass
 
-    # 4. Fallback: CP1252 / Latin-1
+    # 4. UTF-8 with error replacement if ASCII arrow is present
+    if b"-->" in raw_bytes:
+        try:
+            return raw_bytes.decode("utf-8", errors="replace").replace("\x00", "")
+        except Exception:
+            pass
+
+    # 5. Fallback: CP1252 / Latin-1
     try:
         decoded = raw_bytes.decode("cp1252", errors="replace")
     except Exception:

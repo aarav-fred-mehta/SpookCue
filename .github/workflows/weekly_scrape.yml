@@ -10,6 +10,8 @@ jobs:
     timeout-minutes: 120
     permissions:
       contents: write
+    env:
+      NODE_OPTIONS: "--no-deprecation"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

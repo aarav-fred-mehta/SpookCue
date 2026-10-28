@@ -397,15 +397,39 @@ class WhenJumpScareScraper:
         seen_slugs = set()
         got_403 = False
 
+        async def fetch_html_bypass(target_url: str) -> Optional[str]:
+            # Try TLS impersonation via curl_cffi if installed
+            try:
+                from curl_cffi.requests import AsyncSession
+                async with AsyncSession(impersonate="chrome124") as s:
+                    c_resp = await s.get(target_url, timeout=15)
+                    if c_resp.status_code == 200:
+                        return c_resp.text
+            except ImportError:
+                pass
+            except Exception as c_exc:
+                logger.debug("curl_cffi bypass attempt failed for %s: %s", target_url, c_exc)
+
+            try:
+                h_resp = await client.get(target_url)
+                if h_resp.status_code == 200:
+                    return h_resp.text
+                elif h_resp.status_code == 403:
+                    logger.info("Access to %s protected by Cloudflare WAF (403)", target_url)
+            except Exception as h_exc:
+                logger.debug("Fetch error on %s: %s", target_url, h_exc)
+            return None
+
         # Strategy 1: Sitemap from whenjumpscare.com (Contains all 1,164 films)
         if "whenjumpscare.com" in self.base_url:
             sitemap_url = f"{self.base_url}/sitemap.xml"
             try:
                 logger.info("Attempting to load movie index from sitemap: %s", sitemap_url)
-                resp = await client.get(sitemap_url)
-                if resp.status_code == 200 and "<urlset" in resp.text:
+                sitemap_text = await fetch_html_bypass(sitemap_url)
+                if sitemap_text and "<urlset" in sitemap_text:
+                    resp_text = sitemap_text
                     import xml.etree.ElementTree as ET
-                    root = ET.fromstring(resp.text)
+                    root = ET.fromstring(resp_text)
                     for loc in root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
                         if not loc.text:
                             continue
@@ -436,15 +460,18 @@ class WhenJumpScareScraper:
                     if all_movies:
                         logger.info("Successfully fetched %d movies from sitemap.xml", len(all_movies))
                         return all_movies
-                elif resp.status_code == 403:
-                    logger.warning("whenjumpscare.com sitemap returned 403 Forbidden (Cloudflare WAF on datacenter IP)")
+                else:
                     got_403 = True
             except Exception as exc:
                 logger.warning("Could not parse sitemap.xml (%s); falling back to HTML crawling", exc)
 
         # Strategy 2: HTML crawling
-        if "whenjumpscare.com" in self.base_url and not got_403:
-            current_url: Optional[str] = f"{self.base_url}/all-jumpscares"
+        if got_403:
+            # Switch base_url directly to fallback to prevent repeating 403 on whenjumpscare
+            self.base_url = "https://wheresthejump.com"
+            current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
+        elif "whenjumpscare.com" in self.base_url:
+            current_url = f"{self.base_url}/all-jumpscares"
         else:
             current_url = f"{self.base_url}/full-movie-list/"
         visited_urls = set()
@@ -461,7 +488,7 @@ class WhenJumpScareScraper:
             try:
                 resp = await client.get(current_url)
                 if resp.status_code == 403:
-                    logger.warning("Index page %s returned 403 Forbidden", current_url)
+                    logger.warning("Index page %s returned 403 Forbidden (Cloudflare WAF)", current_url)
                     got_403 = True
                     break
                 resp.raise_for_status()

@@ -194,6 +194,8 @@ class WhenJumpScareScraper:
                 continue
 
             title = link.get_text(strip=True)
+            if not title or title.strip().lower() in ("tv shows", "tv show", "tv series", "television", "home"):
+                continue
             href = link["href"]
             full_url = urljoin(base_url, href)
             slug = href.strip("/").split("/")[-1]

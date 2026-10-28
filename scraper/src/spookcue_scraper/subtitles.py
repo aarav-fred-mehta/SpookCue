@@ -318,37 +318,37 @@ class SubtitleFetcher:
 
         logger.info("SubDL found %d English subtitle track(s) for '%s' (TMDB %d)", len(subtitles), title, tmdb_id)
 
-        # Pick the first English subtitle entry with a download URL
-        dl_path = None
-        for sub in subtitles:
-            if sub.get("url"):
-                dl_path = sub["url"]
-                break
-
-        if not dl_path:
+        # Try up to top 3 subtitle entries with download URLs
+        candidate_subs = [s for s in subtitles if s.get("url")][:3]
+        if not candidate_subs:
             return None
 
-        full_dl_url = f"{self.SUBDL_DL_BASE}{dl_path}" if dl_path.startswith("/") else dl_path
-        try:
-            dl_resp = await client.get(full_dl_url)
-            if dl_resp.status_code == 429:
-                self._subdl_consecutive_429 += 1
-                logger.warning(
-                    "SubDL download rate limit reached (HTTP 429) for TMDB ID %d (%s)",
-                    tmdb_id,
-                    title,
-                )
-                if self._subdl_consecutive_429 >= 2:
-                    logger.warning("SubDL download quota appears exhausted; disabling SubDL for remainder of run.")
-                    self._subdl_exhausted = True
-                return None
+        for sub in candidate_subs:
+            dl_path = sub["url"]
+            full_dl_url = f"{self.SUBDL_DL_BASE}{dl_path}" if dl_path.startswith("/") else dl_path
+            try:
+                dl_resp = await client.get(full_dl_url)
+                if dl_resp.status_code == 429:
+                    self._subdl_consecutive_429 += 1
+                    logger.warning(
+                        "SubDL download rate limit reached (HTTP 429) for TMDB ID %d (%s)",
+                        tmdb_id,
+                        title,
+                    )
+                    if self._subdl_consecutive_429 >= 2:
+                        logger.warning("SubDL download quota appears exhausted; disabling SubDL for remainder of run.")
+                        self._subdl_exhausted = True
+                    return None
 
-            dl_resp.raise_for_status()
-            self._subdl_consecutive_429 = 0
-            return self.extract_srt_from_bytes(dl_resp.content)
-        except Exception as exc:
-            logger.debug("SubDL fetch failed for TMDB ID %d (%s): %s", tmdb_id, title, exc)
-            return None
+                dl_resp.raise_for_status()
+                self._subdl_consecutive_429 = 0
+                extracted = self.extract_srt_from_bytes(dl_resp.content)
+                if extracted and len(extracted.strip()) > 0:
+                    return extracted
+            except Exception as exc:
+                logger.debug("SubDL fetch failed for track %s (TMDB %d): %s", full_dl_url, tmdb_id, exc)
+
+        return None
 
     async def fetch_from_opensubtitles(
         self,

@@ -1,38 +1,22 @@
 {
   "phonetic_index": [],
-  "release_year": 1998,
+  "release_year": 1960,
   "runtime_minutes": 109,
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The shower curtain is pulled aside revealing a person with long blonde hair holding a knife.",
+      "description": "As Arbogast reaches the top of the stairs, a figure comes out of the bedroom and stabs him.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2723000,
+      "resolved_time_ms": 4644000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "A blonde woman runs toward Mr. Arbogast and attacks him with a knife.",
+      "description": "Lila turns around the figure sitting on the chair and it is revealed to be the corpse of Norman’s mother, a few seconds later Norman rushes in wearing his mother’s clothes and a wig.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4428000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "Lila turns around suddenly and gasps.",
-      "id": "scare_03",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5422000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "Lila turns the chair around revealing a preserved dead body.",
-      "id": "scare_04",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5622000,
+      "resolved_time_ms": 6078000,
       "type": "minor"
     }
   ],

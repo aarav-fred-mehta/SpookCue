@@ -1,22 +1,54 @@
 {
   "phonetic_index": [],
-  "release_year": 2018,
+  "release_year": 1977,
   "runtime_minutes": 99,
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "As Sara flees down a hallway we see holes open up in the floor and one of her legs falls through.",
+      "description": "The scene abruptly cuts to a girl running through the woods.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5943000,
+      "resolved_time_ms": 414000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Dr. Klemperer’s wife suddenly disappears and as he looks around for her, one of the witches suddenly runs at him screaming.",
+      "description": "The window blows open, startling Pat.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 6973000,
+      "resolved_time_ms": 535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arm smashes through the window and grabs Pat around the neck. [Video] .",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 703000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel’s dog suddenly jumps up and bites Daniel on the throat.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer startles Sara.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3912000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bat flies through the open window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4751000,
       "type": "minor"
     }
   ],

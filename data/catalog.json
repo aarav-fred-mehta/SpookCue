@@ -5,6 +5,7 @@
     "release_year": 2016,
     "runtime_minutes": 104,
     "scare_count": 8,
+    "tags": [],
     "title": "10 Cloverfield Lane",
     "tmdb_id": 333371
   },
@@ -14,6 +15,7 @@
     "release_year": 2020,
     "runtime_minutes": 88,
     "scare_count": 1,
+    "tags": [],
     "title": "12 Hour Shift",
     "tmdb_id": 667141
   },
@@ -23,6 +25,7 @@
     "release_year": 2007,
     "runtime_minutes": 104,
     "scare_count": 8,
+    "tags": [],
     "title": "1408",
     "tmdb_id": 3021
   },
@@ -32,6 +35,7 @@
     "release_year": 2019,
     "runtime_minutes": 119,
     "scare_count": 10,
+    "tags": [],
     "title": "1917",
     "tmdb_id": 530915
   },
@@ -41,6 +45,7 @@
     "release_year": 2017,
     "runtime_minutes": 102,
     "scare_count": 2,
+    "tags": [],
     "title": "1922",
     "tmdb_id": 452507
   },
@@ -50,6 +55,7 @@
     "release_year": 2016,
     "runtime_minutes": 82,
     "scare_count": 8,
+    "tags": [],
     "title": "1974: The Possession of Altair",
     "tmdb_id": 416079
   },
@@ -59,6 +65,7 @@
     "release_year": 2019,
     "runtime_minutes": 90,
     "scare_count": 4,
+    "tags": [],
     "title": "1BR",
     "tmdb_id": 611605
   },
@@ -68,6 +75,7 @@
     "release_year": 2002,
     "runtime_minutes": 113,
     "scare_count": 10,
+    "tags": [],
     "title": "28 Days Later",
     "tmdb_id": 170
   },
@@ -77,6 +85,9 @@
     "release_year": 2007,
     "runtime_minutes": 99,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "28 Weeks Later",
     "tmdb_id": 1562
   },
@@ -86,6 +97,7 @@
     "release_year": 2007,
     "runtime_minutes": 113,
     "scare_count": 9,
+    "tags": [],
     "title": "30 Days of Night",
     "tmdb_id": 4513
   },
@@ -95,6 +107,7 @@
     "release_year": 2018,
     "runtime_minutes": 83,
     "scare_count": 5,
+    "tags": [],
     "title": "30 Miles from Nowhere",
     "tmdb_id": 564082
   },
@@ -104,6 +117,7 @@
     "release_year": 2016,
     "runtime_minutes": 102,
     "scare_count": 8,
+    "tags": [],
     "title": "31",
     "tmdb_id": 284564
   },
@@ -113,6 +127,7 @@
     "release_year": 2017,
     "runtime_minutes": 89,
     "scare_count": 11,
+    "tags": [],
     "title": "47 Meters Down",
     "tmdb_id": 403119
   },
@@ -122,6 +137,9 @@
     "release_year": 2019,
     "runtime_minutes": 90,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "47 Meters Down: Uncaged",
     "tmdb_id": 480105
   },
@@ -131,6 +149,7 @@
     "release_year": 2010,
     "runtime_minutes": 85,
     "scare_count": 2,
+    "tags": [],
     "title": "8213: Gacy House",
     "tmdb_id": 57313
   },
@@ -140,6 +159,7 @@
     "release_year": 2007,
     "runtime_minutes": 78,
     "scare_count": 11,
+    "tags": [],
     "title": "[Rec]",
     "tmdb_id": 8329
   },
@@ -149,6 +169,9 @@
     "release_year": 2009,
     "runtime_minutes": 84,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "[Rec] 2",
     "tmdb_id": 10664
   },
@@ -158,6 +181,9 @@
     "release_year": 2012,
     "runtime_minutes": 80,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "[REC] 3: Genesis",
     "tmdb_id": 80280
   },
@@ -167,6 +193,7 @@
     "release_year": 2015,
     "runtime_minutes": 95,
     "scare_count": 7,
+    "tags": [],
     "title": "[REC] 4: Apocalypse",
     "tmdb_id": 185341
   },
@@ -176,6 +203,7 @@
     "release_year": 2016,
     "runtime_minutes": 146,
     "scare_count": 6,
+    "tags": [],
     "title": "A Cure for Wellness",
     "tmdb_id": 340837
   },
@@ -185,6 +213,7 @@
     "release_year": 2016,
     "runtime_minutes": 100,
     "scare_count": 5,
+    "tags": [],
     "title": "A Dark Song",
     "tmdb_id": 409297
   },
@@ -194,6 +223,7 @@
     "release_year": 2017,
     "runtime_minutes": 93,
     "scare_count": 3,
+    "tags": [],
     "title": "A Ghost Story",
     "tmdb_id": 428449
   },
@@ -203,15 +233,19 @@
     "release_year": 2014,
     "runtime_minutes": 101,
     "scare_count": 0,
+    "tags": [],
     "title": "A Girl Walks Home Alone at Night",
     "tmdb_id": 252171
   },
   {
     "has_subtitles": true,
     "poster_path": "/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
-    "release_year": 1984,
+    "release_year": 2010,
     "runtime_minutes": 91,
-    "scare_count": 11,
+    "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "A Nightmare on Elm Street",
     "tmdb_id": 377
   },
@@ -221,6 +255,7 @@
     "release_year": 1985,
     "runtime_minutes": 87,
     "scare_count": 8,
+    "tags": [],
     "title": "A Nightmare on Elm Street 2: Freddy’s Revenge",
     "tmdb_id": 10014
   },
@@ -230,6 +265,7 @@
     "release_year": 1987,
     "runtime_minutes": 96,
     "scare_count": 11,
+    "tags": [],
     "title": "A Nightmare on Elm Street 3: Dream Warriors",
     "tmdb_id": 10072
   },
@@ -239,6 +275,7 @@
     "release_year": 1988,
     "runtime_minutes": 93,
     "scare_count": 6,
+    "tags": [],
     "title": "A Nightmare on Elm Street 4: The Dream Master",
     "tmdb_id": 10131
   },
@@ -248,6 +285,7 @@
     "release_year": 1989,
     "runtime_minutes": 89,
     "scare_count": 10,
+    "tags": [],
     "title": "A Nightmare on Elm Street 5: The Dream Child",
     "tmdb_id": 10160
   },
@@ -257,6 +295,9 @@
     "release_year": 2018,
     "runtime_minutes": 91,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "A Quiet Place",
     "tmdb_id": 447332
   },
@@ -266,6 +307,9 @@
     "release_year": 2020,
     "runtime_minutes": 97,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "A Quiet Place Part II",
     "tmdb_id": 520763
   },
@@ -275,6 +319,9 @@
     "release_year": 2003,
     "runtime_minutes": 115,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "A Tale of Two Sisters",
     "tmdb_id": 4552
   },
@@ -284,6 +331,7 @@
     "release_year": 2018,
     "runtime_minutes": 69,
     "scare_count": 0,
+    "tags": [],
     "title": "Abrakadabra",
     "tmdb_id": 551964
   },
@@ -293,6 +341,7 @@
     "release_year": 2011,
     "runtime_minutes": 91,
     "scare_count": 8,
+    "tags": [],
     "title": "Absentia",
     "tmdb_id": 74777
   },
@@ -302,6 +351,7 @@
     "release_year": 2019,
     "runtime_minutes": 83,
     "scare_count": 6,
+    "tags": [],
     "title": "After Midnight",
     "tmdb_id": 586595
   },
@@ -311,6 +361,7 @@
     "release_year": 2021,
     "runtime_minutes": 114,
     "scare_count": 5,
+    "tags": [],
     "title": "Aftermath",
     "tmdb_id": 763149
   },
@@ -320,6 +371,9 @@
     "release_year": 1979,
     "runtime_minutes": 117,
     "scare_count": 11,
+    "tags": [
+      "HOT"
+    ],
     "title": "Alien",
     "tmdb_id": 348
   },
@@ -329,6 +383,9 @@
     "release_year": 1992,
     "runtime_minutes": 114,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Alien 3",
     "tmdb_id": 8077
   },
@@ -338,6 +395,7 @@
     "release_year": 2017,
     "runtime_minutes": 122,
     "scare_count": 6,
+    "tags": [],
     "title": "Alien: Covenant",
     "tmdb_id": 126889
   },
@@ -347,6 +405,7 @@
     "release_year": 1997,
     "runtime_minutes": 109,
     "scare_count": 9,
+    "tags": [],
     "title": "Alien: Resurrection",
     "tmdb_id": 8078
   },
@@ -356,6 +415,9 @@
     "release_year": 1986,
     "runtime_minutes": 137,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Aliens",
     "tmdb_id": 679
   },
@@ -365,6 +427,9 @@
     "release_year": 2013,
     "runtime_minutes": 82,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "All Hallows’ Eve",
     "tmdb_id": 231001
   },
@@ -374,6 +439,9 @@
     "release_year": 2007,
     "runtime_minutes": 102,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Alone",
     "tmdb_id": 9714
   },
@@ -383,6 +451,7 @@
     "release_year": 2020,
     "runtime_minutes": 92,
     "scare_count": 0,
+    "tags": [],
     "title": "Alone",
     "tmdb_id": 661950
   },
@@ -392,6 +461,7 @@
     "release_year": 1980,
     "runtime_minutes": 103,
     "scare_count": 2,
+    "tags": [],
     "title": "Altered States",
     "tmdb_id": 11542
   },
@@ -401,6 +471,7 @@
     "release_year": 2017,
     "runtime_minutes": 87,
     "scare_count": 11,
+    "tags": [],
     "title": "Amityville: The Awakening",
     "tmdb_id": 203835
   },
@@ -410,6 +481,7 @@
     "release_year": 2015,
     "runtime_minutes": 90,
     "scare_count": 1,
+    "tags": [],
     "title": "Amnesiac",
     "tmdb_id": 351043
   },
@@ -419,6 +491,7 @@
     "release_year": 2020,
     "runtime_minutes": 99,
     "scare_count": 3,
+    "tags": [],
     "title": "Amulet",
     "tmdb_id": 653615
   },
@@ -428,6 +501,9 @@
     "release_year": 1981,
     "runtime_minutes": 97,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "An American Werewolf in London",
     "tmdb_id": 814
   },
@@ -437,6 +513,7 @@
     "release_year": 1997,
     "runtime_minutes": 98,
     "scare_count": 11,
+    "tags": [],
     "title": "An American Werewolf in Paris",
     "tmdb_id": 9406
   },
@@ -446,6 +523,7 @@
     "release_year": 1997,
     "runtime_minutes": 90,
     "scare_count": 9,
+    "tags": [],
     "title": "Anaconda",
     "tmdb_id": 9360
   },
@@ -455,6 +533,7 @@
     "release_year": 2004,
     "runtime_minutes": 96,
     "scare_count": 7,
+    "tags": [],
     "title": "Anacondas: The Hunt for Blood Orchid",
     "tmdb_id": 11237
   },
@@ -464,6 +543,7 @@
     "release_year": 2013,
     "runtime_minutes": 129,
     "scare_count": 5,
+    "tags": [],
     "title": "Anna",
     "tmdb_id": 96724
   },
@@ -473,6 +553,7 @@
     "release_year": 2017,
     "runtime_minutes": 97,
     "scare_count": 6,
+    "tags": [],
     "title": "Anna and the Apocalypse",
     "tmdb_id": 461928
   },
@@ -482,6 +563,7 @@
     "release_year": 2014,
     "runtime_minutes": 99,
     "scare_count": 11,
+    "tags": [],
     "title": "Annabelle",
     "tmdb_id": 250546
   },
@@ -491,6 +573,9 @@
     "release_year": 2019,
     "runtime_minutes": 106,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Annabelle Comes Home",
     "tmdb_id": 521029
   },
@@ -500,6 +585,9 @@
     "release_year": 2017,
     "runtime_minutes": 110,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "Annabelle: Creation",
     "tmdb_id": 396422
   },
@@ -509,6 +597,7 @@
     "release_year": 2018,
     "runtime_minutes": 115,
     "scare_count": 4,
+    "tags": [],
     "title": "Annihilation",
     "tmdb_id": 300668
   },
@@ -518,6 +607,7 @@
     "release_year": 2020,
     "runtime_minutes": 106,
     "scare_count": 2,
+    "tags": [],
     "title": "Antebellum",
     "tmdb_id": 627290
   },
@@ -527,6 +617,7 @@
     "release_year": 2021,
     "runtime_minutes": 99,
     "scare_count": 4,
+    "tags": [],
     "title": "Antlers",
     "tmdb_id": 516329
   },
@@ -536,6 +627,7 @@
     "release_year": 2018,
     "runtime_minutes": 94,
     "scare_count": 0,
+    "tags": [],
     "title": "Antrum: The Deadliest Film Ever Made.",
     "tmdb_id": 412546
   },
@@ -545,6 +637,7 @@
     "release_year": 2020,
     "runtime_minutes": 96,
     "scare_count": 7,
+    "tags": [],
     "title": "Anything For Jackson",
     "tmdb_id": 734353
   },
@@ -554,6 +647,7 @@
     "release_year": 2011,
     "runtime_minutes": 86,
     "scare_count": 10,
+    "tags": [],
     "title": "Apollo 18",
     "tmdb_id": 50357
   },
@@ -563,6 +657,7 @@
     "release_year": 2018,
     "runtime_minutes": 129,
     "scare_count": 5,
+    "tags": [],
     "title": "Apostle",
     "tmdb_id": 424121
   },
@@ -572,6 +667,7 @@
     "release_year": 2019,
     "runtime_minutes": 72,
     "scare_count": 0,
+    "tags": [],
     "title": "Aquaslash",
     "tmdb_id": 607383
   },
@@ -581,6 +677,7 @@
     "release_year": 2015,
     "runtime_minutes": 91,
     "scare_count": 4,
+    "tags": [],
     "title": "Area 51",
     "tmdb_id": 57876
   },
@@ -589,8 +686,9 @@
     "poster_path": "/xsgTuAtR2zSH8Umg3jWZcZjlDpe.jpg",
     "release_year": 1992,
     "runtime_minutes": 89,
-    "scare_count": 8,
-    "title": "Army of Darkness – Director’s Cut",
+    "scare_count": 9,
+    "tags": [],
+    "title": "Army of Darkness – Theatrical Cut",
     "tmdb_id": 766
   },
   {
@@ -599,6 +697,7 @@
     "release_year": 2016,
     "runtime_minutes": 116,
     "scare_count": 3,
+    "tags": [],
     "title": "Arrival",
     "tmdb_id": 329865
   },
@@ -608,6 +707,7 @@
     "release_year": 2014,
     "runtime_minutes": 93,
     "scare_count": 7,
+    "tags": [],
     "title": "As Above, So Below",
     "tmdb_id": 256274
   },
@@ -617,6 +717,9 @@
     "release_year": 2011,
     "runtime_minutes": 88,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Attack the Block",
     "tmdb_id": 59678
   },
@@ -626,6 +729,7 @@
     "release_year": 1999,
     "runtime_minutes": 115,
     "scare_count": 1,
+    "tags": [],
     "title": "Audition",
     "tmdb_id": 11075
   },
@@ -635,6 +739,7 @@
     "release_year": 2018,
     "runtime_minutes": 91,
     "scare_count": 10,
+    "tags": [],
     "title": "Await Further Instructions",
     "tmdb_id": 505063
   },
@@ -644,6 +749,7 @@
     "release_year": 2014,
     "runtime_minutes": 92,
     "scare_count": 4,
+    "tags": [],
     "title": "Backcountry",
     "tmdb_id": 228973
   },
@@ -653,6 +759,9 @@
     "release_year": 2015,
     "runtime_minutes": 90,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Backtrack",
     "tmdb_id": 332704
   },
@@ -662,6 +771,9 @@
     "release_year": 2013,
     "runtime_minutes": 87,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "Banshee Chapter",
     "tmdb_id": 207769
   },
@@ -671,6 +783,7 @@
     "release_year": 1982,
     "runtime_minutes": 91,
     "scare_count": 4,
+    "tags": [],
     "title": "Basket Case",
     "tmdb_id": 27813
   },
@@ -680,6 +793,7 @@
     "release_year": 2015,
     "runtime_minutes": 97,
     "scare_count": 2,
+    "tags": [],
     "title": "Baskin",
     "tmdb_id": 334394
   },
@@ -689,6 +803,7 @@
     "release_year": 1978,
     "runtime_minutes": 91,
     "scare_count": 2,
+    "tags": [],
     "title": "Beauty and the Beast",
     "tmdb_id": 70349
   },
@@ -698,6 +813,7 @@
     "release_year": 2016,
     "runtime_minutes": 97,
     "scare_count": 9,
+    "tags": [],
     "title": "Before I Wake",
     "tmdb_id": 301804
   },
@@ -707,6 +823,7 @@
     "release_year": 2020,
     "runtime_minutes": 86,
     "scare_count": 8,
+    "tags": [],
     "title": "Behind You",
     "tmdb_id": 684139
   },
@@ -716,6 +833,7 @@
     "release_year": 2002,
     "runtime_minutes": 105,
     "scare_count": 11,
+    "tags": [],
     "title": "Below",
     "tmdb_id": 12590
   },
@@ -725,6 +843,7 @@
     "release_year": 2019,
     "runtime_minutes": 94,
     "scare_count": 5,
+    "tags": [],
     "title": "Benny Loves You",
     "tmdb_id": 647302
   },
@@ -734,6 +853,7 @@
     "release_year": 2012,
     "runtime_minutes": 92,
     "scare_count": 1,
+    "tags": [],
     "title": "Berberian Sound Studio",
     "tmdb_id": 116811
   },
@@ -743,6 +863,7 @@
     "release_year": 2017,
     "runtime_minutes": 116,
     "scare_count": 1,
+    "tags": [],
     "title": "Berlin Syndrome",
     "tmdb_id": 363126
   },
@@ -752,6 +873,7 @@
     "release_year": 2016,
     "runtime_minutes": 89,
     "scare_count": 11,
+    "tags": [],
     "title": "Better Watch Out",
     "tmdb_id": 406994
   },
@@ -761,6 +883,7 @@
     "release_year": 2018,
     "runtime_minutes": 124,
     "scare_count": 4,
+    "tags": [],
     "title": "Bird Box",
     "tmdb_id": 405774
   },
@@ -770,6 +893,7 @@
     "release_year": 1974,
     "runtime_minutes": 98,
     "scare_count": 4,
+    "tags": [],
     "title": "Black Christmas",
     "tmdb_id": 16938
   },
@@ -779,6 +903,7 @@
     "release_year": 2019,
     "runtime_minutes": 92,
     "scare_count": 0,
+    "tags": [],
     "title": "Black Christmas",
     "tmdb_id": 551808
   },
@@ -788,6 +913,7 @@
     "release_year": 2021,
     "runtime_minutes": 84,
     "scare_count": 6,
+    "tags": [],
     "title": "Black Friday",
     "tmdb_id": 765869
   },
@@ -797,6 +923,7 @@
     "release_year": 2006,
     "runtime_minutes": 86,
     "scare_count": 3,
+    "tags": [],
     "title": "Black Sheep",
     "tmdb_id": 3603
   },
@@ -806,6 +933,7 @@
     "release_year": 2010,
     "runtime_minutes": 108,
     "scare_count": 10,
+    "tags": [],
     "title": "Black Swan",
     "tmdb_id": 44214
   },
@@ -815,6 +943,7 @@
     "release_year": 2018,
     "runtime_minutes": 91,
     "scare_count": 2,
+    "tags": [],
     "title": "Black Wake",
     "tmdb_id": 445867
   },
@@ -824,6 +953,7 @@
     "release_year": 2007,
     "runtime_minutes": 90,
     "scare_count": 6,
+    "tags": [],
     "title": "Black Water",
     "tmdb_id": 14138
   },
@@ -833,6 +963,7 @@
     "release_year": 2020,
     "runtime_minutes": 98,
     "scare_count": 9,
+    "tags": [],
     "title": "Black Water: Abyss",
     "tmdb_id": 522444
   },
@@ -842,8 +973,21 @@
     "release_year": 1998,
     "runtime_minutes": 121,
     "scare_count": 1,
+    "tags": [],
     "title": "Blade",
     "tmdb_id": 36647
+  },
+  {
+    "has_subtitles": true,
+    "poster_path": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
+    "release_year": 2016,
+    "runtime_minutes": 81,
+    "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
+    "title": "Blair Witch",
+    "tmdb_id": 2667
   },
   {
     "has_subtitles": true,
@@ -851,6 +995,7 @@
     "release_year": 2019,
     "runtime_minutes": 93,
     "scare_count": 3,
+    "tags": [],
     "title": "Blood Vessel",
     "tmdb_id": 618585
   },
@@ -860,6 +1005,7 @@
     "release_year": 2017,
     "runtime_minutes": 96,
     "scare_count": 6,
+    "tags": [],
     "title": "Boar",
     "tmdb_id": 416724
   },
@@ -869,6 +1015,7 @@
     "release_year": 2022,
     "runtime_minutes": 94,
     "scare_count": 4,
+    "tags": [],
     "title": "Bodies Bodies Bodies",
     "tmdb_id": 520023
   },
@@ -878,6 +1025,7 @@
     "release_year": 2019,
     "runtime_minutes": 88,
     "scare_count": 0,
+    "tags": [],
     "title": "Body at Brighton Rock",
     "tmdb_id": 555295
   },
@@ -887,6 +1035,7 @@
     "release_year": 1984,
     "runtime_minutes": 114,
     "scare_count": 7,
+    "tags": [],
     "title": "Body Double",
     "tmdb_id": 11507
   },
@@ -896,6 +1045,7 @@
     "release_year": 2015,
     "runtime_minutes": 133,
     "scare_count": 0,
+    "tags": [],
     "title": "Bone Tomahawk",
     "tmdb_id": 294963
   },
@@ -905,6 +1055,7 @@
     "release_year": 2000,
     "runtime_minutes": 90,
     "scare_count": 5,
+    "tags": [],
     "title": "Book of Shadows: Blair Witch 2",
     "tmdb_id": 11531
   },
@@ -914,6 +1065,7 @@
     "release_year": 1987,
     "runtime_minutes": 84,
     "scare_count": 4,
+    "tags": [],
     "title": "Born of Fire",
     "tmdb_id": 25920
   },
@@ -923,6 +1075,7 @@
     "release_year": 2016,
     "runtime_minutes": 112,
     "scare_count": 3,
+    "tags": [],
     "title": "Boys in the Trees",
     "tmdb_id": 409164
   },
@@ -932,6 +1085,7 @@
     "release_year": 2020,
     "runtime_minutes": 87,
     "scare_count": 11,
+    "tags": [],
     "title": "Brahms: The Boy II",
     "tmdb_id": 555974
   },
@@ -941,6 +1095,7 @@
     "release_year": 1988,
     "runtime_minutes": 86,
     "scare_count": 0,
+    "tags": [],
     "title": "Brain Damage",
     "tmdb_id": 27814
   },
@@ -950,6 +1105,7 @@
     "release_year": 1992,
     "runtime_minutes": 128,
     "scare_count": 2,
+    "tags": [],
     "title": "Bram Stoker’s Dracula",
     "tmdb_id": 6114
   },
@@ -959,6 +1115,7 @@
     "release_year": 1998,
     "runtime_minutes": 89,
     "scare_count": 11,
+    "tags": [],
     "title": "Bride of Chucky",
     "tmdb_id": 11932
   },
@@ -968,6 +1125,7 @@
     "release_year": 1990,
     "runtime_minutes": 96,
     "scare_count": 1,
+    "tags": [],
     "title": "Bride of Re-Animator",
     "tmdb_id": 18111
   },
@@ -977,6 +1135,9 @@
     "release_year": 2019,
     "runtime_minutes": 91,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Brightburn",
     "tmdb_id": 531309
   },
@@ -986,6 +1147,7 @@
     "release_year": 2002,
     "runtime_minutes": 92,
     "scare_count": 9,
+    "tags": [],
     "title": "Bubba Ho-Tep",
     "tmdb_id": 9707
   },
@@ -995,6 +1157,7 @@
     "release_year": 1981,
     "runtime_minutes": 96,
     "scare_count": 7,
+    "tags": [],
     "title": "Butcher, Baker, Nightmare Maker / Night Warning",
     "tmdb_id": 67740
   },
@@ -1004,6 +1167,7 @@
     "release_year": 2018,
     "runtime_minutes": 91,
     "scare_count": 2,
+    "tags": [],
     "title": "Butterfly Kisses",
     "tmdb_id": 480733
   },
@@ -1013,6 +1177,7 @@
     "release_year": 1984,
     "runtime_minutes": 96,
     "scare_count": 1,
+    "tags": [],
     "title": "C.H.U.D.",
     "tmdb_id": 23730
   },
@@ -1022,6 +1187,9 @@
     "release_year": 2016,
     "runtime_minutes": 99,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Cabin Fever",
     "tmdb_id": 298584
   },
@@ -1031,6 +1199,7 @@
     "release_year": 2002,
     "runtime_minutes": 98,
     "scare_count": 10,
+    "tags": [],
     "title": "Cabin Fever",
     "tmdb_id": 11547
   },
@@ -1040,6 +1209,7 @@
     "release_year": 2004,
     "runtime_minutes": 88,
     "scare_count": 2,
+    "tags": [],
     "title": "Calvaire (The Ordeal)",
     "tmdb_id": 12517
   },
@@ -1049,6 +1219,7 @@
     "release_year": 2018,
     "runtime_minutes": 95,
     "scare_count": 1,
+    "tags": [],
     "title": "Cam",
     "tmdb_id": 521935
   },
@@ -1058,6 +1229,7 @@
     "release_year": 2020,
     "runtime_minutes": 93,
     "scare_count": 3,
+    "tags": [],
     "title": "Camp Twilight",
     "tmdb_id": 565515
   },
@@ -1067,6 +1239,7 @@
     "release_year": 2021,
     "runtime_minutes": 91,
     "scare_count": 3,
+    "tags": [],
     "title": "Candyman",
     "tmdb_id": 565028
   },
@@ -1076,6 +1249,9 @@
     "release_year": 1992,
     "runtime_minutes": 100,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Candyman",
     "tmdb_id": 9529
   },
@@ -1085,6 +1261,7 @@
     "release_year": 1980,
     "runtime_minutes": 96,
     "scare_count": 0,
+    "tags": [],
     "title": "Cannibal Holocaust",
     "tmdb_id": 8689
   },
@@ -1094,6 +1271,7 @@
     "release_year": 1991,
     "runtime_minutes": 128,
     "scare_count": 4,
+    "tags": [],
     "title": "Cape Fear",
     "tmdb_id": 1598
   },
@@ -1103,6 +1281,7 @@
     "release_year": 2017,
     "runtime_minutes": 105,
     "scare_count": 2,
+    "tags": [],
     "title": "Cargo",
     "tmdb_id": 425972
   },
@@ -1112,15 +1291,17 @@
     "release_year": 1962,
     "runtime_minutes": 78,
     "scare_count": 1,
+    "tags": [],
     "title": "Carnival of Souls",
     "tmdb_id": 16093
   },
   {
     "has_subtitles": true,
     "poster_path": "/8tT1rqlsTguyfUBMrbHR9cv1rxM.jpg",
-    "release_year": 2013,
+    "release_year": 1976,
     "runtime_minutes": 98,
-    "scare_count": 4,
+    "scare_count": 1,
+    "tags": [],
     "title": "Carrie",
     "tmdb_id": 7340
   },
@@ -1130,6 +1311,7 @@
     "release_year": 2009,
     "runtime_minutes": 109,
     "scare_count": 10,
+    "tags": [],
     "title": "Case 39",
     "tmdb_id": 28355
   },
@@ -1139,6 +1321,7 @@
     "release_year": 1942,
     "runtime_minutes": 73,
     "scare_count": 2,
+    "tags": [],
     "title": "Cat People",
     "tmdb_id": 25508
   },
@@ -1148,6 +1331,7 @@
     "release_year": 2021,
     "runtime_minutes": 88,
     "scare_count": 9,
+    "tags": [],
     "title": "Caveat",
     "tmdb_id": 744746
   },
@@ -1157,6 +1341,7 @@
     "release_year": 2016,
     "runtime_minutes": 98,
     "scare_count": 5,
+    "tags": [],
     "title": "Cell",
     "tmdb_id": 168098
   },
@@ -1166,6 +1351,7 @@
     "release_year": 1994,
     "runtime_minutes": 104,
     "scare_count": 0,
+    "tags": [],
     "title": "Cemetery Man",
     "tmdb_id": 21588
   },
@@ -1175,6 +1361,7 @@
     "release_year": 2021,
     "runtime_minutes": 84,
     "scare_count": 3,
+    "tags": [],
     "title": "Censor",
     "tmdb_id": 663866
   },
@@ -1184,6 +1371,7 @@
     "release_year": 2012,
     "runtime_minutes": 94,
     "scare_count": 0,
+    "tags": [],
     "title": "Chained",
     "tmdb_id": 116979
   },
@@ -1193,6 +1381,9 @@
     "release_year": 2012,
     "runtime_minutes": 88,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Chernobyl Diaries",
     "tmdb_id": 93856
   },
@@ -1202,6 +1393,7 @@
     "release_year": 2015,
     "runtime_minutes": 85,
     "scare_count": 5,
+    "tags": [],
     "title": "Cherry Tree",
     "tmdb_id": 344593
   },
@@ -1211,6 +1403,7 @@
     "release_year": 2016,
     "runtime_minutes": 82,
     "scare_count": 8,
+    "tags": [],
     "title": "Child Eater",
     "tmdb_id": 417501
   },
@@ -1220,6 +1413,7 @@
     "release_year": 2012,
     "runtime_minutes": 88,
     "scare_count": 2,
+    "tags": [],
     "title": "Children of Sorrow",
     "tmdb_id": 201024
   },
@@ -1229,6 +1423,7 @@
     "release_year": 1984,
     "runtime_minutes": 92,
     "scare_count": 8,
+    "tags": [],
     "title": "Children of the Corn",
     "tmdb_id": 10823
   },
@@ -1238,6 +1433,9 @@
     "release_year": 2019,
     "runtime_minutes": 90,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Child’s Play",
     "tmdb_id": 533642
   },
@@ -1247,6 +1445,7 @@
     "release_year": 1988,
     "runtime_minutes": 87,
     "scare_count": 8,
+    "tags": [],
     "title": "Child’s Play",
     "tmdb_id": 10585
   },
@@ -1256,6 +1455,7 @@
     "release_year": 1986,
     "runtime_minutes": 77,
     "scare_count": 5,
+    "tags": [],
     "title": "Chopping Mall",
     "tmdb_id": 28941
   },
@@ -1265,6 +1465,7 @@
     "release_year": 2008,
     "runtime_minutes": 85,
     "scare_count": 7,
+    "tags": [],
     "title": "Cloverfield",
     "tmdb_id": 7191
   },
@@ -1274,6 +1475,7 @@
     "release_year": 2014,
     "runtime_minutes": 99,
     "scare_count": 11,
+    "tags": [],
     "title": "Clown",
     "tmdb_id": 112454
   },
@@ -1283,6 +1485,7 @@
     "release_year": 2023,
     "runtime_minutes": 95,
     "scare_count": 11,
+    "tags": [],
     "title": "Cocaine Bear",
     "tmdb_id": 804150
   },
@@ -1292,6 +1495,7 @@
     "release_year": 2013,
     "runtime_minutes": 89,
     "scare_count": 1,
+    "tags": [],
     "title": "Coherence",
     "tmdb_id": 220289
   },
@@ -1301,6 +1505,7 @@
     "release_year": 2003,
     "runtime_minutes": 118,
     "scare_count": 2,
+    "tags": [],
     "title": "Cold Creek Manor",
     "tmdb_id": 12767
   },
@@ -1310,6 +1515,7 @@
     "release_year": 2017,
     "runtime_minutes": 106,
     "scare_count": 4,
+    "tags": [],
     "title": "Cold Skin",
     "tmdb_id": 428399
   },
@@ -1319,6 +1525,7 @@
     "release_year": 2019,
     "runtime_minutes": 111,
     "scare_count": 4,
+    "tags": [],
     "title": "Color Out of Space",
     "tmdb_id": 548473
   },
@@ -1328,33 +1535,41 @@
     "release_year": 2020,
     "runtime_minutes": 97,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Come Play",
     "tmdb_id": 571384
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ogavoWVR5ESW5vrHqBIPtsSK5A5.jpg",
     "release_year": 2008,
     "runtime_minutes": 83,
     "scare_count": 11,
+    "tags": [],
     "title": "Coming Soon",
     "tmdb_id": 16313
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/unDk9honWK30AMUTwSknhplFI5G.jpg",
     "release_year": 1989,
     "runtime_minutes": 103,
     "scare_count": 7,
+    "tags": [],
     "title": "Communion",
     "tmdb_id": 28774
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/oFBQsngRdgxnbO4H1FIbQ0Zuq43.jpg",
     "release_year": 2014,
     "runtime_minutes": 88,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Cooties",
     "tmdb_id": 241843
   },
@@ -1364,87 +1579,99 @@
     "release_year": 2019,
     "runtime_minutes": 90,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Countdown",
     "tmdb_id": 599975
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/4WH6AZd473lRZ3hUp8TYiv2LfZW.jpg",
     "release_year": 2019,
     "runtime_minutes": 87,
     "scare_count": 9,
+    "tags": [],
     "title": "Crawl",
     "tmdb_id": 511987
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/w5oxV6MDEfL48FMK9BmYTD2wQRm.jpg",
     "release_year": 2004,
     "runtime_minutes": 85,
     "scare_count": 9,
+    "tags": [],
     "title": "Creep",
     "tmdb_id": 8555
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/qn53D574tT0YRyLgirEFHQwGUXw.jpg",
     "release_year": 2014,
     "runtime_minutes": 78,
     "scare_count": 10,
+    "tags": [],
     "title": "Creep",
     "tmdb_id": 250574
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/a0m7WciFnBqpcyH1Yi8i4tdvk0k.jpg",
     "release_year": 2017,
     "runtime_minutes": 80,
     "scare_count": 6,
+    "tags": [],
     "title": "Creep 2",
     "tmdb_id": 396493
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/4SoyTCEpsgLjX6yAyMsx3AsAyRQ.jpg",
     "release_year": 1982,
     "runtime_minutes": 120,
     "scare_count": 1,
+    "tags": [],
     "title": "Creepshow",
     "tmdb_id": 16281
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/bbanIymLuTYmQGis9nlCkFlT1eg.jpg",
     "release_year": 1987,
     "runtime_minutes": 92,
     "scare_count": 3,
+    "tags": [],
     "title": "Creepshow 2",
     "tmdb_id": 16288
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/RAFYMC0NgK9In9aGY6k6wsIL8w.jpg",
     "release_year": 2022,
     "runtime_minutes": 107,
     "scare_count": 6,
+    "tags": [],
     "title": "Crimes of the Future",
     "tmdb_id": 819876
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/g6lDR5EQuOwNwl9Ni5ROEVNXYbw.jpg",
     "release_year": 2015,
     "runtime_minutes": 119,
     "scare_count": 9,
+    "tags": [],
     "title": "Crimson Peak",
     "tmdb_id": 201085
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/1CXlIZFOOjpEwoTbvqVLmp9zWrM.jpg",
     "release_year": 2019,
     "runtime_minutes": 95,
     "scare_count": 7,
+    "tags": [],
     "title": "Cruel Peter",
     "tmdb_id": 664561
   },
@@ -1454,303 +1681,351 @@
     "release_year": 2005,
     "runtime_minutes": 97,
     "scare_count": 11,
+    "tags": [],
     "title": "Cry Wolf",
     "tmdb_id": 33280
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/x4BTjxdrOKC27FcSkBh8KPEgnum.jpg",
     "release_year": 1997,
     "runtime_minutes": 90,
     "scare_count": 1,
+    "tags": [],
     "title": "Cube",
     "tmdb_id": 431
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/bEqqwtwUP7lm56VyeVONhv9JtYu.jpg",
     "release_year": 2002,
     "runtime_minutes": 94,
     "scare_count": 2,
+    "tags": [],
     "title": "Cube 2: Hypercube",
     "tmdb_id": 437
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/m5ODgUYh5lMvRumBY63QJ4eVYp5.jpg",
     "release_year": 2004,
     "runtime_minutes": 97,
     "scare_count": 1,
+    "tags": [],
     "title": "Cube Zero",
     "tmdb_id": 438
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/uNBt2YxrQdyOjnm2rDQ5QiCmQ0K.jpg",
     "release_year": 1983,
     "runtime_minutes": 93,
     "scare_count": 4,
+    "tags": [],
     "title": "Cujo",
     "tmdb_id": 10489
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg",
     "release_year": 2017,
     "runtime_minutes": 91,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Cult of Chucky",
     "tmdb_id": 393345
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/q9IBBA6ypk0LEaOgDdutVK0NPzY.jpg",
     "release_year": 2015,
     "runtime_minutes": 62,
     "scare_count": 1,
+    "tags": [],
     "title": "Cyberbully",
     "tmdb_id": 317144
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/zFYYFEhKS6JZvNW7gXeKeqnbcS7.jpg",
     "release_year": 2020,
     "runtime_minutes": 100,
     "scare_count": 6,
+    "tags": [],
     "title": "Daniel Isn’t Real",
     "tmdb_id": 537788
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/nc18JXQ4yLkClFFJQUYgFahMBhZ.jpg",
     "release_year": 2019,
     "runtime_minutes": 97,
     "scare_count": 2,
+    "tags": [],
     "title": "Dark Encounter",
     "tmdb_id": 612515
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/fd9Ck4cxVlmtXsbeGtQW7WFuUFI.jpg",
     "release_year": 2012,
     "runtime_minutes": 113,
     "scare_count": 2,
+    "tags": [],
     "title": "Dark Shadows",
     "tmdb_id": 62213
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ws2snR0AndFK1a4dDRokvEyJSo3.jpg",
     "release_year": 2013,
     "runtime_minutes": 97,
     "scare_count": 11,
+    "tags": [],
     "title": "Dark Skies",
     "tmdb_id": 145135
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/xSC7sWXbafOCa24itOHTpKXwOAV.jpg",
     "release_year": 2014,
     "runtime_minutes": 97,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Dark Was The Night",
     "tmdb_id": 300467
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/cm4M9xaBu78IjuAVNG4LCXdXsg.jpg",
     "release_year": 2005,
     "runtime_minutes": 105,
     "scare_count": 7,
+    "tags": [],
     "title": "Dark Water",
     "tmdb_id": 9009
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/wDcyo7b0XniwJlgGESKiqZ7xNFe.jpg",
     "release_year": 1993,
     "runtime_minutes": 94,
     "scare_count": 2,
+    "tags": [],
     "title": "Dark Waters",
     "tmdb_id": 65899
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/qoceKsM15yL5Tmyuhkdl7vM5Vi4.jpg",
     "release_year": 2003,
     "runtime_minutes": 86,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Darkness Falls",
     "tmdb_id": 10727
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ttquyxStEEctzghtA2f4PUGprDr.jpg",
     "release_year": 2004,
     "runtime_minutes": 101,
     "scare_count": 10,
+    "tags": [],
     "title": "Dawn of the Dead",
     "tmdb_id": 924
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/bi7SO5F4VyyGQTlxQirbH1dwKzW.jpg",
     "release_year": 1985,
     "runtime_minutes": 101,
     "scare_count": 10,
+    "tags": [],
     "title": "Day of the Dead",
     "tmdb_id": 8408
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/pa39D8TQs6aNw3hiUs4jLjHVUB0.jpg",
     "release_year": 1992,
     "runtime_minutes": 103,
     "scare_count": 3,
+    "tags": [],
     "title": "Dead Alive (Braindead)",
     "tmdb_id": 763
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/hXpav86ZX5N1YIfVfVtzuZLNrjW.jpg",
     "release_year": 1989,
     "runtime_minutes": 96,
     "scare_count": 2,
+    "tags": [],
     "title": "Dead Calm",
     "tmdb_id": 10493
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/7zEQIztSdusobBMM2TNHcffaldp.jpg",
     "release_year": 2003,
     "runtime_minutes": 83,
     "scare_count": 9,
+    "tags": [],
     "title": "Dead End",
     "tmdb_id": 11427
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/rKqYBB6ysJW4DQqUwM1DaCIxDM5.jpg",
     "release_year": 2017,
     "runtime_minutes": 85,
     "scare_count": 3,
+    "tags": [],
     "title": "Dead Shack",
     "tmdb_id": 449535
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/rvcUVdATIHKZt7BSSttUkKbeBXN.jpg",
     "release_year": 2007,
     "runtime_minutes": 89,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Dead Silence",
     "tmdb_id": 14001
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/sfwVo5cZJtO8VyDWTILDt4f69IT.jpg",
     "release_year": 2009,
     "runtime_minutes": 88,
     "scare_count": 9,
+    "tags": [],
     "title": "Dead Snow",
     "tmdb_id": 14451
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/dC38JMmb17geWFIjIBgNoKRMFnL.jpg",
     "release_year": 2022,
     "runtime_minutes": 88,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Deadstream",
     "tmdb_id": 886083
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/mwoZJx3T1AvKjtbY3wN7mVM4hY9.jpg",
     "release_year": 2022,
     "runtime_minutes": 68,
     "scare_count": 6,
+    "tags": [],
     "title": "Deadware",
     "tmdb_id": 895814
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/kkWxyyyWFK5KNk9WVwQuGEC9H9H.jpg",
     "release_year": 1992,
     "runtime_minutes": 104,
     "scare_count": 0,
+    "tags": [],
     "title": "Death Becomes Her",
     "tmdb_id": 9374
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/8xRQ0KG9ZZzjEiFa5fgEaTKhc0d.jpg",
     "release_year": 2017,
     "runtime_minutes": 101,
     "scare_count": 6,
+    "tags": [],
     "title": "Death Note",
     "tmdb_id": 351460
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/bkYx4fEDF3VLCTvtoYQDHjvuWC7.jpg",
     "release_year": 2019,
     "runtime_minutes": 88,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Death of a Vlogger",
     "tmdb_id": 614196
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/e4dF2KRSZ0l7PaZg3XvSsCMAeNZ.jpg",
     "release_year": 2015,
     "runtime_minutes": 86,
     "scare_count": 7,
+    "tags": [],
     "title": "Deathgasm",
     "tmdb_id": 323373
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/fyn0zyCI4kIlbDoHH0Hzv09hDC5.jpg",
     "release_year": 1999,
     "runtime_minutes": 105,
     "scare_count": 10,
+    "tags": [],
     "title": "Deep Blue Sea",
     "tmdb_id": 8914
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/xARvOyj3hDgz4GmvdZv39ncFrF3.jpg",
     "release_year": 2015,
     "runtime_minutes": 79,
     "scare_count": 2,
+    "tags": [],
     "title": "Deep Dark",
     "tmdb_id": 341051
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/wq7RxV5gMvgO0EKeWpNhegnpJBh.jpg",
     "release_year": 1975,
     "runtime_minutes": 127,
     "scare_count": 7,
+    "tags": [],
     "title": "Deep Red",
     "tmdb_id": 20126
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/Uz32ERsyCmGwV8Eg2wmT2ooWpo.jpg",
     "release_year": 2014,
     "runtime_minutes": 118,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Deliver Us From Evil",
     "tmdb_id": 184346
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/AeX9PdHovzB2gNdywvl8r7nrOzr.jpg",
     "release_year": 2019,
     "runtime_minutes": 80,
     "scare_count": 1,
+    "tags": [],
     "title": "Dementer",
     "tmdb_id": 637084
   },
@@ -1760,6 +2035,7 @@
     "release_year": 2015,
     "runtime_minutes": 75,
     "scare_count": 0,
+    "tags": [],
     "title": "Dementia",
     "tmdb_id": 28503
   },
@@ -1769,6 +2045,9 @@
     "release_year": 2015,
     "runtime_minutes": 84,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Demonic",
     "tmdb_id": 234212
   },
@@ -1778,6 +2057,7 @@
     "release_year": 2019,
     "runtime_minutes": 114,
     "scare_count": 6,
+    "tags": [],
     "title": "Depraved",
     "tmdb_id": 501977
   },
@@ -1787,6 +2067,7 @@
     "release_year": 2010,
     "runtime_minutes": 80,
     "scare_count": 4,
+    "tags": [],
     "title": "Devil",
     "tmdb_id": 44040
   },
@@ -1796,6 +2077,7 @@
     "release_year": 2017,
     "runtime_minutes": 82,
     "scare_count": 2,
+    "tags": [],
     "title": "Devil in the Dark",
     "tmdb_id": 438734
   },
@@ -1805,6 +2087,9 @@
     "release_year": 2014,
     "runtime_minutes": 89,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Devil’s Due",
     "tmdb_id": 79316
   },
@@ -1814,6 +2099,7 @@
     "release_year": 2013,
     "runtime_minutes": 100,
     "scare_count": 10,
+    "tags": [],
     "title": "Devil’s Pass",
     "tmdb_id": 169219
   },
@@ -1823,6 +2109,7 @@
     "release_year": 2014,
     "runtime_minutes": 88,
     "scare_count": 5,
+    "tags": [],
     "title": "Digging Up the Marrow",
     "tmdb_id": 279972
   },
@@ -1832,6 +2119,7 @@
     "release_year": 2017,
     "runtime_minutes": 87,
     "scare_count": 0,
+    "tags": [],
     "title": "Dismissed",
     "tmdb_id": 398588
   },
@@ -1841,6 +2129,9 @@
     "release_year": 2007,
     "runtime_minutes": 105,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Disturbia",
     "tmdb_id": 8271
   },
@@ -1850,6 +2141,7 @@
     "release_year": 2019,
     "runtime_minutes": 152,
     "scare_count": 8,
+    "tags": [],
     "title": "Doctor Sleep",
     "tmdb_id": 501170
   },
@@ -1859,6 +2151,9 @@
     "release_year": 2022,
     "runtime_minutes": 126,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Doctor Strange in the Multiverse of Madness",
     "tmdb_id": 453395
   },
@@ -1868,6 +2163,9 @@
     "release_year": 2002,
     "runtime_minutes": 105,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Dog Soldiers",
     "tmdb_id": 11880
   },
@@ -1877,6 +2175,7 @@
     "release_year": 2001,
     "runtime_minutes": 114,
     "scare_count": 4,
+    "tags": [],
     "title": "Donnie Darko",
     "tmdb_id": 141
   },
@@ -1886,6 +2185,7 @@
     "release_year": 2010,
     "runtime_minutes": 99,
     "scare_count": 8,
+    "tags": [],
     "title": "Don’t Be Afraid of the Dark",
     "tmdb_id": 46261
   },
@@ -1895,6 +2195,9 @@
     "release_year": 2016,
     "runtime_minutes": 89,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Don’t Breathe",
     "tmdb_id": 300669
   },
@@ -1904,6 +2207,7 @@
     "release_year": 2021,
     "runtime_minutes": 98,
     "scare_count": 7,
+    "tags": [],
     "title": "Don’t Breathe 2",
     "tmdb_id": 482373
   },
@@ -1913,6 +2217,7 @@
     "release_year": 2016,
     "runtime_minutes": 83,
     "scare_count": 4,
+    "tags": [],
     "title": "Don’t Hang Up",
     "tmdb_id": 375355
   },
@@ -1922,6 +2227,9 @@
     "release_year": 2016,
     "runtime_minutes": 93,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Don’t Knock Twice",
     "tmdb_id": 420245
   },
@@ -1931,6 +2239,9 @@
     "release_year": 2020,
     "runtime_minutes": 98,
     "scare_count": 27,
+    "tags": [
+      "HOT"
+    ],
     "title": "Don’t Listen  (Voces)",
     "tmdb_id": 726208
   },
@@ -1940,6 +2251,7 @@
     "release_year": 1973,
     "runtime_minutes": 110,
     "scare_count": 1,
+    "tags": [],
     "title": "Don’t Look Now",
     "tmdb_id": 931
   },
@@ -1949,6 +2261,7 @@
     "release_year": 2022,
     "runtime_minutes": 123,
     "scare_count": 11,
+    "tags": [],
     "title": "Don’t Worry Darling",
     "tmdb_id": 619730
   },
@@ -1958,6 +2271,9 @@
     "release_year": 2005,
     "runtime_minutes": 105,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Doom",
     "tmdb_id": 8814
   },
@@ -1967,6 +2283,7 @@
     "release_year": 2014,
     "runtime_minutes": 92,
     "scare_count": 4,
+    "tags": [],
     "title": "Dracula Untold",
     "tmdb_id": 49017
   },
@@ -1976,6 +2293,9 @@
     "release_year": 2009,
     "runtime_minutes": 99,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "Drag Me To Hell",
     "tmdb_id": 16871
   },
@@ -1985,6 +2305,7 @@
     "release_year": 2011,
     "runtime_minutes": 84,
     "scare_count": 3,
+    "tags": [],
     "title": "Dream House",
     "tmdb_id": 69668
   },
@@ -1994,6 +2315,9 @@
     "release_year": 2003,
     "runtime_minutes": 134,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Dreamcatcher",
     "tmdb_id": 6171
   },
@@ -2003,6 +2327,7 @@
     "release_year": 2020,
     "runtime_minutes": 85,
     "scare_count": 4,
+    "tags": [],
     "title": "Dreamkatcher",
     "tmdb_id": 639247
   },
@@ -2012,6 +2337,7 @@
     "release_year": 1980,
     "runtime_minutes": 105,
     "scare_count": 5,
+    "tags": [],
     "title": "Dressed to Kill",
     "tmdb_id": 11033
   },
@@ -2021,6 +2347,7 @@
     "release_year": 2008,
     "runtime_minutes": 91,
     "scare_count": 3,
+    "tags": [],
     "title": "Eden Lake",
     "tmdb_id": 13510
   },
@@ -2030,6 +2357,7 @@
     "release_year": 1990,
     "runtime_minutes": 105,
     "scare_count": 0,
+    "tags": [],
     "title": "Edward Scissorhands",
     "tmdb_id": 162
   },
@@ -2039,6 +2367,9 @@
     "release_year": 2019,
     "runtime_minutes": 98,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Eli",
     "tmdb_id": 483202
   },
@@ -2048,6 +2379,7 @@
     "release_year": 2016,
     "runtime_minutes": 131,
     "scare_count": 7,
+    "tags": [],
     "title": "Elle",
     "tmdb_id": 337674
   },
@@ -2057,6 +2389,7 @@
     "release_year": 2015,
     "runtime_minutes": 82,
     "scare_count": 3,
+    "tags": [],
     "title": "Emelie",
     "tmdb_id": 329010
   },
@@ -2066,6 +2399,7 @@
     "release_year": 2009,
     "runtime_minutes": 161,
     "scare_count": 3,
+    "tags": [],
     "title": "Enter the Void",
     "tmdb_id": 34647
   },
@@ -2075,6 +2409,7 @@
     "release_year": 1977,
     "runtime_minutes": 89,
     "scare_count": 2,
+    "tags": [],
     "title": "Eraserhead",
     "tmdb_id": 985
   },
@@ -2084,6 +2419,7 @@
     "release_year": 2017,
     "runtime_minutes": 98,
     "scare_count": 1,
+    "tags": [],
     "title": "Errementari: The Blacksmith and the Devil",
     "tmdb_id": 477033
   },
@@ -2093,6 +2429,7 @@
     "release_year": 2013,
     "runtime_minutes": 90,
     "scare_count": 3,
+    "tags": [],
     "title": "Escape from Tomorrow",
     "tmdb_id": 158752
   },
@@ -2102,6 +2439,7 @@
     "release_year": 2019,
     "runtime_minutes": 99,
     "scare_count": 4,
+    "tags": [],
     "title": "Escape Room",
     "tmdb_id": 522681
   },
@@ -2111,6 +2449,7 @@
     "release_year": 2021,
     "runtime_minutes": 88,
     "scare_count": 3,
+    "tags": [],
     "title": "Escape Room: Tournament of Champions",
     "tmdb_id": 585216
   },
@@ -2120,6 +2459,7 @@
     "release_year": 2013,
     "runtime_minutes": 90,
     "scare_count": 1,
+    "tags": [],
     "title": "Europa Report",
     "tmdb_id": 174772
   },
@@ -2129,6 +2469,7 @@
     "release_year": 1997,
     "runtime_minutes": 96,
     "scare_count": 11,
+    "tags": [],
     "title": "Event Horizon",
     "tmdb_id": 8413
   },
@@ -2138,6 +2479,9 @@
     "release_year": 2013,
     "runtime_minutes": 91,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Evil Dead",
     "tmdb_id": 109428
   },
@@ -2147,6 +2491,9 @@
     "release_year": 1987,
     "runtime_minutes": 84,
     "scare_count": 27,
+    "tags": [
+      "HOT"
+    ],
     "title": "Evil Dead 2",
     "tmdb_id": 765
   },
@@ -2156,6 +2503,9 @@
     "release_year": 2004,
     "runtime_minutes": 114,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Exorcist: The Beginning",
     "tmdb_id": 11026
   },
@@ -2165,6 +2515,9 @@
     "release_year": 2015,
     "runtime_minutes": 110,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Extinction",
     "tmdb_id": 338676
   },
@@ -2174,6 +2527,9 @@
     "release_year": 2014,
     "runtime_minutes": 101,
     "scare_count": 30,
+    "tags": [
+      "HOT"
+    ],
     "title": "Extraterrestrial",
     "tmdb_id": 265016
   },
@@ -2183,6 +2539,7 @@
     "release_year": 2018,
     "runtime_minutes": 103,
     "scare_count": 5,
+    "tags": [],
     "title": "Extremity",
     "tmdb_id": 521509
   },
@@ -2192,6 +2549,7 @@
     "release_year": 1960,
     "runtime_minutes": 84,
     "scare_count": 1,
+    "tags": [],
     "title": "Eyes Without a Face",
     "tmdb_id": 31417
   },
@@ -2201,6 +2559,7 @@
     "release_year": 2021,
     "runtime_minutes": 93,
     "scare_count": 2,
+    "tags": [],
     "title": "False Positive",
     "tmdb_id": 591634
   },
@@ -2210,6 +2569,9 @@
     "release_year": 2020,
     "runtime_minutes": 109,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Fantasy Island",
     "tmdb_id": 539537
   },
@@ -2219,6 +2581,7 @@
     "release_year": 1987,
     "runtime_minutes": 119,
     "scare_count": 7,
+    "tags": [],
     "title": "Fatal Attraction",
     "tmdb_id": 10998
   },
@@ -2228,6 +2591,9 @@
     "release_year": 2014,
     "runtime_minutes": 95,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Fear Clinic",
     "tmdb_id": 287524
   },
@@ -2237,6 +2603,7 @@
     "release_year": 2021,
     "runtime_minutes": 109,
     "scare_count": 1,
+    "tags": [],
     "title": "Fear of Rain",
     "tmdb_id": 599281
   },
@@ -2246,6 +2613,9 @@
     "release_year": 2021,
     "runtime_minutes": 108,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Fear Street Part One: 1994",
     "tmdb_id": 591273
   },
@@ -2255,6 +2625,7 @@
     "release_year": 2021,
     "runtime_minutes": 115,
     "scare_count": 5,
+    "tags": [],
     "title": "Fear Street Part Three: 1666",
     "tmdb_id": 591275
   },
@@ -2264,6 +2635,9 @@
     "release_year": 2021,
     "runtime_minutes": 111,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Fear Street Part Two: 1978",
     "tmdb_id": 591274
   },
@@ -2273,6 +2647,7 @@
     "release_year": 2002,
     "runtime_minutes": 101,
     "scare_count": 5,
+    "tags": [],
     "title": "FearDotCom",
     "tmdb_id": 9544
   },
@@ -2282,6 +2657,7 @@
     "release_year": 2000,
     "runtime_minutes": 98,
     "scare_count": 4,
+    "tags": [],
     "title": "Final Destination",
     "tmdb_id": 9532
   },
@@ -2291,6 +2667,7 @@
     "release_year": 2003,
     "runtime_minutes": 90,
     "scare_count": 3,
+    "tags": [],
     "title": "Final Destination 2",
     "tmdb_id": 9358
   },
@@ -2300,6 +2677,7 @@
     "release_year": 2006,
     "runtime_minutes": 92,
     "scare_count": 5,
+    "tags": [],
     "title": "Final Destination 3",
     "tmdb_id": 9286
   },
@@ -2309,6 +2687,7 @@
     "release_year": 2011,
     "runtime_minutes": 91,
     "scare_count": 5,
+    "tags": [],
     "title": "Final Destination 5",
     "tmdb_id": 55779
   },
@@ -2318,6 +2697,7 @@
     "release_year": 1990,
     "runtime_minutes": 115,
     "scare_count": 7,
+    "tags": [],
     "title": "Flatliners",
     "tmdb_id": 1551
   },
@@ -2327,6 +2707,9 @@
     "release_year": 2017,
     "runtime_minutes": 111,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Flatliners",
     "tmdb_id": 400710
   },
@@ -2336,6 +2719,7 @@
     "release_year": 2006,
     "runtime_minutes": 87,
     "scare_count": 5,
+    "tags": [],
     "title": "Forbidden Siren",
     "tmdb_id": 28795
   },
@@ -2345,6 +2729,7 @@
     "release_year": 2017,
     "runtime_minutes": 108,
     "scare_count": 3,
+    "tags": [],
     "title": "Forgotten (Gi-eok-ui bam)",
     "tmdb_id": 488623
   },
@@ -2354,6 +2739,7 @@
     "release_year": 2017,
     "runtime_minutes": 87,
     "scare_count": 1,
+    "tags": [],
     "title": "Four Hands",
     "tmdb_id": 459937
   },
@@ -2363,6 +2749,7 @@
     "release_year": 2001,
     "runtime_minutes": 100,
     "scare_count": 0,
+    "tags": [],
     "title": "Frailty",
     "tmdb_id": 12149
   },
@@ -2372,6 +2759,7 @@
     "release_year": 2013,
     "runtime_minutes": 84,
     "scare_count": 5,
+    "tags": [],
     "title": "Frankenstein’s Army",
     "tmdb_id": 153738
   },
@@ -2381,6 +2769,7 @@
     "release_year": 2020,
     "runtime_minutes": 102,
     "scare_count": 9,
+    "tags": [],
     "title": "Freaky",
     "tmdb_id": 551804
   },
@@ -2390,6 +2779,9 @@
     "release_year": 2003,
     "runtime_minutes": 97,
     "scare_count": 24,
+    "tags": [
+      "HOT"
+    ],
     "title": "Freddy vs. Jason",
     "tmdb_id": 6466
   },
@@ -2399,15 +2791,19 @@
     "release_year": 1991,
     "runtime_minutes": 89,
     "scare_count": 5,
+    "tags": [],
     "title": "Freddy’s Dead: The Final Nightmare",
     "tmdb_id": 11284
   },
   {
     "has_subtitles": false,
     "poster_path": "/uGGpnWHOmWTARVN9wbC1nPxNgps.jpg",
-    "release_year": 1980,
+    "release_year": 2009,
     "runtime_minutes": 95,
-    "scare_count": 10,
+    "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "Friday the 13th",
     "tmdb_id": 4488
   },
@@ -2417,6 +2813,9 @@
     "release_year": 1981,
     "runtime_minutes": 86,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Friday the 13th Part 2",
     "tmdb_id": 9725
   },
@@ -2426,6 +2825,7 @@
     "release_year": 1982,
     "runtime_minutes": 95,
     "scare_count": 7,
+    "tags": [],
     "title": "Friday the 13th Part III",
     "tmdb_id": 9728
   },
@@ -2435,6 +2835,7 @@
     "release_year": 1984,
     "runtime_minutes": 91,
     "scare_count": 7,
+    "tags": [],
     "title": "Friday the 13th Part IV: The Final Chapter",
     "tmdb_id": 9730
   },
@@ -2444,6 +2845,7 @@
     "release_year": 1985,
     "runtime_minutes": 92,
     "scare_count": 7,
+    "tags": [],
     "title": "Friday the 13th Part V: A New Beginning",
     "tmdb_id": 9731
   },
@@ -2453,6 +2855,7 @@
     "release_year": 1988,
     "runtime_minutes": 88,
     "scare_count": 4,
+    "tags": [],
     "title": "Friday the 13th Part VII: The New Blood",
     "tmdb_id": 10281
   },
@@ -2462,6 +2865,7 @@
     "release_year": 1989,
     "runtime_minutes": 100,
     "scare_count": 4,
+    "tags": [],
     "title": "Friday the 13th Part VIII: Jason Takes Manhattan",
     "tmdb_id": 10283
   },
@@ -2471,6 +2875,9 @@
     "release_year": 2016,
     "runtime_minutes": 92,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Friend Request",
     "tmdb_id": 368031
   },
@@ -2480,6 +2887,7 @@
     "release_year": 1985,
     "runtime_minutes": 107,
     "scare_count": 3,
+    "tags": [],
     "title": "Fright Night",
     "tmdb_id": 11797
   },
@@ -2489,6 +2897,7 @@
     "release_year": 2011,
     "runtime_minutes": 106,
     "scare_count": 10,
+    "tags": [],
     "title": "Fright Night",
     "tmdb_id": 58151
   },
@@ -2498,6 +2907,7 @@
     "release_year": 1983,
     "runtime_minutes": 85,
     "scare_count": 0,
+    "tags": [],
     "title": "From Beyond",
     "tmdb_id": 14510
   },
@@ -2507,6 +2917,7 @@
     "release_year": 2010,
     "runtime_minutes": 94,
     "scare_count": 1,
+    "tags": [],
     "title": "Frozen",
     "tmdb_id": 44363
   },
@@ -2516,6 +2927,7 @@
     "release_year": 2007,
     "runtime_minutes": 111,
     "scare_count": 1,
+    "tags": [],
     "title": "Funny Games",
     "tmdb_id": 8461
   },
@@ -2525,6 +2937,7 @@
     "release_year": 1997,
     "runtime_minutes": 109,
     "scare_count": 1,
+    "tags": [],
     "title": "Funny Games",
     "tmdb_id": 10234
   },
@@ -2534,6 +2947,7 @@
     "release_year": 2010,
     "runtime_minutes": 130,
     "scare_count": 11,
+    "tags": [],
     "title": "Gantz",
     "tmdb_id": 56832
   },
@@ -2543,6 +2957,7 @@
     "release_year": 2011,
     "runtime_minutes": 141,
     "scare_count": 0,
+    "tags": [],
     "title": "Gantz: Perfect Answer",
     "tmdb_id": 74135
   },
@@ -2552,6 +2967,9 @@
     "release_year": 2016,
     "runtime_minutes": 107,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Gehenna: Where Death Lives",
     "tmdb_id": 403283
   },
@@ -2561,6 +2979,7 @@
     "release_year": 2017,
     "runtime_minutes": 104,
     "scare_count": 4,
+    "tags": [],
     "title": "Gerald’s Game",
     "tmdb_id": 343674
   },
@@ -2570,6 +2989,7 @@
     "release_year": 2017,
     "runtime_minutes": 104,
     "scare_count": 10,
+    "tags": [],
     "title": "Get Out",
     "tmdb_id": 419430
   },
@@ -2579,6 +2999,9 @@
     "release_year": 2021,
     "runtime_minutes": 117,
     "scare_count": 24,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ghost Lab",
     "tmdb_id": 710871
   },
@@ -2588,6 +3011,9 @@
     "release_year": 2002,
     "runtime_minutes": 91,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ghost Ship",
     "tmdb_id": 9645
   },
@@ -2597,6 +3023,9 @@
     "release_year": 2017,
     "runtime_minutes": 98,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ghost Stories",
     "tmdb_id": 429417
   },
@@ -2606,6 +3035,9 @@
     "release_year": 2018,
     "runtime_minutes": 91,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ghostland",
     "tmdb_id": 476299
   },
@@ -2615,6 +3047,7 @@
     "release_year": 2020,
     "runtime_minutes": 94,
     "scare_count": 10,
+    "tags": [],
     "title": "Ghosts of War",
     "tmdb_id": 608195
   },
@@ -2624,6 +3057,7 @@
     "release_year": 1992,
     "runtime_minutes": 91,
     "scare_count": 6,
+    "tags": [],
     "title": "Ghostwatch",
     "tmdb_id": 46633
   },
@@ -2633,6 +3067,7 @@
     "release_year": 2019,
     "runtime_minutes": 93,
     "scare_count": 5,
+    "tags": [],
     "title": "Girl on the Third Floor",
     "tmdb_id": 580630
   },
@@ -2642,6 +3077,7 @@
     "release_year": 2014,
     "runtime_minutes": 140,
     "scare_count": 9,
+    "tags": [],
     "title": "Goal of the Dead",
     "tmdb_id": 273467
   },
@@ -2651,6 +3087,7 @@
     "release_year": 2021,
     "runtime_minutes": 114,
     "scare_count": 0,
+    "tags": [],
     "title": "Godzilla vs Kong",
     "tmdb_id": 399566
   },
@@ -2660,6 +3097,7 @@
     "release_year": 2014,
     "runtime_minutes": 100,
     "scare_count": 1,
+    "tags": [],
     "title": "Goodnight Mommy",
     "tmdb_id": 284303
   },
@@ -2669,6 +3107,7 @@
     "release_year": 2015,
     "runtime_minutes": 103,
     "scare_count": 10,
+    "tags": [],
     "title": "Goosebumps",
     "tmdb_id": 257445
   },
@@ -2678,6 +3117,9 @@
     "release_year": 2003,
     "runtime_minutes": 98,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Gothika",
     "tmdb_id": 4970
   },
@@ -2687,6 +3129,7 @@
     "release_year": 2012,
     "runtime_minutes": 94,
     "scare_count": 1,
+    "tags": [],
     "title": "Grabbers",
     "tmdb_id": 84204
   },
@@ -2696,6 +3139,9 @@
     "release_year": 2011,
     "runtime_minutes": 93,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Grave Encounters",
     "tmdb_id": 50698
   },
@@ -2705,6 +3151,9 @@
     "release_year": 2012,
     "runtime_minutes": 95,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Grave Encounters 2",
     "tmdb_id": 134366
   },
@@ -2714,6 +3163,7 @@
     "release_year": 2021,
     "runtime_minutes": 91,
     "scare_count": 11,
+    "tags": [],
     "title": "Great White",
     "tmdb_id": 534072
   },
@@ -2723,6 +3173,7 @@
     "release_year": 2015,
     "runtime_minutes": 95,
     "scare_count": 1,
+    "tags": [],
     "title": "Green Room",
     "tmdb_id": 313922
   },
@@ -2732,6 +3183,9 @@
     "release_year": 1984,
     "runtime_minutes": 106,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Gremlins",
     "tmdb_id": 927
   },
@@ -2741,6 +3195,7 @@
     "release_year": 2020,
     "runtime_minutes": 87,
     "scare_count": 5,
+    "tags": [],
     "title": "Gretel & Hansel",
     "tmdb_id": 542224
   },
@@ -2750,15 +3205,19 @@
     "release_year": 2020,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "Guns Akimbo",
     "tmdb_id": 457335
   },
   {
     "has_subtitles": false,
     "poster_path": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
-    "release_year": 2018,
+    "release_year": 1978,
     "runtime_minutes": 91,
-    "scare_count": 14,
+    "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Halloween",
     "tmdb_id": 948
   },
@@ -2768,6 +3227,7 @@
     "release_year": 2007,
     "runtime_minutes": 110,
     "scare_count": 9,
+    "tags": [],
     "title": "Halloween",
     "tmdb_id": 2082
   },
@@ -2777,6 +3237,7 @@
     "release_year": 1988,
     "runtime_minutes": 88,
     "scare_count": 6,
+    "tags": [],
     "title": "Halloween 4: The Return of Michael Myers",
     "tmdb_id": 11357
   },
@@ -2786,6 +3247,9 @@
     "release_year": 1989,
     "runtime_minutes": 98,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Halloween 5: The Revenge of Michael Myers",
     "tmdb_id": 11361
   },
@@ -2795,6 +3259,7 @@
     "release_year": 2019,
     "runtime_minutes": 80,
     "scare_count": 5,
+    "tags": [],
     "title": "Halloween at Aunt Ethel’s",
     "tmdb_id": 558294
   },
@@ -2804,6 +3269,9 @@
     "release_year": 2022,
     "runtime_minutes": 111,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Halloween Ends",
     "tmdb_id": 616820
   },
@@ -2813,6 +3281,9 @@
     "release_year": 1998,
     "runtime_minutes": 86,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Halloween H20: 20 Years Later",
     "tmdb_id": 11675
   },
@@ -2822,6 +3293,9 @@
     "release_year": 2009,
     "runtime_minutes": 105,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Halloween II",
     "tmdb_id": 24150
   },
@@ -2831,6 +3305,7 @@
     "release_year": 1981,
     "runtime_minutes": 92,
     "scare_count": 8,
+    "tags": [],
     "title": "Halloween II",
     "tmdb_id": 11281
   },
@@ -2840,6 +3315,9 @@
     "release_year": 2021,
     "runtime_minutes": 105,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "Halloween Kills",
     "tmdb_id": 610253
   },
@@ -2849,6 +3327,7 @@
     "release_year": 2001,
     "runtime_minutes": 131,
     "scare_count": 2,
+    "tags": [],
     "title": "Hannibal",
     "tmdb_id": 9740
   },
@@ -2858,6 +3337,7 @@
     "release_year": 2007,
     "runtime_minutes": 121,
     "scare_count": 0,
+    "tags": [],
     "title": "Hannibal Rising",
     "tmdb_id": 1248
   },
@@ -2867,6 +3347,7 @@
     "release_year": 2017,
     "runtime_minutes": 97,
     "scare_count": 8,
+    "tags": [],
     "title": "Happy Death Day",
     "tmdb_id": 440021
   },
@@ -2876,6 +3357,7 @@
     "release_year": 2019,
     "runtime_minutes": 100,
     "scare_count": 7,
+    "tags": [],
     "title": "Happy Death Day 2U",
     "tmdb_id": 512196
   },
@@ -2885,6 +3367,7 @@
     "release_year": 2005,
     "runtime_minutes": 104,
     "scare_count": 1,
+    "tags": [],
     "title": "Hard Candy",
     "tmdb_id": 2652
   },
@@ -2894,6 +3377,7 @@
     "release_year": 2022,
     "runtime_minutes": 40,
     "scare_count": 0,
+    "tags": [],
     "title": "Harvested 2 – The Legend of Harold Rice",
     "tmdb_id": 998134
   },
@@ -2903,6 +3387,9 @@
     "release_year": 2019,
     "runtime_minutes": 93,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Haunt",
     "tmdb_id": 517116
   },
@@ -2912,6 +3399,7 @@
     "release_year": 2005,
     "runtime_minutes": 49,
     "scare_count": 1,
+    "tags": [],
     "title": "Haze",
     "tmdb_id": 26040
   },
@@ -2921,6 +3409,7 @@
     "release_year": 2018,
     "runtime_minutes": 90,
     "scare_count": 6,
+    "tags": [],
     "title": "Head Count",
     "tmdb_id": 549935
   },
@@ -2930,6 +3419,7 @@
     "release_year": 2006,
     "runtime_minutes": 84,
     "scare_count": 6,
+    "tags": [],
     "title": "Head Trauma",
     "tmdb_id": 50317
   },
@@ -2939,6 +3429,9 @@
     "release_year": 2018,
     "runtime_minutes": 89,
     "scare_count": 28,
+    "tags": [
+      "HOT"
+    ],
     "title": "Hell Fest",
     "tmdb_id": 429476
   },
@@ -2948,6 +3441,7 @@
     "release_year": 2015,
     "runtime_minutes": 91,
     "scare_count": 6,
+    "tags": [],
     "title": "Hell House LLC",
     "tmdb_id": 359246
   },
@@ -2957,6 +3451,7 @@
     "release_year": 2018,
     "runtime_minutes": 89,
     "scare_count": 10,
+    "tags": [],
     "title": "Hell House LLC II: The Abaddon Hotel",
     "tmdb_id": 532973
   },
@@ -2966,6 +3461,7 @@
     "release_year": 2019,
     "runtime_minutes": 86,
     "scare_count": 5,
+    "tags": [],
     "title": "Hell House LLC III: Lake of Fire",
     "tmdb_id": 614722
   },
@@ -2975,6 +3471,7 @@
     "release_year": 2004,
     "runtime_minutes": 122,
     "scare_count": 6,
+    "tags": [],
     "title": "Hellboy",
     "tmdb_id": 1487
   },
@@ -2984,6 +3481,7 @@
     "release_year": 1987,
     "runtime_minutes": 97,
     "scare_count": 5,
+    "tags": [],
     "title": "Hello Mary Lou: Prom Night II",
     "tmdb_id": 39929
   },
@@ -2993,6 +3491,7 @@
     "release_year": 1987,
     "runtime_minutes": 93,
     "scare_count": 5,
+    "tags": [],
     "title": "Hellraiser",
     "tmdb_id": 9003
   },
@@ -3002,6 +3501,7 @@
     "release_year": 2016,
     "runtime_minutes": 97,
     "scare_count": 2,
+    "tags": [],
     "title": "Here Alone",
     "tmdb_id": 390582
   },
@@ -3011,6 +3511,7 @@
     "release_year": 2019,
     "runtime_minutes": 80,
     "scare_count": 2,
+    "tags": [],
     "title": "Here Comes Hell",
     "tmdb_id": 574030
   },
@@ -3020,6 +3521,7 @@
     "release_year": 2018,
     "runtime_minutes": 128,
     "scare_count": 8,
+    "tags": [],
     "title": "Hereditary",
     "tmdb_id": 493922
   },
@@ -3029,6 +3531,7 @@
     "release_year": 2015,
     "runtime_minutes": 83,
     "scare_count": 6,
+    "tags": [],
     "title": "Hidden",
     "tmdb_id": 360784
   },
@@ -3038,6 +3541,9 @@
     "release_year": 2005,
     "runtime_minutes": 101,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Hide and Seek",
     "tmdb_id": 11096
   },
@@ -3047,6 +3553,7 @@
     "release_year": 2003,
     "runtime_minutes": 91,
     "scare_count": 8,
+    "tags": [],
     "title": "High Tension",
     "tmdb_id": 10226
   },
@@ -3056,6 +3563,7 @@
     "release_year": 2020,
     "runtime_minutes": 93,
     "scare_count": 8,
+    "tags": [],
     "title": "His House",
     "tmdb_id": 575774
   },
@@ -3065,6 +3573,7 @@
     "release_year": 2016,
     "runtime_minutes": 104,
     "scare_count": 0,
+    "tags": [],
     "title": "Holidays",
     "tmdb_id": 323262
   },
@@ -3074,6 +3583,7 @@
     "release_year": 2000,
     "runtime_minutes": 112,
     "scare_count": 9,
+    "tags": [],
     "title": "Hollow Man",
     "tmdb_id": 9383
   },
@@ -3083,6 +3593,7 @@
     "release_year": 2020,
     "runtime_minutes": 106,
     "scare_count": 2,
+    "tags": [],
     "title": "Honeydew",
     "tmdb_id": 675575
   },
@@ -3092,6 +3603,7 @@
     "release_year": 2014,
     "runtime_minutes": 88,
     "scare_count": 3,
+    "tags": [],
     "title": "Honeymoon",
     "tmdb_id": 254191
   },
@@ -3101,6 +3613,7 @@
     "release_year": 2013,
     "runtime_minutes": 120,
     "scare_count": 3,
+    "tags": [],
     "title": "Horns",
     "tmdb_id": 149509
   },
@@ -3110,6 +3623,7 @@
     "release_year": 2020,
     "runtime_minutes": 103,
     "scare_count": 1,
+    "tags": [],
     "title": "Horse Girl",
     "tmdb_id": 653601
   },
@@ -3119,6 +3633,9 @@
     "release_year": 2020,
     "runtime_minutes": 57,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "Host",
     "tmdb_id": 723072
   },
@@ -3128,6 +3645,9 @@
     "release_year": 2005,
     "runtime_minutes": 94,
     "scare_count": 2,
+    "tags": [
+      "HOT"
+    ],
     "title": "Hostel",
     "tmdb_id": 1690
   },
@@ -3137,6 +3657,7 @@
     "release_year": 2007,
     "runtime_minutes": 93,
     "scare_count": 5,
+    "tags": [],
     "title": "Hostel: Part II",
     "tmdb_id": 1691
   },
@@ -3146,6 +3667,7 @@
     "release_year": 2011,
     "runtime_minutes": 88,
     "scare_count": 0,
+    "tags": [],
     "title": "Hostel: Part III",
     "tmdb_id": 71670
   },
@@ -3155,6 +3677,7 @@
     "release_year": 2020,
     "runtime_minutes": 89,
     "scare_count": 4,
+    "tags": [],
     "title": "Hosts",
     "tmdb_id": 738370
   },
@@ -3164,6 +3687,7 @@
     "release_year": 2007,
     "runtime_minutes": 121,
     "scare_count": 1,
+    "tags": [],
     "title": "Hot Fuzz",
     "tmdb_id": 4638
   },
@@ -3173,6 +3697,7 @@
     "release_year": 2013,
     "runtime_minutes": 77,
     "scare_count": 3,
+    "tags": [],
     "title": "Hotel Inferno",
     "tmdb_id": 256742
   },
@@ -3182,6 +3707,7 @@
     "release_year": 2017,
     "runtime_minutes": 70,
     "scare_count": 5,
+    "tags": [],
     "title": "Hotel Inferno 2: The Cathedral of Pain",
     "tmdb_id": 484415
   },
@@ -3191,6 +3717,7 @@
     "release_year": 2021,
     "runtime_minutes": 68,
     "scare_count": 8,
+    "tags": [],
     "title": "Hotel Inferno 3: The Castle of Screams",
     "tmdb_id": 588440
   },
@@ -3200,6 +3727,7 @@
     "release_year": 2016,
     "runtime_minutes": 108,
     "scare_count": 0,
+    "tags": [],
     "title": "Hounds of Love",
     "tmdb_id": 408439
   },
@@ -3209,6 +3737,7 @@
     "release_year": 1968,
     "runtime_minutes": 88,
     "scare_count": 1,
+    "tags": [],
     "title": "Hour of the Wolf",
     "tmdb_id": 18333
   },
@@ -3218,6 +3747,7 @@
     "release_year": 1977,
     "runtime_minutes": 88,
     "scare_count": 0,
+    "tags": [],
     "title": "House",
     "tmdb_id": 25623
   },
@@ -3227,6 +3757,7 @@
     "release_year": 1986,
     "runtime_minutes": 92,
     "scare_count": 11,
+    "tags": [],
     "title": "House",
     "tmdb_id": 11415
   },
@@ -3236,6 +3767,7 @@
     "release_year": 2003,
     "runtime_minutes": 89,
     "scare_count": 6,
+    "tags": [],
     "title": "House of 1000 Corpses",
     "tmdb_id": 2662
   },
@@ -3245,6 +3777,9 @@
     "release_year": 2005,
     "runtime_minutes": 113,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "House of Wax",
     "tmdb_id": 10066
   },
@@ -3254,6 +3789,7 @@
     "release_year": 1953,
     "runtime_minutes": 88,
     "scare_count": 4,
+    "tags": [],
     "title": "House Of Wax",
     "tmdb_id": 18573
   },
@@ -3263,6 +3799,9 @@
     "release_year": 1999,
     "runtime_minutes": 93,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "House on Haunted Hill",
     "tmdb_id": 11377
   },
@@ -3272,6 +3811,9 @@
     "release_year": 2014,
     "runtime_minutes": 111,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Housebound",
     "tmdb_id": 253306
   },
@@ -3281,6 +3823,7 @@
     "release_year": 2017,
     "runtime_minutes": 82,
     "scare_count": 5,
+    "tags": [],
     "title": "Housewife",
     "tmdb_id": 449550
   },
@@ -3290,6 +3833,7 @@
     "release_year": 2016,
     "runtime_minutes": 82,
     "scare_count": 7,
+    "tags": [],
     "title": "Hush",
     "tmdb_id": 376570
   },
@@ -3299,6 +3843,7 @@
     "release_year": 2007,
     "runtime_minutes": 101,
     "scare_count": 9,
+    "tags": [],
     "title": "I Am Legend",
     "tmdb_id": 6479
   },
@@ -3308,6 +3853,7 @@
     "release_year": 2016,
     "runtime_minutes": 104,
     "scare_count": 3,
+    "tags": [],
     "title": "I Am Not a Serial Killer",
     "tmdb_id": 381034
   },
@@ -3317,6 +3863,7 @@
     "release_year": 2016,
     "runtime_minutes": 89,
     "scare_count": 4,
+    "tags": [],
     "title": "I Am the Pretty Thing That Lives in the House",
     "tmdb_id": 407559
   },
@@ -3326,6 +3873,7 @@
     "release_year": 1990,
     "runtime_minutes": 101,
     "scare_count": 6,
+    "tags": [],
     "title": "I Bought A Vampire Motorcycle",
     "tmdb_id": 41153
   },
@@ -3335,6 +3883,9 @@
     "release_year": 1997,
     "runtime_minutes": 102,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "I Know What You Did Last Summer",
     "tmdb_id": 3597
   },
@@ -3344,6 +3895,7 @@
     "release_year": 2010,
     "runtime_minutes": 144,
     "scare_count": 2,
+    "tags": [],
     "title": "I Saw The Devil",
     "tmdb_id": 49797
   },
@@ -3353,6 +3905,7 @@
     "release_year": 2003,
     "runtime_minutes": 90,
     "scare_count": 11,
+    "tags": [],
     "title": "Identity",
     "tmdb_id": 2832
   },
@@ -3362,6 +3915,7 @@
     "release_year": 1999,
     "runtime_minutes": 92,
     "scare_count": 10,
+    "tags": [],
     "title": "Idle Hands",
     "tmdb_id": 6552
   },
@@ -3371,6 +3925,7 @@
     "release_year": 2019,
     "runtime_minutes": 106,
     "scare_count": 4,
+    "tags": [],
     "title": "Impetigore",
     "tmdb_id": 572468
   },
@@ -3380,6 +3935,7 @@
     "release_year": 2019,
     "runtime_minutes": 118,
     "scare_count": 1,
+    "tags": [],
     "title": "In Fabric",
     "tmdb_id": 475220
   },
@@ -3389,6 +3945,7 @@
     "release_year": 2021,
     "runtime_minutes": 107,
     "scare_count": 0,
+    "tags": [],
     "title": "In the Earth",
     "tmdb_id": 748853
   },
@@ -3398,6 +3955,7 @@
     "release_year": 1994,
     "runtime_minutes": 95,
     "scare_count": 10,
+    "tags": [],
     "title": "In The Mouth Of Madness",
     "tmdb_id": 2654
   },
@@ -3407,6 +3965,7 @@
     "release_year": 2019,
     "runtime_minutes": 101,
     "scare_count": 4,
+    "tags": [],
     "title": "In the Tall Grass",
     "tmdb_id": 523139
   },
@@ -3416,6 +3975,7 @@
     "release_year": 2016,
     "runtime_minutes": 87,
     "scare_count": 9,
+    "tags": [],
     "title": "Incarnate",
     "tmdb_id": 241258
   },
@@ -3425,6 +3985,7 @@
     "release_year": 2023,
     "runtime_minutes": 118,
     "scare_count": 4,
+    "tags": [],
     "title": "Infinity Pool",
     "tmdb_id": 667216
   },
@@ -3434,6 +3995,7 @@
     "release_year": 2006,
     "runtime_minutes": 180,
     "scare_count": 8,
+    "tags": [],
     "title": "Inland Empire",
     "tmdb_id": 1730
   },
@@ -3443,6 +4005,7 @@
     "release_year": 2007,
     "runtime_minutes": 83,
     "scare_count": 4,
+    "tags": [],
     "title": "Inside",
     "tmdb_id": 13312
   },
@@ -3452,6 +4015,9 @@
     "release_year": 2010,
     "runtime_minutes": 102,
     "scare_count": 24,
+    "tags": [
+      "HOT"
+    ],
     "title": "Insidious",
     "tmdb_id": 49018
   },
@@ -3461,6 +4027,9 @@
     "release_year": 2013,
     "runtime_minutes": 106,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "Insidious: Chapter 2",
     "tmdb_id": 91586
   },
@@ -3470,6 +4039,9 @@
     "release_year": 2015,
     "runtime_minutes": 97,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Insidious: Chapter 3",
     "tmdb_id": 280092
   },
@@ -3479,6 +4051,9 @@
     "release_year": 2018,
     "runtime_minutes": 103,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Insidious: The Last Key",
     "tmdb_id": 406563
   },
@@ -3488,6 +4063,7 @@
     "release_year": 2014,
     "runtime_minutes": 169,
     "scare_count": 1,
+    "tags": [],
     "title": "Interstellar",
     "tmdb_id": 157336
   },
@@ -3497,6 +4073,7 @@
     "release_year": 1994,
     "runtime_minutes": 123,
     "scare_count": 6,
+    "tags": [],
     "title": "Interview With the Vampire",
     "tmdb_id": 628
   },
@@ -3506,6 +4083,7 @@
     "release_year": 2015,
     "runtime_minutes": 90,
     "scare_count": 4,
+    "tags": [],
     "title": "Intruders",
     "tmdb_id": 333674
   },
@@ -3515,6 +4093,9 @@
     "release_year": 2021,
     "runtime_minutes": 93,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Intrusion",
     "tmdb_id": 785752
   },
@@ -3524,6 +4105,7 @@
     "release_year": 1978,
     "runtime_minutes": 116,
     "scare_count": 4,
+    "tags": [],
     "title": "Invasion of the Body Snatchers",
     "tmdb_id": 11850
   },
@@ -3533,6 +4115,9 @@
     "release_year": 2017,
     "runtime_minutes": 135,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "It",
     "tmdb_id": 346364
   },
@@ -3542,6 +4127,9 @@
     "release_year": 2019,
     "runtime_minutes": 169,
     "scare_count": 24,
+    "tags": [
+      "HOT"
+    ],
     "title": "It Chapter Two",
     "tmdb_id": 474350
   },
@@ -3551,6 +4139,7 @@
     "release_year": 2017,
     "runtime_minutes": 91,
     "scare_count": 5,
+    "tags": [],
     "title": "It Comes at Night",
     "tmdb_id": 418078
   },
@@ -3560,6 +4149,7 @@
     "release_year": 2014,
     "runtime_minutes": 101,
     "scare_count": 5,
+    "tags": [],
     "title": "It Follows",
     "tmdb_id": 270303
   },
@@ -3569,6 +4159,7 @@
     "release_year": 2020,
     "runtime_minutes": 135,
     "scare_count": 1,
+    "tags": [],
     "title": "I’m Thinking of Ending Things",
     "tmdb_id": 500840
   },
@@ -3578,6 +4169,7 @@
     "release_year": 1990,
     "runtime_minutes": 113,
     "scare_count": 4,
+    "tags": [],
     "title": "Jacob’s Ladder",
     "tmdb_id": 2291
   },
@@ -3587,6 +4179,7 @@
     "release_year": 2021,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "Jakob’s Wife",
     "tmdb_id": 786110
   },
@@ -3596,6 +4189,7 @@
     "release_year": 1993,
     "runtime_minutes": 88,
     "scare_count": 4,
+    "tags": [],
     "title": "Jason Goes to Hell: The Final Friday",
     "tmdb_id": 10285
   },
@@ -3605,6 +4199,7 @@
     "release_year": 1975,
     "runtime_minutes": 124,
     "scare_count": 4,
+    "tags": [],
     "title": "Jaws",
     "tmdb_id": 578
   },
@@ -3614,6 +4209,7 @@
     "release_year": 1978,
     "runtime_minutes": 117,
     "scare_count": 5,
+    "tags": [],
     "title": "Jaws 2",
     "tmdb_id": 579
   },
@@ -3623,6 +4219,7 @@
     "release_year": 1983,
     "runtime_minutes": 98,
     "scare_count": 5,
+    "tags": [],
     "title": "Jaws 3-D",
     "tmdb_id": 17692
   },
@@ -3632,6 +4229,7 @@
     "release_year": 1987,
     "runtime_minutes": 89,
     "scare_count": 3,
+    "tags": [],
     "title": "Jaws: The Revenge",
     "tmdb_id": 580
   },
@@ -3641,6 +4239,7 @@
     "release_year": 2001,
     "runtime_minutes": 90,
     "scare_count": 11,
+    "tags": [],
     "title": "Jeepers Creepers",
     "tmdb_id": 8922
   },
@@ -3650,6 +4249,7 @@
     "release_year": 2017,
     "runtime_minutes": 100,
     "scare_count": 0,
+    "tags": [],
     "title": "Jeepers Creepers 3",
     "tmdb_id": 55341
   },
@@ -3659,6 +4259,7 @@
     "release_year": 2009,
     "runtime_minutes": 107,
     "scare_count": 6,
+    "tags": [],
     "title": "Jennifer’s Body",
     "tmdb_id": 19994
   },
@@ -3668,6 +4269,9 @@
     "release_year": 2015,
     "runtime_minutes": 94,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "Jeruzalem",
     "tmdb_id": 339547
   },
@@ -3677,6 +4281,7 @@
     "release_year": 2014,
     "runtime_minutes": 90,
     "scare_count": 9,
+    "tags": [],
     "title": "Jessabelle",
     "tmdb_id": 203834
   },
@@ -3686,6 +4291,7 @@
     "release_year": 2017,
     "runtime_minutes": 91,
     "scare_count": 7,
+    "tags": [],
     "title": "Jigsaw",
     "tmdb_id": 298250
   },
@@ -3695,6 +4301,7 @@
     "release_year": 2001,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "Joy Ride",
     "tmdb_id": 10866
   },
@@ -3704,6 +4311,9 @@
     "release_year": 2014,
     "runtime_minutes": 91,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ju On: The Beginning of The End",
     "tmdb_id": 259233
   },
@@ -3713,6 +4323,9 @@
     "release_year": 2015,
     "runtime_minutes": 90,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ju On: The Final Curse",
     "tmdb_id": 347946
   },
@@ -3722,6 +4335,7 @@
     "release_year": 2010,
     "runtime_minutes": 118,
     "scare_count": 7,
+    "tags": [],
     "title": "Julia’s Eyes",
     "tmdb_id": 52274
   },
@@ -3731,6 +4345,7 @@
     "release_year": 1993,
     "runtime_minutes": 127,
     "scare_count": 9,
+    "tags": [],
     "title": "Jurassic Park",
     "tmdb_id": 329
   },
@@ -3740,6 +4355,7 @@
     "release_year": 2015,
     "runtime_minutes": 124,
     "scare_count": 5,
+    "tags": [],
     "title": "Jurassic World",
     "tmdb_id": 135397
   },
@@ -3749,6 +4365,7 @@
     "release_year": 2018,
     "runtime_minutes": 129,
     "scare_count": 7,
+    "tags": [],
     "title": "Jurassic World: Fallen Kingdom",
     "tmdb_id": 351286
   },
@@ -3758,6 +4375,7 @@
     "release_year": 2021,
     "runtime_minutes": 106,
     "scare_count": 1,
+    "tags": [],
     "title": "Kate",
     "tmdb_id": 597891
   },
@@ -3767,6 +4385,7 @@
     "release_year": 2011,
     "runtime_minutes": 95,
     "scare_count": 1,
+    "tags": [],
     "title": "Kill List",
     "tmdb_id": 74725
   },
@@ -3776,6 +4395,7 @@
     "release_year": 1988,
     "runtime_minutes": 86,
     "scare_count": 2,
+    "tags": [],
     "title": "Killer Klowns From Outer Space",
     "tmdb_id": 16296
   },
@@ -3785,6 +4405,7 @@
     "release_year": 2015,
     "runtime_minutes": 99,
     "scare_count": 2,
+    "tags": [],
     "title": "Knock Knock",
     "tmdb_id": 263472
   },
@@ -3794,6 +4415,7 @@
     "release_year": 2009,
     "runtime_minutes": 121,
     "scare_count": 2,
+    "tags": [],
     "title": "Knowing",
     "tmdb_id": 13811
   },
@@ -3803,6 +4425,7 @@
     "release_year": 2020,
     "runtime_minutes": 86,
     "scare_count": 0,
+    "tags": [],
     "title": "Koko-di Koko-da",
     "tmdb_id": 565373
   },
@@ -3812,6 +4435,7 @@
     "release_year": 2020,
     "runtime_minutes": 113,
     "scare_count": 6,
+    "tags": [],
     "title": "Kola Superdeep / The Superdeep / Кольская сверхглубокая / Kolskaya Sverhglubokaya",
     "tmdb_id": 579828
   },
@@ -3821,6 +4445,7 @@
     "release_year": 1999,
     "runtime_minutes": 84,
     "scare_count": 4,
+    "tags": [],
     "title": "Kolobos",
     "tmdb_id": 40129
   },
@@ -3830,6 +4455,7 @@
     "release_year": 2015,
     "runtime_minutes": 98,
     "scare_count": 10,
+    "tags": [],
     "title": "Krampus",
     "tmdb_id": 287903
   },
@@ -3839,6 +4465,9 @@
     "release_year": 2014,
     "runtime_minutes": 85,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Kristy",
     "tmdb_id": 146229
   },
@@ -3848,6 +4477,7 @@
     "release_year": 1968,
     "runtime_minutes": 100,
     "scare_count": 1,
+    "tags": [],
     "title": "Kuroneko",
     "tmdb_id": 40149
   },
@@ -3857,6 +4487,7 @@
     "release_year": 2008,
     "runtime_minutes": 87,
     "scare_count": 1,
+    "tags": [],
     "title": "Lake Mungo",
     "tmdb_id": 27374
   },
@@ -3866,6 +4497,9 @@
     "release_year": 1999,
     "runtime_minutes": 82,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Lake Placid",
     "tmdb_id": 9825
   },
@@ -3875,6 +4509,7 @@
     "release_year": 2021,
     "runtime_minutes": 106,
     "scare_count": 0,
+    "tags": [],
     "title": "Lamb",
     "tmdb_id": 788929
   },
@@ -3884,6 +4519,9 @@
     "release_year": 2014,
     "runtime_minutes": 87,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Last Shift",
     "tmdb_id": 296065
   },
@@ -3893,6 +4531,9 @@
     "release_year": 2017,
     "runtime_minutes": 88,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Leatherface",
     "tmdb_id": 300665
   },
@@ -3902,6 +4543,7 @@
     "release_year": 1990,
     "runtime_minutes": 81,
     "scare_count": 6,
+    "tags": [],
     "title": "Leatherface: The Texas Chainsaw Massacre III",
     "tmdb_id": 25018
   },
@@ -3911,6 +4553,7 @@
     "release_year": 1993,
     "runtime_minutes": 93,
     "scare_count": 9,
+    "tags": [],
     "title": "Leprechaun",
     "tmdb_id": 11811
   },
@@ -3920,6 +4563,7 @@
     "release_year": 1994,
     "runtime_minutes": 85,
     "scare_count": 1,
+    "tags": [],
     "title": "Leprechaun 2",
     "tmdb_id": 18009
   },
@@ -3929,6 +4573,7 @@
     "release_year": 2018,
     "runtime_minutes": 93,
     "scare_count": 8,
+    "tags": [],
     "title": "Leprechaun Returns",
     "tmdb_id": 518158
   },
@@ -3938,6 +4583,7 @@
     "release_year": 2010,
     "runtime_minutes": 116,
     "scare_count": 3,
+    "tags": [],
     "title": "Let Me In",
     "tmdb_id": 41402
   },
@@ -3947,6 +4593,7 @@
     "release_year": 2008,
     "runtime_minutes": 115,
     "scare_count": 2,
+    "tags": [],
     "title": "Let The Right One In",
     "tmdb_id": 13310
   },
@@ -3956,6 +4603,7 @@
     "release_year": 2014,
     "runtime_minutes": 92,
     "scare_count": 7,
+    "tags": [],
     "title": "Let Us Prey",
     "tmdb_id": 276488
   },
@@ -3965,6 +4613,7 @@
     "release_year": 2023,
     "runtime_minutes": 6,
     "scare_count": 3,
+    "tags": [],
     "title": "Liar Liar",
     "tmdb_id": 1157360
   },
@@ -3974,6 +4623,7 @@
     "release_year": 2017,
     "runtime_minutes": 104,
     "scare_count": 8,
+    "tags": [],
     "title": "Life",
     "tmdb_id": 395992
   },
@@ -3983,6 +4633,9 @@
     "release_year": 2016,
     "runtime_minutes": 81,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Lights Out",
     "tmdb_id": 345911
   },
@@ -3992,6 +4645,7 @@
     "release_year": 2017,
     "runtime_minutes": 94,
     "scare_count": 7,
+    "tags": [],
     "title": "Little Evil",
     "tmdb_id": 346671
   },
@@ -4001,6 +4655,7 @@
     "release_year": 2011,
     "runtime_minutes": 92,
     "scare_count": 11,
+    "tags": [],
     "title": "Livid",
     "tmdb_id": 83900
   },
@@ -4010,6 +4665,9 @@
     "release_year": 2013,
     "runtime_minutes": 97,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Living Dark: The Story of Ted the Caver",
     "tmdb_id": 484626
   },
@@ -4019,6 +4677,7 @@
     "release_year": 2009,
     "runtime_minutes": 115,
     "scare_count": 2,
+    "tags": [],
     "title": "Lo",
     "tmdb_id": 9394
   },
@@ -4028,6 +4687,7 @@
     "release_year": 2018,
     "runtime_minutes": 103,
     "scare_count": 0,
+    "tags": [],
     "title": "Look Away",
     "tmdb_id": 526051
   },
@@ -4037,6 +4697,9 @@
     "release_year": 1995,
     "runtime_minutes": 109,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Lord of Illusions",
     "tmdb_id": 8973
   },
@@ -4046,6 +4709,7 @@
     "release_year": 2010,
     "runtime_minutes": 81,
     "scare_count": 7,
+    "tags": [],
     "title": "Lost Boys 3: The Thirst",
     "tmdb_id": 46812
   },
@@ -4055,6 +4719,7 @@
     "release_year": 2016,
     "runtime_minutes": 92,
     "scare_count": 2,
+    "tags": [],
     "title": "Lost Creek",
     "tmdb_id": 399596
   },
@@ -4064,6 +4729,7 @@
     "release_year": 1997,
     "runtime_minutes": 134,
     "scare_count": 1,
+    "tags": [],
     "title": "Lost Highway",
     "tmdb_id": 638
   },
@@ -4073,6 +4739,7 @@
     "release_year": 2020,
     "runtime_minutes": 119,
     "scare_count": 1,
+    "tags": [],
     "title": "Lucky",
     "tmdb_id": 399170
   },
@@ -4082,6 +4749,7 @@
     "release_year": 2019,
     "runtime_minutes": 99,
     "scare_count": 3,
+    "tags": [],
     "title": "Ma",
     "tmdb_id": 502416
   },
@@ -4091,6 +4759,7 @@
     "release_year": 2015,
     "runtime_minutes": 95,
     "scare_count": 4,
+    "tags": [],
     "title": "Maggie",
     "tmdb_id": 287424
   },
@@ -4100,6 +4769,7 @@
     "release_year": 2018,
     "runtime_minutes": 89,
     "scare_count": 8,
+    "tags": [],
     "title": "Malevolent",
     "tmdb_id": 481375
   },
@@ -4109,6 +4779,7 @@
     "release_year": 1993,
     "runtime_minutes": 107,
     "scare_count": 3,
+    "tags": [],
     "title": "Malice",
     "tmdb_id": 2246
   },
@@ -4118,6 +4789,9 @@
     "release_year": 2021,
     "runtime_minutes": 111,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "Malignant",
     "tmdb_id": 619778
   },
@@ -4127,6 +4801,7 @@
     "release_year": 2002,
     "runtime_minutes": 90,
     "scare_count": 0,
+    "tags": [],
     "title": "Maléfique",
     "tmdb_id": 46025
   },
@@ -4136,6 +4811,9 @@
     "release_year": 2013,
     "runtime_minutes": 100,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Mama",
     "tmdb_id": 132232
   },
@@ -4145,6 +4823,7 @@
     "release_year": 2018,
     "runtime_minutes": 122,
     "scare_count": 5,
+    "tags": [],
     "title": "Mandy",
     "tmdb_id": 460885
   },
@@ -4154,6 +4833,7 @@
     "release_year": 2012,
     "runtime_minutes": 89,
     "scare_count": 6,
+    "tags": [],
     "title": "Maniac",
     "tmdb_id": 103620
   },
@@ -4163,6 +4843,7 @@
     "release_year": 2017,
     "runtime_minutes": 111,
     "scare_count": 5,
+    "tags": [],
     "title": "Marrowbone",
     "tmdb_id": 399366
   },
@@ -4172,6 +4853,9 @@
     "release_year": 2008,
     "runtime_minutes": 99,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Martyrs",
     "tmdb_id": 9539
   },
@@ -4181,6 +4865,7 @@
     "release_year": 2021,
     "runtime_minutes": 97,
     "scare_count": 5,
+    "tags": [],
     "title": "Martyrs Lane",
     "tmdb_id": 797815
   },
@@ -4190,6 +4875,7 @@
     "release_year": 1986,
     "runtime_minutes": 98,
     "scare_count": 5,
+    "tags": [],
     "title": "Maximum Overdrive",
     "tmdb_id": 9980
   },
@@ -4199,6 +4885,7 @@
     "release_year": 2002,
     "runtime_minutes": 93,
     "scare_count": 0,
+    "tags": [],
     "title": "May",
     "tmdb_id": 10894
   },
@@ -4208,6 +4895,7 @@
     "release_year": 2020,
     "runtime_minutes": 109,
     "scare_count": 9,
+    "tags": [],
     "title": "May The Devil Take You Too",
     "tmdb_id": 632885
   },
@@ -4217,6 +4905,7 @@
     "release_year": 2017,
     "runtime_minutes": 88,
     "scare_count": 2,
+    "tags": [],
     "title": "Mayhem",
     "tmdb_id": 429733
   },
@@ -4226,6 +4915,7 @@
     "release_year": 2023,
     "runtime_minutes": 116,
     "scare_count": 9,
+    "tags": [],
     "title": "Meg 2: The Trench",
     "tmdb_id": 615656
   },
@@ -4235,6 +4925,7 @@
     "release_year": 2011,
     "runtime_minutes": 86,
     "scare_count": 1,
+    "tags": [],
     "title": "Megan Is Missing",
     "tmdb_id": 63197
   },
@@ -4244,6 +4935,7 @@
     "release_year": 2019,
     "runtime_minutes": 147,
     "scare_count": 3,
+    "tags": [],
     "title": "Midsommar",
     "tmdb_id": 530385
   },
@@ -4253,6 +4945,9 @@
     "release_year": 2008,
     "runtime_minutes": 111,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Mirrors",
     "tmdb_id": 13515
   },
@@ -4262,6 +4957,7 @@
     "release_year": 1990,
     "runtime_minutes": 107,
     "scare_count": 3,
+    "tags": [],
     "title": "Misery",
     "tmdb_id": 1700
   },
@@ -4271,6 +4967,7 @@
     "release_year": 2017,
     "runtime_minutes": 86,
     "scare_count": 5,
+    "tags": [],
     "title": "Mom and Dad",
     "tmdb_id": 401561
   },
@@ -4280,6 +4977,7 @@
     "release_year": 2016,
     "runtime_minutes": 92,
     "scare_count": 0,
+    "tags": [],
     "title": "Morgan",
     "tmdb_id": 377264
   },
@@ -4289,6 +4987,7 @@
     "release_year": 2017,
     "runtime_minutes": 121,
     "scare_count": 7,
+    "tags": [],
     "title": "Mother!",
     "tmdb_id": 381283
   },
@@ -4298,6 +4997,7 @@
     "release_year": 2001,
     "runtime_minutes": 147,
     "scare_count": 1,
+    "tags": [],
     "title": "Mulholland Drive",
     "tmdb_id": 1018
   },
@@ -4307,6 +5007,7 @@
     "release_year": 2020,
     "runtime_minutes": 80,
     "scare_count": 2,
+    "tags": [],
     "title": "Murder Death Koreatown",
     "tmdb_id": 1433354
   },
@@ -4316,6 +5017,9 @@
     "release_year": 2009,
     "runtime_minutes": 101,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "My Bloody Valentine",
     "tmdb_id": 14435
   },
@@ -4325,6 +5029,7 @@
     "release_year": 1981,
     "runtime_minutes": 90,
     "scare_count": 0,
+    "tags": [],
     "title": "My Bloody Valentine",
     "tmdb_id": 39874
   },
@@ -4334,6 +5039,7 @@
     "release_year": 2017,
     "runtime_minutes": 107,
     "scare_count": 0,
+    "tags": [],
     "title": "My Friend Dahmer",
     "tmdb_id": 445040
   },
@@ -4343,6 +5049,7 @@
     "release_year": 2020,
     "runtime_minutes": 89,
     "scare_count": 1,
+    "tags": [],
     "title": "My Heart Can’t Beat Unless You Tell It To",
     "tmdb_id": 690248
   },
@@ -4352,6 +5059,7 @@
     "release_year": 2009,
     "runtime_minutes": 85,
     "scare_count": 0,
+    "tags": [],
     "title": "Necromentia",
     "tmdb_id": 24505
   },
@@ -4361,6 +5069,7 @@
     "release_year": 2005,
     "runtime_minutes": 115,
     "scare_count": 0,
+    "tags": [],
     "title": "Neighbour No. 13",
     "tmdb_id": 84251
   },
@@ -4370,6 +5079,7 @@
     "release_year": 2016,
     "runtime_minutes": 96,
     "scare_count": 1,
+    "tags": [],
     "title": "Nerve",
     "tmdb_id": 328387
   },
@@ -4379,6 +5089,7 @@
     "release_year": 1984,
     "runtime_minutes": 95,
     "scare_count": 2,
+    "tags": [],
     "title": "Night of the Comet",
     "tmdb_id": 18462
   },
@@ -4388,6 +5099,7 @@
     "release_year": 1968,
     "runtime_minutes": 96,
     "scare_count": 5,
+    "tags": [],
     "title": "Night of the Living dead",
     "tmdb_id": 10331
   },
@@ -4397,6 +5109,7 @@
     "release_year": 2021,
     "runtime_minutes": 107,
     "scare_count": 6,
+    "tags": [],
     "title": "Night Teeth",
     "tmdb_id": 669671
   },
@@ -4406,6 +5119,7 @@
     "release_year": 2015,
     "runtime_minutes": 98,
     "scare_count": 1,
+    "tags": [],
     "title": "Nina Forever",
     "tmdb_id": 323694
   },
@@ -4415,6 +5129,7 @@
     "release_year": 2020,
     "runtime_minutes": 92,
     "scare_count": 2,
+    "tags": [],
     "title": "No Escape (Follow Me)",
     "tmdb_id": 606625
   },
@@ -4424,6 +5139,7 @@
     "release_year": 2021,
     "runtime_minutes": 85,
     "scare_count": 4,
+    "tags": [],
     "title": "No One Gets Out Alive",
     "tmdb_id": 740925
   },
@@ -4433,6 +5149,7 @@
     "release_year": 2020,
     "runtime_minutes": 102,
     "scare_count": 9,
+    "tags": [],
     "title": "Nobody Sleeps in the Woods Tonight",
     "tmdb_id": 681019
   },
@@ -4442,6 +5159,7 @@
     "release_year": 2016,
     "runtime_minutes": 116,
     "scare_count": 1,
+    "tags": [],
     "title": "Nocturnal Animals",
     "tmdb_id": 340666
   },
@@ -4451,6 +5169,7 @@
     "release_year": 2022,
     "runtime_minutes": 130,
     "scare_count": 1,
+    "tags": [],
     "title": "Nope",
     "tmdb_id": 762504
   },
@@ -4460,6 +5179,7 @@
     "release_year": 2005,
     "runtime_minutes": 115,
     "scare_count": 4,
+    "tags": [],
     "title": "Noroi: The Curse",
     "tmdb_id": 21506
   },
@@ -4469,6 +5189,7 @@
     "release_year": 2018,
     "runtime_minutes": 66,
     "scare_count": 3,
+    "tags": [],
     "title": "Occult Angel",
     "tmdb_id": 536141
   },
@@ -4478,6 +5199,9 @@
     "release_year": 2013,
     "runtime_minutes": 104,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Oculus",
     "tmdb_id": 157547
   },
@@ -4487,6 +5211,7 @@
     "release_year": 2013,
     "runtime_minutes": 97,
     "scare_count": 0,
+    "tags": [],
     "title": "Odd Thomas",
     "tmdb_id": 179826
   },
@@ -4496,6 +5221,7 @@
     "release_year": 2021,
     "runtime_minutes": 108,
     "scare_count": 2,
+    "tags": [],
     "title": "OLD",
     "tmdb_id": 631843
   },
@@ -4505,6 +5231,7 @@
     "release_year": 2002,
     "runtime_minutes": 96,
     "scare_count": 1,
+    "tags": [],
     "title": "One Hour Photo",
     "tmdb_id": 9357
   },
@@ -4514,6 +5241,9 @@
     "release_year": 2008,
     "runtime_minutes": 87,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "One Missed Call",
     "tmdb_id": 6933
   },
@@ -4523,6 +5253,7 @@
     "release_year": 2013,
     "runtime_minutes": 123,
     "scare_count": 0,
+    "tags": [],
     "title": "Only Lovers Left Alive",
     "tmdb_id": 152603
   },
@@ -4532,6 +5263,7 @@
     "release_year": 2018,
     "runtime_minutes": 102,
     "scare_count": 7,
+    "tags": [],
     "title": "Open 24 Hours",
     "tmdb_id": 532638
   },
@@ -4541,6 +5273,9 @@
     "release_year": 2009,
     "runtime_minutes": 123,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Orphan",
     "tmdb_id": 21208
   },
@@ -4550,6 +5285,9 @@
     "release_year": 2014,
     "runtime_minutes": 89,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ouija",
     "tmdb_id": 242512
   },
@@ -4559,6 +5297,9 @@
     "release_year": 2016,
     "runtime_minutes": 99,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "Ouija: Origin of Evil",
     "tmdb_id": 335796
   },
@@ -4568,6 +5309,9 @@
     "release_year": 2018,
     "runtime_minutes": 110,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Overlord",
     "tmdb_id": 438799
   },
@@ -4577,6 +5321,9 @@
     "release_year": 2007,
     "runtime_minutes": 98,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "P2",
     "tmdb_id": 13474
   },
@@ -4586,6 +5333,9 @@
     "release_year": 2009,
     "runtime_minutes": 108,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Pandorum",
     "tmdb_id": 19898
   },
@@ -4595,6 +5345,7 @@
     "release_year": 2006,
     "runtime_minutes": 118,
     "scare_count": 6,
+    "tags": [],
     "title": "Pan’s Labyrinth",
     "tmdb_id": 1417
   },
@@ -4604,6 +5355,7 @@
     "release_year": 1988,
     "runtime_minutes": 92,
     "scare_count": 6,
+    "tags": [],
     "title": "Paperhouse",
     "tmdb_id": 41965
   },
@@ -4613,6 +5365,7 @@
     "release_year": 2007,
     "runtime_minutes": 86,
     "scare_count": 10,
+    "tags": [],
     "title": "Paranormal Activity",
     "tmdb_id": 23827
   },
@@ -4622,6 +5375,9 @@
     "release_year": 2010,
     "runtime_minutes": 91,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Paranormal Activity 2",
     "tmdb_id": 41436
   },
@@ -4631,6 +5387,9 @@
     "release_year": 2011,
     "runtime_minutes": 83,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Paranormal Activity 3",
     "tmdb_id": 72571
   },
@@ -4640,6 +5399,9 @@
     "release_year": 2012,
     "runtime_minutes": 87,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Paranormal Activity 4",
     "tmdb_id": 82990
   },
@@ -4649,6 +5411,9 @@
     "release_year": 2021,
     "runtime_minutes": 98,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Paranormal Activity: Next of Kin",
     "tmdb_id": 609972
   },
@@ -4658,6 +5423,9 @@
     "release_year": 2015,
     "runtime_minutes": 87,
     "scare_count": 29,
+    "tags": [
+      "HOT"
+    ],
     "title": "Paranormal Activity: The Ghost Dimension",
     "tmdb_id": 146301
   },
@@ -4667,6 +5435,7 @@
     "release_year": 2018,
     "runtime_minutes": 87,
     "scare_count": 6,
+    "tags": [],
     "title": "Patient Zero",
     "tmdb_id": 295011
   },
@@ -4676,6 +5445,9 @@
     "release_year": 2015,
     "runtime_minutes": 94,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Pay The Ghost",
     "tmdb_id": 290637
   },
@@ -4685,16 +5457,18 @@
     "release_year": 2020,
     "runtime_minutes": 116,
     "scare_count": 4,
+    "tags": [],
     "title": "Peninsula",
     "tmdb_id": 581392
   },
   {
     "has_subtitles": false,
     "poster_path": "/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
-    "release_year": 1997,
+    "release_year": 2018,
     "runtime_minutes": 81,
     "scare_count": 0,
-    "title": "Perfect Blue",
+    "tags": [],
+    "title": "Perfect",
     "tmdb_id": 10494
   },
   {
@@ -4703,6 +5477,7 @@
     "release_year": 2016,
     "runtime_minutes": 106,
     "scare_count": 4,
+    "tags": [],
     "title": "Personal Shopper",
     "tmdb_id": 340676
   },
@@ -4712,6 +5487,7 @@
     "release_year": 2016,
     "runtime_minutes": 94,
     "scare_count": 2,
+    "tags": [],
     "title": "Pet",
     "tmdb_id": 353979
   },
@@ -4721,6 +5497,9 @@
     "release_year": 2019,
     "runtime_minutes": 101,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Pet Sematary",
     "tmdb_id": 157433
   },
@@ -4730,6 +5509,9 @@
     "release_year": 1989,
     "runtime_minutes": 103,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Pet Sematary",
     "tmdb_id": 8913
   },
@@ -4739,6 +5521,9 @@
     "release_year": 1979,
     "runtime_minutes": 89,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Phantasm",
     "tmdb_id": 9638
   },
@@ -4748,6 +5533,7 @@
     "release_year": 1985,
     "runtime_minutes": 115,
     "scare_count": 11,
+    "tags": [],
     "title": "Phenomena",
     "tmdb_id": 29161
   },
@@ -4757,6 +5543,7 @@
     "release_year": 2021,
     "runtime_minutes": 86,
     "scare_count": 7,
+    "tags": [],
     "title": "Phobias",
     "tmdb_id": 793967
   },
@@ -4766,6 +5553,7 @@
     "release_year": 2017,
     "runtime_minutes": 87,
     "scare_count": 0,
+    "tags": [],
     "title": "Phoenix Forgotten",
     "tmdb_id": 443319
   },
@@ -4775,6 +5563,7 @@
     "release_year": 2010,
     "runtime_minutes": 88,
     "scare_count": 9,
+    "tags": [],
     "title": "Piranha 3D",
     "tmdb_id": 43593
   },
@@ -4784,6 +5573,9 @@
     "release_year": 2012,
     "runtime_minutes": 83,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Piranha 3DD",
     "tmdb_id": 71668
   },
@@ -4793,6 +5585,9 @@
     "release_year": 2007,
     "runtime_minutes": 105,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Planet Terror",
     "tmdb_id": 1992
   },
@@ -4802,6 +5597,7 @@
     "release_year": 1982,
     "runtime_minutes": 114,
     "scare_count": 9,
+    "tags": [],
     "title": "Poltergeist",
     "tmdb_id": 609
   },
@@ -4811,6 +5607,7 @@
     "release_year": 1986,
     "runtime_minutes": 91,
     "scare_count": 6,
+    "tags": [],
     "title": "Poltergeist II: The Other Side",
     "tmdb_id": 11133
   },
@@ -4820,6 +5617,7 @@
     "release_year": 1988,
     "runtime_minutes": 98,
     "scare_count": 9,
+    "tags": [],
     "title": "Poltergeist III",
     "tmdb_id": 10306
   },
@@ -4828,8 +5626,11 @@
     "poster_path": "/jBXupXZ7WEPUpkYFpkQsdipwBQn.jpg",
     "release_year": 2015,
     "runtime_minutes": 93,
-    "scare_count": 23,
-    "title": "Poltergeist – Extended Cut",
+    "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
+    "title": "Poltergeist – Theatrical Cut",
     "tmdb_id": 243688
   },
   {
@@ -4838,6 +5639,7 @@
     "release_year": 2008,
     "runtime_minutes": 96,
     "scare_count": 1,
+    "tags": [],
     "title": "Pontypool",
     "tmdb_id": 23963
   },
@@ -4847,6 +5649,7 @@
     "release_year": 2019,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "Porno",
     "tmdb_id": 576004
   },
@@ -4856,6 +5659,7 @@
     "release_year": 2018,
     "runtime_minutes": 85,
     "scare_count": 4,
+    "tags": [],
     "title": "Possum",
     "tmdb_id": 472269
   },
@@ -4865,6 +5669,7 @@
     "release_year": 1987,
     "runtime_minutes": 107,
     "scare_count": 7,
+    "tags": [],
     "title": "Predator",
     "tmdb_id": 106
   },
@@ -4874,6 +5679,7 @@
     "release_year": 2016,
     "runtime_minutes": 89,
     "scare_count": 1,
+    "tags": [],
     "title": "Prevenge",
     "tmdb_id": 395982
   },
@@ -4883,6 +5689,7 @@
     "release_year": 2021,
     "runtime_minutes": 87,
     "scare_count": 1,
+    "tags": [],
     "title": "Prey",
     "tmdb_id": 853588
   },
@@ -4892,6 +5699,7 @@
     "release_year": 2016,
     "runtime_minutes": 108,
     "scare_count": 7,
+    "tags": [],
     "title": "Pride and Prejudice and Zombies",
     "tmdb_id": 58431
   },
@@ -4901,6 +5709,7 @@
     "release_year": 2018,
     "runtime_minutes": 106,
     "scare_count": 4,
+    "tags": [],
     "title": "Primal Rage",
     "tmdb_id": 436373
   },
@@ -4910,6 +5719,7 @@
     "release_year": 1987,
     "runtime_minutes": 102,
     "scare_count": 7,
+    "tags": [],
     "title": "Prince of Darkness",
     "tmdb_id": 8852
   },
@@ -4919,6 +5729,7 @@
     "release_year": 2021,
     "runtime_minutes": 103,
     "scare_count": 1,
+    "tags": [],
     "title": "Prisoners of the Ghostland",
     "tmdb_id": 523638
   },
@@ -4928,15 +5739,17 @@
     "release_year": 2012,
     "runtime_minutes": 124,
     "scare_count": 7,
+    "tags": [],
     "title": "Prometheus",
     "tmdb_id": 70981
   },
   {
     "has_subtitles": false,
     "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
-    "release_year": 1998,
+    "release_year": 1960,
     "runtime_minutes": 109,
-    "scare_count": 4,
+    "scare_count": 2,
+    "tags": [],
     "title": "Psycho",
     "tmdb_id": 539
   },
@@ -4946,6 +5759,7 @@
     "release_year": 2020,
     "runtime_minutes": 95,
     "scare_count": 1,
+    "tags": [],
     "title": "Psycho Goreman",
     "tmdb_id": 670428
   },
@@ -4955,6 +5769,7 @@
     "release_year": 2001,
     "runtime_minutes": 119,
     "scare_count": 2,
+    "tags": [],
     "title": "Pulse / Kairo",
     "tmdb_id": 27324
   },
@@ -4964,6 +5779,7 @@
     "release_year": 1988,
     "runtime_minutes": 86,
     "scare_count": 5,
+    "tags": [],
     "title": "Pumpkinhead",
     "tmdb_id": 26515
   },
@@ -4973,6 +5789,9 @@
     "release_year": 2008,
     "runtime_minutes": 89,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Quarantine",
     "tmdb_id": 13812
   },
@@ -4982,6 +5801,7 @@
     "release_year": 2020,
     "runtime_minutes": 80,
     "scare_count": 0,
+    "tags": [],
     "title": "Random Acts of Violence",
     "tmdb_id": 582049
   },
@@ -4991,6 +5811,7 @@
     "release_year": 2010,
     "runtime_minutes": 83,
     "scare_count": 4,
+    "tags": [],
     "title": "Rare Exports: A Christmas Tale",
     "tmdb_id": 48395
   },
@@ -5000,6 +5821,7 @@
     "release_year": 1999,
     "runtime_minutes": 101,
     "scare_count": 4,
+    "tags": [],
     "title": "Ravenous",
     "tmdb_id": 10212
   },
@@ -5009,6 +5831,7 @@
     "release_year": 2016,
     "runtime_minutes": 99,
     "scare_count": 3,
+    "tags": [],
     "title": "Raw",
     "tmdb_id": 393519
   },
@@ -5018,6 +5841,7 @@
     "release_year": 1986,
     "runtime_minutes": 89,
     "scare_count": 0,
+    "tags": [],
     "title": "Rawhead Rex",
     "tmdb_id": 13511
   },
@@ -5027,6 +5851,7 @@
     "release_year": 1985,
     "runtime_minutes": 86,
     "scare_count": 4,
+    "tags": [],
     "title": "Re-Animator",
     "tmdb_id": 1694
   },
@@ -5036,6 +5861,7 @@
     "release_year": 2019,
     "runtime_minutes": 96,
     "scare_count": 10,
+    "tags": [],
     "title": "Ready or Not",
     "tmdb_id": 567609
   },
@@ -5045,6 +5871,7 @@
     "release_year": 2002,
     "runtime_minutes": 124,
     "scare_count": 6,
+    "tags": [],
     "title": "Red Dragon",
     "tmdb_id": 9533
   },
@@ -5054,6 +5881,7 @@
     "release_year": 2015,
     "runtime_minutes": 106,
     "scare_count": 3,
+    "tags": [],
     "title": "Regression",
     "tmdb_id": 241257
   },
@@ -5063,6 +5891,7 @@
     "release_year": 2020,
     "runtime_minutes": 89,
     "scare_count": 4,
+    "tags": [],
     "title": "Relic",
     "tmdb_id": 539181
   },
@@ -5072,6 +5901,7 @@
     "release_year": 2021,
     "runtime_minutes": 116,
     "scare_count": 1,
+    "tags": [],
     "title": "Reminiscence",
     "tmdb_id": 579047
   },
@@ -5081,6 +5911,7 @@
     "release_year": 1965,
     "runtime_minutes": 105,
     "scare_count": 7,
+    "tags": [],
     "title": "Repulsion",
     "tmdb_id": 11481
   },
@@ -5090,6 +5921,7 @@
     "release_year": 2002,
     "runtime_minutes": 100,
     "scare_count": 7,
+    "tags": [],
     "title": "Resident Evil",
     "tmdb_id": 1576
   },
@@ -5099,6 +5931,9 @@
     "release_year": 2016,
     "runtime_minutes": 107,
     "scare_count": 29,
+    "tags": [
+      "HOT"
+    ],
     "title": "Resident Evil: The Final Chapter",
     "tmdb_id": 173897
   },
@@ -5108,6 +5943,7 @@
     "release_year": 2012,
     "runtime_minutes": 93,
     "scare_count": 2,
+    "tags": [],
     "title": "Resolution",
     "tmdb_id": 121606
   },
@@ -5117,6 +5953,7 @@
     "release_year": 2016,
     "runtime_minutes": 94,
     "scare_count": 10,
+    "tags": [],
     "title": "Restoration",
     "tmdb_id": 718480
   },
@@ -5126,6 +5963,9 @@
     "release_year": 2017,
     "runtime_minutes": 102,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Rings",
     "tmdb_id": 14564
   },
@@ -5135,6 +5975,7 @@
     "release_year": 1998,
     "runtime_minutes": 96,
     "scare_count": 6,
+    "tags": [],
     "title": "Ringu",
     "tmdb_id": 2671
   },
@@ -5144,6 +5985,7 @@
     "release_year": 2000,
     "runtime_minutes": 99,
     "scare_count": 0,
+    "tags": [],
     "title": "Ringu 0: Birthday",
     "tmdb_id": 9674
   },
@@ -5153,6 +5995,7 @@
     "release_year": 1999,
     "runtime_minutes": 95,
     "scare_count": 1,
+    "tags": [],
     "title": "Ringu 2",
     "tmdb_id": 9669
   },
@@ -5162,6 +6005,7 @@
     "release_year": 1995,
     "runtime_minutes": 90,
     "scare_count": 2,
+    "tags": [],
     "title": "Ringu: Kanzenban",
     "tmdb_id": 139937
   },
@@ -5171,6 +6015,7 @@
     "release_year": 2017,
     "runtime_minutes": 95,
     "scare_count": 11,
+    "tags": [],
     "title": "Room 213",
     "tmdb_id": 427337
   },
@@ -5180,6 +6025,7 @@
     "release_year": 1968,
     "runtime_minutes": 138,
     "scare_count": 0,
+    "tags": [],
     "title": "Rosemary’s Baby",
     "tmdb_id": 805
   },
@@ -5189,6 +6035,7 @@
     "release_year": 2020,
     "runtime_minutes": 84,
     "scare_count": 1,
+    "tags": [],
     "title": "Run",
     "tmdb_id": 7443
   },
@@ -5198,6 +6045,7 @@
     "release_year": 2019,
     "runtime_minutes": 99,
     "scare_count": 3,
+    "tags": [],
     "title": "Sadako",
     "tmdb_id": 583132
   },
@@ -5207,6 +6055,9 @@
     "release_year": 2012,
     "runtime_minutes": 96,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Sadako 3D",
     "tmdb_id": 140441
   },
@@ -5216,6 +6067,9 @@
     "release_year": 2013,
     "runtime_minutes": 96,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Sadako 3D 2",
     "tmdb_id": 257527
   },
@@ -5225,6 +6079,7 @@
     "release_year": 2020,
     "runtime_minutes": 85,
     "scare_count": 2,
+    "tags": [],
     "title": "Saint Maud",
     "tmdb_id": 575776
   },
@@ -5234,6 +6089,7 @@
     "release_year": 1970,
     "runtime_minutes": 91,
     "scare_count": 3,
+    "tags": [],
     "title": "Savage Intruder (Hollywood Horror House)",
     "tmdb_id": 29210
   },
@@ -5243,6 +6099,7 @@
     "release_year": 2004,
     "runtime_minutes": 103,
     "scare_count": 6,
+    "tags": [],
     "title": "Saw",
     "tmdb_id": 176
   },
@@ -5252,6 +6109,7 @@
     "release_year": 2010,
     "runtime_minutes": 90,
     "scare_count": 5,
+    "tags": [],
     "title": "Saw 3D",
     "tmdb_id": 41439
   },
@@ -5261,6 +6119,7 @@
     "release_year": 2005,
     "runtime_minutes": 93,
     "scare_count": 5,
+    "tags": [],
     "title": "Saw II",
     "tmdb_id": 215
   },
@@ -5270,6 +6129,7 @@
     "release_year": 2006,
     "runtime_minutes": 108,
     "scare_count": 5,
+    "tags": [],
     "title": "Saw III",
     "tmdb_id": 214
   },
@@ -5279,6 +6139,7 @@
     "release_year": 2007,
     "runtime_minutes": 93,
     "scare_count": 6,
+    "tags": [],
     "title": "Saw IV",
     "tmdb_id": 663
   },
@@ -5288,6 +6149,7 @@
     "release_year": 2008,
     "runtime_minutes": 95,
     "scare_count": 5,
+    "tags": [],
     "title": "Saw V",
     "tmdb_id": 11917
   },
@@ -5297,6 +6159,7 @@
     "release_year": 2009,
     "runtime_minutes": 90,
     "scare_count": 3,
+    "tags": [],
     "title": "Saw VI",
     "tmdb_id": 22804
   },
@@ -5306,6 +6169,7 @@
     "release_year": 2020,
     "runtime_minutes": 104,
     "scare_count": 4,
+    "tags": [],
     "title": "Scare Me",
     "tmdb_id": 653643
   },
@@ -5315,6 +6179,7 @@
     "release_year": 2000,
     "runtime_minutes": 88,
     "scare_count": 8,
+    "tags": [],
     "title": "Scary Movie",
     "tmdb_id": 4247
   },
@@ -5324,6 +6189,7 @@
     "release_year": 2001,
     "runtime_minutes": 82,
     "scare_count": 8,
+    "tags": [],
     "title": "Scary Movie 2",
     "tmdb_id": 4248
   },
@@ -5333,6 +6199,7 @@
     "release_year": 2019,
     "runtime_minutes": 108,
     "scare_count": 8,
+    "tags": [],
     "title": "Scary Stories to Tell in the Dark",
     "tmdb_id": 417384
   },
@@ -5342,6 +6209,9 @@
     "release_year": 1996,
     "runtime_minutes": 112,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Scream",
     "tmdb_id": 4232
   },
@@ -5351,6 +6221,9 @@
     "release_year": 2022,
     "runtime_minutes": 114,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "Scream",
     "tmdb_id": 646385
   },
@@ -5360,6 +6233,9 @@
     "release_year": 1997,
     "runtime_minutes": 120,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Scream 2",
     "tmdb_id": 4233
   },
@@ -5369,6 +6245,9 @@
     "release_year": 2000,
     "runtime_minutes": 116,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "Scream 3",
     "tmdb_id": 4234
   },
@@ -5378,6 +6257,9 @@
     "release_year": 2011,
     "runtime_minutes": 111,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "Scream 4",
     "tmdb_id": 41446
   },
@@ -5387,6 +6269,9 @@
     "release_year": 2023,
     "runtime_minutes": 123,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Scream 6",
     "tmdb_id": 934433
   },
@@ -5396,6 +6281,7 @@
     "release_year": 2021,
     "runtime_minutes": 93,
     "scare_count": 3,
+    "tags": [],
     "title": "Seance",
     "tmdb_id": 641668
   },
@@ -5405,6 +6291,7 @@
     "release_year": 2018,
     "runtime_minutes": 102,
     "scare_count": 0,
+    "tags": [],
     "title": "Searching",
     "tmdb_id": 489999
   },
@@ -5414,6 +6301,7 @@
     "release_year": 2004,
     "runtime_minutes": 96,
     "scare_count": 10,
+    "tags": [],
     "title": "Secret Window",
     "tmdb_id": 1586
   },
@@ -5423,6 +6311,7 @@
     "release_year": 2017,
     "runtime_minutes": 80,
     "scare_count": 3,
+    "tags": [],
     "title": "Sequence Break",
     "tmdb_id": 444490
   },
@@ -5432,6 +6321,7 @@
     "release_year": 2001,
     "runtime_minutes": 100,
     "scare_count": 0,
+    "tags": [],
     "title": "Session 9",
     "tmdb_id": 10972
   },
@@ -5441,6 +6331,7 @@
     "release_year": 1995,
     "runtime_minutes": 128,
     "scare_count": 1,
+    "tags": [],
     "title": "Seven",
     "tmdb_id": 966
   },
@@ -5450,6 +6341,7 @@
     "release_year": 2018,
     "runtime_minutes": 94,
     "scare_count": 8,
+    "tags": [],
     "title": "Seven in Heaven",
     "tmdb_id": 500535
   },
@@ -5459,6 +6351,7 @@
     "release_year": 2013,
     "runtime_minutes": 89,
     "scare_count": 10,
+    "tags": [],
     "title": "Shadow People",
     "tmdb_id": 176570
   },
@@ -5468,6 +6361,9 @@
     "release_year": 2004,
     "runtime_minutes": 99,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Shaun of the Dead",
     "tmdb_id": 747
   },
@@ -5477,6 +6373,7 @@
     "release_year": 2006,
     "runtime_minutes": 94,
     "scare_count": 2,
+    "tags": [],
     "title": "Sheitan",
     "tmdb_id": 13742
   },
@@ -5486,6 +6383,7 @@
     "release_year": 2004,
     "runtime_minutes": 96,
     "scare_count": 11,
+    "tags": [],
     "title": "Shutter",
     "tmdb_id": 17111
   },
@@ -5495,6 +6393,7 @@
     "release_year": 2010,
     "runtime_minutes": 138,
     "scare_count": 9,
+    "tags": [],
     "title": "Shutter Island",
     "tmdb_id": 11324
   },
@@ -5504,6 +6403,7 @@
     "release_year": 2002,
     "runtime_minutes": 106,
     "scare_count": 8,
+    "tags": [],
     "title": "Signs",
     "tmdb_id": 2675
   },
@@ -5513,6 +6413,7 @@
     "release_year": 2006,
     "runtime_minutes": 125,
     "scare_count": 7,
+    "tags": [],
     "title": "Silent Hill",
     "tmdb_id": 588
   },
@@ -5522,6 +6423,9 @@
     "release_year": 2012,
     "runtime_minutes": 94,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "Silent Hill: Revelation",
     "tmdb_id": 61012
   },
@@ -5531,6 +6435,9 @@
     "release_year": 1985,
     "runtime_minutes": 95,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Silver Bullet",
     "tmdb_id": 17898
   },
@@ -5540,6 +6447,9 @@
     "release_year": 2012,
     "runtime_minutes": 110,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Sinister",
     "tmdb_id": 82507
   },
@@ -5549,6 +6459,9 @@
     "release_year": 2015,
     "runtime_minutes": 97,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Sinister 2",
     "tmdb_id": 283445
   },
@@ -5558,6 +6471,7 @@
     "release_year": 2022,
     "runtime_minutes": 102,
     "scare_count": 7,
+    "tags": [],
     "title": "Sissy",
     "tmdb_id": 934207
   },
@@ -5567,6 +6481,7 @@
     "release_year": 2022,
     "runtime_minutes": 100,
     "scare_count": 5,
+    "tags": [],
     "title": "Skinamarink",
     "tmdb_id": 994143
   },
@@ -5576,6 +6491,7 @@
     "release_year": 2013,
     "runtime_minutes": 86,
     "scare_count": 5,
+    "tags": [],
     "title": "Skinwalker Ranch",
     "tmdb_id": 224815
   },
@@ -5585,6 +6501,7 @@
     "release_year": 1983,
     "runtime_minutes": 85,
     "scare_count": 6,
+    "tags": [],
     "title": "Sleepaway Camp",
     "tmdb_id": 13567
   },
@@ -5594,6 +6511,7 @@
     "release_year": 1999,
     "runtime_minutes": 105,
     "scare_count": 1,
+    "tags": [],
     "title": "Sleepy Hollow",
     "tmdb_id": 2668
   },
@@ -5603,6 +6521,9 @@
     "release_year": 2018,
     "runtime_minutes": 93,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Slender Man",
     "tmdb_id": 439015
   },
@@ -5612,6 +6533,7 @@
     "release_year": 2006,
     "runtime_minutes": 96,
     "scare_count": 10,
+    "tags": [],
     "title": "Slither",
     "tmdb_id": 9035
   },
@@ -5621,6 +6543,9 @@
     "release_year": 2017,
     "runtime_minutes": 84,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Slumber",
     "tmdb_id": 463602
   },
@@ -5630,6 +6555,9 @@
     "release_year": 2022,
     "runtime_minutes": 115,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Smile",
     "tmdb_id": 882598
   },
@@ -5639,6 +6567,7 @@
     "release_year": 1989,
     "runtime_minutes": 129,
     "scare_count": 1,
+    "tags": [],
     "title": "Society",
     "tmdb_id": 207
   },
@@ -5648,6 +6577,7 @@
     "release_year": 1995,
     "runtime_minutes": 108,
     "scare_count": 7,
+    "tags": [],
     "title": "Species",
     "tmdb_id": 9348
   },
@@ -5657,6 +6587,7 @@
     "release_year": 1998,
     "runtime_minutes": 134,
     "scare_count": 4,
+    "tags": [],
     "title": "Sphere",
     "tmdb_id": 10153
   },
@@ -5666,6 +6597,7 @@
     "release_year": 2019,
     "runtime_minutes": 87,
     "scare_count": 5,
+    "tags": [],
     "title": "Spiral",
     "tmdb_id": 614199
   },
@@ -5675,6 +6607,7 @@
     "release_year": 1998,
     "runtime_minutes": 97,
     "scare_count": 1,
+    "tags": [],
     "title": "Spiral (Rasen)",
     "tmdb_id": 9706
   },
@@ -5684,6 +6617,7 @@
     "release_year": 2021,
     "runtime_minutes": 93,
     "scare_count": 9,
+    "tags": [],
     "title": "Spiral: From the Book of Saw",
     "tmdb_id": 602734
   },
@@ -5693,6 +6627,7 @@
     "release_year": 2008,
     "runtime_minutes": 82,
     "scare_count": 10,
+    "tags": [],
     "title": "Splinter",
     "tmdb_id": 13220
   },
@@ -5702,6 +6637,7 @@
     "release_year": 2016,
     "runtime_minutes": 117,
     "scare_count": 3,
+    "tags": [],
     "title": "Split",
     "tmdb_id": 381288
   },
@@ -5711,6 +6647,7 @@
     "release_year": 2020,
     "runtime_minutes": 102,
     "scare_count": 3,
+    "tags": [],
     "title": "Spontaneous",
     "tmdb_id": 604578
   },
@@ -5720,6 +6657,7 @@
     "release_year": 2014,
     "runtime_minutes": 110,
     "scare_count": 1,
+    "tags": [],
     "title": "Spring",
     "tmdb_id": 241855
   },
@@ -5729,6 +6667,7 @@
     "release_year": 2020,
     "runtime_minutes": 113,
     "scare_count": 3,
+    "tags": [],
     "title": "Sputnik",
     "tmdb_id": 594718
   },
@@ -5738,6 +6677,7 @@
     "release_year": 1987,
     "runtime_minutes": 90,
     "scare_count": 2,
+    "tags": [],
     "title": "StageFright",
     "tmdb_id": 20465
   },
@@ -5747,6 +6687,7 @@
     "release_year": 2010,
     "runtime_minutes": 98,
     "scare_count": 1,
+    "tags": [],
     "title": "Stake Land",
     "tmdb_id": 52015
   },
@@ -5756,6 +6697,7 @@
     "release_year": 2018,
     "runtime_minutes": 99,
     "scare_count": 4,
+    "tags": [],
     "title": "Starfish",
     "tmdb_id": 542713
   },
@@ -5765,6 +6707,7 @@
     "release_year": 2014,
     "runtime_minutes": 96,
     "scare_count": 9,
+    "tags": [],
     "title": "Starry Eyes",
     "tmdb_id": 254194
   },
@@ -5774,6 +6717,9 @@
     "release_year": 2006,
     "runtime_minutes": 100,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Stay Alive",
     "tmdb_id": 10069
   },
@@ -5783,6 +6729,7 @@
     "release_year": 2020,
     "runtime_minutes": 80,
     "scare_count": 2,
+    "tags": [],
     "title": "Stay Out Of The F**king Attic",
     "tmdb_id": 787009
   },
@@ -5792,6 +6739,9 @@
     "release_year": 2017,
     "runtime_minutes": 86,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "Stephanie",
     "tmdb_id": 333357
   },
@@ -5801,6 +6751,7 @@
     "release_year": 1999,
     "runtime_minutes": 99,
     "scare_count": 9,
+    "tags": [],
     "title": "Stir of Echoes",
     "tmdb_id": 11601
   },
@@ -5810,6 +6761,7 @@
     "release_year": 2013,
     "runtime_minutes": 99,
     "scare_count": 0,
+    "tags": [],
     "title": "Stoker",
     "tmdb_id": 86825
   },
@@ -5819,6 +6771,7 @@
     "release_year": 1987,
     "runtime_minutes": 101,
     "scare_count": 0,
+    "tags": [],
     "title": "Street Trash",
     "tmdb_id": 22172
   },
@@ -5828,6 +6781,7 @@
     "release_year": 2001,
     "runtime_minutes": 99,
     "scare_count": 0,
+    "tags": [],
     "title": "Suicide Club",
     "tmdb_id": 12720
   },
@@ -5837,6 +6791,9 @@
     "release_year": 2018,
     "runtime_minutes": 106,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "Summer of 84",
     "tmdb_id": 470229
   },
@@ -5846,6 +6803,7 @@
     "release_year": 2007,
     "runtime_minutes": 108,
     "scare_count": 6,
+    "tags": [],
     "title": "Sunshine",
     "tmdb_id": 1272
   },
@@ -5855,15 +6813,19 @@
     "release_year": 2011,
     "runtime_minutes": 112,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Super 8",
     "tmdb_id": 37686
   },
   {
     "has_subtitles": false,
     "poster_path": "/f4EJQrq5bKCqJK6I5moST9kur2p.jpg",
-    "release_year": 2018,
+    "release_year": 1977,
     "runtime_minutes": 99,
-    "scare_count": 2,
+    "scare_count": 6,
+    "tags": [],
     "title": "Suspiria",
     "tmdb_id": 11906
   },
@@ -5873,6 +6835,7 @@
     "release_year": 2015,
     "runtime_minutes": 98,
     "scare_count": 6,
+    "tags": [],
     "title": "Sweet Home",
     "tmdb_id": 276839
   },
@@ -5882,6 +6845,7 @@
     "release_year": 2019,
     "runtime_minutes": 82,
     "scare_count": 6,
+    "tags": [],
     "title": "Sweetheart",
     "tmdb_id": 463843
   },
@@ -5891,6 +6855,7 @@
     "release_year": 1998,
     "runtime_minutes": 88,
     "scare_count": 0,
+    "tags": [],
     "title": "Tale of the Mummy",
     "tmdb_id": 66892
   },
@@ -5900,6 +6865,9 @@
     "release_year": 2015,
     "runtime_minutes": 97,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Tales of Halloween",
     "tmdb_id": 306964
   },
@@ -5909,6 +6877,7 @@
     "release_year": 2022,
     "runtime_minutes": 95,
     "scare_count": 7,
+    "tags": [],
     "title": "Talk To Me",
     "tmdb_id": 1008042
   },
@@ -5918,6 +6887,9 @@
     "release_year": 2017,
     "runtime_minutes": 88,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Terrified (Aterrados)",
     "tmdb_id": 489430
   },
@@ -5927,6 +6899,9 @@
     "release_year": 2016,
     "runtime_minutes": 84,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "Terrifier",
     "tmdb_id": 420634
   },
@@ -5936,6 +6911,9 @@
     "release_year": 2013,
     "runtime_minutes": 92,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "Texas Chainsaw 3D",
     "tmdb_id": 76617
   },
@@ -5945,6 +6923,7 @@
     "release_year": 2016,
     "runtime_minutes": 108,
     "scare_count": 5,
+    "tags": [],
     "title": "The 9th Life of Louis Drax",
     "tmdb_id": 294795
   },
@@ -5954,6 +6933,9 @@
     "release_year": 2015,
     "runtime_minutes": 86,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Abandoned",
     "tmdb_id": 345875
   },
@@ -5963,6 +6945,7 @@
     "release_year": 2012,
     "runtime_minutes": 129,
     "scare_count": 0,
+    "tags": [],
     "title": "The ABCs of Death",
     "tmdb_id": 87436
   },
@@ -5972,6 +6955,7 @@
     "release_year": 1989,
     "runtime_minutes": 140,
     "scare_count": 2,
+    "tags": [],
     "title": "The Abyss",
     "tmdb_id": 2756
   },
@@ -5981,6 +6965,7 @@
     "release_year": 2021,
     "runtime_minutes": 104,
     "scare_count": 3,
+    "tags": [],
     "title": "The Advent Calendar",
     "tmdb_id": 762079
   },
@@ -5990,6 +6975,7 @@
     "release_year": 1979,
     "runtime_minutes": 118,
     "scare_count": 8,
+    "tags": [],
     "title": "The Amityville Horror",
     "tmdb_id": 11449
   },
@@ -5999,6 +6985,9 @@
     "release_year": 2005,
     "runtime_minutes": 90,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Amityville Horror",
     "tmdb_id": 10065
   },
@@ -6008,6 +6997,7 @@
     "release_year": 2019,
     "runtime_minutes": 54,
     "scare_count": 0,
+    "tags": [],
     "title": "The Amusement Park",
     "tmdb_id": 560981
   },
@@ -6017,6 +7007,9 @@
     "release_year": 2015,
     "runtime_minutes": 92,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Atticus Institute",
     "tmdb_id": 299551
   },
@@ -6026,6 +7019,9 @@
     "release_year": 2016,
     "runtime_minutes": 86,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Autopsy of Jane Doe",
     "tmdb_id": 397243
   },
@@ -6035,6 +7031,7 @@
     "release_year": 2011,
     "runtime_minutes": 107,
     "scare_count": 6,
+    "tags": [],
     "title": "The Awakening",
     "tmdb_id": 77949
   },
@@ -6044,6 +7041,7 @@
     "release_year": 2018,
     "runtime_minutes": 98,
     "scare_count": 4,
+    "tags": [],
     "title": "The Axiom",
     "tmdb_id": 517166
   },
@@ -6053,7 +7051,8 @@
     "release_year": 2014,
     "runtime_minutes": 94,
     "scare_count": 11,
-    "title": "The Babadook",
+    "tags": [],
+    "title": "The Babadook – Original Australian Blu-Ray at 25fps",
     "tmdb_id": 242224
   },
   {
@@ -6062,6 +7061,7 @@
     "release_year": 2017,
     "runtime_minutes": 85,
     "scare_count": 8,
+    "tags": [],
     "title": "The Babysitter",
     "tmdb_id": 419479
   },
@@ -6071,6 +7071,7 @@
     "release_year": 2012,
     "runtime_minutes": 97,
     "scare_count": 5,
+    "tags": [],
     "title": "The Barrens",
     "tmdb_id": 135368
   },
@@ -6080,6 +7081,7 @@
     "release_year": 2022,
     "runtime_minutes": 177,
     "scare_count": 4,
+    "tags": [],
     "title": "The Batman",
     "tmdb_id": 414906
   },
@@ -6089,6 +7091,7 @@
     "release_year": 2012,
     "runtime_minutes": 85,
     "scare_count": 8,
+    "tags": [],
     "title": "The Bay",
     "tmdb_id": 123105
   },
@@ -6098,6 +7101,7 @@
     "release_year": 2020,
     "runtime_minutes": 88,
     "scare_count": 2,
+    "tags": [],
     "title": "The Beach House",
     "tmdb_id": 632304
   },
@@ -6107,6 +7111,7 @@
     "release_year": 2016,
     "runtime_minutes": 89,
     "scare_count": 8,
+    "tags": [],
     "title": "The Belko Experiment",
     "tmdb_id": 341006
   },
@@ -6116,6 +7121,9 @@
     "release_year": 1981,
     "runtime_minutes": 88,
     "scare_count": 27,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Beyond",
     "tmdb_id": 19204
   },
@@ -6125,6 +7133,7 @@
     "release_year": 2022,
     "runtime_minutes": 103,
     "scare_count": 3,
+    "tags": [],
     "title": "The Black Phone",
     "tmdb_id": 756999
   },
@@ -6134,17 +7143,9 @@
     "release_year": 2015,
     "runtime_minutes": 94,
     "scare_count": 3,
+    "tags": [],
     "title": "The Blackcoat’s Daughter",
     "tmdb_id": 334536
-  },
-  {
-    "has_subtitles": false,
-    "poster_path": "/9050VGrYjYrEjpOvDZVAngLbg1f.jpg",
-    "release_year": 1999,
-    "runtime_minutes": 81,
-    "scare_count": 0,
-    "title": "The Blair Witch Project",
-    "tmdb_id": 2667
   },
   {
     "has_subtitles": false,
@@ -6152,6 +7153,7 @@
     "release_year": 1958,
     "runtime_minutes": 82,
     "scare_count": 3,
+    "tags": [],
     "title": "The Blob",
     "tmdb_id": 8851
   },
@@ -6161,6 +7163,7 @@
     "release_year": 1988,
     "runtime_minutes": 95,
     "scare_count": 11,
+    "tags": [],
     "title": "The Blob",
     "tmdb_id": 9599
   },
@@ -6170,6 +7173,9 @@
     "release_year": 2013,
     "runtime_minutes": 89,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Borderlands (Final Prayer)",
     "tmdb_id": 207774
   },
@@ -6179,6 +7185,7 @@
     "release_year": 2015,
     "runtime_minutes": 110,
     "scare_count": 1,
+    "tags": [],
     "title": "The Boy",
     "tmdb_id": 257444
   },
@@ -6188,6 +7195,7 @@
     "release_year": 2016,
     "runtime_minutes": 98,
     "scare_count": 11,
+    "tags": [],
     "title": "The Boy",
     "tmdb_id": 321258
   },
@@ -6197,6 +7205,7 @@
     "release_year": 2020,
     "runtime_minutes": 88,
     "scare_count": 5,
+    "tags": [],
     "title": "The Boy Behind The Door",
     "tmdb_id": 741613
   },
@@ -6206,6 +7215,9 @@
     "release_year": 1981,
     "runtime_minutes": 91,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Burning",
     "tmdb_id": 24124
   },
@@ -6215,6 +7227,7 @@
     "release_year": 2004,
     "runtime_minutes": 113,
     "scare_count": 4,
+    "tags": [],
     "title": "The Butterfly Effect",
     "tmdb_id": 1954
   },
@@ -6224,6 +7237,9 @@
     "release_year": 2017,
     "runtime_minutes": 96,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Bye Bye Man",
     "tmdb_id": 292280
   },
@@ -6233,6 +7249,9 @@
     "release_year": 2012,
     "runtime_minutes": 95,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Cabin In The Woods",
     "tmdb_id": 22970
   },
@@ -6242,6 +7261,7 @@
     "release_year": 2020,
     "runtime_minutes": 100,
     "scare_count": 2,
+    "tags": [],
     "title": "The Call",
     "tmdb_id": 481848
   },
@@ -6251,6 +7271,7 @@
     "release_year": 2013,
     "runtime_minutes": 96,
     "scare_count": 9,
+    "tags": [],
     "title": "The Call",
     "tmdb_id": 158011
   },
@@ -6260,6 +7281,7 @@
     "release_year": 2014,
     "runtime_minutes": 93,
     "scare_count": 4,
+    "tags": [],
     "title": "The Canal",
     "tmdb_id": 265010
   },
@@ -6269,6 +7291,7 @@
     "release_year": 2000,
     "runtime_minutes": 107,
     "scare_count": 6,
+    "tags": [],
     "title": "The Cell",
     "tmdb_id": 8843
   },
@@ -6278,6 +7301,7 @@
     "release_year": 1980,
     "runtime_minutes": 107,
     "scare_count": 7,
+    "tags": [],
     "title": "The Changeling",
     "tmdb_id": 13550
   },
@@ -6287,6 +7311,9 @@
     "release_year": 2019,
     "runtime_minutes": 91,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Cleansing Hour",
     "tmdb_id": 608994
   },
@@ -6296,6 +7323,7 @@
     "release_year": 2020,
     "runtime_minutes": 98,
     "scare_count": 3,
+    "tags": [],
     "title": "The Closet",
     "tmdb_id": 571625
   },
@@ -6305,6 +7333,7 @@
     "release_year": 2018,
     "runtime_minutes": 109,
     "scare_count": 0,
+    "tags": [],
     "title": "The Clovehitch Killer",
     "tmdb_id": 544431
   },
@@ -6314,6 +7343,7 @@
     "release_year": 2018,
     "runtime_minutes": 102,
     "scare_count": 8,
+    "tags": [],
     "title": "The Cloverfield Paradox",
     "tmdb_id": 384521
   },
@@ -6323,6 +7353,7 @@
     "release_year": 2009,
     "runtime_minutes": 90,
     "scare_count": 2,
+    "tags": [],
     "title": "The Collector",
     "tmdb_id": 21407
   },
@@ -6332,6 +7363,7 @@
     "release_year": 2002,
     "runtime_minutes": 82,
     "scare_count": 4,
+    "tags": [],
     "title": "The Collingswood Story",
     "tmdb_id": 54511
   },
@@ -6341,6 +7373,9 @@
     "release_year": 2013,
     "runtime_minutes": 112,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Conjuring",
     "tmdb_id": 138843
   },
@@ -6350,6 +7385,9 @@
     "release_year": 2016,
     "runtime_minutes": 134,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Conjuring 2",
     "tmdb_id": 259693
   },
@@ -6359,6 +7397,9 @@
     "release_year": 2021,
     "runtime_minutes": 111,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Conjuring: The Devil Made Me Do It",
     "tmdb_id": 423108
   },
@@ -6368,6 +7409,7 @@
     "release_year": 2012,
     "runtime_minutes": 85,
     "scare_count": 1,
+    "tags": [],
     "title": "The Conspiracy",
     "tmdb_id": 133369
   },
@@ -6377,6 +7419,7 @@
     "release_year": 1974,
     "runtime_minutes": 115,
     "scare_count": 1,
+    "tags": [],
     "title": "The Conversation",
     "tmdb_id": 592
   },
@@ -6386,6 +7429,7 @@
     "release_year": 1996,
     "runtime_minutes": 101,
     "scare_count": 4,
+    "tags": [],
     "title": "The Craft",
     "tmdb_id": 9100
   },
@@ -6395,6 +7439,9 @@
     "release_year": 2010,
     "runtime_minutes": 101,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Crazies",
     "tmdb_id": 29427
   },
@@ -6404,6 +7451,7 @@
     "release_year": 2017,
     "runtime_minutes": 90,
     "scare_count": 0,
+    "tags": [],
     "title": "The Cropsey Incident",
     "tmdb_id": 468303
   },
@@ -6413,6 +7461,9 @@
     "release_year": 2017,
     "runtime_minutes": 90,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Crucifixion",
     "tmdb_id": 394830
   },
@@ -6422,6 +7473,9 @@
     "release_year": 2017,
     "runtime_minutes": 95,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Cured",
     "tmdb_id": 469721
   },
@@ -6431,6 +7485,9 @@
     "release_year": 2019,
     "runtime_minutes": 93,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Curse of La Llorona",
     "tmdb_id": 480414
   },
@@ -6440,6 +7497,7 @@
     "release_year": 2019,
     "runtime_minutes": 97,
     "scare_count": 9,
+    "tags": [],
     "title": "The Dare",
     "tmdb_id": 623521
   },
@@ -6449,6 +7507,7 @@
     "release_year": 2020,
     "runtime_minutes": 95,
     "scare_count": 11,
+    "tags": [],
     "title": "The Dark and the Wicked",
     "tmdb_id": 680593
   },
@@ -6458,6 +7517,7 @@
     "release_year": 2019,
     "runtime_minutes": 104,
     "scare_count": 0,
+    "tags": [],
     "title": "The Dead Don’t Die",
     "tmdb_id": 535581
   },
@@ -6467,6 +7527,9 @@
     "release_year": 2021,
     "runtime_minutes": 85,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Deep House",
     "tmdb_id": 672582
   },
@@ -6476,6 +7539,7 @@
     "release_year": 2020,
     "runtime_minutes": 95,
     "scare_count": 2,
+    "tags": [],
     "title": "The Deeper You Dig",
     "tmdb_id": 611640
   },
@@ -6485,6 +7549,9 @@
     "release_year": 2013,
     "runtime_minutes": 77,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Den",
     "tmdb_id": 244610
   },
@@ -6494,6 +7561,7 @@
     "release_year": 1996,
     "runtime_minutes": 92,
     "scare_count": 3,
+    "tags": [],
     "title": "The Dentist",
     "tmdb_id": 9568
   },
@@ -6503,6 +7571,7 @@
     "release_year": 1998,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "The Dentist 2",
     "tmdb_id": 37526
   },
@@ -6512,6 +7581,9 @@
     "release_year": 2005,
     "runtime_minutes": 100,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Descent",
     "tmdb_id": 9392
   },
@@ -6521,6 +7593,9 @@
     "release_year": 2009,
     "runtime_minutes": 94,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Descent: Part 2",
     "tmdb_id": 34480
   },
@@ -6530,6 +7605,9 @@
     "release_year": 2021,
     "runtime_minutes": 89,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Devil Below",
     "tmdb_id": 760875
   },
@@ -6539,6 +7617,7 @@
     "release_year": 2012,
     "runtime_minutes": 83,
     "scare_count": 0,
+    "tags": [],
     "title": "The Devil Inside",
     "tmdb_id": 76487
   },
@@ -6548,6 +7627,7 @@
     "release_year": 2001,
     "runtime_minutes": 108,
     "scare_count": 4,
+    "tags": [],
     "title": "The Devil’s Backbone",
     "tmdb_id": 1433
   },
@@ -6557,6 +7637,7 @@
     "release_year": 2015,
     "runtime_minutes": 80,
     "scare_count": 8,
+    "tags": [],
     "title": "The Devil’s Candy",
     "tmdb_id": 354216
   },
@@ -6566,6 +7647,7 @@
     "release_year": 2005,
     "runtime_minutes": 111,
     "scare_count": 0,
+    "tags": [],
     "title": "The Devil’s Rejects",
     "tmdb_id": 1696
   },
@@ -6575,6 +7657,7 @@
     "release_year": 2016,
     "runtime_minutes": 92,
     "scare_count": 9,
+    "tags": [],
     "title": "The Disappointments Room",
     "tmdb_id": 293452
   },
@@ -6584,6 +7667,7 @@
     "release_year": 2004,
     "runtime_minutes": 102,
     "scare_count": 7,
+    "tags": [],
     "title": "The Echo",
     "tmdb_id": 110285
   },
@@ -6593,6 +7677,7 @@
     "release_year": 2008,
     "runtime_minutes": 96,
     "scare_count": 9,
+    "tags": [],
     "title": "The Echo",
     "tmdb_id": 25329
   },
@@ -6602,6 +7687,7 @@
     "release_year": 2020,
     "runtime_minutes": 137,
     "scare_count": 5,
+    "tags": [],
     "title": "The Empty Man",
     "tmdb_id": 516632
   },
@@ -6611,6 +7697,7 @@
     "release_year": 2017,
     "runtime_minutes": 112,
     "scare_count": 7,
+    "tags": [],
     "title": "The Endless",
     "tmdb_id": 430231
   },
@@ -6620,6 +7707,9 @@
     "release_year": 1981,
     "runtime_minutes": 85,
     "scare_count": 22,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Evil Dead",
     "tmdb_id": 764
   },
@@ -6629,6 +7719,7 @@
     "release_year": 2005,
     "runtime_minutes": 122,
     "scare_count": 9,
+    "tags": [],
     "title": "The Exorcism of Emily Rose",
     "tmdb_id": 8643
   },
@@ -6638,6 +7729,7 @@
     "release_year": 1973,
     "runtime_minutes": 122,
     "scare_count": 11,
+    "tags": [],
     "title": "The Exorcist",
     "tmdb_id": 9552
   },
@@ -6647,6 +7739,7 @@
     "release_year": 1990,
     "runtime_minutes": 110,
     "scare_count": 11,
+    "tags": [],
     "title": "The Exorcist III",
     "tmdb_id": 11587
   },
@@ -6656,6 +7749,7 @@
     "release_year": 2002,
     "runtime_minutes": 98,
     "scare_count": 5,
+    "tags": [],
     "title": "The Eye",
     "tmdb_id": 10389
   },
@@ -6665,6 +7759,7 @@
     "release_year": 2016,
     "runtime_minutes": 76,
     "scare_count": 0,
+    "tags": [],
     "title": "The Eyes of My Mother",
     "tmdb_id": 371560
   },
@@ -6674,6 +7769,7 @@
     "release_year": 1998,
     "runtime_minutes": 104,
     "scare_count": 11,
+    "tags": [],
     "title": "The Faculty",
     "tmdb_id": 9276
   },
@@ -6683,6 +7779,7 @@
     "release_year": 2018,
     "runtime_minutes": 117,
     "scare_count": 5,
+    "tags": [],
     "title": "The Field Guide to Evil",
     "tmdb_id": 436549
   },
@@ -6692,6 +7789,7 @@
     "release_year": 2009,
     "runtime_minutes": 82,
     "scare_count": 4,
+    "tags": [],
     "title": "The Final Destination",
     "tmdb_id": 19912
   },
@@ -6701,6 +7799,7 @@
     "release_year": 2015,
     "runtime_minutes": 91,
     "scare_count": 8,
+    "tags": [],
     "title": "The Final Girls",
     "tmdb_id": 293970
   },
@@ -6710,6 +7809,7 @@
     "release_year": 2018,
     "runtime_minutes": 97,
     "scare_count": 8,
+    "tags": [],
     "title": "The First Purge",
     "tmdb_id": 442249
   },
@@ -6719,6 +7819,7 @@
     "release_year": 1986,
     "runtime_minutes": 96,
     "scare_count": 2,
+    "tags": [],
     "title": "The Fly",
     "tmdb_id": 9426
   },
@@ -6728,6 +7829,9 @@
     "release_year": 1980,
     "runtime_minutes": 90,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Fog",
     "tmdb_id": 790
   },
@@ -6737,6 +7841,9 @@
     "release_year": 2016,
     "runtime_minutes": 93,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Forest",
     "tmdb_id": 329440
   },
@@ -6746,6 +7853,9 @@
     "release_year": 2021,
     "runtime_minutes": 103,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Forever Purge",
     "tmdb_id": 602223
   },
@@ -6755,6 +7865,7 @@
     "release_year": 2004,
     "runtime_minutes": 91,
     "scare_count": 7,
+    "tags": [],
     "title": "The Forgotten",
     "tmdb_id": 10145
   },
@@ -6764,6 +7875,7 @@
     "release_year": 2009,
     "runtime_minutes": 98,
     "scare_count": 3,
+    "tags": [],
     "title": "The Fourth Kind",
     "tmdb_id": 22824
   },
@@ -6773,6 +7885,7 @@
     "release_year": 1996,
     "runtime_minutes": 110,
     "scare_count": 9,
+    "tags": [],
     "title": "The Frighteners",
     "tmdb_id": 10779
   },
@@ -6782,6 +7895,7 @@
     "release_year": 2020,
     "runtime_minutes": 86,
     "scare_count": 3,
+    "tags": [],
     "title": "The Funeral Home",
     "tmdb_id": 714277
   },
@@ -6791,6 +7905,9 @@
     "release_year": 1981,
     "runtime_minutes": 95,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Funhouse",
     "tmdb_id": 13555
   },
@@ -6800,6 +7917,7 @@
     "release_year": 2015,
     "runtime_minutes": 90,
     "scare_count": 0,
+    "tags": [],
     "title": "The Funhouse Massacre",
     "tmdb_id": 363889
   },
@@ -6809,6 +7927,9 @@
     "release_year": 2015,
     "runtime_minutes": 81,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Gallows",
     "tmdb_id": 299245
   },
@@ -6818,6 +7939,7 @@
     "release_year": 2015,
     "runtime_minutes": 108,
     "scare_count": 5,
+    "tags": [],
     "title": "The Gift",
     "tmdb_id": 328425
   },
@@ -6827,8 +7949,19 @@
     "release_year": 2016,
     "runtime_minutes": 111,
     "scare_count": 3,
+    "tags": [],
     "title": "The Girl with All the Gifts",
     "tmdb_id": 375366
+  },
+  {
+    "has_subtitles": false,
+    "poster_path": "/9FxUm0peyinMPv21uUmgGt92WOi.jpg",
+    "release_year": 2016,
+    "runtime_minutes": 98,
+    "scare_count": 7,
+    "tags": [],
+    "title": "The Good Neighbor",
+    "tmdb_id": 339994
   },
   {
     "has_subtitles": false,
@@ -6836,6 +7969,7 @@
     "release_year": 2017,
     "runtime_minutes": 95,
     "scare_count": 10,
+    "tags": [],
     "title": "The Gracefield Incident",
     "tmdb_id": 327253
   },
@@ -6845,6 +7979,7 @@
     "release_year": 2013,
     "runtime_minutes": 100,
     "scare_count": 4,
+    "tags": [],
     "title": "The Green Inferno",
     "tmdb_id": 171424
   },
@@ -6854,6 +7989,9 @@
     "release_year": 2020,
     "runtime_minutes": 94,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Grudge",
     "tmdb_id": 465086
   },
@@ -6863,6 +8001,9 @@
     "release_year": 2004,
     "runtime_minutes": 92,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Grudge",
     "tmdb_id": 1970
   },
@@ -6872,6 +8013,9 @@
     "release_year": 2006,
     "runtime_minutes": 102,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Grudge 2",
     "tmdb_id": 1975
   },
@@ -6881,6 +8025,7 @@
     "release_year": 2014,
     "runtime_minutes": 101,
     "scare_count": 5,
+    "tags": [],
     "title": "The Guest",
     "tmdb_id": 241848
   },
@@ -6890,6 +8035,9 @@
     "release_year": 2015,
     "runtime_minutes": 97,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Hallow",
     "tmdb_id": 312831
   },
@@ -6899,6 +8047,7 @@
     "release_year": 2008,
     "runtime_minutes": 90,
     "scare_count": 1,
+    "tags": [],
     "title": "The Happening",
     "tmdb_id": 8645
   },
@@ -6908,6 +8057,7 @@
     "release_year": 2001,
     "runtime_minutes": 113,
     "scare_count": 4,
+    "tags": [],
     "title": "The Happiness of the Katakuris",
     "tmdb_id": 16184
   },
@@ -6917,6 +8067,7 @@
     "release_year": 2013,
     "runtime_minutes": 104,
     "scare_count": 0,
+    "tags": [],
     "title": "The Harvest",
     "tmdb_id": 229182
   },
@@ -6926,6 +8077,7 @@
     "release_year": 1963,
     "runtime_minutes": 112,
     "scare_count": 3,
+    "tags": [],
     "title": "The Haunting",
     "tmdb_id": 11772
   },
@@ -6935,6 +8087,9 @@
     "release_year": 2009,
     "runtime_minutes": 102,
     "scare_count": 26,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Haunting in Connecticut",
     "tmdb_id": 18781
   },
@@ -6944,6 +8099,9 @@
     "release_year": 2013,
     "runtime_minutes": 101,
     "scare_count": 32,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Haunting in Connecticut 2: Ghosts of Georgia",
     "tmdb_id": 150202
   },
@@ -6953,6 +8111,7 @@
     "release_year": 2017,
     "runtime_minutes": 87,
     "scare_count": 4,
+    "tags": [],
     "title": "The Heretics",
     "tmdb_id": 438736
   },
@@ -6962,15 +8121,17 @@
     "release_year": 2006,
     "runtime_minutes": 107,
     "scare_count": 9,
+    "tags": [],
     "title": "The Hills Have Eyes",
     "tmdb_id": 9792
   },
   {
     "has_subtitles": false,
     "poster_path": "/89giuiFssSVCUxkCP386v66cry8.jpg",
-    "release_year": 2007,
+    "release_year": 1986,
     "runtime_minutes": 98,
-    "scare_count": 10,
+    "scare_count": 11,
+    "tags": [],
     "title": "The Hitcher",
     "tmdb_id": 9542
   },
@@ -6980,6 +8141,7 @@
     "release_year": 2001,
     "runtime_minutes": 102,
     "scare_count": 3,
+    "tags": [],
     "title": "The Hole",
     "tmdb_id": 467
   },
@@ -6989,6 +8151,7 @@
     "release_year": 2019,
     "runtime_minutes": 90,
     "scare_count": 9,
+    "tags": [],
     "title": "The Hole in the Ground",
     "tmdb_id": 484437
   },
@@ -6998,6 +8161,7 @@
     "release_year": 2009,
     "runtime_minutes": 95,
     "scare_count": 4,
+    "tags": [],
     "title": "The House of the Devil",
     "tmdb_id": 25983
   },
@@ -7007,6 +8171,7 @@
     "release_year": 2015,
     "runtime_minutes": 111,
     "scare_count": 5,
+    "tags": [],
     "title": "The House on Pine Street",
     "tmdb_id": 326247
   },
@@ -7016,6 +8181,9 @@
     "release_year": 1982,
     "runtime_minutes": 91,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The House on Sorority Row",
     "tmdb_id": 40229
   },
@@ -7025,6 +8193,7 @@
     "release_year": 2018,
     "runtime_minutes": 105,
     "scare_count": 8,
+    "tags": [],
     "title": "The House with a Clock in Its Walls",
     "tmdb_id": 463821
   },
@@ -7034,6 +8203,7 @@
     "release_year": 2014,
     "runtime_minutes": 91,
     "scare_count": 9,
+    "tags": [],
     "title": "The Houses October Built",
     "tmdb_id": 293572
   },
@@ -7043,6 +8213,7 @@
     "release_year": 1981,
     "runtime_minutes": 91,
     "scare_count": 10,
+    "tags": [],
     "title": "The Howling",
     "tmdb_id": 11298
   },
@@ -7052,6 +8223,7 @@
     "release_year": 2009,
     "runtime_minutes": 92,
     "scare_count": 4,
+    "tags": [],
     "title": "The Human Centipede – First Sequence",
     "tmdb_id": 37169
   },
@@ -7061,6 +8233,7 @@
     "release_year": 2020,
     "runtime_minutes": 90,
     "scare_count": 4,
+    "tags": [],
     "title": "The Hunt",
     "tmdb_id": 514847
   },
@@ -7070,6 +8243,7 @@
     "release_year": 2011,
     "runtime_minutes": 101,
     "scare_count": 9,
+    "tags": [],
     "title": "The Innkeepers",
     "tmdb_id": 58428
   },
@@ -7079,6 +8253,7 @@
     "release_year": 1961,
     "runtime_minutes": 100,
     "scare_count": 4,
+    "tags": [],
     "title": "The Innocents",
     "tmdb_id": 16372
   },
@@ -7088,6 +8263,7 @@
     "release_year": 2020,
     "runtime_minutes": 124,
     "scare_count": 6,
+    "tags": [],
     "title": "The Invisible Man",
     "tmdb_id": 570670
   },
@@ -7097,6 +8273,7 @@
     "release_year": 2015,
     "runtime_minutes": 100,
     "scare_count": 5,
+    "tags": [],
     "title": "The Invitation",
     "tmdb_id": 306947
   },
@@ -7106,6 +8283,7 @@
     "release_year": 2005,
     "runtime_minutes": 103,
     "scare_count": 6,
+    "tags": [],
     "title": "The Jacket",
     "tmdb_id": 9667
   },
@@ -7115,6 +8293,7 @@
     "release_year": 2017,
     "runtime_minutes": 121,
     "scare_count": 3,
+    "tags": [],
     "title": "The Killing of a Sacred Deer",
     "tmdb_id": 399057
   },
@@ -7124,6 +8303,7 @@
     "release_year": 1998,
     "runtime_minutes": 87,
     "scare_count": 1,
+    "tags": [],
     "title": "The Last Broadcast",
     "tmdb_id": 34288
   },
@@ -7133,6 +8313,7 @@
     "release_year": 2010,
     "runtime_minutes": 87,
     "scare_count": 7,
+    "tags": [],
     "title": "The Last Exorcism",
     "tmdb_id": 38358
   },
@@ -7142,6 +8323,7 @@
     "release_year": 2009,
     "runtime_minutes": 113,
     "scare_count": 4,
+    "tags": [],
     "title": "The Last House on the Left",
     "tmdb_id": 18405
   },
@@ -7151,6 +8333,9 @@
     "release_year": 2023,
     "runtime_minutes": 119,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Last Voyage Of The Demeter",
     "tmdb_id": 635910
   },
@@ -7160,6 +8345,9 @@
     "release_year": 2015,
     "runtime_minutes": 83,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Lazarus Effect",
     "tmdb_id": 243940
   },
@@ -7169,6 +8357,7 @@
     "release_year": 1972,
     "runtime_minutes": 87,
     "scare_count": 3,
+    "tags": [],
     "title": "The Legend of Boggy Creek",
     "tmdb_id": 1842
   },
@@ -7178,6 +8367,7 @@
     "release_year": 1973,
     "runtime_minutes": 95,
     "scare_count": 8,
+    "tags": [],
     "title": "The Legend of Hell House",
     "tmdb_id": 16180
   },
@@ -7187,6 +8377,7 @@
     "release_year": 2019,
     "runtime_minutes": 109,
     "scare_count": 4,
+    "tags": [],
     "title": "The Lighthouse",
     "tmdb_id": 503919
   },
@@ -7196,6 +8387,7 @@
     "release_year": 2016,
     "runtime_minutes": 109,
     "scare_count": 0,
+    "tags": [],
     "title": "The Limehouse Golem",
     "tmdb_id": 369300
   },
@@ -7205,6 +8397,7 @@
     "release_year": 2018,
     "runtime_minutes": 111,
     "scare_count": 0,
+    "tags": [],
     "title": "The Little Stranger",
     "tmdb_id": 455108
   },
@@ -7214,6 +8407,7 @@
     "release_year": 2021,
     "runtime_minutes": 128,
     "scare_count": 3,
+    "tags": [],
     "title": "The Little Things",
     "tmdb_id": 602269
   },
@@ -7223,6 +8417,7 @@
     "release_year": 2019,
     "runtime_minutes": 108,
     "scare_count": 5,
+    "tags": [],
     "title": "The Lodge",
     "tmdb_id": 474764
   },
@@ -7232,6 +8427,7 @@
     "release_year": 2012,
     "runtime_minutes": 101,
     "scare_count": 3,
+    "tags": [],
     "title": "The Lords of Salem",
     "tmdb_id": 104755
   },
@@ -7241,6 +8437,7 @@
     "release_year": 1987,
     "runtime_minutes": 97,
     "scare_count": 8,
+    "tags": [],
     "title": "The Lost Boys",
     "tmdb_id": 1547
   },
@@ -7250,6 +8447,7 @@
     "release_year": 2008,
     "runtime_minutes": 92,
     "scare_count": 10,
+    "tags": [],
     "title": "The Lost Boys: The Tribe",
     "tmdb_id": 13489
   },
@@ -7259,6 +8457,7 @@
     "release_year": 2016,
     "runtime_minutes": 121,
     "scare_count": 0,
+    "tags": [],
     "title": "The Love Witch",
     "tmdb_id": 374052
   },
@@ -7268,6 +8467,7 @@
     "release_year": 2020,
     "runtime_minutes": 87,
     "scare_count": 2,
+    "tags": [],
     "title": "The Lovebirds",
     "tmdb_id": 576156
   },
@@ -7277,6 +8477,7 @@
     "release_year": 2009,
     "runtime_minutes": 84,
     "scare_count": 3,
+    "tags": [],
     "title": "The Loved Ones",
     "tmdb_id": 46420
   },
@@ -7286,6 +8487,7 @@
     "release_year": 2021,
     "runtime_minutes": 81,
     "scare_count": 5,
+    "tags": [],
     "title": "The Manor",
     "tmdb_id": 767499
   },
@@ -7295,6 +8497,7 @@
     "release_year": 1989,
     "runtime_minutes": 63,
     "scare_count": 0,
+    "tags": [],
     "title": "The McPherson Tape",
     "tmdb_id": 204611
   },
@@ -7304,6 +8507,7 @@
     "release_year": 2021,
     "runtime_minutes": 131,
     "scare_count": 4,
+    "tags": [],
     "title": "The Medium",
     "tmdb_id": 745881
   },
@@ -7313,6 +8517,9 @@
     "release_year": 2018,
     "runtime_minutes": 113,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Meg",
     "tmdb_id": 345940
   },
@@ -7322,6 +8529,9 @@
     "release_year": 2007,
     "runtime_minutes": 90,
     "scare_count": 27,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Messengers",
     "tmdb_id": 9966
   },
@@ -7331,6 +8541,7 @@
     "release_year": 2008,
     "runtime_minutes": 103,
     "scare_count": 1,
+    "tags": [],
     "title": "The Midnight Meat Train",
     "tmdb_id": 10185
   },
@@ -7340,6 +8551,7 @@
     "release_year": 2007,
     "runtime_minutes": 126,
     "scare_count": 5,
+    "tags": [],
     "title": "The Mist",
     "tmdb_id": 5876
   },
@@ -7349,6 +8561,7 @@
     "release_year": 2016,
     "runtime_minutes": 91,
     "scare_count": 11,
+    "tags": [],
     "title": "The Monster",
     "tmdb_id": 340103
   },
@@ -7358,6 +8571,7 @@
     "release_year": 2020,
     "runtime_minutes": 108,
     "scare_count": 9,
+    "tags": [],
     "title": "The Mortuary Collection",
     "tmdb_id": 524216
   },
@@ -7367,6 +8581,7 @@
     "release_year": 2002,
     "runtime_minutes": 119,
     "scare_count": 4,
+    "tags": [],
     "title": "The Mothman Prophecies",
     "tmdb_id": 2637
   },
@@ -7376,6 +8591,9 @@
     "release_year": 1999,
     "runtime_minutes": 124,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Mummy",
     "tmdb_id": 564
   },
@@ -7385,17 +8603,11 @@
     "release_year": 2017,
     "runtime_minutes": 110,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Mummy",
     "tmdb_id": 282035
-  },
-  {
-    "has_subtitles": false,
-    "poster_path": "/9FxUm0peyinMPv21uUmgGt92WOi.jpg",
-    "release_year": 2016,
-    "runtime_minutes": 98,
-    "scare_count": 3,
-    "title": "The Neighbor",
-    "tmdb_id": 339994
   },
   {
     "has_subtitles": false,
@@ -7403,6 +8615,7 @@
     "release_year": 2016,
     "runtime_minutes": 118,
     "scare_count": 2,
+    "tags": [],
     "title": "The Neon Demon",
     "tmdb_id": 301365
   },
@@ -7412,6 +8625,7 @@
     "release_year": 2009,
     "runtime_minutes": 108,
     "scare_count": 11,
+    "tags": [],
     "title": "The New Daughter",
     "tmdb_id": 37534
   },
@@ -7421,6 +8635,7 @@
     "release_year": 2020,
     "runtime_minutes": 94,
     "scare_count": 6,
+    "tags": [],
     "title": "The New Mutants",
     "tmdb_id": 340102
   },
@@ -7430,6 +8645,7 @@
     "release_year": 2021,
     "runtime_minutes": 107,
     "scare_count": 7,
+    "tags": [],
     "title": "The Night House",
     "tmdb_id": 547565
   },
@@ -7439,6 +8655,7 @@
     "release_year": 2019,
     "runtime_minutes": 94,
     "scare_count": 2,
+    "tags": [],
     "title": "The Nightmare Gallery",
     "tmdb_id": 563282
   },
@@ -7448,6 +8665,7 @@
     "release_year": 1999,
     "runtime_minutes": 133,
     "scare_count": 0,
+    "tags": [],
     "title": "The Ninth Gate",
     "tmdb_id": 622
   },
@@ -7457,6 +8675,7 @@
     "release_year": 2007,
     "runtime_minutes": 97,
     "scare_count": 3,
+    "tags": [],
     "title": "The Number 23",
     "tmdb_id": 3594
   },
@@ -7466,6 +8685,9 @@
     "release_year": 2018,
     "runtime_minutes": 96,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Nun",
     "tmdb_id": 439079
   },
@@ -7475,6 +8697,9 @@
     "release_year": 2022,
     "runtime_minutes": 93,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Offering",
     "tmdb_id": 955991
   },
@@ -7484,6 +8709,7 @@
     "release_year": 2006,
     "runtime_minutes": 110,
     "scare_count": 8,
+    "tags": [],
     "title": "The Omen",
     "tmdb_id": 806
   },
@@ -7493,6 +8719,7 @@
     "release_year": 1976,
     "runtime_minutes": 111,
     "scare_count": 1,
+    "tags": [],
     "title": "The Omen",
     "tmdb_id": 794
   },
@@ -7502,6 +8729,7 @@
     "release_year": 2015,
     "runtime_minutes": 86,
     "scare_count": 0,
+    "tags": [],
     "title": "The Ones Below",
     "tmdb_id": 356842
   },
@@ -7511,6 +8739,9 @@
     "release_year": 2018,
     "runtime_minutes": 94,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Open House",
     "tmdb_id": 485774
   },
@@ -7520,6 +8751,7 @@
     "release_year": 2007,
     "runtime_minutes": 105,
     "scare_count": 7,
+    "tags": [],
     "title": "The Orphanage",
     "tmdb_id": 6537
   },
@@ -7529,6 +8761,9 @@
     "release_year": 2016,
     "runtime_minutes": 96,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Other Side of the Door",
     "tmdb_id": 364116
   },
@@ -7538,6 +8773,7 @@
     "release_year": 2001,
     "runtime_minutes": 101,
     "scare_count": 4,
+    "tags": [],
     "title": "The Others",
     "tmdb_id": 1933
   },
@@ -7547,6 +8783,7 @@
     "release_year": 2012,
     "runtime_minutes": 89,
     "scare_count": 0,
+    "tags": [],
     "title": "The Pact",
     "tmdb_id": 111440
   },
@@ -7556,6 +8793,9 @@
     "release_year": 1991,
     "runtime_minutes": 102,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The People Under the Stairs",
     "tmdb_id": 13122
   },
@@ -7565,6 +8805,7 @@
     "release_year": 2019,
     "runtime_minutes": 90,
     "scare_count": 1,
+    "tags": [],
     "title": "The Perfection",
     "tmdb_id": 529962
   },
@@ -7574,6 +8815,7 @@
     "release_year": 1974,
     "runtime_minutes": 103,
     "scare_count": 4,
+    "tags": [],
     "title": "The Perfume of the Lady in Black",
     "tmdb_id": 65317
   },
@@ -7583,6 +8825,7 @@
     "release_year": 2015,
     "runtime_minutes": 81,
     "scare_count": 10,
+    "tags": [],
     "title": "The Phoenix Incident",
     "tmdb_id": 321039
   },
@@ -7592,6 +8835,7 @@
     "release_year": 2018,
     "runtime_minutes": 91,
     "scare_count": 2,
+    "tags": [],
     "title": "The Pool",
     "tmdb_id": 550201
   },
@@ -7601,6 +8845,7 @@
     "release_year": 2012,
     "runtime_minutes": 92,
     "scare_count": 10,
+    "tags": [],
     "title": "The Possession",
     "tmdb_id": 77883
   },
@@ -7610,6 +8855,9 @@
     "release_year": 2014,
     "runtime_minutes": 83,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Possession of Michael King",
     "tmdb_id": 272692
   },
@@ -7619,6 +8867,7 @@
     "release_year": 2007,
     "runtime_minutes": 81,
     "scare_count": 4,
+    "tags": [],
     "title": "The Poughkeepsie Tapes",
     "tmdb_id": 38410
   },
@@ -7628,6 +8877,7 @@
     "release_year": 2018,
     "runtime_minutes": 107,
     "scare_count": 6,
+    "tags": [],
     "title": "The Predator",
     "tmdb_id": 346910
   },
@@ -7637,6 +8887,9 @@
     "release_year": 1981,
     "runtime_minutes": 89,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Prowler",
     "tmdb_id": 44247
   },
@@ -7646,6 +8899,9 @@
     "release_year": 2013,
     "runtime_minutes": 85,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Purge",
     "tmdb_id": 158015
   },
@@ -7655,6 +8911,9 @@
     "release_year": 2014,
     "runtime_minutes": 103,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Purge: Anarchy",
     "tmdb_id": 238636
   },
@@ -7664,6 +8923,7 @@
     "release_year": 2016,
     "runtime_minutes": 109,
     "scare_count": 9,
+    "tags": [],
     "title": "The Purge: Election Year",
     "tmdb_id": 316727
   },
@@ -7673,6 +8933,9 @@
     "release_year": 2014,
     "runtime_minutes": 89,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Pyramid",
     "tmdb_id": 282813
   },
@@ -7682,6 +8945,9 @@
     "release_year": 2014,
     "runtime_minutes": 98,
     "scare_count": 23,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Quiet Ones",
     "tmdb_id": 193612
   },
@@ -7691,6 +8957,7 @@
     "release_year": 1990,
     "runtime_minutes": 95,
     "scare_count": 0,
+    "tags": [],
     "title": "The Reflecting Skin",
     "tmdb_id": 21168
   },
@@ -7700,6 +8967,7 @@
     "release_year": 2020,
     "runtime_minutes": 88,
     "scare_count": 6,
+    "tags": [],
     "title": "The Rental",
     "tmdb_id": 587496
   },
@@ -7709,6 +8977,7 @@
     "release_year": 1985,
     "runtime_minutes": 91,
     "scare_count": 1,
+    "tags": [],
     "title": "The Return of the Living Dead",
     "tmdb_id": 10925
   },
@@ -7718,6 +8987,7 @@
     "release_year": 2002,
     "runtime_minutes": 115,
     "scare_count": 9,
+    "tags": [],
     "title": "The Ring",
     "tmdb_id": 565
   },
@@ -7727,6 +8997,7 @@
     "release_year": 2005,
     "runtime_minutes": 109,
     "scare_count": 11,
+    "tags": [],
     "title": "The Ring Two",
     "tmdb_id": 10320
   },
@@ -7736,6 +9007,7 @@
     "release_year": 1999,
     "runtime_minutes": 110,
     "scare_count": 3,
+    "tags": [],
     "title": "The Ring Virus",
     "tmdb_id": 37576
   },
@@ -7745,6 +9017,7 @@
     "release_year": 2011,
     "runtime_minutes": 114,
     "scare_count": 7,
+    "tags": [],
     "title": "The Rite",
     "tmdb_id": 48171
   },
@@ -7754,6 +9027,9 @@
     "release_year": 2017,
     "runtime_minutes": 95,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Ritual",
     "tmdb_id": 433808
   },
@@ -7763,6 +9039,7 @@
     "release_year": 2019,
     "runtime_minutes": 99,
     "scare_count": 5,
+    "tags": [],
     "title": "The Room",
     "tmdb_id": 582913
   },
@@ -7772,6 +9049,7 @@
     "release_year": 2008,
     "runtime_minutes": 91,
     "scare_count": 4,
+    "tags": [],
     "title": "The Ruins",
     "tmdb_id": 11152
   },
@@ -7781,6 +9059,7 @@
     "release_year": 2013,
     "runtime_minutes": 99,
     "scare_count": 2,
+    "tags": [],
     "title": "The Sacrament",
     "tmdb_id": 211067
   },
@@ -7790,6 +9069,7 @@
     "release_year": 2015,
     "runtime_minutes": 84,
     "scare_count": 0,
+    "tags": [],
     "title": "The Sand",
     "tmdb_id": 347847
   },
@@ -7799,6 +9079,7 @@
     "release_year": 2016,
     "runtime_minutes": 86,
     "scare_count": 9,
+    "tags": [],
     "title": "The Shallows",
     "tmdb_id": 332567
   },
@@ -7808,6 +9089,7 @@
     "release_year": 2017,
     "runtime_minutes": 123,
     "scare_count": 2,
+    "tags": [],
     "title": "The Shape of Water",
     "tmdb_id": 399055
   },
@@ -7817,6 +9099,9 @@
     "release_year": 2019,
     "runtime_minutes": 98,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Shed",
     "tmdb_id": 551994
   },
@@ -7826,6 +9111,9 @@
     "release_year": 1980,
     "runtime_minutes": 144,
     "scare_count": 3,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Shining",
     "tmdb_id": 694
   },
@@ -7835,6 +9123,7 @@
     "release_year": 1991,
     "runtime_minutes": 119,
     "scare_count": 0,
+    "tags": [],
     "title": "The Silence of the Lambs",
     "tmdb_id": 274
   },
@@ -7844,6 +9133,7 @@
     "release_year": 1999,
     "runtime_minutes": 107,
     "scare_count": 8,
+    "tags": [],
     "title": "The Sixth Sense",
     "tmdb_id": 745
   },
@@ -7853,6 +9143,7 @@
     "release_year": 2005,
     "runtime_minutes": 104,
     "scare_count": 11,
+    "tags": [],
     "title": "The Skeleton Key",
     "tmdb_id": 9913
   },
@@ -7862,6 +9153,7 @@
     "release_year": 2017,
     "runtime_minutes": 119,
     "scare_count": 9,
+    "tags": [],
     "title": "The Snowman",
     "tmdb_id": 372343
   },
@@ -7871,6 +9163,7 @@
     "release_year": 2020,
     "runtime_minutes": 94,
     "scare_count": 1,
+    "tags": [],
     "title": "The Special",
     "tmdb_id": 728144
   },
@@ -7880,6 +9173,7 @@
     "release_year": 2020,
     "runtime_minutes": 60,
     "scare_count": 0,
+    "tags": [],
     "title": "The Stalker",
     "tmdb_id": 733837
   },
@@ -7889,6 +9183,7 @@
     "release_year": 2022,
     "runtime_minutes": 117,
     "scare_count": 6,
+    "tags": [],
     "title": "The Stranger",
     "tmdb_id": 848791
   },
@@ -7898,6 +9193,9 @@
     "release_year": 2008,
     "runtime_minutes": 86,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Strangers",
     "tmdb_id": 10665
   },
@@ -7907,6 +9205,9 @@
     "release_year": 2018,
     "runtime_minutes": 86,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Strangers: Prey at Night",
     "tmdb_id": 371608
   },
@@ -7916,6 +9217,7 @@
     "release_year": 2021,
     "runtime_minutes": 132,
     "scare_count": 3,
+    "tags": [],
     "title": "The Suicide Squad",
     "tmdb_id": 436969
   },
@@ -7925,6 +9227,7 @@
     "release_year": 2019,
     "runtime_minutes": 96,
     "scare_count": 0,
+    "tags": [],
     "title": "The Swerve",
     "tmdb_id": 606443
   },
@@ -7934,6 +9237,9 @@
     "release_year": 2014,
     "runtime_minutes": 90,
     "scare_count": 19,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Taking of Deborah Logan",
     "tmdb_id": 297608
   },
@@ -7943,6 +9249,7 @@
     "release_year": 1974,
     "runtime_minutes": 83,
     "scare_count": 2,
+    "tags": [],
     "title": "The Texas Chain Saw Massacre",
     "tmdb_id": 30497
   },
@@ -7952,6 +9259,9 @@
     "release_year": 2003,
     "runtime_minutes": 98,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Texas Chainsaw Massacre",
     "tmdb_id": 9373
   },
@@ -7961,6 +9271,7 @@
     "release_year": 1986,
     "runtime_minutes": 100,
     "scare_count": 6,
+    "tags": [],
     "title": "The Texas Chainsaw Massacre 2",
     "tmdb_id": 16337
   },
@@ -7970,15 +9281,19 @@
     "release_year": 2006,
     "runtime_minutes": 91,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Texas Chainsaw Massacre: The Beginning",
     "tmdb_id": 10781
   },
   {
     "has_subtitles": false,
     "poster_path": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
-    "release_year": 1982,
+    "release_year": 2011,
     "runtime_minutes": 109,
     "scare_count": 7,
+    "tags": [],
     "title": "The Thing",
     "tmdb_id": 1091
   },
@@ -7988,6 +9303,7 @@
     "release_year": 2014,
     "runtime_minutes": 85,
     "scare_count": 0,
+    "tags": [],
     "title": "The Town That Dreaded Sundown",
     "tmdb_id": 287084
   },
@@ -7997,6 +9313,7 @@
     "release_year": 2016,
     "runtime_minutes": 97,
     "scare_count": 2,
+    "tags": [],
     "title": "The Transfiguration",
     "tmdb_id": 392818
   },
@@ -8006,6 +9323,7 @@
     "release_year": 2011,
     "runtime_minutes": 90,
     "scare_count": 6,
+    "tags": [],
     "title": "The Tunnel",
     "tmdb_id": 46221
   },
@@ -8015,6 +9333,9 @@
     "release_year": 2020,
     "runtime_minutes": 94,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Turning",
     "tmdb_id": 492611
   },
@@ -8024,6 +9345,9 @@
     "release_year": 2009,
     "runtime_minutes": 87,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Unborn",
     "tmdb_id": 13788
   },
@@ -8033,6 +9357,9 @@
     "release_year": 2021,
     "runtime_minutes": 99,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Unholy",
     "tmdb_id": 632357
   },
@@ -8042,6 +9369,7 @@
     "release_year": 2009,
     "runtime_minutes": 87,
     "scare_count": 11,
+    "tags": [],
     "title": "The Uninvited",
     "tmdb_id": 14254
   },
@@ -8051,6 +9379,7 @@
     "release_year": 2020,
     "runtime_minutes": 91,
     "scare_count": 0,
+    "tags": [],
     "title": "The Vast of Night",
     "tmdb_id": 565743
   },
@@ -8060,6 +9389,9 @@
     "release_year": 2016,
     "runtime_minutes": 93,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Veil",
     "tmdb_id": 257087
   },
@@ -8069,6 +9401,7 @@
     "release_year": 2019,
     "runtime_minutes": 88,
     "scare_count": 7,
+    "tags": [],
     "title": "The Vigil",
     "tmdb_id": 621707
   },
@@ -8078,6 +9411,7 @@
     "release_year": 2004,
     "runtime_minutes": 108,
     "scare_count": 4,
+    "tags": [],
     "title": "The Village",
     "tmdb_id": 6947
   },
@@ -8087,6 +9421,7 @@
     "release_year": 2015,
     "runtime_minutes": 94,
     "scare_count": 8,
+    "tags": [],
     "title": "The Visit",
     "tmdb_id": 298312
   },
@@ -8096,6 +9431,7 @@
     "release_year": 1979,
     "runtime_minutes": 109,
     "scare_count": 7,
+    "tags": [],
     "title": "The Visitor",
     "tmdb_id": 54013
   },
@@ -8105,6 +9441,7 @@
     "release_year": 1988,
     "runtime_minutes": 102,
     "scare_count": 0,
+    "tags": [],
     "title": "The Visitors",
     "tmdb_id": 16079
   },
@@ -8114,6 +9451,7 @@
     "release_year": 2014,
     "runtime_minutes": 104,
     "scare_count": 3,
+    "tags": [],
     "title": "The Voices",
     "tmdb_id": 244458
   },
@@ -8123,6 +9461,7 @@
     "release_year": 2016,
     "runtime_minutes": 90,
     "scare_count": 8,
+    "tags": [],
     "title": "The Void",
     "tmdb_id": 378018
   },
@@ -8132,6 +9471,7 @@
     "release_year": 2016,
     "runtime_minutes": 156,
     "scare_count": 4,
+    "tags": [],
     "title": "The Wailing",
     "tmdb_id": 293670
   },
@@ -8141,6 +9481,7 @@
     "release_year": 2010,
     "runtime_minutes": 89,
     "scare_count": 0,
+    "tags": [],
     "title": "The Ward",
     "tmdb_id": 45657
   },
@@ -8150,6 +9491,9 @@
     "release_year": 1980,
     "runtime_minutes": 83,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Watcher in the Woods",
     "tmdb_id": 21970
   },
@@ -8159,6 +9503,7 @@
     "release_year": 1973,
     "runtime_minutes": 93,
     "scare_count": 4,
+    "tags": [],
     "title": "The Wicker Man",
     "tmdb_id": 16307
   },
@@ -8168,6 +9513,7 @@
     "release_year": 2020,
     "runtime_minutes": 13,
     "scare_count": 5,
+    "tags": [],
     "title": "The Widow",
     "tmdb_id": 772831
   },
@@ -8177,6 +9523,7 @@
     "release_year": 2015,
     "runtime_minutes": 92,
     "scare_count": 4,
+    "tags": [],
     "title": "The Witch",
     "tmdb_id": 310131
   },
@@ -8186,6 +9533,7 @@
     "release_year": 2018,
     "runtime_minutes": 76,
     "scare_count": 6,
+    "tags": [],
     "title": "The Witch In The Window",
     "tmdb_id": 521934
   },
@@ -8195,6 +9543,9 @@
     "release_year": 2010,
     "runtime_minutes": 103,
     "scare_count": 18,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Wolfman",
     "tmdb_id": 7978
   },
@@ -8204,6 +9555,9 @@
     "release_year": 2012,
     "runtime_minutes": 95,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Woman in Black",
     "tmdb_id": 65086
   },
@@ -8213,6 +9567,9 @@
     "release_year": 2014,
     "runtime_minutes": 98,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "The Woman in Black 2: Angel of Death",
     "tmdb_id": 288158
   },
@@ -8222,6 +9579,7 @@
     "release_year": 2021,
     "runtime_minutes": 100,
     "scare_count": 6,
+    "tags": [],
     "title": "The Woman in the Window",
     "tmdb_id": 520663
   },
@@ -8231,6 +9589,7 @@
     "release_year": 2019,
     "runtime_minutes": 95,
     "scare_count": 8,
+    "tags": [],
     "title": "The Wretched",
     "tmdb_id": 605804
   },
@@ -8240,6 +9599,9 @@
     "release_year": 2006,
     "runtime_minutes": 77,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Them",
     "tmdb_id": 10832
   },
@@ -8249,6 +9611,7 @@
     "release_year": 1996,
     "runtime_minutes": 125,
     "scare_count": 3,
+    "tags": [],
     "title": "Thesis",
     "tmdb_id": 9299
   },
@@ -8258,6 +9621,7 @@
     "release_year": 2015,
     "runtime_minutes": 80,
     "scare_count": 2,
+    "tags": [],
     "title": "They Look Like People",
     "tmdb_id": 325302
   },
@@ -8267,6 +9631,7 @@
     "release_year": 2021,
     "runtime_minutes": 120,
     "scare_count": 7,
+    "tags": [],
     "title": "Things Heard and Seen",
     "tmdb_id": 631060
   },
@@ -8276,6 +9641,9 @@
     "release_year": 2001,
     "runtime_minutes": 91,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Thir13en (Thirteen) Ghosts",
     "tmdb_id": 9378
   },
@@ -8285,6 +9653,7 @@
     "release_year": 2022,
     "runtime_minutes": 119,
     "scare_count": 2,
+    "tags": [],
     "title": "Thor: Love and Thunder",
     "tmdb_id": 616037
   },
@@ -8294,6 +9663,7 @@
     "release_year": 2021,
     "runtime_minutes": 89,
     "scare_count": 6,
+    "tags": [],
     "title": "Till Death",
     "tmdb_id": 672741
   },
@@ -8303,6 +9673,7 @@
     "release_year": 2007,
     "runtime_minutes": 93,
     "scare_count": 3,
+    "tags": [],
     "title": "Timecrimes",
     "tmdb_id": 14139
   },
@@ -8312,6 +9683,7 @@
     "release_year": 2008,
     "runtime_minutes": 110,
     "scare_count": 3,
+    "tags": [],
     "title": "Tokyo Gore Police",
     "tmdb_id": 16061
   },
@@ -8321,6 +9693,7 @@
     "release_year": 1979,
     "runtime_minutes": 89,
     "scare_count": 8,
+    "tags": [],
     "title": "Tourist Trap",
     "tmdb_id": 13570
   },
@@ -8330,6 +9703,7 @@
     "release_year": 2017,
     "runtime_minutes": 98,
     "scare_count": 0,
+    "tags": [],
     "title": "Tragedy Girls",
     "tmdb_id": 413857
   },
@@ -8339,6 +9713,7 @@
     "release_year": 2016,
     "runtime_minutes": 118,
     "scare_count": 4,
+    "tags": [],
     "title": "Train to Busan",
     "tmdb_id": 396535
   },
@@ -8348,6 +9723,7 @@
     "release_year": 2016,
     "runtime_minutes": 91,
     "scare_count": 1,
+    "tags": [],
     "title": "Trash Fire",
     "tmdb_id": 362409
   },
@@ -8357,6 +9733,9 @@
     "release_year": 1990,
     "runtime_minutes": 96,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "Tremors",
     "tmdb_id": 9362
   },
@@ -8366,6 +9745,7 @@
     "release_year": 2009,
     "runtime_minutes": 99,
     "scare_count": 5,
+    "tags": [],
     "title": "Triangle",
     "tmdb_id": 26466
   },
@@ -8375,6 +9755,7 @@
     "release_year": 2007,
     "runtime_minutes": 82,
     "scare_count": 6,
+    "tags": [],
     "title": "Trick ‘r Treat",
     "tmdb_id": 23202
   },
@@ -8384,6 +9765,7 @@
     "release_year": 2018,
     "runtime_minutes": 101,
     "scare_count": 0,
+    "tags": [],
     "title": "Truth or Dare",
     "tmdb_id": 460019
   },
@@ -8393,6 +9775,7 @@
     "release_year": 2010,
     "runtime_minutes": 89,
     "scare_count": 9,
+    "tags": [],
     "title": "Tucker and Dale vs. Evil",
     "tmdb_id": 46838
   },
@@ -8402,8 +9785,19 @@
     "release_year": 2014,
     "runtime_minutes": 102,
     "scare_count": 0,
+    "tags": [],
     "title": "Tusk",
     "tmdb_id": 246403
+  },
+  {
+    "has_subtitles": false,
+    "poster_path": "/a2mbgTKUoBvuPIgtvdvGL1u7dY.jpg",
+    "release_year": null,
+    "runtime_minutes": 10,
+    "scare_count": 0,
+    "tags": [],
+    "title": "TV Shows",
+    "tmdb_id": 903440
   },
   {
     "has_subtitles": false,
@@ -8411,6 +9805,7 @@
     "release_year": 2016,
     "runtime_minutes": 84,
     "scare_count": 9,
+    "tags": [],
     "title": "Under the Shadow",
     "tmdb_id": 375012
   },
@@ -8420,6 +9815,9 @@
     "release_year": 2020,
     "runtime_minutes": 95,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Underwater",
     "tmdb_id": 443791
   },
@@ -8429,6 +9827,7 @@
     "release_year": 2014,
     "runtime_minutes": 83,
     "scare_count": 5,
+    "tags": [],
     "title": "Unfriended",
     "tmdb_id": 277685
   },
@@ -8438,6 +9837,7 @@
     "release_year": 2018,
     "runtime_minutes": 92,
     "scare_count": 6,
+    "tags": [],
     "title": "Unfriended: Dark Web",
     "tmdb_id": 505058
   },
@@ -8447,6 +9847,7 @@
     "release_year": 2018,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "Unsane",
     "tmdb_id": 467660
   },
@@ -8456,6 +9857,9 @@
     "release_year": 1998,
     "runtime_minutes": 100,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Urban Legend",
     "tmdb_id": 9877
   },
@@ -8465,6 +9869,7 @@
     "release_year": 2005,
     "runtime_minutes": 93,
     "scare_count": 8,
+    "tags": [],
     "title": "Urban Legends: Bloody Mary",
     "tmdb_id": 10292
   },
@@ -8474,6 +9879,7 @@
     "release_year": 2000,
     "runtime_minutes": 98,
     "scare_count": 9,
+    "tags": [],
     "title": "Urban Legends: Final Cut",
     "tmdb_id": 12212
   },
@@ -8483,6 +9889,7 @@
     "release_year": 2019,
     "runtime_minutes": 116,
     "scare_count": 11,
+    "tags": [],
     "title": "Us",
     "tmdb_id": 458723
   },
@@ -8492,6 +9899,9 @@
     "release_year": 2000,
     "runtime_minutes": 90,
     "scare_count": 15,
+    "tags": [
+      "HOT"
+    ],
     "title": "Uzumaki",
     "tmdb_id": 11366
   },
@@ -8501,6 +9911,7 @@
     "release_year": 2012,
     "runtime_minutes": 116,
     "scare_count": 7,
+    "tags": [],
     "title": "V/H/S",
     "tmdb_id": 84348
   },
@@ -8510,6 +9921,9 @@
     "release_year": 2013,
     "runtime_minutes": 96,
     "scare_count": 14,
+    "tags": [
+      "HOT"
+    ],
     "title": "V/H/S/2",
     "tmdb_id": 159117
   },
@@ -8519,6 +9933,9 @@
     "release_year": 2021,
     "runtime_minutes": 103,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "V/H/S/94",
     "tmdb_id": 753453
   },
@@ -8528,6 +9945,7 @@
     "release_year": 2014,
     "runtime_minutes": 81,
     "scare_count": 9,
+    "tags": [],
     "title": "V/H/S: Viral",
     "tmdb_id": 267806
   },
@@ -8537,6 +9955,9 @@
     "release_year": 2007,
     "runtime_minutes": 86,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Vacancy",
     "tmdb_id": 10294
   },
@@ -8546,6 +9967,7 @@
     "release_year": 2008,
     "runtime_minutes": 86,
     "scare_count": 5,
+    "tags": [],
     "title": "Vacancy 2: First Cut",
     "tmdb_id": 15641
   },
@@ -8555,6 +9977,7 @@
     "release_year": 2010,
     "runtime_minutes": 86,
     "scare_count": 1,
+    "tags": [],
     "title": "Vacancy 3: Terror Trap",
     "tmdb_id": 48669
   },
@@ -8564,6 +9987,7 @@
     "release_year": 2004,
     "runtime_minutes": 132,
     "scare_count": 3,
+    "tags": [],
     "title": "Van Helsing",
     "tmdb_id": 7131
   },
@@ -8573,6 +9997,7 @@
     "release_year": 2019,
     "runtime_minutes": 112,
     "scare_count": 10,
+    "tags": [],
     "title": "Velvet Buzzsaw",
     "tmdb_id": 463684
   },
@@ -8582,6 +10007,7 @@
     "release_year": 2018,
     "runtime_minutes": 112,
     "scare_count": 10,
+    "tags": [],
     "title": "Venom",
     "tmdb_id": 335983
   },
@@ -8591,6 +10017,7 @@
     "release_year": 2017,
     "runtime_minutes": 105,
     "scare_count": 10,
+    "tags": [],
     "title": "Veronica",
     "tmdb_id": 441701
   },
@@ -8600,6 +10027,7 @@
     "release_year": 2019,
     "runtime_minutes": 92,
     "scare_count": 2,
+    "tags": [],
     "title": "VFW",
     "tmdb_id": 624779
   },
@@ -8609,6 +10037,7 @@
     "release_year": 2015,
     "runtime_minutes": 110,
     "scare_count": 6,
+    "tags": [],
     "title": "Victor Frankenstein",
     "tmdb_id": 228066
   },
@@ -8618,6 +10047,7 @@
     "release_year": 1983,
     "runtime_minutes": 88,
     "scare_count": 1,
+    "tags": [],
     "title": "Videodrome",
     "tmdb_id": 837
   },
@@ -8627,6 +10057,7 @@
     "release_year": 1995,
     "runtime_minutes": 98,
     "scare_count": 2,
+    "tags": [],
     "title": "Village of the Damned",
     "tmdb_id": 12122
   },
@@ -8636,6 +10067,9 @@
     "release_year": 2016,
     "runtime_minutes": 86,
     "scare_count": 20,
+    "tags": [
+      "HOT"
+    ],
     "title": "Viral",
     "tmdb_id": 336455
   },
@@ -8645,6 +10079,7 @@
     "release_year": 2015,
     "runtime_minutes": 82,
     "scare_count": 10,
+    "tags": [],
     "title": "Visions",
     "tmdb_id": 353686
   },
@@ -8654,6 +10089,7 @@
     "release_year": 2020,
     "runtime_minutes": 99,
     "scare_count": 0,
+    "tags": [],
     "title": "Vivarium",
     "tmdb_id": 458305
   },
@@ -8663,6 +10099,7 @@
     "release_year": 1967,
     "runtime_minutes": 108,
     "scare_count": 1,
+    "tags": [],
     "title": "Wait Until Dark",
     "tmdb_id": 11206
   },
@@ -8672,6 +10109,7 @@
     "release_year": 2013,
     "runtime_minutes": 98,
     "scare_count": 8,
+    "tags": [],
     "title": "Warm Bodies",
     "tmdb_id": 82654
   },
@@ -8681,6 +10119,7 @@
     "release_year": 2018,
     "runtime_minutes": 71,
     "scare_count": 0,
+    "tags": [],
     "title": "Watch If You Dare",
     "tmdb_id": 559994
   },
@@ -8690,6 +10129,9 @@
     "release_year": 2015,
     "runtime_minutes": 83,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "We Are Still Here",
     "tmdb_id": 291272
   },
@@ -8699,6 +10141,7 @@
     "release_year": 2013,
     "runtime_minutes": 105,
     "scare_count": 2,
+    "tags": [],
     "title": "We Are What We Are",
     "tmdb_id": 159128
   },
@@ -8708,6 +10151,7 @@
     "release_year": 2021,
     "runtime_minutes": 97,
     "scare_count": 2,
+    "tags": [],
     "title": "We Need To Do Something",
     "tmdb_id": 769364
   },
@@ -8717,6 +10161,7 @@
     "release_year": 2022,
     "runtime_minutes": 55,
     "scare_count": 6,
+    "tags": [],
     "title": "Werewolf By Night",
     "tmdb_id": 894205
   },
@@ -8726,6 +10171,9 @@
     "release_year": 2021,
     "runtime_minutes": 96,
     "scare_count": 21,
+    "tags": [
+      "HOT"
+    ],
     "title": "Werewolves Within",
     "tmdb_id": 800497
   },
@@ -8735,6 +10183,7 @@
     "release_year": 1994,
     "runtime_minutes": 112,
     "scare_count": 11,
+    "tags": [],
     "title": "Wes Craven’s New Nightmare",
     "tmdb_id": 11596
   },
@@ -8744,6 +10193,9 @@
     "release_year": 2000,
     "runtime_minutes": 130,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "What Lies Beneath",
     "tmdb_id": 2655
   },
@@ -8753,6 +10205,7 @@
     "release_year": 2017,
     "runtime_minutes": 98,
     "scare_count": 5,
+    "tags": [],
     "title": "What the Waters Left Behind",
     "tmdb_id": 462593
   },
@@ -8762,6 +10215,7 @@
     "release_year": 1979,
     "runtime_minutes": 97,
     "scare_count": 5,
+    "tags": [],
     "title": "When a Stranger Calls",
     "tmdb_id": 45964
   },
@@ -8771,6 +10225,9 @@
     "release_year": 2005,
     "runtime_minutes": 98,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "White Noise",
     "tmdb_id": 11804
   },
@@ -8780,6 +10237,9 @@
     "release_year": 2007,
     "runtime_minutes": 99,
     "scare_count": 24,
+    "tags": [
+      "HOT"
+    ],
     "title": "White Noise 2: The Light",
     "tmdb_id": 7006
   },
@@ -8789,6 +10249,7 @@
     "release_year": 2020,
     "runtime_minutes": 105,
     "scare_count": 8,
+    "tags": [],
     "title": "Who Was Phone?",
     "tmdb_id": 759071
   },
@@ -8798,6 +10259,7 @@
     "release_year": 2018,
     "runtime_minutes": 92,
     "scare_count": 4,
+    "tags": [],
     "title": "Wildling",
     "tmdb_id": 362826
   },
@@ -8807,6 +10269,7 @@
     "release_year": 2013,
     "runtime_minutes": 80,
     "scare_count": 10,
+    "tags": [],
     "title": "Willow Creek",
     "tmdb_id": 185460
   },
@@ -8816,6 +10279,9 @@
     "release_year": 2021,
     "runtime_minutes": 89,
     "scare_count": 12,
+    "tags": [
+      "HOT"
+    ],
     "title": "Willy’s Wonderland",
     "tmdb_id": 643586
   },
@@ -8825,6 +10291,9 @@
     "release_year": 2018,
     "runtime_minutes": 100,
     "scare_count": 17,
+    "tags": [
+      "HOT"
+    ],
     "title": "Winchester",
     "tmdb_id": 416234
   },
@@ -8834,6 +10303,9 @@
     "release_year": 2007,
     "runtime_minutes": 91,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Wind Chill",
     "tmdb_id": 14223
   },
@@ -8843,6 +10315,7 @@
     "release_year": 2017,
     "runtime_minutes": 91,
     "scare_count": 11,
+    "tags": [],
     "title": "Wish Upon",
     "tmdb_id": 440597
   },
@@ -8852,6 +10325,7 @@
     "release_year": 1997,
     "runtime_minutes": 90,
     "scare_count": 4,
+    "tags": [],
     "title": "Wishmaster",
     "tmdb_id": 10351
   },
@@ -8861,6 +10335,7 @@
     "release_year": 1999,
     "runtime_minutes": 96,
     "scare_count": 3,
+    "tags": [],
     "title": "Wishmaster 2: Evil Never Dies",
     "tmdb_id": 12594
   },
@@ -8870,6 +10345,7 @@
     "release_year": 2020,
     "runtime_minutes": 84,
     "scare_count": 3,
+    "tags": [],
     "title": "Woe",
     "tmdb_id": 759955
   },
@@ -8879,6 +10355,7 @@
     "release_year": 2005,
     "runtime_minutes": 99,
     "scare_count": 0,
+    "tags": [],
     "title": "Wolf Creek",
     "tmdb_id": 9885
   },
@@ -8888,6 +10365,7 @@
     "release_year": 2013,
     "runtime_minutes": 106,
     "scare_count": 3,
+    "tags": [],
     "title": "Wolf Creek 2",
     "tmdb_id": 199534
   },
@@ -8897,6 +10375,7 @@
     "release_year": 2014,
     "runtime_minutes": 79,
     "scare_count": 0,
+    "tags": [],
     "title": "WolfCop",
     "tmdb_id": 262840
   },
@@ -8906,6 +10385,9 @@
     "release_year": 2013,
     "runtime_minutes": 116,
     "scare_count": 7,
+    "tags": [
+      "HOT"
+    ],
     "title": "World War Z",
     "tmdb_id": 72190
   },
@@ -8915,6 +10397,7 @@
     "release_year": 2012,
     "runtime_minutes": 93,
     "scare_count": 3,
+    "tags": [],
     "title": "Would You Rather",
     "tmdb_id": 97051
   },
@@ -8924,6 +10407,7 @@
     "release_year": 2019,
     "runtime_minutes": 95,
     "scare_count": 6,
+    "tags": [],
     "title": "Wounds",
     "tmdb_id": 505423
   },
@@ -8933,6 +10417,7 @@
     "release_year": 2021,
     "runtime_minutes": 110,
     "scare_count": 8,
+    "tags": [],
     "title": "Wrong Turn",
     "tmdb_id": 630586
   },
@@ -8942,6 +10427,9 @@
     "release_year": 2003,
     "runtime_minutes": 84,
     "scare_count": 13,
+    "tags": [
+      "HOT"
+    ],
     "title": "Wrong Turn",
     "tmdb_id": 9902
   },
@@ -8951,6 +10439,9 @@
     "release_year": 2022,
     "runtime_minutes": 106,
     "scare_count": 16,
+    "tags": [
+      "HOT"
+    ],
     "title": "X",
     "tmdb_id": 760104
   },
@@ -8960,6 +10451,7 @@
     "release_year": 2013,
     "runtime_minutes": 88,
     "scare_count": 0,
+    "tags": [],
     "title": "X – He’s Always Watching",
     "tmdb_id": 57214
   },
@@ -8969,6 +10461,7 @@
     "release_year": 2018,
     "runtime_minutes": 92,
     "scare_count": 6,
+    "tags": [],
     "title": "You Might Be the Killer",
     "tmdb_id": 548064
   },
@@ -8978,6 +10471,7 @@
     "release_year": 2011,
     "runtime_minutes": 96,
     "scare_count": 11,
+    "tags": [],
     "title": "You’re Next",
     "tmdb_id": 83899
   },
@@ -8987,6 +10481,7 @@
     "release_year": 2019,
     "runtime_minutes": 83,
     "scare_count": 9,
+    "tags": [],
     "title": "Z (2019)",
     "tmdb_id": 1219597
   },
@@ -8996,6 +10491,7 @@
     "release_year": 2007,
     "runtime_minutes": 157,
     "scare_count": 3,
+    "tags": [],
     "title": "Zodiac",
     "tmdb_id": 1949
   },
@@ -9005,6 +10501,7 @@
     "release_year": 2009,
     "runtime_minutes": 88,
     "scare_count": 9,
+    "tags": [],
     "title": "Zombieland",
     "tmdb_id": 19908
   },
@@ -9014,6 +10511,7 @@
     "release_year": 2019,
     "runtime_minutes": 99,
     "scare_count": 2,
+    "tags": [],
     "title": "Zombieland: Double Tap",
     "tmdb_id": 338967
   }

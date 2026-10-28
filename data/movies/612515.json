@@ -1,13 +1,13640 @@
 {
-  "phonetic_index": [],
+  "phonetic_index": [
+    {
+      "p": [
+        "0T",
+        "SR",
+        "AS",
+        "NS",
+        "AT",
+        "AS"
+      ],
+      "s": 210447
+    },
+    {
+      "p": [
+        "0T",
+        "SR",
+        "AS",
+        "NS",
+        "AT",
+        "AS",
+        "AT",
+        "AM",
+        "A",
+        "ARNK"
+      ],
+      "s": 210447
+    },
+    {
+      "p": [
+        "PRPKT",
+        "STK",
+        "TNNS",
+        "STKS"
+      ],
+      "s": 216453
+    },
+    {
+      "p": [
+        "PRPKT",
+        "STK",
+        "TNNS",
+        "STKS",
+        "STKS",
+        "MS",
+        "0",
+        "TRRS",
+        "APN"
+      ],
+      "s": 216453
+    },
+    {
+      "p": [
+        "TNNS",
+        "STKS",
+        "STKS",
+        "MS",
+        "0",
+        "TRRS",
+        "APN"
+      ],
+      "s": 217901
+    },
+    {
+      "p": [
+        "TNNS",
+        "STKS",
+        "STKS",
+        "MS",
+        "0",
+        "TRRS",
+        "APN",
+        "TS",
+        "X",
+        "HF",
+        "A",
+        "FRNT",
+        "RNT",
+        "N"
+      ],
+      "s": 217901
+    },
+    {
+      "p": [
+        "STKS",
+        "MS",
+        "0",
+        "TRRS",
+        "APN"
+      ],
+      "s": 219804
+    },
+    {
+      "p": [
+        "STKS",
+        "MS",
+        "0",
+        "TRRS",
+        "APN",
+        "TS",
+        "X",
+        "HF",
+        "A",
+        "FRNT",
+        "RNT",
+        "N"
+      ],
+      "s": 219804
+    },
+    {
+      "p": [
+        "STKS",
+        "MS",
+        "0",
+        "TRRS",
+        "APN",
+        "TS",
+        "X",
+        "HF",
+        "A",
+        "FRNT",
+        "RNT",
+        "N",
+        "N",
+        "ANT",
+        "0N",
+        "0T",
+        "ATR"
+      ],
+      "s": 219804
+    },
+    {
+      "p": [
+        "TS",
+        "X",
+        "HF",
+        "A",
+        "FRNT",
+        "RNT",
+        "N"
+      ],
+      "s": 222740
+    },
+    {
+      "p": [
+        "TS",
+        "X",
+        "HF",
+        "A",
+        "FRNT",
+        "RNT",
+        "N",
+        "N",
+        "ANT",
+        "0N",
+        "0T",
+        "ATR"
+      ],
+      "s": 222740
+    },
+    {
+      "p": [
+        "TS",
+        "X",
+        "HF",
+        "A",
+        "FRNT",
+        "RNT",
+        "N",
+        "N",
+        "ANT",
+        "0N",
+        "0T",
+        "ATR",
+        "PRNK",
+        "HLS",
+        "ANT",
+        "AR",
+        "PHNT"
+      ],
+      "s": 222740
+    },
+    {
+      "p": [
+        "N",
+        "ANT",
+        "0N",
+        "0T",
+        "ATR"
+      ],
+      "s": 224776
+    },
+    {
+      "p": [
+        "N",
+        "ANT",
+        "0N",
+        "0T",
+        "ATR",
+        "PRNK",
+        "HLS",
+        "ANT",
+        "AR",
+        "PHNT"
+      ],
+      "s": 224776
+    },
+    {
+      "p": [
+        "N",
+        "ANT",
+        "0N",
+        "0T",
+        "ATR",
+        "PRNK",
+        "HLS",
+        "ANT",
+        "AR",
+        "PHNT",
+        "AFR",
+        "TM",
+        "A",
+        "ANT",
+        "T",
+        "0",
+        "RSTRM"
+      ],
+      "s": 224776
+    },
+    {
+      "p": [
+        "PRNK",
+        "HLS",
+        "ANT",
+        "AR",
+        "PHNT"
+      ],
+      "s": 228211
+    },
+    {
+      "p": [
+        "PRNK",
+        "HLS",
+        "ANT",
+        "AR",
+        "PHNT",
+        "AFR",
+        "TM",
+        "A",
+        "ANT",
+        "T",
+        "0",
+        "RSTRM"
+      ],
+      "s": 228211
+    },
+    {
+      "p": [
+        "PRNK",
+        "HLS",
+        "ANT",
+        "AR",
+        "PHNT",
+        "AFR",
+        "TM",
+        "A",
+        "ANT",
+        "T",
+        "0",
+        "RSTRM",
+        "A",
+        "TS",
+        "0T"
+      ],
+      "s": 228211
+    },
+    {
+      "p": [
+        "AFR",
+        "TM",
+        "A",
+        "ANT",
+        "T",
+        "0",
+        "RSTRM"
+      ],
+      "s": 229747
+    },
+    {
+      "p": [
+        "AFR",
+        "TM",
+        "A",
+        "ANT",
+        "T",
+        "0",
+        "RSTRM",
+        "A",
+        "TS",
+        "0T"
+      ],
+      "s": 229747
+    },
+    {
+      "p": [
+        "AFR",
+        "TM",
+        "A",
+        "ANT",
+        "T",
+        "0",
+        "RSTRM",
+        "A",
+        "TS",
+        "0T",
+        "0",
+        "ATLN",
+        "A"
+      ],
+      "s": 229747
+    },
+    {
+      "p": [
+        "A",
+        "TS",
+        "0T",
+        "0",
+        "ATLN",
+        "A"
+      ],
+      "s": 231848
+    },
+    {
+      "p": [
+        "A",
+        "TS",
+        "0T",
+        "0",
+        "ATLN",
+        "A",
+        "NKST",
+        "TM",
+        "AR",
+        "KNK",
+        "T",
+        "M",
+        "RSTRNT",
+        "TNTN"
+      ],
+      "s": 231848
+    },
+    {
+      "p": [
+        "0",
+        "ATLN",
+        "A",
+        "NKST",
+        "TM",
+        "AR",
+        "KNK",
+        "T",
+        "M",
+        "RSTRNT",
+        "TNTN"
+      ],
+      "s": 233783
+    },
+    {
+      "p": [
+        "0",
+        "ATLN",
+        "A",
+        "NKST",
+        "TM",
+        "AR",
+        "KNK",
+        "T",
+        "M",
+        "RSTRNT",
+        "TNTN",
+        "0S",
+        "ATLN",
+        "ATRS"
+      ],
+      "s": 233783
+    },
+    {
+      "p": [
+        "NKST",
+        "TM",
+        "AR",
+        "KNK",
+        "T",
+        "M",
+        "RSTRNT",
+        "TNTN"
+      ],
+      "s": 235718
+    },
+    {
+      "p": [
+        "NKST",
+        "TM",
+        "AR",
+        "KNK",
+        "T",
+        "M",
+        "RSTRNT",
+        "TNTN",
+        "0S",
+        "ATLN",
+        "ATRS"
+      ],
+      "s": 235718
+    },
+    {
+      "p": [
+        "NKST",
+        "TM",
+        "AR",
+        "KNK",
+        "T",
+        "M",
+        "RSTRNT",
+        "TNTN",
+        "0S",
+        "ATLN",
+        "ATRS",
+        "0",
+        "LK",
+        "LKNK",
+        "AT",
+        "AR",
+        "AF",
+        "AN",
+        "AR",
+        "HFNK",
+        "A",
+        "ML"
+      ],
+      "s": 235718
+    },
+    {
+      "p": [
+        "0S",
+        "ATLN",
+        "ATRS",
+        "0",
+        "LK",
+        "LKNK",
+        "AT",
+        "AR",
+        "AF",
+        "AN",
+        "AR",
+        "HFNK",
+        "A",
+        "ML"
+      ],
+      "s": 237989
+    },
+    {
+      "p": [
+        "0",
+        "LK",
+        "LKNK",
+        "AT",
+        "AR",
+        "AF",
+        "AN",
+        "AR",
+        "HFNK",
+        "A",
+        "ML"
+      ],
+      "s": 239657
+    },
+    {
+      "p": [
+        "0T",
+        "AS",
+        "NT",
+        "AT",
+        "HPNT"
+      ],
+      "s": 241759
+    },
+    {
+      "p": [
+        "0T",
+        "AS",
+        "NT",
+        "AT",
+        "HPNT",
+        "N",
+        "0",
+        "K",
+        "AS",
+        "A",
+        "TL",
+        "ANK",
+        "PNK"
+      ],
+      "s": 241759
+    },
+    {
+      "p": [
+        "0T",
+        "AS",
+        "NT",
+        "AT",
+        "HPNT",
+        "N",
+        "0",
+        "K",
+        "AS",
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "XLTTF",
+        "RXT",
+        "HM"
+      ],
+      "s": 241759
+    },
+    {
+      "p": [
+        "N",
+        "0",
+        "K",
+        "AS",
+        "A",
+        "TL",
+        "ANK",
+        "PNK"
+      ],
+      "s": 244662
+    },
+    {
+      "p": [
+        "N",
+        "0",
+        "K",
+        "AS",
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "XLTTF",
+        "RXT",
+        "HM"
+      ],
+      "s": 244662
+    },
+    {
+      "p": [
+        "N",
+        "0",
+        "K",
+        "AS",
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "XLTTF",
+        "RXT",
+        "HM",
+        "ANT",
+        "X",
+        "LFT",
+        "0",
+        "ATR",
+        "RNNK"
+      ],
+      "s": 244662
+    },
+    {
+      "p": [
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "XLTTF",
+        "RXT",
+        "HM"
+      ],
+      "s": 247765
+    },
+    {
+      "p": [
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "XLTTF",
+        "RXT",
+        "HM",
+        "ANT",
+        "X",
+        "LFT",
+        "0",
+        "ATR",
+        "RNNK"
+      ],
+      "s": 247765
+    },
+    {
+      "p": [
+        "A",
+        "TL",
+        "ANK",
+        "PNK",
+        "A",
+        "XLTTF",
+        "RXT",
+        "HM",
+        "ANT",
+        "X",
+        "LFT",
+        "0",
+        "ATR",
+        "RNNK",
+        "AR",
+        "HM",
+        "S0RT"
+      ],
+      "s": 247765
+    },
+    {
+      "p": [
+        "ANT",
+        "X",
+        "LFT",
+        "0",
+        "ATR",
+        "RNNK"
+      ],
+      "s": 249699
+    },
+    {
+      "p": [
+        "ANT",
+        "X",
+        "LFT",
+        "0",
+        "ATR",
+        "RNNK",
+        "AR",
+        "HM",
+        "S0RT"
+      ],
+      "s": 249699
+    },
+    {
+      "p": [
+        "ANT",
+        "X",
+        "LFT",
+        "0",
+        "ATR",
+        "RNNK",
+        "AR",
+        "HM",
+        "S0RT",
+        "MS"
+      ],
+      "s": 249699
+    },
+    {
+      "p": [
+        "AR",
+        "HM",
+        "S0RT",
+        "MS"
+      ],
+      "s": 251769
+    },
+    {
+      "p": [
+        "SMNS",
+        "PN",
+        "AN",
+        "0",
+        "HS",
+        "MS"
+      ],
+      "s": 266802
+    },
+    {
+      "p": [
+        "JNKS",
+        "KM",
+        "AN",
+        "P",
+        "JNKS"
+      ],
+      "s": 363632
+    },
+    {
+      "p": [
+        "JNKS",
+        "KM",
+        "AN",
+        "P",
+        "JNKS",
+        "ATTS",
+        "0T",
+        "ATTS",
+        "0T",
+        "KM",
+        "KM"
+      ],
+      "s": 363632
+    },
+    {
+      "p": [
+        "JNKS",
+        "KM",
+        "AN",
+        "P",
+        "JNKS",
+        "ATTS",
+        "0T",
+        "ATTS",
+        "0T",
+        "KM",
+        "KM",
+        "KM"
+      ],
+      "s": 363632
+    },
+    {
+      "p": [
+        "ATTS",
+        "0T",
+        "ATTS",
+        "0T",
+        "KM",
+        "KM"
+      ],
+      "s": 366951
+    },
+    {
+      "p": [
+        "ATTS",
+        "0T",
+        "ATTS",
+        "0T",
+        "KM",
+        "KM",
+        "KM"
+      ],
+      "s": 366951
+    },
+    {
+      "p": [
+        "TT",
+        "A",
+        "MS",
+        "M",
+        "TT",
+        "A",
+        "MS",
+        "M"
+      ],
+      "s": 373824
+    },
+    {
+      "p": [
+        "APRST",
+        "AT",
+        "TF",
+        "T"
+      ],
+      "s": 394096
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "KS",
+        "ANT",
+        "T",
+        "TRNK"
+      ],
+      "s": 404706
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "KS",
+        "ANT",
+        "T",
+        "TRNK",
+        "AT",
+        "AR",
+        "A",
+        "ATNK",
+        "TKT"
+      ],
+      "s": 404706
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "KS",
+        "ANT",
+        "T",
+        "TRNK",
+        "AT",
+        "AR",
+        "A",
+        "ATNK",
+        "TKT",
+        "PRRS",
+        "FN",
+        "LF"
+      ],
+      "s": 404706
+    },
+    {
+      "p": [
+        "AT",
+        "AR",
+        "A",
+        "ATNK",
+        "TKT",
+        "PRRS",
+        "FN",
+        "LF"
+      ],
+      "s": 406456
+    },
+    {
+      "p": [
+        "AT",
+        "AR",
+        "A",
+        "ATNK",
+        "TKT",
+        "PRRS",
+        "FN",
+        "LF",
+        "AT",
+        "TKT",
+        "PS"
+      ],
+      "s": 406456
+    },
+    {
+      "p": [
+        "PRRS",
+        "FN",
+        "LF",
+        "AT",
+        "TKT",
+        "PS"
+      ],
+      "s": 408459
+    },
+    {
+      "p": [
+        "PRRS",
+        "FN",
+        "LF",
+        "AT",
+        "TKT",
+        "PS",
+        "AS",
+        "PN",
+        "SLPNK",
+        "AN",
+        "0",
+        "KX"
+      ],
+      "s": 408459
+    },
+    {
+      "p": [
+        "AT",
+        "TKT",
+        "PS",
+        "AS",
+        "PN",
+        "SLPNK",
+        "AN",
+        "0",
+        "KX"
+      ],
+      "s": 409526
+    },
+    {
+      "p": [
+        "AT",
+        "TKT",
+        "PS",
+        "AS",
+        "PN",
+        "SLPNK",
+        "AN",
+        "0",
+        "KX",
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "AN0NK",
+        "LF",
+        "A",
+        "PRRS",
+        "KT"
+      ],
+      "s": 409526
+    },
+    {
+      "p": [
+        "AS",
+        "PN",
+        "SLPNK",
+        "AN",
+        "0",
+        "KX"
+      ],
+      "s": 410961
+    },
+    {
+      "p": [
+        "AS",
+        "PN",
+        "SLPNK",
+        "AN",
+        "0",
+        "KX",
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "AN0NK",
+        "LF",
+        "A",
+        "PRRS",
+        "KT"
+      ],
+      "s": 410961
+    },
+    {
+      "p": [
+        "AS",
+        "PN",
+        "SLPNK",
+        "AN",
+        "0",
+        "KX",
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "AN0NK",
+        "LF",
+        "A",
+        "PRRS",
+        "KT",
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "T",
+        "AL",
+        "A"
+      ],
+      "s": 410961
+    },
+    {
+      "p": [
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "AN0NK",
+        "LF",
+        "A",
+        "PRRS",
+        "KT"
+      ],
+      "s": 413764
+    },
+    {
+      "p": [
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "AN0NK",
+        "LF",
+        "A",
+        "PRRS",
+        "KT",
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "T",
+        "AL",
+        "A"
+      ],
+      "s": 413764
+    },
+    {
+      "p": [
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "AN0NK",
+        "LF",
+        "A",
+        "PRRS",
+        "KT",
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "T",
+        "AL",
+        "A",
+        "LT",
+        "M",
+        "HLP",
+        "ALF"
+      ],
+      "s": 413764
+    },
+    {
+      "p": [
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "T",
+        "AL",
+        "A"
+      ],
+      "s": 415899
+    },
+    {
+      "p": [
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "T",
+        "AL",
+        "A",
+        "LT",
+        "M",
+        "HLP",
+        "ALF"
+      ],
+      "s": 415899
+    },
+    {
+      "p": [
+        "AAL",
+        "HF",
+        "A",
+        "PR",
+        "T",
+        "AL",
+        "A",
+        "LT",
+        "M",
+        "HLP",
+        "ALF",
+        "N",
+        "ATTS",
+        "FN",
+        "ARLN",
+        "M",
+        "ANT",
+        "R",
+        "HF",
+        "KT",
+        "AT"
+      ],
+      "s": 415899
+    },
+    {
+      "p": [
+        "LT",
+        "M",
+        "HLP",
+        "ALF",
+        "N",
+        "ATTS",
+        "FN",
+        "ARLN",
+        "M",
+        "ANT",
+        "R",
+        "HF",
+        "KT",
+        "AT"
+      ],
+      "s": 418168
+    },
+    {
+      "p": [
+        "N",
+        "ATTS",
+        "FN",
+        "ARLN",
+        "M",
+        "ANT",
+        "R",
+        "HF",
+        "KT",
+        "AT"
+      ],
+      "s": 419670
+    },
+    {
+      "p": [
+        "MM",
+        "KN",
+        "A",
+        "HF",
+        "A",
+        "PR",
+        "PLS",
+        "AAL",
+        "KT",
+        "A",
+        "A",
+        "PR",
+        "AF",
+        "A",
+        "ANTRTN"
+      ],
+      "s": 421538
+    },
+    {
+      "p": [
+        "MM",
+        "KN",
+        "A",
+        "HF",
+        "A",
+        "PR",
+        "PLS",
+        "AAL",
+        "KT",
+        "A",
+        "A",
+        "PR",
+        "AF",
+        "A",
+        "ANTRTN",
+        "TFFS",
+        "XTNK",
+        "TFFS",
+        "ANTRTNMNT"
+      ],
+      "s": 421538
+    },
+    {
+      "p": [
+        "AAL",
+        "KT",
+        "A",
+        "A",
+        "PR",
+        "AF",
+        "A",
+        "ANTRTN"
+      ],
+      "s": 422939
+    },
+    {
+      "p": [
+        "AAL",
+        "KT",
+        "A",
+        "A",
+        "PR",
+        "AF",
+        "A",
+        "ANTRTN",
+        "TFFS",
+        "XTNK",
+        "TFFS",
+        "ANTRTNMNT"
+      ],
+      "s": 422939
+    },
+    {
+      "p": [
+        "AAL",
+        "KT",
+        "A",
+        "A",
+        "PR",
+        "AF",
+        "A",
+        "ANTRTN",
+        "TFFS",
+        "XTNK",
+        "TFFS",
+        "ANTRTNMNT",
+        "NT",
+        "AF",
+        "ATTS",
+        "0T",
+        "KRP",
+        "A",
+        "AX"
+      ],
+      "s": 422939
+    },
+    {
+      "p": [
+        "TFFS",
+        "XTNK",
+        "TFFS",
+        "ANTRTNMNT"
+      ],
+      "s": 425543
+    },
+    {
+      "p": [
+        "TFFS",
+        "XTNK",
+        "TFFS",
+        "ANTRTNMNT",
+        "NT",
+        "AF",
+        "ATTS",
+        "0T",
+        "KRP",
+        "A",
+        "AX"
+      ],
+      "s": 425543
+    },
+    {
+      "p": [
+        "TFFS",
+        "XTNK",
+        "TFFS",
+        "ANTRTNMNT",
+        "NT",
+        "AF",
+        "ATTS",
+        "0T",
+        "KRP",
+        "A",
+        "AX",
+        "AN0NK",
+        "A0",
+        "PRMNNT",
+        "SNTS",
+        "ANT",
+        "PRT",
+        "KLRS"
+      ],
+      "s": 425543
+    },
+    {
+      "p": [
+        "NT",
+        "AF",
+        "ATTS",
+        "0T",
+        "KRP",
+        "A",
+        "AX"
+      ],
+      "s": 427812
+    },
+    {
+      "p": [
+        "NT",
+        "AF",
+        "ATTS",
+        "0T",
+        "KRP",
+        "A",
+        "AX",
+        "AN0NK",
+        "A0",
+        "PRMNNT",
+        "SNTS",
+        "ANT",
+        "PRT",
+        "KLRS"
+      ],
+      "s": 427812
+    },
+    {
+      "p": [
+        "NT",
+        "AF",
+        "ATTS",
+        "0T",
+        "KRP",
+        "A",
+        "AX",
+        "AN0NK",
+        "A0",
+        "PRMNNT",
+        "SNTS",
+        "ANT",
+        "PRT",
+        "KLRS",
+        "XLT",
+        "P",
+        "ANK",
+        "T",
+        "ANKJ",
+        "AR",
+        "SMPLSTK",
+        "MNT",
+        "PL"
+      ],
+      "s": 427812
+    },
+    {
+      "p": [
+        "AN0NK",
+        "A0",
+        "PRMNNT",
+        "SNTS",
+        "ANT",
+        "PRT",
+        "KLRS"
+      ],
+      "s": 429112
+    },
+    {
+      "p": [
+        "AN0NK",
+        "A0",
+        "PRMNNT",
+        "SNTS",
+        "ANT",
+        "PRT",
+        "KLRS",
+        "XLT",
+        "P",
+        "ANK",
+        "T",
+        "ANKJ",
+        "AR",
+        "SMPLSTK",
+        "MNT",
+        "PL"
+      ],
+      "s": 429112
+    },
+    {
+      "p": [
+        "XLT",
+        "P",
+        "ANK",
+        "T",
+        "ANKJ",
+        "AR",
+        "SMPLSTK",
+        "MNT",
+        "PL"
+      ],
+      "s": 431415
+    },
+    {
+      "p": [
+        "A",
+        "ANT",
+        "AR",
+        "PK",
+        "M0",
+        "A",
+        "AS",
+        "JST",
+        "ANTRNK",
+        "A",
+        "RS",
+        "PN",
+        "KXT"
+      ],
+      "s": 436721
+    },
+    {
+      "p": [
+        "A",
+        "ANT",
+        "AR",
+        "PK",
+        "M0",
+        "A",
+        "AS",
+        "JST",
+        "ANTRNK",
+        "A",
+        "RS",
+        "PN",
+        "KXT",
+        "AT",
+        "TSNNT",
+        "NSSRL",
+        "MN",
+        "0T"
+      ],
+      "s": 436721
+    },
+    {
+      "p": [
+        "A",
+        "AS",
+        "JST",
+        "ANTRNK",
+        "A",
+        "RS",
+        "PN",
+        "KXT"
+      ],
+      "s": 439790
+    },
+    {
+      "p": [
+        "A",
+        "AS",
+        "JST",
+        "ANTRNK",
+        "A",
+        "RS",
+        "PN",
+        "KXT",
+        "AT",
+        "TSNNT",
+        "NSSRL",
+        "MN",
+        "0T"
+      ],
+      "s": 439790
+    },
+    {
+      "p": [
+        "A",
+        "AS",
+        "JST",
+        "ANTRNK",
+        "A",
+        "RS",
+        "PN",
+        "KXT",
+        "AT",
+        "TSNNT",
+        "NSSRL",
+        "MN",
+        "0T",
+        "N",
+        "ANKL",
+        "MRKNNS",
+        "RT"
+      ],
+      "s": 439790
+    },
+    {
+      "p": [
+        "AT",
+        "TSNNT",
+        "NSSRL",
+        "MN",
+        "0T"
+      ],
+      "s": 442593
+    },
+    {
+      "p": [
+        "AT",
+        "TSNNT",
+        "NSSRL",
+        "MN",
+        "0T",
+        "N",
+        "ANKL",
+        "MRKNNS",
+        "RT"
+      ],
+      "s": 442593
+    },
+    {
+      "p": [
+        "AT",
+        "TSNNT",
+        "NSSRL",
+        "MN",
+        "0T",
+        "N",
+        "ANKL",
+        "MRKNNS",
+        "RT",
+        "AR",
+        "AFSL",
+        "STNK",
+        "AN",
+        "TTTS",
+        "PT"
+      ],
+      "s": 442593
+    },
+    {
+      "p": [
+        "N",
+        "ANKL",
+        "MRKNNS",
+        "RT"
+      ],
+      "s": 444995
+    },
+    {
+      "p": [
+        "N",
+        "ANKL",
+        "MRKNNS",
+        "RT",
+        "AR",
+        "AFSL",
+        "STNK",
+        "AN",
+        "TTTS",
+        "PT"
+      ],
+      "s": 444995
+    },
+    {
+      "p": [
+        "AR",
+        "AFSL",
+        "STNK",
+        "AN",
+        "TTTS",
+        "PT"
+      ],
+      "s": 446899
+    },
+    {
+      "p": [
+        "AFR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "A",
+        "S",
+        "A",
+        "LT",
+        "AF",
+        "ALKTRKL",
+        "STRMS"
+      ],
+      "s": 454023
+    },
+    {
+      "p": [
+        "AFR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "A",
+        "S",
+        "A",
+        "LT",
+        "AF",
+        "ALKTRKL",
+        "STRMS",
+        "MFNK",
+        "S0ST",
+        "LTR",
+        "AN",
+        "0S",
+        "AFNNK"
+      ],
+      "s": 454023
+    },
+    {
+      "p": [
+        "AFR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "A",
+        "S",
+        "A",
+        "LT",
+        "AF",
+        "ALKTRKL",
+        "STRMS",
+        "MFNK",
+        "S0ST",
+        "LTR",
+        "AN",
+        "0S",
+        "AFNNK",
+        "RSPNSPL"
+      ],
+      "s": 454023
+    },
+    {
+      "p": [
+        "MFNK",
+        "S0ST",
+        "LTR",
+        "AN",
+        "0S",
+        "AFNNK"
+      ],
+      "s": 457040
+    },
+    {
+      "p": [
+        "MFNK",
+        "S0ST",
+        "LTR",
+        "AN",
+        "0S",
+        "AFNNK",
+        "RSPNSPL"
+      ],
+      "s": 457040
+    },
+    {
+      "p": [
+        "MFNK",
+        "S0ST",
+        "LTR",
+        "AN",
+        "0S",
+        "AFNNK",
+        "RSPNSPL",
+        "FR",
+        "0",
+        "ATSPRT",
+        "PR",
+        "ATJS",
+        "AKRS",
+        "0",
+        "PRT"
+      ],
+      "s": 457040
+    },
+    {
+      "p": [
+        "RSPNSPL",
+        "FR",
+        "0",
+        "ATSPRT",
+        "PR",
+        "ATJS",
+        "AKRS",
+        "0",
+        "PRT"
+      ],
+      "s": 459644
+    },
+    {
+      "p": [
+        "FR",
+        "0",
+        "ATSPRT",
+        "PR",
+        "ATJS",
+        "AKRS",
+        "0",
+        "PRT"
+      ],
+      "s": 461012
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "PLFT",
+        "MS",
+        "AS",
+        "TKN",
+        "FRM",
+        "HR",
+        "HM",
+        "ARNT"
+      ],
+      "s": 462947
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "PLFT",
+        "MS",
+        "AS",
+        "TKN",
+        "FRM",
+        "HR",
+        "HM",
+        "ARNT",
+        "AL",
+        "HR",
+        "PRNTS",
+        "AR",
+        "FSTNK",
+        "0",
+        "LKL",
+        "TN"
+      ],
+      "s": 462947
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "PLFT",
+        "MS",
+        "AS",
+        "TKN",
+        "FRM",
+        "HR",
+        "HM",
+        "ARNT",
+        "AL",
+        "HR",
+        "PRNTS",
+        "AR",
+        "FSTNK",
+        "0",
+        "LKL",
+        "TN",
+        "A",
+        "MMRL",
+        "SRFS",
+        "AS",
+        "HLT",
+        "0S",
+        "AFTRNN"
+      ],
+      "s": 462947
+    },
+    {
+      "p": [
+        "AL",
+        "HR",
+        "PRNTS",
+        "AR",
+        "FSTNK",
+        "0",
+        "LKL",
+        "TN"
+      ],
+      "s": 466016
+    },
+    {
+      "p": [
+        "AL",
+        "HR",
+        "PRNTS",
+        "AR",
+        "FSTNK",
+        "0",
+        "LKL",
+        "TN",
+        "A",
+        "MMRL",
+        "SRFS",
+        "AS",
+        "HLT",
+        "0S",
+        "AFTRNN"
+      ],
+      "s": 466016
+    },
+    {
+      "p": [
+        "AL",
+        "HR",
+        "PRNTS",
+        "AR",
+        "FSTNK",
+        "0",
+        "LKL",
+        "TN",
+        "A",
+        "MMRL",
+        "SRFS",
+        "AS",
+        "HLT",
+        "0S",
+        "AFTRNN",
+        "AT",
+        "PL",
+        "HL",
+        "KNT",
+        "ALMNTR",
+        "SKL"
+      ],
+      "s": 466016
+    },
+    {
+      "p": [
+        "A",
+        "MMRL",
+        "SRFS",
+        "AS",
+        "HLT",
+        "0S",
+        "AFTRNN"
+      ],
+      "s": 468718
+    },
+    {
+      "p": [
+        "A",
+        "MMRL",
+        "SRFS",
+        "AS",
+        "HLT",
+        "0S",
+        "AFTRNN",
+        "AT",
+        "PL",
+        "HL",
+        "KNT",
+        "ALMNTR",
+        "SKL"
+      ],
+      "s": 468718
+    },
+    {
+      "p": [
+        "AT",
+        "PL",
+        "HL",
+        "KNT",
+        "ALMNTR",
+        "SKL"
+      ],
+      "s": 470620
+    },
+    {
+      "p": [
+        "AS",
+        "TT",
+        "MRKS",
+        "A",
+        "AR",
+        "SNS",
+        "HR",
+        "TSPRNS"
+      ],
+      "s": 472122
+    },
+    {
+      "p": [
+        "AS",
+        "TT",
+        "MRKS",
+        "A",
+        "AR",
+        "SNS",
+        "HR",
+        "TSPRNS",
+        "FRST",
+        "A",
+        "ALT",
+        "LK",
+        "AS",
+        "T",
+        "ALKM",
+        "SMN"
+      ],
+      "s": 472122
+    },
+    {
+      "p": [
+        "AS",
+        "TT",
+        "MRKS",
+        "A",
+        "AR",
+        "SNS",
+        "HR",
+        "TSPRNS",
+        "FRST",
+        "A",
+        "ALT",
+        "LK",
+        "AS",
+        "T",
+        "ALKM",
+        "SMN",
+        "A",
+        "HS",
+        "A",
+        "F",
+        "ARTS",
+        "T",
+        "S"
+      ],
+      "s": 472122
+    },
+    {
+      "p": [
+        "FRST",
+        "A",
+        "ALT",
+        "LK",
+        "AS",
+        "T",
+        "ALKM",
+        "SMN"
+      ],
+      "s": 475560
+    },
+    {
+      "p": [
+        "FRST",
+        "A",
+        "ALT",
+        "LK",
+        "AS",
+        "T",
+        "ALKM",
+        "SMN",
+        "A",
+        "HS",
+        "A",
+        "F",
+        "ARTS",
+        "T",
+        "S"
+      ],
+      "s": 475560
+    },
+    {
+      "p": [
+        "FRST",
+        "A",
+        "ALT",
+        "LK",
+        "AS",
+        "T",
+        "ALKM",
+        "SMN",
+        "A",
+        "HS",
+        "A",
+        "F",
+        "ARTS",
+        "T",
+        "S",
+        "AN",
+        "0",
+        "JNRL",
+        "SFT",
+        "ANT",
+        "SRFLNS",
+        "AF",
+        "AR",
+        "KMNT"
+      ],
+      "s": 475560
+    },
+    {
+      "p": [
+        "A",
+        "HS",
+        "A",
+        "F",
+        "ARTS",
+        "T",
+        "S"
+      ],
+      "s": 477562
+    },
+    {
+      "p": [
+        "A",
+        "HS",
+        "A",
+        "F",
+        "ARTS",
+        "T",
+        "S",
+        "AN",
+        "0",
+        "JNRL",
+        "SFT",
+        "ANT",
+        "SRFLNS",
+        "AF",
+        "AR",
+        "KMNT"
+      ],
+      "s": 477562
+    },
+    {
+      "p": [
+        "A",
+        "HS",
+        "A",
+        "F",
+        "ARTS",
+        "T",
+        "S",
+        "AN",
+        "0",
+        "JNRL",
+        "SFT",
+        "ANT",
+        "SRFLNS",
+        "AF",
+        "AR",
+        "KMNT",
+        "MSS",
+        "ANKL"
+      ],
+      "s": 477562
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "JNRL",
+        "SFT",
+        "ANT",
+        "SRFLNS",
+        "AF",
+        "AR",
+        "KMNT"
+      ],
+      "s": 479031
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "JNRL",
+        "SFT",
+        "ANT",
+        "SRFLNS",
+        "AF",
+        "AR",
+        "KMNT",
+        "MSS",
+        "ANKL"
+      ],
+      "s": 479031
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "JNRL",
+        "SFT",
+        "ANT",
+        "SRFLNS",
+        "AF",
+        "AR",
+        "KMNT",
+        "MSS",
+        "ANKL",
+        "ANT",
+        "AR",
+        "FR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "PLS",
+        "TPT",
+        "XRF"
+      ],
+      "s": 479031
+    },
+    {
+      "p": [
+        "MSS",
+        "ANKL",
+        "ANT",
+        "AR",
+        "FR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "PLS",
+        "TPT",
+        "XRF"
+      ],
+      "s": 482466
+    },
+    {
+      "p": [
+        "MSS",
+        "ANKL",
+        "ANT",
+        "AR",
+        "FR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "PLS",
+        "TPT",
+        "XRF",
+        "KN0",
+        "PRFS",
+        "FRSTL"
+      ],
+      "s": 482466
+    },
+    {
+      "p": [
+        "ANT",
+        "AR",
+        "FR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "PLS",
+        "TPT",
+        "XRF"
+      ],
+      "s": 483968
+    },
+    {
+      "p": [
+        "ANT",
+        "AR",
+        "FR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "PLS",
+        "TPT",
+        "XRF",
+        "KN0",
+        "PRFS",
+        "FRSTL"
+      ],
+      "s": 483968
+    },
+    {
+      "p": [
+        "ANT",
+        "AR",
+        "FR",
+        "AN",
+        "PL",
+        "HL",
+        "KNT",
+        "PLS",
+        "TPT",
+        "XRF",
+        "KN0",
+        "PRFS",
+        "FRSTL",
+        "AAT",
+        "LK",
+        "T",
+        "0NK",
+        "A",
+        "AL",
+        "FR",
+        "KMNK",
+        "HR",
+        "TT"
+      ],
+      "s": 483968
+    },
+    {
+      "p": [
+        "KN0",
+        "PRFS",
+        "FRSTL",
+        "AAT",
+        "LK",
+        "T",
+        "0NK",
+        "A",
+        "AL",
+        "FR",
+        "KMNK",
+        "HR",
+        "TT"
+      ],
+      "s": 487038
+    },
+    {
+      "p": [
+        "KN0",
+        "PRFS",
+        "FRSTL",
+        "AAT",
+        "LK",
+        "T",
+        "0NK",
+        "A",
+        "AL",
+        "FR",
+        "KMNK",
+        "HR",
+        "TT",
+        "AS",
+        "A",
+        "AR",
+        "AR"
+      ],
+      "s": 487038
+    },
+    {
+      "p": [
+        "AAT",
+        "LK",
+        "T",
+        "0NK",
+        "A",
+        "AL",
+        "FR",
+        "KMNK",
+        "HR",
+        "TT"
+      ],
+      "s": 490040
+    },
+    {
+      "p": [
+        "AAT",
+        "LK",
+        "T",
+        "0NK",
+        "A",
+        "AL",
+        "FR",
+        "KMNK",
+        "HR",
+        "TT",
+        "AS",
+        "A",
+        "AR",
+        "AR"
+      ],
+      "s": 490040
+    },
+    {
+      "p": [
+        "AAT",
+        "LK",
+        "T",
+        "0NK",
+        "A",
+        "AL",
+        "FR",
+        "KMNK",
+        "HR",
+        "TT",
+        "AS",
+        "A",
+        "AR",
+        "AR",
+        "ATTS",
+        "A",
+        "AR",
+        "T",
+        "0",
+        "T",
+        "0T",
+        "MS",
+        "ANT",
+        "MSNK"
+      ],
+      "s": 490040
+    },
+    {
+      "p": [
+        "AS",
+        "A",
+        "AR",
+        "AR",
+        "ATTS",
+        "A",
+        "AR",
+        "T",
+        "0",
+        "T",
+        "0T",
+        "MS",
+        "ANT",
+        "MSNK"
+      ],
+      "s": 494512
+    },
+    {
+      "p": [
+        "ATTS",
+        "A",
+        "AR",
+        "T",
+        "0",
+        "T",
+        "0T",
+        "MS",
+        "ANT",
+        "MSNK"
+      ],
+      "s": 496012
+    },
+    {
+      "p": [
+        "PT",
+        "AR",
+        "NT",
+        "K0RT",
+        "HR",
+        "TT",
+        "T",
+        "RMMPR",
+        "0T"
+      ],
+      "s": 502137
+    },
+    {
+      "p": [
+        "AR",
+        "K0RT",
+        "HR",
+        "TT"
+      ],
+      "s": 509677
+    },
+    {
+      "p": [
+        "AR",
+        "K0RT",
+        "HR",
+        "TT",
+        "T",
+        "RMMPR",
+        "H",
+        "JFL",
+        "X",
+        "AS"
+      ],
+      "s": 509677
+    },
+    {
+      "p": [
+        "AR",
+        "K0RT",
+        "HR",
+        "TT",
+        "T",
+        "RMMPR",
+        "H",
+        "JFL",
+        "X",
+        "AS",
+        "ANT",
+        "H",
+        "HP",
+        "X",
+        "ALS",
+        "SMT"
+      ],
+      "s": 509677
+    },
+    {
+      "p": [
+        "T",
+        "RMMPR",
+        "H",
+        "JFL",
+        "X",
+        "AS"
+      ],
+      "s": 512496
+    },
+    {
+      "p": [
+        "T",
+        "RMMPR",
+        "H",
+        "JFL",
+        "X",
+        "AS",
+        "ANT",
+        "H",
+        "HP",
+        "X",
+        "ALS",
+        "SMT"
+      ],
+      "s": 512496
+    },
+    {
+      "p": [
+        "ANT",
+        "H",
+        "HP",
+        "X",
+        "ALS",
+        "SMT"
+      ],
+      "s": 516500
+    },
+    {
+      "p": [
+        "ANT",
+        "AAM",
+        "AAM",
+        "SR",
+        "AL",
+        "AL",
+        "AKR",
+        "A0",
+        "M",
+        "AN",
+        "A",
+        "S",
+        "H",
+        "SMRT"
+      ],
+      "s": 521224
+    },
+    {
+      "p": [
+        "ANT",
+        "AAM",
+        "AAM",
+        "SR",
+        "AL",
+        "AL",
+        "AKR",
+        "A0",
+        "M",
+        "AN",
+        "A",
+        "S",
+        "H",
+        "SMRT",
+        "ANT",
+        "H",
+        "KPPL",
+        "X",
+        "AS"
+      ],
+      "s": 521224
+    },
+    {
+      "p": [
+        "AAM",
+        "SR",
+        "AL",
+        "AL",
+        "AKR",
+        "A0",
+        "M",
+        "AN",
+        "A",
+        "S",
+        "H",
+        "SMRT"
+      ],
+      "s": 523005
+    },
+    {
+      "p": [
+        "AAM",
+        "SR",
+        "AL",
+        "AL",
+        "AKR",
+        "A0",
+        "M",
+        "AN",
+        "A",
+        "S",
+        "H",
+        "SMRT",
+        "ANT",
+        "H",
+        "KPPL",
+        "X",
+        "AS"
+      ],
+      "s": 523005
+    },
+    {
+      "p": [
+        "ANT",
+        "H",
+        "KPPL",
+        "X",
+        "AS"
+      ],
+      "s": 527076
+    },
+    {
+      "p": [
+        "MS",
+        "RL",
+        "AS",
+        "FR",
+        "SPSL"
+      ],
+      "s": 531801
+    },
+    {
+      "p": [
+        "MS",
+        "RL",
+        "AS",
+        "FR",
+        "SPSL",
+        "0R",
+        "AS",
+        "SM0NK",
+        "ANKRTPL",
+        "ANK",
+        "APT",
+        "HR"
+      ],
+      "s": 531801
+    },
+    {
+      "p": [
+        "MS",
+        "RL",
+        "AS",
+        "FR",
+        "SPSL",
+        "0R",
+        "AS",
+        "SM0NK",
+        "ANKRTPL",
+        "ANK",
+        "APT",
+        "HR",
+        "ANT",
+        "A",
+        "AL",
+        "S",
+        "AT"
+      ],
+      "s": 531801
+    },
+    {
+      "p": [
+        "0R",
+        "AS",
+        "SM0NK",
+        "ANKRTPL",
+        "ANK",
+        "APT",
+        "HR"
+      ],
+      "s": 535253
+    },
+    {
+      "p": [
+        "0R",
+        "AS",
+        "SM0NK",
+        "ANKRTPL",
+        "ANK",
+        "APT",
+        "HR",
+        "ANT",
+        "A",
+        "AL",
+        "S",
+        "AT"
+      ],
+      "s": 535253
+    },
+    {
+      "p": [
+        "T",
+        "A",
+        "RMMPR",
+        "AN",
+        "MM",
+        "TT"
+      ],
+      "s": 574043
+    },
+    {
+      "p": [
+        "T",
+        "A",
+        "RMMPR",
+        "AN",
+        "MM",
+        "TT",
+        "ANT",
+        "TT",
+        "ALT",
+        "ALS",
+        "P",
+        "AF"
+      ],
+      "s": 574043
+    },
+    {
+      "p": [
+        "T",
+        "A",
+        "RMMPR",
+        "AN",
+        "MM",
+        "TT",
+        "ANT",
+        "TT",
+        "ALT",
+        "ALS",
+        "P",
+        "AF",
+        "ARKNK",
+        "AR",
+        "ATFR"
+      ],
+      "s": 574043
+    },
+    {
+      "p": [
+        "ANT",
+        "TT",
+        "ALT",
+        "ALS",
+        "P",
+        "AF"
+      ],
+      "s": 577595
+    },
+    {
+      "p": [
+        "ANT",
+        "TT",
+        "ALT",
+        "ALS",
+        "P",
+        "AF",
+        "ARKNK",
+        "AR",
+        "ATFR"
+      ],
+      "s": 577595
+    },
+    {
+      "p": [
+        "ANT",
+        "TT",
+        "ALT",
+        "ALS",
+        "P",
+        "AF",
+        "ARKNK",
+        "AR",
+        "ATFR",
+        "ANT",
+        "A",
+        "HT",
+        "T",
+        "LK",
+        "AFTR",
+        "A"
+      ],
+      "s": 577595
+    },
+    {
+      "p": [
+        "ARKNK",
+        "AR",
+        "ATFR",
+        "ANT",
+        "A",
+        "HT",
+        "T",
+        "LK",
+        "AFTR",
+        "A"
+      ],
+      "s": 579963
+    },
+    {
+      "p": [
+        "0S",
+        "AS",
+        "0",
+        "SM",
+        "JST",
+        "A",
+        "LTL",
+        "PT",
+        "TFRNT"
+      ],
+      "s": 589792
+    },
+    {
+      "p": [
+        "JST",
+        "A",
+        "LTL",
+        "PT",
+        "TFRNT"
+      ],
+      "s": 592643
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "ALS",
+        "M",
+        "LKNK",
+        "AFTR",
+        "A",
+        "TM"
+      ],
+      "s": 610225
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "ALS",
+        "M",
+        "LKNK",
+        "AFTR",
+        "A",
+        "TM",
+        "N"
+      ],
+      "s": 610225
+    },
+    {
+      "p": [
+        "A",
+        "KT",
+        "A",
+        "TRNK",
+        "PRPLM"
+      ],
+      "s": 625225
+    },
+    {
+      "p": [
+        "A",
+        "KT",
+        "A",
+        "TRNK",
+        "PRPLM",
+        "A",
+        "HF",
+        "A",
+        "TRNK",
+        "PRPLM"
+      ],
+      "s": 625225
+    },
+    {
+      "p": [
+        "A",
+        "KT",
+        "A",
+        "TRNK",
+        "PRPLM",
+        "A",
+        "HF",
+        "A",
+        "TRNK",
+        "PRPLM",
+        "SS",
+        "A"
+      ],
+      "s": 625225
+    },
+    {
+      "p": [
+        "A",
+        "HF",
+        "A",
+        "TRNK",
+        "PRPLM",
+        "SS",
+        "A"
+      ],
+      "s": 627745
+    },
+    {
+      "p": [
+        "A",
+        "HF",
+        "A",
+        "TRNK",
+        "PRPLM",
+        "SS",
+        "A",
+        "S",
+        "H",
+        "LNK",
+        "TT",
+        "AT",
+        "TK",
+        "A",
+        "T",
+        "KT",
+        "AL",
+        "0S",
+        "TN"
+      ],
+      "s": 627745
+    },
+    {
+      "p": [
+        "SS",
+        "A",
+        "S",
+        "H",
+        "LNK",
+        "TT",
+        "AT",
+        "TK",
+        "A",
+        "T",
+        "KT",
+        "AL",
+        "0S",
+        "TN"
+      ],
+      "s": 629614
+    },
+    {
+      "p": [
+        "SS",
+        "A",
+        "S",
+        "H",
+        "LNK",
+        "TT",
+        "AT",
+        "TK",
+        "A",
+        "T",
+        "KT",
+        "AL",
+        "0S",
+        "TN",
+        "H",
+        "LNK",
+        "AS",
+        "AT",
+        "SNS",
+        "A",
+        "HT",
+        "PS",
+        "A",
+        "TNNT",
+        "AT",
+        "PS"
+      ],
+      "s": 629614
+    },
+    {
+      "p": [
+        "S",
+        "H",
+        "LNK",
+        "TT",
+        "AT",
+        "TK",
+        "A",
+        "T",
+        "KT",
+        "AL",
+        "0S",
+        "TN"
+      ],
+      "s": 631182
+    },
+    {
+      "p": [
+        "S",
+        "H",
+        "LNK",
+        "TT",
+        "AT",
+        "TK",
+        "A",
+        "T",
+        "KT",
+        "AL",
+        "0S",
+        "TN",
+        "H",
+        "LNK",
+        "AS",
+        "AT",
+        "SNS",
+        "A",
+        "HT",
+        "PS",
+        "A",
+        "TNNT",
+        "AT",
+        "PS"
+      ],
+      "s": 631182
+    },
+    {
+      "p": [
+        "S",
+        "H",
+        "LNK",
+        "TT",
+        "AT",
+        "TK",
+        "A",
+        "T",
+        "KT",
+        "AL",
+        "0S",
+        "TN",
+        "H",
+        "LNK",
+        "AS",
+        "AT",
+        "SNS",
+        "A",
+        "HT",
+        "PS",
+        "A",
+        "TNNT",
+        "AT",
+        "PS",
+        "A",
+        "HRTL",
+        "AT",
+        "AN",
+        "AF",
+        "0T"
+      ],
+      "s": 631182
+    },
+    {
+      "p": [
+        "H",
+        "LNK",
+        "AS",
+        "AT",
+        "SNS",
+        "A",
+        "HT",
+        "PS",
+        "A",
+        "TNNT",
+        "AT",
+        "PS"
+      ],
+      "s": 635119
+    },
+    {
+      "p": [
+        "H",
+        "LNK",
+        "AS",
+        "AT",
+        "SNS",
+        "A",
+        "HT",
+        "PS",
+        "A",
+        "TNNT",
+        "AT",
+        "PS",
+        "A",
+        "HRTL",
+        "AT",
+        "AN",
+        "AF",
+        "0T"
+      ],
+      "s": 635119
+    },
+    {
+      "p": [
+        "H",
+        "LNK",
+        "AS",
+        "AT",
+        "SNS",
+        "A",
+        "HT",
+        "PS",
+        "A",
+        "TNNT",
+        "AT",
+        "PS",
+        "A",
+        "HRTL",
+        "AT",
+        "AN",
+        "AF",
+        "0T",
+        "S",
+        "PL",
+        "A",
+        "AS",
+        "AKSPKTNK",
+        "T",
+        "S"
+      ],
+      "s": 635119
+    },
+    {
+      "p": [
+        "A",
+        "HRTL",
+        "AT",
+        "AN",
+        "AF",
+        "0T"
+      ],
+      "s": 640356
+    },
+    {
+      "p": [
+        "A",
+        "HRTL",
+        "AT",
+        "AN",
+        "AF",
+        "0T",
+        "S",
+        "PL",
+        "A",
+        "AS",
+        "AKSPKTNK",
+        "T",
+        "S"
+      ],
+      "s": 640356
+    },
+    {
+      "p": [
+        "A",
+        "HRTL",
+        "AT",
+        "AN",
+        "AF",
+        "0T",
+        "S",
+        "PL",
+        "A",
+        "AS",
+        "AKSPKTNK",
+        "T",
+        "S",
+        "JS",
+        "AT",
+        "AS",
+        "HR",
+        "NM",
+        "JN"
+      ],
+      "s": 640356
+    },
+    {
+      "p": [
+        "S",
+        "PL",
+        "A",
+        "AS",
+        "AKSPKTNK",
+        "T",
+        "S"
+      ],
+      "s": 642725
+    },
+    {
+      "p": [
+        "S",
+        "PL",
+        "A",
+        "AS",
+        "AKSPKTNK",
+        "T",
+        "S",
+        "JS",
+        "AT",
+        "AS",
+        "HR",
+        "NM",
+        "JN"
+      ],
+      "s": 642725
+    },
+    {
+      "p": [
+        "S",
+        "PL",
+        "A",
+        "AS",
+        "AKSPKTNK",
+        "T",
+        "S",
+        "JS",
+        "AT",
+        "AS",
+        "HR",
+        "NM",
+        "JN",
+        "JN",
+        "0TTS",
+        "AT",
+        "AS",
+        "X"
+      ],
+      "s": 642725
+    },
+    {
+      "p": [
+        "JS",
+        "AT",
+        "AS",
+        "HR",
+        "NM",
+        "JN"
+      ],
+      "s": 646663
+    },
+    {
+      "p": [
+        "JS",
+        "AT",
+        "AS",
+        "HR",
+        "NM",
+        "JN",
+        "JN",
+        "0TTS",
+        "AT",
+        "AS",
+        "X"
+      ],
+      "s": 646663
+    },
+    {
+      "p": [
+        "JS",
+        "AT",
+        "AS",
+        "HR",
+        "NM",
+        "JN",
+        "JN",
+        "0TTS",
+        "AT",
+        "AS",
+        "X",
+        "A",
+        "MN"
+      ],
+      "s": 646663
+    },
+    {
+      "p": [
+        "JN",
+        "0TTS",
+        "AT",
+        "AS",
+        "X"
+      ],
+      "s": 648197
+    },
+    {
+      "p": [
+        "JN",
+        "0TTS",
+        "AT",
+        "AS",
+        "X",
+        "A",
+        "MN"
+      ],
+      "s": 648197
+    },
+    {
+      "p": [
+        "JN",
+        "0TTS",
+        "AT",
+        "AS",
+        "X",
+        "A",
+        "MN",
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AT",
+        "HPNT",
+        "T",
+        "JN"
+      ],
+      "s": 648197
+    },
+    {
+      "p": [
+        "A",
+        "MN",
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AT",
+        "HPNT",
+        "T",
+        "JN"
+      ],
+      "s": 651402
+    },
+    {
+      "p": [
+        "A",
+        "MN",
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AT",
+        "HPNT",
+        "T",
+        "JN",
+        "AT",
+        "ASNNT",
+        "ARKNK",
+        "AT",
+        "KLT",
+        "A",
+        "PS",
+        "0",
+        "KXP"
+      ],
+      "s": 651402
+    },
+    {
+      "p": [
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AT",
+        "HPNT",
+        "T",
+        "JN"
+      ],
+      "s": 654238
+    },
+    {
+      "p": [
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AT",
+        "HPNT",
+        "T",
+        "JN",
+        "AT",
+        "ASNNT",
+        "ARKNK",
+        "AT",
+        "KLT",
+        "A",
+        "PS",
+        "0",
+        "KXP"
+      ],
+      "s": 654238
+    },
+    {
+      "p": [
+        "AT",
+        "ASNNT",
+        "ARKNK",
+        "AT",
+        "KLT",
+        "A",
+        "PS",
+        "0",
+        "KXP"
+      ],
+      "s": 656407
+    },
+    {
+      "p": [
+        "N",
+        "AT",
+        "TNNT",
+        "TNNT",
+        "AT"
+      ],
+      "s": 662096
+    },
+    {
+      "p": [
+        "N",
+        "AT",
+        "TNNT",
+        "TNNT",
+        "AT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "AR",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK"
+      ],
+      "s": 662096
+    },
+    {
+      "p": [
+        "TNNT",
+        "TNNT",
+        "AT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "AR",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK"
+      ],
+      "s": 664749
+    },
+    {
+      "p": [
+        "TNNT",
+        "TNNT",
+        "AT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "AR",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK",
+        "TNNT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "M",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK"
+      ],
+      "s": 664749
+    },
+    {
+      "p": [
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "AR",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK"
+      ],
+      "s": 667118
+    },
+    {
+      "p": [
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "AR",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK",
+        "TNNT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "M",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK"
+      ],
+      "s": 667118
+    },
+    {
+      "p": [
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "AR",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK",
+        "TNNT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "M",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK",
+        "JST",
+        "T",
+        "AT",
+        "PLS"
+      ],
+      "s": 667118
+    },
+    {
+      "p": [
+        "TNNT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "M",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK"
+      ],
+      "s": 670687
+    },
+    {
+      "p": [
+        "TNNT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "M",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK",
+        "JST",
+        "T",
+        "AT",
+        "PLS"
+      ],
+      "s": 670687
+    },
+    {
+      "p": [
+        "TNNT",
+        "PS",
+        "0",
+        "SS",
+        "T",
+        "M",
+        "ANKL",
+        "LK",
+        "A",
+        "NRML",
+        "HMN",
+        "PNK",
+        "JST",
+        "T",
+        "AT",
+        "PLS",
+        "0TTS",
+        "A",
+        "RL",
+        "XM",
+        "APT",
+        "JN"
+      ],
+      "s": 670687
+    },
+    {
+      "p": [
+        "JST",
+        "T",
+        "AT",
+        "PLS",
+        "0TTS",
+        "A",
+        "RL",
+        "XM",
+        "APT",
+        "JN"
+      ],
+      "s": 673322
+    },
+    {
+      "p": [
+        "JST",
+        "T",
+        "AT",
+        "PLS",
+        "0TTS",
+        "A",
+        "RL",
+        "XM",
+        "APT",
+        "JN",
+        "X",
+        "AS",
+        "A",
+        "KRT",
+        "JRL"
+      ],
+      "s": 673322
+    },
+    {
+      "p": [
+        "0TTS",
+        "A",
+        "RL",
+        "XM",
+        "APT",
+        "JN"
+      ],
+      "s": 675993
+    },
+    {
+      "p": [
+        "0TTS",
+        "A",
+        "RL",
+        "XM",
+        "APT",
+        "JN",
+        "X",
+        "AS",
+        "A",
+        "KRT",
+        "JRL"
+      ],
+      "s": 675993
+    },
+    {
+      "p": [
+        "JNS",
+        "X",
+        "AS",
+        "A",
+        "KRT",
+        "JRL"
+      ],
+      "s": 680197
+    },
+    {
+      "p": [
+        "JNS",
+        "X",
+        "AS",
+        "A",
+        "KRT",
+        "JRL",
+        "JNS",
+        "KRT",
+        "AM"
+      ],
+      "s": 680197
+    },
+    {
+      "p": [
+        "JNS",
+        "X",
+        "AS",
+        "A",
+        "KRT",
+        "JRL",
+        "JNS",
+        "KRT",
+        "AM",
+        "PT",
+        "A",
+        "HT",
+        "AR",
+        "TFRNSS"
+      ],
+      "s": 680197
+    },
+    {
+      "p": [
+        "JNS",
+        "KRT",
+        "AM",
+        "PT",
+        "A",
+        "HT",
+        "AR",
+        "TFRNSS"
+      ],
+      "s": 682731
+    },
+    {
+      "p": [
+        "JNS",
+        "KRT",
+        "AM",
+        "PT",
+        "A",
+        "HT",
+        "AR",
+        "TFRNSS",
+        "AN",
+        "TT",
+        "AT",
+        "HPN",
+        "F",
+        "MN0S",
+        "PK"
+      ],
+      "s": 682731
+    },
+    {
+      "p": [
+        "PT",
+        "A",
+        "HT",
+        "AR",
+        "TFRNSS"
+      ],
+      "s": 684902
+    },
+    {
+      "p": [
+        "PT",
+        "A",
+        "HT",
+        "AR",
+        "TFRNSS",
+        "AN",
+        "TT",
+        "AT",
+        "HPN",
+        "F",
+        "MN0S",
+        "PK"
+      ],
+      "s": 684902
+    },
+    {
+      "p": [
+        "AN",
+        "TT",
+        "AT",
+        "HPN",
+        "F",
+        "MN0S",
+        "PK"
+      ],
+      "s": 686702
+    },
+    {
+      "p": [
+        "AAM",
+        "SR",
+        "T",
+        "HR",
+        "0T",
+        "PT"
+      ],
+      "s": 688303
+    },
+    {
+      "p": [
+        "AAM",
+        "SR",
+        "T",
+        "HR",
+        "0T",
+        "PT",
+        "AT",
+        "AS",
+        "FR",
+        "0",
+        "PST"
+      ],
+      "s": 688303
+    },
+    {
+      "p": [
+        "AAM",
+        "SR",
+        "T",
+        "HR",
+        "0T",
+        "PT",
+        "AT",
+        "AS",
+        "FR",
+        "0",
+        "PST",
+        "PL",
+        "AS",
+        "KN",
+        "PRPS",
+        "T",
+        "HR"
+      ],
+      "s": 688303
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "FR",
+        "0",
+        "PST",
+        "PL",
+        "AS",
+        "KN",
+        "PRPS",
+        "T",
+        "HR"
+      ],
+      "s": 690874
+    },
+    {
+      "p": [
+        "PL",
+        "AS",
+        "KN",
+        "PRPS",
+        "T",
+        "HR"
+      ],
+      "s": 693244
+    },
+    {
+      "p": [
+        "PT",
+        "H",
+        "KT",
+        "SKRT",
+        "ANT",
+        "PL",
+        "TSNNT",
+        "FS",
+        "HS",
+        "FRS"
+      ],
+      "s": 699369
+    },
+    {
+      "p": [
+        "H",
+        "JST",
+        "RNS",
+        "ANNT",
+        "0T",
+        "RT",
+        "PL"
+      ],
+      "s": 705774
+    },
+    {
+      "p": [
+        "ANNT",
+        "0T",
+        "RT",
+        "PL"
+      ],
+      "s": 707456
+    },
+    {
+      "p": [
+        "JST",
+        "ST",
+        "TN",
+        "ANT",
+        "FNX",
+        "AR",
+        "TNR"
+      ],
+      "s": 723993
+    },
+    {
+      "p": [
+        "JST",
+        "ST",
+        "TN",
+        "ANT",
+        "FNX",
+        "AR",
+        "TNR",
+        "AAF",
+        "ALRT",
+        "FNXT"
+      ],
+      "s": 723993
+    },
+    {
+      "p": [
+        "MR0",
+        "ANT",
+        "A",
+        "AKTL",
+        "PLNT",
+        "AN",
+        "HFNK",
+        "KTS"
+      ],
+      "s": 751951
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "ANTT",
+        "AN",
+        "AR",
+        "T",
+        "PT",
+        "X",
+        "LK",
+        "ANTT",
+        "TNT",
+        "AR",
+        "0RT"
+      ],
+      "s": 757692
+    },
+    {
+      "p": [
+        "PT",
+        "X",
+        "LK",
+        "ANTT",
+        "TNT",
+        "AR",
+        "0RT"
+      ],
+      "s": 759243
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "AN",
+        "AN",
+        "MR0",
+        "PST"
+      ],
+      "s": 767701
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "FLT",
+        "LK",
+        "M",
+        "LF",
+        "AS",
+        "AFR"
+      ],
+      "s": 774043
+    },
+    {
+      "p": [
+        "A",
+        "FLT",
+        "KRPLT",
+        "LK",
+        "LF",
+        "ASNNT",
+        "AR0",
+        "LFNK",
+        "ANMR"
+      ],
+      "s": 777245
+    },
+    {
+      "p": [
+        "A",
+        "FLT",
+        "KRPLT",
+        "LK",
+        "LF",
+        "ASNNT",
+        "AR0",
+        "LFNK",
+        "ANMR",
+        "ANT",
+        "0N",
+        "AN",
+        "TM",
+        "A",
+        "MNJT",
+        "T",
+        "PK",
+        "MSLF",
+        "AP"
+      ],
+      "s": 777245
+    },
+    {
+      "p": [
+        "LK",
+        "LF",
+        "ASNNT",
+        "AR0",
+        "LFNK",
+        "ANMR"
+      ],
+      "s": 779528
+    },
+    {
+      "p": [
+        "LK",
+        "LF",
+        "ASNNT",
+        "AR0",
+        "LFNK",
+        "ANMR",
+        "ANT",
+        "0N",
+        "AN",
+        "TM",
+        "A",
+        "MNJT",
+        "T",
+        "PK",
+        "MSLF",
+        "AP"
+      ],
+      "s": 779528
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "AN",
+        "TM",
+        "A",
+        "MNJT",
+        "T",
+        "PK",
+        "MSLF",
+        "AP"
+      ],
+      "s": 782298
+    },
+    {
+      "p": [
+        "KRF",
+        "AS",
+        "PLNTNK",
+        "A",
+        "TNNT",
+        "AN",
+        "TLK",
+        "APT",
+        "AT",
+        "X",
+        "NTS",
+        "A",
+        "RT",
+        "N"
+      ],
+      "s": 799469
+    },
+    {
+      "p": [
+        "KRF",
+        "AS",
+        "PLNTNK",
+        "A",
+        "TNNT",
+        "AN",
+        "TLK",
+        "APT",
+        "AT",
+        "X",
+        "NTS",
+        "A",
+        "RT",
+        "N",
+        "A",
+        "T",
+        "NT",
+        "ANT",
+        "T",
+        "TLK",
+        "APT",
+        "AT",
+        "MRKN"
+      ],
+      "s": 799469
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "AN",
+        "TLK",
+        "APT",
+        "AT",
+        "X",
+        "NTS",
+        "A",
+        "RT",
+        "N"
+      ],
+      "s": 802418
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "AN",
+        "TLK",
+        "APT",
+        "AT",
+        "X",
+        "NTS",
+        "A",
+        "RT",
+        "N",
+        "A",
+        "T",
+        "NT",
+        "ANT",
+        "T",
+        "TLK",
+        "APT",
+        "AT",
+        "MRKN"
+      ],
+      "s": 802418
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "AN",
+        "TLK",
+        "APT",
+        "AT",
+        "X",
+        "NTS",
+        "A",
+        "RT",
+        "N",
+        "A",
+        "T",
+        "NT",
+        "ANT",
+        "T",
+        "TLK",
+        "APT",
+        "AT",
+        "MRKN",
+        "A",
+        "0NK",
+        "A",
+        "NT",
+        "SM",
+        "TM"
+      ],
+      "s": 802418
+    },
+    {
+      "p": [
+        "A",
+        "T",
+        "NT",
+        "ANT",
+        "T",
+        "TLK",
+        "APT",
+        "AT",
+        "MRKN"
+      ],
+      "s": 805154
+    },
+    {
+      "p": [
+        "A",
+        "T",
+        "NT",
+        "ANT",
+        "T",
+        "TLK",
+        "APT",
+        "AT",
+        "MRKN",
+        "A",
+        "0NK",
+        "A",
+        "NT",
+        "SM",
+        "TM"
+      ],
+      "s": 805154
+    },
+    {
+      "p": [
+        "ATTS",
+        "PN",
+        "A",
+        "AR",
+        "PT",
+        "ANL",
+        "SKS",
+        "HRS",
+        "SNS",
+        "A",
+        "MT",
+        "PS",
+        "A0",
+        "AT"
+      ],
+      "s": 813081
+    },
+    {
+      "p": [
+        "ATTS",
+        "PN",
+        "A",
+        "AR",
+        "PT",
+        "ANL",
+        "SKS",
+        "HRS",
+        "SNS",
+        "A",
+        "MT",
+        "PS",
+        "A0",
+        "AT",
+        "MT",
+        "PS"
+      ],
+      "s": 813081
+    },
+    {
+      "p": [
+        "PT",
+        "ANL",
+        "SKS",
+        "HRS",
+        "SNS",
+        "A",
+        "MT",
+        "PS",
+        "A0",
+        "AT"
+      ],
+      "s": 814197
+    },
+    {
+      "p": [
+        "PT",
+        "ANL",
+        "SKS",
+        "HRS",
+        "SNS",
+        "A",
+        "MT",
+        "PS",
+        "A0",
+        "AT",
+        "MT",
+        "PS"
+      ],
+      "s": 814197
+    },
+    {
+      "p": [
+        "PT",
+        "ANL",
+        "SKS",
+        "HRS",
+        "SNS",
+        "A",
+        "MT",
+        "PS",
+        "A0",
+        "AT",
+        "MT",
+        "PS",
+        "A",
+        "N",
+        "0T",
+        "ANNT",
+        "AT",
+        "AAM",
+        "SNK",
+        "R"
+      ],
+      "s": 814197
+    },
+    {
+      "p": [
+        "MT",
+        "PS",
+        "A",
+        "N",
+        "0T",
+        "ANNT",
+        "AT",
+        "AAM",
+        "SNK",
+        "R"
+      ],
+      "s": 816832
+    },
+    {
+      "p": [
+        "MT",
+        "PS",
+        "A",
+        "N",
+        "0T",
+        "ANNT",
+        "AT",
+        "AAM",
+        "SNK",
+        "R",
+        "A",
+        "ANNT",
+        "NFR",
+        "MKNK",
+        "PS",
+        "A0",
+        "AT"
+      ],
+      "s": 816832
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "0T",
+        "ANNT",
+        "AT",
+        "AAM",
+        "SNK",
+        "R"
+      ],
+      "s": 818067
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "0T",
+        "ANNT",
+        "AT",
+        "AAM",
+        "SNK",
+        "R",
+        "A",
+        "ANNT",
+        "NFR",
+        "MKNK",
+        "PS",
+        "A0",
+        "AT"
+      ],
+      "s": 818067
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "0T",
+        "ANNT",
+        "AT",
+        "AAM",
+        "SNK",
+        "R",
+        "A",
+        "ANNT",
+        "NFR",
+        "MKNK",
+        "PS",
+        "A0",
+        "AT",
+        "A",
+        "N",
+        "AT",
+        "A",
+        "MN",
+        "R"
+      ],
+      "s": 818067
+    },
+    {
+      "p": [
+        "A",
+        "ANNT",
+        "NFR",
+        "MKNK",
+        "PS",
+        "A0",
+        "AT"
+      ],
+      "s": 820269
+    },
+    {
+      "p": [
+        "A",
+        "ANNT",
+        "NFR",
+        "MKNK",
+        "PS",
+        "A0",
+        "AT",
+        "A",
+        "N",
+        "AT",
+        "A",
+        "MN",
+        "R"
+      ],
+      "s": 820269
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "A",
+        "TTNNT",
+        "MN",
+        "AT",
+        "T",
+        "SNT",
+        "LK",
+        "0T"
+      ],
+      "s": 833283
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "A",
+        "N",
+        "A",
+        "N",
+        "AL",
+        "0S",
+        "PT"
+      ],
+      "s": 867302
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "A",
+        "N",
+        "AL",
+        "0S",
+        "PT"
+      ],
+      "s": 869052
+    },
+    {
+      "p": [
+        "0",
+        "TR0",
+        "AS",
+        "0",
+        "TR0",
+        "AS",
+        "A",
+        "LT",
+        "A",
+        "TN"
+      ],
+      "s": 873841
+    },
+    {
+      "p": [
+        "0",
+        "TR0",
+        "AS",
+        "A",
+        "LT",
+        "A",
+        "TN"
+      ],
+      "s": 875893
+    },
+    {
+      "p": [
+        "A",
+        "R",
+        "N",
+        "A",
+        "LT",
+        "0S",
+        "FML",
+        "TN"
+      ],
+      "s": 881017
+    },
+    {
+      "p": [
+        "0T",
+        "KLT",
+        "0T",
+        "AL",
+        "0S",
+        "FLNK",
+        "AF",
+        "HLPLSNS"
+      ],
+      "s": 888423
+    },
+    {
+      "p": [
+        "AL",
+        "0S",
+        "FLNK",
+        "AF",
+        "HLPLSNS"
+      ],
+      "s": 891240
+    },
+    {
+      "p": [
+        "A",
+        "FL",
+        "RSPNSPLT",
+        "A",
+        "FL"
+      ],
+      "s": 896532
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "A",
+        "JST",
+        "ANTT",
+        "A",
+        "T",
+        "N"
+      ],
+      "s": 901870
+    },
+    {
+      "p": [
+        "H",
+        "SR",
+        "A",
+        "AM",
+        "ALF",
+        "0S",
+        "FML",
+        "AS",
+        "AFR0NK",
+        "T",
+        "M"
+      ],
+      "s": 905605
+    },
+    {
+      "p": [
+        "0S",
+        "FML",
+        "AS",
+        "AFR0NK",
+        "T",
+        "M"
+      ],
+      "s": 908490
+    },
+    {
+      "p": [
+        "ATTS",
+        "AP",
+        "AFR0NK",
+        "AL",
+        "RT",
+        "JST"
+      ],
+      "s": 1012148
+    },
+    {
+      "p": [
+        "ATTS",
+        "AP",
+        "AFR0NK",
+        "AL",
+        "RT",
+        "JST",
+        "KRKR",
+        "M0SNNS",
+        "PS",
+        "AR",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK"
+      ],
+      "s": 1012148
+    },
+    {
+      "p": [
+        "AFR0NK",
+        "AL",
+        "RT",
+        "JST"
+      ],
+      "s": 1014629
+    },
+    {
+      "p": [
+        "AFR0NK",
+        "AL",
+        "RT",
+        "JST",
+        "KRKR",
+        "M0SNNS",
+        "PS",
+        "AR",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK"
+      ],
+      "s": 1014629
+    },
+    {
+      "p": [
+        "AFR0NK",
+        "AL",
+        "RT",
+        "JST",
+        "KRKR",
+        "M0SNNS",
+        "PS",
+        "AR",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK",
+        "LTNK",
+        "FLRS"
+      ],
+      "s": 1014629
+    },
+    {
+      "p": [
+        "KRKR",
+        "M0SNNS",
+        "PS",
+        "AR",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK"
+      ],
+      "s": 1017533
+    },
+    {
+      "p": [
+        "KRKR",
+        "M0SNNS",
+        "PS",
+        "AR",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK",
+        "LTNK",
+        "FLRS"
+      ],
+      "s": 1017533
+    },
+    {
+      "p": [
+        "KRKR",
+        "M0SNNS",
+        "PS",
+        "AR",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK",
+        "LTNK",
+        "FLRS",
+        "JST",
+        "KN",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M"
+      ],
+      "s": 1017533
+    },
+    {
+      "p": [
+        "LTNK",
+        "FLRS",
+        "JST",
+        "KN",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M"
+      ],
+      "s": 1020671
+    },
+    {
+      "p": [
+        "JST",
+        "KN",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M"
+      ],
+      "s": 1022638
+    },
+    {
+      "p": [
+        "R",
+        "A",
+        "SR",
+        "AR",
+        "AL",
+        "RT"
+      ],
+      "s": 1026428
+    },
+    {
+      "p": [
+        "R",
+        "A",
+        "SR",
+        "AR",
+        "AL",
+        "RT",
+        "AAM",
+        "FN",
+        "ARLN",
+        "HNSTL"
+      ],
+      "s": 1026428
+    },
+    {
+      "p": [
+        "R",
+        "A",
+        "SR",
+        "AR",
+        "AL",
+        "RT",
+        "AAM",
+        "FN",
+        "ARLN",
+        "HNSTL",
+        "A",
+        "ANNT",
+        "P",
+        "FF",
+        "MNTS"
+      ],
+      "s": 1026428
+    },
+    {
+      "p": [
+        "AAM",
+        "FN",
+        "ARLN",
+        "HNSTL"
+      ],
+      "s": 1030278
+    },
+    {
+      "p": [
+        "AAM",
+        "FN",
+        "ARLN",
+        "HNSTL",
+        "A",
+        "ANNT",
+        "P",
+        "FF",
+        "MNTS"
+      ],
+      "s": 1030278
+    },
+    {
+      "p": [
+        "AAM",
+        "FN",
+        "ARLN",
+        "HNSTL",
+        "A",
+        "ANNT",
+        "P",
+        "FF",
+        "MNTS",
+        "ATTS",
+        "0",
+        "TRPL"
+      ],
+      "s": 1030278
+    },
+    {
+      "p": [
+        "A",
+        "ANNT",
+        "P",
+        "FF",
+        "MNTS",
+        "ATTS",
+        "0",
+        "TRPL"
+      ],
+      "s": 1032548
+    },
+    {
+      "p": [
+        "A",
+        "ANNT",
+        "P",
+        "FF",
+        "MNTS",
+        "ATTS",
+        "0",
+        "TRPL",
+        "JST",
+        "SM",
+        "KTS",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK"
+      ],
+      "s": 1032548
+    },
+    {
+      "p": [
+        "ATTS",
+        "0",
+        "TRPL",
+        "JST",
+        "SM",
+        "KTS",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK"
+      ],
+      "s": 1034351
+    },
+    {
+      "p": [
+        "ATTS",
+        "0",
+        "TRPL",
+        "JST",
+        "SM",
+        "KTS",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK",
+        "H",
+        "ANTS",
+        "T",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M"
+      ],
+      "s": 1034351
+    },
+    {
+      "p": [
+        "JST",
+        "SM",
+        "KTS",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK"
+      ],
+      "s": 1036251
+    },
+    {
+      "p": [
+        "JST",
+        "SM",
+        "KTS",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK",
+        "H",
+        "ANTS",
+        "T",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M"
+      ],
+      "s": 1036251
+    },
+    {
+      "p": [
+        "JST",
+        "SM",
+        "KTS",
+        "MSNK",
+        "ARNT",
+        "AT",
+        "PK",
+        "H",
+        "ANTS",
+        "T",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M",
+        "0R",
+        "PLNK",
+        "A0",
+        "0S",
+        "KTMN",
+        "FLRS",
+        "AKN"
+      ],
+      "s": 1036251
+    },
+    {
+      "p": [
+        "H",
+        "ANTS",
+        "T",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M"
+      ],
+      "s": 1038556
+    },
+    {
+      "p": [
+        "H",
+        "ANTS",
+        "T",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M",
+        "0R",
+        "PLNK",
+        "A0",
+        "0S",
+        "KTMN",
+        "FLRS",
+        "AKN"
+      ],
+      "s": 1038556
+    },
+    {
+      "p": [
+        "H",
+        "ANTS",
+        "T",
+        "K",
+        "HF",
+        "A",
+        "PLT",
+        "ART",
+        "A0",
+        "0M",
+        "0R",
+        "PLNK",
+        "A0",
+        "0S",
+        "KTMN",
+        "FLRS",
+        "AKN",
+        "0L",
+        "SPK",
+        "0",
+        "TK",
+        "AT",
+        "KLT",
+        "P",
+        "TNJRS"
+      ],
+      "s": 1038556
+    },
+    {
+      "p": [
+        "0R",
+        "PLNK",
+        "A0",
+        "0S",
+        "KTMN",
+        "FLRS",
+        "AKN"
+      ],
+      "s": 1040722
+    },
+    {
+      "p": [
+        "0R",
+        "PLNK",
+        "A0",
+        "0S",
+        "KTMN",
+        "FLRS",
+        "AKN",
+        "0L",
+        "SPK",
+        "0",
+        "TK",
+        "AT",
+        "KLT",
+        "P",
+        "TNJRS"
+      ],
+      "s": 1040722
+    },
+    {
+      "p": [
+        "0R",
+        "PLNK",
+        "A0",
+        "0S",
+        "KTMN",
+        "FLRS",
+        "AKN",
+        "0L",
+        "SPK",
+        "0",
+        "TK",
+        "AT",
+        "KLT",
+        "P",
+        "TNJRS",
+        "AL",
+        "RS",
+        "JRTNNS",
+        "AN",
+        "TT",
+        "AAL",
+        "JF",
+        "HM",
+        "A",
+        "KL"
+      ],
+      "s": 1040722
+    },
+    {
+      "p": [
+        "0L",
+        "SPK",
+        "0",
+        "TK",
+        "AT",
+        "KLT",
+        "P",
+        "TNJRS"
+      ],
+      "s": 1043660
+    },
+    {
+      "p": [
+        "0L",
+        "SPK",
+        "0",
+        "TK",
+        "AT",
+        "KLT",
+        "P",
+        "TNJRS",
+        "AL",
+        "RS",
+        "JRTNNS",
+        "AN",
+        "TT",
+        "AAL",
+        "JF",
+        "HM",
+        "A",
+        "KL"
+      ],
+      "s": 1043660
+    },
+    {
+      "p": [
+        "0L",
+        "SPK",
+        "0",
+        "TK",
+        "AT",
+        "KLT",
+        "P",
+        "TNJRS",
+        "AL",
+        "RS",
+        "JRTNNS",
+        "AN",
+        "TT",
+        "AAL",
+        "JF",
+        "HM",
+        "A",
+        "KL",
+        "KT"
+      ],
+      "s": 1043660
+    },
+    {
+      "p": [
+        "AL",
+        "RS",
+        "JRTNNS",
+        "AN",
+        "TT",
+        "AAL",
+        "JF",
+        "HM",
+        "A",
+        "KL"
+      ],
+      "s": 1046630
+    },
+    {
+      "p": [
+        "AL",
+        "RS",
+        "JRTNNS",
+        "AN",
+        "TT",
+        "AAL",
+        "JF",
+        "HM",
+        "A",
+        "KL",
+        "KT"
+      ],
+      "s": 1046630
+    },
+    {
+      "p": [
+        "AL",
+        "RS",
+        "JRTNNS",
+        "AN",
+        "TT",
+        "AAL",
+        "JF",
+        "HM",
+        "A",
+        "KL",
+        "KT",
+        "MP",
+        "ATTS",
+        "PST",
+        "JST",
+        "LF",
+        "AT",
+        "T",
+        "0",
+        "XRF"
+      ],
+      "s": 1046630
+    },
+    {
+      "p": [
+        "KT",
+        "MP",
+        "ATTS",
+        "PST",
+        "JST",
+        "LF",
+        "AT",
+        "T",
+        "0",
+        "XRF"
+      ],
+      "s": 1049231
+    },
+    {
+      "p": [
+        "KT",
+        "MP",
+        "ATTS",
+        "PST",
+        "JST",
+        "LF",
+        "AT",
+        "T",
+        "0",
+        "XRF",
+        "ALF"
+      ],
+      "s": 1049231
+    },
+    {
+      "p": [
+        "MP",
+        "ATTS",
+        "PST",
+        "JST",
+        "LF",
+        "AT",
+        "T",
+        "0",
+        "XRF"
+      ],
+      "s": 1050500
+    },
+    {
+      "p": [
+        "MP",
+        "ATTS",
+        "PST",
+        "JST",
+        "LF",
+        "AT",
+        "T",
+        "0",
+        "XRF",
+        "ALF"
+      ],
+      "s": 1050500
+    },
+    {
+      "p": [
+        "LK",
+        "AAM",
+        "JST",
+        "KN",
+        "TRF",
+        "TN",
+        "0",
+        "TRK",
+        "KT",
+        "0M",
+        "AF"
+      ],
+      "s": 1056692
+    },
+    {
+      "p": [
+        "LK",
+        "AAM",
+        "JST",
+        "KN",
+        "TRF",
+        "TN",
+        "0",
+        "TRK",
+        "KT",
+        "0M",
+        "AF",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "0M"
+      ],
+      "s": 1056692
+    },
+    {
+      "p": [
+        "AAM",
+        "JST",
+        "KN",
+        "TRF",
+        "TN",
+        "0",
+        "TRK",
+        "KT",
+        "0M",
+        "AF"
+      ],
+      "s": 1058240
+    },
+    {
+      "p": [
+        "AAM",
+        "JST",
+        "KN",
+        "TRF",
+        "TN",
+        "0",
+        "TRK",
+        "KT",
+        "0M",
+        "AF",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "0M"
+      ],
+      "s": 1058240
+    },
+    {
+      "p": [
+        "AAM",
+        "JST",
+        "KN",
+        "TRF",
+        "TN",
+        "0",
+        "TRK",
+        "KT",
+        "0M",
+        "AF",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "0M",
+        "FLNK",
+        "0T",
+        "AAL",
+        "TRF",
+        "STRT",
+        "T",
+        "0R",
+        "HM"
+      ],
+      "s": 1058240
+    },
+    {
+      "p": [
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "0M"
+      ],
+      "s": 1060576
+    },
+    {
+      "p": [
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "0M",
+        "FLNK",
+        "0T",
+        "AAL",
+        "TRF",
+        "STRT",
+        "T",
+        "0R",
+        "HM"
+      ],
+      "s": 1060576
+    },
+    {
+      "p": [
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "0M",
+        "FLNK",
+        "0T",
+        "AAL",
+        "TRF",
+        "STRT",
+        "T",
+        "0R",
+        "HM",
+        "ANT",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN"
+      ],
+      "s": 1060576
+    },
+    {
+      "p": [
+        "FLNK",
+        "0T",
+        "AAL",
+        "TRF",
+        "STRT",
+        "T",
+        "0R",
+        "HM"
+      ],
+      "s": 1062711
+    },
+    {
+      "p": [
+        "FLNK",
+        "0T",
+        "AAL",
+        "TRF",
+        "STRT",
+        "T",
+        "0R",
+        "HM",
+        "ANT",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN"
+      ],
+      "s": 1062711
+    },
+    {
+      "p": [
+        "FLNK",
+        "0T",
+        "AAL",
+        "TRF",
+        "STRT",
+        "T",
+        "0R",
+        "HM",
+        "ANT",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "KRKR",
+        "M0SN",
+        "ANSTT"
+      ],
+      "s": 1062711
+    },
+    {
+      "p": [
+        "ANT",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN"
+      ],
+      "s": 1065182
+    },
+    {
+      "p": [
+        "ANT",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "KRKR",
+        "M0SN",
+        "ANSTT"
+      ],
+      "s": 1065182
+    },
+    {
+      "p": [
+        "ANT",
+        "HF",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "KRKR",
+        "M0SN",
+        "ANSTT",
+        "0",
+        "LST",
+        "TM",
+        "A",
+        "HT",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "HM"
+      ],
+      "s": 1065182
+    },
+    {
+      "p": [
+        "A0",
+        "KRKR",
+        "M0SN",
+        "ANSTT"
+      ],
+      "s": 1066682
+    },
+    {
+      "p": [
+        "A0",
+        "KRKR",
+        "M0SN",
+        "ANSTT",
+        "0",
+        "LST",
+        "TM",
+        "A",
+        "HT",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "HM"
+      ],
+      "s": 1066682
+    },
+    {
+      "p": [
+        "A0",
+        "KRKR",
+        "M0SN",
+        "ANSTT",
+        "0",
+        "LST",
+        "TM",
+        "A",
+        "HT",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "HM",
+        "A",
+        "ANTT",
+        "AP",
+        "SPNTNK",
+        "0",
+        "NT",
+        "AN",
+        "A",
+        "SL",
+        "RMMPR"
+      ],
+      "s": 1066682
+    },
+    {
+      "p": [
+        "0",
+        "LST",
+        "TM",
+        "A",
+        "HT",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "HM"
+      ],
+      "s": 1068483
+    },
+    {
+      "p": [
+        "0",
+        "LST",
+        "TM",
+        "A",
+        "HT",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "HM",
+        "A",
+        "ANTT",
+        "AP",
+        "SPNTNK",
+        "0",
+        "NT",
+        "AN",
+        "A",
+        "SL",
+        "RMMPR"
+      ],
+      "s": 1068483
+    },
+    {
+      "p": [
+        "0",
+        "LST",
+        "TM",
+        "A",
+        "HT",
+        "A",
+        "SFLST",
+        "KNFRSXN",
+        "A0",
+        "HM",
+        "A",
+        "ANTT",
+        "AP",
+        "SPNTNK",
+        "0",
+        "NT",
+        "AN",
+        "A",
+        "SL",
+        "RMMPR",
+        "J",
+        "0NKS",
+        "FR",
+        "0T",
+        "KNFNNT",
+        "RMNTR",
+        "PL"
+      ],
+      "s": 1068483
+    },
+    {
+      "p": [
+        "A",
+        "ANTT",
+        "AP",
+        "SPNTNK",
+        "0",
+        "NT",
+        "AN",
+        "A",
+        "SL",
+        "RMMPR"
+      ],
+      "s": 1070819
+    },
+    {
+      "p": [
+        "A",
+        "ANTT",
+        "AP",
+        "SPNTNK",
+        "0",
+        "NT",
+        "AN",
+        "A",
+        "SL",
+        "RMMPR",
+        "J",
+        "0NKS",
+        "FR",
+        "0T",
+        "KNFNNT",
+        "RMNTR",
+        "PL"
+      ],
+      "s": 1070819
+    },
+    {
+      "p": [
+        "A",
+        "ANTT",
+        "AP",
+        "SPNTNK",
+        "0",
+        "NT",
+        "AN",
+        "A",
+        "SL",
+        "RMMPR",
+        "J",
+        "0NKS",
+        "FR",
+        "0T",
+        "KNFNNT",
+        "RMNTR",
+        "PL",
+        "ANTM",
+        "R"
+      ],
+      "s": 1070819
+    },
+    {
+      "p": [
+        "J",
+        "0NKS",
+        "FR",
+        "0T",
+        "KNFNNT",
+        "RMNTR",
+        "PL"
+      ],
+      "s": 1073655
+    },
+    {
+      "p": [
+        "J",
+        "0NKS",
+        "FR",
+        "0T",
+        "KNFNNT",
+        "RMNTR",
+        "PL",
+        "ANTM",
+        "R"
+      ],
+      "s": 1073655
+    },
+    {
+      "p": [
+        "J",
+        "0NKS",
+        "FR",
+        "0T",
+        "KNFNNT",
+        "RMNTR",
+        "PL",
+        "ANTM",
+        "R",
+        "AL",
+        "AR",
+        "NT",
+        "KNK",
+        "ALN",
+        "KT"
+      ],
+      "s": 1073655
+    },
+    {
+      "p": [
+        "ANTM",
+        "R",
+        "AL",
+        "AR",
+        "NT",
+        "KNK",
+        "ALN",
+        "KT"
+      ],
+      "s": 1076125
+    },
+    {
+      "p": [
+        "ANTM",
+        "R",
+        "AL",
+        "AR",
+        "NT",
+        "KNK",
+        "ALN",
+        "KT",
+        "AAM",
+        "KMNK",
+        "T",
+        "N",
+        "N",
+        "AR",
+        "STNK"
+      ],
+      "s": 1076125
+    },
+    {
+      "p": [
+        "AL",
+        "AR",
+        "NT",
+        "KNK",
+        "ALN",
+        "KT"
+      ],
+      "s": 1077595
+    },
+    {
+      "p": [
+        "AL",
+        "AR",
+        "NT",
+        "KNK",
+        "ALN",
+        "KT",
+        "AAM",
+        "KMNK",
+        "T",
+        "N",
+        "N",
+        "AR",
+        "STNK"
+      ],
+      "s": 1077595
+    },
+    {
+      "p": [
+        "AL",
+        "AR",
+        "NT",
+        "KNK",
+        "ALN",
+        "KT",
+        "AAM",
+        "KMNK",
+        "T",
+        "N",
+        "N",
+        "AR",
+        "STNK",
+        "TT",
+        "KM",
+        "AN",
+        "N"
+      ],
+      "s": 1077595
+    },
+    {
+      "p": [
+        "AAM",
+        "KMNK",
+        "T",
+        "N",
+        "N",
+        "AR",
+        "STNK"
+      ],
+      "s": 1080195
+    },
+    {
+      "p": [
+        "AAM",
+        "KMNK",
+        "T",
+        "N",
+        "N",
+        "AR",
+        "STNK",
+        "TT",
+        "KM",
+        "AN",
+        "N"
+      ],
+      "s": 1080195
+    },
+    {
+      "p": [
+        "AAM",
+        "KMNK",
+        "T",
+        "N",
+        "N",
+        "AR",
+        "STNK",
+        "TT",
+        "KM",
+        "AN",
+        "N",
+        "TK",
+        "HM",
+        "A0",
+        "A",
+        "ALF"
+      ],
+      "s": 1080195
+    },
+    {
+      "p": [
+        "TT",
+        "KM",
+        "AN",
+        "N",
+        "TK",
+        "HM",
+        "A0",
+        "A",
+        "ALF"
+      ],
+      "s": 1082432
+    },
+    {
+      "p": [
+        "TT",
+        "KM",
+        "AN",
+        "N",
+        "TK",
+        "HM",
+        "A0",
+        "A",
+        "ALF",
+        "JST",
+        "TK",
+        "HM",
+        "R"
+      ],
+      "s": 1082432
+    },
+    {
+      "p": [
+        "TK",
+        "HM",
+        "A0",
+        "A",
+        "ALF",
+        "JST",
+        "TK",
+        "HM",
+        "R"
+      ],
+      "s": 1083598
+    },
+    {
+      "p": [
+        "TK",
+        "HM",
+        "A0",
+        "A",
+        "ALF",
+        "JST",
+        "TK",
+        "HM",
+        "R",
+        "JSS",
+        "KRST"
+      ],
+      "s": 1083598
+    },
+    {
+      "p": [
+        "JST",
+        "TK",
+        "HM",
+        "R",
+        "JSS",
+        "KRST"
+      ],
+      "s": 1085201
+    },
+    {
+      "p": [
+        "JST",
+        "TK",
+        "HM",
+        "R",
+        "JSS",
+        "KRST",
+        "LT",
+        "M",
+        "KS",
+        "AR",
+        "KMNK",
+        "T"
+      ],
+      "s": 1085201
+    },
+    {
+      "p": [
+        "JSS",
+        "KRST",
+        "LT",
+        "M",
+        "KS",
+        "AR",
+        "KMNK",
+        "T"
+      ],
+      "s": 1087605
+    },
+    {
+      "p": [
+        "JSS",
+        "KRST",
+        "LT",
+        "M",
+        "KS",
+        "AR",
+        "KMNK",
+        "T",
+        "AAM",
+        "KN",
+        "FL",
+        "LFT",
+        "AT",
+        "A0RS"
+      ],
+      "s": 1087605
+    },
+    {
+      "p": [
+        "LT",
+        "M",
+        "KS",
+        "AR",
+        "KMNK",
+        "T"
+      ],
+      "s": 1089640
+    },
+    {
+      "p": [
+        "LT",
+        "M",
+        "KS",
+        "AR",
+        "KMNK",
+        "T",
+        "AAM",
+        "KN",
+        "FL",
+        "LFT",
+        "AT",
+        "A0RS"
+      ],
+      "s": 1089640
+    },
+    {
+      "p": [
+        "LT",
+        "M",
+        "KS",
+        "AR",
+        "KMNK",
+        "T",
+        "AAM",
+        "KN",
+        "FL",
+        "LFT",
+        "AT",
+        "A0RS",
+        "M",
+        "T"
+      ],
+      "s": 1089640
+    },
+    {
+      "p": [
+        "AAM",
+        "KN",
+        "FL",
+        "LFT",
+        "AT",
+        "A0RS"
+      ],
+      "s": 1092076
+    },
+    {
+      "p": [
+        "AAM",
+        "KN",
+        "FL",
+        "LFT",
+        "AT",
+        "A0RS",
+        "M",
+        "T"
+      ],
+      "s": 1092076
+    },
+    {
+      "p": [
+        "A",
+        "KTMN",
+        "SRKS",
+        "0S",
+        "AS"
+      ],
+      "s": 1097400
+    },
+    {
+      "p": [
+        "AT",
+        "TSNNT",
+        "MTR",
+        "ATTS",
+        "KNK",
+        "AN",
+        "PTN",
+        "A",
+        "ANT",
+        "ALF",
+        "R"
+      ],
+      "s": 1117617
+    },
+    {
+      "p": [
+        "AT",
+        "TSNNT",
+        "MTR",
+        "ATTS",
+        "KNK",
+        "AN",
+        "PTN",
+        "A",
+        "ANT",
+        "ALF",
+        "R",
+        "A",
+        "NT",
+        "T",
+        "TLK",
+        "T",
+        "AR",
+        "SN"
+      ],
+      "s": 1117617
+    },
+    {
+      "p": [
+        "A",
+        "NT",
+        "T",
+        "TLK",
+        "T",
+        "AR",
+        "SN"
+      ],
+      "s": 1120538
+    },
+    {
+      "p": [
+        "XT",
+        "LK",
+        "0T",
+        "R"
+      ],
+      "s": 1129529
+    },
+    {
+      "p": [
+        "XT",
+        "LK",
+        "0T",
+        "R",
+        "HHL",
+        "ANT",
+        "AP",
+        "HTNK",
+        "A",
+        "M",
+        "KT",
+        "STP"
+      ],
+      "s": 1129529
+    },
+    {
+      "p": [
+        "XT",
+        "LK",
+        "0T",
+        "R",
+        "HHL",
+        "ANT",
+        "AP",
+        "HTNK",
+        "A",
+        "M",
+        "KT",
+        "STP",
+        "AS",
+        "H",
+        "AR",
+        "SN"
+      ],
+      "s": 1129529
+    },
+    {
+      "p": [
+        "HHL",
+        "ANT",
+        "AP",
+        "HTNK",
+        "A",
+        "M",
+        "KT",
+        "STP"
+      ],
+      "s": 1132250
+    },
+    {
+      "p": [
+        "HHL",
+        "ANT",
+        "AP",
+        "HTNK",
+        "A",
+        "M",
+        "KT",
+        "STP",
+        "AS",
+        "H",
+        "AR",
+        "SN"
+      ],
+      "s": 1132250
+    },
+    {
+      "p": [
+        "HHL",
+        "ANT",
+        "AP",
+        "HTNK",
+        "A",
+        "M",
+        "KT",
+        "STP",
+        "AS",
+        "H",
+        "AR",
+        "SN",
+        "N",
+        "HH",
+        "MN"
+      ],
+      "s": 1132250
+    },
+    {
+      "p": [
+        "TK",
+        "ATFS",
+        "FRM",
+        "M",
+        "ANKR",
+        "PR0R"
+      ],
+      "s": 1165401
+    },
+    {
+      "p": [
+        "TK",
+        "ATFS",
+        "FRM",
+        "M",
+        "ANKR",
+        "PR0R",
+        "AL",
+        "RT"
+      ],
+      "s": 1165401
+    },
+    {
+      "p": [
+        "TK",
+        "ATFS",
+        "FRM",
+        "M",
+        "ANKR",
+        "PR0R",
+        "AL",
+        "RT",
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF"
+      ],
+      "s": 1165401
+    },
+    {
+      "p": [
+        "AL",
+        "RT",
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF"
+      ],
+      "s": 1167718
+    },
+    {
+      "p": [
+        "AL",
+        "RT",
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF",
+        "LT",
+        "AT",
+        "K",
+        "KS",
+        "LT",
+        "AT",
+        "K"
+      ],
+      "s": 1167718
+    },
+    {
+      "p": [
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF"
+      ],
+      "s": 1168785
+    },
+    {
+      "p": [
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF",
+        "LT",
+        "AT",
+        "K",
+        "KS",
+        "LT",
+        "AT",
+        "K"
+      ],
+      "s": 1168785
+    },
+    {
+      "p": [
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF",
+        "LT",
+        "AT",
+        "K",
+        "KS",
+        "LT",
+        "AT",
+        "K",
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF"
+      ],
+      "s": 1168785
+    },
+    {
+      "p": [
+        "LT",
+        "AT",
+        "K",
+        "KS",
+        "LT",
+        "AT",
+        "K"
+      ],
+      "s": 1170420
+    },
+    {
+      "p": [
+        "LT",
+        "AT",
+        "K",
+        "KS",
+        "LT",
+        "AT",
+        "K",
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF"
+      ],
+      "s": 1170420
+    },
+    {
+      "p": [
+        "LT",
+        "AT",
+        "K",
+        "KS",
+        "LT",
+        "AT",
+        "K",
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF",
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "NT",
+        "LK",
+        "AR",
+        "TT"
+      ],
+      "s": 1170420
+    },
+    {
+      "p": [
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF"
+      ],
+      "s": 1173355
+    },
+    {
+      "p": [
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF",
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "NT",
+        "LK",
+        "AR",
+        "TT"
+      ],
+      "s": 1173355
+    },
+    {
+      "p": [
+        "AT",
+        "LF",
+        "AKSPRNS",
+        "T",
+        "A",
+        "HF",
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "NT",
+        "LK",
+        "AR",
+        "TT",
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "RS",
+        "A",
+        "FML"
+      ],
+      "s": 1173355
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "NT",
+        "LK",
+        "AR",
+        "TT"
+      ],
+      "s": 1175490
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "NT",
+        "LK",
+        "AR",
+        "TT",
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "RS",
+        "A",
+        "FML"
+      ],
+      "s": 1175490
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "NT",
+        "LK",
+        "AR",
+        "TT",
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "RS",
+        "A",
+        "FML",
+        "N"
+      ],
+      "s": 1175490
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "RS",
+        "A",
+        "FML"
+      ],
+      "s": 1177259
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AT",
+        "ATTS",
+        "LK",
+        "T",
+        "RS",
+        "A",
+        "FML",
+        "N"
+      ],
+      "s": 1177259
+    },
+    {
+      "p": [
+        "N",
+        "A",
+        "TNNT",
+        "A",
+        "KLTNNT",
+        "RS",
+        "A",
+        "LF",
+        "AF",
+        "PRT"
+      ],
+      "s": 1182317
+    },
+    {
+      "p": [
+        "A",
+        "KLTNNT",
+        "RS",
+        "A",
+        "LF",
+        "AF",
+        "PRT"
+      ],
+      "s": 1183701
+    },
+    {
+      "p": [
+        "AR",
+        "KTNK",
+        "AT",
+        "A",
+        "TTNNT",
+        "PRNK",
+        "APRPRT",
+        "FTR"
+      ],
+      "s": 1200634
+    },
+    {
+      "p": [
+        "AR",
+        "KTNK",
+        "AT",
+        "A",
+        "TTNNT",
+        "PRNK",
+        "APRPRT",
+        "FTR",
+        "0RS",
+        "A",
+        "KPL",
+        "AF",
+        "FLXLTS",
+        "ANTR",
+        "AR",
+        "ST"
+      ],
+      "s": 1200634
+    },
+    {
+      "p": [
+        "AR",
+        "KTNK",
+        "AT",
+        "A",
+        "TTNNT",
+        "PRNK",
+        "APRPRT",
+        "FTR",
+        "0RS",
+        "A",
+        "KPL",
+        "AF",
+        "FLXLTS",
+        "ANTR",
+        "AR",
+        "ST",
+        "A",
+        "FL",
+        "T",
+        "S",
+        "H",
+        "0TTS",
+        "KN",
+        "HLP",
+        "R"
+      ],
+      "s": 1200634
+    },
+    {
+      "p": [
+        "0RS",
+        "A",
+        "KPL",
+        "AF",
+        "FLXLTS",
+        "ANTR",
+        "AR",
+        "ST"
+      ],
+      "s": 1203685
+    },
+    {
+      "p": [
+        "0RS",
+        "A",
+        "KPL",
+        "AF",
+        "FLXLTS",
+        "ANTR",
+        "AR",
+        "ST",
+        "A",
+        "FL",
+        "T",
+        "S",
+        "H",
+        "0TTS",
+        "KN",
+        "HLP",
+        "R"
+      ],
+      "s": 1203685
+    },
+    {
+      "p": [
+        "0RS",
+        "A",
+        "KPL",
+        "AF",
+        "FLXLTS",
+        "ANTR",
+        "AR",
+        "ST",
+        "A",
+        "FL",
+        "T",
+        "S",
+        "H",
+        "0TTS",
+        "KN",
+        "HLP",
+        "R",
+        "ST",
+        "HR",
+        "A0",
+        "N"
+      ],
+      "s": 1203685
+    },
+    {
+      "p": [
+        "A",
+        "FL",
+        "T",
+        "S",
+        "H",
+        "0TTS",
+        "KN",
+        "HLP",
+        "R"
+      ],
+      "s": 1205689
+    },
+    {
+      "p": [
+        "A",
+        "FL",
+        "T",
+        "S",
+        "H",
+        "0TTS",
+        "KN",
+        "HLP",
+        "R",
+        "ST",
+        "HR",
+        "A0",
+        "N"
+      ],
+      "s": 1205689
+    },
+    {
+      "p": [
+        "A",
+        "FL",
+        "T",
+        "S",
+        "H",
+        "0TTS",
+        "KN",
+        "HLP",
+        "R",
+        "ST",
+        "HR",
+        "A0",
+        "N",
+        "R"
+      ],
+      "s": 1205689
+    },
+    {
+      "p": [
+        "ST",
+        "HR",
+        "A0",
+        "N",
+        "R"
+      ],
+      "s": 1208960
+    },
+    {
+      "p": [
+        "N",
+        "PRPLM",
+        "R",
+        "A",
+        "KN",
+        "T",
+        "0T",
+        "FR",
+        "A",
+        "R"
+      ],
+      "s": 1211627
+    },
+    {
+      "p": [
+        "N",
+        "PRPLM",
+        "R",
+        "A",
+        "KN",
+        "T",
+        "0T",
+        "FR",
+        "A",
+        "R",
+        "0NKS",
+        "FR",
+        "ASKNK",
+        "AFR",
+        "S",
+        "KNTL",
+        "R"
+      ],
+      "s": 1211627
+    },
+    {
+      "p": [
+        "N",
+        "PRPLM",
+        "R",
+        "A",
+        "KN",
+        "T",
+        "0T",
+        "FR",
+        "A",
+        "R",
+        "0NKS",
+        "FR",
+        "ASKNK",
+        "AFR",
+        "S",
+        "KNTL",
+        "R",
+        "R",
+        "R",
+        "AL",
+        "A",
+        "SL",
+        "TN"
+      ],
+      "s": 1211627
+    },
+    {
+      "p": [
+        "0NKS",
+        "FR",
+        "ASKNK",
+        "AFR",
+        "S",
+        "KNTL",
+        "R"
+      ],
+      "s": 1214963
+    },
+    {
+      "p": [
+        "0NKS",
+        "FR",
+        "ASKNK",
+        "AFR",
+        "S",
+        "KNTL",
+        "R",
+        "R",
+        "R",
+        "AL",
+        "A",
+        "SL",
+        "TN"
+      ],
+      "s": 1214963
+    },
+    {
+      "p": [
+        "R",
+        "R",
+        "AL",
+        "A",
+        "SL",
+        "TN"
+      ],
+      "s": 1218669
+    },
+    {
+      "p": [
+        "ATTS",
+        "A0",
+        "0",
+        "APN"
+      ],
+      "s": 1222855
+    },
+    {
+      "p": [
+        "ATTS",
+        "A0",
+        "0",
+        "APN",
+        "ANNT",
+        "KN",
+        "AS",
+        "AT",
+        "KN",
+        "PSTS",
+        "0",
+        "PNT"
+      ],
+      "s": 1222855
+    },
+    {
+      "p": [
+        "ATTS",
+        "A0",
+        "0",
+        "APN",
+        "ANNT",
+        "KN",
+        "AS",
+        "AT",
+        "KN",
+        "PSTS",
+        "0",
+        "PNT",
+        "LK",
+        "AF",
+        "A",
+        "RN",
+        "ANT",
+        "0S",
+        "KTS",
+        "AT",
+        "HR",
+        "MSNK",
+        "ARNT"
+      ],
+      "s": 1222855
+    },
+    {
+      "p": [
+        "ANNT",
+        "KN",
+        "AS",
+        "AT",
+        "KN",
+        "PSTS",
+        "0",
+        "PNT"
+      ],
+      "s": 1224442
+    },
+    {
+      "p": [
+        "ANNT",
+        "KN",
+        "AS",
+        "AT",
+        "KN",
+        "PSTS",
+        "0",
+        "PNT",
+        "LK",
+        "AF",
+        "A",
+        "RN",
+        "ANT",
+        "0S",
+        "KTS",
+        "AT",
+        "HR",
+        "MSNK",
+        "ARNT"
+      ],
+      "s": 1224442
+    },
+    {
+      "p": [
+        "ANNT",
+        "KN",
+        "AS",
+        "AT",
+        "KN",
+        "PSTS",
+        "0",
+        "PNT",
+        "LK",
+        "AF",
+        "A",
+        "RN",
+        "ANT",
+        "0S",
+        "KTS",
+        "AT",
+        "HR",
+        "MSNK",
+        "ARNT",
+        "A",
+        "JST",
+        "LT",
+        "M",
+        "T",
+        "0",
+        "TLKNK",
+        "RT"
+      ],
+      "s": 1224442
+    },
+    {
+      "p": [
+        "LK",
+        "AF",
+        "A",
+        "RN",
+        "ANT",
+        "0S",
+        "KTS",
+        "AT",
+        "HR",
+        "MSNK",
+        "ARNT"
+      ],
+      "s": 1226910
+    },
+    {
+      "p": [
+        "LK",
+        "AF",
+        "A",
+        "RN",
+        "ANT",
+        "0S",
+        "KTS",
+        "AT",
+        "HR",
+        "MSNK",
+        "ARNT",
+        "A",
+        "JST",
+        "LT",
+        "M",
+        "T",
+        "0",
+        "TLKNK",
+        "RT"
+      ],
+      "s": 1226910
+    },
+    {
+      "p": [
+        "LK",
+        "AF",
+        "A",
+        "RN",
+        "ANT",
+        "0S",
+        "KTS",
+        "AT",
+        "HR",
+        "MSNK",
+        "ARNT",
+        "A",
+        "JST",
+        "LT",
+        "M",
+        "T",
+        "0",
+        "TLKNK",
+        "RT",
+        "S",
+        "AT",
+        "T",
+        "A",
+        "T",
+        "AF",
+        "0",
+        "M0SN",
+        "PS",
+        "RN",
+        "AT",
+        "AN",
+        "FRNT",
+        "AF",
+        "AS"
+      ],
+      "s": 1226910
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "LT",
+        "M",
+        "T",
+        "0",
+        "TLKNK",
+        "RT"
+      ],
+      "s": 1229644
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "LT",
+        "M",
+        "T",
+        "0",
+        "TLKNK",
+        "RT",
+        "S",
+        "AT",
+        "T",
+        "A",
+        "T",
+        "AF",
+        "0",
+        "M0SN",
+        "PS",
+        "RN",
+        "AT",
+        "AN",
+        "FRNT",
+        "AF",
+        "AS"
+      ],
+      "s": 1229644
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "LT",
+        "M",
+        "T",
+        "0",
+        "TLKNK",
+        "RT",
+        "S",
+        "AT",
+        "T",
+        "A",
+        "T",
+        "AF",
+        "0",
+        "M0SN",
+        "PS",
+        "RN",
+        "AT",
+        "AN",
+        "FRNT",
+        "AF",
+        "AS",
+        "A",
+        "XS",
+        "AFTR",
+        "0M"
+      ],
+      "s": 1229644
+    },
+    {
+      "p": [
+        "S",
+        "AT",
+        "T",
+        "A",
+        "T",
+        "AF",
+        "0",
+        "M0SN",
+        "PS",
+        "RN",
+        "AT",
+        "AN",
+        "FRNT",
+        "AF",
+        "AS"
+      ],
+      "s": 1233650
+    },
+    {
+      "p": [
+        "S",
+        "AT",
+        "T",
+        "A",
+        "T",
+        "AF",
+        "0",
+        "M0SN",
+        "PS",
+        "RN",
+        "AT",
+        "AN",
+        "FRNT",
+        "AF",
+        "AS",
+        "A",
+        "XS",
+        "AFTR",
+        "0M"
+      ],
+      "s": 1233650
+    },
+    {
+      "p": [
+        "S",
+        "AT",
+        "T",
+        "A",
+        "T",
+        "AF",
+        "0",
+        "M0SN",
+        "PS",
+        "RN",
+        "AT",
+        "AN",
+        "FRNT",
+        "AF",
+        "AS",
+        "A",
+        "XS",
+        "AFTR",
+        "0M",
+        "AT",
+        "AF",
+        "0",
+        "TNNT",
+        "RN",
+        "KX",
+        "AM"
+      ],
+      "s": 1233650
+    },
+    {
+      "p": [
+        "A",
+        "XS",
+        "AFTR",
+        "0M",
+        "AT",
+        "AF",
+        "0",
+        "TNNT",
+        "RN",
+        "KX",
+        "AM"
+      ],
+      "s": 1236751
+    },
+    {
+      "p": [
+        "A",
+        "XS",
+        "AFTR",
+        "0M",
+        "AT",
+        "AF",
+        "0",
+        "TNNT",
+        "RN",
+        "KX",
+        "AM",
+        "ANT",
+        "0N",
+        "AT",
+        "A",
+        "PT",
+        "AM",
+        "AP"
+      ],
+      "s": 1236751
+    },
+    {
+      "p": [
+        "AT",
+        "AF",
+        "0",
+        "TNNT",
+        "RN",
+        "KX",
+        "AM"
+      ],
+      "s": 1238689
+    },
+    {
+      "p": [
+        "AT",
+        "AF",
+        "0",
+        "TNNT",
+        "RN",
+        "KX",
+        "AM",
+        "ANT",
+        "0N",
+        "AT",
+        "A",
+        "PT",
+        "AM",
+        "AP"
+      ],
+      "s": 1238689
+    },
+    {
+      "p": [
+        "AT",
+        "AF",
+        "0",
+        "TNNT",
+        "RN",
+        "KX",
+        "AM",
+        "ANT",
+        "0N",
+        "AT",
+        "A",
+        "PT",
+        "AM",
+        "AP",
+        "ANNT",
+        "0T",
+        "A",
+        "LTL",
+        "PRPRK"
+      ],
+      "s": 1238689
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "AT",
+        "A",
+        "PT",
+        "AM",
+        "AP"
+      ],
+      "s": 1241656
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "AT",
+        "A",
+        "PT",
+        "AM",
+        "AP",
+        "ANNT",
+        "0T",
+        "A",
+        "LTL",
+        "PRPRK"
+      ],
+      "s": 1241656
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "AT",
+        "A",
+        "PT",
+        "AM",
+        "AP",
+        "ANNT",
+        "0T",
+        "A",
+        "LTL",
+        "PRPRK",
+        "0",
+        "M0SN",
+        "PS",
+        "ANS",
+        "ASKT",
+        "M",
+        "T",
+        "K",
+        "PL",
+        "PSPL",
+        "A0",
+        "0M"
+      ],
+      "s": 1241656
+    },
+    {
+      "p": [
+        "ANNT",
+        "0T",
+        "A",
+        "LTL",
+        "PRPRK"
+      ],
+      "s": 1244961
+    },
+    {
+      "p": [
+        "ANNT",
+        "0T",
+        "A",
+        "LTL",
+        "PRPRK",
+        "0",
+        "M0SN",
+        "PS",
+        "ANS",
+        "ASKT",
+        "M",
+        "T",
+        "K",
+        "PL",
+        "PSPL",
+        "A0",
+        "0M"
+      ],
+      "s": 1244961
+    },
+    {
+      "p": [
+        "ANNT",
+        "0T",
+        "A",
+        "LTL",
+        "PRPRK",
+        "0",
+        "M0SN",
+        "PS",
+        "ANS",
+        "ASKT",
+        "M",
+        "T",
+        "K",
+        "PL",
+        "PSPL",
+        "A0",
+        "0M",
+        "AN",
+        "0",
+        "RSRFR",
+        "AN",
+        "AT",
+        "TRT",
+        "AP",
+        "A",
+        "KPL",
+        "AF",
+        "ARS",
+        "AK"
+      ],
+      "s": 1244961
+    },
+    {
+      "p": [
+        "0",
+        "M0SN",
+        "PS",
+        "ANS",
+        "ASKT",
+        "M",
+        "T",
+        "K",
+        "PL",
+        "PSPL",
+        "A0",
+        "0M"
+      ],
+      "s": 1246828
+    },
+    {
+      "p": [
+        "0",
+        "M0SN",
+        "PS",
+        "ANS",
+        "ASKT",
+        "M",
+        "T",
+        "K",
+        "PL",
+        "PSPL",
+        "A0",
+        "0M",
+        "AN",
+        "0",
+        "RSRFR",
+        "AN",
+        "AT",
+        "TRT",
+        "AP",
+        "A",
+        "KPL",
+        "AF",
+        "ARS",
+        "AK"
+      ],
+      "s": 1246828
+    },
+    {
+      "p": [
+        "0",
+        "M0SN",
+        "PS",
+        "ANS",
+        "ASKT",
+        "M",
+        "T",
+        "K",
+        "PL",
+        "PSPL",
+        "A0",
+        "0M",
+        "AN",
+        "0",
+        "RSRFR",
+        "AN",
+        "AT",
+        "TRT",
+        "AP",
+        "A",
+        "KPL",
+        "AF",
+        "ARS",
+        "AK",
+        "0",
+        "ANTT",
+        "AP",
+        "TNK",
+        "M",
+        "T",
+        "A",
+        "FNS",
+        "PST",
+        "A0",
+        "A",
+        "SKPNK",
+        "RP"
+      ],
+      "s": 1246828
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "RSRFR",
+        "AN",
+        "AT",
+        "TRT",
+        "AP",
+        "A",
+        "KPL",
+        "AF",
+        "ARS",
+        "AK"
+      ],
+      "s": 1249731
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "RSRFR",
+        "AN",
+        "AT",
+        "TRT",
+        "AP",
+        "A",
+        "KPL",
+        "AF",
+        "ARS",
+        "AK",
+        "0",
+        "ANTT",
+        "AP",
+        "TNK",
+        "M",
+        "T",
+        "A",
+        "FNS",
+        "PST",
+        "A0",
+        "A",
+        "SKPNK",
+        "RP"
+      ],
+      "s": 1249731
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "RSRFR",
+        "AN",
+        "AT",
+        "TRT",
+        "AP",
+        "A",
+        "KPL",
+        "AF",
+        "ARS",
+        "AK",
+        "0",
+        "ANTT",
+        "AP",
+        "TNK",
+        "M",
+        "T",
+        "A",
+        "FNS",
+        "PST",
+        "A0",
+        "A",
+        "SKPNK",
+        "RP",
+        "ASNK",
+        "M",
+        "FR",
+        "SPT",
+        "KN",
+        "TRKT",
+        "PRKTS"
+      ],
+      "s": 1249731
+    },
+    {
+      "p": [
+        "0",
+        "ANTT",
+        "AP",
+        "TNK",
+        "M",
+        "T",
+        "A",
+        "FNS",
+        "PST",
+        "A0",
+        "A",
+        "SKPNK",
+        "RP"
+      ],
+      "s": 1252603
+    },
+    {
+      "p": [
+        "0",
+        "ANTT",
+        "AP",
+        "TNK",
+        "M",
+        "T",
+        "A",
+        "FNS",
+        "PST",
+        "A0",
+        "A",
+        "SKPNK",
+        "RP",
+        "ASNK",
+        "M",
+        "FR",
+        "SPT",
+        "KN",
+        "TRKT",
+        "PRKTS"
+      ],
+      "s": 1252603
+    },
+    {
+      "p": [
+        "ASNK",
+        "M",
+        "FR",
+        "SPT",
+        "KN",
+        "TRKT",
+        "PRKTS"
+      ],
+      "s": 1255373
+    },
+    {
+      "p": [
+        "AL",
+        "0N",
+        "PT",
+        "0M",
+        "AP"
+      ],
+      "s": 1261443
+    },
+    {
+      "p": [
+        "A",
+        "0NK",
+        "A",
+        "SKRT",
+        "0M",
+        "AF"
+      ],
+      "s": 1296565
+    },
+    {
+      "p": [
+        "LK",
+        "AAL",
+        "HF",
+        "A",
+        "ART",
+        "A0",
+        "KRKR",
+        "M0SN",
+        "MSLF"
+      ],
+      "s": 1306539
+    },
+    {
+      "p": [
+        "LK",
+        "AAL",
+        "HF",
+        "A",
+        "ART",
+        "A0",
+        "KRKR",
+        "M0SN",
+        "MSLF",
+        "AN",
+        "0",
+        "NKST",
+        "KPL",
+        "AF",
+        "TS"
+      ],
+      "s": 1306539
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "NKST",
+        "KPL",
+        "AF",
+        "TS"
+      ],
+      "s": 1310492
+    },
+    {
+      "p": [
+        "A",
+        "XLT",
+        "HT",
+        "PK",
+        "N",
+        "PNT",
+        "KNK",
+        "AN",
+        "FR0R",
+        "R"
+      ],
+      "s": 1321855
+    },
+    {
+      "p": [
+        "N",
+        "PNT",
+        "KNK",
+        "AN",
+        "FR0R",
+        "R"
+      ],
+      "s": 1323405
+    },
+    {
+      "p": [
+        "A",
+        "LK",
+        "SPKT",
+        "ATTS",
+        "N0NK"
+      ],
+      "s": 1331816
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "0T",
+        "LT",
+        "A"
+      ],
+      "s": 1575576
+    },
+    {
+      "p": [
+        "KN0",
+        "KM",
+        "AN",
+        "N",
+        "N",
+        "N",
+        "N"
+      ],
+      "s": 1594663
+    },
+    {
+      "p": [
+        "KN0",
+        "KN0",
+        "KN0",
+        "ATTS",
+        "KNK",
+        "AN"
+      ],
+      "s": 1599914
+    },
+    {
+      "p": [
+        "ATTS",
+        "M",
+        "ATTS",
+        "M",
+        "ATTS",
+        "N0NK",
+        "ATTS",
+        "N0NK"
+      ],
+      "s": 1608990
+    },
+    {
+      "p": [
+        "ATTS",
+        "M",
+        "ATTS",
+        "M",
+        "ATTS",
+        "N0NK",
+        "ATTS",
+        "N0NK",
+        "LK",
+        "AT",
+        "M",
+        "PL"
+      ],
+      "s": 1608990
+    },
+    {
+      "p": [
+        "ATTS",
+        "M",
+        "ATTS",
+        "M",
+        "ATTS",
+        "N0NK",
+        "ATTS",
+        "N0NK",
+        "LK",
+        "AT",
+        "M",
+        "PL",
+        "A",
+        "KT",
+        "K",
+        "A",
+        "KT",
+        "K"
+      ],
+      "s": 1608990
+    },
+    {
+      "p": [
+        "LK",
+        "AT",
+        "M",
+        "PL",
+        "A",
+        "KT",
+        "K",
+        "A",
+        "KT",
+        "K"
+      ],
+      "s": 1611662
+    },
+    {
+      "p": [
+        "LK",
+        "AT",
+        "M",
+        "PL",
+        "A",
+        "KT",
+        "K",
+        "A",
+        "KT",
+        "K",
+        "KM",
+        "AN"
+      ],
+      "s": 1611662
+    },
+    {
+      "p": [
+        "A",
+        "KT",
+        "K",
+        "A",
+        "KT",
+        "K",
+        "KM",
+        "AN"
+      ],
+      "s": 1613730
+    },
+    {
+      "p": [
+        "ATTS",
+        "HPNNK",
+        "MF",
+        "ALNK"
+      ],
+      "s": 1625027
+    },
+    {
+      "p": [
+        "ATTS",
+        "HPNNK",
+        "MF",
+        "ALNK",
+        "ATTS",
+        "RNK",
+        "A0",
+        "HM",
+        "MF"
+      ],
+      "s": 1625027
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "A0",
+        "HM",
+        "MF"
+      ],
+      "s": 1627241
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "A0",
+        "HM",
+        "PL"
+      ],
+      "s": 1632768
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "A0",
+        "HM",
+        "PL",
+        "R",
+        "KM",
+        "AN",
+        "LTTS",
+        "K"
+      ],
+      "s": 1632768
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "A0",
+        "HM",
+        "PL",
+        "R",
+        "KM",
+        "AN",
+        "LTTS",
+        "K",
+        "R"
+      ],
+      "s": 1632768
+    },
+    {
+      "p": [
+        "A",
+        "SN",
+        "MRKN",
+        "AT",
+        "MRKN",
+        "AR",
+        "PR0R",
+        "HH",
+        "NT",
+        "A0",
+        "A"
+      ],
+      "s": 1638319
+    },
+    {
+      "p": [
+        "MRKN",
+        "AR",
+        "PR0R",
+        "HH",
+        "NT",
+        "A0",
+        "A"
+      ],
+      "s": 1640957
+    },
+    {
+      "p": [
+        "TT",
+        "ATTS",
+        "RNK",
+        "A0",
+        "ANKL",
+        "KN0"
+      ],
+      "s": 1657025
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "M",
+        "KT"
+      ],
+      "s": 1700035
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "M",
+        "KT",
+        "ATTS",
+        "HPNT"
+      ],
+      "s": 1700035
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "M",
+        "KT",
+        "ATTS",
+        "HPNT",
+        "HN",
+        "AS",
+        "H",
+        "HRT"
+      ],
+      "s": 1700035
+    },
+    {
+      "p": [
+        "ATTS",
+        "HPNT",
+        "HN",
+        "AS",
+        "H",
+        "HRT"
+      ],
+      "s": 1702419
+    },
+    {
+      "p": [
+        "ATTS",
+        "HPNT",
+        "HN",
+        "AS",
+        "H",
+        "HRT",
+        "AR",
+        "A",
+        "HRT",
+        "A",
+        "TNNT",
+        "N"
+      ],
+      "s": 1702419
+    },
+    {
+      "p": [
+        "HN",
+        "AS",
+        "H",
+        "HRT",
+        "AR",
+        "A",
+        "HRT",
+        "A",
+        "TNNT",
+        "N"
+      ],
+      "s": 1703854
+    },
+    {
+      "p": [
+        "HN",
+        "AS",
+        "H",
+        "HRT",
+        "AR",
+        "A",
+        "HRT",
+        "A",
+        "TNNT",
+        "N",
+        "HN",
+        "PL"
+      ],
+      "s": 1703854
+    },
+    {
+      "p": [
+        "AR",
+        "A",
+        "HRT",
+        "A",
+        "TNNT",
+        "N",
+        "HN",
+        "PL"
+      ],
+      "s": 1705721
+    },
+    {
+      "p": [
+        "AR",
+        "A",
+        "HRT",
+        "A",
+        "TNNT",
+        "N",
+        "HN",
+        "PL",
+        "ATTS",
+        "RNK",
+        "A0",
+        "A"
+      ],
+      "s": 1705721
+    },
+    {
+      "p": [
+        "HN",
+        "PL",
+        "ATTS",
+        "RNK",
+        "A0",
+        "A"
+      ],
+      "s": 1707288
+    },
+    {
+      "p": [
+        "HN",
+        "PL",
+        "ATTS",
+        "RNK",
+        "A0",
+        "A",
+        "M",
+        "KT",
+        "H",
+        "LKS",
+        "TRPL",
+        "PL",
+        "ATTS",
+        "HPNT"
+      ],
+      "s": 1707288
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "A0",
+        "A"
+      ],
+      "s": 1708958
+    },
+    {
+      "p": [
+        "ATTS",
+        "RNK",
+        "A0",
+        "A",
+        "M",
+        "KT",
+        "H",
+        "LKS",
+        "TRPL",
+        "PL",
+        "ATTS",
+        "HPNT"
+      ],
+      "s": 1708958
+    },
+    {
+      "p": [
+        "M",
+        "KT",
+        "H",
+        "LKS",
+        "TRPL",
+        "PL",
+        "ATTS",
+        "HPNT"
+      ],
+      "s": 1710125
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "AR",
+        "AS",
+        "MRKN"
+      ],
+      "s": 1712163
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "AR",
+        "AS",
+        "MRKN",
+        "HN",
+        "SPK",
+        "T",
+        "M"
+      ],
+      "s": 1712163
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "AR",
+        "AS",
+        "MRKN",
+        "HN",
+        "SPK",
+        "T",
+        "M",
+        "AS",
+        "MRKN",
+        "HR",
+        "ASNNT",
+        "H",
+        "A0",
+        "A"
+      ],
+      "s": 1712163
+    },
+    {
+      "p": [
+        "HN",
+        "SPK",
+        "T",
+        "M",
+        "AS",
+        "MRKN",
+        "HR",
+        "ASNNT",
+        "H",
+        "A0",
+        "A"
+      ],
+      "s": 1714798
+    },
+    {
+      "p": [
+        "HN",
+        "SPK",
+        "T",
+        "M",
+        "AS",
+        "MRKN",
+        "HR",
+        "ASNNT",
+        "H",
+        "A0",
+        "A",
+        "N",
+        "HH"
+      ],
+      "s": 1714798
+    },
+    {
+      "p": [
+        "AS",
+        "MRKN",
+        "HR",
+        "ASNNT",
+        "H",
+        "A0",
+        "A"
+      ],
+      "s": 1716030
+    },
+    {
+      "p": [
+        "AS",
+        "MRKN",
+        "HR",
+        "ASNNT",
+        "H",
+        "A0",
+        "A",
+        "N",
+        "HH"
+      ],
+      "s": 1716030
+    },
+    {
+      "p": [
+        "AS",
+        "MRKN",
+        "HR",
+        "ASNNT",
+        "H",
+        "A0",
+        "A",
+        "N",
+        "HH",
+        "TT",
+        "R"
+      ],
+      "s": 1716030
+    },
+    {
+      "p": [
+        "N",
+        "HH",
+        "TT",
+        "R",
+        "R",
+        "TT"
+      ],
+      "s": 1718701
+    },
+    {
+      "p": [
+        "TT",
+        "R",
+        "R",
+        "TT",
+        "R",
+        "ATTS",
+        "ATTS",
+        "KNK",
+        "AN"
+      ],
+      "s": 1721237
+    },
+    {
+      "p": [
+        "R",
+        "TT",
+        "R",
+        "ATTS",
+        "ATTS",
+        "KNK",
+        "AN"
+      ],
+      "s": 1723807
+    },
+    {
+      "p": [
+        "R",
+        "TT",
+        "R",
+        "ATTS",
+        "ATTS",
+        "KNK",
+        "AN",
+        "R",
+        "R",
+        "AR",
+        "AS",
+        "MRKN",
+        "ATTS",
+        "HPNNK"
+      ],
+      "s": 1723807
+    },
+    {
+      "p": [
+        "R",
+        "ATTS",
+        "ATTS",
+        "KNK",
+        "AN"
+      ],
+      "s": 1724906
+    },
+    {
+      "p": [
+        "R",
+        "ATTS",
+        "ATTS",
+        "KNK",
+        "AN",
+        "R",
+        "R",
+        "AR",
+        "AS",
+        "MRKN",
+        "ATTS",
+        "HPNNK"
+      ],
+      "s": 1724906
+    },
+    {
+      "p": [
+        "R",
+        "ATTS",
+        "ATTS",
+        "KNK",
+        "AN",
+        "R",
+        "R",
+        "AR",
+        "AS",
+        "MRKN",
+        "ATTS",
+        "HPNNK",
+        "AAL",
+        "K",
+        "LK",
+        "FR",
+        "HM",
+        "N",
+        "A",
+        "XLTNNT",
+        "K",
+        "ATST"
+      ],
+      "s": 1724906
+    },
+    {
+      "p": [
+        "R",
+        "R",
+        "AR",
+        "AS",
+        "MRKN",
+        "ATTS",
+        "HPNNK"
+      ],
+      "s": 1727875
+    },
+    {
+      "p": [
+        "R",
+        "R",
+        "AR",
+        "AS",
+        "MRKN",
+        "ATTS",
+        "HPNNK",
+        "AAL",
+        "K",
+        "LK",
+        "FR",
+        "HM",
+        "N",
+        "A",
+        "XLTNNT",
+        "K",
+        "ATST"
+      ],
+      "s": 1727875
+    },
+    {
+      "p": [
+        "R",
+        "R",
+        "AR",
+        "AS",
+        "MRKN",
+        "ATTS",
+        "HPNNK",
+        "AAL",
+        "K",
+        "LK",
+        "FR",
+        "HM",
+        "N",
+        "A",
+        "XLTNNT",
+        "K",
+        "ATST",
+        "AT",
+        "AR",
+        "A",
+        "S",
+        "AFRT",
+        "AF",
+        "PL"
+      ],
+      "s": 1727875
+    },
+    {
+      "p": [
+        "AAL",
+        "K",
+        "LK",
+        "FR",
+        "HM",
+        "N",
+        "A",
+        "XLTNNT",
+        "K",
+        "ATST"
+      ],
+      "s": 1731346
+    },
+    {
+      "p": [
+        "AAL",
+        "K",
+        "LK",
+        "FR",
+        "HM",
+        "N",
+        "A",
+        "XLTNNT",
+        "K",
+        "ATST",
+        "AT",
+        "AR",
+        "A",
+        "S",
+        "AFRT",
+        "AF",
+        "PL"
+      ],
+      "s": 1731346
+    },
+    {
+      "p": [
+        "AAL",
+        "K",
+        "LK",
+        "FR",
+        "HM",
+        "N",
+        "A",
+        "XLTNNT",
+        "K",
+        "ATST",
+        "AT",
+        "AR",
+        "A",
+        "S",
+        "AFRT",
+        "AF",
+        "PL",
+        "MRKNNS",
+        "MSNK",
+        "R",
+        "MSNK"
+      ],
+      "s": 1731346
+    },
+    {
+      "p": [
+        "AT",
+        "AR",
+        "A",
+        "S",
+        "AFRT",
+        "AF",
+        "PL"
+      ],
+      "s": 1734182
+    },
+    {
+      "p": [
+        "AT",
+        "AR",
+        "A",
+        "S",
+        "AFRT",
+        "AF",
+        "PL",
+        "MRKNNS",
+        "MSNK",
+        "R",
+        "MSNK"
+      ],
+      "s": 1734182
+    },
+    {
+      "p": [
+        "AT",
+        "AR",
+        "A",
+        "S",
+        "AFRT",
+        "AF",
+        "PL",
+        "MRKNNS",
+        "MSNK",
+        "R",
+        "MSNK",
+        "N",
+        "N",
+        "HH",
+        "NT",
+        "MSNK",
+        "HH"
+      ],
+      "s": 1734182
+    },
+    {
+      "p": [
+        "MRKNNS",
+        "MSNK",
+        "R",
+        "MSNK"
+      ],
+      "s": 1736751
+    },
+    {
+      "p": [
+        "MRKNNS",
+        "MSNK",
+        "R",
+        "MSNK",
+        "N",
+        "N",
+        "HH",
+        "NT",
+        "MSNK",
+        "HH"
+      ],
+      "s": 1736751
+    },
+    {
+      "p": [
+        "MRKNNS",
+        "MSNK",
+        "R",
+        "MSNK",
+        "N",
+        "N",
+        "HH",
+        "NT",
+        "MSNK",
+        "HH",
+        "HH",
+        "PRPPL",
+        "LST",
+        "AN",
+        "0",
+        "ATS",
+        "SMR"
+      ],
+      "s": 1736751
+    },
+    {
+      "p": [
+        "N",
+        "N",
+        "HH",
+        "NT",
+        "MSNK",
+        "HH"
+      ],
+      "s": 1739255
+    },
+    {
+      "p": [
+        "N",
+        "N",
+        "HH",
+        "NT",
+        "MSNK",
+        "HH",
+        "HH",
+        "PRPPL",
+        "LST",
+        "AN",
+        "0",
+        "ATS",
+        "SMR"
+      ],
+      "s": 1739255
+    },
+    {
+      "p": [
+        "N",
+        "N",
+        "HH",
+        "NT",
+        "MSNK",
+        "HH",
+        "HH",
+        "PRPPL",
+        "LST",
+        "AN",
+        "0",
+        "ATS",
+        "SMR",
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "HH",
+        "MKNK",
+        "HS",
+        "A",
+        "PK",
+        "N"
+      ],
+      "s": 1739255
+    },
+    {
+      "p": [
+        "HH",
+        "PRPPL",
+        "LST",
+        "AN",
+        "0",
+        "ATS",
+        "SMR"
+      ],
+      "s": 1741192
+    },
+    {
+      "p": [
+        "HH",
+        "PRPPL",
+        "LST",
+        "AN",
+        "0",
+        "ATS",
+        "SMR",
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "HH",
+        "MKNK",
+        "HS",
+        "A",
+        "PK",
+        "N"
+      ],
+      "s": 1741192
+    },
+    {
+      "p": [
+        "HH",
+        "PRPPL",
+        "LST",
+        "AN",
+        "0",
+        "ATS",
+        "SMR",
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "HH",
+        "MKNK",
+        "HS",
+        "A",
+        "PK",
+        "N",
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "ALF",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP"
+      ],
+      "s": 1741192
+    },
+    {
+      "p": [
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "HH",
+        "MKNK",
+        "HS",
+        "A",
+        "PK",
+        "N"
+      ],
+      "s": 1743226
+    },
+    {
+      "p": [
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "HH",
+        "MKNK",
+        "HS",
+        "A",
+        "PK",
+        "N",
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "ALF",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP"
+      ],
+      "s": 1743226
+    },
+    {
+      "p": [
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "HH",
+        "MKNK",
+        "HS",
+        "A",
+        "PK",
+        "N",
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "ALF",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP",
+        "ALF",
+        "STP",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP"
+      ],
+      "s": 1743226
+    },
+    {
+      "p": [
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "ALF",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP"
+      ],
+      "s": 1746028
+    },
+    {
+      "p": [
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "ALF",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP",
+        "ALF",
+        "STP",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP"
+      ],
+      "s": 1746028
+    },
+    {
+      "p": [
+        "AAM",
+        "KLNK",
+        "0",
+        "XRF",
+        "ALF",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP",
+        "ALF",
+        "STP",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP",
+        "KN",
+        "A",
+        "HF",
+        "0",
+        "XRF",
+        "PLS"
+      ],
+      "s": 1746028
+    },
+    {
+      "p": [
+        "ALF",
+        "STP",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP"
+      ],
+      "s": 1749833
+    },
+    {
+      "p": [
+        "ALF",
+        "STP",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP",
+        "KN",
+        "A",
+        "HF",
+        "0",
+        "XRF",
+        "PLS"
+      ],
+      "s": 1749833
+    },
+    {
+      "p": [
+        "ALF",
+        "STP",
+        "0TTS",
+        "NT",
+        "KN",
+        "HLP",
+        "KN",
+        "A",
+        "HF",
+        "0",
+        "XRF",
+        "PLS",
+        "XRF",
+        "0",
+        "PLS",
+        "AR",
+        "STNK",
+        "AN",
+        "AR",
+        "FRNT",
+        "RM",
+        "RT",
+        "N"
+      ],
+      "s": 1749833
+    },
+    {
+      "p": [
+        "KN",
+        "A",
+        "HF",
+        "0",
+        "XRF",
+        "PLS"
+      ],
+      "s": 1752500
+    },
+    {
+      "p": [
+        "KN",
+        "A",
+        "HF",
+        "0",
+        "XRF",
+        "PLS",
+        "XRF",
+        "0",
+        "PLS",
+        "AR",
+        "STNK",
+        "AN",
+        "AR",
+        "FRNT",
+        "RM",
+        "RT",
+        "N"
+      ],
+      "s": 1752500
+    },
+    {
+      "p": [
+        "KN",
+        "A",
+        "HF",
+        "0",
+        "XRF",
+        "PLS",
+        "XRF",
+        "0",
+        "PLS",
+        "AR",
+        "STNK",
+        "AN",
+        "AR",
+        "FRNT",
+        "RM",
+        "RT",
+        "N",
+        "0R",
+        "NT",
+        "AKSKTL",
+        "MX",
+        "AS",
+        "AR",
+        "0"
+      ],
+      "s": 1752500
+    },
+    {
+      "p": [
+        "XRF",
+        "0",
+        "PLS",
+        "AR",
+        "STNK",
+        "AN",
+        "AR",
+        "FRNT",
+        "RM",
+        "RT",
+        "N"
+      ],
+      "s": 1754237
+    },
+    {
+      "p": [
+        "XRF",
+        "0",
+        "PLS",
+        "AR",
+        "STNK",
+        "AN",
+        "AR",
+        "FRNT",
+        "RM",
+        "RT",
+        "N",
+        "0R",
+        "NT",
+        "AKSKTL",
+        "MX",
+        "AS",
+        "AR",
+        "0"
+      ],
+      "s": 1754237
+    },
+    {
+      "p": [
+        "XRF",
+        "0",
+        "PLS",
+        "AR",
+        "STNK",
+        "AN",
+        "AR",
+        "FRNT",
+        "RM",
+        "RT",
+        "N",
+        "0R",
+        "NT",
+        "AKSKTL",
+        "MX",
+        "AS",
+        "AR",
+        "0",
+        "H",
+        "NTS",
+        "A",
+        "TKTR",
+        "R",
+        "LK",
+        "LTTS"
+      ],
+      "s": 1754237
+    },
+    {
+      "p": [
+        "0R",
+        "NT",
+        "AKSKTL",
+        "MX",
+        "AS",
+        "AR",
+        "0"
+      ],
+      "s": 1757905
+    },
+    {
+      "p": [
+        "0R",
+        "NT",
+        "AKSKTL",
+        "MX",
+        "AS",
+        "AR",
+        "0",
+        "H",
+        "NTS",
+        "A",
+        "TKTR",
+        "R",
+        "LK",
+        "LTTS"
+      ],
+      "s": 1757905
+    },
+    {
+      "p": [
+        "0R",
+        "NT",
+        "AKSKTL",
+        "MX",
+        "AS",
+        "AR",
+        "0",
+        "H",
+        "NTS",
+        "A",
+        "TKTR",
+        "R",
+        "LK",
+        "LTTS",
+        "LTTS",
+        "JST",
+        "TK",
+        "A",
+        "LFL",
+        "PRSPKTF",
+        "ANT",
+        "KLM",
+        "TN"
+      ],
+      "s": 1757905
+    },
+    {
+      "p": [
+        "H",
+        "NTS",
+        "A",
+        "TKTR",
+        "R",
+        "LK",
+        "LTTS"
+      ],
+      "s": 1760009
+    },
+    {
+      "p": [
+        "H",
+        "NTS",
+        "A",
+        "TKTR",
+        "R",
+        "LK",
+        "LTTS",
+        "LTTS",
+        "JST",
+        "TK",
+        "A",
+        "LFL",
+        "PRSPKTF",
+        "ANT",
+        "KLM",
+        "TN"
+      ],
+      "s": 1760009
+    },
+    {
+      "p": [
+        "H",
+        "NTS",
+        "A",
+        "TKTR",
+        "R",
+        "LK",
+        "LTTS",
+        "LTTS",
+        "JST",
+        "TK",
+        "A",
+        "LFL",
+        "PRSPKTF",
+        "ANT",
+        "KLM",
+        "TN",
+        "TK",
+        "A",
+        "STP",
+        "PK"
+      ],
+      "s": 1760009
+    },
+    {
+      "p": [
+        "LTTS",
+        "JST",
+        "TK",
+        "A",
+        "LFL",
+        "PRSPKTF",
+        "ANT",
+        "KLM",
+        "TN"
+      ],
+      "s": 1763077
+    },
+    {
+      "p": [
+        "LTTS",
+        "JST",
+        "TK",
+        "A",
+        "LFL",
+        "PRSPKTF",
+        "ANT",
+        "KLM",
+        "TN",
+        "TK",
+        "A",
+        "STP",
+        "PK"
+      ],
+      "s": 1763077
+    },
+    {
+      "p": [
+        "LTTS",
+        "JST",
+        "TK",
+        "A",
+        "LFL",
+        "PRSPKTF",
+        "ANT",
+        "KLM",
+        "TN",
+        "TK",
+        "A",
+        "STP",
+        "PK",
+        "0TTS",
+        "AT",
+        "T",
+        "MX",
+        "TF",
+        "ANT",
+        "NT",
+        "ANK",
+        "FRT",
+        "TS",
+        "T",
+        "A"
+      ],
+      "s": 1763077
+    },
+    {
+      "p": [
+        "TK",
+        "A",
+        "STP",
+        "PK",
+        "0TTS",
+        "AT",
+        "T",
+        "MX",
+        "TF",
+        "ANT",
+        "NT",
+        "ANK",
+        "FRT",
+        "TS",
+        "T",
+        "A"
+      ],
+      "s": 1766481
+    },
+    {
+      "p": [
+        "0TTS",
+        "AT",
+        "T",
+        "MX",
+        "TF",
+        "ANT",
+        "NT",
+        "ANK",
+        "FRT",
+        "TS",
+        "T",
+        "A"
+      ],
+      "s": 1768519
+    },
+    {
+      "p": [
+        "LTTS",
+        "A",
+        "N",
+        "AR",
+        "AMJNXN",
+        "ARKS",
+        "AFR",
+        "SMTMS"
+      ],
+      "s": 1774843
+    },
+    {
+      "p": [
+        "LTTS",
+        "A",
+        "N",
+        "AR",
+        "AMJNXN",
+        "ARKS",
+        "AFR",
+        "SMTMS",
+        "ANT",
+        "A",
+        "STRT",
+        "0NKNK",
+        "APT",
+        "0NKS",
+        "ANT"
+      ],
+      "s": 1774843
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AR",
+        "AMJNXN",
+        "ARKS",
+        "AFR",
+        "SMTMS"
+      ],
+      "s": 1777492
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AR",
+        "AMJNXN",
+        "ARKS",
+        "AFR",
+        "SMTMS",
+        "ANT",
+        "A",
+        "STRT",
+        "0NKNK",
+        "APT",
+        "0NKS",
+        "ANT"
+      ],
+      "s": 1777492
+    },
+    {
+      "p": [
+        "A",
+        "N",
+        "AR",
+        "AMJNXN",
+        "ARKS",
+        "AFR",
+        "SMTMS",
+        "ANT",
+        "A",
+        "STRT",
+        "0NKNK",
+        "APT",
+        "0NKS",
+        "ANT",
+        "LK"
+      ],
+      "s": 1777492
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "STRT",
+        "0NKNK",
+        "APT",
+        "0NKS",
+        "ANT"
+      ],
+      "s": 1780931
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "STRT",
+        "0NKNK",
+        "APT",
+        "0NKS",
+        "ANT",
+        "LK"
+      ],
+      "s": 1780931
+    },
+    {
+      "p": [
+        "ALF",
+        "AAL",
+        "FNT",
+        "MRKN",
+        "AAL",
+        "P",
+        "RT",
+        "PK"
+      ],
+      "s": 1786169
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "AT",
+        "A",
+        "S",
+        "MRKN"
+      ],
+      "s": 1820519
+    },
+    {
+      "p": [
+        "KTMN",
+        "MRKN",
+        "KM",
+        "AN",
+        "PT"
+      ],
+      "s": 1827394
+    },
+    {
+      "p": [
+        "AS",
+        "AFRN",
+        "AT",
+        "0",
+        "HL",
+        "AS",
+        "0T"
+      ],
+      "s": 2224759
+    },
+    {
+      "p": [
+        "AT",
+        "TT",
+        "A",
+        "S",
+        "AT",
+        "AS",
+        "AT",
+        "P"
+      ],
+      "s": 2248230
+    },
+    {
+      "p": [
+        "AR",
+        "NT",
+        "MSNK",
+        "ARNT",
+        "AN",
+        "HR"
+      ],
+      "s": 2363063
+    },
+    {
+      "p": [
+        "AR",
+        "NT",
+        "MSNK",
+        "ARNT",
+        "AN",
+        "HR",
+        "TT",
+        "A",
+        "HR",
+        "0T"
+      ],
+      "s": 2363063
+    },
+    {
+      "p": [
+        "AR",
+        "NT",
+        "MSNK",
+        "ARNT",
+        "AN",
+        "HR",
+        "TT",
+        "A",
+        "HR",
+        "0T",
+        "A",
+        "KT",
+        "KNS"
+      ],
+      "s": 2363063
+    },
+    {
+      "p": [
+        "TT",
+        "A",
+        "HR",
+        "0T",
+        "A",
+        "KT",
+        "KNS"
+      ],
+      "s": 2364913
+    },
+    {
+      "p": [
+        "0R",
+        "AN",
+        "0",
+        "PSMNT"
+      ],
+      "s": 2532233
+    },
+    {
+      "p": [
+        "KN0",
+        "ARS",
+        "R",
+        "0",
+        "LT"
+      ],
+      "s": 2753018
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "0T",
+        "0",
+        "ATK",
+        "HX"
+      ],
+      "s": 2831931
+    },
+    {
+      "p": [
+        "FK",
+        "AL",
+        "RT",
+        "R",
+        "ARS",
+        "0",
+        "AM"
+      ],
+      "s": 2880028
+    },
+    {
+      "p": [
+        "FK",
+        "AL",
+        "RT",
+        "R",
+        "ARS",
+        "0",
+        "AM",
+        "N",
+        "N",
+        "AM",
+        "K"
+      ],
+      "s": 2880028
+    },
+    {
+      "p": [
+        "AL",
+        "RT",
+        "R",
+        "ARS",
+        "0",
+        "AM"
+      ],
+      "s": 2881264
+    },
+    {
+      "p": [
+        "AL",
+        "RT",
+        "R",
+        "ARS",
+        "0",
+        "AM",
+        "N",
+        "N",
+        "AM",
+        "K"
+      ],
+      "s": 2881264
+    },
+    {
+      "p": [
+        "N",
+        "N",
+        "N",
+        "HLP",
+        "AS"
+      ],
+      "s": 2930597
+    },
+    {
+      "p": [
+        "HLP",
+        "AS",
+        "KM",
+        "AN",
+        "KM",
+        "AN"
+      ],
+      "s": 2932447
+    },
+    {
+      "p": [
+        "HLP",
+        "AS",
+        "KM",
+        "AN",
+        "KM",
+        "AN"
+      ],
+      "s": 2934615
+    },
+    {
+      "p": [
+        "0",
+        "TK",
+        "MS",
+        "TTNNT",
+        "0"
+      ],
+      "s": 2944545
+    },
+    {
+      "p": [
+        "0",
+        "TRNT",
+        "ARNT",
+        "ANT",
+        "ANT",
+        "0",
+        "A0R",
+        "A"
+      ],
+      "s": 2959425
+    },
+    {
+      "p": [
+        "0",
+        "TRNT",
+        "ARNT",
+        "ANT",
+        "ANT",
+        "0",
+        "A0R",
+        "A",
+        "A",
+        "AR",
+        "RNNK",
+        "AT",
+        "0M",
+        "A0",
+        "AN",
+        "AKS"
+      ],
+      "s": 2959425
+    },
+    {
+      "p": [
+        "A",
+        "AR",
+        "RNNK",
+        "AT",
+        "0M",
+        "A0",
+        "AN",
+        "AKS"
+      ],
+      "s": 2962110
+    },
+    {
+      "p": [
+        "PL",
+        "T",
+        "A",
+        "ANT",
+        "T",
+        "PT",
+        "0T",
+        "0NK",
+        "TN"
+      ],
+      "s": 3142141
+    },
+    {
+      "p": [
+        "A",
+        "RSFT",
+        "A",
+        "FN",
+        "KL",
+        "NT",
+        "AN",
+        "HR",
+        "AK"
+      ],
+      "s": 3158324
+    },
+    {
+      "p": [
+        "A",
+        "RSFT",
+        "A",
+        "FN",
+        "KL",
+        "NT",
+        "AN",
+        "HR",
+        "AK",
+        "0",
+        "KL",
+        "KM",
+        "FRM",
+        "AR",
+        "PLS"
+      ],
+      "s": 3158324
+    },
+    {
+      "p": [
+        "A",
+        "RSFT",
+        "A",
+        "FN",
+        "KL",
+        "NT",
+        "AN",
+        "HR",
+        "AK",
+        "0",
+        "KL",
+        "KM",
+        "FRM",
+        "AR",
+        "PLS",
+        "TNS",
+        "ST",
+        "0T",
+        "X",
+        "PLFT",
+        "0",
+        "AMN",
+        "X",
+        "SPK",
+        "T"
+      ],
+      "s": 3158324
+    },
+    {
+      "p": [
+        "0",
+        "KL",
+        "KM",
+        "FRM",
+        "AR",
+        "PLS"
+      ],
+      "s": 3161307
+    },
+    {
+      "p": [
+        "0",
+        "KL",
+        "KM",
+        "FRM",
+        "AR",
+        "PLS",
+        "TNS",
+        "ST",
+        "0T",
+        "X",
+        "PLFT",
+        "0",
+        "AMN",
+        "X",
+        "SPK",
+        "T"
+      ],
+      "s": 3161307
+    },
+    {
+      "p": [
+        "0",
+        "KL",
+        "KM",
+        "FRM",
+        "AR",
+        "PLS",
+        "TNS",
+        "ST",
+        "0T",
+        "X",
+        "PLFT",
+        "0",
+        "AMN",
+        "X",
+        "SPK",
+        "T",
+        "AS",
+        "A",
+        "ASKNK",
+        "FR",
+        "M"
+      ],
+      "s": 3161307
+    },
+    {
+      "p": [
+        "TNS",
+        "ST",
+        "0T",
+        "X",
+        "PLFT",
+        "0",
+        "AMN",
+        "X",
+        "SPK",
+        "T"
+      ],
+      "s": 3163746
+    },
+    {
+      "p": [
+        "TNS",
+        "ST",
+        "0T",
+        "X",
+        "PLFT",
+        "0",
+        "AMN",
+        "X",
+        "SPK",
+        "T",
+        "AS",
+        "A",
+        "ASKNK",
+        "FR",
+        "M"
+      ],
+      "s": 3163746
+    },
+    {
+      "p": [
+        "0N",
+        "0",
+        "KL",
+        "KT",
+        "KT",
+        "AF",
+        "P",
+        "0",
+        "STRM"
+      ],
+      "s": 3169402
+    },
+    {
+      "p": [
+        "0N",
+        "0",
+        "KL",
+        "KT",
+        "KT",
+        "AF",
+        "P",
+        "0",
+        "STRM",
+        "MNT",
+        "TLNK",
+        "M",
+        "AT",
+        "0T",
+        "AS",
+        "APT"
+      ],
+      "s": 3169402
+    },
+    {
+      "p": [
+        "0N",
+        "0",
+        "KL",
+        "KT",
+        "KT",
+        "AF",
+        "P",
+        "0",
+        "STRM",
+        "MNT",
+        "TLNK",
+        "M",
+        "AT",
+        "0T",
+        "AS",
+        "APT",
+        "AAM",
+        "ALS",
+        "HPNK",
+        "ATTL",
+        "AKSPLN",
+        "A",
+        "0",
+        "0R",
+        "AF",
+        "A"
+      ],
+      "s": 3169402
+    },
+    {
+      "p": [
+        "MNT",
+        "TLNK",
+        "M",
+        "AT",
+        "0T",
+        "AS",
+        "APT"
+      ],
+      "s": 3171621
+    },
+    {
+      "p": [
+        "MNT",
+        "TLNK",
+        "M",
+        "AT",
+        "0T",
+        "AS",
+        "APT",
+        "AAM",
+        "ALS",
+        "HPNK",
+        "ATTL",
+        "AKSPLN",
+        "A",
+        "0",
+        "0R",
+        "AF",
+        "A"
+      ],
+      "s": 3171621
+    },
+    {
+      "p": [
+        "MNT",
+        "TLNK",
+        "M",
+        "AT",
+        "0T",
+        "AS",
+        "APT",
+        "AAM",
+        "ALS",
+        "HPNK",
+        "ATTL",
+        "AKSPLN",
+        "A",
+        "0",
+        "0R",
+        "AF",
+        "A",
+        "AR",
+        "AT",
+        "AN",
+        "P0",
+        "0",
+        "MTL",
+        "AF",
+        "0",
+        "NT",
+        "ANT",
+        "NR"
+      ],
+      "s": 3171621
+    },
+    {
+      "p": [
+        "AAM",
+        "ALS",
+        "HPNK",
+        "ATTL",
+        "AKSPLN",
+        "A",
+        "0",
+        "0R",
+        "AF",
+        "A"
+      ],
+      "s": 3174523
+    },
+    {
+      "p": [
+        "AAM",
+        "ALS",
+        "HPNK",
+        "ATTL",
+        "AKSPLN",
+        "A",
+        "0",
+        "0R",
+        "AF",
+        "A",
+        "AR",
+        "AT",
+        "AN",
+        "P0",
+        "0",
+        "MTL",
+        "AF",
+        "0",
+        "NT",
+        "ANT",
+        "NR"
+      ],
+      "s": 3174523
+    },
+    {
+      "p": [
+        "AR",
+        "AT",
+        "AN",
+        "P0",
+        "0",
+        "MTL",
+        "AF",
+        "0",
+        "NT",
+        "ANT",
+        "NR"
+      ],
+      "s": 3176625
+    },
+    {
+      "p": [
+        "LKNK",
+        "LK",
+        "HL",
+        "A0",
+        "AN",
+        "AKS"
+      ],
+      "s": 3178692
+    },
+    {
+      "p": [
+        "LKNK",
+        "LK",
+        "HL",
+        "A0",
+        "AN",
+        "AKS",
+        "SM",
+        "PPL",
+        "TRRST",
+        "AS"
+      ],
+      "s": 3178692
+    },
+    {
+      "p": [
+        "LKNK",
+        "LK",
+        "HL",
+        "A0",
+        "AN",
+        "AKS",
+        "SM",
+        "PPL",
+        "TRRST",
+        "AS",
+        "0",
+        "ANFTT",
+        "AR",
+        "HM",
+        "ANT"
+      ],
+      "s": 3178692
+    },
+    {
+      "p": [
+        "SM",
+        "PPL",
+        "TRRST",
+        "AS"
+      ],
+      "s": 3181394
+    },
+    {
+      "p": [
+        "SM",
+        "PPL",
+        "TRRST",
+        "AS",
+        "0",
+        "ANFTT",
+        "AR",
+        "HM",
+        "ANT"
+      ],
+      "s": 3181394
+    },
+    {
+      "p": [
+        "SM",
+        "PPL",
+        "TRRST",
+        "AS",
+        "0",
+        "ANFTT",
+        "AR",
+        "HM",
+        "ANT",
+        "R",
+        "HS",
+        "PR0R",
+        "MRKN",
+        "M",
+        "SSTR",
+        "ARLN"
+      ],
+      "s": 3181394
+    },
+    {
+      "p": [
+        "0",
+        "ANFTT",
+        "AR",
+        "HM",
+        "ANT"
+      ],
+      "s": 3184298
+    },
+    {
+      "p": [
+        "0",
+        "ANFTT",
+        "AR",
+        "HM",
+        "ANT",
+        "R",
+        "HS",
+        "PR0R",
+        "MRKN",
+        "M",
+        "SSTR",
+        "ARLN"
+      ],
+      "s": 3184298
+    },
+    {
+      "p": [
+        "0",
+        "ANFTT",
+        "AR",
+        "HM",
+        "ANT",
+        "R",
+        "HS",
+        "PR0R",
+        "MRKN",
+        "M",
+        "SSTR",
+        "ARLN",
+        "ANT",
+        "KN0"
+      ],
+      "s": 3184298
+    },
+    {
+      "p": [
+        "R",
+        "HS",
+        "PR0R",
+        "MRKN",
+        "M",
+        "SSTR",
+        "ARLN"
+      ],
+      "s": 3186268
+    },
+    {
+      "p": [
+        "R",
+        "HS",
+        "PR0R",
+        "MRKN",
+        "M",
+        "SSTR",
+        "ARLN",
+        "ANT",
+        "KN0"
+      ],
+      "s": 3186268
+    },
+    {
+      "p": [
+        "0R",
+        "MSNK",
+        "KN0",
+        "AS",
+        "AN",
+        "TPT",
+        "XRF",
+        "PRFS"
+      ],
+      "s": 3193559
+    },
+    {
+      "p": [
+        "0R",
+        "MSNK",
+        "KN0",
+        "AS",
+        "AN",
+        "TPT",
+        "XRF",
+        "PRFS",
+        "ANT",
+        "AR",
+        "TK"
+      ],
+      "s": 3193559
+    },
+    {
+      "p": [
+        "AS",
+        "AN",
+        "TPT",
+        "XRF",
+        "PRFS"
+      ],
+      "s": 3195378
+    },
+    {
+      "p": [
+        "AS",
+        "AN",
+        "TPT",
+        "XRF",
+        "PRFS",
+        "ANT",
+        "AR",
+        "TK"
+      ],
+      "s": 3195378
+    },
+    {
+      "p": [
+        "MSNK",
+        "0",
+        "AR",
+        "TKN"
+      ],
+      "s": 3200215
+    },
+    {
+      "p": [
+        "MSNK",
+        "0",
+        "AR",
+        "TKN",
+        "H",
+        "MN",
+        "PRPS",
+        "AT",
+        "AR",
+        "A",
+        "TLNK",
+        "A0",
+        "HR"
+      ],
+      "s": 3200215
+    },
+    {
+      "p": [
+        "0",
+        "AR",
+        "TKN",
+        "H",
+        "MN",
+        "PRPS",
+        "AT",
+        "AR",
+        "A",
+        "TLNK",
+        "A0",
+        "HR"
+      ],
+      "s": 3201784
+    },
+    {
+      "p": [
+        "H",
+        "MN",
+        "PRPS",
+        "AT",
+        "AR",
+        "A",
+        "TLNK",
+        "A0",
+        "HR"
+      ],
+      "s": 3204385
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "NFR",
+        "S",
+        "0M",
+        "A",
+        "KRP"
+      ],
+      "s": 3208809
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "NFR",
+        "S",
+        "0M",
+        "A",
+        "KRP",
+        "A",
+        "SML",
+        "KRP",
+        "MP",
+        "0R"
+      ],
+      "s": 3208809
+    },
+    {
+      "p": [
+        "A",
+        "NFR",
+        "S",
+        "0M",
+        "A",
+        "KRP"
+      ],
+      "s": 3210726
+    },
+    {
+      "p": [
+        "A",
+        "NFR",
+        "S",
+        "0M",
+        "A",
+        "KRP",
+        "A",
+        "SML",
+        "KRP",
+        "MP",
+        "0R"
+      ],
+      "s": 3210726
+    },
+    {
+      "p": [
+        "A",
+        "NFR",
+        "S",
+        "0M",
+        "A",
+        "KRP",
+        "A",
+        "SML",
+        "KRP",
+        "MP",
+        "0R",
+        "0R",
+        "AR",
+        "FR"
+      ],
+      "s": 3210726
+    },
+    {
+      "p": [
+        "A",
+        "SML",
+        "KRP",
+        "MP",
+        "0R"
+      ],
+      "s": 3212894
+    },
+    {
+      "p": [
+        "A",
+        "SML",
+        "KRP",
+        "MP",
+        "0R",
+        "0R",
+        "AR",
+        "FR"
+      ],
+      "s": 3212894
+    },
+    {
+      "p": [
+        "FLKS",
+        "ST",
+        "HR",
+        "AL",
+        "K",
+        "XK",
+        "AT",
+        "AT"
+      ],
+      "s": 3244811
+    },
+    {
+      "p": [
+        "AX",
+        "MNS",
+        "0R",
+        "STL",
+        "HR"
+      ],
+      "s": 3330831
+    },
+    {
+      "p": [
+        "AL",
+        "AFR",
+        "AS",
+        "HR",
+        "ANNT",
+        "ANMR"
+      ],
+      "s": 3396463
+    },
+    {
+      "p": [
+        "AT",
+        "TSNNT",
+        "LK",
+        "LK",
+        "0",
+        "AR",
+        "RPT",
+        "N0R"
+      ],
+      "s": 3404670
+    },
+    {
+      "p": [
+        "A",
+        "XLT",
+        "XK",
+        "0",
+        "FS",
+        "PKS",
+        "KT",
+        "0",
+        "PR",
+        "PK",
+        "AP"
+      ],
+      "s": 3410911
+    },
+    {
+      "p": [
+        "A",
+        "XLT",
+        "XK",
+        "0",
+        "FS",
+        "PKS",
+        "KT",
+        "0",
+        "PR",
+        "PK",
+        "AP",
+        "0",
+        "STRM",
+        "MST",
+        "LKL"
+      ],
+      "s": 3410911
+    },
+    {
+      "p": [
+        "0",
+        "STRM",
+        "MST",
+        "LKL"
+      ],
+      "s": 3413961
+    },
+    {
+      "p": [
+        "FF",
+        "XTS",
+        "AR",
+        "FRT",
+        "AN",
+        "0",
+        "HL"
+      ],
+      "s": 3421722
+    },
+    {
+      "p": [
+        "AT",
+        "JST",
+        "AL",
+        "SMS",
+        "A",
+        "LTL",
+        "FK",
+        "FR",
+        "M",
+        "LKNK"
+      ],
+      "s": 3462963
+    },
+    {
+      "p": [
+        "AL",
+        "0",
+        "TNNT",
+        "NT",
+        "0",
+        "ATNXN"
+      ],
+      "s": 3473005
+    },
+    {
+      "p": [
+        "AL",
+        "0",
+        "TNNT",
+        "NT",
+        "0",
+        "ATNXN",
+        "SPSL",
+        "NT",
+        "TT"
+      ],
+      "s": 3473005
+    },
+    {
+      "p": [
+        "SM0NK",
+        "TFNTL",
+        "HPNT",
+        "HR",
+        "TNT"
+      ],
+      "s": 3484518
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "NT",
+        "T",
+        "KT",
+        "T",
+        "0",
+        "PTM",
+        "AF",
+        "AT"
+      ],
+      "s": 3488889
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "NT",
+        "T",
+        "KT",
+        "T",
+        "0",
+        "PTM",
+        "AF",
+        "AT",
+        "PT",
+        "PFR",
+        "AN",
+        "AF",
+        "0TTS",
+        "AFN",
+        "RMTL",
+        "PSPL"
+      ],
+      "s": 3488889
+    },
+    {
+      "p": [
+        "A",
+        "JST",
+        "NT",
+        "T",
+        "KT",
+        "T",
+        "0",
+        "PTM",
+        "AF",
+        "AT",
+        "PT",
+        "PFR",
+        "AN",
+        "AF",
+        "0TTS",
+        "AFN",
+        "RMTL",
+        "PSPL",
+        "A",
+        "NT",
+        "T",
+        "KT",
+        "M",
+        "A",
+        "TMN",
+        "STRNK",
+        "KF"
+      ],
+      "s": 3488889
+    },
+    {
+      "p": [
+        "PT",
+        "PFR",
+        "AN",
+        "AF",
+        "0TTS",
+        "AFN",
+        "RMTL",
+        "PSPL"
+      ],
+      "s": 3492074
+    },
+    {
+      "p": [
+        "PT",
+        "PFR",
+        "AN",
+        "AF",
+        "0TTS",
+        "AFN",
+        "RMTL",
+        "PSPL",
+        "A",
+        "NT",
+        "T",
+        "KT",
+        "M",
+        "A",
+        "TMN",
+        "STRNK",
+        "KF"
+      ],
+      "s": 3492074
+    },
+    {
+      "p": [
+        "A",
+        "NT",
+        "T",
+        "KT",
+        "M",
+        "A",
+        "TMN",
+        "STRNK",
+        "KF"
+      ],
+      "s": 3495943
+    },
+    {
+      "p": [
+        "AT",
+        "SRTNL",
+        "AS",
+        "PSR"
+      ],
+      "s": 3507106
+    },
+    {
+      "p": [
+        "AT",
+        "SRTNL",
+        "AS",
+        "PSR",
+        "ATTS",
+        "ANKRTPL",
+        "HRT",
+        "T",
+        "AMJN",
+        "0T",
+        "FR",
+        "ATLTS"
+      ],
+      "s": 3507106
+    },
+    {
+      "p": [
+        "AT",
+        "SRTNL",
+        "AS",
+        "PSR",
+        "ATTS",
+        "ANKRTPL",
+        "HRT",
+        "T",
+        "AMJN",
+        "0T",
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK"
+      ],
+      "s": 3507106
+    },
+    {
+      "p": [
+        "ATTS",
+        "ANKRTPL",
+        "HRT",
+        "T",
+        "AMJN",
+        "0T",
+        "FR",
+        "ATLTS"
+      ],
+      "s": 3510025
+    },
+    {
+      "p": [
+        "ATTS",
+        "ANKRTPL",
+        "HRT",
+        "T",
+        "AMJN",
+        "0T",
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK"
+      ],
+      "s": 3510025
+    },
+    {
+      "p": [
+        "ATTS",
+        "ANKRTPL",
+        "HRT",
+        "T",
+        "AMJN",
+        "0T",
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK",
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK"
+      ],
+      "s": 3510025
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "TK",
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK"
+      ],
+      "s": 3513128
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "TK",
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK",
+        "SMPL",
+        "FNXT",
+        "AN",
+        "0",
+        "KRS",
+        "AF",
+        "AN",
+        "HR"
+      ],
+      "s": 3513128
+    },
+    {
+      "p": [
+        "FR",
+        "ATLTS",
+        "ANT",
+        "A",
+        "TK",
+        "SMPL",
+        "FNXT",
+        "AN",
+        "0",
+        "KRS",
+        "AF",
+        "AN",
+        "HR"
+      ],
+      "s": 3515130
+    },
+    {
+      "p": [
+        "SMPL",
+        "FNXT",
+        "AN",
+        "0",
+        "KRS",
+        "AF",
+        "AN",
+        "HR"
+      ],
+      "s": 3517032
+    },
+    {
+      "p": [
+        "0",
+        "FKT",
+        "AS",
+        "N0R",
+        "AN",
+        "AF",
+        "A",
+        "AKTL",
+        "S",
+        "0",
+        "PRPS"
+      ],
+      "s": 3524139
+    },
+    {
+      "p": [
+        "0",
+        "FKT",
+        "AS",
+        "N0R",
+        "AN",
+        "AF",
+        "A",
+        "AKTL",
+        "S",
+        "0",
+        "PRPS",
+        "AAM",
+        "TLNK",
+        "A",
+        "AT",
+        "HPNT"
+      ],
+      "s": 3524139
+    },
+    {
+      "p": [
+        "0",
+        "FKT",
+        "AS",
+        "N0R",
+        "AN",
+        "AF",
+        "A",
+        "AKTL",
+        "S",
+        "0",
+        "PRPS",
+        "AAM",
+        "TLNK",
+        "A",
+        "AT",
+        "HPNT",
+        "ANT",
+        "A",
+        "PLF",
+        "A",
+        "ALF",
+        "A",
+        "RL",
+        "T",
+        "AFR",
+        "ART"
+      ],
+      "s": 3524139
+    },
+    {
+      "p": [
+        "AAM",
+        "TLNK",
+        "A",
+        "AT",
+        "HPNT"
+      ],
+      "s": 3529110
+    },
+    {
+      "p": [
+        "AAM",
+        "TLNK",
+        "A",
+        "AT",
+        "HPNT",
+        "ANT",
+        "A",
+        "PLF",
+        "A",
+        "ALF",
+        "A",
+        "RL",
+        "T",
+        "AFR",
+        "ART"
+      ],
+      "s": 3529110
+    },
+    {
+      "p": [
+        "AAM",
+        "TLNK",
+        "A",
+        "AT",
+        "HPNT",
+        "ANT",
+        "A",
+        "PLF",
+        "A",
+        "ALF",
+        "A",
+        "RL",
+        "T",
+        "AFR",
+        "ART",
+        "PT",
+        "M",
+        "JP",
+        "AS",
+        "T",
+        "MK",
+        "SNS",
+        "AF",
+        "0S",
+        "STXN"
+      ],
+      "s": 3529110
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "PLF",
+        "A",
+        "ALF",
+        "A",
+        "RL",
+        "T",
+        "AFR",
+        "ART"
+      ],
+      "s": 3531010
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "PLF",
+        "A",
+        "ALF",
+        "A",
+        "RL",
+        "T",
+        "AFR",
+        "ART",
+        "PT",
+        "M",
+        "JP",
+        "AS",
+        "T",
+        "MK",
+        "SNS",
+        "AF",
+        "0S",
+        "STXN"
+      ],
+      "s": 3531010
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "PLF",
+        "A",
+        "ALF",
+        "A",
+        "RL",
+        "T",
+        "AFR",
+        "ART",
+        "PT",
+        "M",
+        "JP",
+        "AS",
+        "T",
+        "MK",
+        "SNS",
+        "AF",
+        "0S",
+        "STXN",
+        "ANT",
+        "0S",
+        "AS",
+        "A",
+        "HRT",
+        "AN",
+        "T",
+        "KRSP",
+        "PLS",
+        "ANTRSTNT",
+        "0T"
+      ],
+      "s": 3531010
+    },
+    {
+      "p": [
+        "PT",
+        "M",
+        "JP",
+        "AS",
+        "T",
+        "MK",
+        "SNS",
+        "AF",
+        "0S",
+        "STXN"
+      ],
+      "s": 3534182
+    },
+    {
+      "p": [
+        "PT",
+        "M",
+        "JP",
+        "AS",
+        "T",
+        "MK",
+        "SNS",
+        "AF",
+        "0S",
+        "STXN",
+        "ANT",
+        "0S",
+        "AS",
+        "A",
+        "HRT",
+        "AN",
+        "T",
+        "KRSP",
+        "PLS",
+        "ANTRSTNT",
+        "0T"
+      ],
+      "s": 3534182
+    },
+    {
+      "p": [
+        "ANT",
+        "0S",
+        "AS",
+        "A",
+        "HRT",
+        "AN",
+        "T",
+        "KRSP",
+        "PLS",
+        "ANTRSTNT",
+        "0T"
+      ],
+      "s": 3537119
+    },
+    {
+      "p": [
+        "A",
+        "ANSST",
+        "A",
+        "KM",
+        "PK",
+        "T",
+        "0",
+        "STXN",
+        "A0",
+        "AS"
+      ],
+      "s": 3553052
+    },
+    {
+      "p": [
+        "A",
+        "ANSST",
+        "A",
+        "KM",
+        "PK",
+        "T",
+        "0",
+        "STXN",
+        "A0",
+        "AS",
+        "A",
+        "KN",
+        "KT",
+        "SM",
+        "RST",
+        "0R",
+        "ANT",
+        "SM",
+        "FT"
+      ],
+      "s": 3553052
+    },
+    {
+      "p": [
+        "A",
+        "KN",
+        "KT",
+        "SM",
+        "RST",
+        "0R",
+        "ANT",
+        "SM",
+        "FT"
+      ],
+      "s": 3555938
+    },
+    {
+      "p": [
+        "AAM",
+        "STNK",
+        "M",
+        "T",
+        "AR",
+        "NT",
+        "KNK",
+        "ANR"
+      ],
+      "s": 3560092
+    },
+    {
+      "p": [
+        "M",
+        "T",
+        "AR",
+        "NT",
+        "KNK",
+        "ANR"
+      ],
+      "s": 3561307
+    },
+    {
+      "p": [
+        "AL",
+        "AL",
+        "P",
+        "PK",
+        "AN",
+        "AN",
+        "HR",
+        "A0",
+        "SM",
+        "AFSLS"
+      ],
+      "s": 3568902
+    },
+    {
+      "p": [
+        "AL",
+        "AL",
+        "P",
+        "PK",
+        "AN",
+        "AN",
+        "HR",
+        "A0",
+        "SM",
+        "AFSLS",
+        "AL",
+        "P",
+        "APL",
+        "T",
+        "AKTL",
+        "T",
+        "SM0NK",
+        "APT",
+        "0S"
+      ],
+      "s": 3568902
+    },
+    {
+      "p": [
+        "AL",
+        "AL",
+        "P",
+        "PK",
+        "AN",
+        "AN",
+        "HR",
+        "A0",
+        "SM",
+        "AFSLS",
+        "AL",
+        "P",
+        "APL",
+        "T",
+        "AKTL",
+        "T",
+        "SM0NK",
+        "APT",
+        "0S",
+        "AN",
+        "0",
+        "MNTM"
+      ],
+      "s": 3568902
+    },
+    {
+      "p": [
+        "AL",
+        "P",
+        "APL",
+        "T",
+        "AKTL",
+        "T",
+        "SM0NK",
+        "APT",
+        "0S"
+      ],
+      "s": 3573153
+    },
+    {
+      "p": [
+        "AL",
+        "P",
+        "APL",
+        "T",
+        "AKTL",
+        "T",
+        "SM0NK",
+        "APT",
+        "0S",
+        "AN",
+        "0",
+        "MNTM"
+      ],
+      "s": 3573153
+    },
+    {
+      "p": [
+        "AL",
+        "P",
+        "APL",
+        "T",
+        "AKTL",
+        "T",
+        "SM0NK",
+        "APT",
+        "0S",
+        "AN",
+        "0",
+        "MNTM",
+        "A",
+        "SKST",
+        "A",
+        "KT",
+        "SM",
+        "RST"
+      ],
+      "s": 3573153
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "MNTM",
+        "A",
+        "SKST",
+        "A",
+        "KT",
+        "SM",
+        "RST"
+      ],
+      "s": 3576090
+    },
+    {
+      "p": [
+        "AN",
+        "0",
+        "MNTM",
+        "A",
+        "SKST",
+        "A",
+        "KT",
+        "SM",
+        "RST",
+        "AAL",
+        "P",
+        "PRKT",
+        "ATST",
+        "AN",
+        "AX"
+      ],
+      "s": 3576090
+    },
+    {
+      "p": [
+        "A",
+        "SKST",
+        "A",
+        "KT",
+        "SM",
+        "RST"
+      ],
+      "s": 3577860
+    },
+    {
+      "p": [
+        "A",
+        "SKST",
+        "A",
+        "KT",
+        "SM",
+        "RST",
+        "AAL",
+        "P",
+        "PRKT",
+        "ATST",
+        "AN",
+        "AX"
+      ],
+      "s": 3577860
+    },
+    {
+      "p": [
+        "A",
+        "SKST",
+        "A",
+        "KT",
+        "SM",
+        "RST",
+        "AAL",
+        "P",
+        "PRKT",
+        "ATST",
+        "AN",
+        "AX",
+        "AFTR",
+        "A",
+        "TK",
+        "0",
+        "XRF",
+        "T",
+        "0",
+        "STXN"
+      ],
+      "s": 3577860
+    },
+    {
+      "p": [
+        "AAL",
+        "P",
+        "PRKT",
+        "ATST",
+        "AN",
+        "AX"
+      ],
+      "s": 3579795
+    },
+    {
+      "p": [
+        "AAL",
+        "P",
+        "PRKT",
+        "ATST",
+        "AN",
+        "AX",
+        "AFTR",
+        "A",
+        "TK",
+        "0",
+        "XRF",
+        "T",
+        "0",
+        "STXN"
+      ],
+      "s": 3579795
+    },
+    {
+      "p": [
+        "AAL",
+        "P",
+        "PRKT",
+        "ATST",
+        "AN",
+        "AX",
+        "AFTR",
+        "A",
+        "TK",
+        "0",
+        "XRF",
+        "T",
+        "0",
+        "STXN",
+        "AF",
+        "AN0NK",
+        "HPNS",
+        "AN0NK",
+        "AT",
+        "AL",
+        "A",
+        "K",
+        "STRT",
+        "T",
+        "HM"
+      ],
+      "s": 3579795
+    },
+    {
+      "p": [
+        "AFTR",
+        "A",
+        "TK",
+        "0",
+        "XRF",
+        "T",
+        "0",
+        "STXN"
+      ],
+      "s": 3581130
+    },
+    {
+      "p": [
+        "AFTR",
+        "A",
+        "TK",
+        "0",
+        "XRF",
+        "T",
+        "0",
+        "STXN",
+        "AF",
+        "AN0NK",
+        "HPNS",
+        "AN0NK",
+        "AT",
+        "AL",
+        "A",
+        "K",
+        "STRT",
+        "T",
+        "HM"
+      ],
+      "s": 3581130
+    },
+    {
+      "p": [
+        "AF",
+        "AN0NK",
+        "HPNS",
+        "AN0NK",
+        "AT",
+        "AL",
+        "A",
+        "K",
+        "STRT",
+        "T",
+        "HM"
+      ],
+      "s": 3583065
+    },
+    {
+      "p": [
+        "ALF",
+        "AAM",
+        "KNSRNT",
+        "AF",
+        "AN",
+        "AF",
+        "0S",
+        "KTS",
+        "AT",
+        "AN",
+        "AF",
+        "AT"
+      ],
+      "s": 3595061
+    },
+    {
+      "p": [
+        "ALF",
+        "AAM",
+        "KNSRNT",
+        "AF",
+        "AN",
+        "AF",
+        "0S",
+        "KTS",
+        "AT",
+        "AN",
+        "AF",
+        "AT",
+        "AT",
+        "M",
+        "HF",
+        "A",
+        "HJL",
+        "NKTF",
+        "AFKT",
+        "AN",
+        "MSS",
+        "KS"
+      ],
+      "s": 3595061
+    },
+    {
+      "p": [
+        "AF",
+        "AN",
+        "AF",
+        "0S",
+        "KTS",
+        "AT",
+        "AN",
+        "AF",
+        "AT"
+      ],
+      "s": 3597010
+    },
+    {
+      "p": [
+        "AF",
+        "AN",
+        "AF",
+        "0S",
+        "KTS",
+        "AT",
+        "AN",
+        "AF",
+        "AT",
+        "AT",
+        "M",
+        "HF",
+        "A",
+        "HJL",
+        "NKTF",
+        "AFKT",
+        "AN",
+        "MSS",
+        "KS"
+      ],
+      "s": 3597010
+    },
+    {
+      "p": [
+        "AF",
+        "AN",
+        "AF",
+        "0S",
+        "KTS",
+        "AT",
+        "AN",
+        "AF",
+        "AT",
+        "AT",
+        "M",
+        "HF",
+        "A",
+        "HJL",
+        "NKTF",
+        "AFKT",
+        "AN",
+        "MSS",
+        "KS",
+        "AT",
+        "KS"
+      ],
+      "s": 3597010
+    },
+    {
+      "p": [
+        "AT",
+        "M",
+        "HF",
+        "A",
+        "HJL",
+        "NKTF",
+        "AFKT",
+        "AN",
+        "MSS",
+        "KS"
+      ],
+      "s": 3600215
+    },
+    {
+      "p": [
+        "AT",
+        "M",
+        "HF",
+        "A",
+        "HJL",
+        "NKTF",
+        "AFKT",
+        "AN",
+        "MSS",
+        "KS",
+        "AT",
+        "KS"
+      ],
+      "s": 3600215
+    },
+    {
+      "p": [
+        "LK",
+        "A",
+        "TNNT",
+        "0NK",
+        "0S",
+        "AS",
+        "AT",
+        "PPL",
+        "KN",
+        "N",
+        "APT",
+        "RT",
+        "N"
+      ],
+      "s": 3608108
+    },
+    {
+      "p": [
+        "LK",
+        "A",
+        "TNNT",
+        "0NK",
+        "0S",
+        "AS",
+        "AT",
+        "PPL",
+        "KN",
+        "N",
+        "APT",
+        "RT",
+        "N",
+        "NT",
+        "FR",
+        "A",
+        "AR",
+        "AR",
+        "FMLS",
+        "SK"
+      ],
+      "s": 3608108
+    },
+    {
+      "p": [
+        "LK",
+        "A",
+        "TNNT",
+        "0NK",
+        "0S",
+        "AS",
+        "AT",
+        "PPL",
+        "KN",
+        "N",
+        "APT",
+        "RT",
+        "N",
+        "NT",
+        "FR",
+        "A",
+        "AR",
+        "AR",
+        "FMLS",
+        "SK",
+        "NT",
+        "0",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "0",
+        "TSPRNSS"
+      ],
+      "s": 3608108
+    },
+    {
+      "p": [
+        "NT",
+        "FR",
+        "A",
+        "AR",
+        "AR",
+        "FMLS",
+        "SK"
+      ],
+      "s": 3612061
+    },
+    {
+      "p": [
+        "NT",
+        "FR",
+        "A",
+        "AR",
+        "AR",
+        "FMLS",
+        "SK",
+        "NT",
+        "0",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "0",
+        "TSPRNSS"
+      ],
+      "s": 3612061
+    },
+    {
+      "p": [
+        "NT",
+        "FR",
+        "A",
+        "AR",
+        "AR",
+        "FMLS",
+        "SK",
+        "NT",
+        "0",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "0",
+        "TSPRNSS",
+        "R",
+        "AR",
+        "SSTR",
+        "N0NK"
+      ],
+      "s": 3612061
+    },
+    {
+      "p": [
+        "NT",
+        "0",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "0",
+        "TSPRNSS"
+      ],
+      "s": 3615028
+    },
+    {
+      "p": [
+        "NT",
+        "0",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "0",
+        "TSPRNSS",
+        "R",
+        "AR",
+        "SSTR",
+        "N0NK"
+      ],
+      "s": 3615028
+    },
+    {
+      "p": [
+        "NT",
+        "0",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "0",
+        "TSPRNSS",
+        "R",
+        "AR",
+        "SSTR",
+        "N0NK",
+        "AAM",
+        "KNK",
+        "T",
+        "KP",
+        "AT",
+        "KT"
+      ],
+      "s": 3615028
+    },
+    {
+      "p": [
+        "R",
+        "AR",
+        "SSTR",
+        "N0NK"
+      ],
+      "s": 3617766
+    },
+    {
+      "p": [
+        "R",
+        "AR",
+        "SSTR",
+        "N0NK",
+        "AAM",
+        "KNK",
+        "T",
+        "KP",
+        "AT",
+        "KT"
+      ],
+      "s": 3617766
+    },
+    {
+      "p": [
+        "R",
+        "AR",
+        "SSTR",
+        "N0NK",
+        "AAM",
+        "KNK",
+        "T",
+        "KP",
+        "AT",
+        "KT",
+        "ANT",
+        "A",
+        "HHL",
+        "RKMNT",
+        "A",
+        "T",
+        "0",
+        "SM"
+      ],
+      "s": 3617766
+    },
+    {
+      "p": [
+        "AAM",
+        "KNK",
+        "T",
+        "KP",
+        "AT",
+        "KT",
+        "ANT",
+        "A",
+        "HHL",
+        "RKMNT",
+        "A",
+        "T",
+        "0",
+        "SM"
+      ],
+      "s": 3620936
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "HHL",
+        "RKMNT",
+        "A",
+        "T",
+        "0",
+        "SM"
+      ],
+      "s": 3622737
+    },
+    {
+      "p": [
+        "N",
+        "AS",
+        "AT",
+        "JST",
+        "M",
+        "AR",
+        "AS",
+        "AT",
+        "AN",
+        "AF",
+        "0S",
+        "MRNNKS"
+      ],
+      "s": 3705204
+    },
+    {
+      "p": [
+        "N",
+        "AS",
+        "AT",
+        "JST",
+        "M",
+        "AR",
+        "AS",
+        "AT",
+        "AN",
+        "AF",
+        "0S",
+        "MRNNKS",
+        "AAF",
+        "NFR",
+        "HT",
+        "A",
+        "MRNNK",
+        "LK",
+        "0S"
+      ],
+      "s": 3705204
+    },
+    {
+      "p": [
+        "AAF",
+        "NFR",
+        "HT",
+        "A",
+        "MRNNK",
+        "LK",
+        "0S"
+      ],
+      "s": 3709190
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "AN",
+        "ASK",
+        "TL",
+        "PR",
+        "FLR",
+        "KRP",
+        "FNTLSM",
+        "LTS",
+        "AN",
+        "0",
+        "SK"
+      ],
+      "s": 3725291
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "AN",
+        "ASK",
+        "TL",
+        "PR",
+        "FLR",
+        "KRP",
+        "FNTLSM",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "FNS",
+        "PN",
+        "RNJNK",
+        "AF",
+        "0",
+        "HK"
+      ],
+      "s": 3725291
+    },
+    {
+      "p": [
+        "PR",
+        "FLR",
+        "KRP",
+        "FNTLSM",
+        "LTS",
+        "AN",
+        "0",
+        "SK"
+      ],
+      "s": 3727106
+    },
+    {
+      "p": [
+        "PR",
+        "FLR",
+        "KRP",
+        "FNTLSM",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "FNS",
+        "PN",
+        "RNJNK",
+        "AF",
+        "0",
+        "HK"
+      ],
+      "s": 3727106
+    },
+    {
+      "p": [
+        "PR",
+        "FLR",
+        "KRP",
+        "FNTLSM",
+        "LTS",
+        "AN",
+        "0",
+        "SK",
+        "FNS",
+        "PN",
+        "RNJNK",
+        "AF",
+        "0",
+        "HK",
+        "MTNS",
+        "AF",
+        "0",
+        "KRTS"
+      ],
+      "s": 3727106
+    },
+    {
+      "p": [
+        "FNS",
+        "PN",
+        "RNJNK",
+        "AF",
+        "0",
+        "HK"
+      ],
+      "s": 3729878
+    },
+    {
+      "p": [
+        "FNS",
+        "PN",
+        "RNJNK",
+        "AF",
+        "0",
+        "HK",
+        "MTNS",
+        "AF",
+        "0",
+        "KRTS"
+      ],
+      "s": 3729878
+    },
+    {
+      "p": [
+        "FNS",
+        "PN",
+        "RNJNK",
+        "AF",
+        "0",
+        "HK",
+        "MTNS",
+        "AF",
+        "0",
+        "KRTS",
+        "AL",
+        "AS",
+        "A",
+        "MTR",
+        "AF",
+        "FKT",
+        "AAT",
+        "LK",
+        "T",
+        "MK",
+        "A",
+        "RPRT",
+        "MSLF"
+      ],
+      "s": 3729878
+    },
+    {
+      "p": [
+        "MTNS",
+        "AF",
+        "0",
+        "KRTS"
+      ],
+      "s": 3731380
+    },
+    {
+      "p": [
+        "MTNS",
+        "AF",
+        "0",
+        "KRTS",
+        "AL",
+        "AS",
+        "A",
+        "MTR",
+        "AF",
+        "FKT",
+        "AAT",
+        "LK",
+        "T",
+        "MK",
+        "A",
+        "RPRT",
+        "MSLF"
+      ],
+      "s": 3731380
+    },
+    {
+      "p": [
+        "AL",
+        "AS",
+        "A",
+        "MTR",
+        "AF",
+        "FKT",
+        "AAT",
+        "LK",
+        "T",
+        "MK",
+        "A",
+        "RPRT",
+        "MSLF"
+      ],
+      "s": 3733114
+    },
+    {
+      "p": [
+        "KNTN",
+        "AFRN",
+        "KT",
+        "0M",
+        "AL",
+        "ANST"
+      ],
+      "s": 3741172
+    },
+    {
+      "p": [
+        "AT",
+        "0",
+        "HLL",
+        "KNK",
+        "AN"
+      ],
+      "s": 3746277
+    },
+    {
+      "p": [
+        "NN",
+        "PLSTK",
+        "ANT",
+        "0N",
+        "0R",
+        "AS",
+        "0S",
+        "A0R",
+        "LT"
+      ],
+      "s": 3757739
+    },
+    {
+      "p": [
+        "NN",
+        "PLSTK",
+        "ANT",
+        "0N",
+        "0R",
+        "AS",
+        "0S",
+        "A0R",
+        "LT",
+        "AT",
+        "AS",
+        "AT",
+        "AS",
+        "TFRNT",
+        "AT",
+        "AS",
+        "PRT"
+      ],
+      "s": 3757739
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "0R",
+        "AS",
+        "0S",
+        "A0R",
+        "LT"
+      ],
+      "s": 3760240
+    },
+    {
+      "p": [
+        "ANT",
+        "0N",
+        "0R",
+        "AS",
+        "0S",
+        "A0R",
+        "LT",
+        "AT",
+        "AS",
+        "AT",
+        "AS",
+        "TFRNT",
+        "AT",
+        "AS",
+        "PRT"
+      ],
+      "s": 3760240
+    },
+    {
+      "p": [
+        "AT",
+        "AS",
+        "AT",
+        "AS",
+        "TFRNT",
+        "AT",
+        "AS",
+        "PRT"
+      ],
+      "s": 3764246
+    },
+    {
+      "p": [
+        "A0N",
+        "0T",
+        "LT",
+        "A"
+      ],
+      "s": 3769802
+    },
+    {
+      "p": [
+        "M",
+        "KT",
+        "JNKS",
+        "H",
+        "HF",
+        "A",
+        "PN"
+      ],
+      "s": 3891940
+    },
+    {
+      "p": [
+        "KT",
+        "P",
+        "KT",
+        "P",
+        "M",
+        "AR",
+        "0",
+        "A0RS",
+        "HR",
+        "TT",
+        "A",
+        "FNT",
+        "0",
+        "A0RS"
+      ],
+      "s": 3903536
+    },
+    {
+      "p": [
+        "AR",
+        "0",
+        "A0RS",
+        "HR",
+        "TT",
+        "A",
+        "FNT",
+        "0",
+        "A0RS"
+      ],
+      "s": 3908090
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "HF",
+        "PLNT",
+        "FR",
+        "0S",
+        "AFNNK"
+      ],
+      "s": 4210176
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "HF",
+        "PLNT",
+        "FR",
+        "0S",
+        "AFNNK",
+        "A",
+        "TNNT",
+        "N"
+      ],
+      "s": 4210176
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "HF",
+        "PLNT",
+        "FR",
+        "0S",
+        "AFNNK"
+      ],
+      "s": 4211591
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "HF",
+        "PLNT",
+        "FR",
+        "0S",
+        "AFNNK",
+        "A",
+        "TNNT",
+        "N"
+      ],
+      "s": 4211591
+    },
+    {
+      "p": [
+        "AT",
+        "T",
+        "A",
+        "HF",
+        "PLNT",
+        "FR",
+        "0S",
+        "AFNNK",
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "HF",
+        "0",
+        "HS",
+        "T",
+        "ARSLF"
+      ],
+      "s": 4211591
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "HF",
+        "0",
+        "HS",
+        "T",
+        "ARSLF"
+      ],
+      "s": 4213594
+    },
+    {
+      "p": [
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "HF",
+        "0",
+        "HS",
+        "T",
+        "ARSLF",
+        "A",
+        "MT",
+        "AX",
+        "TF"
+      ],
+      "s": 4213594
+    },
+    {
+      "p": [
+        "A",
+        "HF",
+        "0",
+        "HS",
+        "T",
+        "ARSLF"
+      ],
+      "s": 4214795
+    },
+    {
+      "p": [
+        "A",
+        "HF",
+        "0",
+        "HS",
+        "T",
+        "ARSLF",
+        "A",
+        "MT",
+        "AX",
+        "TF"
+      ],
+      "s": 4214795
+    },
+    {
+      "p": [
+        "A",
+        "HF",
+        "0",
+        "HS",
+        "T",
+        "ARSLF",
+        "A",
+        "MT",
+        "AX",
+        "TF",
+        "LT",
+        "M",
+        "TK",
+        "A",
+        "LK",
+        "AT",
+        "0T",
+        "PKTR"
+      ],
+      "s": 4214795
+    },
+    {
+      "p": [
+        "A",
+        "MT",
+        "AX",
+        "TF",
+        "LT",
+        "M",
+        "TK",
+        "A",
+        "LK",
+        "AT",
+        "0T",
+        "PKTR"
+      ],
+      "s": 4216729
+    },
+    {
+      "p": [
+        "A",
+        "MT",
+        "AX",
+        "TF",
+        "LT",
+        "M",
+        "TK",
+        "A",
+        "LK",
+        "AT",
+        "0T",
+        "PKTR",
+        "AS",
+        "0T",
+        "SPST",
+        "T",
+        "P",
+        "M"
+      ],
+      "s": 4216729
+    },
+    {
+      "p": [
+        "LT",
+        "M",
+        "TK",
+        "A",
+        "LK",
+        "AT",
+        "0T",
+        "PKTR"
+      ],
+      "s": 4218731
+    },
+    {
+      "p": [
+        "LT",
+        "M",
+        "TK",
+        "A",
+        "LK",
+        "AT",
+        "0T",
+        "PKTR",
+        "AS",
+        "0T",
+        "SPST",
+        "T",
+        "P",
+        "M"
+      ],
+      "s": 4218731
+    },
+    {
+      "p": [
+        "AS",
+        "0T",
+        "SPST",
+        "T",
+        "P",
+        "M"
+      ],
+      "s": 4221502
+    },
+    {
+      "p": [
+        "AS",
+        "0T",
+        "SPST",
+        "T",
+        "P",
+        "M",
+        "A",
+        "LK",
+        "KNT",
+        "AKL"
+      ],
+      "s": 4221502
+    },
+    {
+      "p": [
+        "A",
+        "LK",
+        "KNT",
+        "AKL",
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "PRTR",
+        "AR",
+        "ALT",
+        "MN"
+      ],
+      "s": 4223570
+    },
+    {
+      "p": [
+        "A",
+        "LK",
+        "KNT",
+        "AKL",
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "PRTR",
+        "AR",
+        "ALT",
+        "MN"
+      ],
+      "s": 4225572
+    },
+    {
+      "p": [
+        "A",
+        "LK",
+        "KNT",
+        "AKL",
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "PRTR",
+        "AR",
+        "ALT",
+        "MN",
+        "MK",
+        "M",
+        "LK",
+        "LK",
+        "A",
+        "PR"
+      ],
+      "s": 4225572
+    },
+    {
+      "p": [
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "PRTR",
+        "AR",
+        "ALT",
+        "MN"
+      ],
+      "s": 4227240
+    },
+    {
+      "p": [
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "PRTR",
+        "AR",
+        "ALT",
+        "MN",
+        "MK",
+        "M",
+        "LK",
+        "LK",
+        "A",
+        "PR"
+      ],
+      "s": 4227240
+    },
+    {
+      "p": [
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "PRTR",
+        "AR",
+        "ALT",
+        "MN",
+        "MK",
+        "M",
+        "LK",
+        "LK",
+        "A",
+        "PR",
+        "AR",
+        "LFNK",
+        "N",
+        "MS",
+        "LF",
+        "A"
+      ],
+      "s": 4227240
+    },
+    {
+      "p": [
+        "MK",
+        "M",
+        "LK",
+        "LK",
+        "A",
+        "PR",
+        "AR",
+        "LFNK",
+        "N",
+        "MS",
+        "LF",
+        "A"
+      ],
+      "s": 4229710
+    },
+    {
+      "p": [
+        "AR",
+        "LFNK",
+        "N",
+        "MS",
+        "LF",
+        "A"
+      ],
+      "s": 4231711
+    },
+    {
+      "p": [
+        "AR",
+        "M",
+        "KS",
+        "TNSTRS"
+      ],
+      "s": 4240206
+    },
+    {
+      "p": [
+        "AR",
+        "M",
+        "KS",
+        "TNSTRS",
+        "AP",
+        "AL",
+        "RT"
+      ],
+      "s": 4240206
+    },
+    {
+      "p": [
+        "AR",
+        "M",
+        "KS",
+        "TNSTRS",
+        "AP",
+        "AL",
+        "RT",
+        "LF",
+        "A",
+        "T",
+        "S0RT"
+      ],
+      "s": 4240206
+    },
+    {
+      "p": [
+        "AP",
+        "AL",
+        "RT",
+        "LF",
+        "A",
+        "T",
+        "S0RT"
+      ],
+      "s": 4242255
+    },
+    {
+      "p": [
+        "AP",
+        "AL",
+        "RT",
+        "LF",
+        "A",
+        "T",
+        "S0RT",
+        "ANNT",
+        "P",
+        "LNK",
+        "JST",
+        "A",
+        "KPL",
+        "AF",
+        "HRS"
+      ],
+      "s": 4242255
+    },
+    {
+      "p": [
+        "LF",
+        "A",
+        "T",
+        "S0RT",
+        "ANNT",
+        "P",
+        "LNK",
+        "JST",
+        "A",
+        "KPL",
+        "AF",
+        "HRS"
+      ],
+      "s": 4245326
+    },
+    {
+      "p": [
+        "ANNT",
+        "P",
+        "LNK",
+        "JST",
+        "A",
+        "KPL",
+        "AF",
+        "HRS"
+      ],
+      "s": 4246793
+    },
+    {
+      "p": [
+        "X",
+        "TS",
+        "NT",
+        "KR",
+        "XS",
+        "NT",
+        "LSTNNK"
+      ],
+      "s": 4252283
+    },
+    {
+      "p": [
+        "X",
+        "TS",
+        "NT",
+        "KR",
+        "XS",
+        "NT",
+        "LSTNNK",
+        "N",
+        "XS",
+        "LK",
+        "LF",
+        "KT",
+        "AT"
+      ],
+      "s": 4252283
+    },
+    {
+      "p": [
+        "X",
+        "TS",
+        "NT",
+        "KR",
+        "XS",
+        "NT",
+        "LSTNNK",
+        "N",
+        "XS",
+        "LK",
+        "LF",
+        "KT",
+        "AT",
+        "AS",
+        "X",
+        "RTNK"
+      ],
+      "s": 4252283
+    },
+    {
+      "p": [
+        "N",
+        "XS",
+        "LK",
+        "LF",
+        "KT",
+        "AT",
+        "AS",
+        "X",
+        "RTNK"
+      ],
+      "s": 4254301
+    },
+    {
+      "p": [
+        "N",
+        "XS",
+        "LK",
+        "LF",
+        "KT",
+        "AT",
+        "AS",
+        "X",
+        "RTNK",
+        "ANT",
+        "XS",
+        "RL",
+        "ANFLFT"
+      ],
+      "s": 4254301
+    },
+    {
+      "p": [
+        "AS",
+        "X",
+        "RTNK",
+        "ANT",
+        "XS",
+        "RL",
+        "ANFLFT"
+      ],
+      "s": 4256836
+    },
+    {
+      "p": [
+        "AS",
+        "X",
+        "RTNK",
+        "ANT",
+        "XS",
+        "RL",
+        "ANFLFT",
+        "TT",
+        "A",
+        "RT",
+        "AT",
+        "N"
+      ],
+      "s": 4256836
+    },
+    {
+      "p": [
+        "ANT",
+        "XS",
+        "RL",
+        "ANFLFT"
+      ],
+      "s": 4258537
+    },
+    {
+      "p": [
+        "ANT",
+        "XS",
+        "RL",
+        "ANFLFT",
+        "TT",
+        "A",
+        "RT",
+        "AT",
+        "N"
+      ],
+      "s": 4258537
+    },
+    {
+      "p": [
+        "N",
+        "MS",
+        "MS",
+        "MS",
+        "STP",
+        "TNNT",
+        "ANSR",
+        "0",
+        "TR",
+        "TNNT",
+        "ANSR",
+        "0",
+        "TR",
+        "MS"
+      ],
+      "s": 4321020
+    },
+    {
+      "p": [
+        "MS",
+        "MS",
+        "STP",
+        "TNNT",
+        "ANSR",
+        "0",
+        "TR",
+        "TNNT",
+        "ANSR",
+        "0",
+        "TR",
+        "MS"
+      ],
+      "s": 4322802
+    },
+    {
+      "p": [
+        "TNNT",
+        "ANSR",
+        "0",
+        "TR",
+        "TNNT",
+        "ANSR",
+        "0",
+        "TR",
+        "MS"
+      ],
+      "s": 4324871
+    },
+    {
+      "p": [
+        "JNKS",
+        "H",
+        "TNK",
+        "FL"
+      ],
+      "s": 4443943
+    },
+    {
+      "p": [
+        "JNKS",
+        "H",
+        "TNK",
+        "FL",
+        "ANT",
+        "A",
+        "LMNT"
+      ],
+      "s": 4443943
+    },
+    {
+      "p": [
+        "JNKS",
+        "H",
+        "TNK",
+        "FL",
+        "ANT",
+        "A",
+        "LMNT",
+        "N",
+        "0NKS",
+        "AAM",
+        "STL",
+        "AN",
+        "TT"
+      ],
+      "s": 4443943
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "LMNT",
+        "N",
+        "0NKS",
+        "AAM",
+        "STL",
+        "AN",
+        "TT"
+      ],
+      "s": 4446793
+    },
+    {
+      "p": [
+        "ANT",
+        "A",
+        "LMNT",
+        "N",
+        "0NKS",
+        "AAM",
+        "STL",
+        "AN",
+        "TT",
+        "JST",
+        "KM",
+        "P",
+        "T",
+        "S",
+        "H",
+        "A",
+        "AL",
+        "AR"
+      ],
+      "s": 4446793
+    },
+    {
+      "p": [
+        "N",
+        "0NKS",
+        "AAM",
+        "STL",
+        "AN",
+        "TT"
+      ],
+      "s": 4448795
+    },
+    {
+      "p": [
+        "N",
+        "0NKS",
+        "AAM",
+        "STL",
+        "AN",
+        "TT",
+        "JST",
+        "KM",
+        "P",
+        "T",
+        "S",
+        "H",
+        "A",
+        "AL",
+        "AR"
+      ],
+      "s": 4448795
+    },
+    {
+      "p": [
+        "N",
+        "0NKS",
+        "AAM",
+        "STL",
+        "AN",
+        "TT",
+        "JST",
+        "KM",
+        "P",
+        "T",
+        "S",
+        "H",
+        "A",
+        "AL",
+        "AR",
+        "MM",
+        "ANT",
+        "TT",
+        "HF",
+        "KN",
+        "ANT",
+        "TN",
+        "0L",
+        "P",
+        "A",
+        "KPL",
+        "AF",
+        "HRS"
+      ],
+      "s": 4448795
+    },
+    {
+      "p": [
+        "JST",
+        "KM",
+        "P",
+        "T",
+        "S",
+        "H",
+        "A",
+        "AL",
+        "AR"
+      ],
+      "s": 4450930
+    },
+    {
+      "p": [
+        "JST",
+        "KM",
+        "P",
+        "T",
+        "S",
+        "H",
+        "A",
+        "AL",
+        "AR",
+        "MM",
+        "ANT",
+        "TT",
+        "HF",
+        "KN",
+        "ANT",
+        "TN",
+        "0L",
+        "P",
+        "A",
+        "KPL",
+        "AF",
+        "HRS"
+      ],
+      "s": 4450930
+    },
+    {
+      "p": [
+        "JST",
+        "KM",
+        "P",
+        "T",
+        "S",
+        "H",
+        "A",
+        "AL",
+        "AR",
+        "MM",
+        "ANT",
+        "TT",
+        "HF",
+        "KN",
+        "ANT",
+        "TN",
+        "0L",
+        "P",
+        "A",
+        "KPL",
+        "AF",
+        "HRS",
+        "0TTS",
+        "FN"
+      ],
+      "s": 4450930
+    },
+    {
+      "p": [
+        "MM",
+        "ANT",
+        "TT",
+        "HF",
+        "KN",
+        "ANT",
+        "TN",
+        "0L",
+        "P",
+        "A",
+        "KPL",
+        "AF",
+        "HRS"
+      ],
+      "s": 4452899
+    },
+    {
+      "p": [
+        "MM",
+        "ANT",
+        "TT",
+        "HF",
+        "KN",
+        "ANT",
+        "TN",
+        "0L",
+        "P",
+        "A",
+        "KPL",
+        "AF",
+        "HRS",
+        "0TTS",
+        "FN"
+      ],
+      "s": 4452899
+    },
+    {
+      "p": [
+        "MM",
+        "ANT",
+        "TT",
+        "HF",
+        "KN",
+        "ANT",
+        "TN",
+        "0L",
+        "P",
+        "A",
+        "KPL",
+        "AF",
+        "HRS",
+        "0TTS",
+        "FN",
+        "A",
+        "KN",
+        "AT",
+        "HR",
+        "FR",
+        "0M",
+        "AF",
+        "A",
+        "LK"
+      ],
+      "s": 4452899
+    },
+    {
+      "p": [
+        "0TTS",
+        "FN",
+        "A",
+        "KN",
+        "AT",
+        "HR",
+        "FR",
+        "0M",
+        "AF",
+        "A",
+        "LK"
+      ],
+      "s": 4455802
+    },
+    {
+      "p": [
+        "0TTS",
+        "FN",
+        "A",
+        "KN",
+        "AT",
+        "HR",
+        "FR",
+        "0M",
+        "AF",
+        "A",
+        "LK",
+        "0",
+        "ANNT",
+        "P",
+        "LNK"
+      ],
+      "s": 4455802
+    },
+    {
+      "p": [
+        "A",
+        "KN",
+        "AT",
+        "HR",
+        "FR",
+        "0M",
+        "AF",
+        "A",
+        "LK"
+      ],
+      "s": 4457438
+    },
+    {
+      "p": [
+        "A",
+        "KN",
+        "AT",
+        "HR",
+        "FR",
+        "0M",
+        "AF",
+        "A",
+        "LK",
+        "0",
+        "ANNT",
+        "P",
+        "LNK"
+      ],
+      "s": 4457438
+    },
+    {
+      "p": [
+        "NS",
+        "STNK",
+        "AT",
+        "PRKRRS"
+      ],
+      "s": 4465765
+    },
+    {
+      "p": [
+        "NS",
+        "STNK",
+        "AT",
+        "PRKRRS",
+        "AS",
+        "PRKR",
+        "A",
+        "FRNT"
+      ],
+      "s": 4465765
+    },
+    {
+      "p": [
+        "NS",
+        "STNK",
+        "AT",
+        "PRKRRS",
+        "AS",
+        "PRKR",
+        "A",
+        "FRNT",
+        "FRM",
+        "SKL"
+      ],
+      "s": 4465765
+    },
+    {
+      "p": [
+        "AS",
+        "PRKR",
+        "A",
+        "FRNT",
+        "FRM",
+        "SKL"
+      ],
+      "s": 4467680
+    },
+    {
+      "p": [
+        "AS",
+        "PRKR",
+        "A",
+        "FRNT",
+        "FRM",
+        "SKL",
+        "RT"
+      ],
+      "s": 4467680
+    },
+    {
+      "p": [
+        "HS",
+        "ANT",
+        "ARLN",
+        "XS",
+        "KT"
+      ],
+      "s": 4475171
+    },
+    {
+      "p": [
+        "0",
+        "MST",
+        "HF",
+        "NN",
+        "AF",
+        "HR",
+        "AKSSTNS"
+      ],
+      "s": 5359055
+    },
+    {
+      "p": [
+        "0",
+        "MST",
+        "HF",
+        "NN",
+        "AF",
+        "HR",
+        "AKSSTNS",
+        "ANT",
+        "FSTT",
+        "HR"
+      ],
+      "s": 5359055
+    },
+    {
+      "p": [
+        "0",
+        "MST",
+        "HF",
+        "NN",
+        "AF",
+        "HR",
+        "AKSSTNS",
+        "ANT",
+        "FSTT",
+        "HR",
+        "0N",
+        "X",
+        "TSPRT"
+      ],
+      "s": 5359055
+    },
+    {
+      "p": [
+        "ANT",
+        "FSTT",
+        "HR",
+        "0N",
+        "X",
+        "TSPRT"
+      ],
+      "s": 5361974
+    },
+    {
+      "p": [
+        "ANT",
+        "FSTT",
+        "HR",
+        "0N",
+        "X",
+        "TSPRT",
+        "A",
+        "KS",
+        "0",
+        "MST",
+        "HF",
+        "AM",
+        "ATT"
+      ],
+      "s": 5361974
+    },
+    {
+      "p": [
+        "0N",
+        "X",
+        "TSPRT",
+        "A",
+        "KS",
+        "0",
+        "MST",
+        "HF",
+        "AM",
+        "ATT"
+      ],
+      "s": 5364344
+    },
+    {
+      "p": [
+        "A",
+        "KS",
+        "0",
+        "MST",
+        "HF",
+        "AM",
+        "ATT"
+      ],
+      "s": 5365844
+    },
+    {
+      "p": [
+        "ATT",
+        "FR",
+        "AS",
+        "T",
+        "FKR",
+        "AT",
+        "AT",
+        "FR",
+        "ARSLFS"
+      ],
+      "s": 5372770
+    },
+    {
+      "p": [
+        "ATT",
+        "FR",
+        "AS",
+        "T",
+        "FKR",
+        "AT",
+        "AT",
+        "FR",
+        "ARSLFS",
+        "PFR",
+        "0",
+        "ANTRFNT"
+      ],
+      "s": 5372770
+    },
+    {
+      "p": [
+        "AAM",
+        "KSNK",
+        "AL",
+        "NFR",
+        "TRL",
+        "N"
+      ],
+      "s": 5403868
+    },
+    {
+      "p": [
+        "ANT",
+        "N",
+        "A",
+        "KN",
+        "PT",
+        "MS",
+        "T",
+        "RST"
+      ],
+      "s": 5422886
+    },
+    {
+      "p": [
+        "0NKS",
+        "T",
+        "0S",
+        "FSTRS"
+      ],
+      "s": 5430127
+    }
+  ],
   "release_year": 2019,
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LK",
+        "SPKT",
+        "ATTS",
+        "N0NK"
+      ],
       "description": "White Arlene is lifting the blinds up, something flies into the window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36184,
       "resolved_time_ms": 1368000,
       "type": "minor"
     },

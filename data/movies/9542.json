@@ -1,86 +1,94 @@
 {
   "phonetic_index": [],
-  "release_year": 2007,
+  "release_year": 1986,
   "runtime_minutes": 98,
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The rabbit gets runover by a car.",
+      "description": "Jim kicks The Hitcher out of the moving car.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 78000,
+      "resolved_time_ms": 755000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "The car skids as they brake to avoid a man standing in the road.",
+      "description": "A metal sign falls over with a loud bang.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 337000,
+      "resolved_time_ms": 1057000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "John suddenly turns toward Grace in the back seat.",
+      "description": "As Jim turns to leave, The Hitcher appears.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 942000,
+      "resolved_time_ms": 1095000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "John hits the windshield hard when Jim suddenly slams on the brakes.",
+      "description": "Jim’s car is suddenly rear-ended.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1014000,
+      "resolved_time_ms": 1199000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "A hand smashes through the car window, grabbing Jim.",
+      "description": "The sound of tires screeching followed by a truck smashing through the closed garage door.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1202000,
+      "resolved_time_ms": 1328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car rushes by on the highway.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2525000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Hitcher shoots one of the police officers.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2776000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Hitcher bangs his hand on the underside of the table and says ‘bang’.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3072000,
       "type": "major"
     },
     {
       "anchor_phonetic": null,
-      "description": "The police officer is shot in the head.",
-      "id": "scare_06",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2872000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "John suddenly grabs Grace while in bed.",
-      "id": "scare_07",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3519000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "Jim is pulled in half by the truck.",
-      "id": "scare_08",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3897000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "John slits the police officer’s throat.",
+      "description": "A gunshot.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4378000,
+      "resolved_time_ms": 3517000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "A bloodied hand grabs Grace as she looks in the back of the van.",
+      "description": "A gunshot.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4473000,
+      "resolved_time_ms": 5379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5647000,
       "type": "minor"
     }
   ],

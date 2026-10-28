@@ -1,5 +1,540 @@
 {
-  "phonetic_index": [],
+  "phonetic_index": [
+    {
+      "p": [
+        "AX",
+        "AT",
+        "TTNNT",
+        "S",
+        "A",
+        "0R"
+      ],
+      "s": 18226
+    },
+    {
+      "p": [
+        "AX",
+        "AT",
+        "TTNNT",
+        "S",
+        "A",
+        "0R",
+        "AL",
+        "MP",
+        "A",
+        "XLT",
+        "TK",
+        "AN",
+        "AR",
+        "SRNTNKS",
+        "MR"
+      ],
+      "s": 18226
+    },
+    {
+      "p": [
+        "TTNNT",
+        "S",
+        "A",
+        "0R",
+        "AL",
+        "MP",
+        "A",
+        "XLT",
+        "TK",
+        "AN",
+        "AR",
+        "SRNTNKS",
+        "MR"
+      ],
+      "s": 19310
+    },
+    {
+      "p": [
+        "AL",
+        "MP",
+        "A",
+        "XLT",
+        "TK",
+        "AN",
+        "AR",
+        "SRNTNKS",
+        "MR"
+      ],
+      "s": 20686
+    },
+    {
+      "p": [
+        "A",
+        "AR",
+        "S",
+        "AKL",
+        "A",
+        "LK",
+        "LK",
+        "A",
+        "KT",
+        "XKN",
+        "PKS",
+        "AF",
+        "XKN",
+        "PKS",
+        "AS",
+        "MT",
+        "AT",
+        "AF",
+        "HMRTS"
+      ],
+      "s": 24982
+    },
+    {
+      "p": [
+        "A",
+        "AR",
+        "S",
+        "AKL",
+        "A",
+        "LK",
+        "LK",
+        "A",
+        "KT",
+        "XKN",
+        "PKS",
+        "AF",
+        "XKN",
+        "PKS",
+        "AS",
+        "MT",
+        "AT",
+        "AF",
+        "HMRTS",
+        "AR",
+        "A",
+        "LSTNNK",
+        "T",
+        "M"
+      ],
+      "s": 24982
+    },
+    {
+      "p": [
+        "A",
+        "LK",
+        "LK",
+        "A",
+        "KT",
+        "XKN",
+        "PKS",
+        "AF",
+        "XKN",
+        "PKS",
+        "AS",
+        "MT",
+        "AT",
+        "AF",
+        "HMRTS"
+      ],
+      "s": 26567
+    },
+    {
+      "p": [
+        "A",
+        "LK",
+        "LK",
+        "A",
+        "KT",
+        "XKN",
+        "PKS",
+        "AF",
+        "XKN",
+        "PKS",
+        "AS",
+        "MT",
+        "AT",
+        "AF",
+        "HMRTS",
+        "AR",
+        "A",
+        "LSTNNK",
+        "T",
+        "M"
+      ],
+      "s": 26567
+    },
+    {
+      "p": [
+        "AT",
+        "AR",
+        "A",
+        "SK",
+        "AR",
+        "SM0NK"
+      ],
+      "s": 36119
+    },
+    {
+      "p": [
+        "A",
+        "KNNT",
+        "AT",
+        "0",
+        "TXRS",
+        "MN"
+      ],
+      "s": 45301
+    },
+    {
+      "p": [
+        "AT",
+        "AT",
+        "AT",
+        "HH",
+        "NT",
+        "LK",
+        "0",
+        "A0RS"
+      ],
+      "s": 53594
+    },
+    {
+      "p": [
+        "PLS",
+        "AKSPLN",
+        "T",
+        "M",
+        "ATS",
+        "KNK",
+        "AN"
+      ],
+      "s": 56657
+    },
+    {
+      "p": [
+        "PLS",
+        "AKSPLN",
+        "T",
+        "M",
+        "ATS",
+        "KNK",
+        "AN",
+        "0T",
+        "JRL",
+        "XL",
+        "HS",
+        "KTS"
+      ],
+      "s": 56657
+    },
+    {
+      "p": [
+        "0T",
+        "JRL",
+        "XL",
+        "HS",
+        "KTS"
+      ],
+      "s": 58391
+    },
+    {
+      "p": [
+        "HH",
+        "RT",
+        "0S",
+        "AS",
+        "A",
+        "FT",
+        "PRN",
+        "FRS"
+      ],
+      "s": 60810
+    },
+    {
+      "p": [
+        "HH",
+        "RT",
+        "0S",
+        "AS",
+        "A",
+        "FT",
+        "PRN",
+        "FRS",
+        "0",
+        "XKN",
+        "NKTS"
+      ],
+      "s": 60810
+    },
+    {
+      "p": [
+        "HH",
+        "RT",
+        "0S",
+        "AS",
+        "A",
+        "FT",
+        "PRN",
+        "FRS",
+        "0",
+        "XKN",
+        "NKTS",
+        "0",
+        "FRS",
+        "AS",
+        "ANL",
+        "TNJRS",
+        "AF",
+        "A",
+        "HFNNT",
+        "KN",
+        "0R",
+        "PPRT"
+      ],
+      "s": 60810
+    },
+    {
+      "p": [
+        "0",
+        "XKN",
+        "NKTS",
+        "0",
+        "FRS",
+        "AS",
+        "ANL",
+        "TNJRS",
+        "AF",
+        "A",
+        "HFNNT",
+        "KN",
+        "0R",
+        "PPRT"
+      ],
+      "s": 63020
+    },
+    {
+      "p": [
+        "0",
+        "XKN",
+        "NKTS",
+        "0",
+        "FRS",
+        "AS",
+        "ANL",
+        "TNJRS",
+        "AF",
+        "A",
+        "HFNNT",
+        "KN",
+        "0R",
+        "PPRT",
+        "AR",
+        "A",
+        "KTNK",
+        "M"
+      ],
+      "s": 63020
+    },
+    {
+      "p": [
+        "0",
+        "FRS",
+        "AS",
+        "ANL",
+        "TNJRS",
+        "AF",
+        "A",
+        "HFNNT",
+        "KN",
+        "0R",
+        "PPRT"
+      ],
+      "s": 64313
+    },
+    {
+      "p": [
+        "0",
+        "FRS",
+        "AS",
+        "ANL",
+        "TNJRS",
+        "AF",
+        "A",
+        "HFNNT",
+        "KN",
+        "0R",
+        "PPRT",
+        "AR",
+        "A",
+        "KTNK",
+        "M"
+      ],
+      "s": 64313
+    },
+    {
+      "p": [
+        "AT",
+        "0R",
+        "AAKLK",
+        "0",
+        "PRNTS",
+        "AL",
+        "KM",
+        "T",
+        "PK",
+        "AP",
+        "0R",
+        "KTS"
+      ],
+      "s": 69902
+    },
+    {
+      "p": [
+        "AT",
+        "0R",
+        "AAKLK",
+        "0",
+        "PRNTS",
+        "AL",
+        "KM",
+        "T",
+        "PK",
+        "AP",
+        "0R",
+        "KTS",
+        "A",
+        "KN",
+        "SNL",
+        "0M",
+        "FR",
+        "HLP"
+      ],
+      "s": 69902
+    },
+    {
+      "p": [
+        "A",
+        "KN",
+        "SNL",
+        "0M",
+        "FR",
+        "HLP"
+      ],
+      "s": 72738
+    },
+    {
+      "p": [
+        "0",
+        "K",
+        "RT",
+        "FR",
+        "0",
+        "FS"
+      ],
+      "s": 83370
+    },
+    {
+      "p": [
+        "0R",
+        "AFRR",
+        "0TTS",
+        "ANTN",
+        "0TTS",
+        "AH"
+      ],
+      "s": 89502
+    },
+    {
+      "p": [
+        "0R",
+        "AFRR",
+        "0TTS",
+        "ANTN",
+        "0TTS",
+        "AH",
+        "0TTS",
+        "AN",
+        "APTMK",
+        "LTTS",
+        "RL"
+      ],
+      "s": 89502
+    },
+    {
+      "p": [
+        "0TTS",
+        "AN",
+        "APTMK",
+        "LTTS",
+        "RL"
+      ],
+      "s": 92091
+    },
+    {
+      "p": [
+        "RMMPR",
+        "0T",
+        "STNK",
+        "AP",
+        "MNTJ",
+        "AN",
+        "AFR",
+        "AKXN",
+        "FLM"
+      ],
+      "s": 97537
+    },
+    {
+      "p": [
+        "RMMPR",
+        "0T",
+        "STNK",
+        "AP",
+        "MNTJ",
+        "AN",
+        "AFR",
+        "AKXN",
+        "FLM",
+        "AL",
+        "0S",
+        "AS",
+        "0T",
+        "SN"
+      ],
+      "s": 97537
+    },
+    {
+      "p": [
+        "AL",
+        "0S",
+        "AS",
+        "0T",
+        "SN"
+      ],
+      "s": 101267
+    },
+    {
+      "p": [
+        "AAM",
+        "K",
+        "A",
+        "N",
+        "AT",
+        "RK",
+        "ANT",
+        "RL"
+      ],
+      "s": 106272
+    },
+    {
+      "p": [
+        "LTTS",
+        "PL",
+        "SM",
+        "TJ",
+        "PL"
+      ],
+      "s": 117950
+    }
+  ],
   "release_year": 2014,
   "runtime_minutes": 88,
   "scares": [

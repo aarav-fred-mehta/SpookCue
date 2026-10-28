@@ -10338,8 +10338,8 @@
       ],
       "description": "A deadite jumps out of the water behind Ash.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 46321,
-      "resolved_time_ms": 769000,
+      "offset_from_anchor_ms": 51321,
+      "resolved_time_ms": 774000,
       "type": "minor"
     },
     {
@@ -10347,7 +10347,7 @@
       "description": "A deadite comes out of the wall.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 876000,
+      "resolved_time_ms": 880000,
       "type": "minor"
     },
     {
@@ -10363,8 +10363,8 @@
       ],
       "description": "Ash shoots Arthur’s sword out of his hand.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 4977,
-      "resolved_time_ms": 1072000,
+      "offset_from_anchor_ms": 6977,
+      "resolved_time_ms": 1074000,
       "type": "minor"
     },
     {
@@ -10403,45 +10403,56 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TT",
-        "M",
-        "PRT",
-        "N",
-        "A",
-        "SNT",
-        "M",
-        "PK"
-      ],
+      "anchor_phonetic": null,
       "description": "The Necronomicon bites Ash as he reaches out to pick it up.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 512,
-      "resolved_time_ms": 2701000,
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2308000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "ATFNS",
-        "A",
-        "PSTS",
-        "ATFNS"
+        "0L",
+        "SL",
+        "AR",
+        "SLS"
       ],
       "description": "Ash fires his shotgun.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 15821,
-      "resolved_time_ms": 3449000,
+      "offset_from_anchor_ms": 3814,
+      "resolved_time_ms": 2985000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "KT",
+        "AR",
+        "JSRT",
+        "AT"
+      ],
       "description": "Possessed Sheila jumps on Ash.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4678000,
+      "offset_from_anchor_ms": 43841,
+      "resolved_time_ms": 3916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "ATTS",
+        "KNT",
+        "AF",
+        "KT"
+      ],
+      "description": "The girl in the store turns around to reveal she is a deadite.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": 14347,
+      "resolved_time_ms": 4423000,
       "type": "minor"
     }
   ],
-  "title": "Army of Darkness – Director’s Cut",
+  "title": "Army of Darkness – Theatrical Cut",
   "tmdb_id": 766
 }

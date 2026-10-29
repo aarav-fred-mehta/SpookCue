@@ -1,5 +1,103 @@
 {
-  "phonetic_index": [],
+  "phonetic_index": [
+    {
+      "p": [
+        "TT",
+        "0T",
+        "KL",
+        "AT",
+        "N",
+        "0TTS",
+        "H",
+        "A",
+        "KL",
+        "AT"
+      ],
+      "s": 63480
+    },
+    {
+      "p": [
+        "N",
+        "0TTS",
+        "H",
+        "A",
+        "KL",
+        "AT"
+      ],
+      "s": 64230
+    },
+    {
+      "p": [
+        "AF",
+        "0",
+        "T",
+        "TKTR",
+        "STRNJS",
+        "AAF",
+        "MT",
+        "S",
+        "FR"
+      ],
+      "s": 897438
+    },
+    {
+      "p": [
+        "TS",
+        "H",
+        "NT",
+        "N",
+        "SPNX"
+      ],
+      "s": 903611
+    },
+    {
+      "p": [
+        "AAM",
+        "NT",
+        "SR",
+        "H",
+        "AFN",
+        "ANJS",
+        "SPKNK",
+        "ANKLX"
+      ],
+      "s": 905405
+    },
+    {
+      "p": [
+        "ATTS",
+        "AN",
+        "HNR",
+        "T",
+        "KRT",
+        "T0",
+        "ALNKST",
+        "A",
+        "ANS",
+        "AKN"
+      ],
+      "s": 1567733
+    },
+    {
+      "p": [
+        "ATTS",
+        "AN",
+        "HNR",
+        "T",
+        "KRT",
+        "T0",
+        "ALNKST",
+        "A",
+        "ANS",
+        "AKN",
+        "0",
+        "HNR",
+        "AS",
+        "ARS"
+      ],
+      "s": 1567733
+    }
+  ],
   "release_year": 2022,
   "runtime_minutes": 126,
   "scares": [

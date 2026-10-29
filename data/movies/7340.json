@@ -22779,15 +22779,71 @@
       "s": 5794356
     }
   ],
-  "release_year": 1976,
+  "release_year": 2013,
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
-      "description": "Sue reaches down to put flowers on Carrie’s grave however a bloodied hand reaches out of the ground and grabs her. [Video] .",
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "A",
+        "TL",
+        "M",
+        "MM"
+      ],
+      "description": "A boy bangs on the car window, startling Carrie.",
       "id": "scare_01",
+      "offset_from_anchor_ms": 5971,
+      "resolved_time_ms": 864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl smashing into the window in front of Sue may startle some viewers.",
+      "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5772000,
+      "resolved_time_ms": 4553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "0",
+        "KNKTM",
+        "KM",
+        "0",
+        "AL",
+        "P",
+        "TN"
+      ],
+      "description": "Carrie’s mother, who appears to be dead, suddenly gasps.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": 58321,
+      "resolved_time_ms": 5385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "A0",
+        "TM",
+        "ANT",
+        "AL",
+        "0",
+        "A0RS",
+        "KN",
+        "ATTS",
+        "PST",
+        "A",
+        "JST",
+        "K",
+        "A",
+        "FR",
+        "A",
+        "AL"
+      ],
+      "description": "(alternative ending) As Sue lies on the surgical table after giving birth, a bloodied hand suddenly appears. [Video] .",
+      "id": "scare_04",
+      "offset_from_anchor_ms": 47085,
+      "resolved_time_ms": 5733000,
       "type": "major"
     }
   ],

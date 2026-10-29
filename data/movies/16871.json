@@ -1,13 +1,292 @@
 {
-  "phonetic_index": [],
+  "phonetic_index": [
+    {
+      "p": [
+        "LTTS",
+        "K",
+        "JF",
+        "HM",
+        "T",
+        "M",
+        "P",
+        "KRFL"
+      ],
+      "s": 43947
+    },
+    {
+      "p": [
+        "MRS",
+        "XN",
+        "SN",
+        "TN",
+        "AS"
+      ],
+      "s": 51823
+    },
+    {
+      "p": [
+        "MRS",
+        "XN",
+        "SN",
+        "TN",
+        "AS",
+        "PLS",
+        "HLP",
+        "M",
+        "SN"
+      ],
+      "s": 51823
+    },
+    {
+      "p": [
+        "FR",
+        "0",
+        "LST",
+        "0R",
+        "NTS",
+        "HH",
+        "PN",
+        "HRNK",
+        "FSS"
+      ],
+      "s": 57552
+    },
+    {
+      "p": [
+        "FR",
+        "0",
+        "LST",
+        "0R",
+        "NTS",
+        "HH",
+        "PN",
+        "HRNK",
+        "FSS",
+        "H",
+        "0NKS",
+        "SM0NKKS",
+        "KMNK",
+        "FR",
+        "HM"
+      ],
+      "s": 57552
+    },
+    {
+      "p": [
+        "FR",
+        "0",
+        "LST",
+        "0R",
+        "NTS",
+        "HH",
+        "PN",
+        "HRNK",
+        "FSS",
+        "H",
+        "0NKS",
+        "SM0NKKS",
+        "KMNK",
+        "FR",
+        "HM",
+        "TL",
+        "HR",
+        "A",
+        "HR",
+        "FSS"
+      ],
+      "s": 57552
+    },
+    {
+      "p": [
+        "H",
+        "0NKS",
+        "SM0NKKS",
+        "KMNK",
+        "FR",
+        "HM"
+      ],
+      "s": 60663
+    },
+    {
+      "p": [
+        "H",
+        "0NKS",
+        "SM0NKKS",
+        "KMNK",
+        "FR",
+        "HM",
+        "TL",
+        "HR",
+        "A",
+        "HR",
+        "FSS"
+      ],
+      "s": 60663
+    },
+    {
+      "p": [
+        "AT",
+        "KPS",
+        "KTNK",
+        "LTR"
+      ],
+      "s": 66561
+    },
+    {
+      "p": [
+        "AT",
+        "KPS",
+        "KTNK",
+        "LTR",
+        "ATTT",
+        "H",
+        "T",
+        "N0NK"
+      ],
+      "s": 66561
+    },
+    {
+      "p": [
+        "AT",
+        "KPS",
+        "KTNK",
+        "LTR",
+        "ATTT",
+        "H",
+        "T",
+        "N0NK",
+        "TL",
+        "M",
+        "AT",
+        "H",
+        "TT"
+      ],
+      "s": 66561
+    },
+    {
+      "p": [
+        "ATTT",
+        "H",
+        "T",
+        "N0NK",
+        "TL",
+        "M",
+        "AT",
+        "H",
+        "TT"
+      ],
+      "s": 68723
+    },
+    {
+      "p": [
+        "H",
+        "STL",
+        "A",
+        "SLFR",
+        "NKLS",
+        "FRM",
+        "A",
+        "KPS",
+        "AKN"
+      ],
+      "s": 74410
+    },
+    {
+      "p": [
+        "A",
+        "TRT",
+        "T",
+        "RTRN",
+        "AT",
+        "0",
+        "ALTNNT",
+        "TK",
+        "AT",
+        "PK"
+      ],
+      "s": 78110
+    },
+    {
+      "p": [
+        "A",
+        "TRT",
+        "T",
+        "RTRN",
+        "AT",
+        "0",
+        "ALTNNT",
+        "TK",
+        "AT",
+        "PK",
+        "AR",
+        "AS",
+        "AT",
+        "HR"
+      ],
+      "s": 78110
+    },
+    {
+      "p": [
+        "N",
+        "M",
+        "KT",
+        "N",
+        "HH",
+        "ALF",
+        "HR",
+        "A",
+        "K",
+        "HR",
+        "A",
+        "K"
+      ],
+      "s": 146816
+    },
+    {
+      "p": [
+        "HH",
+        "ALF",
+        "HR",
+        "A",
+        "K",
+        "HR",
+        "A",
+        "K"
+      ],
+      "s": 149209
+    },
+    {
+      "p": [
+        "AX",
+        "AT",
+        "JN",
+        "JN",
+        "JN",
+        "AX",
+        "AT"
+      ],
+      "s": 156392
+    }
+  ],
   "release_year": 2009,
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TRT",
+        "T",
+        "RTRN",
+        "AT",
+        "0",
+        "ALTNNT",
+        "TK",
+        "AT",
+        "PK"
+      ],
       "description": "The doors burst open.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47890,
       "resolved_time_ms": 126000,
       "type": "minor"
     },

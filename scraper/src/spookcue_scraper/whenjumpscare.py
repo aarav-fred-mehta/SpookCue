@@ -441,36 +441,76 @@ class WhenJumpScareScraper:
                 if sitemap_text and "<urlset" in sitemap_text:
                     import xml.etree.ElementTree as ET
                     root = ET.fromstring(sitemap_text)
-                    for loc in root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
-                        if not loc.text:
-                            continue
-                        url = loc.text.strip()
-                        if "/movie/" in url:
-                            slug = url.rstrip("/").split("/")[-1]
-                            if slug not in seen_slugs:
-                                seen_slugs.add(slug)
-                                m_tmdb = re.search(r"/movie/(\d+)-", url)
-                                tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
-                                year = None
-                                year_match = YEAR_PATTERN.search(slug)
-                                if year_match:
-                                    y_str = year_match.group(1) or year_match.group(2)
-                                    if y_str:
-                                        year = int(y_str)
-                                clean_slug = re.sub(r"^\d+-", "", slug)
-                                if year:
-                                    clean_slug = re.sub(rf"-{year}$", "", clean_slug)
-                                title = clean_slug.replace("-", " ").title()
-                                all_movies.append({
-                                    "title": title,
-                                    "url": url,
-                                    "slug": slug,
-                                    "year": year,
-                                    "tmdb_id": tmdb_id,
-                                    "director": "",
-                                    "jump_count": 0,
-                                    "rating": 0.0,
-                                })
+                    url_elements = list(root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}url"))
+                    if not url_elements:
+                        for loc in root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
+                            if not loc.text:
+                                continue
+                            url = loc.text.strip()
+                            if "/movie/" in url:
+                                slug = url.rstrip("/").split("/")[-1]
+                                if slug not in seen_slugs:
+                                    seen_slugs.add(slug)
+                                    m_tmdb = re.search(r"/movie/(\d+)-", url)
+                                    tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
+                                    year = None
+                                    year_match = YEAR_PATTERN.search(slug)
+                                    if year_match:
+                                        y_str = year_match.group(1) or year_match.group(2)
+                                        if y_str:
+                                            year = int(y_str)
+                                    clean_slug = re.sub(r"^\d+-", "", slug)
+                                    if year:
+                                        clean_slug = re.sub(rf"-{year}$", "", clean_slug)
+                                    title = clean_slug.replace("-", " ").title()
+                                    all_movies.append({
+                                        "title": title,
+                                        "url": url,
+                                        "slug": slug,
+                                        "year": year,
+                                        "tmdb_id": tmdb_id,
+                                        "lastmod": None,
+                                        "source": "whenjumpscare",
+                                        "director": "",
+                                        "jump_count": 0,
+                                        "rating": 0.0,
+                                    })
+                    else:
+                        for url_elem in url_elements:
+                            loc_elem = url_elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+                            if loc_elem is None or not loc_elem.text:
+                                continue
+                            url = loc_elem.text.strip()
+                            if "/movie/" in url:
+                                slug = url.rstrip("/").split("/")[-1]
+                                if slug not in seen_slugs:
+                                    seen_slugs.add(slug)
+                                    lastmod_elem = url_elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod")
+                                    lastmod = lastmod_elem.text.strip() if (lastmod_elem is not None and lastmod_elem.text) else None
+                                    m_tmdb = re.search(r"/movie/(\d+)-", url)
+                                    tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
+                                    year = None
+                                    year_match = YEAR_PATTERN.search(slug)
+                                    if year_match:
+                                        y_str = year_match.group(1) or year_match.group(2)
+                                        if y_str:
+                                            year = int(y_str)
+                                    clean_slug = re.sub(r"^\d+-", "", slug)
+                                    if year:
+                                        clean_slug = re.sub(rf"-{year}$", "", clean_slug)
+                                    title = clean_slug.replace("-", " ").title()
+                                    all_movies.append({
+                                        "title": title,
+                                        "url": url,
+                                        "slug": slug,
+                                        "year": year,
+                                        "tmdb_id": tmdb_id,
+                                        "lastmod": lastmod,
+                                        "source": "whenjumpscare",
+                                        "director": "",
+                                        "jump_count": 0,
+                                        "rating": 0.0,
+                                    })
                     if all_movies:
                         logger.info("Successfully fetched %d movies from sitemap.xml", len(all_movies))
                         return all_movies

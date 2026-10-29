@@ -169,6 +169,8 @@ async def process_movie(
         "runtime_minutes": confirmed_runtime,
         "scares": resolved_scares,
         "phonetic_index": phonetic_index,
+        "source": item.get("source", "whenjumpscare" if "whenjumpscare.com" in item.get("url", "") else "wheresthejump"),
+        "source_lastmod": item.get("lastmod"),
     }
 
     catalog_entry = {
@@ -269,112 +271,180 @@ async def run_pipeline(
         for item in movie_items:
             title = item.get("title", "")
             year = item.get("year")
+            slug = item.get("slug", "")
+            item_url = item.get("url", "")
+            item_lastmod = item.get("lastmod")
+            item_source = item.get("source", "whenjumpscare" if "whenjumpscare.com" in item_url else "wheresthejump")
             lookup_key = f"{title.lower()}::{year}"
-            existing_tmdb_id = (
+
+            # 1. Authoritative TMDB ID from WhenJumpScare slug/sitemap vs legacy TMDB ID
+            sitemap_tmdb_id = (
                 item.get("tmdb_id")
-                or known_tmdb_ids.get(lookup_key)
-                or extract_tmdb_id_from_slug(item.get("slug", ""))
-                or extract_tmdb_id_from_slug(item.get("url", ""))
+                or extract_tmdb_id_from_slug(slug)
+                or extract_tmdb_id_from_slug(item_url)
             )
+            legacy_tmdb_id = known_tmdb_ids.get(lookup_key)
 
-            movie_file: Optional[Path] = None
-            if existing_tmdb_id:
-                movie_file = movies_dir / f"{existing_tmdb_id}.json"
+            # Reconcile ID if an old file exists under legacy ID but WhenJumpScare gave canonical ID:
+            if sitemap_tmdb_id and legacy_tmdb_id and sitemap_tmdb_id != legacy_tmdb_id:
+                old_file = movies_dir / f"{legacy_tmdb_id}.json"
+                new_file = movies_dir / f"{sitemap_tmdb_id}.json"
+                if old_file.exists() and not new_file.exists():
+                    logger.info("Reconciling legacy TMDB ID %d -> %d for '%s'", legacy_tmdb_id, sitemap_tmdb_id, title)
+                    try:
+                        old_doc = load_json_bytes(old_file.read_bytes())
+                        old_doc["tmdb_id"] = sitemap_tmdb_id
+                        new_file.write_bytes(dump_json_bytes(old_doc))
+                        old_file.unlink(missing_ok=True)
+                        if legacy_tmdb_id in catalog_by_id:
+                            old_cat = catalog_by_id.pop(legacy_tmdb_id)
+                            old_cat["tmdb_id"] = sitemap_tmdb_id
+                            catalog_by_id[sitemap_tmdb_id] = old_cat
+                        known_tmdb_ids[lookup_key] = sitemap_tmdb_id
+                        updated_count += 1
+                    except Exception as m_exc:
+                        logger.warning("Could not migrate legacy movie file %s: %s", old_file, m_exc)
 
-            # Check if movie already exists on disk
+            existing_tmdb_id = sitemap_tmdb_id or legacy_tmdb_id
+            movie_file: Optional[Path] = movies_dir / f"{existing_tmdb_id}.json" if existing_tmdb_id else None
+
+            # 2. Check if movie already exists on disk
             if movie_file and movie_file.exists() and not force:
                 cat_entry = catalog_by_id.get(existing_tmdb_id, {})
-                has_subs = cat_entry.get("has_subtitles", False)
-
-                # If already confirmed to have subtitles, skip completely
-                if has_subs:
-                    logger.debug("Movie '%s' (%s) already exists with subtitles; skipping", title, year)
-                    continue
-
-                # Load existing movie JSON
                 try:
                     movie_doc = load_json_bytes(movie_file.read_bytes())
                 except Exception as exc:
                     logger.warning("Could not read %s: %s; re-scraping movie", movie_file, exc)
                     movie_doc = None
 
-                # If file already has phonetic index entries, mark has_subtitles=True and skip
-                if movie_doc and len(movie_doc.get("phonetic_index", [])) > 0:
-                    logger.debug("Movie '%s' (%s) already has phonetic index; skipping", title, year)
-                    if not cat_entry.get("has_subtitles"):
-                        cat_entry["has_subtitles"] = True
-                        catalog_by_id[existing_tmdb_id] = cat_entry
-                    continue
+                if movie_doc is not None:
+                    existing_source = movie_doc.get("source")
+                    existing_lastmod = movie_doc.get("source_lastmod")
+                    existing_scares = movie_doc.get("scares", [])
+                    existing_phonetic = movie_doc.get("phonetic_index", [])
+                    has_subs = len(existing_phonetic) > 0
 
-                # If subtitle providers are exhausted, skip retrying subtitles for this run
-                if subtitles_fetcher.is_exhausted:
-                    logger.debug("Subtitle providers exhausted; skipping retry for '%s' (%s)", title, year)
-                    continue
-
-                # Existing movie is missing subtitles! Only fetch subtitles without re-scraping jump scares or TMDB
-                logger.info(
-                    "Movie '%s' (%s, TMDB %d) exists but lacks subtitles; attempting subtitle fetch...",
-                    title,
-                    year,
-                    existing_tmdb_id,
-                )
-                tmdb_details = await tmdb_client.get_movie_details(existing_tmdb_id)
-                imdb_id = tmdb_details.get("imdb_id")
-
-                srt_content = await subtitles_fetcher.fetch_subtitles(
-                    existing_tmdb_id,
-                    title=title,
-                    year=year,
-                    imdb_id=imdb_id,
-                )
-
-                if srt_content and len(srt_content.strip()) > 0 and movie_doc is not None:
-                    sanitized_dialogue = sanitize_subtitles(srt_content)
-                    phonetic_index = build_phonetic_index(sanitized_dialogue)
-                    raw_scares = movie_doc.get("scares", [])
-                    resolved_scares = resolve_scares_to_anchors(raw_scares, phonetic_index)
-
-                    movie_doc["phonetic_index"] = phonetic_index
-                    movie_doc["scares"] = resolved_scares
-                    movie_file.write_bytes(dump_json_bytes(movie_doc))
-                    verify_compression(movie_doc)
-
-                    if existing_tmdb_id in catalog_by_id:
-                        catalog_by_id[existing_tmdb_id]["has_subtitles"] = True
-                    else:
-                        catalog_by_id[existing_tmdb_id] = {
-                            "tmdb_id": existing_tmdb_id,
-                            "title": title,
-                            "release_year": year,
-                            "runtime_minutes": movie_doc.get("runtime_minutes", 0),
-                            "scare_count": len(resolved_scares),
-                            "poster_path": "",
-                            "has_subtitles": True,
-                        }
-
-                    updated_count += 1
-                    logger.info(
-                        "Successfully attached %d subtitle anchors to '%s' (TMDB %d)",
-                        len(phonetic_index),
-                        title,
-                        existing_tmdb_id,
+                    # Does this movie need jumpscare verification/reconciliation?
+                    # 1. Scraped originally from WTJ (existing_source != "whenjumpscare" while WhenJumpScare is now live)
+                    # 2. Or WhenJumpScare lastmod is newer/different from existing recorded lastmod
+                    # 3. Or existing file had 0 scares while sitemap/index indicates scares exist
+                    needs_scare_verification = (
+                        (item_source == "whenjumpscare" and existing_source != "whenjumpscare")
+                        or (item_lastmod is not None and item_lastmod != existing_lastmod)
+                        or (len(existing_scares) == 0 and item.get("jump_count", 0) > 0)
                     )
-                else:
-                    if subtitles_fetcher.is_exhausted:
-                        logger.info(
-                            "Subtitle download quota reached (50/day); '%s' (TMDB %d) will be retried on next run",
-                            title,
-                            existing_tmdb_id,
-                        )
-                    else:
-                        logger.info(
-                            "Subtitles still unavailable for '%s' (TMDB %d); retaining clock-only mode",
-                            title,
-                            existing_tmdb_id,
-                        )
 
-                # Skip to next movie - do NOT call process_movie for an existing movie!
-                continue
+                    if needs_scare_verification:
+                        logger.info(
+                            "Verifying & reconciling jump scares from %s for '%s' (%s, TMDB %d)...",
+                            item_source,
+                            title,
+                            year,
+                            existing_tmdb_id,
+                        )
+                        fresh_page = await scraper.parse_movie_page(item_url or slug)
+                        fresh_scares = fresh_page.get("scares", [])
+                        fresh_runtime = fresh_page.get("runtime_minutes") or movie_doc.get("runtime_minutes", 0)
+
+                        if fresh_scares:
+                            # Retain correct data: Keep existing subtitles & phonetic index!
+                            # Re-anchor fresh scares to the existing phonetic index:
+                            resolved_scares = resolve_scares_to_anchors(fresh_scares, existing_phonetic)
+
+                            # Compare to see if scare timings, counts, or types changed:
+                            scares_changed = (
+                                len(resolved_scares) != len(existing_scares)
+                                or any(
+                                    s1.get("resolved_time_ms") != s2.get("resolved_time_ms")
+                                    or s1.get("type") != s2.get("type")
+                                    for s1, s2 in zip(resolved_scares, existing_scares)
+                                )
+                            )
+
+                            movie_doc["scares"] = resolved_scares
+                            movie_doc["runtime_minutes"] = fresh_runtime
+                            movie_doc["source"] = item_source
+                            movie_doc["source_lastmod"] = item_lastmod
+
+                            cat_entry["scare_count"] = len(resolved_scares)
+                            if fresh_runtime:
+                                cat_entry["runtime_minutes"] = fresh_runtime
+
+                            if scares_changed:
+                                logger.info(
+                                    "Jump scare update for '%s' (TMDB %d): %d -> %d scares (timings reconciled)",
+                                    title,
+                                    existing_tmdb_id,
+                                    len(existing_scares),
+                                    len(resolved_scares),
+                                )
+                                updated_count += 1
+                            else:
+                                logger.debug(
+                                    "Jump scares verified for '%s' (TMDB %d); verified intact",
+                                    title,
+                                    existing_tmdb_id,
+                                )
+
+                            movie_file.write_bytes(dump_json_bytes(movie_doc))
+                            catalog_by_id[existing_tmdb_id] = cat_entry
+                        else:
+                            # Fresh page had no scares; mark verified to avoid repeating requests
+                            movie_doc["source"] = item_source
+                            movie_doc["source_lastmod"] = item_lastmod
+                            movie_file.write_bytes(dump_json_bytes(movie_doc))
+
+                    # 3. Subtitle Fetch (if missing and quota not exhausted)
+                    if not has_subs and not subtitles_fetcher.is_exhausted:
+                        logger.info(
+                            "Movie '%s' (%s, TMDB %d) lacks subtitles; attempting subtitle fetch...",
+                            title,
+                            year,
+                            existing_tmdb_id,
+                        )
+                        tmdb_details = await tmdb_client.get_movie_details(existing_tmdb_id)
+                        imdb_id = tmdb_details.get("imdb_id")
+                        srt_content = await subtitles_fetcher.fetch_subtitles(
+                            existing_tmdb_id,
+                            title=title,
+                            year=year,
+                            imdb_id=imdb_id,
+                        )
+                        if srt_content and len(srt_content.strip()) > 0:
+                            sanitized_dialogue = sanitize_subtitles(srt_content)
+                            phonetic_index = build_phonetic_index(sanitized_dialogue)
+                            resolved_scares = resolve_scares_to_anchors(movie_doc.get("scares", []), phonetic_index)
+
+                            movie_doc["phonetic_index"] = phonetic_index
+                            movie_doc["scares"] = resolved_scares
+                            movie_file.write_bytes(dump_json_bytes(movie_doc))
+                            verify_compression(movie_doc)
+
+                            cat_entry["has_subtitles"] = True
+                            catalog_by_id[existing_tmdb_id] = cat_entry
+                            updated_count += 1
+                            logger.info(
+                                "Successfully attached %d subtitle anchors to '%s' (TMDB %d)",
+                                len(phonetic_index),
+                                title,
+                                existing_tmdb_id,
+                            )
+                        else:
+                            if subtitles_fetcher.is_exhausted:
+                                logger.info(
+                                    "Subtitle download quota reached (50/day); '%s' (TMDB %d) will be retried on next run",
+                                    title,
+                                    existing_tmdb_id,
+                                )
+                            else:
+                                logger.info(
+                                    "Subtitles still unavailable for '%s' (TMDB %d); retaining clock-only mode",
+                                    title,
+                                    existing_tmdb_id,
+                                )
+
+                    # Move to next movie
+                    continue
 
             logger.info("Processing movie '%s' (%s)...", title, year)
             result = await process_movie(

@@ -7,6 +7,7 @@ and text descriptions from whenjumpscare.com, with robots.txt compliance and pag
 from __future__ import annotations
 
 import asyncio
+from pathlib import Path
 import logging
 import re
 from typing import Any, Dict, List, Optional
@@ -74,6 +75,32 @@ class WhenJumpScareScraper:
     async def close(self) -> None:
         if self._owns_client and self._client and not self._client.is_closed:
             await self._client.aclose()
+
+    async def _fetch_html(self, target_url: str) -> Optional[str]:
+        """Fetch HTML content with curl_cffi Chrome impersonation (bypassing Cloudflare WAF) or httpx fallback."""
+        try:
+            from curl_cffi.requests import AsyncSession
+            async with AsyncSession(impersonate="chrome124") as s:
+                c_resp = await s.get(target_url, timeout=15)
+                if c_resp.status_code == 200:
+                    return c_resp.text
+                elif c_resp.status_code == 403:
+                    logger.info("Access to %s returned 403 (Cloudflare WAF on datacenter IP)", target_url)
+        except ImportError:
+            pass
+        except Exception as c_exc:
+            logger.debug("curl_cffi fetch failed for %s: %s", target_url, c_exc)
+
+        try:
+            client = await self._get_client()
+            h_resp = await client.get(target_url, timeout=15.0)
+            if h_resp.status_code == 200:
+                return h_resp.text
+            elif h_resp.status_code == 403:
+                logger.info("Access to %s protected by Cloudflare WAF (403)", target_url)
+        except Exception as h_exc:
+            logger.debug("httpx fetch failed for %s: %s", target_url, h_exc)
+        return None
 
     async def init_robots_parser(self) -> None:
         """Fetch and parse robots.txt to verify crawling permissions and crawl delay."""
@@ -399,39 +426,21 @@ class WhenJumpScareScraper:
         seen_slugs = set()
         got_403 = False
 
-        async def fetch_html_bypass(target_url: str) -> Optional[str]:
-            # Try TLS impersonation via curl_cffi if installed
-            try:
-                from curl_cffi.requests import AsyncSession
-                async with AsyncSession(impersonate="chrome124") as s:
-                    c_resp = await s.get(target_url, timeout=15)
-                    if c_resp.status_code == 200:
-                        return c_resp.text
-            except ImportError:
-                pass
-            except Exception as c_exc:
-                logger.debug("curl_cffi bypass attempt failed for %s: %s", target_url, c_exc)
-
-            try:
-                h_resp = await client.get(target_url)
-                if h_resp.status_code == 200:
-                    return h_resp.text
-                elif h_resp.status_code == 403:
-                    logger.info("Access to %s protected by Cloudflare WAF (403)", target_url)
-            except Exception as h_exc:
-                logger.debug("Fetch error on %s: %s", target_url, h_exc)
-            return None
-
-        # Strategy 1: Sitemap from whenjumpscare.com (Contains all 1,164 films)
+        # Strategy 1: Sitemap from whenjumpscare.com (Contains all 1,167 films)
         if "whenjumpscare.com" in self.base_url:
             sitemap_url = f"{self.base_url}/sitemap.xml"
             try:
                 logger.info("Attempting to load movie index from sitemap: %s", sitemap_url)
-                sitemap_text = await fetch_html_bypass(sitemap_url)
+                sitemap_text = await self._fetch_html(sitemap_url)
+                if not sitemap_text or "<urlset" not in sitemap_text:
+                    bundled_path = Path(__file__).parent / "data" / "whenjumpscare_sitemap.xml"
+                    if bundled_path.exists():
+                        logger.info("Live sitemap blocked or unavailable; loading bundled sitemap fallback (%s)", bundled_path)
+                        sitemap_text = bundled_path.read_text(encoding="utf-8")
+
                 if sitemap_text and "<urlset" in sitemap_text:
-                    resp_text = sitemap_text
                     import xml.etree.ElementTree as ET
-                    root = ET.fromstring(resp_text)
+                    root = ET.fromstring(sitemap_text)
                     for loc in root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
                         if not loc.text:
                             continue
@@ -440,6 +449,8 @@ class WhenJumpScareScraper:
                             slug = url.rstrip("/").split("/")[-1]
                             if slug not in seen_slugs:
                                 seen_slugs.add(slug)
+                                m_tmdb = re.search(r"/movie/(\d+)-", url)
+                                tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
                                 year = None
                                 year_match = YEAR_PATTERN.search(slug)
                                 if year_match:
@@ -455,6 +466,7 @@ class WhenJumpScareScraper:
                                     "url": url,
                                     "slug": slug,
                                     "year": year,
+                                    "tmdb_id": tmdb_id,
                                     "director": "",
                                     "jump_count": 0,
                                     "rating": 0.0,
@@ -576,20 +588,26 @@ class WhenJumpScareScraper:
             await asyncio.sleep(self.delay_seconds)
 
         try:
-            resp = await client.get(url)
-            # If whenjumpscare returns 403 on movie page, attempt fallback to wheresthejump
-            if resp.status_code == 403 and "whenjumpscare.com" in url:
+            html_text = await self._fetch_html(url)
+            if not html_text and "whenjumpscare.com" in url:
                 clean_slug = url.rstrip("/").split("/")[-1]
                 slug_no_id = re.sub(r"^\d+-", "", clean_slug)
                 wtj_url = f"https://wheresthejump.com/jump-scares-in-{slug_no_id}/"
-                try:
-                    fb_resp = await client.get(wtj_url)
-                    if fb_resp.status_code == 200:
-                        return self.parse_movie_html(fb_resp.text)
-                except Exception:
-                    pass
-            resp.raise_for_status()
-            data = self.parse_movie_html(resp.text)
+                logger.info("whenjumpscare blocked/unavailable for %s; attempting WTJ fallback: %s", url, wtj_url)
+                html_text = await self._fetch_html(wtj_url)
+
+            if not html_text:
+                logger.warning("Could not fetch movie page: %s", url)
+                return {
+                    "title": "",
+                    "year": None,
+                    "runtime_minutes": 0,
+                    "tmdb_id": None,
+                    "scares": [],
+                    "scare_count": 0,
+                }
+
+            data = self.parse_movie_html(html_text)
             return data
         except Exception as exc:
             logger.error("Failed to parse movie page %s: %s", url, exc)

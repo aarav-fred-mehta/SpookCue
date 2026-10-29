@@ -231,6 +231,32 @@ class TestWhenJumpScare(unittest.TestCase):
         self.assertFalse(scraper.can_fetch("https://wheresthejump.com/private/secret"))
         self.assertFalse(scraper.can_fetch("https://wheresthejump.com/wp-admin/edit.php"))
 
+    def test_parse_index_html_filters_tv_shows(self):
+        html_with_tv = """
+        <table>
+          <tr><td><a href="/tv-shows/">TV Shows</a></td><td></td><td>2020</td><td>0</td><td>0</td></tr>
+          <tr><td><a href="/jump-scares-in-saw-2004/">Saw</a></td><td>James Wan</td><td>2004</td><td>5</td><td>3.0</td></tr>
+        </table>
+        """
+        movies = WhenJumpScareScraper.parse_index_html(html_with_tv)
+        self.assertEqual(len(movies), 1)
+        self.assertEqual(movies[0]["title"], "Saw")
+
+    def test_fetch_movie_index_bundled_sitemap_fallback(self):
+        import asyncio
+        async def run_test():
+            scraper = WhenJumpScareScraper()
+            async def mock_fetch_html(url: str):
+                return None
+            scraper._fetch_html = mock_fetch_html
+            movies = await scraper.fetch_movie_index()
+            self.assertGreaterEqual(len(movies), 1160)
+            first = movies[0]
+            self.assertIsNotNone(first.get("tmdb_id"))
+            self.assertIn("url", first)
+            self.assertIn("whenjumpscare.com/movie/", first["url"])
+        asyncio.run(run_test())
+
 
 if __name__ == "__main__":
     unittest.main()

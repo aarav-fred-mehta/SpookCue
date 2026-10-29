@@ -122,7 +122,7 @@ fun MovieCard(
                 Spacer(modifier = Modifier.height(4.dp))
 
                 Text(
-                    text = "${movie.releaseYear} • ${movie.runtimeMinutes} min",
+                    text = "${movie.releaseYear?.let { if (it > 0) "$it • " else "" } ?: ""}${movie.runtimeMinutes} min",
                     style = MaterialTheme.typography.bodyMedium,
                     color = TextSecondary
                 )

@@ -139,6 +139,13 @@ async def process_movie(
     poster_path = tmdb_details.get("poster_path") or ""
     confirmed_runtime = tmdb_details.get("runtime") or runtime or 0
     imdb_id = tmdb_details.get("imdb_id")
+    if year is None and tmdb_details.get("release_date"):
+        try:
+            y_str = str(tmdb_details["release_date"]).split("-")[0]
+            if y_str.isdigit():
+                year = int(y_str)
+        except Exception:
+            pass
 
     # 3. Fetch subtitles
     srt_content = await subtitles_fetcher.fetch_subtitles(
@@ -176,7 +183,7 @@ async def process_movie(
     catalog_entry = {
         "tmdb_id": tmdb_id,
         "title": title,
-        "release_year": year,
+        "release_year": year or 0,
         "runtime_minutes": confirmed_runtime,
         "scare_count": len(resolved_scares),
         "poster_path": poster_path,
@@ -269,7 +276,9 @@ async def run_pipeline(
         updated_count = 0
 
         for item in movie_items:
-            title = item.get("title", "")
+            title = item.get("title", "").strip()
+            if not title or title.lower() in ("tv shows", "tv show", "tv series", "television", "home"):
+                continue
             year = item.get("year")
             slug = item.get("slug", "")
             item_url = item.get("url", "")

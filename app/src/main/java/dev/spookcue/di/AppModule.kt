@@ -31,6 +31,7 @@ object AppModule {
         isLenient = true
         encodeDefaults = true
         prettyPrint = false
+        coerceInputValues = true
     }
 
     @Provides

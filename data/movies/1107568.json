@@ -1,11 +1,11 @@
 {
   "phonetic_index": [],
-  "release_year": null,
-  "runtime_minutes": 0,
+  "release_year": 2023,
+  "runtime_minutes": 13,
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The monster loudly slides the plate forward, disturbing the son’s thoughts.",
+      "description": "The monster loudly slides the plate forward, disturbing the son\u2019s thoughts.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 419000,
@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The monster’s hand grabs the son’s leg.",
+      "description": "The monster\u2019s hand grabs the son\u2019s leg.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 534000,

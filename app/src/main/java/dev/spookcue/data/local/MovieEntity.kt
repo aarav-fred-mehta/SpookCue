@@ -33,7 +33,7 @@ data class MovieEntity(
         fun fromDomain(item: MovieCatalogItem): MovieEntity = MovieEntity(
             tmdbId = item.tmdbId,
             title = item.title,
-            releaseYear = item.releaseYear,
+            releaseYear = item.releaseYear ?: 0,
             runtimeMinutes = item.runtimeMinutes,
             scareCount = item.scareCount,
             posterPath = item.posterPath,

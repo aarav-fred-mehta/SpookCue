@@ -86,9 +86,9 @@ class HomeViewModel @Inject constructor(
 
                     // 1. Theater / New Releases (dynamically tagged "NEW" or released in current/previous calendar year)
                     val theater = catalogSnapshot
-                        .filter { "NEW" in it.tags || it.releaseYear >= (currentYear - 1) }
+                        .filter { "NEW" in it.tags || ((it.releaseYear ?: 0) >= (currentYear - 1)) }
                         .sortedWith(
-                            compareByDescending<MovieCatalogItem> { it.releaseYear }
+                            compareByDescending<MovieCatalogItem> { it.releaseYear ?: 0 }
                                 .thenByDescending { it.scareCount }
                         )
                         .take(16)

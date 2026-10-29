@@ -151,7 +151,7 @@ fun FeaturedMovieCard(
         Spacer(modifier = Modifier.height(2.dp))
 
         Text(
-            text = "${movie.releaseYear} • ${movie.scareCount} scares",
+            text = "${movie.releaseYear?.let { if (it > 0) "$it • " else "" } ?: ""}${movie.scareCount} scares",
             style = MaterialTheme.typography.labelSmall.copy(fontSize = 10.sp),
             color = LunarSlateDim,
             maxLines = 1

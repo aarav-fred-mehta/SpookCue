@@ -68,4 +68,28 @@ class ModelSerializationTest {
         assertEquals("major", movie.scares[0].type)
         assertEquals(1, movie.phoneticIndex.size)
     }
+
+    @Test
+    fun testCatalogSerializationWithNullReleaseYear() {
+        val raw = """
+            [
+              {
+                "tmdb_id": 1107568,
+                "title": "Liar Liar",
+                "release_year": null,
+                "runtime_minutes": 0,
+                "scare_count": 3,
+                "poster_path": "",
+                "has_subtitles": false
+              }
+            ]
+        """.trimIndent()
+
+        val items = json.decodeFromString<List<MovieCatalogItem>>(raw)
+        assertEquals(1, items.size)
+        assertEquals("Liar Liar", items[0].title)
+        assertEquals(1107568, items[0].tmdbId)
+        org.junit.Assert.assertNull(items[0].releaseYear)
+        assertEquals(3, items[0].scareCount)
+    }
 }

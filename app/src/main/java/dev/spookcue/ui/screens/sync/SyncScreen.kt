@@ -193,7 +193,10 @@ fun SyncScreen(
                                         overflow = TextOverflow.Ellipsis
                                     )
                                     Text(
-                                        text = movie?.let { "${it.releaseYear} • ${it.runtimeMinutes} min • ${it.scares.size} scares" } ?: "",
+                                        text = movie?.let {
+                                            val yr = if (it.releaseYear != null && it.releaseYear > 0) "${it.releaseYear} • " else ""
+                                            "${yr}${it.runtimeMinutes} min • ${it.scares.size} scares"
+                                        } ?: "",
                                         style = MaterialTheme.typography.labelSmall,
                                         color = LunarSlateDim
                                     )

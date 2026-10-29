@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A woman suddenly appears while Mun is learning calligraphy. She asks “why are you sitting on my chair?” and lunges at Mun. [Video] .",
+      "description": "A woman suddenly appears while Mun is learning calligraphy. She asks “why are you sitting on my chair?” and lunges at Mun. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2176000,
@@ -44,6 +44,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:13.955Z",
   "title": "The Eye",
   "tmdb_id": 10389
 }

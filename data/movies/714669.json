@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Tense music leads up to a hand snatching the photo Sarah is holding. Might startle some viewers",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An animal hits the windshield of Sarah's car",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1728000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-21T01:50:46.462Z",
+  "title": "Run Rabbit Run",
+  "tmdb_id": 714669
+}

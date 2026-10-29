@@ -157,7 +157,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A prisoner grabs at Heather through some bars. [Video] .",
+      "description": "A prisoner grabs at Heather through some bars. [Video].",
       "id": "scare_20",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3879000,
@@ -180,6 +180,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:26.720Z",
   "title": "Silent Hill: Revelation",
   "tmdb_id": 61012
 }

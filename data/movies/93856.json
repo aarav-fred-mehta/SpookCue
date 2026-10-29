@@ -25720,7 +25720,7 @@
         "KP",
         "MFNK"
       ],
-      "description": "A mutated creature jumps out from underneath a blanket. [Video] .",
+      "description": "A mutated creature jumps out from underneath a blanket. [Video].",
       "id": "scare_14",
       "offset_from_anchor_ms": 22626,
       "resolved_time_ms": 4368000,
@@ -25748,13 +25748,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Amanda is suddenly attacked by a large group of mutated creatures. [Video] .",
+      "description": "Amanda is suddenly attacked by a large group of mutated creatures. [Video].",
       "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4828000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:12.988Z",
   "title": "Chernobyl Diaries",
   "tmdb_id": 93856
 }

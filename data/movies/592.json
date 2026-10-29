@@ -5,13 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Harry goes out onto the balcony and sees a bloodied hand on the neighboring window accompanied by a high pitched scream. [Video] .",
+      "description": "Harry goes out onto the balcony and sees a bloodied hand on the neighboring window accompanied by a high pitched scream. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5782000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:01.210Z",
   "title": "The Conversation",
   "tmdb_id": 592
 }

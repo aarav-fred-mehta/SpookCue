@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Flashing red images with static sounds.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The security lockdown alarm sounds.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1513000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The stove ignites.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud, delayed sound from the bathroom faucet.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A smiling corpse flashes into view.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3135000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another corpse appears.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden closeup hallucination saying \"Hey!\"",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Distant gunshot.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4789000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creepy masked woman (hallucination) crawls towards Claire.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4926000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hallucination switches to a closeup of a smiling Alison.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Claire's eyes open.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5130000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-01T23:08:30.652Z",
+  "title": "Double Blind",
+  "tmdb_id": 1140648
+}

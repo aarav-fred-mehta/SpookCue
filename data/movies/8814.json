@@ -20877,7 +20877,7 @@
         "HM",
         "NKTF"
       ],
-      "description": "Destroyer pokes his head through a hole and is attacked by a monkey. [Video] .",
+      "description": "Destroyer pokes his head through a hole and is attacked by a monkey. [Video]",
       "id": "scare_05",
       "offset_from_anchor_ms": 55331,
       "resolved_time_ms": 2160000,
@@ -20985,7 +20985,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A creature’s hand reaches down and grabs Portman around the face. [Video] .",
+      "description": "A creature’s hand reaches down and grabs Portman around the face. [Video]",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4046000,
@@ -21031,6 +21031,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:41.550Z",
   "title": "Doom",
   "tmdb_id": 8814
 }

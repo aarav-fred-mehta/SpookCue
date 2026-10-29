@@ -22297,13 +22297,15 @@
         "M",
         "FFRT"
       ],
-      "description": "Josef appears in front of the camera and lets out a scream. [Video] .",
+      "description": "Josef appears in front of the camera and lets out a scream. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": 44392,
       "resolved_time_ms": 4449000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:21.413Z",
   "title": "Creep",
   "tmdb_id": 250574
 }

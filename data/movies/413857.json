@@ -2,7 +2,74 @@
   "phonetic_index": [],
   "release_year": 2017,
   "runtime_minutes": 98,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A teenage boy turns around and a machete blade is driven into his head.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lowell head butts McKayla.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 342000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Syl trips on a rubbish bin.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1831000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After switching the lights back on, Syl turns around and a masked person is standing behind her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1846000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Syl turns and sees another masked figure in front of her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sadie clobbers Big Al with a baseball bat as he talks to McKayla.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2805000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts away from Sadie and Jordan back to the gym (as an ominous sound effect plays).",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts back to Mrs. Kent and Lowell is now standing behind her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4860000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:17.836Z",
   "title": "Tragedy Girls",
   "tmdb_id": 413857
 }

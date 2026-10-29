@@ -17887,23 +17887,6 @@
     },
     {
       "anchor_phonetic": [
-        "JR",
-        "NS",
-        "AKSKTL",
-        "H",
-        "T",
-        "FKS",
-        "PT",
-        "KNTXNNK"
-      ],
-      "description": "37:40.",
-      "id": "scare_03",
-      "offset_from_anchor_ms": 15631,
-      "resolved_time_ms": 2210000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": [
         "AAL",
         "A",
         "KNNT",
@@ -17915,12 +17898,14 @@
         "KN"
       ],
       "description": "Sarah fires the gun.",
-      "id": "scare_04",
+      "id": "scare_03",
       "offset_from_anchor_ms": 3045,
       "resolved_time_ms": 4884000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:30.622Z",
   "title": "1BR",
   "tmdb_id": 611605
 }

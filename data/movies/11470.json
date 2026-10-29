@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jason attacks from behind with a sound cue",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is suddenly grabbed by Jason when she turns back to the table",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason hand breaks through the wall",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason breaks through the glass behind the group",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3331000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-03-24T04:26:24.130Z",
+  "title": "Jason X",
+  "tmdb_id": 11470
+}

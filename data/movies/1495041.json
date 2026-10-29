@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden scream",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s head explodes. Quite graphic",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2611000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-01T23:08:24.692Z",
+  "title": "Buffet Infinity",
+  "tmdb_id": 1495041
+}

@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "being the only one likely to truly startle viewers.",
+      "description": "A body falls onto the concrete in front of Fingerling.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1717000,
@@ -28,6 +28,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:43.640Z",
   "title": "The Number 23",
   "tmdb_id": 3594
 }

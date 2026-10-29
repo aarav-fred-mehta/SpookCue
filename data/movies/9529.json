@@ -18337,7 +18337,7 @@
         "NS",
         "HM"
       ],
-      "description": "Clara turns the light off and Candyman appears behind her for a brief moment. [Video] .",
+      "description": "Clara turns the light off and Candyman appears behind her for a brief moment. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": 932,
       "resolved_time_ms": 319000,
@@ -18469,7 +18469,7 @@
         "M",
         "FKTM"
       ],
-      "description": "Candyman’s hook comes through the medicine cabinet at Helen. [Video] .",
+      "description": "Candyman’s hook comes through the medicine cabinet at Helen. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": 11904,
       "resolved_time_ms": 3486000,
@@ -18566,13 +18566,15 @@
         "MTR",
         "TRFR"
       ],
-      "description": "Helen appears behind Trevor in the mirror. [Video] .",
+      "description": "Helen appears behind Trevor in the mirror. [Video].",
       "id": "scare_16",
       "offset_from_anchor_ms": 17929,
       "resolved_time_ms": 5678000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:30.622Z",
   "title": "Candyman",
   "tmdb_id": 9529
 }

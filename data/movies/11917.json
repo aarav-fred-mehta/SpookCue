@@ -5,45 +5,39 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A person wearing a pig mask attacks Agent Strahm.",
+      "description": "A figure in a pig mask jumps out at Strahm",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 542000,
+      "resolved_time_ms": 505000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Detective Hoffman opens a door and a barking dog lunges at him from the other side.",
+      "description": "A barking dog comes charging through the door.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2466000,
+      "resolved_time_ms": 2380000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "There is a loud bang on Paul’s car.",
+      "description": "A figure in a pig mask stabs the man with a syringe.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3236000,
+      "resolved_time_ms": 3170000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Paul turns around and is stabbed by a person wearing a pig mask.",
+      "description": "Brit startles Erickson.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3255000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "Brit startles Ercikson.",
-      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5149000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-07T04:19:39.714Z",
   "title": "Saw V",
   "tmdb_id": 11917
 }

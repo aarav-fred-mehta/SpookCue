@@ -37,21 +37,39 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "After Cecilia turns off the tap in the kitchen and looks around she is suddenly grabbed by the invisible man.",
+      "description": "The faucet in the kitchen suddenly goes on in the middle of a quiet sequence.",
       "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3475000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Cecilia turns off the tap in the kitchen and looks around she is suddenly grabbed by the invisible man.",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3534000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
+      "description": "Dog barks behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3979000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
       "description": "The invisible man suddenly appears beside Cecilia under the trunk.",
-      "id": "scare_06",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5553000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-21T01:53:04.359Z",
   "title": "The Invisible Man",
   "tmdb_id": 570670
 }

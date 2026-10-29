@@ -1,0 +1,123 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Man looks through slit in the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Olin shouts",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 611000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman turns to look down the corridor again and sees another woman further away.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1614000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the woman skims through pictures on her camera the next picture has a person standing outside the tent.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman starts heading out of tent and a person with a white mask appears from the left side.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2772000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman looks down and the odd statue is looking up at her now.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3277000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darcy shouts",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3540000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "camera move to creepy figure",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3833000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Camera flashes on the floor illuminating the same woman from the shot before now in the corner.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lid on the chest jumps",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Same dead looking woman slowly comes out from the dark doorway.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3929000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The statue is now standing at the bottom of the stairs.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5042000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cannibal sits right at the foot of Ivan's bed.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5418000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead bellhop stands right next to Ted.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5677000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-14T03:50:41.226Z",
+  "title": "Oddity",
+  "tmdb_id": 1216191
+}

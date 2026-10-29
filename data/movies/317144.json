@@ -12750,13 +12750,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A scary face flashes up on Casey’s laptop. [Video] .",
+      "description": "A scary face flashes up on Casey’s laptop. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 928000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:25.628Z",
   "title": "Cyberbully",
   "tmdb_id": 317144
 }

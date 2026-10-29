@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A spider runs at a man's face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 270000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A horde of baby spiders emerge from a shoe.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1857000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spider jumps out of a towel.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2611000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The spider moves normally but the music sting says otherwise.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "More spiders from under a cloth.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2731000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Box opens. Spider!",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2913000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spider attacks from right side of vent.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Guy is screaming with spiders on his face.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bon sang-- encore des araignées !",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3489000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Little flashbang.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "You'll never guess but it's spiders.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5472000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kaleb blows a spider directly into the camera.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6167000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-30T02:12:58.520Z",
+  "title": "Infested",
+  "tmdb_id": 1063879
+}

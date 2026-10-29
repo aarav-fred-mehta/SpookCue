@@ -101,7 +101,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Scott looks into the attic with the video camera, as the camera pans around the attic, an infected boy suddenly comes into view. [Video] .",
+      "description": "Scott looks into the attic with the video camera, as the camera pans around the attic, an infected boy suddenly comes into view. [Video].",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4783000,
@@ -109,13 +109,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Angela crawls towards the camera but is suddenly dragged away. [Video] .",
+      "description": "Angela crawls towards the camera but is suddenly dragged away. [Video].",
       "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5095000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:02.770Z",
   "title": "Quarantine",
   "tmdb_id": 13812
 }

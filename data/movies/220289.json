@@ -58491,6 +58491,37 @@
   "scares": [
     {
       "anchor_phonetic": [
+        "ANT",
+        "AN",
+        "AS",
+        "0S",
+        "AT",
+        "AS",
+        "LK",
+        "AN"
+      ],
+      "description": "someone knocks loudly",
+      "id": "scare_01",
+      "offset_from_anchor_ms": 2477,
+      "resolved_time_ms": 1235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "SMNS",
+        "KMNK",
+        "K",
+        "JST",
+        "K"
+      ],
+      "description": "After a loud noise, they start running",
+      "id": "scare_02",
+      "offset_from_anchor_ms": 31811,
+      "resolved_time_ms": 2069000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
         "A",
         "AX",
         "A",
@@ -58502,12 +58533,14 @@
         "MTR"
       ],
       "description": "The original Em suddenly appears crawling in the hallway.",
-      "id": "scare_01",
+      "id": "scare_03",
       "offset_from_anchor_ms": 22963,
       "resolved_time_ms": 4928000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-15T06:21:22.630Z",
   "title": "Coherence",
   "tmdb_id": 220289
 }

@@ -2,7 +2,58 @@
   "phonetic_index": [],
   "release_year": 2011,
   "runtime_minutes": 88,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bag is suddenly thrown over Scott’s head after he knocks on the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts to a barking dog.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2421000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door swings open.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2575000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror suddenly opens to reveal it was actually a door and a gas masked man steps out.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3211000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Travis jumps out in front of Justin.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After getting in his car, Flemming is grabbed by Carter in the backseat.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4634000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:44.853Z",
   "title": "Hostel: Part III",
   "tmdb_id": 71670
 }

@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "George is startled by a yowling black cat at the window. [Video] .",
+      "description": "George is startled by a yowling black cat at the window. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1829000,
@@ -68,6 +68,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:44.022Z",
   "title": "The Amityville Horror",
   "tmdb_id": 11449
 }

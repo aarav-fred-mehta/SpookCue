@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The woman turns to see a masked individual.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 367000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is startled by police lights.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1105000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is startled  by an oncoming car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1274000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the strangers appears at car door and opens it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman looks beside her to see another individual.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy hits the man with an axe.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1464000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man gets stabbed in the head.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window smashes.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3714000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-14T11:21:58.596Z",
+  "title": "The Strangers Chapter 3",
+  "tmdb_id": 1010755
+}

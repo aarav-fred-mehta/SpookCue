@@ -2,7 +2,90 @@
   "phonetic_index": [],
   "release_year": 2013,
   "runtime_minutes": 97,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Odd turns around and a faceless man in a bowling shirt is in front of him. [Video].",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 498000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man gets hit by a truck suddenly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cold force suddenly radiates out from the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Odd’s hand is suddenly pulled into a hole in the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1461000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large number of bodachs suddenly appear in the room.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something bangs on the door that Stormy is standing behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2140000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bodach pops up in front of the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Odd closes the fridge door to reveal the ghost of Bob standing behind. [Video].",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3835000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man appears at a window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4152000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Varner prepares to shoot Odd in the van, a bodach suddenly comes out of the window and screeches at Odd.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4816000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:39.647Z",
   "title": "Odd Thomas",
   "tmdb_id": 179826
 }

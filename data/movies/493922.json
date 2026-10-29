@@ -65,9 +65,19 @@
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6802000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "3 naked persons looking at Peter from the end of the room.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6980000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-28T00:17:18.325Z",
   "title": "Hereditary",
   "tmdb_id": 493922
 }

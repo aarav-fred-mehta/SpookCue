@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Man is walking down a corridor and a knife is thrown into his neck suddenly from off-screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man appears from the side with an audio cue.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1098000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot suddenly hits behind the women.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man lunges out of the smoke suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3017000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman with a sword appears.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3238000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"Yeah that's gonna be a no\" and immediately after a gunshot misses them.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3350000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She says \"oh no\" and explodes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3401000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"Why is everyone look at--\" and he explodes too.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman's face smashes against glass all of a sudden.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4797000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-06T02:02:47.929Z",
+  "title": "Ready Or Not Here I Come",
+  "tmdb_id": 1266127
+}

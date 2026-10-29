@@ -1,0 +1,307 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mechanic Rudy staring at Ryan whilst trying to get the car started - sound heard",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 561000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door knocking",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 954000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maya hears a noise during her phone call",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door knocks",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door knocks again",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maya checks viewing window and hand moves to block her vision",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1332000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door knocks",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarecrow walks past MAYA inside the AirBNB with a low audible sound",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1387000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAYA hits or presses a swtich and makes a loud noise",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1507000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan reaches into car and Rudy startles him with a bang sound",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1672000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarecrow watches MAYA taken a shower as she moves her head, he appears with sound getting louder and more intense the more the scene continues.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1933000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAYA hears a strange sound and turns around",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2036000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAYA drops her phone and soon as she looks up DOLLFACE OR PINUP Appears staring at her - LOUD SOUND",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2103000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sounnd appears when camera pans to Dollface or PIN UP",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2107000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAYA hiding scene intensifies with music, door suddenly opens and Ryan Appears",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2176000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door knocks whilst Maya and Ryan are talking",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maya and Ryan look up - Maya screams with sound, chicken hanging on ceiling with blood dripping",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2453000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "scarecrow smashes his AXE through the door Maya is trying to lock.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2464000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan carefully proceeds towards door Scarecrow smashes his Axe through the door. Maya screams",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2558000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maya and Ryan head towards Motorbike and it blows up",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2733000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAYA accidently stabs herself with a nail whilst crawling",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2909000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "PIN UP or DOLL FACE can be seen in the back ground when Maya and Ryan provide light in the dark room.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan and Maya hear a sound",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3203000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "PIN UP or DOLL FACE appears whilst Maya is looking at the window and turns around screams - Scarecrow grabs her from the window",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3310000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryans shoots at Scarecrow with the shotgun not in shot of camera",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3324000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan fires shotgun",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3461000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maya makes a call and a brick is thrown at her car window",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarecrow slams his axe on the car Ryan is in",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3680000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pin Up or Doll Face appears in shot with sound",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3775000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarecrow rams the car with his truck",
+      "id": "scare_30",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3841000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maya discovers Jeffs decaying body whilst trying to get signal from phone.",
+      "id": "scare_31",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3989000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "DOLLFACE or PINUP appears behind Maya with loud music",
+      "id": "scare_32",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4088000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "DOLLFACE or PIN UP KNOCKS MAYA OUT",
+      "id": "scare_33",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "PIN UP or DOLL FACE SCREAMS AND CHANTS when turning around with Ryan holding a shotgun",
+      "id": "scare_34",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarecrow runs up beside Ryan and knocks him out",
+      "id": "scare_35",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "PIN UP Stabs Ryan",
+      "id": "scare_36",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4625000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After films finishes a small scene is shown Maya in Hospital bed and Scarecrow lying beside her. He looks at her whilst she raises her head/body",
+      "id": "scare_37",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5117000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-21T13:58:09.258Z",
+  "title": "The Strangers Chapter 1",
+  "tmdb_id": 1010600
+}

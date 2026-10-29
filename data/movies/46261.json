@@ -35836,7 +35836,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Sally crawls under the bed sheets, when she reaches the end of the bed a creature jumps up at her. [Video] .",
+      "description": "Sally crawls under the bed sheets, when she reaches the end of the bed a creature jumps up at her. [Video]",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3259000,
@@ -35865,6 +35865,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:41.490Z",
   "title": "Don’t Be Afraid of the Dark",
   "tmdb_id": 46261
 }

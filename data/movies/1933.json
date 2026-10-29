@@ -29,13 +29,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The children are hiding in a closet when it is suddenly opened. [Video] .",
+      "description": "The children are hiding in a closet when it is suddenly opened. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5407000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:48.575Z",
   "title": "The Others",
   "tmdb_id": 1933
 }

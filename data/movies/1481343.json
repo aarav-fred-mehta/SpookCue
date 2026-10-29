@@ -1,0 +1,147 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "minor, an eel goes towards a girl and suddenly changes direction with a (not so) loud audio scare",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "bat flies over them",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1544000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "very minor, the same (?) eel is now dead and scares her. mostly an audio scare.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the shark attacks the swimmer",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2134000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "shark attacks",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2639000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a girl emerges with loud audio scare",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2702000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he is pulled down to water",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "very minor, a girl emerges. might startle one.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3476000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "very minor, a girl emerges (yes, again). might startle some.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3947000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "shark tries to attack",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4016000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "dumb ass shark tries to attack again",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "you gotta be kidding me. it tries a third time",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "yes. he tries a fourth time.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4101000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "shark jumps out of water trying to attack",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "shark jumps out of water",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a girl suddenly appears.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "shark jumps out of water again",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4560000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-20T12:05:03.912Z",
+  "title": "The Devil S Mouth",
+  "tmdb_id": 1481343
+}

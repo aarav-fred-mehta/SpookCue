@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Merrill watches video footage of a children’s birthday party where an alien comes into view. [Video] .",
+      "description": "Merrill watches video footage of a children’s birthday party where an alien comes into view. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3499000,
@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Graham sees an alien claw underneath the pantry door. [Video] .",
+      "description": "Graham sees an alien claw underneath the pantry door. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3695000,
@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "An alien hand grabs Morgan from behind. [Video] .",
+      "description": "An alien hand grabs Morgan from behind. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4943000,
@@ -61,13 +61,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "An alien can be seen in the reflection of TV. [Video] .",
+      "description": "An alien can be seen in the reflection of TV. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5575000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:35.281Z",
   "title": "Signs",
   "tmdb_id": 2675
 }

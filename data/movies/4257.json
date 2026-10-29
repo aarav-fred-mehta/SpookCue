@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand falls from between two sliding doors.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1023000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon appears in the car window next to Cindy's face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2862000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-12-14T01:05:24.480Z",
+  "title": "Scary Movie 4",
+  "tmdb_id": 4257
+}

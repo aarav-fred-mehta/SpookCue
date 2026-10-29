@@ -2,7 +2,34 @@
   "phonetic_index": [],
   "release_year": 1986,
   "runtime_minutes": 89,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The priest starts screaming as his hands burn on the altar.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 672000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rawhead bursts through the crates.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1079000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rawhead grabs the woman through the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1213000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:05.986Z",
   "title": "Rawhead Rex",
   "tmdb_id": 13511
 }

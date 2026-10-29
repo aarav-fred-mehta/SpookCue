@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 138,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden jump cut to Remmick with audio scare.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 160000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden jump cut to Remmick with audio scare.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 173000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden jump cut to Remmick with audio scare.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 190000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A snake hidden under the leaves coils to attack. Contains audio scare.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 694000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden jump cut to a bloody Remmick, sitting in the rocking chair. Contains audio scare.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2664000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man grabs other man's arm with a loud audio scare.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5236000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Knife comes through door as kid is listening. No audio scare other than the sound of knife but it's sudden even though expected.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stack comes barreling through the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5409000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-24T21:52:04.120Z",
+  "title": "Sinners",
+  "tmdb_id": 1233413
+}

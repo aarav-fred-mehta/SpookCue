@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears behind her with a loud sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He steps into a bear trap",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2201000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone startles her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2472000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something reaches out for him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3127000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone is being killed, all you can hear is the sound.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3240000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-06T15:18:21.518Z",
+  "title": "Do Not Enter",
+  "tmdb_id": 999136
+}

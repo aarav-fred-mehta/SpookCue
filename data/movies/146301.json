@@ -8,7 +8,7 @@
       "description": "There is a loud noise and Dennis falls flat.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 20000,
+      "resolved_time_ms": 31000,
       "type": "minor"
     },
     {
@@ -16,7 +16,7 @@
       "description": "As the camera zooms in on Kristi the power suddenly cuts out.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 978000,
+      "resolved_time_ms": 966000,
       "type": "minor"
     },
     {
@@ -24,7 +24,7 @@
       "description": "A ball is thrown at the camera.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1062000,
+      "resolved_time_ms": 1047000,
       "type": "minor"
     },
     {
@@ -32,7 +32,7 @@
       "description": "Some sort of spirit flies past the camera.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1247000,
+      "resolved_time_ms": 1233000,
       "type": "minor"
     },
     {
@@ -40,7 +40,7 @@
       "description": "Mike appears behind Skylar.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1282000,
+      "resolved_time_ms": 1269000,
       "type": "minor"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Something flies out of the pool.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1336000,
+      "resolved_time_ms": 1324000,
       "type": "minor"
     },
     {
@@ -56,7 +56,7 @@
       "description": "Leila appears in front of the camera.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1371000,
+      "resolved_time_ms": 1358000,
       "type": "minor"
     },
     {
@@ -64,7 +64,7 @@
       "description": "The bathroom mirror cracks.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1632000,
+      "resolved_time_ms": 1620000,
       "type": "minor"
     },
     {
@@ -72,7 +72,7 @@
       "description": "The dark entity flies at the camera.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2165000,
+      "resolved_time_ms": 1923000,
       "type": "minor"
     },
     {
@@ -80,8 +80,8 @@
       "description": "A figure suddenly rushes at the camera accompanied by a loud noise.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2396000,
-      "type": "minor"
+      "resolved_time_ms": 2153000,
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -236,6 +236,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-05T02:24:32.356Z",
   "title": "Paranormal Activity: The Ghost Dimension",
   "tmdb_id": 146301
 }

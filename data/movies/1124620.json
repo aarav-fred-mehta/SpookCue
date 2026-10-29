@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An abrupt cut to the monkey toy with a loud noises.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 974000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The stairs break.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1958000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman gets up and screams at the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1968000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman leans into the stove, It turns on and sets fire to her head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another abrupt cut to the monkey face with sound.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "I woman appears and taps on the car window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3112000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-22T22:28:38.566Z",
+  "title": "The Monkey",
+  "tmdb_id": 1124620
+}

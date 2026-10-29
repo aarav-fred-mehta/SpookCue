@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is grabbed by the killer.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man Is stabbed with a egg beater/mixer.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2178000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man’s neck is snapped.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2862000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer apears from behind the corner.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is scared by her father.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3703000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman sees the killer in the reflection.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3752000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is scared by a dead body.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4444000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body wrapped in plastic in the fridge is not dead and grabs the woman’s arm",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4542000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pitchfork comes through the wall.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4628000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer steps into frame.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5244000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flaming man grabs the woman from behind.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5926000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-29T07:00:02.362Z",
+  "title": "Thanksgiving",
+  "tmdb_id": 1071215
+}

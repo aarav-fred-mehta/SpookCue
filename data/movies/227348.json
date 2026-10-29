@@ -1,0 +1,155 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Oscar jumps down onto a dumpster",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 753000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A firework explodes",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 761000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse jumps through a beaded curtain",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1050000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Oscar’s brother is suddenly in the room",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Jesse’s date from the cellar",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shower curtain is pulled aside",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2222000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Oscar’s body drops onto a car",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2290000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon grabs Jesse through plastic",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3117000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse grabs his grandmother’s hand",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3477000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse appears screaming in a portal",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3539000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse breaks Hector’s car window",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3914000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hector’s car is hit at an intersection",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3946000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly grabs the metal bars",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4263000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Window glass is suddenly shattered",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4357000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marisol’s body is dropped through the ceiling",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4411000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sheet flies at the camera, revealing Jesse",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4509000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse punches through the door",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4564000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Jesse attacks Hector",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4684000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-11T05:53:50.511Z",
+  "title": "Paranormal Activity The Marked Ones",
+  "tmdb_id": 227348
+}

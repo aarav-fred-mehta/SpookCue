@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2012,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie runs at Todd",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 568000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie bursts out of the closet",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2596000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-30T02:27:54.077Z",
+  "title": "Resident Evil Retribution",
+  "tmdb_id": 71679
+}

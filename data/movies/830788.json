@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman pushes a man away quite suddenly",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 107000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a sudden flash of a decapitated head might be startling to some viewers",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evie turns around and sees Mrs Swift behind her",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1555000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something ambushes a maid",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1735000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dee snaps her neck and is dragged away by a supernatural force",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2109000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a bird is thrown at the window",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2185000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evie is dragged away from under the bed by Walter",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2949000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure passes by a coffin",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud musical sting plays as Evie gets up to run",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4726000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evie is attacked by Mr Field",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An electric spark explodes",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5799000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evie is grabbed by a now monstrous Walter",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5806000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-23T21:14:24.225Z",
+  "title": "The Invitation",
+  "tmdb_id": 830788
+}

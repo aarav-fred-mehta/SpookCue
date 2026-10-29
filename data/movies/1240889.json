@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "High pitched noise with image of little death, very minor",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2215000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the first Camp Miasma film, while Billy Presley's character listens to the other counselors tell the story of Little Death, her friend (with an air conditioning unit on her head) comes from the left of the screen and behind Billy's character to scare her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2875000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Kris attempts to smoke a joint in front of the bathroom mirror, an image of the Camp Miasma camper flickers in the mirror a couple of times, followed by a final showing of the image and a loud sound.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3995000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-22T21:05:48.309Z",
+  "title": "Teenage Sex And Death At Camp Miasma",
+  "tmdb_id": 1240889
+}

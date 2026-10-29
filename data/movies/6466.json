@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy’s face suddenly appears beside Lori and she wakes up. [Video] .",
+      "description": "Freddy’s face suddenly appears beside Lori and she wakes up. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1090000,
@@ -196,6 +196,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:03.393Z",
   "title": "Freddy vs. Jason",
   "tmdb_id": 6466
 }

@@ -1,0 +1,131 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a quiet moment, the screen suddenly clicks on, which may startle sensitive viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 90000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bjorn and Tyler try to remove the fuel canister in the cryo chamber, it hisses open and sprays freezing gas.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rain tries to retrieve Rook’s chip, he suddenly grabs her arm, accompanied by a booming sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2256000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A facehugger suddenly leaps from the water and attacks Bjorn.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2390000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rook suddenly reactivates and thrashes, accompanied by a sound effect.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2618000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the facehugger escapes through the hole in the floor, Navarro suddenly thrashes and screams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2802000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Facehugger suddenly leaps onto the window, startling Rain with a loud screech.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3253000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flash of light reveals a hanging body behind Kay, accompanied by a sharp sound effect.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden burst of electricity goes off, accompanied by a shrill sound effect.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After being attacked, the presumed-dead Xenomorph suddenly lunges.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3653000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Xenomorph jumps into the grate above Kay as she crawls beneath it.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3926000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After an alarm is triggered, Tyler appears in the window behind Kay.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4016000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rain goes to jump, a screeching Xenomorph grabs her leg.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5493000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a well-telegraphed scare, the new on-screen Xenomorph attacks with a roar.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a quiet scene, the new Xenomorph bursts screaming from the sandy debris for a close-up attack.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6536000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-20T00:44:56.830Z",
+  "title": "Alien Romulus",
+  "tmdb_id": 945961
+}

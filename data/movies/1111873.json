@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Abigail is grabbed by the masked man.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 466000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man ignites a lighter in the background, briefly revealing his face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1973000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is scared by a rat.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man’s legs are suddenly yanked out from beneath him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is frightened by the man in the chair.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Abigail screams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2970000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is scared by a bat.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to the vampire woman.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4875000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two characters startle each other as they collide.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4934000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-29T07:00:07.284Z",
+  "title": "Abigail",
+  "tmdb_id": 1111873
+}

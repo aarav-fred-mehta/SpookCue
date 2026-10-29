@@ -34,16 +34,10 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3865000,
       "type": "major"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "mark might startle more sensitive viewers. The movie’s atmosphere is very light in general and everybody should handle the whole picture with ease.",
-      "id": "scare_05",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3870000,
-      "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:29.020Z",
   "title": "Maximum Overdrive",
   "tmdb_id": 9980
 }

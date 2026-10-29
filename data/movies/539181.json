@@ -5,16 +5,8 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "and 13:32 as well as the scenes listed below.",
-      "id": "scare_01",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 106000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
       "description": "Kay slowly leans into a wall when there is suddenly a loud bump that scares her.",
-      "id": "scare_02",
+      "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1139000,
       "type": "minor"
@@ -22,7 +14,7 @@
     {
       "anchor_phonetic": null,
       "description": "As Kay checks under Edna’s bed and sees something moving, Edna suddenly drops a book, startling Kay and causing her to hit her head.",
-      "id": "scare_03",
+      "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2120000,
       "type": "minor"
@@ -30,12 +22,14 @@
     {
       "anchor_phonetic": null,
       "description": "While Sam is watching Edna, there is suddenly a loud cut to Kay opening a kitchen bin.",
-      "id": "scare_04",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2542000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:06.192Z",
   "title": "Relic",
   "tmdb_id": 539181
 }

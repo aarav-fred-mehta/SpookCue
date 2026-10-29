@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The man is grabbed and pulled into the bush.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 708000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot is heard.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is suddenly attacked.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2816000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The kangaroo smashes into the car window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3230000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The kangaroo jumps into the car.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3954000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The kangaroo attempt to bash in the doors of the pub.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4212000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-28T12:41:25.457Z",
+  "title": "Rippy",
+  "tmdb_id": 1249532
+}

@@ -8594,13 +8594,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "and a half-scare at 24:31.",
+      "description": "Hughie lunges at Rae from behind a curtain. [Video]",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4420000,
-      "type": "minor"
+      "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:29.159Z",
   "title": "Dead Calm",
   "tmdb_id": 10493
 }

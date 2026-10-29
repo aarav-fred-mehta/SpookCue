@@ -18,8 +18,18 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1934000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paxton notices Josh's dead body with his eyes still open",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4160000,
+      "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-19T17:12:23.160Z",
   "title": "Hostel",
   "tmdb_id": 1690
 }

@@ -1,0 +1,139 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman whispers Polly's name.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1194000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doorbell rings, causing Polly to scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The neighbor stabs her cheek with a knife.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2047000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The neighbor stabs herself again, startling Polly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2092000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A picture frame falls and shatters",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Polly's phone suddenly rings, startling her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2183000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A light begins to loudly flicker.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2433000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rotting variant of Polly's father pops out of the closet and lunges at her.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2514000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Polly's \"father\" appears again, crawling out from under a bed.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2540000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Polly's reflection screams at her, causing the real Polly to stumble backwards as another reflection of Polly appears behind her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2800000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The voice of Polly's mother is heard loudly saying \"Quit your crying!\"",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3183000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Polly notices the box suddenly in front of her and screams.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3658000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Aly suddenly grabs Polly's wrist.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4022000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches out of the box and grabs Polly.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4180000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt cut to a bloodied Tara screaming.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4496000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A musical sting plays as Tara sees writing on the wall.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5693000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-14T16:38:15.757Z",
+  "title": "Vicious",
+  "tmdb_id": 1251717
+}

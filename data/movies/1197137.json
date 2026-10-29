@@ -1,0 +1,147 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man with a bloody face stands next to her after she ends the call.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1148000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A heavy door opens in the background.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1155000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings as a figure comes down the stairs.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1176000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door of the phone booth suddenly closes.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody person appears in a sequence under the bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1946000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "something grabs her and it starts to steam",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1974000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a person appears at the window",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kids start banging on the telephone booth",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "an axe flies into the tree trunk and it starts to bleed",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3030000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the grabber is behind him",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the oven opens with flames",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The grabber appears before her out of the shadows.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3422000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise and something appears at the window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4060000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a person has hanged themselves",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The grabber smashes the window of the phone booth.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5116000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the phone booth explodes",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5171000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "an axe in the face of the grabber",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6067000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-02-15T05:03:41.404Z",
+  "title": "Black Phone 2",
+  "tmdb_id": 1197137
+}

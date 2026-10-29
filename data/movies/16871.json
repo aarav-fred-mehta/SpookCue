@@ -324,7 +324,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Rham Jas suddenly has a vision of a fiery demon as he is reading Christine’s fortune. [Video] .",
+      "description": "Rham Jas suddenly has a vision of a fiery demon as he is reading Christine’s fortune. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1700000,
@@ -356,7 +356,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ganush suddenly appears in bed beside Christine. [Video] .",
+      "description": "Ganush suddenly appears in bed beside Christine. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2258000,
@@ -396,7 +396,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Christine pulls back a curtain in the shed to reveal Ganush. [Video] .",
+      "description": "Christine pulls back a curtain in the shed to reveal Ganush. [Video].",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3714000,
@@ -467,6 +467,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:46.499Z",
   "title": "Drag Me To Hell",
   "tmdb_id": 16871
 }

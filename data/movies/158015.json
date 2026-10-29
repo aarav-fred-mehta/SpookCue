@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Mary closes the fridge door to reveal Max standing behind it.",
+      "description": "Mary closes the fridge door to reveal Charlie standing behind it.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 622000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A member of the masked gang appears in front of Max. [Video]",
+      "description": "A member of the masked gang appears in front of Max.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3677000,
@@ -100,6 +100,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-28T03:10:29.824Z",
   "title": "The Purge",
   "tmdb_id": 158015
 }

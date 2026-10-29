@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A little girl is happily riding her tricycle when, out of nowhere, the music cuts out and the imposing shadow of the house suddenly appears, startling her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 85000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "nevercracker suffers a heart attack and falls on a child",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 630000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Officers Landers and Lester investigate the property, the tree in the yard suddenly comes to life and violently lashes out at the patrol car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1562000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Jenny tries to leave a flyer at the door, the welcome mat suddenly comes to life like a giant tongue, dragging her inside.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mientras los niños exploran las entrañas oscuras de la casa, una corriente de aire y objetos saltan de golpe desde los conductos, acompañado de un fuerte estruendo musical.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2770000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-16T10:09:13.499Z",
+  "title": "Monster House",
+  "tmdb_id": 9297
+}

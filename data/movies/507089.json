@@ -1,0 +1,123 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The videotape glitching out can be mildly startling",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1359000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An abrupt cut to Balloon Boy as Mike opens the locker",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1401000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike hears an object thud",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1475000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The children running is accompanied by a sound effect that can startle some viewers",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1609000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A child screams at Mike with black liquid coming out of his eyes",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1994000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chica appears suddenly accompanied by a musical sting",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2498000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chica's cupcake lunges at the camera",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2505000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Foxy rushes to the camera",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears out of Freddy's mouth",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another abrupt cut to Balloon Boy",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3290000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy's eyes appear in the darkness",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3420000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A driver sees Golden Freddy in the car mirror",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike is attacked by the cupcake",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5498000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An abrupt cut to Balloon Boy although humorous is quite startling and sudden",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6321000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-08T18:28:26.216Z",
+  "title": "Five Nights At Freddy S",
+  "tmdb_id": 507089
+}

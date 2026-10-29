@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dogs suddenly bark as the movie starts",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 56000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A snake slithers out from under a rock",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stu suddenly grabs Victor’s shoulder",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1606000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quick flashes of screaming during a flashback",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2128000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon version of Angela appears behind Victor",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela appears when the light turns on",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela suddenly attacks her father",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela jumps up and hits a glass window",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3687000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The movie suddenly cuts to Angela screaming",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4319000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-02T04:37:45.688Z",
+  "title": "The Exorcist Believer",
+  "tmdb_id": 807172
+}

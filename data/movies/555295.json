@@ -13212,7 +13212,134 @@
   ],
   "release_year": 2019,
   "runtime_minutes": 88,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": [
+        "ATTS",
+        "FN",
+        "AAF",
+        "KT",
+        "AT",
+        "0NKS"
+      ],
+      "description": "A man emerges from behind rock.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": 4390,
+      "resolved_time_ms": 630000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The head of a dead man becomes visible.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "ATTS",
+        "ALKL",
+        "NT",
+        "T",
+        "ANSR",
+        "A",
+        "PRK",
+        "AMPL"
+      ],
+      "description": "Wendy opens tent. Accompanied by sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": 51336,
+      "resolved_time_ms": 2006000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "XT",
+        "AT",
+        "TL",
+        "TN"
+      ],
+      "description": "A quick jump-cut to a shot of the dead man’s face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": 32964,
+      "resolved_time_ms": 2371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man startles Wendy.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2523000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Several quick flashes of dead bodies face.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3113000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wendy turns to see the dead man standing beside her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3875000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A voice suddenly speak from the radio.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3969000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "0T",
+        "ATTS",
+        "A",
+        "0T",
+        "ATTS",
+        "A"
+      ],
+      "description": "A sound is heard in the distance.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": 49243,
+      "resolved_time_ms": 4060000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unexpected sound is played.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4351000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man grabs Wendy’s leg.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4557000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bear appears behind Wendy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4700000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:01.751Z",
   "title": "Body at Brighton Rock",
   "tmdb_id": 555295
 }

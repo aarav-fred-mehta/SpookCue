@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 1997,
+  "runtime_minutes": 129,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A triceratops crashes through the conference tent and wrecks havoc.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The caravan is toppled over by two T-Rexes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3418000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dieter is startled by a Compsognathus sneaking up behind him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A velociraptor leaps onto a car towards Sarah.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another velociraptor suddenly pokes its head from underneath a gap.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5720000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-17T19:12:13.560Z",
+  "title": "The Lost World Jurassic Park",
+  "tmdb_id": 330
+}

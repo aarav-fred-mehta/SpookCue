@@ -13,16 +13,32 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ryan pops up in front of the camera.",
+      "description": "Movie cuts to a loud sound.",
       "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan pops up in front of the camera.",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1175000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
+      "description": "Scene cuts to a loud lock breaking act.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
       "description": "Something smashes on the ground.",
-      "id": "scare_03",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1533000,
       "type": "minor"
@@ -30,7 +46,7 @@
     {
       "anchor_phonetic": null,
       "description": "There is a loud thudding noise.",
-      "id": "scare_04",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1651000,
       "type": "minor"
@@ -38,7 +54,7 @@
     {
       "anchor_phonetic": null,
       "description": "Pfeifer appears suddenly.",
-      "id": "scare_05",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1712000,
       "type": "minor"
@@ -46,7 +62,7 @@
     {
       "anchor_phonetic": null,
       "description": "The TV makes a loud noise and switches from static to an old news clip.",
-      "id": "scare_06",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2318000,
       "type": "minor"
@@ -54,7 +70,7 @@
     {
       "anchor_phonetic": null,
       "description": "Cassidy screams.",
-      "id": "scare_07",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2636000,
       "type": "minor"
@@ -62,7 +78,7 @@
     {
       "anchor_phonetic": null,
       "description": "Ryan sees a mask as he walks through the wardrobe room.",
-      "id": "scare_08",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2667000,
       "type": "minor"
@@ -70,7 +86,7 @@
     {
       "anchor_phonetic": null,
       "description": "A loud noise interrupts an argument between the group.",
-      "id": "scare_09",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2704000,
       "type": "minor"
@@ -78,7 +94,7 @@
     {
       "anchor_phonetic": null,
       "description": "Cassidy is pulled upwards by an unseen force.",
-      "id": "scare_10",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2773000,
       "type": "major"
@@ -86,7 +102,7 @@
     {
       "anchor_phonetic": null,
       "description": "An unseen force throws Ryan off the ladder.",
-      "id": "scare_11",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2967000,
       "type": "minor"
@@ -94,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "A loud noise can be heard coming from the other side of the door.",
-      "id": "scare_12",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3029000,
       "type": "minor"
@@ -102,7 +118,7 @@
     {
       "anchor_phonetic": null,
       "description": "The camera spins around and focuses on the Hangman, who has appeared suddenly.",
-      "id": "scare_13",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3233000,
       "type": "minor"
@@ -110,15 +126,15 @@
     {
       "anchor_phonetic": null,
       "description": "Ryan’s cellphone drops to the floor as he is pulled up by his neck.",
-      "id": "scare_14",
+      "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3273000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "A noose appears around Cassidy’s neck and she is pulled away suddenly. [Video] .",
-      "id": "scare_15",
+      "description": "A noose appears around Cassidy’s neck and she is pulled away suddenly. [Video].",
+      "id": "scare_17",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3642000,
       "type": "major"
@@ -126,7 +142,7 @@
     {
       "anchor_phonetic": null,
       "description": "The Hangman can be seen standing begin Pfeifer.",
-      "id": "scare_16",
+      "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3755000,
       "type": "minor"
@@ -134,7 +150,7 @@
     {
       "anchor_phonetic": null,
       "description": "The Hangman lunges at Pfeifer and Reese on the stairs.",
-      "id": "scare_17",
+      "id": "scare_19",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3778000,
       "type": "minor"
@@ -142,7 +158,7 @@
     {
       "anchor_phonetic": null,
       "description": "Ryan’s hanging body suddenly appears in front of the camera.",
-      "id": "scare_18",
+      "id": "scare_20",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3985000,
       "type": "major"
@@ -150,15 +166,23 @@
     {
       "anchor_phonetic": null,
       "description": "The spotlight turns on suddenly.",
-      "id": "scare_19",
+      "id": "scare_21",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4152000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
+      "description": "The light goes out loudly.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
       "description": "A policeman enters a bedroom, the camera moves to the bed where Alexis is combing Pfeifer’s hair.",
-      "id": "scare_20",
+      "id": "scare_23",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4498000,
       "type": "minor"
@@ -166,12 +190,14 @@
     {
       "anchor_phonetic": null,
       "description": "A policeman is thrown against a wall, the camera then moves back to Alexis and Pfeifer who are looking at the hangman who then attacks the cameraman.",
-      "id": "scare_21",
+      "id": "scare_24",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4529000,
-      "type": "minor"
+      "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-20T17:20:31.103Z",
   "title": "The Gallows",
   "tmdb_id": 299245
 }

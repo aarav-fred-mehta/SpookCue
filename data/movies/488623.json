@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Jin-Seok is attempting to open the door, his brother comes quietly and makes Jin-Seok scare.",
+      "description": "As Jin-Seok is attempting to open the door,  his brother comes quietly and makes Jin-Seok scare.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 666000,
@@ -28,6 +28,8 @@
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:59.631Z",
   "title": "Forgotten (Gi-eok-ui bam)",
   "tmdb_id": 488623
 }

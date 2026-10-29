@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 88000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 397000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud sound",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden gunshot followed by scream",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1012000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person comes around the corner and attacks the camera man",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Image on screen fades to show reflection of figure",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Door slams open as scene changes",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud strings as scene changes to closeup of a face",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud groaning sound",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2905000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dog suddently appears snarling to the right’s of Mia face",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dog suddently appears and startles Mia",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3161000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene change to car trunk closing suddently",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4542000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-07T02:17:25.085Z",
+  "title": "Shelby Oaks",
+  "tmdb_id": 937941
+}

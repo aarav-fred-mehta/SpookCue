@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Man at the window of the airplane",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Person appears to her in the water as she tries to swim away",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1258000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A wild boar attacks them",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She falls off the cliff",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3426000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She vomits on him",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4376000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears beside her in her dream",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5290000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She grabs him from behind",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5545000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-30T08:11:29.579Z",
+  "title": "Send Help",
+  "tmdb_id": 1198994
+}

@@ -93,7 +93,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ghostface pops up in front of the windscreen when the cop car is stopped at a red light. [Video] .",
+      "description": "Ghostface pops up in front of the windscreen when the cop car is stopped at a red light. [Video].",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5161000,
@@ -141,7 +141,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Gale’s hand reaches out of the fog as Sidney checks on Mrs. Loomis. [Video] .",
+      "description": "Gale’s hand reaches out of the fog as Sidney checks on Mrs. Loomis. [Video].",
       "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6566000,
@@ -156,6 +156,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:17.476Z",
   "title": "Scream 2",
   "tmdb_id": 4233
 }

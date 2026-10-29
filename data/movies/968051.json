@@ -1,0 +1,235 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The glass vial cracks behind the boy",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 247000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The glass vial explodes as the boy looks at it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 253000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nun's eyes glow up with a small sound.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some viewers might be startled as the man turns his head abruptly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1102000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"Save me sister\" followed by the man's mouth opening to reveal sharp teeth.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1227000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The statue starts moving with a sound.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1891000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A short view of the nun's face appears.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1908000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly opens the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"That's when it happened\" followed by a flashback of the nun with a sound.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera zooms into the nun quickly with a sound and crows fly out.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2539000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Image from the magazines becomes the nun and she lunges to choke the woman.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sound of a door banging.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3061000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man turns around abruptly as hand is put on his shoulder.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3094000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"Mama\" is heard whispered suddenly behind the woman.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3128000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door tries to open on its own.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3139000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure runs past the camera in the dark. Can be considered major for some, but it's just a woosh sound with visual.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3170000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A rumble of sound is heard as rocks fall. Not particularly startling but it's in the middle of a very quiet and tense sequence.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3217000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Very minor with a light sound, a small boy is seen behind a pillar as the woman searches with the flashlight.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chain is pulled across the ground past the woman suddenly.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3300000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nun's fanged face comes out of the painting.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4197000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crow flies past in the background.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"What the hell\" followed by a demon looking at the camera and roaring.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4790000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl is pulled up into the air suddenly from the back of the group.",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4835000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman's hands grab the girl as she says \"She's standing in her room\".",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man's hand grabs the platform the girl is on.",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5306000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man's hand grabs the woman's.",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man laughs in demon's voice and a bang is heard behind him.",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5511000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man appears in the crawlspace suddenly.",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5644000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-24T21:51:48.992Z",
+  "title": "The Nun Ii",
+  "tmdb_id": 968051
+}

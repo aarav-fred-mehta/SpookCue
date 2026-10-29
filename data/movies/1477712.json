@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The children burst through the door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A kid flys part on a BMX.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The child turns a screams.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2847000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The kids all scream and run towards the man.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2978000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ice cream man is seen through a fostered glass window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3428000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man grabs the boys arm.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A head falls onto the windscreen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4323000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-28T12:41:59.853Z",
+  "title": "Ice Cream Man",
+  "tmdb_id": 1477712
+}

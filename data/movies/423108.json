@@ -64,13 +64,21 @@
       "description": "Arne’s head is grabbed by the demon behind him.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2818000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Arne’s head is grabbed by the demon behind him.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2822000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
       "description": "Two girls with flashlights appear running and laughing.",
-      "id": "scare_09",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3292000,
       "type": "minor"
@@ -78,7 +86,7 @@
     {
       "anchor_phonetic": null,
       "description": "Lorraine is grabbed by a demon hand.",
-      "id": "scare_10",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3457000,
       "type": "minor"
@@ -86,7 +94,7 @@
     {
       "anchor_phonetic": null,
       "description": "The body in the corner reanimates and runs at Ed.",
-      "id": "scare_11",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4602000,
       "type": "minor"
@@ -94,12 +102,14 @@
     {
       "anchor_phonetic": null,
       "description": "The woman is behind Lorraine after she closes the door.",
-      "id": "scare_12",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5569000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-16T00:28:16.328Z",
   "title": "The Conjuring: The Devil Made Me Do It",
   "tmdb_id": 423108
 }

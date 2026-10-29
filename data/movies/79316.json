@@ -28606,7 +28606,7 @@
         "FN",
         "ANMR"
       ],
-      "description": "Sam suddenly appears in front of the camera screaming “get out”. [Video] .",
+      "description": "Sam suddenly appears in front of the camera screaming “get out”. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": 23355,
       "resolved_time_ms": 2753000,
@@ -28690,6 +28690,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:37.273Z",
   "title": "Devil’s Due",
   "tmdb_id": 79316
 }

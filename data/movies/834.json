@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2006,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 1",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 661000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 2",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 3",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 4",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3799000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 5",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 6",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5205000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene 7",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5515000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-18T23:19:13.924Z",
+  "title": "Underworld Evolution",
+  "tmdb_id": 834
+}

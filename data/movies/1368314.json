@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Someone crashes into the window",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone crashes into the window",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 360000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure can be heard",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something is tightening around her neck and she can see it in the rearview mirror",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2414000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise and she jumps out of the car",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2429000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure is illuminated by the projector",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure is walking toward him",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3399000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something grabs her and pulls her upward",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3899000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She falls to the floor in front of him and is dragged away",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he transforms into a figure",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "she startles",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4629000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears before him",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure comes to life once more",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5151000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-13T10:02:01.658Z",
+  "title": "Passenger",
+  "tmdb_id": 1368314
+}

@@ -113,7 +113,7 @@
       "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4926000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -124,6 +124,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-05T02:24:12.257Z",
   "title": "The Ritual",
   "tmdb_id": 433808
 }

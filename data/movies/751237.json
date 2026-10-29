@@ -1,0 +1,187 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The sound of a door closing can be startling",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 51000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut/scene transition to thunder can startle some viewers",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 415000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "What looks like a person can be seen, then another thunder strike causes it to vanish",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 470000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a long period in silence (sans for thunderstorms) a woman is heard crying unexpectedly",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 497000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young woman scares a older man",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 594000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young woman's mother yells out ''NO'' in a tense scene",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1196000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves under the blanket and later something forms behind a woman",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window rattles and then a door slam is heard",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud cry of ''MOMMY!!'' from a young woman is heard in a quiet scene",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1352000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman sees a ghastly figure",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1416000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostly foot crushes a bird very jarringly",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1441000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman opens her eyes and sees a ghastly apparition of her mother",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1885000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A scary face lunges at a woman",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2011000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to electrical buzzing",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2058000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman slams her hand against a table creating a loud noise",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans up to reveal a ghostly figure",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An electric spark startles a young girl",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2299000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A scarf wraps around a woman's head",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3600000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lamp illuminates to reveal a ghastly, decomposed face",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young lady bumps into her possessed mother",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghastly hand grabs a woman's foot",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4171000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand rises out from the grave",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4462000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-04T21:31:17.461Z",
+  "title": "Umma",
+  "tmdb_id": 751237
+}

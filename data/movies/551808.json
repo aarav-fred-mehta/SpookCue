@@ -39175,7 +39175,114 @@
   ],
   "release_year": 2019,
   "runtime_minutes": 92,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The girl turns around and a figure in a cape stands behind her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the girl closes the door, a figure in a cape appears behind her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1920000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "ASK",
+        "M",
+        "XLTT",
+        "HMSTR"
+      ],
+      "description": "After Helena comes out of the room, the camera zooms in and the cape-wearing figure appears from the room and grabs her. Very similar to the jump scare in Exorcist 3, but not at all effective.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": 5583,
+      "resolved_time_ms": 2120000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "HF",
+        "A",
+        "KT",
+        "PRK"
+      ],
+      "description": "Riley is suddenly grabbed by Professor Gelson as she looks in the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": 19625,
+      "resolved_time_ms": 2699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "JST",
+        "KTNK",
+        "STRTT"
+      ],
+      "description": "When the girl turns on the light, a man in a mask is next to her.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": 1786,
+      "resolved_time_ms": 3057000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "N",
+        "NPT",
+        "AS",
+        "KLNK",
+        "A",
+        "A",
+        "RPST"
+      ],
+      "description": "When Riley says “Oh my” suddenly an arrow flies past her.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": 1380,
+      "resolved_time_ms": 3177000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": [
+        "AT",
+        "RPRTTS",
+        "AT",
+        "ALM",
+        "RT"
+      ],
+      "description": "Kris sneaks through the kitchen. On the table you can already see a man standing with a cape. When he jumps down, a loud noise is heard.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": 10318,
+      "resolved_time_ms": 3863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "0T",
+        "A",
+        "AR",
+        "A",
+        "FTR"
+      ],
+      "description": "Suddenly someone bangs on the car window as Kris stands in front of the house.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": 23302,
+      "resolved_time_ms": 4265000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:58.241Z",
   "title": "Black Christmas",
   "tmdb_id": 551808
 }

@@ -5,8 +5,16 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Something appears behind Heidi.",
+      "description": "Radio turns on suddenly in quiet room",
       "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something appears behind Heidi.",
+      "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2182000,
       "type": "minor"
@@ -14,20 +22,30 @@
     {
       "anchor_phonetic": null,
       "description": "Camera cuts to an old lady.",
-      "id": "scare_02",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2307000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
+      "description": "Loud sting and camera cut to a man who has previously exited the scene",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
       "description": "A strange baby-like creature with extra extremities starts screeching.",
-      "id": "scare_03",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4094000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-24T10:56:07.020Z",
   "title": "The Lords of Salem",
   "tmdb_id": 104755
 }

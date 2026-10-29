@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A homeless man jumps out of a dumpster startling Dan. A couple of seconds later Dan turns around and finds himself face to face with Sil. [Video] .",
+      "description": "A homeless man jumps out of a dumpster startling Dan. A couple of seconds later Dan turns around and finds himself face to face with Sil. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4137000,
@@ -53,13 +53,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The creature jumps out of the water and grabs Fitch. [Video] .",
+      "description": "The creature jumps out of the water and grabs Fitch. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5512000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:31.574Z",
   "title": "Species",
   "tmdb_id": 9348
 }

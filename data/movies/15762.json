@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 1986,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The glass canister breaks.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 598000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpses grabs the man's shirt.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1442000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat jumps at the character.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1981000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly jumps into frame.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2079000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie apears from around the corner.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombified face of a cat is seen.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie dog barks.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4049000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A mans hand breaks through the window.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4562000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie break through the shed wall.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4713000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-22T22:28:35.708Z",
+  "title": "Night Of The Creeps",
+  "tmdb_id": 15762
+}

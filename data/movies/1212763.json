@@ -1,0 +1,147 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A head is  hanging from the fishing line",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He reaches for it from the water",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 305000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The head lunges toward him",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something is knocking inside the coffin",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1528000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lamp explodes and voices speaks to him",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1973000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "flashbacks",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2302000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Burning hands reach for a bug",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3171000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She looks through  the crack in the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3316000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She sits down in the background and then jumps up to the ceiling.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog jumps up to the window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4310000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lamp bursts, and he attacks",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She's standing behind her and attacking her",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4710000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie lurches into view from the hole.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5345000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He attacks her",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie stabs her leg.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The little girl touches the mirror and the lights flicker.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mother appears behind her with a loud music sting.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6592000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-30T14:20:34.189Z",
+  "title": "Evil Dead Burn",
+  "tmdb_id": 1212763
+}

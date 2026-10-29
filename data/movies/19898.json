@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Bower shines his torch on a dead person hanging by some rope. [Video] .",
+      "description": "Bower shines his torch on a dead person hanging by some rope. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1204000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A hanging man suddenly opens his eyes as Bower gets close to him. [Video] .",
+      "description": "A hanging man suddenly opens his eyes as Bower gets close to him. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1967000,
@@ -108,6 +108,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.396Z",
   "title": "Pandorum",
   "tmdb_id": 19898
 }

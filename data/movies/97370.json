@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The man suddenly dissolves into nothing",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2210000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:42:54.884Z",
+  "title": "Under The Skin",
+  "tmdb_id": 97370
+}

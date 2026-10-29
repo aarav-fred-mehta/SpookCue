@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Flashing Image of a bleeding Katherine as she touches John",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 525000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-03-25T02:34:15.752Z",
+  "title": "Solace",
+  "tmdb_id": 339527
+}

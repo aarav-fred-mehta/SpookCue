@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 127,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Octopus's tentacles attack the doctors.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Octopus appears on Harry's balcony.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4525000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Octopus attacks the train.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Harry finds the Green Goblin's mask.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7040000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-19T17:15:14.880Z",
+  "title": "Spider Man 2",
+  "tmdb_id": 558
+}

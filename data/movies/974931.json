@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden knock on the front door breaks the silence as Pam turns around to find a stranger outside wearing the killer's mask.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 437000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden musical sting is heard as the masked stranger re-emerges.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 533000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A misdirection involving a knock at a door other than the one in focus.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie screams as the shot of a zombified witch dummy suddenly appears.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1155000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anti-climactic reveal leads to a dramatic musical sting, leading to a short-lived confrontation with Lurch.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4640000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie jumps in surprise when Kara approaches in a reaper costume, accompanied by a musical sting.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4933000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A musical sting plays as Marisa is scared by a puppet in the haunted house.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5079000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A musical sting identical to the previous plays, this time as the masked killer interacts with the haunted house.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A second killer emerges from the shadows, immediately killing Marisa. There is a prolonged moment of shock and hysteria.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5349000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A small musical sting as the masked killer appears and dashes towards Kara.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5396000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tense moment abruptly stopped by a shot of Chris Dubusage's face, accompanied by a musical sting.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5686000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-20T08:29:54.260Z",
+  "title": "Totally Killer",
+  "tmdb_id": 974931
+}

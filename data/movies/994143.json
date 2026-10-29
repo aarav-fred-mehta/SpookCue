@@ -16,7 +16,7 @@
       "description": "A hand grabs the doorframe and Kaylee screeches.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2840000,
+      "resolved_time_ms": 2856000,
       "type": "major"
     },
     {
@@ -24,7 +24,7 @@
       "description": "Kaylee’s eyeless and mouthless face suddenly appears on screen with a loud droning whine sound.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3499000,
+      "resolved_time_ms": 3518000,
       "type": "major"
     },
     {
@@ -32,18 +32,28 @@
       "description": "The shot of the toy phone cuts to a near identical shot where the phone is smiling wider and looking at the camera, accompanied by a loud ringing.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5574000,
+      "resolved_time_ms": 5552000,
       "type": "major"
     },
     {
       "anchor_phonetic": null,
-      "description": "A large gush of blood spills out of the hall accompanied by a scream. This shot repeats 3 times.",
+      "description": "The shot of the toy phone cuts to a near identical shot where the phone is smiling wider and looking at the camera, accompanied by a loud ringing.",
       "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5574000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large gush of blood spills out of the hall accompanied by a scream. This shot repeats 3 times.",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5718000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-21T01:50:58.773Z",
   "title": "Skinamarink",
   "tmdb_id": 994143
 }

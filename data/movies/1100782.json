@@ -1,0 +1,139 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 127,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man runs through the door screaming.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1294000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man with a crushed face is shown.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skye is grabbed by the man reflected in the mirror.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1971000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A glass breaking sound is heard.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2582000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nude man starts running down the hall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Suddenly Wakes up from nightmare.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bright flash accompanied by the sound of a horn",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3364000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s face appears.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3611000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skye is grabbed from behind by the bloody man.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4243000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears next to Skye.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4470000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden jump-cut to man tearing his jaw off",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4723000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skye turns on the light to see a number of smiling individuals.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman starts yelling in a demonic voice.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5602000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Skye is grabbed from behind.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6758000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman appears in front of Skye.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6806000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman start yelling at Skye with bulging eyes.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6825000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-28T12:42:25.627Z",
+  "title": "Smile 2",
+  "tmdb_id": 1100782
+}

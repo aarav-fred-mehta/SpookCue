@@ -1,0 +1,147 @@
+{
+  "phonetic_index": [],
+  "release_year": 2010,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Abel's wife suddenly storms into the bathroom and startles him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Abel suddenly appears behind little Leah, screaming.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 313000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Abel suddenly pulls the policeman towards him and steals his gun.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the policewoman leans over the killer, he jumps up and slits her throat.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 505000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ambulance explodes.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 541000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the murder on the bridge, there is a loud noise and several short shots of Adam startling.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex suddenly stands in front of Adam as he closes his cupboard.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex suddenly stands behind Adam.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2007000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Penelope is suddenly attacked by the Ripper. Heavily telegraphed.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2904000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Ripper screams and runs towards Brandon.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brittany is attacked from behind by the Ripper as she hides.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Penelope suddenly appears in the mirror.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights go out. Shortly afterwards, the detective is attacked.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Ripper suddenly jumps out of the dark corner and laughs.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4973000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Ripper attacks Adam from behind.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5029000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Ripper suddenly reaches into the wardrobe where Adam and his sister are hiding.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5113000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jerome suddenly comes out of the wardrobe and approaches Adam.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5249000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-02-02T23:31:25.478Z",
+  "title": "My Soul To Take",
+  "tmdb_id": 43931
+}

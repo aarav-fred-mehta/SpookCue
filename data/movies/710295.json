@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Animals screech suddenly to start the movie",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 48000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blake’s dad suddenly grabs him and yells",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature bangs on the door of the deer blind",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 541000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature runs across the rifle scope",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blake slams on the brakes for a creature in the road",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature’s arm shatters the truck window",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1832000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature grabs Blake through the doggy door",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3015000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Windshield wipers reveal a werewolf on the truck hood",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature jumps through the door and attacks Blake",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4358000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blake is suddenly crouching behind his daughter",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4818000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blake grabs the door of the duck blind",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5260000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-28T12:41:33.736Z",
+  "title": "Wolf Man",
+  "tmdb_id": 710295
+}

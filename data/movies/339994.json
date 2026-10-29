@@ -37,11 +37,11 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "being the only really effective scare.",
+      "description": "An unseen person calls out “There you are!” as Sean looks for Ethan outside.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1794000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -60,6 +60,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:22.695Z",
   "title": "The Good Neighbor",
   "tmdb_id": 339994
 }

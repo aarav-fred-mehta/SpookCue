@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2021,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Painfully sharp sound as the doctor sidles into view.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1190000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She stubs her toe on surgical tools.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1433000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doctor taps her shoulder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "It's a piano.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1755000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Her ex's corpse falls from the ceiling.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2466000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She trips on her dead ex.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3702000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans to reveal the doctor.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4661000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A brick falls off the bridge.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4880000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-09T05:24:23.590Z",
+  "title": "Antidote",
+  "tmdb_id": 720109
+}

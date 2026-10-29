@@ -13,11 +13,11 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "being quite significant.",
+      "description": "There is a loud bang as Carver and Anna walk past one of the Halloween maze traps. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5042000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -44,6 +44,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:22.695Z",
   "title": "The Guest",
   "tmdb_id": 241848
 }

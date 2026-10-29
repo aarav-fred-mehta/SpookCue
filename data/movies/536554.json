@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A snowplow hits the family car",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A barking dog jumps at the car window",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 659000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The neighbor’s dog grabs M3GAN’s arm",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2100000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "M3GAN sticks her head through the fence",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2250000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "M3GAN grabs Brandon’s arm in the woods",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3341000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The computers in the lab suddenly turn on",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4663000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-09T03:04:09.693Z",
+  "title": "M3Gan",
+  "tmdb_id": 536554
+}

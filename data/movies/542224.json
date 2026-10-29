@@ -32,7 +32,7 @@
       "description": "A cut to Hansel in the witch’s house follows. There is loud music and the witch suddenly stands in the left corner.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1468000,
+      "resolved_time_ms": 1489000,
       "type": "minor"
     },
     {
@@ -42,8 +42,18 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1715000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gretel opens her eyes and sees a girl looking at her, with a sudden music sting.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2212000,
+      "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-18T07:29:52.060Z",
   "title": "Gretel & Hansel",
   "tmdb_id": 542224
 }

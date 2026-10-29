@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man gets pulled against a car and shot.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 466000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Satanic Slasher is shown to be in the backseat of the car paired with a music sting.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The priest gets stabbed in the neck.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2113000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens in the distance.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Satanic Slasher jumps out of the closet and attacks from behind.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Satanic Slasher appears and says “Leonard Wilkes”.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3983000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Satanic Slasher shoots the woman in the head.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4324000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Satanic Slasher appears behind Jane.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4991000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-04T14:26:12.272Z",
+  "title": "Psycho Killer",
+  "tmdb_id": 1107166
+}

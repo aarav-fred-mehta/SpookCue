@@ -141,7 +141,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Sara turns on the bed-side light and sees a corpse standing in front of her. [Video] .",
+      "description": "Sara turns on the bed-side light and sees a corpse standing in front of her. [Video].",
       "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3841000,
@@ -212,6 +212,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:27.363Z",
   "title": "The Haunting in Connecticut",
   "tmdb_id": 18781
 }

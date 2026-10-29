@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud knock sound intro scene",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "First appearance hint of Kumakatok silhouette",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 475000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:43:20.744Z",
+  "title": "Nokturno",
+  "tmdb_id": 1116877
+}

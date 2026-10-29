@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Robert is about to shoot a deer, a lion suddenly pounces on it. [Video] .",
+      "description": "As Robert is about to shoot a deer, a lion suddenly pounces on it. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 419000,
@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "During a flashback, an infected person suddenly lunges at the car window while Robert and his wife are talking. [Video] .",
+      "description": "During a flashback, an infected person suddenly lunges at the car window while Robert and his wife are talking. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 914000,
@@ -76,6 +76,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:52.575Z",
   "title": "I Am Legend",
   "tmdb_id": 6479
 }

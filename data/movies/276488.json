@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Sgt. MacReady looks in the rear view mirror and sees the mysterious man in the back seat his eyes are white.",
+      "description": "Sgt. MacReady looks in the rear view mirror and sees the mysterious man in the back seat  his eyes are white.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2137000,
@@ -60,6 +60,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:21.247Z",
   "title": "Let Us Prey",
   "tmdb_id": 276488
 }

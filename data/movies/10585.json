@@ -18201,13 +18201,15 @@
         "0RT",
         "AT"
       ],
-      "description": "Chucky’s headless body suddenly breaks through a ventilation duct and attacks Jack. [Video] .",
+      "description": "Chucky’s headless body suddenly breaks through a ventilation duct and attacks Jack. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": 899,
       "resolved_time_ms": 4879000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:17.553Z",
   "title": "Child’s Play",
   "tmdb_id": 10585
 }

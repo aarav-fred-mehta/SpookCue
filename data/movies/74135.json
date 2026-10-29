@@ -2,7 +2,58 @@
   "phonetic_index": [],
   "release_year": 2011,
   "runtime_minutes": 141,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Eriko suddenly springs up from her sleep and gasps.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1019000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The train suddenly shakes, startling the group.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kato suddenly pulls the trigger, shooting Eriko.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3701000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sword suddenly flies out of the fog and stabs Kato.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car suddenly explodes.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6054000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gantz suddenly closes its compartments with a loud mechanical noise.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 8175000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:11.731Z",
   "title": "Gantz: Perfect Answer",
   "tmdb_id": 74135
 }

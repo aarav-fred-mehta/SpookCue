@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After being startled by a dear, a masked man appears behind her",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 170000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-06T15:07:39.004Z",
+  "title": "They Them",
+  "tmdb_id": 816977
+}

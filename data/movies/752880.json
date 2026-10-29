@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Very minor but there’s a really quiet poem and then the title card happens with noise of a rain storm",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 72000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "His mic makes a blast sound",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2843000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-25T04:09:51.814Z",
+  "title": "Tinsman Road",
+  "tmdb_id": 752880
+}

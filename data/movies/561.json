@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 121,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A person walks away and suddenly gets hit by a car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 129000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon suddenly moves towards Constantine from the troath of the possesed woman",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 382000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the pastors eyes turn white, the hand of the body suddenly moves.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2473000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The elder woman in the bus suddenly appears behind John (the boy).",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3058000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden noise may startle some viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3543000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene the foreign person suddenly turns around and grabs Constantines neck.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4956000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon suddenly lunges towards the viewer.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5393000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Chas states his diacope, a roar is heared and you see him flying backwards.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5606000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucifer suddenly lunges towards Constantine.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6169000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-06T14:14:38.726Z",
+  "title": "Constantine",
+  "tmdb_id": 561
+}

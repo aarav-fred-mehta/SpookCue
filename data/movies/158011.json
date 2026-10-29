@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "and the parking garage scene at 22:37 are the most significant.",
+      "description": "During a dream sequence, we suddenly see a quick cut of a bloodied mouth accompanied by a loud roar.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 760000,
@@ -76,6 +76,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:39.657Z",
   "title": "The Call",
   "tmdb_id": 158011
 }

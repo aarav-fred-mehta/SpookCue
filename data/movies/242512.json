@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "On a car window the words “Hi Friend” are written in dust all of a sudden a hand slams against the window from the inside.",
+      "description": "On a car window the words “Hi Friend” are written in dust  all of a sudden a hand slams against the window from the inside.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2469000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Laine looks through the Ouija piece again and sees a demonic figure running towards her. [Video] .",
+      "description": "Laine looks through the Ouija piece again and sees a demonic figure running towards her. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2925000,
@@ -109,7 +109,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Trevor walks towards the pool and spins around to see a screaming decomposed face he is then thrown back into the pool. [Video] .",
+      "description": "Trevor walks towards the pool and spins around to see a screaming decomposed face  he is then thrown back into the pool. [Video].",
       "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4510000,
@@ -132,6 +132,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.396Z",
   "title": "Ouija",
   "tmdb_id": 242512
 }

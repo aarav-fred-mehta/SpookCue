@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Audio sting as the white van enters the frame.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man walks into frame with a audio sting.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is pulled back into the car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl turns around and is spooked by a child.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut and audio sting to a man sanding on the porch.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1848000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man walk into frame with a rope",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden gunshot is heard.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3055000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to a video of a rat being eaten by a snake.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another jump cut to the rat video.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reached out and grabs the girls shoulder.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is scared by a guy emerging from behind a car.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3645000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is grabbed from behind by killer.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5240000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer grabs the girls foot.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 48985000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-28T12:41:48.580Z",
+  "title": "The Man In The White Van",
+  "tmdb_id": 877087
+}

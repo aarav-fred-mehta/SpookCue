@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Doris looks at a mirror though the planchette and sees a demon standing with her. [Video] .",
+      "description": "Doris looks at a mirror though the planchette and sees a demon standing with her. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2506000,
@@ -85,7 +85,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Mikey’s body suddenly drops down from a noose. [Video] .",
+      "description": "Mikey’s body suddenly drops down from a noose. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4300000,
@@ -117,7 +117,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Alice is pushed back by an unseen force as Mikey drops down to grab Lina. [Video] .",
+      "description": "Alice is pushed back by an unseen force as Mikey drops down to grab Lina. [Video].",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4729000,
@@ -148,6 +148,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.398Z",
   "title": "Ouija: Origin of Evil",
   "tmdb_id": 335796
 }

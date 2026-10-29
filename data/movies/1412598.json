@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chad is hit by a car",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dead janitor in the water",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1377000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The whale is passing by Maddie",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud thunder strike",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4378000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-31T17:55:40.555Z",
+  "title": "Killer Whale",
+  "tmdb_id": 1412598
+}

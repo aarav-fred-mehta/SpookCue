@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 121,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A knife jumps out of the box through a man's hand.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 394000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Cenobite suddenly appears watching two characters",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2073000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door slams shut really slow, but it's loud.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud noise following an anatomically correct human backside.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is stabbed in the back.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3782000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There's a loud noise for some reason.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Cenobite jolts and roars.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5375000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-26T19:39:41.682Z",
+  "title": "Hellraiser",
+  "tmdb_id": 338947
+}

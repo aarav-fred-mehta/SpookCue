@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "the protagonists friend sits hunched over in a chair before scaring the protagonist",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1274000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chair is thrown out of the dark onto the panel of glass a pair of researchers are standing behind",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2372000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-24T10:56:08.323Z",
+  "title": "The Signal",
+  "tmdb_id": 242095
+}

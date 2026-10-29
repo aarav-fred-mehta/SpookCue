@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sledgehammer knocks a door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A roaring zombie charges through the doorway.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie in the distance gets shot in the head.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie appears in the background, walking towards Ava.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flashlight shows that there are zombies in the barn.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3435000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie is standing outside in front of the house.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3659000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse becomes alive, loudly taking a breath.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4086000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-06T13:27:54.340Z",
+  "title": "We Bury The Dead",
+  "tmdb_id": 1198984
+}

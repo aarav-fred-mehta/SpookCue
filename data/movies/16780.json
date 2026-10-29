@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 1995,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Camera pans to a rotting animal cadaver",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A trash bag flies into Jenny's face",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1271000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface hits Barry with a hammer",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jenny gets startled by a rustling sound",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface appears behind Jenny, wielding a chainsaw",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2280000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chainsaw suddenly starts buzzing",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2522000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vilmer grabs Jenny's leg from under the car",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3774000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-03-26T00:52:24.123Z",
+  "title": "The Return Of The Texas Chainsaw Massacre",
+  "tmdb_id": 16780
+}

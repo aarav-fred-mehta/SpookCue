@@ -80,7 +80,7 @@
       "description": "Alan’s body falls to the floor behind Radina.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2501000,
+      "resolved_time_ms": 2511000,
       "type": "major"
     },
     {
@@ -93,8 +93,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Haley’s chair gets pulled away.",
+      "description": "Something dragged Haley.",
       "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Haley’s chair gets pulled away.",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2620000,
       "type": "minor"
@@ -102,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "A mysterious face appears in Teddy’s view.",
-      "id": "scare_13",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2744000,
       "type": "major"
@@ -110,7 +118,7 @@
     {
       "anchor_phonetic": null,
       "description": "Another mysterious face appears in Teddy’s view as loud screaming is heard.",
-      "id": "scare_14",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2762000,
       "type": "major"
@@ -118,7 +126,7 @@
     {
       "anchor_phonetic": null,
       "description": "Thudding is heard in the distance.",
-      "id": "scare_15",
+      "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2811000,
       "type": "minor"
@@ -126,7 +134,7 @@
     {
       "anchor_phonetic": null,
       "description": "Teddy’s flashlight explodes.",
-      "id": "scare_16",
+      "id": "scare_17",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2851000,
       "type": "minor"
@@ -134,7 +142,7 @@
     {
       "anchor_phonetic": null,
       "description": "A scream is heard as another explosion occurs, blowing Teddy backwards.",
-      "id": "scare_17",
+      "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2890000,
       "type": "minor"
@@ -142,7 +150,7 @@
     {
       "anchor_phonetic": null,
       "description": "Emma screams loudly after she throws a blanket and it lands in mid-air.",
-      "id": "scare_18",
+      "id": "scare_19",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3007000,
       "type": "minor"
@@ -150,7 +158,7 @@
     {
       "anchor_phonetic": null,
       "description": "A window shatters off-screen as Jemma breaks into Haley’s house.",
-      "id": "scare_19",
+      "id": "scare_20",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3041000,
       "type": "minor"
@@ -158,7 +166,7 @@
     {
       "anchor_phonetic": null,
       "description": "Jemma’s hand reaches for the camera.",
-      "id": "scare_20",
+      "id": "scare_21",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3100000,
       "type": "minor"
@@ -166,7 +174,7 @@
     {
       "anchor_phonetic": null,
       "description": "Haley’s cabinets and drawers burst open.",
-      "id": "scare_21",
+      "id": "scare_22",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3119000,
       "type": "major"
@@ -174,7 +182,7 @@
     {
       "anchor_phonetic": null,
       "description": "Hayley appears from under the desk as her chair knocks over.",
-      "id": "scare_22",
+      "id": "scare_23",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3190000,
       "type": "minor"
@@ -182,12 +190,14 @@
     {
       "anchor_phonetic": null,
       "description": "As Haley snaps a portrait, a mysterious and bloodied figure suddenly screams and lunges towards her and Jemma, but is then abruptly cut off due to the Zoom meeting reaching its time limit.",
-      "id": "scare_23",
+      "id": "scare_24",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3278000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-20T17:20:39.651Z",
   "title": "Host",
   "tmdb_id": 723072
 }

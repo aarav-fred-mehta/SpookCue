@@ -1,0 +1,379 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 136,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A noise sounded behind the woman",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror breaks and we see the entity in the mirror.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror breaks and we see the entity in the mirror",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 326000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some scenes appear",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears at the top of the room",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lamp falls from ceiling and hits Heather",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1081000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lamp falls from ceiling and hits Heather",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hand on Heathers shoulder",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1378000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Janet hears her name being called from the shadows",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1481000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang after an entity was shown",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The telephone receiver is snatched from her hand.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1578000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The telephone receiver is snatched from her hand.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1580000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Figure appears behind the toy",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1703000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dawn spits blood",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Figure is at the edge of the bed",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3245000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Figure is at the edge of the bed",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3248000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Figure attacks Heather",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3455000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights go out and figure is in the dress",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Heather's reflection attacks her through the mirror.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3814000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doors fly open and lights go out",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doors fly open and lights go out",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vision begins with a loud sound",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creaking chair behind rocks by itself",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5860000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creaking chair behind rocks by itself",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Suitcases move on their own",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5867000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Suitcases move on their own",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A doll's head suddenly turns and transforms",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5928000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doll's face appears as a screamer followed by a loud sound",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5950000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doll's face appears as a screamer followed by a loud sound",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5955000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman appears as screamer followed by a loud sound",
+      "id": "scare_30",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6425000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman appears on the road",
+      "id": "scare_31",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6428000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman appears as screamer followed by a loud sound",
+      "id": "scare_32",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6429000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl runs towards the mother",
+      "id": "scare_33",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6564000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl runs towards the mother",
+      "id": "scare_34",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6568000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl moves the dog with her mind and crushes it against the wall",
+      "id": "scare_35",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The daughter suddenly puts her hands on the father",
+      "id": "scare_36",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6666000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An entity was behind the mother when she turned around.",
+      "id": "scare_37",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6740000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An entity was behind the mother when she turned around",
+      "id": "scare_38",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6745000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity gets stabbed in the head by an axe while hearing a loud noise.",
+      "id": "scare_39",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An entity is visible behind",
+      "id": "scare_40",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6978000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror starts to spin",
+      "id": "scare_41",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7039000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror stops spinning",
+      "id": "scare_42",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror falls",
+      "id": "scare_43",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7087000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror breaks",
+      "id": "scare_44",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mirror breaks",
+      "id": "scare_45",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7211000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "We see the entities in the mirror",
+      "id": "scare_46",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7219000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:44:16.316Z",
+  "title": "The Conjuring Last Rites",
+  "tmdb_id": 1038392
+}

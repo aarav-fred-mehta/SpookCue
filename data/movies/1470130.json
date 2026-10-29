@@ -1,0 +1,131 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Delver jumps onto the stairs.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 319000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man turns his head but the music says something scarier happens.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse appears.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2622000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Thunder with music sting.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2689000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nothing changes but there's a loud sound.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2745000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "More loud noises but it's just a guy standing.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2834000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Corpse sits up then pretends it didn't.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3036000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "I forget what happens but in my notes I wrote \"surprise MF the dead fight back!\"",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3114000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Explosion into flashback.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A box falls over! With the LOUDEST music cue in the film!",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3519000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A guy teleports slightly.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Corpse starts gurgling.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4318000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca gets pushed down the stairs.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4475000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He falls over because... scary?",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4506000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon stands across the street. Credits roll.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5120000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-01T23:07:57.206Z",
+  "title": "The Mortuary Assistant",
+  "tmdb_id": 1470130
+}

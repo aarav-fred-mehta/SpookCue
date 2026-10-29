@@ -40174,7 +40174,7 @@
         "TRNS",
         "AN"
       ],
-      "description": "As Spoon begins to tell a joke a dead cow is thrown into the campfire startling the soldiers. [Video] .",
+      "description": "As Spoon begins to tell a joke a dead cow is thrown into the campfire startling the soldiers. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": 1253,
       "resolved_time_ms": 1082000,
@@ -40330,6 +40330,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:41.568Z",
   "title": "Dog Soldiers",
   "tmdb_id": 11880
 }

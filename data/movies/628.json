@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Lestat suddenly grabs Louis and bites him on the neck. [Video] .",
+      "description": "Lestat suddenly grabs Louis and bites him on the neck. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 708000,
@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Louis answers the door but no-one is there, as he goes to close it a corpse-like Lestat suddenly grabs him around the neck. [Video] .",
+      "description": "Louis answers the door but no-one is there, as he goes to close it a corpse-like Lestat suddenly grabs him around the neck. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3933000,
@@ -52,6 +52,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:01.325Z",
   "title": "Interview With the Vampire",
   "tmdb_id": 628
 }

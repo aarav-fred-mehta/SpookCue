@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Terry is hit by a bus. [Video] .",
+      "description": "Terry is hit by a bus. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2961000,
@@ -36,6 +36,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:59.432Z",
   "title": "Final Destination",
   "tmdb_id": 9532
 }

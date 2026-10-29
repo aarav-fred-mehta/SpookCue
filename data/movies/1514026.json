@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "With a loud sound effect, Buddy's plushie is shown behind Wade",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1237000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "With a loud sound effect, Buddy's plushie is shown in the swing",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1263000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Buddy grabs  her arm.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2698000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Buddy grabs Freddy's shoulder",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Monster Buddy attacks the mailman",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4576000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body crashes through the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4604000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Buddy's hoof pass through the door",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4960000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-14T23:25:19.738Z",
+  "title": "Buddy",
+  "tmdb_id": 1514026
+}

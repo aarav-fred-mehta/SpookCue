@@ -33205,7 +33205,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ", they can be easily predicted and won’t shock the average viewer.",
+      "description": "A squawking bird suddenly flies at Amanda.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3686000,
@@ -33266,6 +33266,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:33.221Z",
   "title": "Deep Red",
   "tmdb_id": 20126
 }

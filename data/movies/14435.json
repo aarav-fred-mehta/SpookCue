@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A teenage boy jumps out with a gas mask on and growling to scare Sarah.",
+      "description": "A teenage boy jumps out with a gas mask on and  growling to scare Sarah.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 521000,
@@ -156,6 +156,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:32.735Z",
   "title": "My Bloody Valentine",
   "tmdb_id": 14435
 }

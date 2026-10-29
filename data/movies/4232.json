@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Sidney opens front door to Deputy Dewey holding the killer’s mask. [Video] .",
+      "description": "Sidney opens front door to Deputy Dewey holding the killer’s mask. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1831000,
@@ -156,6 +156,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:17.400Z",
   "title": "Scream",
   "tmdb_id": 4232
 }

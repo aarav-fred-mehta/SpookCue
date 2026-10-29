@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A gremlin comes out of a cupboard. [Video] .",
+      "description": "A gremlin comes out of a cupboard. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3056000,
@@ -93,7 +93,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A gremlin jumps onto Billy’s face. [Video] .",
+      "description": "A gremlin jumps onto Billy’s face. [Video].",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3634000,
@@ -125,7 +125,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The skeletal remains of a gremlin jump out at Billy. [Video] .",
+      "description": "The skeletal remains of a gremlin jump out at Billy. [Video].",
       "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5874000,
@@ -140,6 +140,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:21.156Z",
   "title": "Gremlins",
   "tmdb_id": 927
 }

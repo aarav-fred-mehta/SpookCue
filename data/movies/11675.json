@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ronny is surprised by some students while on the phone. [Video] .",
+      "description": "Ronny is surprised by some students while on the phone. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1548000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "John surprises Molly while she is walking through the dimly lit basement. [Video] .",
+      "description": "John surprises Molly while she is walking through the dimly lit basement. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2184000,
@@ -132,6 +132,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:25.702Z",
   "title": "Halloween H20: 20 Years Later",
   "tmdb_id": 11675
 }

@@ -29680,7 +29680,7 @@
         "A",
         "ANT"
       ],
-      "description": "The ghost reaches through the door and grabs Edith. [Video] .",
+      "description": "The ghost reaches through the door and grabs Edith. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": 9200,
       "resolved_time_ms": 896000,
@@ -29755,6 +29755,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:25.727Z",
   "title": "Crimson Peak",
   "tmdb_id": 201085
 }

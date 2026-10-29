@@ -1,0 +1,179 @@
+{
+  "phonetic_index": [],
+  "release_year": 2005,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Young Tim's bird toy suddenly activities on it's own",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Boogeyman manifests behind Tim's father",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 275000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim's father leaps out of the closet",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden scene transition to a figure passing by could startle some viewers",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 568000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim asks his girlfriend ''are you alright'' and sees a ghastly rendition of his mother on the bed, accompanied by a jarring musical sting",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 957000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead woman abruptly grabs Tim's hand accompanied by a sound effect",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1255000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird flies straight into Tim's car",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1441000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A couple of disturbing images flash rapidly across the screen",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1862000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim is startled by his reflection in the mirror",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim is suddenly attacked by a supernatural force in the closet",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2188000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens on it's own",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure rushes by accompanied by a startling sound effect",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2713000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim lifts down a missing child poster and sees a ghostly child in front of him",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2747000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tim suddenly leaps out of the closet",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure is seen at the window",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3605000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "More scary images flash across the screen",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3949000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "more flashes and cuts to disturbing imagery",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4022000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bath faucet suddenly turns on and then a woman leaps out of the bathtub",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Boogeyman manifests behind Tim",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4614000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is dragged away by The Boogeyman",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4692000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Boogeyman lunges out of the closet",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4814000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-11T20:10:16.912Z",
+  "title": "Boogeyman",
+  "tmdb_id": 8968
+}

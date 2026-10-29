@@ -21,8 +21,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ghostface suddenly fires a random shot in the store.",
+      "description": "Ghostface grabs Tara from behind",
       "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2002000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface suddenly fires a random shot in the store.",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2095000,
       "type": "minor"
@@ -30,7 +38,7 @@
     {
       "anchor_phonetic": null,
       "description": "The music makes a loud sound when Ghostface turns around.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2165000,
       "type": "minor"
@@ -38,7 +46,7 @@
     {
       "anchor_phonetic": null,
       "description": "The shape behind the window punches trough the glass to attack the psychiatrist.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2576000,
       "type": "minor"
@@ -46,7 +54,7 @@
     {
       "anchor_phonetic": null,
       "description": "Right after Mindy says “run”, Quinn’s corpse burst out of her room.",
-      "id": "scare_06",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3306000,
       "type": "minor"
@@ -54,7 +62,7 @@
     {
       "anchor_phonetic": null,
       "description": "Accompanied by a sound effect, Mindy finds a dead man in her bathroom, shortly after, ghostface barges in the room.",
-      "id": "scare_07",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3382000,
       "type": "minor"
@@ -62,7 +70,7 @@
     {
       "anchor_phonetic": null,
       "description": "Just after the killer says “you’re not gonna be able to stop this” on the phone, Ghostface drops the body of Gale’s lover on the floor.",
-      "id": "scare_08",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4571000,
       "type": "minor"
@@ -70,7 +78,7 @@
     {
       "anchor_phonetic": null,
       "description": "Ethan touches Mindy’s shoulder with a clear lack of manner.",
-      "id": "scare_09",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5094000,
       "type": "minor"
@@ -78,7 +86,7 @@
     {
       "anchor_phonetic": null,
       "description": "A man with a ghostface costume jumps in front of the camera.",
-      "id": "scare_10",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5244000,
       "type": "minor"
@@ -86,7 +94,7 @@
     {
       "anchor_phonetic": null,
       "description": "The light flickers, then the killer appears in front of Mindy.",
-      "id": "scare_11",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5398000,
       "type": "minor"
@@ -94,7 +102,7 @@
     {
       "anchor_phonetic": null,
       "description": "Sam’s phone suddenly rings during a quiet scene.",
-      "id": "scare_12",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5654000,
       "type": "minor"
@@ -102,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "Ghostface stabs Tara.",
-      "id": "scare_13",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5764000,
       "type": "minor"
@@ -110,7 +118,7 @@
     {
       "anchor_phonetic": null,
       "description": "Ethan, back from the dead, runs into the room screaming.",
-      "id": "scare_14",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6781000,
       "type": "minor"
@@ -118,20 +126,14 @@
     {
       "anchor_phonetic": null,
       "description": "Ghostface quickly flashes on screen before the credits roll.",
-      "id": "scare_15",
+      "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6984000,
       "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
-      "description": "Ghostface rushes trough the door.",
-      "id": "scare_16",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 15545000,
-      "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-06T02:41:24.477Z",
   "title": "Scream 6",
   "tmdb_id": 934433
 }

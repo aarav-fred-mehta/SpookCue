@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2001,
+  "runtime_minutes": 179,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "When Bilbo sees the One Ring collared around Frodo's neck, his face changes while lunging towards Frodo.\r\n[THEATRICAL VERSION] 01:34:39\r\n[EXTENDED VERSION] 01:47:58",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5679000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-19T14:10:18.851Z",
+  "title": "The Lord Of The Rings The Fellowship Of The Ring",
+  "tmdb_id": 120
+}

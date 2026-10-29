@@ -1,0 +1,91 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The quiet is broken by a sudden cut to a door opening with a rusty squeak. Not a traditional jump scare, but it may startle sensitive viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Sister Cecilia speaks, it suddenly cuts to a flashback of her screaming underwater.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1096000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sister Cecilia turns to find help and the Reverend Mother is suddenly behind her, accompanied by an emphatic sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the confessional, the wall behind Sister Cecilia breaks open as hands grab her from behind, accompanied by a distant scream.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1431000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sister Cecilia is lying in bed when someone lunges with scissors and snips part of her hair.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1684000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird slams into the window, accompanied by an emphatic sound effect.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1881000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sister Cecilia is suddenly shoved underwater in the tub, accompanied by a loud sound effect.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2340000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sister Cecelia backs away from the keyhole, someone quickly covers her mouth from behind.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flashlight turns back on, revealing a corpse that startles Sister Cecilia, accompanied by an emphatic sound effect.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sister Cecilia is yanked from the tunnel, accompanied by an emphatic sound effect.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4519000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:44:46.669Z",
+  "title": "Immaculate",
+  "tmdb_id": 1041613
+}

@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "After waking from a dream, John looks across and sees the deformed policeman sitting beside him. [Video] .",
+      "description": "After waking from a dream, John looks across and sees the deformed policeman sitting beside him. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1466000,
@@ -84,6 +84,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:56.050Z",
   "title": "In The Mouth Of Madness",
   "tmdb_id": 2654
 }

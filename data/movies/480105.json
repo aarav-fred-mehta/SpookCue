@@ -13991,7 +13991,7 @@
         "A",
         "ALTNNT"
       ],
-      "description": "The fish suddenly begins to scream as Nicole tries to touch it. ​.",
+      "description": "The fish suddenly begins to scream as Nicole tries to touch it. ​",
       "id": "scare_01",
       "offset_from_anchor_ms": 1870,
       "resolved_time_ms": 1675000,
@@ -14037,7 +14037,7 @@
         "A",
         "0R"
       ],
-      "description": "When Sasha says “There is another way through” the shark suddenly appears without warning in the cone of light of the flashlight. This is accompanied by a very loud sound effect. ​.",
+      "description": "When Sasha says “There is another way through” the shark suddenly appears without warning in the cone of light of the flashlight. This is accompanied by a very loud sound effect. ​",
       "id": "scare_04",
       "offset_from_anchor_ms": 2255,
       "resolved_time_ms": 2402000,
@@ -14162,6 +14162,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.161Z",
   "title": "47 Meters Down: Uncaged",
   "tmdb_id": 480105
 }

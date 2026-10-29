@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A loud bang can be heard from upstairs.",
+      "description": "A loud bang can be heard from upstairs.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 485000,
@@ -92,6 +92,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:41.755Z",
   "title": "You’re Next",
   "tmdb_id": 83899
 }

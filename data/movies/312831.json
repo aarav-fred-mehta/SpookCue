@@ -141,13 +141,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "During mid-credits scene, we see the logging truck drive off while calming music plays only to reveal the creature screeching at the camera.",
+      "description": "During  mid-credits scene, we see the logging truck drive off while calming music plays only to reveal the creature screeching at the camera.",
       "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5574000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:22.526Z",
   "title": "The Hallow",
   "tmdb_id": 312831
 }

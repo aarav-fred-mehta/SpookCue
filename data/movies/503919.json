@@ -8,7 +8,7 @@
       "description": "Accompanied by a loud orchestral chord, Winslow turns around to see Wake towering over him.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4659000,
+      "resolved_time_ms": 4669000,
       "type": "minor"
     },
     {
@@ -16,7 +16,7 @@
       "description": "Water breaks through the window accompanied by a discordant orchestral note.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5075000,
+      "resolved_time_ms": 5087000,
       "type": "minor"
     },
     {
@@ -24,7 +24,7 @@
       "description": "Winslow suddenly punches the clock.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 5210000,
+      "resolved_time_ms": 5220000,
       "type": "minor"
     },
     {
@@ -36,6 +36,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-08T02:04:31.776Z",
   "title": "The Lighthouse",
   "tmdb_id": 503919
 }

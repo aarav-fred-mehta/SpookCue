@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Girl gets pulled down with loud noise",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 184000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity disguised as Ryan comes out from behind the bus",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2937000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl accidentally bumps Naim in a tense scene.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3193000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan jumps up from under the bed, screaming.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3694000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan-Entity suddenly jumps out and attacks Naim in a dream sequence.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3695000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ryan punches through the screen door and attacks Naim, thereby revealing itself as Entity-Ryan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4151000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-23T20:50:38.651Z",
+  "title": "Leviticus",
+  "tmdb_id": 1564614
+}

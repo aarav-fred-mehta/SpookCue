@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A shot breaks the window of the car and kills the woman",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3165000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-30T14:26:46.189Z",
+  "title": "Greenland 2 Migration",
+  "tmdb_id": 840464
+}

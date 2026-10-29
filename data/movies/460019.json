@@ -2,7 +2,66 @@
   "phonetic_index": [],
   "release_year": 2018,
   "runtime_minutes": 101,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Olivia turns around and bumps into Ronnie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 775000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Olivia walks back into the now empty room, she turns around and sees the group standing in front of her with creepy smiles.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Markie opens the door loudly starling Olivia.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The elderly woman from the hospital suddenly appears on screen accompanied by a sound effect.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2355000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The elderly woman suddenly grabs Brad around the head.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2381000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Giselle knocks on the car window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3306000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man grabs Olivia around the neck.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3708000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:21.431Z",
   "title": "Truth or Dare",
   "tmdb_id": 460019
 }

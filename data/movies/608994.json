@@ -85,7 +85,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A demon grabs Chris’s leg from under the toilet stall.",
+      "description": "A demon grabs  Chris’s leg from under the toilet stall.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3191000,
@@ -116,6 +116,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:57.063Z",
   "title": "The Cleansing Hour",
   "tmdb_id": 608994
 }

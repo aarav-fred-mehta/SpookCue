@@ -1,0 +1,91 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Nikki gets startled by a loud noise after kissing Bear.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vigorous intercourse with scary sound.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2676000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nikki screams and Bear is startled.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2856000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nikki abruptly appears after Bear turns on the lights.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She gets startled by something accompanied by a sound",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Background music abruptly stops, Nikki walks backwards in a robotic manner, and stays still in the dark.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4685000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAJOR SPOILER: Sarah is suddenly brutally murdered by Nikki, who smashes through the car window and repeatedly smashes a brick against her head.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5235000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He screams and something falls from above",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5745000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nikki shoots Ian in the face",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to Nikki screaming and banging on a door.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5953000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-14T11:21:46.101Z",
+  "title": "Obsession",
+  "tmdb_id": 1339713
+}

@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A picture of bloody Margaret is shown, along with a sound effect",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 29000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a tense scene, the generators suddenly turn off",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The generator turns on to reveal the clown",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The generator turns on to reveal the clown again",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 516000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Masked Margaret appears behind the wall",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vanessa sees a clown standing",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1034000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown attacks Bobby",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1485000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vanessa sees a woman seated in one of the benches",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown starts walking towards Tom",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3021000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vanessa sees the clown on the backseat",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3261000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown jumps on the bed",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3800000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alicia opens the door and sees a clown",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang is heard",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4567000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-14T07:40:34.057Z",
+  "title": "Hell House Llc Lineage",
+  "tmdb_id": 1202306
+}

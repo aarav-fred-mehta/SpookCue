@@ -2,7 +2,74 @@
   "phonetic_index": [],
   "release_year": 2015,
   "runtime_minutes": 90,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The man touches an animatronic corpse, which suddenly goes off and begins to flail around.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the funhouse workers turns around a corner and is grabbed by the Rocco the clown.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lights go off, causing the group of girls to scream.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the camera is panning, Dr. Suave jumps out from behind a corner.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2501000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey and Randall approach a window and Dollface slams a girl against it from the other side.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman runs up to the car and begins to bang on the window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3583000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A funhouse worker jumps out at Laurie and the injured man while they are walking through a hallway.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4056000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Post credits scene – As the camera pans over several body bags, one of them springs up.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5438000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:39.657Z",
   "title": "The Funhouse Massacre",
   "tmdb_id": 363889
 }

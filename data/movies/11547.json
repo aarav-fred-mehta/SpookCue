@@ -25976,124 +25976,129 @@
   "scares": [
     {
       "anchor_phonetic": [
-        "S",
-        "AAM",
-        "FT",
-        "S",
+        "JSS",
+        "KT",
+        "TMN",
         "AT",
-        "A",
-        "HP",
-        "XS",
-        "NT",
-        "ANRKSK"
+        "TNS",
+        "N"
       ],
       "description": "Dennis bites Paul on the hand.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 7541,
-      "resolved_time_ms": 329000,
+      "offset_from_anchor_ms": 1416,
+      "resolved_time_ms": 346000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "PT",
-        "M",
-        "TT",
-        "ALTNNT",
-        "LT",
         "AS",
-        "K",
-        "0R"
+        "AT",
+        "TR",
+        "LK",
+        "A",
+        "FSSN",
+        "AR",
+        "A",
+        "PRFSR"
       ],
       "description": "Paul leaves the camp fire and is startled by Grim and his dog.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 291,
-      "resolved_time_ms": 1223000,
+      "offset_from_anchor_ms": 27500,
+      "resolved_time_ms": 1314000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "FRK",
+        "0RS",
+        "N",
         "A",
-        "0T",
-        "H",
-        "AS",
-        "FN"
+        "0S",
+        "KNTJS",
+        "FKRRS",
+        "KMNK",
+        "AN",
+        "HR"
       ],
       "description": "Jeff opens the door and the infected man is standing outside.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 4000,
-      "resolved_time_ms": 1432000,
+      "offset_from_anchor_ms": 2166,
+      "resolved_time_ms": 1531000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "A",
-        "PRNT",
-        "HNR",
-        "FK"
+        "0T",
+        "HF",
+        "PN",
+        "AT",
+        "0",
+        "KPN",
+        "P",
+        "N"
       ],
       "description": "Bert jumps out at Marcy in the kitchen.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 23583,
-      "resolved_time_ms": 2115000,
+      "offset_from_anchor_ms": 82,
+      "resolved_time_ms": 2245000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
+        "XT",
+        "AT",
+        "AF",
+        "AT",
+        "KTS",
+        "KLSR",
         "A",
-        "AM",
-        "NT",
-        "ATNK",
-        "FR",
-        "0T",
-        "TPT",
-        "T",
-        "KM",
-        "PK"
+        "KN",
+        "HT",
+        "AT"
       ],
       "description": "There is a gunshot as the scene abruptly cuts to Bert and Jeff.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 1333,
-      "resolved_time_ms": 2594000,
+      "offset_from_anchor_ms": 31208,
+      "resolved_time_ms": 2744000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "SMPT",
-        "AL",
-        "P",
+        "HH",
+        "RT",
+        "A",
+        "AM",
+        "NT",
+        "KN",
         "AT",
-        "HR",
+        "ANTL",
         "A",
-        "ANNT",
-        "LF",
-        "A",
-        "ALN"
+        "KT",
+        "PK",
+        "T",
+        "TN"
       ],
       "description": "A man puts his hand on Paul’s shoulder while he is looking into a bedroom.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 25208,
-      "resolved_time_ms": 3053000,
+      "offset_from_anchor_ms": 374,
+      "resolved_time_ms": 3230000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "AR",
-        "KN",
-        "ST",
-        "AT",
-        "HR",
-        "AL",
-        "NT",
-        "FR",
+        "S",
         "A",
-        "AL",
-        "RT"
+        "T",
+        "KN",
+        "FKNK",
+        "RT",
+        "PT",
+        "NT",
+        "M"
       ],
       "description": "Karen vomits blood over the windscreen.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 6416,
-      "resolved_time_ms": 3326000,
+      "offset_from_anchor_ms": 7750,
+      "resolved_time_ms": 3569000,
       "type": "minor"
     },
     {
@@ -26104,28 +26109,32 @@
         "AR",
         "SM0NK"
       ],
-      "description": "Paul sees a deer on the road.",
+      "description": "Paul turns Karen's body over, revealing her horribly diseased face.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 21208,
-      "resolved_time_ms": 4327000,
+      "offset_from_anchor_ms": 22208,
+      "resolved_time_ms": 4328000,
       "type": "minor"
     },
     {
       "anchor_phonetic": [
-        "AT",
-        "T",
         "A",
-        "NT",
+        "ST",
+        "AF",
         "A",
-        "NT",
-        "A",
-        "RT"
+        "S",
+        "0",
+        "KTS",
+        "JST",
+        "XT",
+        "0M",
+        "AN",
+        "ST"
       ],
-      "description": "Paul dreams about happier times with Karen, the dream is interrupted by an image of Karen’s horribly diseased face. [Video] .",
+      "description": "Paul sees a deer on the road.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 4917,
-      "resolved_time_ms": 4621000,
-      "type": "major"
+      "offset_from_anchor_ms": 9833,
+      "resolved_time_ms": 4660000,
+      "type": "minor"
     },
     {
       "anchor_phonetic": [
@@ -26140,13 +26149,28 @@
         "AF",
         "A"
       ],
-      "description": "Jeff is shot repeatedly.",
+      "description": "Paul dreams about happier times with Karen, the dream is interrupted by an image of Karen’s horribly diseased face. [Video]",
       "id": "scare_10",
-      "offset_from_anchor_ms": 7625,
-      "resolved_time_ms": 4925000,
+      "offset_from_anchor_ms": 57625,
+      "resolved_time_ms": 4975000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": [
+        "SNK",
+        "L",
+        "ST",
+        "XRT"
+      ],
+      "description": "Jeff is shot repeatedly.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": 1458,
+      "resolved_time_ms": 5318000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-19T17:13:01.555Z",
   "title": "Cabin Fever",
   "tmdb_id": 11547
 }

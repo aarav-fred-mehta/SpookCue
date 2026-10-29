@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Two bodies being held in hanging sacks start to struggle and scream. [Video] .",
+      "description": "Two bodies being held in hanging sacks start to struggle and scream. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2574000,
@@ -100,6 +100,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:11.732Z",
   "title": "Ghost Ship",
   "tmdb_id": 9645
 }

@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Tom sits up on the couch and turns on the TV, when he lies back down on the couch, there is a girl sitting next to him. [Video] .",
+      "description": "Tom sits up on the couch and turns on the TV, when he lies back down on the couch, there is a girl sitting next to him. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1097000,
@@ -76,6 +76,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:39.395Z",
   "title": "Stir of Echoes",
   "tmdb_id": 11601
 }

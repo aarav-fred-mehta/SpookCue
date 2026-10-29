@@ -1,0 +1,187 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Long hair is seen and then a sudden sound and scary face peeking from above.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 373000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden bang sound and monster comes from under the bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 526000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Camera pans up to reveal woman at the door, after a few seconds she runs at camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 575000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Boy turns to look at the woman and with a sound cue we see her smiling at him with black eyes now.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After saying \"the monster will come and get you\", the woman shouts \"now run!\" suddenly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 703000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Minor sound cue as the woman is standing in the doorway behind the man now",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 810000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Growl sound heard from the side after man uncovers a body",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1162000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud sound cue as man comes into view crashing into the wall",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1192000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man says \"The child--\" and is pulled aggressively out of view.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1211000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A short flash of a demon with a low sudden audio cue",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1705000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man is at the foot of the bed licking the woman's toes with an audio cue",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1814000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Camera pans up to reveal man above the couch yelling \"what have you done\"",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2186000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman is seen in the dark with a minor sound cue, and we cut back to woman saying \"bobby?\", and again to woman in the dark",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2562000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A thud is heard from above",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2697000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Light flickers on and with an audio cue we see the demon hunched at the end of the hallway",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2788000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Demon comes from behind the corner",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2873000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife is hit into the photo and a few quick scenes of a woman running and the demon are shown",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to the woman screaming with a sudden audio cue",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3953000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon is standing in the hallway",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4081000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Audio cue and the person dressed in a ghost sheet is standing behind the man",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4219000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot is heard.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4472000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Audio cue and sudden quick cut of demon's face.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4716000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-10T01:13:50.418Z",
+  "title": "Traumatika",
+  "tmdb_id": 1319482
+}

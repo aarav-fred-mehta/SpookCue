@@ -5,13 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Ichabod reaches towards the sorceress when she suddenly leaps at him, revealing her horrific face. [Video] .",
+      "description": "Ichabod reaches towards the sorceress when she suddenly leaps at him, revealing her horrific face. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2783000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:26.859Z",
   "title": "Sleepy Hollow",
   "tmdb_id": 2668
 }

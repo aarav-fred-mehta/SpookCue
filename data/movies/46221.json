@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ", 1:09:21, and 1:13:57 being the most significant.",
+      "description": "The guard is dragged out of sight around a corner by an unseen creature.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3411000,
@@ -52,6 +52,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:05.546Z",
   "title": "The Tunnel",
   "tmdb_id": 46221
 }

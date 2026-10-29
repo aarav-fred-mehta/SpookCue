@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A scary face flashes up on a laptop screen. [Video] .",
+      "description": "A scary face flashes up on a laptop screen. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 325000,
@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Piano keys start to play by themselves. [Video] .",
+      "description": "Piano keys start to play by themselves. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2413000,
@@ -76,6 +76,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:32.749Z",
   "title": "The Innkeepers",
   "tmdb_id": 58428
 }

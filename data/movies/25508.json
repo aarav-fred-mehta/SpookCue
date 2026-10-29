@@ -24545,7 +24545,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Alice becomes increasingly nervous as she walks alone through central park at night. A low growl causes Alice to look around and immediately after a bus pulls up in front of her. [Video] .",
+      "description": "Alice becomes increasingly nervous as she walks alone through central park at night. A low growl causes Alice to look around and immediately after a bus pulls up in front of her. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2660000,
@@ -24560,6 +24560,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:12.858Z",
   "title": "Cat People",
   "tmdb_id": 25508
 }

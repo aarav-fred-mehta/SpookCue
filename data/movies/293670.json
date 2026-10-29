@@ -13,8 +13,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A brief flash of a man’s bloodied mouth closing in on the camera may startle some viewers.",
+      "description": "The man opens a small chest and a face mask appears",
       "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A brief flash of a man’s bloodied mouth closing in on the camera may startle some viewers.",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6296000,
       "type": "minor"
@@ -22,7 +30,7 @@
     {
       "anchor_phonetic": null,
       "description": "There is a loud thud as a bird flies into a wall.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 7375000,
       "type": "minor"
@@ -30,12 +38,14 @@
     {
       "anchor_phonetic": null,
       "description": "There is a very short flashback to the Japanese man coming towards the screen.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 7882000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-03T20:29:51.028Z",
   "title": "The Wailing",
   "tmdb_id": 293670
 }

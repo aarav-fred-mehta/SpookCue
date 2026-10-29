@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kid bumps the other kid as he's looking into the forest. Sharp sound cue.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1355000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man suddenly shouts out \"because I'm one of them!\" to startle the kids.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1560000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Flashlight turned on on sleeping kid with a sound cue.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man crashes through the door behind the kids.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3085000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man appears behind girl.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3168000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sound effect as someone is behind the door that is opened.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3511000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-02-01T17:16:54.357Z",
+  "title": "Marshmallow",
+  "tmdb_id": 1134048
+}

@@ -2,7 +2,74 @@
   "phonetic_index": [],
   "release_year": 2014,
   "runtime_minutes": 85,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A masked man breaks the window of Corey’s car as he is about to drive off.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 433000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A severed head is slammed into a window. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1239000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud gun shot.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Johnny is hit over the head as he tries to escape.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A close up shot of a man’s face as he is shot in the eye may startle some viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman looks up while crawling through a wheat field and sees a scarecrow.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jami sees a bloodied face lying beside her in bed.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4001000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer’s masked face suddenly appears on the screen, accompanied by a sound effect. [Video]",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4072000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:05.687Z",
   "title": "The Town That Dreaded Sundown",
   "tmdb_id": 287084
 }

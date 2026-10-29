@@ -21,8 +21,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Scott puts his hand on Chris’s shoulder.",
+      "description": "Something suddenly comes flying out of the door",
       "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1617000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scott puts his hand on Chris’s shoulder.",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1805000,
       "type": "minor"
@@ -30,15 +38,23 @@
     {
       "anchor_phonetic": null,
       "description": "One of the mutant cannibals drops a body beside where some of the group are hiding.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1892000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
+      "description": "Chris notices the cannibal mutant is awake and looking at him",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
       "description": "Chris sets off a trap as the group wander through the woods.",
-      "id": "scare_05",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2820000,
       "type": "minor"
@@ -46,7 +62,7 @@
     {
       "anchor_phonetic": null,
       "description": "The mutants knock on the door of the tree hut.",
-      "id": "scare_06",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3247000,
       "type": "minor"
@@ -54,7 +70,7 @@
     {
       "anchor_phonetic": null,
       "description": "An axe lands in Carly’s face.",
-      "id": "scare_07",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3520000,
       "type": "minor"
@@ -62,7 +78,7 @@
     {
       "anchor_phonetic": null,
       "description": "One of the mutants jump down behind Jessie.",
-      "id": "scare_08",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3700000,
       "type": "minor"
@@ -70,7 +86,7 @@
     {
       "anchor_phonetic": null,
       "description": "Jessie dreams of one of the mutants attacking her with an axe.",
-      "id": "scare_09",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3900000,
       "type": "minor"
@@ -78,7 +94,7 @@
     {
       "anchor_phonetic": null,
       "description": "An axe is flung at Chris.",
-      "id": "scare_10",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3983000,
       "type": "minor"
@@ -86,7 +102,7 @@
     {
       "anchor_phonetic": null,
       "description": "The police officer gets shot at by one of the mutants.",
-      "id": "scare_11",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4031000,
       "type": "minor"
@@ -94,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "A fire suddenly erupts in the house.",
-      "id": "scare_12",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4316000,
       "type": "minor"
@@ -102,12 +118,14 @@
     {
       "anchor_phonetic": null,
       "description": "Chris gets grabbed from behind while freeing Jessie.",
-      "id": "scare_13",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4386000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-21T16:29:29.294Z",
   "title": "Wrong Turn",
   "tmdb_id": 9902
 }

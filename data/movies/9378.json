@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A flash of light and a high pitched noise startle Dennis (this occurs several more times throughout the movie) .",
+      "description": "A flash of light and a high pitched noise startle Dennis (this occurs several more times throughout the movie).",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1553000,
@@ -140,6 +140,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:43.711Z",
   "title": "Thir13en (Thirteen) Ghosts",
   "tmdb_id": 9378
 }

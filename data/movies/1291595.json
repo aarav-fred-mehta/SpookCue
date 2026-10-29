@@ -1,0 +1,251 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something runs across the screen with a scream",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She runs toward her with the knife.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 406000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She bangs her head against the wall.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The title appears accompanied by a loud, shrill sound",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The voice says, “The door is open.”",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1019000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She's standing behind her",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1078000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She appears in the little mirror",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a figure at the end of the tunnel",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1608000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A new figure appears in the tunnel",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1654000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A new figure appears beside her, approaches her, and follows her",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1667000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears as it crawls through the pillows",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1735000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the person bites down",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2172000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone is standing behind the patient",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something is above her, speaking to the figures",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Creepy figures appear one after another in the light",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She opens her eyes wide",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creepy figure is sitting next to him and is holding a weapon.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "With a loud sound, she pushes the clothes aside and sees the red door",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3239000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "figures behind her",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure is lying in bed as she gets up",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3291000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something grabs her from behind",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3645000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Figure in the Light",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4257000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure leaps toward her",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4275000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure leaps toward her",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4303000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure reaches for the child",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure is standing behind her",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a figure with her",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure looms over her and tries to grab her",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5152000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something is attacking her from the side",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5316000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The figure is grasped, and Red Demon appears before him",
+      "id": "scare_30",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5728000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-25T04:20:43.713Z",
+  "title": "Insidious Out Of The Further",
+  "tmdb_id": 1291595
+}

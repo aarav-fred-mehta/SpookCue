@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The killer jumps out from underneath a plastic sheet and attacks Helen. [Video] .",
+      "description": "The killer jumps out from underneath a plastic sheet and attacks Helen.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4788000,
@@ -101,13 +101,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A dark figure crashes through the door. [Video] .",
+      "description": "A dark figure crashes through the door. [Video].",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5806000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-08T03:30:59.028Z",
   "title": "I Know What You Did Last Summer",
   "tmdb_id": 3597
 }

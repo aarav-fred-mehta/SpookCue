@@ -19279,13 +19279,15 @@
         "A",
         "AM"
       ],
-      "description": "Quinn abruptly jumps up and attacks the medical examiner in the hospital. [Video] .",
+      "description": "Quinn abruptly jumps up and attacks the medical examiner in the hospital. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": 1744,
       "resolved_time_ms": 798000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:01.545Z",
   "title": "Blade",
   "tmdb_id": 36647
 }

@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Lars scares Derek by shouting “boo” from behind him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature suddenly escapes from the block of ice. [Video].",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1507000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of The Thing’s tentacles shoots out and impales Henrik.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1735000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kate pulls back the shower curtain to a stinger sound effect. Revealing the shower is covered in blood.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Thing takes over Juliette’s body lunging at Kate with a jarring sound.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Lars enters a building, he is grabbed by something and pulled inside.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3965000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A miniature “Thing” jumps at Kate.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4580000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Thing bursts through a window in front of Carter.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4691000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of The Thing’s tentacles suddenly lashes out at Kate as she inches towards the grenade.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5398000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-12-11T14:21:01.630Z",
+  "title": "The Thing",
+  "tmdb_id": 60935
+}

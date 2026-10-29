@@ -21,13 +21,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ") and a couple of other scenes that, while not true jump scares, might nevertheless startle viewers.",
+      "description": "John turns around and comes face to face with Cooper.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3529000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:44.375Z",
   "title": "The Neighbor",
   "tmdb_id": 403642
 }

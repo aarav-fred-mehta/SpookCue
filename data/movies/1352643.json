@@ -1,0 +1,91 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The screen jumps from black to a woman's face with a loud sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 29000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disembodied voice shouts.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A random loud noise plays but nothing actually happens?",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1281000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The patient says \"boo!\"",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud voice says \"HELLO LEON.\"",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud noise. It's just a guy.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3182000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "I think they were trying for a jumpscare? A lady gasps with a noise.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3635000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead man screams back to life with creepy eyeballs.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4109000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is dragged away.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5477000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"I'm magic, baby!\"",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6212000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-12-13T15:33:31.946Z",
+  "title": "Never Blink",
+  "tmdb_id": 1352643
+}

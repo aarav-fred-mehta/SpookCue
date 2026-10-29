@@ -1,0 +1,155 @@
+{
+  "phonetic_index": [],
+  "release_year": 1999,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A torch is briefly shone on a figure before the camera footage cuts out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 66000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud bang startles James in his tent.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1550000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa suddenly bursts into James’ tent.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1577000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a burst of static from the walkie-talkie during a quiet scene.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1595000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lane suddenly appears in front of Talia and James.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1751000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something appears to pull Peter away and the camera footage cuts out.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ashley suddenly pulls Lisa’s hand away from the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2862000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James startles Lisa.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera gradually approaches the back of Talia’s head and she suddenly screams.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A branch snaps and a hysterical Talia appears in front of James.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3268000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tent flies into the air.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3364000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unseen force pulls Ashley out of the tree.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3872000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A flash of lightning illuminates the room and a woman can briefly be seen watching James.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4163000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disheveled Lane suddenly appears in front of Lisa.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4301000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lane runs at Lisa while screaming.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4613000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There are several loud whooshing noises.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4629000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lane sees a tall thin figure coming towards her in a hallway.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4656000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James runs into Lisa.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4685000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:01.617Z",
+  "title": "The Blair Witch Project",
+  "tmdb_id": 351211
+}

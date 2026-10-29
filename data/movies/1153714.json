@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 107,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The Unicorn smashes its head through the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden gunshot is heard.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3287000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is stabbed in the neck by the unicorn.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4222000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is charged by a unicorn.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4649000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A unicorn face is seen coming out of the darkness screaming.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4912000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The unicorn busts through the door",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5184000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-24T01:41:57.477Z",
+  "title": "Death Of A Unicorn",
+  "tmdb_id": 1153714
+}

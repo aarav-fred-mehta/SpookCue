@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 125,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A light flashes at Godzilla, accompanied by his loud roar.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 266000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During Shikishima's nightmare, Godzilla's feet appears and crushes a Japanese mechanic.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1546000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Godzilla surfaces and drags a minesweeper boat down into the ocean.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2313000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-17T19:12:44.589Z",
+  "title": "Godzilla Minus One",
+  "tmdb_id": 940721
+}

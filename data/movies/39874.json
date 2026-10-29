@@ -2,7 +2,98 @@
   "phonetic_index": [],
   "release_year": 1981,
   "runtime_minutes": 90,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears behind Mabel and attacks her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mabel’s decomposing head falls out of the clothes dryer.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1639000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Happy opens the door once more and this time the real killer is standing behind it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2364000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer grabs Dave’s head as he tends to a boiling pot.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2645000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Miner coveralls drop from the ceiling startling Sylvia.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3148000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse drops down in front of Sylvia.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3175000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hollis yells out “BOO” to scare Sarah and Patty.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Howard drops down from above Hollis to scare the group.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3809000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hollis’ bloodied head appears from around a corner startling Howard.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sarah and Patty climb the ladder, a corpse suddenly drops from above them.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4664000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears in front of Sarah and Patty.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4916000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:32.808Z",
   "title": "My Bloody Valentine",
   "tmdb_id": 39874
 }

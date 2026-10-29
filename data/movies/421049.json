@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A bird startles the man.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure runs across the screen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knock is heard on the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1886000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bug crawls across the stuffed toy.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man if pulled off screen.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The watcher opens his mouth wide and screams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4490000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The watcher grabs the Mina.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5395000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-22T08:30:25.788Z",
+  "title": "The Watcher",
+  "tmdb_id": 421049
+}

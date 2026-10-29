@@ -26,8 +26,18 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5028000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A character is suddenly axed in the head by another character.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5550000,
+      "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-10T21:20:46.353Z",
   "title": "The Black Phone",
   "tmdb_id": 756999
 }

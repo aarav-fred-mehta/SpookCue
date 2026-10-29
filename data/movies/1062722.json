@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 150,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A Corpse awakes and Starts Screaming.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1412000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Corpse awakes and Starts Screaming.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3077000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "flames are coming out of the building",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "frankenstein is behind the door",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5285000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a loud scream of the creature",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7040000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-29T01:29:59.186Z",
+  "title": "Frankenstein",
+  "tmdb_id": 1062722
+}

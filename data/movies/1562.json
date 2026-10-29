@@ -16530,7 +16530,7 @@
         "A",
         "MMNT"
       ],
-      "description": "An infected soldier bursts through a door and slams into a glass wall in front of Tammy and Andy. [Video] .",
+      "description": "An infected soldier bursts through a door and slams into a glass wall in front of Tammy and Andy. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": 18818,
       "resolved_time_ms": 2871000,
@@ -16627,6 +16627,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.087Z",
   "title": "28 Weeks Later",
   "tmdb_id": 1562
 }

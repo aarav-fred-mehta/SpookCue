@@ -29279,7 +29279,7 @@
         "M",
         "AN"
       ],
-      "description": "A disfigured Margaret appears from between the clothes in Emily’s closet. [Video] .",
+      "description": "A disfigured Margaret appears from between the clothes in Emily’s closet. [Video]",
       "id": "scare_08",
       "offset_from_anchor_ms": 54679,
       "resolved_time_ms": 4692000,
@@ -29302,6 +29302,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:12.918Z",
   "title": "Case 39",
   "tmdb_id": 28355
 }

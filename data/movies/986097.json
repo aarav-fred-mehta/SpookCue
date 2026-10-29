@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Cameron leans down and back up and a figure is standing behind him",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 441000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man in the dark suddenly moves",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 741000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly slams the door shut",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 841000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crazy fan suddenly slams against the car window accompanied by a loud sound",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 962000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "er a room Goes dark long dread builds up and the man in the ice Bath Goes under water when suddenly another man yells at him",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1807000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A pan to the Right reveals a figure",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "another sudden cut to a man waking up cameron",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "after long build up a baseball sound is heard when cameron puts his ear against a door",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2838000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cameron is suddenly photographed the sound is build up so it isnt unexpected",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2889000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:44:28.269Z",
+  "title": "Him",
+  "tmdb_id": 986097
+}

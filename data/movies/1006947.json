@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The old man in the chair wakes up with a loud gasp.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There's a knock at the door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1376000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-13T06:53:28.730Z",
+  "title": "Suitable Flesh",
+  "tmdb_id": 1006947
+}

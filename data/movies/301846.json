@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2015,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As the man crouches to get the old lady's ticket, her dog tries to attack him",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The driver suddenly speaks",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf grabs the girl through the window",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the front light of the train is turned on, a werewolf can be seen",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4600000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-07T00:05:45.005Z",
+  "title": "Howl",
+  "tmdb_id": 301846
+}

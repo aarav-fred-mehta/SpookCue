@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Gray jumps out at Deacon as he investigates a strange noise. [Video] .",
+      "description": "Gray jumps out at Deacon as he investigates a strange noise. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1993000,
@@ -100,6 +100,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:52.836Z",
   "title": "The Borderlands (Final Prayer)",
   "tmdb_id": 207774
 }

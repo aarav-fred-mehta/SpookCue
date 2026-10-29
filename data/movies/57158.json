@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 161,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "When Gandalf is in the dark tower after he tried to flee, something is moving in the background and after a small moment it lunges towards him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6929000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-18T00:08:45.167Z",
+  "title": "The Hobbit The Desolation Of Smaug",
+  "tmdb_id": 57158
+}

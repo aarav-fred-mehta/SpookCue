@@ -117,13 +117,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ", however, may unsettle and frighten some viewers.",
+      "description": "As the teacher slowly turns, she notices the ghost of her husband walk towards her.",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5197000,
-      "type": "minor"
+      "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:09.770Z",
   "title": "Ju On: The Beginning of The End",
   "tmdb_id": 259233
 }

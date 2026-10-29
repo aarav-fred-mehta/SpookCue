@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 129,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud knock at the door as Justine walks away",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Justine is looking through a window when a minor jump occurs. It is anticipatable.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1435000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Justine wakes up from a dream. She sits up in bed, looks around, and when she lies back down a scary person appears on the ceiling.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1658000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During Archer’s dream when he’s kneeling beside the bed telling son he loves him the son turns into something else. Very startling and unexpected.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2468000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After James finds Willow dvd it pans up to the tv screen and he sees the reflection of the people on the couch. Accompanied by audio jump scare.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "MAJOR SPOILER:\r\n\r\nKids in basement turn around accompanied by audio scare.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3950000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alex steps to the side, revealing James behind him. Accompanied by an audio scare.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6549000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Justine steps on the salt line, there is a sudden scream from behind her",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6709000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gladys comes screaming out of the darkness",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6977000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-17T17:36:26.544Z",
+  "title": "Weapons",
+  "tmdb_id": 1078605
+}

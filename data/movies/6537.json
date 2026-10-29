@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A presumably dead Benigna grabs Laura’s arm. [Video] .",
+      "description": "A presumably dead Benigna grabs Laura’s arm. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2742000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A child’s hand grabs Laura from behind. [Video] .",
+      "description": "A child’s hand grabs Laura from behind. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5078000,
@@ -60,6 +60,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:48.573Z",
   "title": "The Orphanage",
   "tmdb_id": 6537
 }

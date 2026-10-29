@@ -1,0 +1,147 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "ghostface appears when the light is turned on",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 246000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he is pranking her after closing the fridge door",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 384000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "ghostface attacks",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 631000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man grabs woman as she looks out the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Girl gets pulled up with the machine suddenly.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1999000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "All of a sudden the machine lets go and the girl falls.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface's knife stabs through the wall.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface lunges at the man through the hanging plastic sheets.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3699000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl runs out from her cover and Ghostface attacks from behind the corner.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4477000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The boy comes through the doors in the kitchen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4533000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface jumps up from behind a counter.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4611000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Man grabs the girl by the shoulder suddenly.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4813000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghostface stabs the man from behind.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something slams on the door suddenly.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4893000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the girl approaches Ghostface he suddenly gets up.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5191000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Boombox starts playing music suddenly.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5807000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to Ghostface right before the credits roll",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6187000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-07T04:17:14.205Z",
+  "title": "Scream 7",
+  "tmdb_id": 1159559
+}

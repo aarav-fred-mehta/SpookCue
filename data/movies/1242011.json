@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Tim's mother is shown sitting across the bed from him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 707000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A horrifying face suddenly appears from under the covers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 722000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bedroom door suddenly opens, revealing Tim's mother, who has gone insane.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a jump cut to a close-up of Tim's mother",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1627000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a jump cut to a close-up of Tim's father, who has been dead for some time and is rotting.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1640000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud scream and Millie's arms wrap around Tim's face from behind",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1782000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light is turned on, revealing Tim eating Millie's hair. Accompanied by audio scare.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2665000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Millie slams into the glass door behind Tim",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a jump cut to Tim's hand crawling along the floor. Accompanied by an audio scare.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4227000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jamie, who has been out of focus behind Millie, starts speaking.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4943000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Tim's leg.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4959000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-17T23:13:40.609Z",
+  "title": "Together",
+  "tmdb_id": 1242011
+}

@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "a boy screams as something pulls him from the top",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2223000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a vampire-boy jumps at the man",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2516000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-30T01:37:38.742Z",
+  "title": "Salem S Lot",
+  "tmdb_id": 748230
+}

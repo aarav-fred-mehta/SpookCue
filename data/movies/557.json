@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2002,
+  "runtime_minutes": 121,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Some flashes with photos of spiders and skulls blink on the screen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 875000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Norman wakes up and grabs the scientist's neck.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1053000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An image of Norman with white eyes flashes on the screen, accompanied by a very loud sound.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1280000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Green Goblin blows up JJJ's living room window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl in the flames reveals herself to be the Green Goblin, who lets out a scream and strikes Spider-Man.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5040000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Green Goblin blows Aunt May's bedroom window.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5448000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Green Goblin leaps towards the screen in Peter's dream.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5845000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:43:08.847Z",
+  "title": "Spider Man",
+  "tmdb_id": 557
+}

@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An explosion that kills their parents",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 622000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man shoots himself with a gun",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Old lady pressed the washing machine button and dies",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4760000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-18T07:29:26.859Z",
+  "title": "Grave Torture",
+  "tmdb_id": 1119527
+}

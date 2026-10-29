@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "During a nightmare Sidney is having, Ghostface jumps up from behind a window and attacks her. [Video] .",
+      "description": "During a nightmare Sidney is having, Ghostface jumps up from behind a window and attacks her. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1334000,
@@ -93,7 +93,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ghostface appears at the window behind Sidney. [Video] .",
+      "description": "Ghostface appears at the window behind Sidney. [Video].",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3899000,
@@ -188,6 +188,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:17.615Z",
   "title": "Scream 3",
   "tmdb_id": 4234
 }

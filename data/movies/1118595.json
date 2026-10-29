@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The jester grabs the man’s face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 308000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The jester appears in front of the woman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1577000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The jester appears in front of the woman again.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is spooked by her friend grabbing her shoulders.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2896000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The noose appears around the woman’s neck and pulls her backward.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cut to a side shot with the jester unfocused in the background.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4852000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-08T13:45:19.895Z",
+  "title": "The Jester",
+  "tmdb_id": 1118595
+}

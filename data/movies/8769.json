@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 1983,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "a man suddenly jumped out of the car to attack a woman.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6296000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-23T18:29:29.044Z",
+  "title": "Christine",
+  "tmdb_id": 8769
+}

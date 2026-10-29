@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2014,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "wolf breaks through wall behind Dolores",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 881000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "quick cut to a wounded man in a mirror (might startle some people, as it comes pretty unexpected)",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3427000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he bites her after the prayer accompanied by a loud sound",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3948000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he bites another woman, again accompanied by a loud sound",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "werewolf in front of the car",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4527000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-02-15T16:00:05.335Z",
+  "title": "Late Phases",
+  "tmdb_id": 254193
+}

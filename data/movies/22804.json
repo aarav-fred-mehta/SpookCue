@@ -16,7 +16,7 @@
       "description": "Pamela is abducted as she walks down a hallway.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2077000,
+      "resolved_time_ms": 2103000,
       "type": "minor"
     },
     {
@@ -28,6 +28,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-10T02:49:51.205Z",
   "title": "Saw VI",
   "tmdb_id": 22804
 }

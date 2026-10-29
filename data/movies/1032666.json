@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Crawling character is grabbed by a soldier on the ground.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 915000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crucified man jolts to life.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1228000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gas mask appears in the darkness with a deafening audio sting.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2129000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A face appears in the white mycelium.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut shows Captain Hall showering under the white slime.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5359000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Private Segura gets pulled in the white mycelium.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6129000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-01T01:05:54.556Z",
+  "title": "Bunker",
+  "tmdb_id": 1032666
+}

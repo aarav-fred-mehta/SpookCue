@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "All the kitchen doors suddenly fly open while Kristi is in the kitchen. [Video] .",
+      "description": "All the kitchen doors suddenly fly open while Kristi is in the kitchen. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3998000,
@@ -77,7 +77,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Kristi is suddenly pushed to the floor and dragged out of the babies room by an unseen force. [Video] .",
+      "description": "Kristi is suddenly pushed to the floor and dragged out of the babies room by an unseen force. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4475000,
@@ -101,7 +101,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Daniel moves the camera around the room, Kristi suddenly appears up close and attacks him. [Video] .",
+      "description": "As Daniel moves the camera around the room, Kristi suddenly appears up close and attacks him. [Video].",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5186000,
@@ -116,6 +116,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.558Z",
   "title": "Paranormal Activity 2",
   "tmdb_id": 41436
 }

@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kramer attacks Diego from the back seat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The window breaks behind the rapist.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2467000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure in a pig mask emerges from the doorway. Slight audio scare.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bathroom stall door kicks open into Gabriela",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amanda shocks Cecilia",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3989000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-19T03:39:58.641Z",
+  "title": "Saw X",
+  "tmdb_id": 951491
+}

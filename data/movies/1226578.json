@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 101,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Suddenly shows character without face showing with a jump scare sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 253000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shot in head.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 553000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Banging on door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1591000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chapter 2 text appears on screen suddenly as a clear intended jump scare.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1747000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bangs on desk to straighten paper.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bang on the glass",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2246000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doll's eyes open.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2662000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Piano music starts as scene changes.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3309000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After seeing a cockroach crawl from under the door, a flashback of snakes again.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3689000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the woman is looking through polaroids we get a flashback of longlegs.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4002000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "\"You're free too baby girl\" followed by a shotgun blast.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5060000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Snake flashback",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5232000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quick cut to the axe-murder from before.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5299000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-15T03:40:01.379Z",
+  "title": "Longlegs",
+  "tmdb_id": 1226578
+}

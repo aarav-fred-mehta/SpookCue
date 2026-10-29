@@ -9,7 +9,7 @@
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 281000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -148,6 +148,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:44:31.585Z",
   "title": "Terrifier",
   "tmdb_id": 420634
 }

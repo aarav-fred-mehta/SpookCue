@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 77,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hunter suddenly jumps out of the water.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hunter jumps up next to the window of the car.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2813000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-30T14:56:32.591Z",
+  "title": "Girls With Balls",
+  "tmdb_id": 449684
+}

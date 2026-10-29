@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden splash in the water from a thrown object.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gordon appears with a butcher knife in hand, accompanied by an unsettling jump scare stinger.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1615000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden noise through a vent.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2300000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone suddenly rings.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2431000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-30T14:56:27.927Z",
+  "title": "Come To Daddy",
+  "tmdb_id": 586592
+}

@@ -21,11 +21,11 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ".",
+      "description": "Ben uses his camera to light up the crater, suddenly the camera flash illuminates the corpse of one of the Russian cosmonauts.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1608000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -53,24 +53,48 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Nate, who appears to be sleeping, suddenly grabs Ben’s arm.",
+      "description": "Nate's head turns to the camera.",
       "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate, who appears to be sleeping, suddenly grabs Ben’s arm.",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3304000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Nate is pulled into the crater.",
-      "id": "scare_08",
+      "description": "Nate breaks a camera.",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3745000,
+      "resolved_time_ms": 3417000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben starts the call to Freedom with a loud bang.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3501000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nate is pulled into the crater.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
       "description": "Nate bangs on the window of the lander just as Ben is about to launch.",
-      "id": "scare_09",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4249000,
       "type": "minor"
@@ -78,12 +102,14 @@
     {
       "anchor_phonetic": null,
       "description": "Nate’s head explodes.",
-      "id": "scare_10",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4291000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-20T17:20:25.290Z",
   "title": "Apollo 18",
   "tmdb_id": 50357
 }

@@ -5,21 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "33:13 and 1:00:50-1:03:00.",
-      "id": "scare_01",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1986000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
       "description": "As Emily stops to catch her breath, Randall suddenly taps her on the shoulder, startling her.",
-      "id": "scare_02",
+      "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3881000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:53.058Z",
   "title": "The Beach House",
   "tmdb_id": 632304
 }

@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Chloe’s face suddenly appears at the window of the cell door. [Video] .",
+      "description": "Chloe’s face suddenly appears at the window of the cell door. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3009000,
@@ -85,7 +85,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "While holding her breath underwater, Miranda opens her eyes and sees Rachel screaming at her. [Video] .",
+      "description": "While holding her breath underwater, Miranda opens her eyes and sees Rachel screaming at her. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3759000,
@@ -132,6 +132,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:16.821Z",
   "title": "Gothika",
   "tmdb_id": 4970
 }

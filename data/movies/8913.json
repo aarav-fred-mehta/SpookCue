@@ -101,13 +101,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Rachel’s dead body drops down from a rope. [Video] .",
+      "description": "Rachel’s dead body drops down from a rope. [Video].",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5615000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:48.844Z",
   "title": "Pet Sematary",
   "tmdb_id": 8913
 }

@@ -2,7 +2,50 @@
   "phonetic_index": [],
   "release_year": 1983,
   "runtime_minutes": 85,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A creatures comes out of the orb and attacks his face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 125000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An axe goes through the door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man hits the window of the door and begins yelling.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 688000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ass the light is turned on, Crawford charges forward with an axe.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1548000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fuse box catches fire.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3253000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:08.109Z",
   "title": "From Beyond",
   "tmdb_id": 14510
 }

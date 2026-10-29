@@ -1,0 +1,147 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden cut to a man whistling.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 34000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The burning man reaches out to grab the basketball player.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The basketball team busts in the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 245000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The locker door is suddenly slammed shut.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 558000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is startled by the janitor.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1385000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man turns around to see a bloody man.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1472000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is spooked by a somebody entering the room.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand tries to grab the girl from behind",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2103000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghoul jumps out at the man",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3003000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl turns to see a creepy old woman.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl turns around again to see the same creepy old woman.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3176000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman smiles.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The old woman lunges forward.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he girl looks up to see the old woman.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3356000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man sees a bloodied man in the mirror.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3554000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is grabbed my a hand in the wardrobe.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl sees the dead version of herself in the void.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5005000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-01T01:06:13.834Z",
+  "title": "Whistle",
+  "tmdb_id": 1193501
+}

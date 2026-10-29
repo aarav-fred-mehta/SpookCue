@@ -20747,11 +20747,11 @@
         "KT",
         "M"
       ],
-      "description": "and 52:43 occur with no warning and are quite startling.",
+      "description": "The shark suddenly attacks Lisa as she approaches the opening of the cavern she is hiding in.",
       "id": "scare_06",
       "offset_from_anchor_ms": 23841,
       "resolved_time_ms": 2933000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": [
@@ -20842,6 +20842,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.022Z",
   "title": "47 Meters Down",
   "tmdb_id": 403119
 }

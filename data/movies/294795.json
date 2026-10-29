@@ -29,21 +29,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ").",
-      "id": "scare_04",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 2900000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
       "description": "A strange looking humanoid creature covered in barnacles suddenly looks up at Dr. Pascal.",
-      "id": "scare_05",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2901000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:44.022Z",
   "title": "The 9th Life of Louis Drax",
   "tmdb_id": 294795
 }

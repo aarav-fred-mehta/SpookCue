@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 1978,
+  "runtime_minutes": 127,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": ":(Theatrical Cut):\r\nThe scene abruptly changes to Roger turning in bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4881000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-16T01:56:06.799Z",
+  "title": "Dawn Of The Dead",
+  "tmdb_id": 923
+}

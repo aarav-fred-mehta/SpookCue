@@ -4093,7 +4093,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ash sees himself in the mirror the mirror Ash comes out of the mirror and grabs him.",
+      "description": "Ash sees himself in the mirror  the mirror Ash comes out of the mirror and grabs him.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1479000,
@@ -4361,6 +4361,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:50.904Z",
   "title": "Evil Dead 2",
   "tmdb_id": 765
 }

@@ -14175,7 +14175,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Sarah lies back down and Jefferies is revealed to be lying beside her. [Video] .",
+      "description": "Sarah lies back down and Jefferies is revealed to be lying beside her. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2346000,
@@ -14248,7 +14248,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The radio suddenly turns back on, loudly playing music, which causes Sarah to scream in fright. [Video] .",
+      "description": "The radio suddenly turns back on, loudly playing music, which causes Sarah to scream in fright. [Video].",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3475000,
@@ -14293,7 +14293,7 @@
         "M",
         "KS"
       ],
-      "description": "A body suddenly drops down in front of Father Merrin. [Video] .",
+      "description": "A body suddenly drops down in front of Father Merrin. [Video].",
       "id": "scare_16",
       "offset_from_anchor_ms": 53225,
       "resolved_time_ms": 5625000,
@@ -14314,6 +14314,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:50.907Z",
   "title": "Exorcist: The Beginning",
   "tmdb_id": 11026
 }

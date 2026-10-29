@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2004,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body crashes through the pew behind Jill.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1509000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Jill from behind",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1546000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There's a zombie behind the skeleton",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3034000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-23T03:28:35.444Z",
+  "title": "Resident Evil Apocalypse",
+  "tmdb_id": 1577
+}

@@ -26150,7 +26150,7 @@
         "ART",
         "NSS"
       ],
-      "description": "The camera spins around in the attic where a boy’s face appears. [Video] .",
+      "description": "The camera spins around in the attic where a boy’s face appears. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": 7160,
       "resolved_time_ms": 3951000,
@@ -26173,6 +26173,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.022Z",
   "title": "[Rec]",
   "tmdb_id": 8329
 }

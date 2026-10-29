@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "In the morgue, the reflection of Gary’s corpse abruptly turns sideways and speaks to Ben. [Video] .",
+      "description": "In the morgue, the reflection of Gary’s corpse abruptly turns sideways and speaks to Ben. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2484000,
@@ -124,6 +124,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:32.600Z",
   "title": "Mirrors",
   "tmdb_id": 13515
 }

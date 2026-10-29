@@ -29,13 +29,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "John smashes his head into the mirror. [Video] .",
+      "description": "John smashes his head into the mirror. [Video]",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4388000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:44.294Z",
   "title": "The Mothman Prophecies",
   "tmdb_id": 2637
 }

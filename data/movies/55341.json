@@ -2,7 +2,122 @@
   "phonetic_index": [],
   "release_year": 2017,
   "runtime_minutes": 100,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A machete is thrown into the truck.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 180000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bars shoot out of the ceiling and impale the cop.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 301000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hook shoots out of the back of the Creeper Van.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 436000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Creeper lands on the man in the background.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 760000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud knocking comes from the inside of the Creeper Van after he says “anybody in there?”",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1803000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The gates on the truck suddenly slam shut.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hand grabs Gaylen’s hand.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2789000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Buddy suddenly opens the truck door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2932000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloodied person slams into the window beside Addison.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3016000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Creeper drops down beside the truck.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The hand reaches through a hole in the pot.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3460000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Addison accidentally activates a loud horn.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Creeper rips back the burlap covering Addison.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5065000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man on the phone is suddenly pulled off screen.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5274000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:06.382Z",
   "title": "Jeepers Creepers 3",
   "tmdb_id": 55341
 }

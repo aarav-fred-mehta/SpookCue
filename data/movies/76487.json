@@ -2,7 +2,74 @@
   "phonetic_index": [],
   "release_year": 2012,
   "runtime_minutes": 83,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang, and the camera footage cuts out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady on the television screen suddenly lunges at the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 676000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maria suddenly starts to scream at Isabella.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog barks at Isabella from behind a fence.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2024000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light turns on and Rosalita is now out of the bed and screaming at the crew.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2488000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Maria suddenly starts screaming.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang while Isabella and Ben are talking.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3905000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera moves around the room and David is seen standing behind Ben.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3978000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:09.790Z",
   "title": "The Devil Inside",
   "tmdb_id": 76487
 }

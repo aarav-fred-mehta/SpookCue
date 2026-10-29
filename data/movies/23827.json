@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "(Night #21) Micah’s body is hurled at the screen from the doorway. (theatrical version) [Video] .",
+      "description": "(Night #21) Micah’s body is hurled at the screen from the doorway. (theatrical version) [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5040000,
@@ -77,13 +77,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "(Night #21) Katie crawls up to the screen and lunges at it as her face begins to turn demonic. (theatrical version) [Video] .",
+      "description": "(Night #21) Katie crawls up to the screen and lunges at it as her face begins to turn demonic. (theatrical version) [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5073000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.561Z",
   "title": "Paranormal Activity",
   "tmdb_id": 23827
 }

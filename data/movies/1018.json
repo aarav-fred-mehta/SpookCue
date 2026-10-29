@@ -5,13 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A horrible face appears from around the corner as two men approach. [Video] .",
+      "description": "A horrible face appears from around the corner as two men approach. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 979000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:32.602Z",
   "title": "Mulholland Drive",
   "tmdb_id": 1018
 }

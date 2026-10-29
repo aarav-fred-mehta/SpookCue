@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A hand reaches out of the body bag and grabs Darry around the ankle. [Video] .",
+      "description": "A hand reaches out of the body bag and grabs Darry around the ankle. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1368000,
@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Darry suddenly appears at the car window. [Video] .",
+      "description": "Darry suddenly appears at the car window. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1888000,
@@ -92,6 +92,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:06.316Z",
   "title": "Jeepers Creepers",
   "tmdb_id": 8922
 }

@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Laurie’s father is abruptly attacked by a knife-wielding Michael. [Video] .",
+      "description": "Laurie’s father is abruptly attacked by a knife-wielding Michael. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4545000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Michael breaks the car window and grabs Laurie. [Video] .",
+      "description": "Michael breaks the car window and grabs Laurie. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6357000,
@@ -76,6 +76,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:21.300Z",
   "title": "Halloween",
   "tmdb_id": 2082
 }

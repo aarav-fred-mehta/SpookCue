@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud knock on the door can be heard",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 111000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Carson is going to check the window, a zombie turns the corner and attacks him",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1596000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts to a door suddenly opening",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2169000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud explosion can be heard",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2511000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sloane turns and sees her father as a zombie",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2849000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mr. Baxter gets scared",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2991000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Zombie Baxter attacks Grace",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Zombie Lilly lunges at Sloane",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5698000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-31T18:38:11.662Z",
+  "title": "This Is Not A Test",
+  "tmdb_id": 1428990
+}

@@ -1,0 +1,171 @@
+{
+  "phonetic_index": [],
+  "release_year": 2008,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Donna turns around and sees a man behind her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna looks into her mirror and sees a man",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 506000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna closes the mirror and sees her mother in the reflection",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 568000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna runs into Claire",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard Fenton lunges at Michael from the closet",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A couple of birds fly out at Lisa",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3091000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard Fenton is seen at the door",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard Fenton's shadow is seen as Lisa tries to escape to the elevator",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard is now behind Lisa",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard Fenton appears and slits Lisa's throat",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna bumps into a lamp",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3763000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna turns and sees Richard Fenton",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3796000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna looks into a hole on the door and Richard Fenton appears",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3844000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shot of Donna running from under the bed is accompanied by a loud musical sting",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4007000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna bumps into Detective Winn",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4014000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael's dead body falls out of a closet",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4110000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body ''grabs'' Detective Winn",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4577000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna leans back and is startled by her boyfriend Bobby",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4649000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donna closes the mirror and sees Richard Fenton in the reflection",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Richard Fenton leaps out of the closet and grabs Donna as she leaves",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 40977000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-26T22:21:28.606Z",
+  "title": "Prom Night",
+  "tmdb_id": 8617
+}

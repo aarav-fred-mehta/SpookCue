@@ -53,10 +53,10 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The giant statue suddenly appears right beside Richie as he sits on the park bench.",
+      "description": "The giant statue suddenly appears right beside Richie as he sits on the park bench",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 4449000,
+      "resolved_time_ms": 4475000,
       "type": "major"
     },
     {
@@ -89,7 +89,7 @@
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5296000,
-      "type": "major"
+      "type": "minor"
     },
     {
       "anchor_phonetic": null,
@@ -193,9 +193,11 @@
       "id": "scare_24",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 9056000,
-      "type": "minor"
+      "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:43:01.848Z",
   "title": "It Chapter Two",
   "tmdb_id": 474350
 }

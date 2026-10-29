@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden glitch sounds.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 743000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Piano pounds on the keys.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1406000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Piano pounds again.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Glitchy flashback to a boy sitting in the dark.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1737000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bird and Beaver turn around with mutilated bodies.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3337000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James hits the camera with a shovel.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3918000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-22T11:04:30.274Z",
+  "title": "Monkey S Magic Merry Go Round",
+  "tmdb_id": 1314829
+}

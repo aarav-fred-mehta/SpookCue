@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 106,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As a woman touches David, the screen flashes and loud screams are heard",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As David turns the lights on, he sees a dead man, accompanied by a loud sound effect",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5052000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears behind the curtains",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As David touches Elijah's hand, a flashing light swaps the scene to a flashback",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5930000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-19T17:11:36.721Z",
+  "title": "Unbreakable",
+  "tmdb_id": 9741
+}

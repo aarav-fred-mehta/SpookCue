@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Crows suddenly fly away and caw, startling Pearl.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1006000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A slight stinger plays as the scarecrow appears to be the projectionist Pearl met earlier. May be startling if you aren't expecting it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1152000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-17T19:10:46.957Z",
+  "title": "Pearl",
+  "tmdb_id": 949423
+}

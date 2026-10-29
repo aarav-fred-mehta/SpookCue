@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 112,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "(1:38:38) A sudden phone call may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 820000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "(00:18:29) Oh Young-sook suddenly kills the police officer with a knife.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5634000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:56.900Z",
+  "title": "The Call",
+  "tmdb_id": 575604
+}

@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Maxine is looking at the kitchen, when the old lady appears behind her.",
+      "description": "Maxine stares into the kitchen as a gaunt old woman suddenly looms behind her.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1967000,
@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Maxine is running through the grass away from the house, Wayne suddenly grabs her.",
+      "description": "Fleeing through the tall grass, Maxine is abruptly yanked back by Wayne.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2252000,
@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "After RJ starts driving, the old woman appears in front of the car.",
+      "description": "As RJ pulls away, an old woman suddenly fills the windshield.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3443000,
@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Something is pushed through the hole in the wall, Wayne is looking through.",
+      "description": "As Wayne peers through the wall's hole, a sudden, horrifying appendage violently bursts through.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4124000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "After Lorraine pulls the trigger for the lightbulb, there is a sudden cut to Wayne getting the spikes pulled out of his head.",
+      "description": "As Lorraine triggers the lightbulb, a jarring cut slams to Wayne's head, spikes violently tearing free.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4181000,
@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Lorraine turns on the light and the naked, cuffed body of RJ is shown.",
+      "description": "Lorraine flips the switch, and RJ's naked, cuffed corpse flashes into view.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4320000,
@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Howard suddenly appears in front of Jackson.",
+      "description": "Howard's face abruptly fills the screen.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4887000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Maxine realizes who is laying next to her and screams.",
+      "description": "Maxine's horrifying realization of her bedmate's identity triggers a guttural scream.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4968000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Bobby-Lynn opens the door and sees the old woman running towards her.",
+      "description": "Bobby-Lynn throws open the door, only for a grotesque old woman to lunge directly at her.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4978000,
@@ -77,7 +77,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "While Lorraine is trying to unlock the door, her hand gets smashed by the owner of the house.",
+      "description": "The house owner suddenly slams Lorraine's hand into the doorframe as she picks the lock.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5019000,
@@ -85,7 +85,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The woman slaps Bobby-Lynn after she’s trying to help her.",
+      "description": "Just as Bobby-Lynn tries to help, the woman violently slaps her.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5112000,
@@ -93,7 +93,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Bobby-Lynn is thrown into the lake.",
+      "description": "Bobby-Lynn is suddenly dragged into the dark lake.",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5147000,
@@ -101,7 +101,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A crocodile attacks Bobby-Lynn.",
+      "description": "A crocodile erupts at Bobby-Lynn.",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5156000,
@@ -109,7 +109,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Lorraine jumps up from behind the door and screams.",
+      "description": "Lorraine leaps out from behind the door, screaming.",
       "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5594000,
@@ -117,7 +117,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "When Lorraine runs out of the house, she gets shot from the side.",
+      "description": "Lorraine's dash from the house is violently cut short by a sudden, unseen shot from her flank.",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5623000,
@@ -125,13 +125,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Lorraine makes a surprising noise which scares Howard.",
+      "description": "Lorraine's sudden shriek makes Howard leap.",
       "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5693000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-08T18:20:10.964Z",
   "title": "X",
   "tmdb_id": 760104
 }

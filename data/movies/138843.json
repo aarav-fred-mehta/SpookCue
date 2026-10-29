@@ -13,8 +13,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The door to the girl’s bedroom slams shut.",
+      "description": "Girl dragged from bed (minor sound effect comes with it)",
       "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1785000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to the girl’s bedroom slams shut.",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1972000,
       "type": "minor"
@@ -22,7 +30,7 @@
     {
       "anchor_phonetic": null,
       "description": "Carolyn searches the house and a loud bang erupts from paintings falling off the wall.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2226000,
       "type": "minor"
@@ -30,7 +38,7 @@
     {
       "anchor_phonetic": null,
       "description": "Carolyn enters the basement but as she goes to leave the door slams in her face.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2350000,
       "type": "minor"
@@ -38,7 +46,7 @@
     {
       "anchor_phonetic": null,
       "description": "Hands clap behind Carolyn while she is in the basement.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2438000,
       "type": "major"
@@ -46,7 +54,7 @@
     {
       "anchor_phonetic": null,
       "description": "A monster appears on the top of the girl’s closet.",
-      "id": "scare_06",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2560000,
       "type": "major"
@@ -54,7 +62,7 @@
     {
       "anchor_phonetic": null,
       "description": "A sheet blows off the washing line and catches around a figure.",
-      "id": "scare_07",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4048000,
       "type": "minor"
@@ -62,7 +70,7 @@
     {
       "anchor_phonetic": null,
       "description": "As Roger leaves a room, a lady shouts “look what you made me do!”.",
-      "id": "scare_08",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4360000,
       "type": "major"
@@ -70,7 +78,7 @@
     {
       "anchor_phonetic": null,
       "description": "Lorraine pulls away the music box revealing an old lady behind it.",
-      "id": "scare_09",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4739000,
       "type": "minor"
@@ -78,7 +86,7 @@
     {
       "anchor_phonetic": null,
       "description": "Legs fall down from the side of the table as Lorraine looks out from underneath.",
-      "id": "scare_10",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4761000,
       "type": "minor"
@@ -86,7 +94,7 @@
     {
       "anchor_phonetic": null,
       "description": "Nancy’s hair gets pulled upwards.",
-      "id": "scare_11",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4830000,
       "type": "minor"
@@ -94,12 +102,14 @@
     {
       "anchor_phonetic": null,
       "description": "One of the children gets pulled in their bed.",
-      "id": "scare_12",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5113000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-12T02:58:54.613Z",
   "title": "The Conjuring",
   "tmdb_id": 138843
 }

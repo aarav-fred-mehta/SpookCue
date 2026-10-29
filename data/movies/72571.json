@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Julie jumps out of the closet wearing a mask, scaring Dennis and Randy. [Video] .",
+      "description": "Julie jumps out of the closet wearing a mask, scaring Dennis and Randy. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1465000,
@@ -77,7 +77,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The camera pans back to the kitchen and there is a figure covered by a blanket standing behind the babysitter. The blanket crumples to the floor as the babysitter turns around.",
+      "description": "The camera pans back to the kitchen and there is a figure covered by a blanket standing behind the  babysitter. The blanket crumples to the floor as the babysitter turns around.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3058000,
@@ -125,7 +125,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Julie returns to the kitchen and notices everything has been removed from the kitchen, seconds later all the kitchen items fall from the ceiling. [Video] .",
+      "description": "Julie returns to the kitchen and notices everything has been removed from the kitchen, seconds later all the kitchen items fall from the ceiling. [Video].",
       "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4438000,
@@ -157,13 +157,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A now possessed Katie turns around and snarls at Dennis before throwing him backwards. [Video] .",
+      "description": "A now possessed Katie turns around and snarls at Dennis before throwing him backwards. [Video].",
       "id": "scare_20",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5204000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.635Z",
   "title": "Paranormal Activity 3",
   "tmdb_id": 72571
 }

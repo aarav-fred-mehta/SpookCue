@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thud hits the door just as Jimmy approaches.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 126000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A fox suddenly bursts out of a ruined house with a sharp shriek.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The silence is broken by the sudden caw of a crow.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1336000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hanging man suddenly screams and thrashes, revealing he is infected.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1397000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected slams violently against the cage where the Swedish soldiers are hiding.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3850000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The soldiers turn toward a noise, and one is instantly ambushed by the alpha infected.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected silently appears behind Isla in a flower field.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A group of mice suddenly scurries out from under the train.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected woman abruptly turns and screams directly at Isla.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected woman who has just given birth shrieks and lunges at Isla.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4858000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alpha infected’s arm shoots through a grate and grabs Doctor Kelson.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6146000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-24T09:41:56.875Z",
+  "title": "28 Years Later",
+  "tmdb_id": 1100988
+}

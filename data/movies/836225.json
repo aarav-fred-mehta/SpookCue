@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "When Father Peter reaches his hand out to the person standing in the corner it turns around with a loud scream.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1418000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Father Peter turns around the person is standing right in front of him and attacks him with a scream",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody hand is smashing on the window in the door",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1734000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands coming out of the pillow and grabbing Peter",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Jesus-like apparition is sitting on Peter and screams",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sister Camila is pulled back into the dark by an unseen force",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Nelson is attacked by a possessed woman",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3834000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-23T18:30:00.973Z",
+  "title": "The Exorcism Of God",
+  "tmdb_id": 836225
+}

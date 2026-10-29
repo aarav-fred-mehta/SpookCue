@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 133,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a tense scene, the candle suddenly goes out",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After answering to her husband, the magician looks back to the sarcophagus and the mummy lunges toward her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 376000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the magician says \"she loves being your friend\" there is a sudden cut on her face, accompanied by a loud sound effect.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 725000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Charlie calls to his daughter in a muffled scene, and he suddenly appear in the frame, screaming Katie's name, unmuffled.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie runs past the camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2647000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie runs past the doorway",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A running hairdryer comes into the frame. Accompanied by an audio scare.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2905000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera cuts to Katie's head hitting the floor.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4118000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie lurches forward and bites Carmen.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5088000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Katie appears behind Carmen",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A coyote launches at the car door",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A foot descends next to the woman lying on the floor.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6687000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-30T02:50:48.203Z",
+  "title": "Lee Cronin S The Mummy",
+  "tmdb_id": 1304313
+}

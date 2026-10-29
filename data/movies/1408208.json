@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The bald man smiled at him",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1114000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bald man followed him and smiled at him again",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1133000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bald man is still following him and is now smiling really close to him",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1148000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud bang from the lockers.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1355000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl's voice gets louder than usual.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud sound.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The balding guy's face shows up close.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3754000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The anomaly screams.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3794000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-07T02:25:40.907Z",
+  "title": "Exit 8",
+  "tmdb_id": 1408208
+}

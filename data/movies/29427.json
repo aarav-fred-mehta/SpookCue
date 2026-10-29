@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "An apparently dead Bill suddenly jumps up and starts screaming in his cell. [Video] .",
+      "description": "An apparently dead Bill suddenly jumps up and starts screaming in his cell. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1396000,
@@ -109,7 +109,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Judy pears around a corner and sees a Crazie. [Video] .",
+      "description": "Judy pears around a corner and sees a Crazie. [Video].",
       "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4981000,
@@ -117,7 +117,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "David grabs Judy from behind and puts his hand over her mouth. [Video] .",
+      "description": "David grabs Judy from behind and puts his hand over her mouth. [Video].",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5129000,
@@ -148,6 +148,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:01.210Z",
   "title": "The Crazies",
   "tmdb_id": 29427
 }

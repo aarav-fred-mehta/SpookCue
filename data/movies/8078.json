@@ -19231,7 +19231,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A broken hose drops down and starts hissing behind Elgyn. [Video] .",
+      "description": "A broken hose drops down and starts hissing behind Elgyn. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2877000,
@@ -19318,6 +19318,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.636Z",
   "title": "Alien: Resurrection",
   "tmdb_id": 8078
 }

@@ -1,0 +1,163 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Ohm sees a dark figure on the staircase, he aims a lamp over there. When he puts it back in place, a figure stands behind him, staring at him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 403000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears from a distance in the dark.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1352000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body hangs from the ceiling.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure appears behind him.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1649000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Ohm closes the door, Jerry is revealed standing behind it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2101000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera quickly pans down to Fiona's face.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2234000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bell rings on its own.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2567000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot sounds off-screen.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2834000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon hare's face appears.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2860000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body is found stuffed in the dumbwaiter.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera focuses on a crouched figure behind a character",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3476000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bell rings.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3517000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A baby wails into the intercom.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3583000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost walks behind Ohm.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3593000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon hare flashes on the TV with a screech.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3672000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bell rings.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch crawls up the shaft.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4362000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch appears next to Ohm.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5317000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The witch shackles Cob.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5410000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-21T04:19:50.848Z",
+  "title": "Hokum",
+  "tmdb_id": 1430077
+}

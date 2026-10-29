@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Car drives past the camera over the tracks with a sudden sound cue.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 42000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As girl drives car a flashback to the earlier disaster plays with sound.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Flashback of the previous head explosion death suddenly with a sound.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2604000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pole falls over killing woman as she says \"I'm gonna stay alive as..\"",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5760000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a black screen suddenly we get a sound cue and the woman comes back to life.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5849000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-03-25T02:34:26.044Z",
+  "title": "Final Destination Bloodlines",
+  "tmdb_id": 574475
+}

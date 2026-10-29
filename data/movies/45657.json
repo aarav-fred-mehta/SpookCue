@@ -2,7 +2,130 @@
   "phonetic_index": [],
   "release_year": 2010,
   "runtime_minutes": 89,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Roy grabs Kristen from behind as she tries to escape.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1115000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disfigured woman can briefly be seen during a lightning flash.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emily pops up in front of Kristen as she rifles through some files.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1558000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The disfigured woman grabs Kristen around the neck while she is having a shower. [Video]",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1683000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand appears behind Kristen while she is hiding.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3139000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The disfigured hand suddenly appears when Kristen looks in a morgue drawer. [Video]",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3215000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen turns around and the ghost of Alice is standing right in front of her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3264000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sarah looks in her pocket mirror and sees the ghost of Alice in the reflection.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3554000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of Alice suddenly grabs Sarah from behind as she looks out a window.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of Alice appears behind Emily and slashes her throat.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3909000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost of Alice appears behind Zoey while she is in the service lift.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen follows a trail of blood and then looks up to see Alice’s ghost standing in front of her.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen looks down the hallway and the camera follows. When the camera pans back, Alice’s ghost is standing behind her.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Dr Stringer finishes talking to Kristen, the ghost appears once more.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4815000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice opens a cabinet above the sink and Kristen comes out and attacks her. [Video]",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5061000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:09.838Z",
   "title": "The Ward",
   "tmdb_id": 45657
 }

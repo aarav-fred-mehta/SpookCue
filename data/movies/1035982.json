@@ -1,0 +1,139 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Rebecca turns, a bloody woman is seen lying in the bed",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1391000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chase turns the camera, the clowns can be seen, along with a sound effect",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A masked woman appears behind the wall",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1963000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked Margaret appears again",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2149000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The picture shows a woman with scars on her face looking at Rebecca, followed by Rebecca screaming",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2675000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Chase enters the room, he sees the clown standing, followed by a sound effect",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3038000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The red ball rolls to Rebecca",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3130000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca turns, sees the clown and screams",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3167000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chase gets scared by something offscreen",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3761000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chase turns for a second and the clown has changed its position, facing him",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3792000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chase turns and the clown is behind him",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Masked Margaret appears",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5239000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hooded figure is seen running",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5360000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rebecca turns, Catherine is lying on the bed and quickly lunges at Rebecca",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5500000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Rebecca turns again, Catherine is standing behind her and promptly attacks",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5511000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Margot goes down the stairs, she sees a clown",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5563000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-10T04:15:22.687Z",
+  "title": "Hell House Llc Origins The Carmichael Manor",
+  "tmdb_id": 1035982
+}

@@ -53,13 +53,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Brian has the recurring dream however Catherine is now in the place of the dark figure. After appearing to wake up he turns over in bed and briefly sees Catherine’s bloodied face before waking up for real. [Video] .",
+      "description": "Brian has the recurring dream however Catherine is now in the place of the dark figure. After appearing to wake up he turns over in bed and briefly sees Catherine’s bloodied face before waking up for real. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5877000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:59.418Z",
   "title": "Prince of Darkness",
   "tmdb_id": 8852
 }

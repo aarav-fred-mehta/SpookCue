@@ -1,0 +1,187 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Bathroom door slams shut.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 735000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Random yelling noises.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 844000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Severed head appears on the table next to Edward.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1627000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Guard shoves the severed head in Edward’s face.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1682000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Person emerges from behind the pile of mannequins.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1834000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Security camera cuts to person walking in and out of doors.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1926000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud crashing noise.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2351000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lights flickering.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Building lights go out.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2986000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequin appears.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3312000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequins heard moving in the background.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequin falls on Edward.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3535000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dead dog is found in closet.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3635000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Shadow figure appears in the hallway.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3678000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ms. Downey appears in the door frame with a loud noise.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4250000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequin appears with loud noises.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4358000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequin walks toward camera with loud noises.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4392000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequin appears.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4510000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Distorted face.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4662000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mannequin appears behind Edward.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4686000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Edward appears.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Camera shakes.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4968000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-23T18:51:44.000Z",
+  "title": "Infirmary",
+  "tmdb_id": 1610703
+}

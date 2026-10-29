@@ -53,13 +53,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "however it is heavily telegraphed and therefore unlikely to scare many viewers.",
+      "description": "Gary looks through a hole int he door and the goat puppet suddenly appears.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3474000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:21.511Z",
   "title": "Little Evil",
   "tmdb_id": 346671
 }

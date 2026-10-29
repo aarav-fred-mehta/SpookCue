@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Woman says “talk to me” and turns to see a man in front of her.",
+      "description": "Mia says “talk to me” and turns to see a man in front of her.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1151000,
@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Woman says “talk to me” again and a woman appears in front of her.",
+      "description": "Mia says “talk to me” again and a drowned woman appears in front of her.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1211000,
@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Woman barks like a dog suddenly.",
+      "description": "Mia barks like a dog suddenly.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1303000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Man says “I let you in” and head tilts backwards.",
+      "description": "Daniel says “I let you in” and his head tilts backwards.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2021000,
@@ -45,8 +45,24 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Boy bites girl in the hand.",
+      "description": "Very minor, during a slightly suspenseful scene there is sudden thunder which could shock some people.",
       "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3376000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mia suddenly slaps herself.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3579000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Riley bites girl in the hand.",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3771000,
       "type": "minor"
@@ -54,12 +70,14 @@
     {
       "anchor_phonetic": null,
       "description": "Some viewers might be startled at man lunging at woman.",
-      "id": "scare_07",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4644000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-30T01:37:35.051Z",
   "title": "Talk To Me",
   "tmdb_id": 1008042
 }

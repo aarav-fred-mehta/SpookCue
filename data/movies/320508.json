@@ -1,0 +1,139 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A young girl with a distorted face slams against the car window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 163000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman is seen in a bathroom mirror with a distorted face, her eyes and mouth open wide.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A young girl with a distorted face slams against the car window (a repeat of the first jump scare).",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1808000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man sitting in the waiting room suddenly has a distorted grin.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2278000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dan slams his face against the car window, cracking the glass.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3889000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Humanoid monsters slam against the car windows and Beth screams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Humanoid monsters bust through the wall, and a little girl monster slams against the window.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4289000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Two humanoid monsters are slowly swallowing the arms of a man.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4330000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a humanoid monster woman in the photo with a distorted face, causing screaming.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A kid wearing a pig mask suddenly appears in the back window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is muffled voice and a monster woman with a distorted face is illuminated by a flashlight.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4814000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster humanoid wearing a horse mask suddenly pulls the car door off.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4866000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The kid in the pig mask rushes into the car and starts eating Terry.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4944000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeff knocks over something on the ground which makes a loud noise.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5142000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some humanoid monsters suddenly appear right in front of Jeff.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5223000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The passengers on the bus all rush at a woman and eat her.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5581000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-13T02:46:27.167Z",
+  "title": "There Are Monsters",
+  "tmdb_id": 320508
+}

@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 1982,
+  "runtime_minutes": 76,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The woman opens the wardrobe and is spooked by a cat",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is scared by her firend standing outside the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1612000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A drill comes through the door.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1738000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman opens the curtains and gets scared by a doll covered in blood.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2040000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The flashlight pans to see a pair of legs hanging from the ceiling.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2355000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is grabbed from behind.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer jumps for the pool.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4419000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-22T22:05:36.602Z",
+  "title": "The Slumber Party Massacre",
+  "tmdb_id": 27475
+}

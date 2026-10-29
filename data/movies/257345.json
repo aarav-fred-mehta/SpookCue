@@ -1,0 +1,155 @@
+{
+  "phonetic_index": [],
+  "release_year": 2016,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey falls through the sand with a big crash",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 337000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey grabs for his bag on the table",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 723000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael appears behind his mom in the attic",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 934000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lightbulb in the attic explodes",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 955000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Steph sees a reflection in the microwave",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The movie suddenly cuts to a dog barking",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael’s grandmother turns and finds a snake on her counter",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1761000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sound effect plays as a shape disappers under a blanket",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1882000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The TV suddenly turns on at high volume",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2078000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There’s a sudden bang while Bronny takes a bath",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey suddenly appears next to his mother",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2964000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mikey spits out black fluid",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2984000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog appears in the hallway",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3154000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Sky People appear behind Bronny",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3210000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog attacks Steph in her sleep",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3251000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Handprints start appearing on Steph's wall",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Handprints appear on Steph's face and body",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3903000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A coyote jumps out at Peter",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3917000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-05T08:59:23.480Z",
+  "title": "The Darkness",
+  "tmdb_id": 257345
+}

@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Lisa pokes at the bush with a rake and sees a decomposing corpse. [Video] .",
+      "description": "Lisa pokes at the bush with a rake and sees a decomposing corpse. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 520000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The decomposing corpse appears directly in front of Lisa as she opens her eyes. [Video] .",
+      "description": "The decomposing corpse appears directly in front of Lisa as she opens her eyes. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1262000,
@@ -157,7 +157,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "After waking from a nightmare, Lisa lies back down and sees a skeleton lying in bed beside her. [Video] .",
+      "description": "After waking from a nightmare, Lisa lies back down and sees a skeleton lying in bed beside her. [Video].",
       "id": "scare_20",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3312000,
@@ -197,7 +197,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The rotting corpse of the stationmaster appears at the car window beside Heidi. [Video] .",
+      "description": "The rotting corpse of the stationmaster appears at the car window beside Heidi. [Video].",
       "id": "scare_25",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4346000,
@@ -260,6 +260,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:27.155Z",
   "title": "The Haunting in Connecticut 2: Ghosts of Georgia",
   "tmdb_id": 150202
 }

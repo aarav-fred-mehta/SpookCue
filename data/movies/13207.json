@@ -1,0 +1,195 @@
+{
+  "phonetic_index": [],
+  "release_year": 1980,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Pamela Voorhees jumps out at a fleeing counselor.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 96000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason appears in front of Wade.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason’s silhouette appears on the tent behind Amanda.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1098000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike picks up something from the hole in the wall and drops it suddenly when he realizes it is a skull.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A machete blade comes up from the floor in front of Mike as he looks under the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1249000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dog suddenly jumps up on the other side of the door, startling Clay.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1855000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Donnie bumps into something.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2442000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An arrow pierces Nolan’s head.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2749000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A machete blade is driven into Chelsea’s head as she hides in the water under a dock.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2869000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some floorboards break under Jenna.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2970000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body drops in front of Jenna as she hides from Jason.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3033000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason suddenly appears in front of Whitney.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3340000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jenna and Clay burst in to the house, startling Lawrence.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3696000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In the flickering light, Jason can be seen standing behind Chewie.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chewie’s dead body drops down from the ceiling onto Lawrence. Seconds later, Lawrence turns around and comes face to face with Jason.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4162000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bree opens a curtain and Jason is suddenly standing behind her. [Video].",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4374000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason drops down behind the policeman who is knocking on the door.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4479000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dead body lands on the car that Trent is in.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trent slowly moves towards a parked car when Jason suddenly appears behind him.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4679000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jenna is stabbed through the chest.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4993000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason comes up behind Clay as he is on top of the bus.",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5063000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason bursts through the window behind Clay.",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5227000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason comes up through the dock and grabs Whitney. [Video].",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5488000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:03.462Z",
+  "title": "Friday the 13th",
+  "tmdb_id": 13207
+}

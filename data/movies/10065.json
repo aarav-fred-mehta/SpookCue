@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A ghost appears next to Michael when he is trying to use the tap. [Video] .",
+      "description": "A ghost appears next to Michael when he is trying to use the tap. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1444000,
@@ -77,7 +77,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Flies fly out of the vent at Father Callaway. [Video] .",
+      "description": "Flies fly out of the vent at Father Callaway. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3773000,
@@ -93,7 +93,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A figure jumps out at George from inside a cell. [Video] .",
+      "description": "A figure jumps out at George from inside a cell. [Video].",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4097000,
@@ -140,6 +140,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:44.096Z",
   "title": "The Amityville Horror",
   "tmdb_id": 10065
 }

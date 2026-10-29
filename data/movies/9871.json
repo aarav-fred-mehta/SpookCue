@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jason walks up behind Brigitte and pulls her into a closet.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The car suddenly opens and knocks Sam down. A growling noise is heard.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5280000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Sam opens the door, he is suddenly pulled out of the closet. Growling and screaming is heard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5536000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf appears and growls at Brigitte.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5930000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-30T02:18:35.708Z",
+  "title": "Ginger Snaps",
+  "tmdb_id": 9871
+}

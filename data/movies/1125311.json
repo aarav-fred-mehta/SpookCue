@@ -1,0 +1,131 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The door in Jessica's dream is suddenly yanked open",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 73000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessica’s father suddenly grabs her",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice screams at Jessica under the bed",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1176000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice’s mom jumps out of the doorway at Jessica",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1546000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chauncey appears under a towel",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2462000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Chauncey transforms into a real bear and roars at Liam",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2567000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Taylor suddenly walks in front of Jessica",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4189000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Teddy bears to a killer bear with teeth out of a black screen with a high screaming pitch with fire out",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4383000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Taylor grabs Jessica in Never Ever world",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4587000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door opens in Jessica’s vision",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bear grabs Gloria and pulls her into a doorway",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghostly version of Alice appears when the light is turned on",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5129000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon version of Alice’s mom appears",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5379000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Taylor hits a demon with a hockey stick",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5746000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door to the Never Ever is yanked open",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5815000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-31T18:37:59.330Z",
+  "title": "Imaginary",
+  "tmdb_id": 1125311
+}

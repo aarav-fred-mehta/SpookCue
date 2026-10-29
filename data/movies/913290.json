@@ -1,0 +1,171 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Keith suddenly appears behind Tess.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shrieking sound breaks the silence.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1230000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Keith jolts awake screaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden knocking at the door.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2005000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Keith comes crawling out of the darkness.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2507000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature comes screaming out of the darkness.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2544000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is an abrupt rustling sound heard from down in the basement.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3504000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something yanks the measuring tape that AJ is holding.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature is suddenly very close to the camera.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3943000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tess suddenly rushes towards AJ making a hushing sound.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3964000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature jumps down from above.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4451000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature appears right behind Tess.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4648000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden scream.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4767000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man coughs and sits up suddenly",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4887000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window breaks.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5153000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature comes charging through the door.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5230000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot rings out from the darkness.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5331000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man grabs the fence behind AJ and Tess.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature breaks through the wall.",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5538000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature sits up.",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5731000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-17T18:40:12.370Z",
+  "title": "Barbarian",
+  "tmdb_id": 913290
+}

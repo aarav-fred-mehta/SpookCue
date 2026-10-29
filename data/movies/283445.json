@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A boy suddenly appears behind another boy who is lying in bed. [Video] .",
+      "description": "A boy suddenly appears behind another boy who is lying in bed. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 158000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Accompanied by a loud noise, a red symbol suddenly appears on the laptop screen. [Video] .",
+      "description": "Accompanied by a loud noise, a red symbol suddenly appears on the laptop screen. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1583000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The deputy points his flashlight into the darkness a few times then Bughuul appears directly in front of him. [Video] .",
+      "description": "The deputy points his flashlight into the darkness a few times then Bughuul appears directly in front of him. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2104000,
@@ -77,7 +77,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The deputy sees Bughuul in one of the images he is looking through, suddenly Bughuul appears to move towards him. [Video] .",
+      "description": "The deputy sees Bughuul in one of the images he is looking through, suddenly Bughuul appears to move towards him. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2726000,
@@ -149,13 +149,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A face jumps in front of the camera before the credits start. [Video] .",
+      "description": "A face jumps in front of the camera before the credits start. [Video].",
       "id": "scare_19",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5350000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:26.646Z",
   "title": "Sinister 2",
   "tmdb_id": 283445
 }

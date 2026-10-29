@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2013,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Very mild scare consisting of one of the children suddenly sitting on the table with a sound effect.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Same like the scare earlier, but a bit more severe.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon suddenly appears on the laptop screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3499000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "People are suddenly screaming.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3665000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon appears.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3992000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The demon appears from behind Dan.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4043000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-12-19T12:57:41.040Z",
+  "title": "Scary Movie 5",
+  "tmdb_id": 4258
+}

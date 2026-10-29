@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The opening scene involves the camera slowly zooming in on the trunk of a parked car while Christmas music plays. Suddenly, the trunk lock pops out and we see a woman’s eye and this is accompanied by a very loud sound effect. [Video] .",
+      "description": "The opening scene involves the camera slowly zooming in on the trunk of a parked car while Christmas music plays. Suddenly, the trunk lock pops out and we see a woman’s eye and this is accompanied by a very loud sound effect. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 134000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Angela looks at her phone and the light from it reveals Thomas standing right behind her. [Video] .",
+      "description": "Angela looks at her phone and the light from it reveals Thomas standing right behind her. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1185000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Angela sees the policeman on the security camera, she then turns around but Thomas is standing right behind her. [Video] .",
+      "description": "Angela sees the policeman on the security camera, she then turns around but Thomas is standing right behind her. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4115000,
@@ -132,6 +132,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.494Z",
   "title": "P2",
   "tmdb_id": 13474
 }

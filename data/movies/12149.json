@@ -2,7 +2,82 @@
   "phonetic_index": [],
   "release_year": 2001,
   "runtime_minutes": 100,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A distant gunshot fires.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 401000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dad Meiks slams the light on.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 830000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Fenton has a flashback of his father swinging an axe.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1393000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Very loud noise as Meiks touches a woman.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1979000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Meiks touches another demon.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2715000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cop gets whacked.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3711000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another demon gets touched very loudly.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4608000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud noises with flashing lights and images.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Booming noise as Adam swings down.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5420000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-27T00:08:10.440Z",
   "title": "Frailty",
   "tmdb_id": 12149
 }

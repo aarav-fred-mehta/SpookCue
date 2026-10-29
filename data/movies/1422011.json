@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A mob rapidly swarms the car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 886000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Epilepsy warning for giant flashing title card.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A person slams against the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1075000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-26T06:47:08.419Z",
+  "title": "It Ends",
+  "tmdb_id": 1422011
+}

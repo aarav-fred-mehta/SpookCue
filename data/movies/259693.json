@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Lorraine looks back at the mirror and the nun is standing right behind her reflection, she looks away and looks back once more and the nun is now right in front of her. [Video] .",
+      "description": "Lorraine looks back at the mirror and the nun is standing right behind her reflection, she looks away and looks back once more and the nun is now right in front of her. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 412000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A man’s voice roars loudly. [Video] .",
+      "description": "A man’s voice roars loudly. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1580000,
@@ -77,16 +77,24 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Janet sees a reflection on the television of a man sitting on a chair.",
+      "description": "The loud sound of thunder is heared and the telly goes to static.",
       "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1884000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Janet sees a reflection on the television of a man sitting on a chair.",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1907000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "The man now appears behind Janet and he screams “my house”. [Video] .",
-      "id": "scare_11",
+      "description": "The man now appears behind Janet and he screams “my house”. [Video].",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1921000,
       "type": "major"
@@ -94,7 +102,7 @@
     {
       "anchor_phonetic": null,
       "description": "Janet wakes from her sleep as she crashes to the floor.",
-      "id": "scare_12",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2089000,
       "type": "minor"
@@ -102,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "A man yells and the bed sheets are pulled off Janet’s bed.",
-      "id": "scare_13",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2329000,
       "type": "minor"
@@ -110,7 +118,7 @@
     {
       "anchor_phonetic": null,
       "description": "The bedside cabinet suddenly slides across the room.",
-      "id": "scare_14",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2392000,
       "type": "minor"
@@ -118,23 +126,23 @@
     {
       "anchor_phonetic": null,
       "description": "A tape player suddenly turns on during a tense scene.",
-      "id": "scare_15",
+      "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2731000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "After putting her hands around the painting the nun suddenly runs at Lorraine. [Video] .",
-      "id": "scare_16",
+      "description": "After putting her hands around the painting the nun suddenly runs at Lorraine. [Video].",
+      "id": "scare_17",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2861000,
       "type": "major"
     },
     {
       "anchor_phonetic": null,
-      "description": "Bill shouts Janet’s name and attacks her. [Video] .",
-      "id": "scare_17",
+      "description": "Bill shouts Janet’s name and attacks her. [Video].",
+      "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4822000,
       "type": "major"
@@ -142,7 +150,7 @@
     {
       "anchor_phonetic": null,
       "description": "Through an opening in the door Peggy sees Janet be pulled away and replaced with Bill.",
-      "id": "scare_18",
+      "id": "scare_19",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4852000,
       "type": "minor"
@@ -150,7 +158,7 @@
     {
       "anchor_phonetic": null,
       "description": "Peggy looks down and sees Bill’s face in the water. He reaches out and grabs Peggy’s arm.",
-      "id": "scare_19",
+      "id": "scare_20",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5582000,
       "type": "minor"
@@ -158,15 +166,15 @@
     {
       "anchor_phonetic": null,
       "description": "Janet reappears in the kitchen holding a knife.",
-      "id": "scare_20",
+      "id": "scare_21",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5769000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "The nun puts her hand on Bill’s shoulder. [Video] .",
-      "id": "scare_21",
+      "description": "The nun puts her hand on Bill’s shoulder. [Video].",
+      "id": "scare_22",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6458000,
       "type": "major"
@@ -174,12 +182,14 @@
     {
       "anchor_phonetic": null,
       "description": "Ed looks up from the turntable and sees the crooked man looking at him.",
-      "id": "scare_22",
+      "id": "scare_23",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 7162000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-15T03:21:37.211Z",
   "title": "The Conjuring 2",
   "tmdb_id": 259693
 }

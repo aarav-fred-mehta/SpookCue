@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A scary figure appears behind a boy. [Video] .",
+      "description": "A scary figure appears behind a boy. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 101000,
@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Jenni, who is lying in a bathtub full of blood, suddenly begins to convulse as Elizabeth touches her. [Video] .",
+      "description": "Jenni, who is lying in a bathtub full of blood, suddenly begins to convulse as Elizabeth touches her. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2608000,
@@ -101,7 +101,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Elizabeth runs around a corner and comes face to face with a masked man. [Video] .",
+      "description": "Elizabeth runs around a corner and comes face to face with a masked man. [Video].",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4012000,
@@ -116,6 +116,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:05.267Z",
   "title": "The Den",
   "tmdb_id": 244610
 }

@@ -2,7 +2,50 @@
   "phonetic_index": [],
   "release_year": 2022,
   "runtime_minutes": 40,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Girl appears in kitchen.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 588000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman sleeping on couch and monster appears.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 820000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Girl on her phone and monster appears behind her.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1200000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Killer grabs a victim from behind.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Killer stabs victim.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1658000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:25.997Z",
   "title": "Harvested 2 – The Legend of Harold Rice",
   "tmdb_id": 998134
 }

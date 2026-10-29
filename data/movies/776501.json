@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A scream sound is heard.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 657000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The laptop screen turns white, and a hand reaches out through it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2476000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-29T06:59:45.852Z",
+  "title": "We Re All Going To The World S Fair",
+  "tmdb_id": 776501
+}

@@ -32,10 +32,12 @@
       "description": "The vines suddenly wrap around her wrist.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3018000,
+      "resolved_time_ms": 3187000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:43:11.460Z",
   "title": "The Ruins",
   "tmdb_id": 11152
 }

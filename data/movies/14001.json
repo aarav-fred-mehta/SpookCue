@@ -12380,7 +12380,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The sheet on top of the doll suddenly lifts off and wraps itself around Lisa. [Video] .",
+      "description": "The sheet on top of the doll suddenly lifts off and wraps itself around Lisa. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 558000,
@@ -12388,7 +12388,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Jamie sees the doll standing beside his bed. [Video] .",
+      "description": "Jamie sees the doll standing beside his bed. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1549000,
@@ -12427,7 +12427,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Jamie sees the doll in the drivers side window of the car. [Video] .",
+      "description": "Jamie sees the doll in the drivers side window of the car. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2081000,
@@ -12466,7 +12466,7 @@
         "PLS",
         "MRN"
       ],
-      "description": "Henry turns around and sees Mary Shaw behind him. [Video] .",
+      "description": "Henry turns around and sees Mary Shaw behind him. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": 31477,
       "resolved_time_ms": 3476000,
@@ -12543,6 +12543,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:33.330Z",
   "title": "Dead Silence",
   "tmdb_id": 14001
 }

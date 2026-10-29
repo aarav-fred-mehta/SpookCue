@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 10,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "it starts screaming then jumpscare",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 84742000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:43:05.872Z",
+  "title": "Bloody Mary",
+  "tmdb_id": 756630
+}

@@ -13,13 +13,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ".",
+      "description": "As Holly lies back down, Seth is revealed to be waiting beside her.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1907000,
-      "type": "minor"
+      "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:48.845Z",
   "title": "Pet",
   "tmdb_id": 353979
 }

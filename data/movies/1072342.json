@@ -1,0 +1,155 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca is pulled into the pool",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 232000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca is pulled underwater",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 314000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rebecca bursts out of the water",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 329000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray falls into the pool",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 634000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray cuts himself cleaning the pool drain",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1014000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pool man trips on the diving board",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1091000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Eve sees a vision of Ray by the pool",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1376000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something bounces on the diving board",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Demonic hand grabs a boy’s arm.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2167000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost appears behind Izzy",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2754000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost grabs Izzy in the water",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2794000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray wakes up gasping for air",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3486000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Demonic entity appears between float.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4522000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray slams the door",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Demonic father figure suddenly appears yelling.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4705000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ghosts swim after Eve",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4799000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A television suddenly turns on",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4844000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ray pops up in the garage",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-13T05:46:51.655Z",
+  "title": "Night Swim",
+  "tmdb_id": 1072342
+}

@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dismembodied, loud screeching and wailing.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5510000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden boom as the lights turn off.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6480000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-28T00:17:23.171Z",
+  "title": "Red Rooms",
+  "tmdb_id": 912480
+}

@@ -1,0 +1,243 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 92,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The lights turn on, startling Paxton",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 669000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucas slams his hand on the car window",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise hears a loud bang",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1292000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something moves onscreen, accompanied by a jarring musical stinger",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1402000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elise lifts down a card and then The High Priestess appears and shrieks in her face",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1456000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The High Priestess appears and shrieks at the camera",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1543000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster shrieks at the camera",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1702000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demonic entity is blasting towards Lucas",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Hermit lunges and screams at Lucas",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1980000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Hermit charges towards Lucas",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2012000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Hermit appears in front of Lucas, shrieking at his face",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2033000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a startling sound effect, a person is seen on the window",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure passes by the car",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster bashes it's head against the car window",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Madeline's hanging corpse drops down from the sky",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3207000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster shrieks from the darkness",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paxton sees The Fool standing in the hallway",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure rushes by an elevator accompanied by a musical sting",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3549000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Fool lunges at Paxton while upside down",
+      "id": "scare_19",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3576000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Fool falls from the ceiling",
+      "id": "scare_20",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3619000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alma is dragged away by a supernatural force",
+      "id": "scare_21",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3962000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lights break and explode",
+      "id": "scare_22",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4106000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Paige bumps into The Magician",
+      "id": "scare_23",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Magician appears in the keyhole with a startling sound effect",
+      "id": "scare_24",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4241000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sawblade enters through the box Paige is hiding at",
+      "id": "scare_25",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something breaks through the window and grabs Grant",
+      "id": "scare_26",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4552000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster appears and grabs Haley's hair",
+      "id": "scare_27",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster manifests behind Haley (it appears again in more minor scares around 1:18:23,  1:18:31, and 1:18:36)",
+      "id": "scare_28",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4690000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monster lunges at Grant",
+      "id": "scare_29",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4762000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-22T23:25:48.721Z",
+  "title": "Tarot",
+  "tmdb_id": 719221
+}

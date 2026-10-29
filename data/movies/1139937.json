@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 81,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "They are startled by a sound in the bushes.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2316000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light turns on and they see Frogman behind them.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3565000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frogman is seen on through the windscreen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3652000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman opens the door and is spooked by her friend.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The face of a frog man appears out of the darkness.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4064000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-01T11:22:56.797Z",
+  "title": "Frogman",
+  "tmdb_id": 1139937
+}

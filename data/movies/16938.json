@@ -22969,7 +22969,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "An unseen person suddenly suffocates Clare with some plastic wrapping. [Video] .",
+      "description": "An unseen person suddenly suffocates Clare with some plastic wrapping. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 714000,
@@ -23032,6 +23032,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:58.163Z",
   "title": "Black Christmas",
   "tmdb_id": 16938
 }

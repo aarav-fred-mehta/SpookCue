@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A metal rod smashes through the window during one of Sarah’s dreams. [Video] .",
+      "description": "A metal rod smashes through the window during one of Sarah’s dreams. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 847000,
@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A crawler is seen standing behind the group through the night vision camera. [Video] .",
+      "description": "A crawler is seen standing behind the group through the night vision camera. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3395000,
@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The girls run into a crawler that screams at them. [Video] .",
+      "description": "The girls run into a crawler that screams at them. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3470000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Sarah hallucinates her daughter, however when her head turns she becomes one of the creatures from the cave. [Video] .",
+      "description": "Sarah hallucinates her daughter, however when her head turns she becomes one of the creatures from the cave. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3698000,
@@ -77,7 +77,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A crawler drops down from the roof in front of Rebecca. [Video] .",
+      "description": "A crawler drops down from the roof in front of Rebecca. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4267000,
@@ -117,7 +117,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Juno spots a crawler while underwater it growls at Juno.",
+      "description": "Juno spots a crawler while underwater  it growls at Juno.",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5053000,
@@ -125,13 +125,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Juno appears in the car beside Sarah. [Video] (original ending) .",
+      "description": "Juno appears in the car beside Sarah. [Video](original ending).",
       "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5652000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:09.856Z",
   "title": "The Descent",
   "tmdb_id": 9392
 }

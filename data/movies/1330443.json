@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to a severed head.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1364000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to a dead woman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2646000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is grabbed from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3628000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is suddenly shot in the head.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4676000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-22T12:26:20.055Z",
+  "title": "Strange Harvest",
+  "tmdb_id": 1330443
+}

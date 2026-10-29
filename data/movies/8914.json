@@ -16874,7 +16874,7 @@
         "0S",
         "PL"
       ],
-      "description": "A shark suddenly jumps out of the water and grabs Russell.",
+      "description": "A shark suddenly jumps out of the water and grabs Russell. [Video]",
       "id": "scare_08",
       "offset_from_anchor_ms": 225,
       "resolved_time_ms": 3612000,
@@ -16906,6 +16906,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:33.413Z",
   "title": "Deep Blue Sea",
   "tmdb_id": 8914
 }

@@ -49321,7 +49321,7 @@
         "P",
         "SF"
       ],
-      "description": "An alien hand bursts through the door in front of a prisoner. [Video] .",
+      "description": "An alien hand bursts through the door in front of a prisoner. [Video].",
       "id": "scare_12",
       "offset_from_anchor_ms": 8959,
       "resolved_time_ms": 7099000,
@@ -49353,6 +49353,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.568Z",
   "title": "Alien 3",
   "tmdb_id": 8077
 }

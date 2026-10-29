@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The door opens and an unsettling tall man is standing behind Yara in the door-frame. [Video] .",
+      "description": "The door opens and an unsettling tall man is standing behind Yara in the door-frame. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2455000,
@@ -44,6 +44,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:06.175Z",
   "title": "It Follows",
   "tmdb_id": 270303
 }

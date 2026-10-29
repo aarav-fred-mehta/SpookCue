@@ -69,11 +69,11 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "is probably the most significant as it is a very sudden, loud moment in a previously quiet scene.",
+      "description": "A car window is smashed and the girl is pulled out of the car. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3510000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -108,6 +108,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:37.856Z",
   "title": "Wind Chill",
   "tmdb_id": 14223
 }

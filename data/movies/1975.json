@@ -21,7 +21,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Allison screams loudly when Kayako appears.",
+      "description": "Allison screams loudly when Kayako  appears.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 892000,
@@ -172,6 +172,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:22.773Z",
   "title": "The Grudge 2",
   "tmdb_id": 1975
 }

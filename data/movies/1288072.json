@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "During a montage suddenly a unexpected cut to screaming woman follows",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 82000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly claps",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 910000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly gets attacked by a unseen creature",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1593000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bag with a head in it suddenly moves",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2310000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman sitting far away is now close at the camera",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2441000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly comes into view in a door",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After music stops a garbage dispenser suddenly turns on",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3082000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman with a white bag over her head is seen",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a long quiet scene a man suddenly shouts BOO!",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "sudden cut to a screaming woman\n(happens 3 times)",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4749000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A very creepy looking creature pops out of the dark (Not a loud sound)",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4860000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-12-08T06:06:27.728Z",
+  "title": "Keeper",
+  "tmdb_id": 1288072
+}

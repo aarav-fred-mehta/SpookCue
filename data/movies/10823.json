@@ -13384,7 +13384,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The child lying on the road suddenly jumps up at Vicky. [Video] .",
+      "description": "The child lying on the road suddenly jumps up at Vicky. [Video].",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1199000,
@@ -13429,7 +13429,7 @@
         "0",
         "PK"
       ],
-      "description": "Burt walks into Vicky. [Video] .",
+      "description": "Burt walks into Vicky. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": 7438,
       "resolved_time_ms": 2704000,
@@ -13470,6 +13470,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:30.622Z",
   "title": "Children of the Corn",
   "tmdb_id": 10823
 }

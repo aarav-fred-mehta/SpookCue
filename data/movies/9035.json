@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A dead dog suddenly falls onto Starla. [Video] .",
+      "description": "A dead dog suddenly falls onto Starla. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1868000,
@@ -84,6 +84,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:31.713Z",
   "title": "Slither",
   "tmdb_id": 9035
 }

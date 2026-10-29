@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thump on the car hood.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 409000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door buzzes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Very strong flashing lights for a minute.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden flashes of white light while a woman crawls on the floor.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2627000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A figure snatches and drags the woman off camera.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2656000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden gunfire.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anaïs attacks a woman.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3693000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Anaïs breaks through the glass.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4332000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rapid gunfire.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hefty pounding on the elevator door.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie grabs the soldier's legs.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4759000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The soldier shoots herself.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4946000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-27T00:08:19.560Z",
+  "title": "Mads",
+  "tmdb_id": 1262983
+}

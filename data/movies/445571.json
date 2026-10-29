@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches through the window",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 501000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Brooks suddenly appears",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1396000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-14T00:34:09.389Z",
+  "title": "Game Night",
+  "tmdb_id": 445571
+}

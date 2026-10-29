@@ -1,0 +1,91 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Tay suddenly opens the drapes",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 184000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tay loudly opens an attic door",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 407000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tay runs into Ramona as he walks",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1388000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ramona stabs her daughter in a vision",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2240000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Objects fall off a shelf in the garage",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2512000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tay swings a poker at his mother",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ramona sees the woman in the rearview mirror and crashes her car",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3256000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow grabs Annie's leg",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is behind Ramona",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3548000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ramona's husband throws a sheet over her head",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3978000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-14T23:25:09.701Z",
+  "title": "The Woman In The Yard",
+  "tmdb_id": 1244944
+}

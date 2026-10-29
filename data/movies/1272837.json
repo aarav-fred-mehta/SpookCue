@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie suddenly runs out of the forest toward the character.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 554000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scene change with a sudden face appearing.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 578000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden scream is heard (unclear source).",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Spike is suddenly attacked by a zombie.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4644000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Infected train staff suddenly scream.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A zombie lets out a loud scream.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doctor is stabbed, accompanied by a sudden shock moment.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5759000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A huge infected creature suddenly appears.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6165000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-01-18T05:12:57.271Z",
+  "title": "28 Years Later The Bone Temple",
+  "tmdb_id": 1272837
+}

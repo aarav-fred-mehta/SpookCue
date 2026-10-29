@@ -1,0 +1,91 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 73,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "in the reflection of the dogs eyes, a figure lunges forward to grab it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1448000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a bloody bandana falls to the ground with a loud splat sound after lot of tension building.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1757000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a figure rises in the background",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2412000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Indy sees a figure run up the stairs at him on all fours.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2984000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Indy wakes up and a hand pulls him underneath the bed",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3005000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches from the darkness to grab Indy",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a dog food bowl gets thrown at Indy from the darkness.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3369000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "lightning flashes, revealing a dark figure standing right next to Indy",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3557000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "as Indy sniffs the grass, a shadow hand reaches out of the ground at him",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3660000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "shadow figure appears in front of Indy",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4098000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-29T04:30:55.680Z",
+  "title": "Good Boy",
+  "tmdb_id": 1422096
+}

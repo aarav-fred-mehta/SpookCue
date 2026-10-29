@@ -21,13 +21,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Grace’s face suddenly appears from a trapdoor in the rafters causing Eleanor to scream. [Video] .",
+      "description": "Grace’s face suddenly appears from a trapdoor in the rafters causing Eleanor to scream. [Video]",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6161000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:27.294Z",
   "title": "The Haunting",
   "tmdb_id": 11772
 }

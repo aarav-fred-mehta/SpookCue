@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Ben grabs him and pulls him into the cage",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 164000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man reappears from the darkness and Ben pulls off his face",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 170000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate in the background",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate reaches for her",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate appears behind lucy",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1606000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate attacks the guy",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate reaches for her",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2535000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate behind the window appears",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3588000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate screams and stands next to the bed",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate next to her in the car",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4275000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "primate next to her and screams",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4416000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "man killed in bed",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4627000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-26T02:11:03.944Z",
+  "title": "Primate",
+  "tmdb_id": 1315303
+}

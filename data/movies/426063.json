@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 133,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Ellen's throat.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 175000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse screams and vomits blood.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1402000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A horse rears up and a scream is heard.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1546000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Orlok's face is shown close up. Accompanied by audio scare.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2671000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Orlok screams and catches the pickaxe.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2705000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Thomas screams and sits up.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3531000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellen arches her back and screams.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Orlok appears behind the man and screams.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4399000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to Orlok's screaming face.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4877000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellen is revealed behind Anna by the candle light and speaks.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to Ellen's face with blood leaking from her eyes and mouth.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6196000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-17T20:20:41.817Z",
+  "title": "Nosferatu",
+  "tmdb_id": 426063
+}

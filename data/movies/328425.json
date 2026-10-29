@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Robyn wipes the steam off the shower window to reveal Gordo standing behind. [Video] .",
+      "description": "Robyn wipes the steam off the shower window to reveal Gordo standing behind. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3183000,
@@ -44,6 +44,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:18.179Z",
   "title": "The Gift",
   "tmdb_id": 328425
 }

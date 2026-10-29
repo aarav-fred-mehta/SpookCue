@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While Father Harris and Margaret are talking in the back of the car a passerby suddenly hits the window, startling Margaret.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 519000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Carlita crawls towards Margaret, she startles her by suddenly grabbing her face.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 845000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the wind-blown curtain falls back down, Margaret’s habit has changed into an older nun, who turns, moves toward her, and cries out.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the camera cuts from Carlita back to Margaret a hand suddenly grabs her over the shoulder, startling her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3336000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is suddenly hit by a car, accompanied by the loud screech of tires.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the camera cuts from Margaret back to the burned woman, she leans in with an unearthly scream as flames illuminate her face.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4675000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Not long after Margaret vomits in the backseat of the car, it’s hit by another vehicle, accompanied by loud glass breaking and impact sounds.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5399000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-20T03:49:48.535Z",
+  "title": "The First Omen",
+  "tmdb_id": 437342
+}

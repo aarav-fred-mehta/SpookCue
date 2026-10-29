@@ -1,0 +1,19 @@
+{
+  "phonetic_index": [],
+  "release_year": 1998,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A  body can be seen accompanied by a loud noise",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 305000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-23T01:11:23.194Z",
+  "title": "Phantoms",
+  "tmdb_id": 9827
+}

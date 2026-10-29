@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Sarah hallucinates the masked gunman coming out of her closet. [Video] .",
+      "description": "Sarah hallucinates the masked gunman coming out of her closet. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 570000,
@@ -108,6 +108,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:55.455Z",
   "title": "Fear Clinic",
   "tmdb_id": 287524
 }

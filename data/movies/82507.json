@@ -45,7 +45,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ellison falls through the attic floor. [Video] .",
+      "description": "Ellison falls through the attic floor. [Video].",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2593000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ellison lowers the print of Bughuul’s face only to see the same face mirrored in the backyard outside. [Video] .",
+      "description": "Ellison lowers the print of Bughuul’s face only to see the same face mirrored in the backyard outside. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3317000,
@@ -85,7 +85,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A tied up body suddenly comes into view in front of lawnmower. [Video] .",
+      "description": "A tied up body suddenly comes into view in front of lawnmower. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3834000,
@@ -93,7 +93,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A deceased girl appears beside Ellison. [Video] .",
+      "description": "A deceased girl appears beside Ellison. [Video].",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4124000,
@@ -117,7 +117,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Bughuul’s face suddenly appears in front of Ellison while he is peering into the attic. [Video] .",
+      "description": "Bughuul’s face suddenly appears in front of Ellison while he is peering into the attic. [Video].",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5147000,
@@ -133,13 +133,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Bughuul’s face abruptly drops into view, just before the final credits roll. [Video] .",
+      "description": "Bughuul’s face abruptly drops into view, just before the final credits roll. [Video].",
       "id": "scare_17",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6222000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:26.722Z",
   "title": "Sinister",
   "tmdb_id": 82507
 }

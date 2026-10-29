@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Bedcovers are lifted to reveal a girl’s bloody face.",
+      "description": "Bedcovers are lifted to reveal a  girl’s bloody face.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3237000,
@@ -52,6 +52,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:35.979Z",
   "title": "Hell House LLC",
   "tmdb_id": 359246
 }

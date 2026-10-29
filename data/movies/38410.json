@@ -5,8 +5,16 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The man behind the camera hits the little girl with it.",
+      "description": "Sudden loud glitch.",
       "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 90000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man behind the camera hits the little girl with it.",
+      "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 590000,
       "type": "minor"
@@ -14,7 +22,7 @@
     {
       "anchor_phonetic": null,
       "description": "Ed hits the driving man with something.",
-      "id": "scare_02",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 835000,
       "type": "minor"
@@ -22,7 +30,7 @@
     {
       "anchor_phonetic": null,
       "description": "The lights turn on to reveal Ed’s reflection in the window, startling Tim.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1814000,
       "type": "major"
@@ -30,12 +38,14 @@
     {
       "anchor_phonetic": null,
       "description": "There is a loud cut to a dead body.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3201000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-11T04:47:14.819Z",
   "title": "The Poughkeepsie Tapes",
   "tmdb_id": 38410
 }

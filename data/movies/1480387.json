@@ -1,0 +1,99 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A loud static noise after a short period of silence while listening to the end of the recording. (major auditory jump scare)",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 909000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ringtone from a phone interrupts Evy as she listens to the nursery rhyme backwards (minor auditory jump scare)",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1833000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "EDIT SUGGESTION: This is not a jump scare. There's no sound, you barely even notice it if you're not paying attention. It's more an easter egg.\r\n\r\nEvy's mother is reflected stading in the mirror",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2053000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evy's phone rings as she listens to the mothers words on repeat and searches for information about nursery rhymes (minor auditory jump scare)",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2221000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "EDIT SUGGESTION: These mother appearances by this Misco Jones user are simply not jump scares, they're just blurred visuals.\r\n\r\nEvy's mom can be seen again, in the corridor.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2730000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "EDIT SUGGESTION: These mother appearances by this Misco Jones user are simply not jump scares, they're just blurred visuals.\r\n\r\nOnce again, Evy's mom can be seen, now by the stairs while light flashes",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2995000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evy was closing door and Mama starts to move and raise in her bed which is seen from the mirror.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3890000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Silence is broken by a woman rising into frame from below with an auditory scare",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4096000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud static noise comes on in her headphones all of a sudden.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4780000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Screen flashes with an image/sound of Evy suffocating",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5324000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Screen flashes with an image/sound of Evy suffocating/dying again",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5332000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-06T02:02:03.773Z",
+  "title": "Undertone",
+  "tmdb_id": 1480387
+}

@@ -93,16 +93,8 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "comes out of nowhere.",
-      "id": "scare_12",
-      "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3551000,
-      "type": "minor"
-    },
-    {
-      "anchor_phonetic": null,
       "description": "Melissa lifts a sheet to reveal a hand which throws her across the room.",
-      "id": "scare_13",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3675000,
       "type": "minor"
@@ -110,7 +102,7 @@
     {
       "anchor_phonetic": null,
       "description": "After a tense scene, Elise opens the final suitcase and Key Face reaches out and grabs her.",
-      "id": "scare_14",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4509000,
       "type": "major"
@@ -118,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "Key Face throws Elise across the room.",
-      "id": "scare_15",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5219000,
       "type": "minor"
@@ -126,12 +118,14 @@
     {
       "anchor_phonetic": null,
       "description": "Elise has a vision of the demon from the first film looking through a window into Dalton’s bedroom.",
-      "id": "scare_16",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5741000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:01.256Z",
   "title": "Insidious: The Last Key",
   "tmdb_id": 406563
 }

@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Mama appears behind Annabel. [Video] .",
+      "description": "Mama appears behind Annabel. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2936000,
@@ -85,7 +85,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Victoria tells Lilly not to look at mama, then mama flies towards Lilly when she looks back at her. [Video] .",
+      "description": "Victoria tells Lilly not to look at mama, then mama flies towards Lilly when she looks back at her. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4818000,
@@ -108,6 +108,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:25.608Z",
   "title": "Mama",
   "tmdb_id": 132232
 }

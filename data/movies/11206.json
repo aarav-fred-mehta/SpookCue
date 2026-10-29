@@ -5,13 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Roat leaps up from the floor and grabs Susy’s ankle. [Video] .",
+      "description": "Roat leaps up from the floor and grabs Susy’s ankle. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6133000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:29.950Z",
   "title": "Wait Until Dark",
   "tmdb_id": 11206
 }

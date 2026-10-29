@@ -1,0 +1,43 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 157,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden growl from the store",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2775000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "tba",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2788000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another sudden sound from inside the store",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2811000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "tba",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4275000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-19T12:53:34.651Z",
+  "title": "Hope",
+  "tmdb_id": 1058424
+}

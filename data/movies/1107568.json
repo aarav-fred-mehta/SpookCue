@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": null,
+  "runtime_minutes": 0,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The monster loudly slides the plate forward, disturbing the son’s thoughts.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 419000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The monster’s hand grabs the son’s leg.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The son, now with blood all over his face, lunges from the shadows towards the camera/mother.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 779000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:21.257Z",
+  "title": "Liar Liar",
+  "tmdb_id": 1107568
+}

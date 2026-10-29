@@ -5,13 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "The face from Alice’s phone footage suddenly comes towards the camera. [Video] .",
+      "description": "The face from Alice’s phone footage suddenly comes towards the camera. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4249000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:17.368Z",
   "title": "Lake Mungo",
   "tmdb_id": 27374
 }

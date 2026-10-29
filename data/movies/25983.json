@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A man’s hand suddenly appears inside Megan’s car holding a cigarette lighter. [Video] .",
+      "description": "A man’s hand suddenly appears inside Megan’s car holding a cigarette lighter. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2157000,
@@ -21,8 +21,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A loud thump can be heard on the other side of the attic door.",
+      "description": "Samantha reacts to hair in the bathtub, startling music",
       "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud thump can be heard on the other side of the attic door.",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4465000,
       "type": "minor"
@@ -30,12 +38,14 @@
     {
       "anchor_phonetic": null,
       "description": "A grimacing bloody face briefly appears on the screen several times.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5040000,
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-10-18T03:00:43.067Z",
   "title": "The House of the Devil",
   "tmdb_id": 25983
 }

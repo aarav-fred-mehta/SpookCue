@@ -53,7 +53,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A man sits up in his bed and yells at Amy. [Video] .",
+      "description": "A man sits up in his bed and yells at Amy. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4460000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A shrouded figure comes out of the room just behind Amy holding a large pair of scissors. [Video] .",
+      "description": "A shrouded figure comes out of the room just behind Amy holding a large pair of scissors. [Video].",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4592000,
@@ -92,6 +92,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:14.014Z",
   "title": "The Exorcist III",
   "tmdb_id": 11587
 }

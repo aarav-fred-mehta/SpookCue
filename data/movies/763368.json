@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2020,
+  "runtime_minutes": 79,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An old lady appears.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1143000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Close-up of a walking leg. Loud noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1458000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mutilated woman's eyes open.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1642000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A comically large man is just standing in place.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2185000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nothing scary happens there's just a loud noise.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Timmy was in the backseat the whole time!",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4568000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-07T18:05:44.274Z",
+  "title": "Incision",
+  "tmdb_id": 763368
+}

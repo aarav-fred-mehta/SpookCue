@@ -1,0 +1,139 @@
+{
+  "phonetic_index": [],
+  "release_year": 2000,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Solina accidentally brushes up against a skull set in the wall of the cavern.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 587000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcus startles Solina.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A leech jumps from Dracula's coffin onto Nightshade's face.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dracula rises from his coffin.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A helmet falls onto Trick.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1543000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Trick slips on blood and stumbles into Dracula.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1601000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dracula rips the door off a news van.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Simon is startled by Nightshade.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2465000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A newly turned vampire sits up in a bodybag.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2533000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sparks fly after Mary switches on a light.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mary pulls up a comforter to reveal bloodstained bedsheets.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3976000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucy grabs Mary from behind.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4044000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Valerie jumps out in front of Mary.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dracula pops up and scares Mary.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4608000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Judas Iscariot opens his eyes reborn as a vampire.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4972000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mary opens her eyes.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5448000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-03-27T09:35:01.668Z",
+  "title": "Dracula 2000",
+  "tmdb_id": 10577
+}

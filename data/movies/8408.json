@@ -20283,7 +20283,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "As Sarah touches the calendar, zombie hands come out of the wall in front of her. [Video] .",
+      "description": "As Sarah touches the calendar, zombie hands come out of the wall in front of her. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 66000,
@@ -20299,7 +20299,7 @@
         "0RTN",
         "MPLT"
       ],
-      "description": "A chained up zombie lunges at Sarah from behind. [Video] .",
+      "description": "A chained up zombie lunges at Sarah from behind. [Video]",
       "id": "scare_02",
       "offset_from_anchor_ms": 3993,
       "resolved_time_ms": 1366000,
@@ -20423,6 +20423,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:28.916Z",
   "title": "Day of the Dead",
   "tmdb_id": 8408
 }

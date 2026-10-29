@@ -61,13 +61,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Stephanie is about to start the cop car when a diseased person jumps up from the back seat and grabs her. [Video] .",
+      "description": "Stephanie is about to start the cop car when a diseased person jumps up from the back seat and grabs her. [Video]",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4611000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:48.916Z",
   "title": "The Bay",
   "tmdb_id": 123105
 }

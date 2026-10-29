@@ -24082,19 +24082,11 @@
   "runtime_minutes": 114,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AN",
-        "ALTRL",
-        "MNNS",
-        "HS",
-        "FRM",
-        "ANST",
-        "AT"
-      ],
-      "description": "and 1:03:48 (both involving Frank) may unsettle some people (although neither is really a jump scare).",
+      "anchor_phonetic": null,
+      "description": "The house suddenly shakes accompanied with a loud rumble",
       "id": "scare_01",
-      "offset_from_anchor_ms": 16863,
-      "resolved_time_ms": 2590000,
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 650000,
       "type": "minor"
     },
     {
@@ -24133,6 +24125,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-24T01:43:48.555Z",
   "title": "Donnie Darko",
   "tmdb_id": 141
 }

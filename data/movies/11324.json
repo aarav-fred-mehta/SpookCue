@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "An inmate jumps out at Teddy and Chuck as they are exploring Ward C. [Video] .",
+      "description": "An inmate jumps out at Teddy and Chuck as they are exploring Ward C. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4048000,
@@ -76,6 +76,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:22.954Z",
   "title": "Shutter Island",
   "tmdb_id": 11324
 }

@@ -22893,7 +22893,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A black figure is lying at the bottom of the staircase and its face flashes on the screen.",
+      "description": "A black figure is lying at the bottom of the staircase and its face flashes on the screen.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3532000,
@@ -22952,6 +22952,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.235Z",
   "title": "Annabelle",
   "tmdb_id": 250546
 }

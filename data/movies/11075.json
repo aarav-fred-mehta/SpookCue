@@ -10445,13 +10445,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A butchered body jumps up off the ground at Shigeharu. [Video] .",
+      "description": "A butchered body jumps up off the ground at Shigeharu. [Video]",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5251000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:54.153Z",
   "title": "Audition",
   "tmdb_id": 11075
 }

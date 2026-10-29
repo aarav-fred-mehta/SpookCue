@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden appearance of a dead woman accompanied by a loud noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 984000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bird slams violently into the glass door with a loud thump.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lydia startles Maeve.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1959000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-23T20:49:22.652Z",
+  "title": "Cheat",
+  "tmdb_id": 1142414
+}

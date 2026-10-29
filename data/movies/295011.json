@@ -45,13 +45,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": ") therefore most of the jump scares lack any real impact.",
+      "description": "One of the lab workers looks through a window in the door and an infected person suddenly appears right in front of her.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4120000,
-      "type": "minor"
+      "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:48.776Z",
   "title": "Patient Zero",
   "tmdb_id": 295011
 }

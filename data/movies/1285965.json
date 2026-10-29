@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud transition to a boat",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shark suddenly swims past",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 351000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly gets a bag over her head during a quiet scene",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1312000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound happens when she realizes she is  chained to a bed",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another loud sound when she tries to get herself loose",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1695000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another loud sound when a woman is chained to a chair",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2212000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man gets suddenly stabbed",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A supposedly unconsious man suddenly grabs a woman's arm",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3146000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A villianous character suddenly tackles the boyfriend",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3660000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden loud cut to a bloodied corpse",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4012000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After someone says ''behind you''\na shark pops up",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5129000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "brief startling sound effect as a woman grabs the side of the boat",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman pops up out of the water",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5457000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-17T05:14:40.570Z",
+  "title": "Dangerous Animals",
+  "tmdb_id": 1285965
+}

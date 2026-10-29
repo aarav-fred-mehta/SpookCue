@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman walks out of the woods into the road.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 400000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The officer's radio turns on.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 889000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman slams against the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 951000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman runs at him from his car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1070000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dog bursts out of the barn wall.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tentacles explode from the dog's face.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1459000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An old man runs from the hallway and tackles him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1821000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Legs snap onto the wall.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie attacks.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie flinches.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3095000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The zombie gets dragged away.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3123000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sack bursts open.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4538000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-28T12:44:49.934Z",
+  "title": "Resident Evil",
+  "tmdb_id": 1423191
+}

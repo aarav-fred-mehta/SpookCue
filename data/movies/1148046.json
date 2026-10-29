@@ -1,0 +1,67 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Vicente scares Eva by wearing a mask during the party.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 313000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the twins grabs Eva's foot under the bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 429000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Eva is looking after her newborn son, Vicente and a friend enter the room.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 969000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "In a sudden cut, Eva's son is pulled from the car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Vincente suddenly appears in bed and hugs Eva.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3685000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud sound plays when the video begins.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A song suddenly starts playing and the screen goes black.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5935000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-03-31T12:51:52.121Z",
+  "title": "A Happy Family",
+  "tmdb_id": 1148046
+}

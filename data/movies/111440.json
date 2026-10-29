@@ -2,7 +2,106 @@
   "phonetic_index": [],
   "release_year": 2012,
   "runtime_minutes": 89,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A banging noise wakes Annie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 707000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annie trips on a bottle.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise wakes Annie from her sleep.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1234000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow can be seen in the room while Annie is sleeping. [Video].",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1313000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annie turns around and sees a decapitated woman on the bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Stevie, Annie, and Giles look up and see a woman in a floral dress floating above them.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2969000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman in the floral dress turns suddenly to face Annie.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Creek is stabbed in the neck by an unseen assailant.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3681000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The crucifix moves suddenly.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Annie sees a severed head.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4335000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door swings open.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4748000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An eye appears in the hole in the wall.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5101000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:48.729Z",
   "title": "The Pact",
   "tmdb_id": 111440
 }

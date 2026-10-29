@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A wine glass on the table suddenly goes flying and smashes into a cabinet. [Video] .",
+      "description": "A wine glass on the table suddenly goes flying and smashes into a cabinet. [Video].",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3138000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The mirror breaks in front of John and there is an image of Captain Dewitt with blood on his forehead. [Video] .",
+      "description": "The mirror breaks in front of John and there is an image of Captain Dewitt with blood on his forehead. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5121000,
@@ -53,13 +53,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The wheelchair suddenly moves and begins to chase Claire. [Video] .",
+      "description": "The wheelchair suddenly moves and begins to chase Claire. [Video].",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5774000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:56.752Z",
   "title": "The Changeling",
   "tmdb_id": 13550
 }

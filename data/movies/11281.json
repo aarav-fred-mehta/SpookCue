@@ -5,7 +5,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Mike Myers jumps up in front of the camera and stabs Alice. [Video] .",
+      "description": "Mike Myers jumps up in front of the camera and stabs Alice. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 741000,
@@ -68,6 +68,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:25.705Z",
   "title": "Halloween II",
   "tmdb_id": 11281
 }

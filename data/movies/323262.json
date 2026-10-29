@@ -2,7 +2,50 @@
   "phonetic_index": [],
   "release_year": 2016,
   "runtime_minutes": 104,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl runs down a hallway and the strange easter-bunny creature jumps out at her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2180000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature roars suddenly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2356000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman grabs Kate’s arm while she is on the phone.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3098000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand bursts out of Kate.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3153000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man sitting in the chair suddenly turns around to reveal a contorted face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3925000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:41.028Z",
   "title": "Holidays",
   "tmdb_id": 323262
 }

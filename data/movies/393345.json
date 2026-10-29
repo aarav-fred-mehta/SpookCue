@@ -19829,11 +19829,11 @@
         "FK",
         "A"
       ],
-      "description": "is completely out of the blue.",
+      "description": "A man jumps up in front of the woman talking to Nica.",
       "id": "scare_02",
       "offset_from_anchor_ms": 572,
       "resolved_time_ms": 804000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": [
@@ -20009,6 +20009,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:25.808Z",
   "title": "Cult of Chucky",
   "tmdb_id": 393345
 }

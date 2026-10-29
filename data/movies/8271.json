@@ -37257,7 +37257,7 @@
         "0",
         "LN"
       ],
-      "description": "Mr Turner breaks into Kale’s room with a baseball bat. [Video] .",
+      "description": "Mr Turner breaks into Kale’s room with a baseball bat. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": 27137,
       "resolved_time_ms": 5246000,
@@ -37296,6 +37296,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:37.347Z",
   "title": "Disturbia",
   "tmdb_id": 8271
 }

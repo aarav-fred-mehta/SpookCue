@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Mr Woodward’s hand suddenly brushes away the map that the children are looking at. [Video] .",
+      "description": "Mr Woodward’s hand suddenly brushes away the map that the children are looking at. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1393000,
@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The alien slams into the military bus. [Video] .",
+      "description": "The alien slams into the military bus. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4802000,
@@ -124,6 +124,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:39.654Z",
   "title": "Super 8",
   "tmdb_id": 37686
 }

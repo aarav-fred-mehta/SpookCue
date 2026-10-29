@@ -1,0 +1,155 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Girl on floor opens eyes and starts convulsing",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 273000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess chokes girl",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 297000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jess scalps girl",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 308000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Head gets thrown out of water",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 368000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Danny falls back after a life size crucifix falls towards him",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1204000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bunch of bugs are revealed and fly around Danny",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "This whole scene has some very loud and unsettling noises while she is tortured in elevator",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1862000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When she drops the pan, it is loud. This whole scene has loud music with her awkward movements in turn makes for good jump scares.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2167000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "She rises from the tub to the ceiling",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2581000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie charges Beth",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2706000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie charges daughter",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2750000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie ties to grab Kassie through the door",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3369000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie is banging on door and screaming",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3602000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellie screams Bethy-boo unexpectedly and charges at Beth",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4401000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Elevator falls to the bottom and blood explodes out to camera",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4645000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deadites come out from behind the car",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4843000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Deadite grabs Kassie by the leg",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4892000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud clanging noises for the next 20 seconds and then a camera zooms quickly to girl",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5392000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-12T11:34:28.877Z",
+  "title": "Evil Dead Rise",
+  "tmdb_id": 713704
+}

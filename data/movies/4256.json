@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2003,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "This timing is for the extended version, also known as Scary Movie 3.5: The toaster makes a sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 220000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "This timing is for the extended version, also known as Scary Movie 3.5: A siren is suddenly heared and scares Cindy.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3288000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "This timing is for the extended version, also known as Scary Movie 3.5: Cody gets hit by another car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4566000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-12-14T01:05:26.638Z",
+  "title": "Scary Movie 3",
+  "tmdb_id": 4256
+}

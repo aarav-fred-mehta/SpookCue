@@ -9167,7 +9167,7 @@
         "P0TK",
         "FK"
       ],
-      "description": "The tied up girl suddenly becomes possessed and begins to yell. [Video] .",
+      "description": "The tied up girl suddenly becomes possessed and begins to yell. [Video].",
       "id": "scare_02",
       "offset_from_anchor_ms": 1783,
       "resolved_time_ms": 267000,
@@ -9362,7 +9362,7 @@
         "FR",
         "A"
       ],
-      "description": "David stops to look at a photo. Possessed Eric appears behind him and stabs him in the neck. [Video] .",
+      "description": "David stops to look at a photo. Possessed Eric appears behind him and stabs him in the neck. [Video].",
       "id": "scare_16",
       "offset_from_anchor_ms": 19676,
       "resolved_time_ms": 4479000,
@@ -9379,7 +9379,7 @@
         "KR",
         "KS"
       ],
-      "description": "A hand comes out of the earth and grabs Mia. [Video] .",
+      "description": "A hand comes out of the earth and grabs Mia. [Video].",
       "id": "scare_17",
       "offset_from_anchor_ms": 3283,
       "resolved_time_ms": 4648000,
@@ -9429,6 +9429,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-08-31T18:41:02.461Z",
   "title": "Evil Dead",
   "tmdb_id": 109428
 }

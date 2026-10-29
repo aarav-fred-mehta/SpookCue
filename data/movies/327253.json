@@ -69,7 +69,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The balloons pop after Matt says “they’re here.”.",
+      "description": "The balloons pop after Matt says “they’re here.”",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4166000,
@@ -84,6 +84,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:22.774Z",
   "title": "The Gracefield Incident",
   "tmdb_id": 327253
 }

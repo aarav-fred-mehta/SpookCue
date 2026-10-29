@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A picture is shown accompanied by a startling sound.",
+      "description": "A picture is shown accompanied by a  startling sound.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1929000,
@@ -52,6 +52,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:10.006Z",
   "title": "Ringu",
   "tmdb_id": 2671
 }

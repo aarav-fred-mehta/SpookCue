@@ -5,13 +5,15 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "Mrs. Baylock attacks Robert from behind as he stands over Damien’s bed. [Video] .",
+      "description": "Mrs. Baylock attacks Robert from behind as he stands over Damien’s bed. [Video].",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6072000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:48.439Z",
   "title": "The Omen",
   "tmdb_id": 794
 }

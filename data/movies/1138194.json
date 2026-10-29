@@ -1,0 +1,75 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A spider crawls out of the speaking tube very quickly towards the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3788000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Audio tape suddenly stops, the volume of it is in big contrast with the music before and might scare some viewers.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman suddenly collapses into the pie.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3981000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman coughs suddenly.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4033000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The doorbell sounds.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4099000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman appears behind sister Paxton.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sister paxton gets stabbed in the stomach with the box cutter after a suspensfull chasing scene.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6072000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The sister hits him in the head with a spiked 2 x 4",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6232000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-07-08T01:50:22.017Z",
+  "title": "Heretic",
+  "tmdb_id": 1138194
+}

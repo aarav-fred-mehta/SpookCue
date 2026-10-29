@@ -13,7 +13,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "might shock some viewers due to its sudden and unexpected nature.",
+      "description": "An image of some dolls briefly flashes on the screen accompanied by a high pitched whooshing noise.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1292000,
@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The Tooth Fairy suddenly puts his hands over Freddy’s face. [Video] .",
+      "description": "The Tooth Fairy suddenly puts his hands over Freddy’s face. [Video].",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4680000,
@@ -52,6 +52,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:06.054Z",
   "title": "Red Dragon",
   "tmdb_id": 9533
 }

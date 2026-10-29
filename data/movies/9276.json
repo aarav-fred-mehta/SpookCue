@@ -85,13 +85,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Zeke grabs onto the fence, surprising Stokes and Casey. [Video] .",
+      "description": "Zeke grabs onto the fence, surprising Stokes and Casey. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5811000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:13.954Z",
   "title": "The Faculty",
   "tmdb_id": 9276
 }

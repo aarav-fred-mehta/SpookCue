@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Loud sound scene switch",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1978000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "she gets slap in the face",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2801000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "loud sound scene switch",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3038000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "loud sound scene switch",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "a man jumps over the table attacks her",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4096000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "man shoots himself in the face with a shotgun",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4930000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "loud sound scene switch",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5108000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "loud sound scene switch",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5440000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "loud sound scene switch",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5740000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-29T01:26:26.723Z",
+  "title": "Bugonia",
+  "tmdb_id": 701387
+}

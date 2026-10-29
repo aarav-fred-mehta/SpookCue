@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Diego appears behind the fridge door",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A car crash into them",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4135000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-02-02T02:38:23.118Z",
+  "title": "Bone Lake",
+  "tmdb_id": 1330421
+}

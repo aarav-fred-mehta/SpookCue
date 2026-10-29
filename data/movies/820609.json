@@ -1,0 +1,91 @@
+{
+  "phonetic_index": [],
+  "release_year": 2023,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Bryan is awoken from her sleep by a bang/thud.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The landline is hanging from the wall as Brynn stares from behind the refrigerator, then suddenly an alien hand grabs it from the left side of the screen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1139000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Brynn is hiding on the side of the refrigerator, the refrigerator door slams open trapping her between it and the counter.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1172000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Brynn is crawling away from the mailman aggressor, a women lunges from the right side of the screen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Brynn is trying to flee out the basement  door, a beam of light and loud noise suddenly appear through the slit of wood panels.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2768000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Bryyn is hiding under a table a mannequin is pushed over and falls.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2865000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Bryyn is under the table an alien is crouched watching her from the right side of the screen.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2870000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Brynn closed the door the alien breaks through the door panel with its claws.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Brynn is walking to her front door, something falls from above.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3392000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After the long legged alien falls with no movement, it suddenly pops up and starts walking upside-down.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3449000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-19T12:54:18.943Z",
+  "title": "No One Will Save You",
+  "tmdb_id": 820609
+}

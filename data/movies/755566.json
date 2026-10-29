@@ -1,0 +1,35 @@
+{
+  "phonetic_index": [],
+  "release_year": 2022,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A vampire put her hand on the protagonist’s shoulder.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 241000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A vampire breaks down a door at the back",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 373000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A vampire appears behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2775000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-05T23:26:02.610Z",
+  "title": "Day Shift",
+  "tmdb_id": 755566
+}

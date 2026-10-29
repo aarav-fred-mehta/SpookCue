@@ -1,0 +1,123 @@
+{
+  "phonetic_index": [],
+  "release_year": 2024,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The friend makes the chair moving with a string",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1741000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chair flies to the wall",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1822000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The painting in the other room falls",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1930000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The chandelier falls on the floor in front of him",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1968000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The friend begins to play the piano",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2113000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door gently slam many times",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2425000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tricycle comes in front ot them and continues riding",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door opens making the tricycle jump",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2570000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman turns back and the camera zooms out",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2762000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "BIGGEST OF THEM ALL: he turns back seeing his friend captured by a demonic entity",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2773000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The piano starts to play by itself",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2792000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pianist turns around and walks towards the mirror",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2823000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The maid begins to speak behind the guy",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2900000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Random sound behind him",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2923000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-27T16:18:29.526Z",
+  "title": "Do Not Enter",
+  "tmdb_id": 1287717
+}

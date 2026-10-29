@@ -1,0 +1,59 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The Jester suddenly leans down.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1719000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Jester appears from behind.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl is grabbed by the Jester.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jump cut to a man hanging in a tree.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2269000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead man grabs the girl.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2770000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man lifts his head up and this eyes missing.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3802000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-09-09T02:03:52.876Z",
+  "title": "The Jester 2",
+  "tmdb_id": 1519168
+}

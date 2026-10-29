@@ -32945,6 +32945,19 @@
   "scares": [
     {
       "anchor_phonetic": [
+        "HH",
+        "KMNK",
+        "HH",
+        "KMNK"
+      ],
+      "description": "An officer suddenly runs into the tunnel and jumps Papillon.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": 1760,
+      "resolved_time_ms": 1607000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
         "SKRLT",
         "A",
         "XLTNNT",
@@ -32952,7 +32965,7 @@
         "HR"
       ],
       "description": "After Scarlett puts down the phone, a man’s voice starts talking from behind the group.",
-      "id": "scare_01",
+      "id": "scare_02",
       "offset_from_anchor_ms": 2080,
       "resolved_time_ms": 2504000,
       "type": "minor"
@@ -32966,8 +32979,8 @@
         "FK",
         "XT"
       ],
-      "description": "Mole, the presumed dead friend of one of the group members, jumps at the group when approached by Souxie. [Video] .",
-      "id": "scare_02",
+      "description": "Mole, the presumed dead friend of one of the group members, jumps at the group when approached by Souxie. [Video].",
+      "id": "scare_03",
       "offset_from_anchor_ms": 2440,
       "resolved_time_ms": 3832000,
       "type": "major"
@@ -32982,7 +32995,7 @@
         "AS"
       ],
       "description": "The ghost jumps again when further approached.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": 4040,
       "resolved_time_ms": 3859000,
       "type": "minor"
@@ -32996,7 +33009,7 @@
         "KT"
       ],
       "description": "Benji gets attacked by a lady.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": 36680,
       "resolved_time_ms": 4044000,
       "type": "minor"
@@ -33010,7 +33023,7 @@
         "AP"
       ],
       "description": "A sculpture on the wall breaks off and attacks the group.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": 31200,
       "resolved_time_ms": 4531000,
       "type": "minor"
@@ -33027,20 +33040,22 @@
         "0S"
       ],
       "description": "A hand reaches out of the water and grabs Scarlett.",
-      "id": "scare_06",
+      "id": "scare_07",
       "offset_from_anchor_ms": 32640,
       "resolved_time_ms": 4722000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Scarlett lifts the sack on a hanging person’s head when that person jumps at her. [Video] .",
-      "id": "scare_07",
+      "description": "Scarlett lifts the sack on a hanging person’s head when that person jumps at her. [Video].",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4774000,
       "type": "major"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-30T14:34:00.555Z",
   "title": "As Above, So Below",
   "tmdb_id": 256274
 }

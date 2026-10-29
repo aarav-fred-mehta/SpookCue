@@ -2,7 +2,42 @@
   "phonetic_index": [],
   "release_year": 1998,
   "runtime_minutes": 88,
-  "scares": [],
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a quick, loud cut to a fire.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 780000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As seen through a bathroom mirror, Cortese suddenly pulls open the shower curtains and attacks Bartone.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1903000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The mummy’s gauze suddenly flies at the windshield of a car.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2021000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body of Cortese suddenly twitches.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3880000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:39.445Z",
   "title": "Tale of the Mummy",
   "tmdb_id": 66892
 }

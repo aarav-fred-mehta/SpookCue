@@ -1,0 +1,107 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something in the forest is making a noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1119000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise interrupts the presenter's speech.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1634000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise interrupts the conversation.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The ghost hunter gets scared when he sees something bizarre in the fountain.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2318000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the Ghostbusters' arms is pulled through the door.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3461000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise interrupts the speech.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4103000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A chair that was flying falls, startling the characters.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4125000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ji-hyun's eyes suddenly open and she starts whispering",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4202000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A frightening face appears on the screen and begins to whisper.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4505000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature attacks the camera.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4530000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Silence is broken by a ping pong ball bouncing towards the camera suddenly",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4674000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl suddenly screams at the camera.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5079000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-04-30T02:13:01.415Z",
+  "title": "Gonjiam Haunted Asylum",
+  "tmdb_id": 508642
+}

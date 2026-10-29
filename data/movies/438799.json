@@ -29,7 +29,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "which comes out of nowhere).",
+      "description": "As the soldiers walk across a field on the way to the rendezvous point, a landmine explodes as one of the soldiers says “that way, you get a cut of the profits”.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 915000,
@@ -100,6 +100,8 @@
       "type": "minor"
     }
   ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:43.415Z",
   "title": "Overlord",
   "tmdb_id": 438799
 }

@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A car approaches with its horn blaring and headlights shining.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 638000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Flashback to a car accident. Woman screaming.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1202000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Woman is scared by man tapping her shoulder. Fake out jumpscare.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1446000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is shot from behind with a harpoon.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden flashback to the car crash.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2275000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman turns around to see the killer.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman is scared by her friend.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2421000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man is grabbed from behind by the killer.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3368000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears behind the woman.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3451000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hook breaks through the ceiling.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3572000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman has a flashback. Sudden cut with loud noise.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3676000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "he man has a rope wrapped around his neck from behind.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Cuts to a shot with a man standing behind the woman with sound.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4289000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-25T22:04:14.527Z",
+  "title": "I Know What You Did Last Summer",
+  "tmdb_id": 1083433
+}

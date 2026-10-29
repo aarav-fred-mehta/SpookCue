@@ -25,6 +25,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -41,6 +42,7 @@ import dev.spookcue.ui.theme.CrimsonBorder
 import dev.spookcue.ui.theme.CrimsonDark
 import dev.spookcue.ui.theme.CrimsonPrimary
 import dev.spookcue.ui.theme.LunarBorder
+import dev.spookcue.ui.theme.LunarWhite
 import dev.spookcue.ui.theme.LunarSlateMuted
 import dev.spookcue.ui.theme.PureBlack
 import dev.spookcue.ui.theme.SurfaceDark
@@ -56,6 +58,9 @@ fun MovieCard(
 ) {
     val context = LocalContext.current
     val posterUrl = movie.posterPath?.let { "https://image.tmdb.org/t/p/w185$it" }
+    val isMovieNew = remember(movie.tags, movie.releaseYear) {
+        "NEW" in movie.tags || ((movie.releaseYear ?: 0) >= (java.util.Calendar.getInstance().get(java.util.Calendar.YEAR) - 1))
+    }
 
     val imageRequest = remember(posterUrl) {
         ImageRequest.Builder(context)
@@ -104,6 +109,25 @@ fun MovieCard(
                         tint = LunarSlateMuted,
                         modifier = Modifier.size(36.dp)
                     )
+                }
+
+                if (isMovieNew) {
+                    Surface(
+                        color = CrimsonPrimary,
+                        shape = RoundedCornerShape(topStart = 7.dp, bottomEnd = 7.dp),
+                        modifier = Modifier
+                            .align(Alignment.TopStart)
+                            .shadow(3.dp, RoundedCornerShape(topStart = 7.dp, bottomEnd = 7.dp))
+                    ) {
+                        Text(
+                            text = "NEW",
+                            color = LunarWhite,
+                            fontSize = 8.sp,
+                            fontWeight = FontWeight.Black,
+                            letterSpacing = 0.5.sp,
+                            modifier = Modifier.padding(horizontal = 4.dp, vertical = 1.5.dp)
+                        )
+                    }
                 }
             }
 

@@ -58,6 +58,8 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.debounce
+import androidx.compose.ui.res.painterResource
+import dev.spookcue.R
 import dev.spookcue.ui.components.FeaturedMovieCard
 import dev.spookcue.ui.components.GhostLoadingIndicator
 import dev.spookcue.ui.components.MovieCard
@@ -273,7 +275,7 @@ fun HomeScreen(
                                         verticalAlignment = Alignment.CenterVertically
                                     ) {
                                         Icon(
-                                            imageVector = Icons.Default.Movie,
+                                            painter = painterResource(id = R.drawable.ic_theaters),
                                             contentDescription = null,
                                             tint = CrimsonPrimary,
                                             modifier = Modifier.size(16.dp)

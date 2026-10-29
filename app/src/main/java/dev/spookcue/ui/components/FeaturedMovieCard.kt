@@ -98,7 +98,7 @@ fun FeaturedMovieCard(
                 }
             }
 
-            // Tag Badge on Top Corner
+            // Tag Badge on Top Corner (NEW only, HOT removed)
             if (isNew) {
                 Surface(
                     color = CrimsonPrimary,
@@ -116,23 +116,6 @@ fun FeaturedMovieCard(
                         modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
                     )
                 }
-            } else {
-                Surface(
-                    color = TheaterAmber,
-                    shape = RoundedCornerShape(topStart = 8.dp, bottomEnd = 8.dp),
-                    modifier = Modifier
-                        .align(Alignment.TopStart)
-                        .shadow(4.dp, RoundedCornerShape(topStart = 8.dp, bottomEnd = 8.dp))
-                ) {
-                    Text(
-                        text = "HOT",
-                        color = PureBlack,
-                        fontSize = 9.sp,
-                        fontWeight = FontWeight.Black,
-                        letterSpacing = 0.5.sp,
-                        modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
-                    )
-                }
             }
         }
 
@@ -142,10 +125,12 @@ fun FeaturedMovieCard(
             text = movie.title,
             style = MaterialTheme.typography.bodySmall.copy(
                 fontWeight = FontWeight.Bold,
-                fontSize = 12.sp
+                fontSize = 12.sp,
+                lineHeight = 15.sp
             ),
             color = LunarWhite,
-            maxLines = 1,
+            maxLines = 2,
+            minLines = 2,
             overflow = TextOverflow.Ellipsis
         )
 

@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Left Film Reel -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M6,2.5 C4.34,2.5 3,3.84 3,5.5 C3,7.16 4.34,8.5 6,8.5 C7.66,8.5 9,7.16 9,5.5 C9,3.84 7.66,2.5 6,2.5 Z M6,4.5 C6.55,4.5 7,4.95 7,5.5 C7,6.05 6.55,6.5 6,6.5 C5.45,6.5 5,6.05 5,5.5 C5,4.95 5.45,4.5 6,4.5 Z" />
+    <!-- Right Film Reel -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M14,2.5 C12.34,2.5 11,3.84 11,5.5 C11,7.16 12.34,8.5 14,8.5 C15.66,8.5 17,7.16 17,5.5 C17,3.84 15.66,2.5 14,2.5 Z M14,4.5 C14.55,4.5 15,4.95 15,5.5 C15,6.05 14.55,6.5 14,6.5 C13.45,6.5 13,6.05 13,5.5 C13,4.95 13.45,4.5 14,4.5 Z" />
+    <!-- Projector Body -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M4.5,8 C3.67,8 3,8.67 3,9.5 L3,14.5 C3,15.33 3.67,16 4.5,16 L15.5,16 C16.33,16 17,15.33 17,14.5 L17,9.5 C17,8.67 16.33,8 15.5,8 Z" />
+    <!-- Lens Cone -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M17,10.2 L21.5,8.2 L21.5,15.8 L17,13.8 Z" />
+    <!-- Tripod Legs -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M6,16 L4,21 M10,16 L10,21 M14,16 L16,21" />
+</vector>

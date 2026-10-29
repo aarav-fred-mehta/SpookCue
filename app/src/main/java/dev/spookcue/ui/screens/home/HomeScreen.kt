@@ -56,6 +56,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import kotlinx.coroutines.FlowPreview
+import kotlinx.coroutines.flow.debounce
 import dev.spookcue.ui.components.FeaturedMovieCard
 import dev.spookcue.ui.components.GhostLoadingIndicator
 import dev.spookcue.ui.components.MovieCard
@@ -70,7 +72,7 @@ import dev.spookcue.ui.theme.PureBlack
 import dev.spookcue.ui.theme.TheaterAmber
 import kotlin.math.abs
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, FlowPreview::class)
 @Composable
 fun HomeScreen(
     onMovieSelected: (tmdbId: Int) -> Unit,
@@ -83,14 +85,26 @@ fun HomeScreen(
     val snackbarHostState = remember { SnackbarHostState() }
     val listState = rememberLazyListState()
 
-    // 1. Optimized scroll lookahead prefetching (debounced by 6 items to prevent fast scroll lag)
+    // Anchor to top whenever initial loading completes or carousels are populated
+    LaunchedEffect(uiState.isInitialLoading) {
+        if (!uiState.isInitialLoading) {
+            listState.scrollToItem(0, 0)
+        }
+    }
+
+    LaunchedEffect(uiState.theaterMovies.isNotEmpty()) {
+        if (uiState.theaterMovies.isNotEmpty() && listState.firstVisibleItemIndex <= 2 && !listState.isScrollInProgress) {
+            listState.scrollToItem(0, 0)
+        }
+    }
+
+    // 1. Optimized scroll lookahead prefetching (pauses during active flings, runs when settled)
     LaunchedEffect(listState, movies) {
-        var lastPrefetchedIndex = -1
-        snapshotFlow { listState.firstVisibleItemIndex }
-            .collect { firstIndex ->
-                if (movies.isNotEmpty() && abs(firstIndex - lastPrefetchedIndex) >= 6) {
-                    lastPrefetchedIndex = firstIndex
-                    val lookAheadIndex = firstIndex + 4
+        snapshotFlow { listState.isScrollInProgress to listState.firstVisibleItemIndex }
+            .debounce(250L)
+            .collect { (isScrolling, firstIndex) ->
+                if (!isScrolling && movies.isNotEmpty()) {
+                    val lookAheadIndex = firstIndex + 2
                     val slice = movies.drop(lookAheadIndex).take(8)
                     viewModel.prefetchMovies(slice)
                 }

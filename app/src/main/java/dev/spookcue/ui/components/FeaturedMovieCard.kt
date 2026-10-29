@@ -55,7 +55,8 @@ fun FeaturedMovieCard(
     val imageRequest = remember(posterUrl) {
         ImageRequest.Builder(context)
             .data(posterUrl)
-            .crossfade(150)
+            .crossfade(false)
+            .allowRgb565(true)
             .memoryCachePolicy(CachePolicy.ENABLED)
             .diskCachePolicy(CachePolicy.ENABLED)
             .placeholder(R.drawable.ic_film_reel_spooky)

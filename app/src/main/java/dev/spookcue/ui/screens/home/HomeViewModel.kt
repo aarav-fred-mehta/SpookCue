@@ -70,7 +70,58 @@ class HomeViewModel @Inject constructor(
         }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), emptyList())
 
+    private fun categorizeCatalog(catalog: List<MovieCatalogItem>): Pair<List<MovieCatalogItem>, List<MovieCatalogItem>> {
+        val currentYear = Calendar.getInstance().get(Calendar.YEAR)
+
+        // 1. Theater / New Releases (dynamically tagged "NEW" or released in current/previous calendar year)
+        val theater = catalog
+            .filter { "NEW" in it.tags || ((it.releaseYear ?: 0) >= (currentYear - 1)) }
+            .sortedWith(
+                compareByDescending<MovieCatalogItem> { it.releaseYear ?: 0 }
+                    .thenByDescending { it.scareCount }
+            )
+            .take(16)
+
+        // 2. Popular Home Watch (dynamically tagged "HOT", iconic classics, or high scare counts)
+        val popularTitles = setOf(
+            "The Conjuring", "The Conjuring 2", "Insidious", "Sinister", "Hereditary",
+            "It Follows", "[Rec]", "A Quiet Place", "The Ring", "Lights Out",
+            "Annabelle: Creation", "Don't Breathe", "The Babadook", "Oculus",
+            "The Autopsy of Jane Doe", "28 Days Later", "The Descent", "Paranormal Activity",
+            "Alien", "The Shining", "Midsommar", "Barbarian", "Terrifier 2", "Smile", "Scream 6"
+        )
+        val home = catalog
+            .filter { "HOT" in it.tags || it.title in popularTitles || it.scareCount >= 14 }
+            .distinctBy { it.tmdbId }
+            .sortedByDescending {
+                when {
+                    "HOT" in it.tags -> 200 + it.scareCount
+                    it.title in popularTitles -> 100 + it.scareCount
+                    else -> it.scareCount
+                }
+            }
+            .take(16)
+
+        return Pair(theater, home)
+    }
+
     init {
+        // Continuous observation of catalog stream so UI state reactively reflects Room DB updates
+        viewModelScope.launch {
+            movieRepository.getCatalogStream().collect { catalog ->
+                if (catalog.isNotEmpty()) {
+                    val (theater, home) = categorizeCatalog(catalog)
+                    _uiState.update { current ->
+                        current.copy(
+                            theaterMovies = theater,
+                            popularHomeMovies = home,
+                            totalMovieCount = catalog.size
+                        )
+                    }
+                }
+            }
+        }
+
         viewModelScope.launch {
             val startTime = System.currentTimeMillis()
             try {
@@ -82,37 +133,7 @@ class HomeViewModel @Inject constructor(
                 } ?: emptyList()
 
                 if (catalogSnapshot.isNotEmpty()) {
-                    val currentYear = Calendar.getInstance().get(Calendar.YEAR)
-
-                    // 1. Theater / New Releases (dynamically tagged "NEW" or released in current/previous calendar year)
-                    val theater = catalogSnapshot
-                        .filter { "NEW" in it.tags || ((it.releaseYear ?: 0) >= (currentYear - 1)) }
-                        .sortedWith(
-                            compareByDescending<MovieCatalogItem> { it.releaseYear ?: 0 }
-                                .thenByDescending { it.scareCount }
-                        )
-                        .take(16)
-
-                    // 2. Popular Home Watch (dynamically tagged "HOT", iconic classics, or high scare counts)
-                    val popularTitles = setOf(
-                        "The Conjuring", "The Conjuring 2", "Insidious", "Sinister", "Hereditary",
-                        "It Follows", "[Rec]", "A Quiet Place", "The Ring", "Lights Out",
-                        "Annabelle: Creation", "Don't Breathe", "The Babadook", "Oculus",
-                        "The Autopsy of Jane Doe", "28 Days Later", "The Descent", "Paranormal Activity",
-                        "Alien", "The Shining", "Midsommar", "Barbarian", "Terrifier 2", "Smile", "Scream 6"
-                    )
-                    val home = catalogSnapshot
-                        .filter { "HOT" in it.tags || it.title in popularTitles || it.scareCount >= 14 }
-                        .distinctBy { it.tmdbId }
-                        .sortedByDescending {
-                            when {
-                                "HOT" in it.tags -> 200 + it.scareCount
-                                it.title in popularTitles -> 100 + it.scareCount
-                                else -> it.scareCount
-                            }
-                        }
-                        .take(16)
-
+                    val (theater, home) = categorizeCatalog(catalogSnapshot)
                     _uiState.update {
                         it.copy(
                             theaterMovies = theater,
@@ -157,6 +178,8 @@ class HomeViewModel @Inject constructor(
                         val url = "https://image.tmdb.org/t/p/w185$posterPath"
                         val request = ImageRequest.Builder(appContext)
                             .data(url)
+                            .crossfade(false)
+                            .allowRgb565(true)
                             .memoryCachePolicy(CachePolicy.ENABLED)
                             .diskCachePolicy(CachePolicy.ENABLED)
                             .build()
@@ -182,6 +205,8 @@ class HomeViewModel @Inject constructor(
                 val url = "https://image.tmdb.org/t/p/w185$posterPath"
                 val request = ImageRequest.Builder(appContext)
                     .data(url)
+                    .crossfade(false)
+                    .allowRgb565(true)
                     .memoryCachePolicy(CachePolicy.ENABLED)
                     .diskCachePolicy(CachePolicy.ENABLED)
                     .build()
@@ -240,9 +265,11 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch {
             _uiState.update { it.copy(isSyncing = true, error = if (silent) null else it.error) }
             val result = movieRepository.syncCatalog(force = !silent)
+            val updatedCount = movieRepository.getMovieCount()
             _uiState.update {
                 it.copy(
                     isSyncing = false,
+                    totalMovieCount = if (updatedCount > 0) updatedCount else it.totalMovieCount,
                     error = if (silent) null else result.exceptionOrNull()?.localizedMessage
                 )
             }

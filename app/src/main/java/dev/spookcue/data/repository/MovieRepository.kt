@@ -26,6 +26,7 @@ interface MovieRepository {
     suspend fun syncCatalog(force: Boolean = false): Result<Boolean>
     suspend fun initializeCatalogIfNeeded()
     suspend fun recordMovieSynced(tmdbId: Int, timestamp: Long = System.currentTimeMillis())
+    suspend fun getMovieCount(): Int
 }
 
 @Singleton
@@ -115,5 +116,9 @@ class MovieRepositoryImpl @Inject constructor(
 
     override suspend fun recordMovieSynced(tmdbId: Int, timestamp: Long): Unit = withContext(ioDispatcher) {
         movieDao.updateLastSynced(tmdbId, timestamp)
+    }
+
+    override suspend fun getMovieCount(): Int = withContext(ioDispatcher) {
+        movieDao.getMovieCount()
     }
 }

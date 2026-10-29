@@ -12,6 +12,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import dev.spookcue.alert.NotificationManager
 import dev.spookcue.alert.ScareScheduler
 import dev.spookcue.audio.AudioCaptureManager
+import dev.spookcue.audio.SpeechRecognizerManager
 import dev.spookcue.data.repository.MovieRepository
 import dev.spookcue.sync.SyncEngine
 import dev.spookcue.sync.SyncState
@@ -31,6 +32,9 @@ class SpookCueService : Service() {
 
     @Inject
     lateinit var audioCaptureManager: AudioCaptureManager
+
+    @Inject
+    lateinit var speechRecognizerManager: SpeechRecognizerManager
 
     @Inject
     lateinit var scareScheduler: ScareScheduler
@@ -99,9 +103,16 @@ class SpookCueService : Service() {
 
     private fun startAcousticSync(tmdbId: Int) {
         audioCaptureManager.startCapture()
+        speechRecognizerManager.startListening()
 
         syncJob?.cancel()
         syncJob = serviceScope.launch {
+            launch {
+                speechRecognizerManager.transcriptions.collect { text ->
+                    syncEngine.onSpeechTranscribed(text)
+                }
+            }
+
             if (tmdbId > 0) {
                 movieRepository.getMovieDetails(tmdbId).onSuccess { movie ->
                     activeMovieTitle = movie.title
@@ -117,6 +128,7 @@ class SpookCueService : Service() {
     }
 
     private fun stopSync() {
+        speechRecognizerManager.stopListening()
         audioCaptureManager.stopCapture()
         syncEngine.stop()
         scareScheduler.stopScheduling()

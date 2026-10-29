@@ -21,6 +21,7 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import java.util.Calendar
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class HomeViewModelTest {
@@ -29,6 +30,8 @@ class HomeViewModelTest {
     private lateinit var fakeRepository: FakeMovieRepository
     private lateinit var viewModel: HomeViewModel
 
+    private val currentYear = Calendar.getInstance().get(Calendar.YEAR)
+
     private val testItem = MovieCatalogItem(
         tmdbId = 138843,
         title = "The Conjuring",
@@ -36,7 +39,30 @@ class HomeViewModelTest {
         runtimeMinutes = 112,
         scareCount = 12,
         posterPath = "/conjuring.jpg",
-        hasSubtitles = true
+        hasSubtitles = true,
+        tags = listOf("HOT")
+    )
+
+    private val testNewItem = MovieCatalogItem(
+        tmdbId = 999001,
+        title = "Terrifier 3",
+        releaseYear = currentYear,
+        runtimeMinutes = 125,
+        scareCount = 18,
+        posterPath = "/terrifier3.jpg",
+        hasSubtitles = true,
+        tags = listOf("NEW")
+    )
+
+    private val testOldItem = MovieCatalogItem(
+        tmdbId = 888001,
+        title = "Older Film",
+        releaseYear = 2021,
+        runtimeMinutes = 90,
+        scareCount = 4,
+        posterPath = "/older.jpg",
+        hasSubtitles = true,
+        tags = emptyList()
     )
 
     private val testDetails = MovieDetails(
@@ -58,7 +84,7 @@ class HomeViewModelTest {
     fun setup() {
         Dispatchers.setMain(testDispatcher)
         fakeRepository = FakeMovieRepository(
-            initialMovies = listOf(testItem),
+            initialMovies = listOf(testItem, testNewItem, testOldItem),
             detailsMap = mapOf(138843 to testDetails)
         )
         viewModel = HomeViewModel(fakeRepository)
@@ -70,9 +96,21 @@ class HomeViewModelTest {
     }
 
     @Test
-    fun testInitialCatalogInitialization() {
+    fun testInitialCatalogInitializationAndDynamicCategorization() {
         assertTrue(fakeRepository.initializeCalled)
         assertTrue(fakeRepository.syncCatalogCalled)
+
+        val state = viewModel.uiState.value
+        assertFalse(state.isInitialLoading)
+        assertEquals(3, state.totalMovieCount)
+
+        // Verify theater / new section contains the "NEW" item or recent item
+        assertTrue(state.theaterMovies.any { it.tmdbId == testNewItem.tmdbId })
+        // Older non-tagged movie is NOT in theater
+        assertFalse(state.theaterMovies.any { it.tmdbId == testOldItem.tmdbId })
+
+        // Verify popular home watch contains The Conjuring (iconic / HOT)
+        assertTrue(state.popularHomeMovies.any { it.tmdbId == testItem.tmdbId })
     }
 
     @Test
@@ -151,5 +189,7 @@ class HomeViewModelTest {
         override suspend fun recordMovieSynced(tmdbId: Int, timestamp: Long) {
             syncedTimestamps[tmdbId] = timestamp
         }
+
+        override suspend fun getMovieCount(): Int = moviesFlow.value.size
     }
 }

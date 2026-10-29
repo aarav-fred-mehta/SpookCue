@@ -16,6 +16,14 @@ import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.math.abs
 
+data class SyncDebugInfo(
+    val lastText: String = "",
+    val tokens: List<String> = emptyList(),
+    val matchScore: Float = 0f,
+    val matchedTimeMs: Long? = null,
+    val candidateCount: Int = 0
+)
+
 @Singleton
 class SyncEngine @Inject constructor(
     private val phoneticMatcher: PhoneticMatcher,
@@ -26,6 +34,9 @@ class SyncEngine @Inject constructor(
 
     private val _state = MutableStateFlow<SyncState>(SyncState.Idle)
     val state: StateFlow<SyncState> = _state.asStateFlow()
+
+    private val _debugInfo = MutableStateFlow(SyncDebugInfo())
+    val debugInfo: StateFlow<SyncDebugInfo> = _debugInfo.asStateFlow()
 
     private var currentMovie: MovieDetails? = null
 
@@ -63,11 +74,21 @@ class SyncEngine @Inject constructor(
     fun onSpeechTranscribed(text: String) {
         val movie = currentMovie ?: return
         val tokens = phoneticMatcher.tokenizeAndEncode(text)
-        if (tokens.isEmpty()) return
+        if (tokens.isEmpty()) {
+            _debugInfo.value = SyncDebugInfo(lastText = text, tokens = emptyList())
+            return
+        }
 
         when (val currentState = _state.value) {
             is SyncState.Acquiring -> {
                 val match = phoneticMatcher.findBestMatch(tokens, movie.phoneticIndex)
+                _debugInfo.value = SyncDebugInfo(
+                    lastText = text,
+                    tokens = tokens,
+                    matchScore = match?.score ?: 0f,
+                    matchedTimeMs = match?.matchedTimeMs,
+                    candidateCount = candidateMatches.size
+                )
                 if (match != null) {
                     val now = SystemClock.elapsedRealtime()
                     candidateMatches.removeAll { now - it.systemTimeMs > 45_000L }

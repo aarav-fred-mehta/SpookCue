@@ -40,4 +40,19 @@ class ColorThemeTest {
         assertTrue(TextSecondary.red > 0.5f)
         assertTrue(TextSecondary.red < TextPrimary.red)
     }
+
+    @Test
+    fun testLunarTheaterPalette() {
+        // LunarWhite should be near white
+        assertTrue(LunarWhite.red > 0.9f)
+        assertTrue(LunarWhite.green > 0.9f)
+
+        // LunarSlate should have balanced cool slate luminance
+        assertTrue(LunarSlate.red > 0.7f)
+        assertTrue(LunarSlate.blue >= LunarSlate.red)
+
+        // TheaterAmber should have dominant red & green (amber/gold)
+        assertTrue(TheaterAmber.red > TheaterAmber.blue)
+        assertTrue(TheaterAmber.green > TheaterAmber.blue)
+    }
 }

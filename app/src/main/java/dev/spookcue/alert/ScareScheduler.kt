@@ -1,5 +1,6 @@
 package dev.spookcue.alert
 
+import dev.spookcue.data.local.UserPreferencesManager
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.sync.MovieClock
 import kotlinx.coroutines.CoroutineScope
@@ -18,10 +19,11 @@ import javax.inject.Singleton
 @Singleton
 class ScareScheduler @Inject constructor(
     private val hapticManager: HapticManager,
-    private val movieClock: MovieClock
+    private val movieClock: MovieClock,
+    private val preferencesManager: UserPreferencesManager
 ) {
     sealed class AlertEvent {
-        data class Warning10s(val scare: JumpScare) : AlertEvent()
+        data class WarningLead(val scare: JumpScare, val leadTimeSeconds: Int) : AlertEvent()
         data class Warning5s(val scare: JumpScare) : AlertEvent()
         data class Warning2s(val scare: JumpScare) : AlertEvent()
         data class ScareNow(val scare: JumpScare) : AlertEvent()
@@ -47,31 +49,45 @@ class ScareScheduler @Inject constructor(
                 if (!movieClock.isRunning) continue
 
                 val movieTime = movieClock.getCurrentMovieTimeMs()
+                val majorOnly = preferencesManager.isMajorOnly()
+                val leadTimeSec = preferencesManager.getLeadTime()
+                val leadTimeMs = leadTimeSec * 1000L
 
                 for (scare in activeScares) {
+                    val isMajor = scare.type.equals("major", ignoreCase = true)
+                    if (majorOnly && !isMajor) {
+                        continue // Skip minor scare when major-only filter is active
+                    }
+
                     val remaining = scare.resolvedTimeMs - movieTime
 
-                    if (remaining in 9500..10500) {
-                        val key = "${scare.id}_10s"
+                    // Dynamic Lead Time Warning (e.g. 5s, 10s, 15s, 20s)
+                    if (remaining in (leadTimeMs - 500)..(leadTimeMs + 500)) {
+                        val key = "${scare.id}_lead_${leadTimeSec}"
                         if (firedEvents.add(key)) {
-                            if (scare.type == "major") {
-                                hapticManager.vibrateMajorScare10s()
+                            if (isMajor) {
+                                hapticManager.vibrateMajorLeadScare()
                             } else {
                                 hapticManager.vibrateMinorScare()
                             }
-                            _alertEvents.emit(AlertEvent.Warning10s(scare))
+                            _alertEvents.emit(AlertEvent.WarningLead(scare, leadTimeSec))
                         }
-                    } else if (remaining in 4500..5500 && scare.type == "major") {
+                    } else if (remaining in 4500..5500 && isMajor && leadTimeSec > 5) {
                         val key = "${scare.id}_5s"
                         if (firedEvents.add(key)) {
                             hapticManager.vibrateMajorScare5s()
                             _alertEvents.emit(AlertEvent.Warning5s(scare))
                         }
-                    } else if (remaining in 1500..2500 && scare.type == "major") {
+                    } else if (remaining in 1500..2500 && isMajor && leadTimeSec > 2) {
                         val key = "${scare.id}_2s"
                         if (firedEvents.add(key)) {
                             hapticManager.vibrateMajorScare2s()
                             _alertEvents.emit(AlertEvent.Warning2s(scare))
+                        }
+                    } else if (remaining in -200..300) {
+                        val key = "${scare.id}_now"
+                        if (firedEvents.add(key)) {
+                            _alertEvents.emit(AlertEvent.ScareNow(scare))
                         }
                     }
                 }

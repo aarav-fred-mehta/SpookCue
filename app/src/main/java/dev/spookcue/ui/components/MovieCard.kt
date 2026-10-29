@@ -33,12 +33,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import coil.request.CachePolicy
 import coil.request.ImageRequest
 import dev.spookcue.R
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.ui.theme.CrimsonBorder
 import dev.spookcue.ui.theme.CrimsonDark
 import dev.spookcue.ui.theme.CrimsonPrimary
+import dev.spookcue.ui.theme.LunarBorder
+import dev.spookcue.ui.theme.LunarSlateMuted
 import dev.spookcue.ui.theme.PureBlack
 import dev.spookcue.ui.theme.SurfaceDark
 import dev.spookcue.ui.theme.TextPrimary
@@ -57,9 +60,11 @@ fun MovieCard(
     val imageRequest = remember(posterUrl) {
         ImageRequest.Builder(context)
             .data(posterUrl)
-            .crossfade(true)
-            .placeholder(R.drawable.ic_skull)
-            .error(R.drawable.ic_skull)
+            .crossfade(150)
+            .memoryCachePolicy(CachePolicy.ENABLED)
+            .diskCachePolicy(CachePolicy.ENABLED)
+            .placeholder(R.drawable.ic_film_reel_spooky)
+            .error(R.drawable.ic_film_reel_spooky)
             .build()
     }
 
@@ -81,7 +86,7 @@ fun MovieCard(
                     .size(width = 64.dp, height = 96.dp)
                     .clip(RoundedCornerShape(8.dp))
                     .background(PureBlack)
-                    .border(1.dp, CrimsonBorder, RoundedCornerShape(8.dp)),
+                    .border(1.dp, LunarBorder, RoundedCornerShape(8.dp)),
                 contentAlignment = Alignment.Center
             ) {
                 if (posterUrl != null) {
@@ -93,9 +98,9 @@ fun MovieCard(
                     )
                 } else {
                     Icon(
-                        painter = painterResource(id = R.drawable.ic_skull),
+                        painter = painterResource(id = R.drawable.ic_film_reel_spooky),
                         contentDescription = "No Poster",
-                        tint = CrimsonPrimary,
+                        tint = LunarSlateMuted,
                         modifier = Modifier.size(36.dp)
                     )
                 }

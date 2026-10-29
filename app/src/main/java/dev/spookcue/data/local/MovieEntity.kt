@@ -14,7 +14,8 @@ data class MovieEntity(
     val scareCount: Int,
     val posterPath: String? = null,
     val hasSubtitles: Boolean = true,
-    val lastSyncedAt: Long? = null
+    val lastSyncedAt: Long? = null,
+    val tags: String = ""
 ) {
     fun toDomain(): MovieCatalogItem = MovieCatalogItem(
         tmdbId = tmdbId,
@@ -24,7 +25,8 @@ data class MovieEntity(
         scareCount = scareCount,
         posterPath = posterPath,
         hasSubtitles = hasSubtitles,
-        lastSyncedAt = lastSyncedAt
+        lastSyncedAt = lastSyncedAt,
+        tags = if (tags.isBlank()) emptyList() else tags.split(",").map { it.trim() }.filter { it.isNotEmpty() }
     )
 
     companion object {
@@ -36,7 +38,8 @@ data class MovieEntity(
             scareCount = item.scareCount,
             posterPath = item.posterPath,
             hasSubtitles = item.hasSubtitles,
-            lastSyncedAt = item.lastSyncedAt
+            lastSyncedAt = item.lastSyncedAt,
+            tags = item.tags.joinToString(",")
         )
     }
 }

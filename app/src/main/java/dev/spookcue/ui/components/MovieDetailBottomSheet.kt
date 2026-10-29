@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -53,7 +54,15 @@ import dev.spookcue.R
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
-import dev.spookcue.ui.theme.CrimsonBorder
+import androidx.compose.foundation.clickable
+import androidx.compose.material.icons.filled.Visibility
+import androidx.compose.material.icons.filled.VisibilityOff
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import coil.request.CachePolicy
+import dev.spookcue.ui.theme.LunarBorder
+import dev.spookcue.ui.theme.LunarSlateMuted
 import dev.spookcue.ui.theme.CrimsonDark
 import dev.spookcue.ui.theme.CrimsonLight
 import dev.spookcue.ui.theme.CrimsonPrimary
@@ -81,9 +90,11 @@ fun MovieDetailBottomSheet(
     val imageRequest = remember(posterUrl) {
         ImageRequest.Builder(context)
             .data(posterUrl)
-            .crossfade(true)
-            .placeholder(R.drawable.ic_skull)
-            .error(R.drawable.ic_skull)
+            .crossfade(150)
+            .memoryCachePolicy(CachePolicy.ENABLED)
+            .diskCachePolicy(CachePolicy.ENABLED)
+            .placeholder(R.drawable.ic_film_reel_spooky)
+            .error(R.drawable.ic_film_reel_spooky)
             .build()
     }
 
@@ -103,7 +114,8 @@ fun MovieDetailBottomSheet(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 20.dp)
-                .padding(bottom = 32.dp)
+                .navigationBarsPadding()
+                .padding(bottom = 24.dp)
         ) {
             // Header Row: Poster + Title + Metadata
             Row(
@@ -115,7 +127,7 @@ fun MovieDetailBottomSheet(
                         .size(width = 80.dp, height = 120.dp)
                         .clip(RoundedCornerShape(8.dp))
                         .background(PureBlack)
-                        .border(1.dp, CrimsonBorder, RoundedCornerShape(8.dp)),
+                        .border(1.dp, LunarBorder, RoundedCornerShape(8.dp)),
                     contentAlignment = Alignment.Center
                 ) {
                     if (posterUrl != null) {
@@ -127,9 +139,9 @@ fun MovieDetailBottomSheet(
                         )
                     } else {
                         Icon(
-                            painter = painterResource(id = R.drawable.ic_skull),
-                            contentDescription = "Skull placeholder",
-                            tint = CrimsonPrimary,
+                            painter = painterResource(id = R.drawable.ic_film_reel_spooky),
+                            contentDescription = "Film Reel placeholder",
+                            tint = LunarSlateMuted,
                             modifier = Modifier.size(44.dp)
                         )
                     }
@@ -213,7 +225,7 @@ fun MovieDetailBottomSheet(
             }
 
             Spacer(modifier = Modifier.height(20.dp))
-            HorizontalDivider(color = CrimsonBorder.copy(alpha = 0.5f))
+            HorizontalDivider(color = LunarBorder)
             Spacer(modifier = Modifier.height(16.dp))
 
             // Scare Timeline Section
@@ -340,12 +352,15 @@ fun MovieDetailBottomSheet(
 @Composable
 private fun ScarePreviewRow(scare: JumpScare) {
     val isMajor = scare.type.equals("major", ignoreCase = true)
+    var isRevealed by remember { mutableStateOf(false) }
+
     Row(
         modifier = Modifier
             .fillMaxWidth()
             .background(PureBlack, RoundedCornerShape(6.dp))
-            .border(1.dp, CrimsonBorder.copy(alpha = 0.5f), RoundedCornerShape(6.dp))
-            .padding(horizontal = 10.dp, vertical = 6.dp),
+            .border(1.dp, LunarBorder.copy(alpha = 0.5f), RoundedCornerShape(6.dp))
+            .clickable { isRevealed = !isRevealed }
+            .padding(horizontal = 10.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Surface(
@@ -379,12 +394,25 @@ private fun ScarePreviewRow(scare: JumpScare) {
         Spacer(modifier = Modifier.width(8.dp))
 
         Text(
-            text = scare.description,
+            text = if (isRevealed) {
+                if (scare.description.isNotBlank()) scare.description else "No description"
+            } else {
+                "Tap to reveal description"
+            },
             style = MaterialTheme.typography.bodySmall,
-            color = TextSecondary,
-            maxLines = 1,
+            color = if (isRevealed) TextPrimary else LunarSlateMuted,
+            maxLines = if (isRevealed) 3 else 1,
             overflow = TextOverflow.Ellipsis,
             modifier = Modifier.weight(1f)
+        )
+
+        Spacer(modifier = Modifier.width(4.dp))
+
+        Icon(
+            imageVector = if (isRevealed) Icons.Default.VisibilityOff else Icons.Default.Visibility,
+            contentDescription = if (isRevealed) "Hide" else "Reveal",
+            tint = LunarSlateMuted,
+            modifier = Modifier.size(16.dp)
         )
     }
 }

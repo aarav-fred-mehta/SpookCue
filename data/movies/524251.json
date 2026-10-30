@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2019,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Closet door suddenly closes behind him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1027000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Behind him, from the shadows, someone attacks  him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2631000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-29T23:57:13.811Z",
+  "title": "I See You",
+  "tmdb_id": 524251
+}

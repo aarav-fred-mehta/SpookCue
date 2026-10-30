@@ -1,0 +1,51 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Valerie turns and sees a creature that grabs her shoulder, startling her",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1698000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature attacks Valerie",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2857000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Valerie's mother suddenly appears through the glass door",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sanshi is directly behind Valerie",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4851000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sanshi grabs Valerie through the mirror, making her fall back, only to Sanshi grab her again",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4872000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-29T23:57:07.333Z",
+  "title": "Control Freak",
+  "tmdb_id": 1286663
+}

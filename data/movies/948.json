@@ -1,0 +1,115 @@
+{
+  "phonetic_index": [],
+  "release_year": 2018,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mike Myers climbs onto a car roof.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 599000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand reaches through a window to grab lady.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 608000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand smashes through car window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 631000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette watches Laurie walk away from the house.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 827000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tommy runs into Myers while at school.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1038000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Laurie runs into Sheriff Brackett.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1509000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A window smashes.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2298000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers steps out from a car.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3050000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers appears behind Annie in the car.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3215000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A shadow crosses the bed while Lynda and Bob are in it.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3793000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bob opens door and is attacked by Myers.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dead Bob swings upside down from a door frame.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4566000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Myers pops up from behind a sofa.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4806000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:21.192Z",
+  "title": "Halloween",
+  "tmdb_id": 948
+}

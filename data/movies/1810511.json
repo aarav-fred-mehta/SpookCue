@@ -1,0 +1,27 @@
+{
+  "phonetic_index": [],
+  "release_year": 2026,
+  "runtime_minutes": 0,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A woman suddenly scream.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 118000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A lady comes running into the house with a gun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 217000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-30T14:29:59.118Z",
+  "title": "Mama Bear",
+  "tmdb_id": 1810511
+}

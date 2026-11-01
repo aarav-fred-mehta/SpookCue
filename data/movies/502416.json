@@ -13,8 +13,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Some eggs are thrown at Ma’s car window.",
+      "description": "As the girls exit the bathroom ma shoves them suddenly.",
       "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2171000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some eggs are thrown at Ma’s car window.",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2452000,
       "type": "minor"
@@ -22,14 +30,14 @@
     {
       "anchor_phonetic": null,
       "description": "While in Ma’s bedroom, Haley and Maggie are startled by a girl holding a scary mask over her face.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3481000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:56:25.465Z",
+  "source_lastmod": "2026-10-31T15:24:01.160Z",
   "title": "Ma",
   "tmdb_id": 502416
 }

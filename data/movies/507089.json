@@ -65,7 +65,7 @@
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2705000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -81,7 +81,7 @@
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3290000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -117,7 +117,7 @@
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-10-08T18:28:26.216Z",
+  "source_lastmod": "2026-10-31T15:45:43.169Z",
   "title": "Five Nights At Freddy S",
   "tmdb_id": 507089
 }

@@ -69,15 +69,15 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Gladys comes screaming out of the darkness",
+      "description": "Gladys comes screaming out of the darkness in the basement.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6977000,
-      "type": "minor"
+      "type": "major"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-09-17T17:36:26.544Z",
+  "source_lastmod": "2026-10-31T16:36:56.430Z",
   "title": "Weapons",
   "tmdb_id": 1078605
 }

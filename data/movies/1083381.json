@@ -22348,13 +22348,26 @@
     },
     {
       "anchor_phonetic": [
+        "XT",
+        "AT",
+        "0",
+        "FK"
+      ],
+      "description": "Said bird flies away.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": 3460,
+      "resolved_time_ms": 252000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
         "FK",
         "FK",
         "FK",
         "FK"
       ],
       "description": "The figure is standing around the corner and attacks him",
-      "id": "scare_02",
+      "id": "scare_03",
       "offset_from_anchor_ms": 3244,
       "resolved_time_ms": 384000,
       "type": "minor"
@@ -22367,7 +22380,7 @@
         "PNT"
       ],
       "description": "Something thrown against wall",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": 17789,
       "resolved_time_ms": 2189000,
       "type": "minor"
@@ -22384,7 +22397,7 @@
         "KS"
       ],
       "description": "a loud noise in the distance",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": 11023,
       "resolved_time_ms": 3116000,
       "type": "minor"
@@ -22402,7 +22415,7 @@
         "0S"
       ],
       "description": "Bobby gets pulled by the rope he's still attached to",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": 1814,
       "resolved_time_ms": 3149000,
       "type": "minor"
@@ -22410,15 +22423,15 @@
     {
       "anchor_phonetic": null,
       "description": "A figure stumbles toward him",
-      "id": "scare_06",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3349000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "Someone walks into the room and says her name",
-      "id": "scare_07",
+      "description": "A mother jolts into the room and says \"Mary.\"",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3550000,
       "type": "minor"
@@ -22432,7 +22445,7 @@
         "PLS"
       ],
       "description": "the wall by the door is demolished",
-      "id": "scare_08",
+      "id": "scare_09",
       "offset_from_anchor_ms": 19467,
       "resolved_time_ms": 3597000,
       "type": "minor"
@@ -22446,11 +22459,11 @@
         "PN",
         "HR"
       ],
-      "description": "he grabs her from behind around the neck",
-      "id": "scare_09",
+      "description": "Clark strangles Mary from behind",
+      "id": "scare_10",
       "offset_from_anchor_ms": 45349,
       "resolved_time_ms": 4325000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": [
@@ -22462,22 +22475,30 @@
         "PRT"
       ],
       "description": "There's a head in the refrigerator",
-      "id": "scare_10",
+      "id": "scare_11",
       "offset_from_anchor_ms": 42421,
       "resolved_time_ms": 4709000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
-      "description": "The figure steps out of the dark doorway",
-      "id": "scare_11",
+      "description": "The figure crawls up right behind Mary.",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5627000,
       "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hazmat guy appears at the end of the tight corridor.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5707000,
+      "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-07-23T23:57:40.935Z",
+  "source_lastmod": "2026-10-31T16:29:08.432Z",
   "title": "Backrooms",
   "tmdb_id": 1083381
 }

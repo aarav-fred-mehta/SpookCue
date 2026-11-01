@@ -37,7 +37,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "She gets startled by something accompanied by a sound",
+      "description": "Nikki briefly breaks free from the wish accompanied by a crescendoing sound.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4385000,
@@ -61,7 +61,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "He screams and something falls from above",
+      "description": "Ian wishes for a billion dollars, which causes money to fall from above as Bear screams.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5745000,
@@ -85,7 +85,7 @@
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-09-14T11:21:46.101Z",
+  "source_lastmod": "2026-10-31T16:24:11.466Z",
   "title": "Obsession",
   "tmdb_id": 1339713
 }

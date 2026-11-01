@@ -8,7 +8,7 @@
       "description": "Sarah bangs loudly on the door.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 700000,
+      "resolved_time_ms": 726000,
       "type": "minor"
     },
     {
@@ -16,7 +16,7 @@
       "description": "The killer’s face appears at a window as Maddie tries to leave the house.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 1257000,
+      "resolved_time_ms": 1282000,
       "type": "minor"
     },
     {
@@ -61,7 +61,7 @@
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:55:52.574Z",
+  "source_lastmod": "2026-10-31T16:45:13.966Z",
   "title": "Hush",
   "tmdb_id": 376570
 }

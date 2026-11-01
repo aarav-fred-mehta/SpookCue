@@ -26,10 +26,18 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3680000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden appearance of mutated figure on mirror reflection",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7105000,
+      "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-11-02T21:03:51.824Z",
+  "source_lastmod": "2026-10-31T15:18:59.859Z",
   "title": "The Substance",
   "tmdb_id": 933260
 }

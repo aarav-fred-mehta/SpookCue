@@ -122,10 +122,18 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6462000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Medjai scares Jhonattan by tapping his back",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6924000,
+      "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:58:44.445Z",
+  "source_lastmod": "2026-10-31T16:36:09.396Z",
   "title": "The Mummy",
   "tmdb_id": 564
 }

@@ -13,8 +13,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Alice opens the door to find Ralph standing behind it.",
+      "description": "Snake suddenly moves",
       "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice opens the door to find Ralph standing behind it.",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1806000,
       "type": "minor"
@@ -22,7 +30,7 @@
     {
       "anchor_phonetic": null,
       "description": "Hand grabs Jack’s forehead while he lies in bed.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2572000,
       "type": "minor"
@@ -30,7 +38,7 @@
     {
       "anchor_phonetic": null,
       "description": "Steve is suddenly stabbed by unseen person.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3846000,
       "type": "minor"
@@ -38,7 +46,7 @@
     {
       "anchor_phonetic": null,
       "description": "The scene abruptly changes to Alice screaming for Bill.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4074000,
       "type": "minor"
@@ -46,7 +54,7 @@
     {
       "anchor_phonetic": null,
       "description": "Alice discovers Bill’s body pinned to the door with arrows.",
-      "id": "scare_06",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4256000,
       "type": "minor"
@@ -54,7 +62,7 @@
     {
       "anchor_phonetic": null,
       "description": "Brenda’s body bursts through the window in front of Alice.",
-      "id": "scare_07",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4456000,
       "type": "minor"
@@ -62,7 +70,7 @@
     {
       "anchor_phonetic": null,
       "description": "A dead body swings down from tree in front of Alice.",
-      "id": "scare_08",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4766000,
       "type": "minor"
@@ -70,7 +78,7 @@
     {
       "anchor_phonetic": null,
       "description": "A door-handle begins to turn.",
-      "id": "scare_09",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5122000,
       "type": "minor"
@@ -78,14 +86,14 @@
     {
       "anchor_phonetic": null,
       "description": "A man leaps out of the water and grabs Alice in the boat.",
-      "id": "scare_10",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5440000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:55:03.461Z",
+  "source_lastmod": "2026-10-31T15:19:26.708Z",
   "title": "Friday the 13th",
   "tmdb_id": 4488
 }

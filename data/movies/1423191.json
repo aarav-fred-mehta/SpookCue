@@ -37,11 +37,11 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The dog bursts out of the barn wall.",
+      "description": "The dog's head bursts through the barn wall.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1430000,
-      "type": "minor"
+      "type": "major"
     },
     {
       "anchor_phonetic": null,
@@ -88,7 +88,7 @@
       "description": "The zombie gets dragged away.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
-      "resolved_time_ms": 3123000,
+      "resolved_time_ms": 3121000,
       "type": "minor"
     },
     {
@@ -101,7 +101,7 @@
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-09-28T12:44:49.934Z",
+  "source_lastmod": "2026-10-31T16:38:20.079Z",
   "title": "Resident Evil",
   "tmdb_id": 1423191
 }

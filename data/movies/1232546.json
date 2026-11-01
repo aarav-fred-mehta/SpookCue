@@ -13,8 +13,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The masked man breaks his had through the wardrobe",
+      "description": "lights turn on and a guy in mask appears",
       "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1388000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The masked man breaks his had through the wardrobe",
+      "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1552000,
       "type": "minor"
@@ -22,7 +30,7 @@
     {
       "anchor_phonetic": null,
       "description": "The woman is stabbed from behind.",
-      "id": "scare_03",
+      "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1621000,
       "type": "minor"
@@ -30,7 +38,7 @@
     {
       "anchor_phonetic": null,
       "description": "The woman is pulled away from the house through the air.",
-      "id": "scare_04",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2091000,
       "type": "major"
@@ -38,7 +46,7 @@
     {
       "anchor_phonetic": null,
       "description": "The woman is pulled into the house.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2139000,
       "type": "minor"
@@ -46,7 +54,7 @@
     {
       "anchor_phonetic": null,
       "description": "The old woman grabs the girl.",
-      "id": "scare_06",
+      "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2409000,
       "type": "minor"
@@ -54,7 +62,7 @@
     {
       "anchor_phonetic": null,
       "description": "A man walks into view of the car window.",
-      "id": "scare_07",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2465000,
       "type": "minor"
@@ -62,7 +70,7 @@
     {
       "anchor_phonetic": null,
       "description": "The man turns to see a person in a creepy white mask.",
-      "id": "scare_08",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2699000,
       "type": "minor"
@@ -70,7 +78,7 @@
     {
       "anchor_phonetic": null,
       "description": "The woman steps in a bear trap.",
-      "id": "scare_09",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3694000,
       "type": "minor"
@@ -78,7 +86,7 @@
     {
       "anchor_phonetic": null,
       "description": "They look up and see a screaming creature above them.",
-      "id": "scare_10",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3852000,
       "type": "minor"
@@ -86,7 +94,7 @@
     {
       "anchor_phonetic": null,
       "description": "The creepy woman steps out of the shadows and screams.",
-      "id": "scare_11",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3960000,
       "type": "minor"
@@ -94,7 +102,7 @@
     {
       "anchor_phonetic": null,
       "description": "The woman opens the door and is attacked by a screaming creature.",
-      "id": "scare_12",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4233000,
       "type": "minor"
@@ -102,7 +110,7 @@
     {
       "anchor_phonetic": null,
       "description": "The camera pans to a creature which screams.",
-      "id": "scare_13",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4514000,
       "type": "major"
@@ -110,7 +118,7 @@
     {
       "anchor_phonetic": null,
       "description": "A creature appears behind the gap in the wall.",
-      "id": "scare_14",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4850000,
       "type": "major"
@@ -118,7 +126,7 @@
     {
       "anchor_phonetic": null,
       "description": "The flashlight pans to a screaming zombie woman.",
-      "id": "scare_15",
+      "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5003000,
       "type": "minor"
@@ -126,7 +134,7 @@
     {
       "anchor_phonetic": null,
       "description": "Pans with the flashlight and sees a dead body.",
-      "id": "scare_16",
+      "id": "scare_17",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5186000,
       "type": "minor"
@@ -134,14 +142,14 @@
     {
       "anchor_phonetic": null,
       "description": "The chained creature jumps at the window.",
-      "id": "scare_17",
+      "id": "scare_18",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5259000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-09-22T22:05:32.863Z",
+  "source_lastmod": "2026-10-31T15:28:20.634Z",
   "title": "Until Dawn",
   "tmdb_id": 1232546
 }

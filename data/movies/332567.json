@@ -1,5 +1,74 @@
 {
-  "phonetic_index": [],
+  "phonetic_index": [
+    {
+      "p": [
+        "0S",
+        "AS",
+        "0",
+        "ALNT",
+        "AF",
+        "0",
+        "PRNNT",
+        "AMN",
+        "N"
+      ],
+      "s": 386880
+    },
+    {
+      "p": [
+        "AF",
+        "0",
+        "PRNNT",
+        "AMN",
+        "N"
+      ],
+      "s": 388680
+    },
+    {
+      "p": [
+        "AS",
+        "0",
+        "NS",
+        "0",
+        "PRSTS",
+        "ANT",
+        "HR",
+        "STMK"
+      ],
+      "s": 393720
+    },
+    {
+      "p": [
+        "0",
+        "NS",
+        "0",
+        "PRSTS",
+        "ANT",
+        "HR",
+        "STMK"
+      ],
+      "s": 395200
+    },
+    {
+      "p": [
+        "0NK",
+        "A",
+        "0NK",
+        "A",
+        "MSTR"
+      ],
+      "s": 422480
+    },
+    {
+      "p": [
+        "A",
+        "SPKNK",
+        "SPNX",
+        "KR"
+      ],
+      "s": 687240
+    }
+  ],
   "release_year": 2016,
   "runtime_minutes": 86,
   "scares": [

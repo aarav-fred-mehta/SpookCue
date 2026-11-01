@@ -18,10 +18,34 @@
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2516000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the vampire appear sudently out from the dark",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4004000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "the school director appears fast with yellow sparkling eyes",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4790000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "vampire appears",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5094000,
+      "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-05-30T01:37:38.742Z",
+  "source_lastmod": "2026-10-31T15:26:51.304Z",
   "title": "Salem S Lot",
   "tmdb_id": 748230
 }

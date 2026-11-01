@@ -69,15 +69,23 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A giant piranha suddenly jumps out of the water and over the boat, taking Novak with it.",
+      "description": "Seemingly dead man wrapped in a cloth suddenly grabs Jake",
       "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4520000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant piranha suddenly jumps out of the water and over the boat, taking Novak with it.",
+      "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4929000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:56:54.485Z",
+  "source_lastmod": "2026-10-31T15:18:32.587Z",
   "title": "Piranha 3D",
   "tmdb_id": 43593
 }

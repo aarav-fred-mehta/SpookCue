@@ -29,8 +29,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Pole falls over killing woman as she says \"I'm gonna stay alive as..\"",
+      "description": "Eric is almost hit by a speeding van.",
       "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3754000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Darlene exclaims \"I'm gonna stay alive as long as..\" before a pole falls over and kills her.",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5760000,
       "type": "minor"
@@ -38,14 +46,14 @@
     {
       "anchor_phonetic": null,
       "description": "After a black screen suddenly we get a sound cue and the woman comes back to life.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5849000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-03-25T02:34:26.044Z",
+  "source_lastmod": "2026-10-31T16:26:17.904Z",
   "title": "Final Destination Bloodlines",
   "tmdb_id": 574475
 }

@@ -57,3 +57,9 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local test scratch
+Subtitle test/
+models/*.onnx
+models/tokens.txt
+

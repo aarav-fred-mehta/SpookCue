@@ -7,6 +7,7 @@ import dev.spookcue.data.local.MovieDao
 import dev.spookcue.data.local.MovieEntity
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
+import dev.spookcue.data.model.MovieSyncData
 import dev.spookcue.data.remote.CdnClient
 import dev.spookcue.data.remote.DeltaSyncManager
 import dev.spookcue.di.IoDispatcher
@@ -23,6 +24,7 @@ interface MovieRepository {
     fun getCatalogStream(): Flow<List<MovieCatalogItem>>
     fun searchCatalog(query: String): Flow<List<MovieCatalogItem>>
     suspend fun getMovieDetails(tmdbId: Int): Result<MovieDetails>
+    suspend fun getMovieSyncData(tmdbId: Int): Result<MovieSyncData>
     suspend fun syncCatalog(force: Boolean = false): Result<Boolean>
     suspend fun initializeCatalogIfNeeded()
     suspend fun recordMovieSynced(tmdbId: Int, timestamp: Long = System.currentTimeMillis())
@@ -94,6 +96,35 @@ class MovieRepositoryImpl @Inject constructor(
             runCatching {
                 diskFile.parentFile?.mkdirs()
                 diskFile.writeText(json.encodeToString(MovieDetails.serializer(), details))
+            }
+        }
+        remoteResult
+    }
+
+    override suspend fun getMovieSyncData(tmdbId: Int): Result<MovieSyncData> = withContext(ioDispatcher) {
+        // 1. Check local disk cache
+        val diskFile = File(baseFilesDir, "sync/$tmdbId.json")
+        if (diskFile.exists()) {
+            runCatching {
+                val text = diskFile.readText()
+                json.decodeFromString<MovieSyncData>(text)
+            }.onSuccess { cached ->
+                return@withContext Result.success(cached)
+            }
+        }
+
+        // 2. Check bundled assets (assets/sync/{tmdbId}.json)
+        val bundled = assetLoader.loadMovieSyncData(tmdbId)
+        if (bundled != null) {
+            return@withContext Result.success(bundled)
+        }
+
+        // 3. Fallback to remote CDN
+        val remoteResult = cdnClient.fetchMovieSyncData(tmdbId)
+        remoteResult.onSuccess { syncData ->
+            runCatching {
+                diskFile.parentFile?.mkdirs()
+                diskFile.writeText(json.encodeToString(MovieSyncData.serializer(), syncData))
             }
         }
         remoteResult

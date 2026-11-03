@@ -9,6 +9,7 @@ import coil.ImageLoaderFactory
 import coil.disk.DiskCache
 import coil.memory.MemoryCache
 import dagger.hilt.android.HiltAndroidApp
+import dev.spookcue.util.AppLogger
 import okhttp3.OkHttpClient
 import java.io.File
 import javax.inject.Inject
@@ -21,6 +22,7 @@ class SpookCueApp : Application(), ImageLoaderFactory {
 
     override fun onCreate() {
         super.onCreate()
+        AppLogger.init(this)
         createNotificationChannel()
     }
 

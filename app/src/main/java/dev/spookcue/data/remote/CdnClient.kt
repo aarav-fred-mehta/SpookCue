@@ -2,6 +2,7 @@ package dev.spookcue.data.remote
 
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
+import dev.spookcue.data.model.MovieSyncData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.Serializable
@@ -24,6 +25,7 @@ interface CdnClient {
     suspend fun fetchVersion(): Result<VersionInfo>
     suspend fun fetchCatalog(): Result<List<MovieCatalogItem>>
     suspend fun fetchMovieDetails(tmdbId: Int): Result<MovieDetails>
+    suspend fun fetchMovieSyncData(tmdbId: Int): Result<MovieSyncData>
 }
 
 @Singleton
@@ -53,6 +55,12 @@ class CdnClientImpl @Inject constructor(
     override suspend fun fetchMovieDetails(tmdbId: Int): Result<MovieDetails> = withContext(Dispatchers.IO) {
         fetchWithFallback("movies/$tmdbId.json") { body ->
             json.decodeFromString<MovieDetails>(body)
+        }
+    }
+
+    override suspend fun fetchMovieSyncData(tmdbId: Int): Result<MovieSyncData> = withContext(Dispatchers.IO) {
+        fetchWithFallback("sync/$tmdbId.json") { body ->
+            json.decodeFromString<MovieSyncData>(body)
         }
     }
 

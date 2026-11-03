@@ -3,32 +3,31 @@
   "title": "A Quiet Place",
   "release_year": 2018,
   "runtime_minutes": 90,
+  "sync_type": "audio_hash",
   "scares": [
     {
       "id": "scare_01",
-      "resolved_time_ms": 540000,
+      "resolved_time_ms": 510000,
       "type": "major",
-      "description": "Toy space shuttle suddenly begins blaring loud electronic beeping sounds",
-      "anchor_phonetic": ["SP", "S", "SH", "TL"],
-      "offset_from_anchor_ms": 2500
+      "description": "The creature snatches Beau from the bridge after the space shuttle toy sounds."
     },
     {
       "id": "scare_02",
-      "resolved_time_ms": 3120000,
+      "resolved_time_ms": 2240000,
       "type": "major",
-      "description": "Evelyn steps directly onto an upright nail sticking through the basement stairs",
-      "anchor_phonetic": ["BS", "MNT", "STR"],
-      "offset_from_anchor_ms": 3300
-    }
-  ],
-  "phonetic_index": [
-    {
-      "s": 537500,
-      "p": ["SP", "S", "SH", "TL"]
+      "description": "Evelyn accidentally steps on an upturned nail on the cellar stairs."
     },
     {
-      "s": 3116700,
-      "p": ["BS", "MNT", "STR"]
+      "id": "scare_03",
+      "resolved_time_ms": 3310000,
+      "type": "major",
+      "description": "A creature claws through the flooded cellar wall directly behind Evelyn."
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 4620000,
+      "type": "major",
+      "description": "Lee screams to save his children as the creature strikes the truck."
     }
   ]
 }

@@ -14,41 +14,49 @@ class SyncStateTest {
     }
 
     @Test
-    fun testAcquiringState() {
-        val state = SyncState.Acquiring(startedAtMs = 1000L, candidateMatches = 1)
+    fun testFindingProgressState() {
+        val state = SyncState.FindingProgress(startedAtMs = 1000L, candidatesFound = 1)
         assertEquals(1000L, state.startedAtMs)
-        assertEquals(1, state.candidateMatches)
+        assertEquals(1, state.candidatesFound)
 
-        val defaultMatches = SyncState.Acquiring(startedAtMs = 2000L)
-        assertEquals(0, defaultMatches.candidateMatches)
+        val defaultMatches = SyncState.FindingProgress(startedAtMs = 2000L)
+        assertEquals(0, defaultMatches.candidatesFound)
     }
 
     @Test
-    fun testLockedState() {
-        val state = SyncState.Locked(
+    fun testMoviePlayingState() {
+        val state = SyncState.MoviePlaying(
             currentMovieTimeMs = 50000L,
             confidence = 0.95f,
-            nextScareCountdownMs = 12000L
+            nextScareCountdownMs = 12000L,
+            nextCheckpointInMs = 3000L
         )
         assertEquals(50000L, state.currentMovieTimeMs)
         assertEquals(0.95f, state.confidence, 0.001f)
         assertEquals(12000L, state.nextScareCountdownMs)
+        assertEquals(3000L, state.nextCheckpointInMs)
 
-        val noNextScare = SyncState.Locked(
+        val noNextScare = SyncState.MoviePlaying(
             currentMovieTimeMs = 60000L,
             confidence = 0.88f
         )
         assertNull(noNextScare.nextScareCountdownMs)
+        assertNull(noNextScare.nextCheckpointInMs)
     }
 
     @Test
-    fun testVerifyingState() {
-        val state = SyncState.Verifying(
-            currentMovieTimeMs = 120000L,
-            driftMs = 350L
+    fun testMoviePausedState() {
+        val state = SyncState.MoviePaused(
+            pausedAtMovieTimeMs = 120000L,
+            isManual = true,
+            listeningDutyActive = true
         )
-        assertEquals(120000L, state.currentMovieTimeMs)
-        assertEquals(350L, state.driftMs)
+        assertEquals(120000L, state.pausedAtMovieTimeMs)
+        assertTrue(state.isManual)
+        assertTrue(state.listeningDutyActive)
+
+        val autoDetected = SyncState.MoviePaused(pausedAtMovieTimeMs = 90000L)
+        assertEquals(false, autoDetected.isManual)
     }
 
     @Test

@@ -1,14 +1,20 @@
 package dev.spookcue.ui.screens.sync
 
+import android.content.Context
+import android.content.Intent
+import android.util.Log
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.spookcue.alert.ScareScheduler
 import dev.spookcue.audio.AudioCaptureManager
-import dev.spookcue.audio.SpeechRecognizerManager
+import dev.spookcue.audio.VadEngine
 import dev.spookcue.data.local.UserPreferencesManager
 import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.repository.MovieRepository
+import dev.spookcue.service.SpookCueService
 import dev.spookcue.sync.SyncDebugInfo
 import dev.spookcue.sync.SyncEngine
 import dev.spookcue.sync.SyncState
@@ -20,13 +26,18 @@ import javax.inject.Inject
 
 @HiltViewModel
 class SyncViewModel @Inject constructor(
+    @ApplicationContext private val context: Context,
     private val movieRepository: MovieRepository,
     private val syncEngine: SyncEngine,
     private val scareScheduler: ScareScheduler,
     private val audioCaptureManager: AudioCaptureManager,
-    private val speechRecognizerManager: SpeechRecognizerManager,
+    private val vadEngine: VadEngine,
     private val preferencesManager: UserPreferencesManager
 ) : ViewModel() {
+
+    companion object {
+        private const val TAG = "SyncViewModel"
+    }
 
     private val _movie = MutableStateFlow<MovieDetails?>(null)
     val movie: StateFlow<MovieDetails?> = _movie.asStateFlow()
@@ -42,15 +53,46 @@ class SyncViewModel @Inject constructor(
     private val _isScreenOff = MutableStateFlow(false)
     val isScreenOff: StateFlow<Boolean> = _isScreenOff.asStateFlow()
 
-    // Real-Time Audio Debug State
+    // Real-Time Audio Debug State (observed from audio singletons)
     val rmsDb: StateFlow<Float> = audioCaptureManager.rmsDb
-    val speechDetected: StateFlow<Boolean> = audioCaptureManager.speechDetected
-    val liveTranscript: StateFlow<String> = speechRecognizerManager.livePartialText
-    val isListening: StateFlow<Boolean> = speechRecognizerManager.isListening
+    val speechDetected: StateFlow<Boolean> = vadEngine.speechDetected
+
+    private val _liveTranscript = MutableStateFlow("")
+    val liveTranscript: StateFlow<String> = _liveTranscript.asStateFlow()
+
+    private val _isListening = MutableStateFlow(false)
+    val isListening: StateFlow<Boolean> = _isListening.asStateFlow()
+
     val debugInfo: StateFlow<SyncDebugInfo> = syncEngine.debugInfo
 
     private val _isDebugVisible = MutableStateFlow(preferencesManager.isAudioDebug())
     val isDebugVisible: StateFlow<Boolean> = _isDebugVisible.asStateFlow()
+
+    init {
+        viewModelScope.launch {
+            syncEngine.lastTranscript.collect { text ->
+                if (text.isNotBlank()) {
+                    _liveTranscript.value = text
+                }
+            }
+        }
+
+        viewModelScope.launch {
+            scareScheduler.alertEvents.collect { event ->
+                when (event) {
+                    is ScareScheduler.AlertEvent.WarningLead -> {
+                        if (event.scare.type.equals("major", ignoreCase = true)) {
+                            _isPulsing.value = true
+                        }
+                    }
+                    is ScareScheduler.AlertEvent.ScareNow -> {
+                        _isPulsing.value = false
+                    }
+                    else -> Unit
+                }
+            }
+        }
+    }
 
     fun toggleDebugVisible() {
         _isDebugVisible.value = !_isDebugVisible.value
@@ -78,39 +120,31 @@ class SyncViewModel @Inject constructor(
     }
 
     fun loadMovieAndStartSync(tmdbId: Int) {
+        Log.i(TAG, "loadMovieAndStartSync called with tmdbId: $tmdbId")
         viewModelScope.launch {
             val result = movieRepository.getMovieDetails(tmdbId)
             result.onSuccess { details ->
+                Log.i(TAG, "Successfully loaded '${details.title}' (runtime: ${details.runtimeMinutes}m)")
                 _movie.value = details
-                syncEngine.start(details)
-                scareScheduler.startScheduling(details.scares)
-                audioCaptureManager.startCapture()
-                speechRecognizerManager.startListening()
-                movieRepository.recordMovieSynced(tmdbId)
-            }
-        }
+                _isListening.value = true
 
-        viewModelScope.launch {
-            speechRecognizerManager.transcriptions.collect { text ->
-                syncEngine.onSpeechTranscribed(text)
-            }
-        }
-
-        viewModelScope.launch {
-            scareScheduler.alertEvents.collect { event ->
-                when (event) {
-                    is ScareScheduler.AlertEvent.WarningLead -> {
-                        if (event.scare.type == "major") {
-                            _isPulsing.value = true
-                        }
-                    }
-                    is ScareScheduler.AlertEvent.ScareNow -> {
-                        _isPulsing.value = false
-                    }
-                    else -> Unit
+                // Start SpookCueService as foreground service — it owns audio capture, VAD, STT and sync
+                val intent = Intent(context, SpookCueService::class.java).apply {
+                    action = SpookCueService.ACTION_START_SYNC
+                    putExtra(SpookCueService.EXTRA_TMDB_ID, tmdbId)
+                    putExtra(SpookCueService.EXTRA_MOVIE_TITLE, details.title)
+                    putExtra(SpookCueService.EXTRA_RUNTIME_MS, details.runtimeMinutes * 60_000L)
                 }
+                ContextCompat.startForegroundService(context, intent)
+            }.onFailure { e ->
+                Log.e(TAG, "Failed to load movie details for tmdbId $tmdbId", e)
             }
         }
+    }
+
+    fun togglePause() {
+        Log.i(TAG, "togglePause requested")
+        syncEngine.togglePause()
     }
 
     fun adjustOffset(deltaMs: Long) {
@@ -118,19 +152,22 @@ class SyncViewModel @Inject constructor(
     }
 
     fun forceResync() {
+        Log.i(TAG, "Force resync requested")
         syncEngine.forceResync()
     }
 
     fun stop() {
-        speechRecognizerManager.stopListening()
-        audioCaptureManager.stopCapture()
-        syncEngine.stop()
-        scareScheduler.stopScheduling()
+        Log.i(TAG, "Stopping SyncViewModel and stopping SpookCueService")
+        val intent = Intent(context, SpookCueService::class.java).apply {
+            action = SpookCueService.ACTION_STOP_SYNC
+        }
+        context.startService(intent)
         _isPulsing.value = false
+        _isListening.value = false
+        _liveTranscript.value = ""
     }
 
     override fun onCleared() {
         super.onCleared()
-        stop()
     }
 }

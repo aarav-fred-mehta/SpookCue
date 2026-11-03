@@ -205,6 +205,8 @@ async def run_pipeline(
     """Execute the full data pipeline."""
     movies_dir = data_dir / "movies"
     movies_dir.mkdir(parents=True, exist_ok=True)
+    sync_dir = data_dir / "sync"
+    sync_dir.mkdir(parents=True, exist_ok=True)
 
     catalog_path = data_dir / "catalog.json"
     version_path = data_dir / "version.json"
@@ -303,8 +305,24 @@ async def run_pipeline(
                     try:
                         old_doc = load_json_bytes(old_file.read_bytes())
                         old_doc["tmdb_id"] = sitemap_tmdb_id
+                        legacy_phonetic = old_doc.pop("phonetic_index", None)
                         new_file.write_bytes(dump_json_bytes(old_doc))
                         old_file.unlink(missing_ok=True)
+
+                        old_sync = sync_dir / f"{legacy_tmdb_id}.json"
+                        new_sync = sync_dir / f"{sitemap_tmdb_id}.json"
+                        if old_sync.exists() and not new_sync.exists():
+                            old_sync_doc = load_json_bytes(old_sync.read_bytes())
+                            old_sync_doc["tmdb_id"] = sitemap_tmdb_id
+                            new_sync.write_bytes(dump_json_bytes(old_sync_doc))
+                            old_sync.unlink(missing_ok=True)
+                        elif legacy_phonetic and not new_sync.exists():
+                            new_sync.write_bytes(dump_json_bytes({
+                                "tmdb_id": sitemap_tmdb_id,
+                                "type": "subtitles",
+                                "phonetic_index": legacy_phonetic
+                            }))
+
                         if legacy_tmdb_id in catalog_by_id:
                             old_cat = catalog_by_id.pop(legacy_tmdb_id)
                             old_cat["tmdb_id"] = sitemap_tmdb_id
@@ -330,8 +348,17 @@ async def run_pipeline(
                     existing_source = movie_doc.get("source")
                     existing_lastmod = movie_doc.get("source_lastmod")
                     existing_scares = movie_doc.get("scares", [])
-                    existing_phonetic = movie_doc.get("phonetic_index", [])
-                    has_subs = len(existing_phonetic) > 0
+                    sync_file = sync_dir / f"{existing_tmdb_id}.json"
+                    existing_phonetic = []
+                    if sync_file.exists():
+                        try:
+                            sync_data = load_json_bytes(sync_file.read_bytes())
+                            existing_phonetic = sync_data.get("phonetic_index", [])
+                        except Exception:
+                            pass
+                    elif "phonetic_index" in movie_doc:
+                        existing_phonetic = movie_doc.get("phonetic_index", [])
+                    has_subs = len(existing_phonetic) > 0 or sync_file.exists()
 
                     # Does this movie need jumpscare verification/reconciliation?
                     # 1. Scraped originally from WTJ (existing_source != "whenjumpscare" while WhenJumpScare is now live)
@@ -374,6 +401,7 @@ async def run_pipeline(
                             movie_doc["runtime_minutes"] = fresh_runtime
                             movie_doc["source"] = item_source
                             movie_doc["source_lastmod"] = item_lastmod
+                            movie_doc.pop("phonetic_index", None)
 
                             cat_entry["scare_count"] = len(resolved_scares)
                             if fresh_runtime:
@@ -396,11 +424,18 @@ async def run_pipeline(
                                 )
 
                             movie_file.write_bytes(dump_json_bytes(movie_doc))
+                            if existing_phonetic and not sync_file.exists():
+                                sync_file.write_bytes(dump_json_bytes({
+                                    "tmdb_id": existing_tmdb_id,
+                                    "type": "subtitles",
+                                    "phonetic_index": existing_phonetic,
+                                }))
                             catalog_by_id[existing_tmdb_id] = cat_entry
                         else:
                             # Fresh page had no scares; mark verified to avoid repeating requests
                             movie_doc["source"] = item_source
                             movie_doc["source_lastmod"] = item_lastmod
+                            movie_doc.pop("phonetic_index", None)
                             movie_file.write_bytes(dump_json_bytes(movie_doc))
 
                     # 3. Subtitle Fetch (if missing and quota not exhausted)
@@ -424,9 +459,17 @@ async def run_pipeline(
                             phonetic_index = build_phonetic_index(sanitized_dialogue)
                             resolved_scares = resolve_scares_to_anchors(movie_doc.get("scares", []), phonetic_index)
 
-                            movie_doc["phonetic_index"] = phonetic_index
                             movie_doc["scares"] = resolved_scares
+                            movie_doc["sync_type"] = "subtitles"
+                            movie_doc.pop("phonetic_index", None)
                             movie_file.write_bytes(dump_json_bytes(movie_doc))
+                            sync_doc = {
+                                "tmdb_id": existing_tmdb_id,
+                                "type": "subtitles",
+                                "phonetic_index": phonetic_index
+                            }
+                            sync_file = sync_dir / f"{existing_tmdb_id}.json"
+                            sync_file.write_bytes(dump_json_bytes(sync_doc))
                             verify_compression(movie_doc)
 
                             cat_entry["has_subtitles"] = True
@@ -471,10 +514,20 @@ async def run_pipeline(
             catalog_entry = result["catalog_entry"]
             tmdb_id = movie_doc["tmdb_id"]
 
-            # Save movie JSON
+            # Save decoupled movie and sync JSONs
             out_file = movies_dir / f"{tmdb_id}.json"
             is_new = not out_file.exists()
+            phonetic_idx = movie_doc.pop("phonetic_index", [])
+            movie_doc["sync_type"] = "subtitles"
             out_file.write_bytes(dump_json_bytes(movie_doc))
+
+            sync_file = sync_dir / f"{tmdb_id}.json"
+            sync_doc = {
+                "tmdb_id": tmdb_id,
+                "type": "subtitles",
+                "phonetic_index": phonetic_idx
+            }
+            sync_file.write_bytes(dump_json_bytes(sync_doc))
 
             # Phase 1.5.3: Verify per-movie JSON compression (~2.8 KB gzipped)
             verify_compression(movie_doc)

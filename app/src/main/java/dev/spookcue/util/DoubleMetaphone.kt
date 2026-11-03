@@ -1,295 +1,569 @@
 package dev.spookcue.util
 
+import java.text.Normalizer
+
 /**
- * Pure Kotlin port of Lawrence Philips' Double Metaphone phonetic algorithm.
- * Translates English words into phonetic keys for speech-to-text fuzzy matching.
+ * Pure Kotlin implementation of Lawrence Philips' Double Metaphone phonetic algorithm,
+ * matching Python's `metaphone` library 1:1.
  */
-class DoubleMetaphone(private val maxCodeLen: Int = 4) {
+class DoubleMetaphone(private val maxCodeLen: Int = 32) {
 
     data class Result(val primary: String, val alternate: String)
+
+    companion object {
+        private val SILENT_STARTERS = listOf("GN", "KN", "PN", "WR", "PS")
+        private val VOWELS = setOf('A', 'E', 'I', 'O', 'U', 'Y')
+    }
+
+    private class Word(val original: String) {
+        val upper: String
+        val length: Int
+        val prepad = "--"
+        val start_index = prepad.length
+        val end_index: Int
+        val buffer: String
+
+        init {
+            var decoded = original.replace('\u00C7', 's').replace('\u00E7', 's')
+            val normalized = Normalizer.normalize(decoded, Normalizer.Form.NFD)
+                .replace(Regex("\\p{M}"), "")
+            upper = normalized.uppercase()
+            length = upper.length
+            end_index = start_index + length - 1
+            val postpad = "------"
+            buffer = prepad + upper + postpad
+        }
+
+        val isSlavoGermanic: Boolean
+            get() = upper.contains("W") || upper.contains("K") || upper.contains("CZ") || upper.contains("WITZ")
+
+        fun slice(start: Int, end: Int): String {
+            return buffer.substring(start, end)
+        }
+    }
 
     fun encode(value: String?): Result {
         if (value.isNullOrBlank()) return Result("", "")
 
-        var clean = value.uppercase().trim()
-        val primary = StringBuilder()
-        val alternate = StringBuilder()
+        val word = Word(value)
+        if (word.length == 0) return Result("", "")
 
-        // Handle initial silent characters
-        val length = clean.length
-        if (length < 1) return Result("", "")
+        var position = word.start_index
+        val primaryPhone = StringBuilder()
+        val secondaryPhone = StringBuilder()
 
-        var current = 0
+        fun slice(start: Int, end: Int): String = word.slice(start, end)
+        fun charAt(idx: Int): Char = word.buffer[idx]
 
-        // Handle special prefixes: GN, KN, PN, WR, PS
-        if (clean.startsWith("GN") || clean.startsWith("KN") ||
-            clean.startsWith("PN") || clean.startsWith("WR") ||
-            clean.startsWith("PS")
-        ) {
-            current = 1
+        // Check word start
+        if (SILENT_STARTERS.any { word.upper.startsWith(it) }) {
+            position += 1
+        }
+        if (word.upper.startsWith("X")) {
+            primaryPhone.append('S')
+            secondaryPhone.append('S')
+            position += 1
         }
 
-        // Initial 'X' is pronounced as 'S'
-        if (clean.startsWith("X")) {
-            primary.append('S')
-            alternate.append('S')
-            current = 1
-        }
+        while (position <= word.end_index && (primaryPhone.length < maxCodeLen || secondaryPhone.length < maxCodeLen)) {
+            val character = charAt(position)
+            var nextPrimary: String? = null
+            var nextSecondary: String? = null
+            var advance = 1
 
-        while ((primary.length < maxCodeLen || alternate.length < maxCodeLen) && current < length) {
-            val ch = clean[current]
-
-            when (ch) {
-                'A', 'E', 'I', 'O', 'U', 'Y' -> {
-                    if (current == 0) {
-                        primary.append('A')
-                        alternate.append('A')
+            when {
+                character in VOWELS -> {
+                    if (position == word.start_index) {
+                        nextPrimary = "A"
                     }
-                    current++
+                    advance = 1
                 }
-
-                'B' -> {
-                    primary.append('P')
-                    alternate.append('P')
-                    current += if (current + 1 < length && clean[current + 1] == 'B') 2 else 1
+                character == ' ' -> {
+                    position += 1
+                    continue
                 }
-
-                'C' -> {
-                    // Various 'C' combinations
-                    if (current > 1 && !isVowel(clean, current - 2) &&
-                        clean.regionMatches(current - 1, "ACH", 0, 3) &&
-                        (current + 2 >= length || (clean[current + 2] != 'I' && clean[current + 2] != 'E'))
+                character == 'B' -> {
+                    nextPrimary = "P"
+                    advance = if (charAt(position + 1) == 'B') 2 else 1
+                }
+                character == 'C' -> {
+                    val sIdx = word.start_index
+                    if (position > sIdx + 1 &&
+                        charAt(position - 2) !in VOWELS &&
+                        slice(position - 1, position + 2) == "ACH" &&
+                        charAt(position + 2) != 'I' &&
+                        (charAt(position + 2) != 'E' || slice(position - 2, position + 4) in listOf("BACHER", "MACHER"))
                     ) {
-                        primary.append('K')
-                        alternate.append('K')
-                        current += 2
-                    } else if (clean.regionMatches(current, "CH", 0, 2)) {
-                        primary.append('X')
-                        alternate.append('X')
-                        current += 2
-                    } else if (clean.regionMatches(current, "CZ", 0, 2)) {
-                        primary.append('S')
-                        alternate.append('X')
-                        current += 2
-                    } else if (current + 1 < length && (clean[current + 1] == 'I' || clean[current + 1] == 'E' || clean[current + 1] == 'Y')) {
-                        primary.append('S')
-                        alternate.append('S')
-                        current += 2
-                    } else if (clean.regionMatches(current, "CK", 0, 2)) {
-                        primary.append('K')
-                        alternate.append('K')
-                        current += 2
-                    } else {
-                        primary.append('K')
-                        alternate.append('K')
-                        current += if (current + 1 < length && clean[current + 1] == 'C') 2 else 1
-                    }
-                }
-
-                'D' -> {
-                    if (clean.regionMatches(current, "DG", 0, 2)) {
-                        if (current + 2 < length && (clean[current + 2] == 'I' || clean[current + 2] == 'E' || clean[current + 2] == 'Y')) {
-                            primary.append('J')
-                            alternate.append('J')
-                            current += 3
+                        nextPrimary = "K"
+                        advance = 2
+                    } else if (position == sIdx && slice(sIdx, sIdx + 6) == "CAESAR") {
+                        nextPrimary = "S"
+                        advance = 2
+                    } else if (slice(position, position + 4) == "CHIA") {
+                        nextPrimary = "K"
+                        advance = 2
+                    } else if (slice(position, position + 2) == "CH") {
+                        if (position > sIdx && slice(position, position + 4) == "CHAE") {
+                            nextPrimary = "K"
+                            nextSecondary = "X"
+                            advance = 2
+                        } else if (position == sIdx &&
+                            (slice(position + 1, position + 6) in listOf("HARAC", "HARIS") ||
+                                slice(position + 1, position + 4) in listOf("HOR", "HYM", "HIA", "HEM")) &&
+                            slice(sIdx, sIdx + 5) != "CHORE"
+                        ) {
+                            nextPrimary = "K"
+                            advance = 2
+                        } else if (
+                            slice(sIdx, sIdx + 4) in listOf("VAN ", "VON ") ||
+                            slice(sIdx, sIdx + 3) == "SCH" ||
+                            slice(position - 2, position + 4) in listOf("ORCHES", "ARCHIT", "ORCHID") ||
+                            charAt(position + 2) in listOf('T', 'S') ||
+                            ((charAt(position - 1) in listOf('A', 'O', 'U', 'E') || position == sIdx) &&
+                                charAt(position + 2) in listOf('L', 'R', 'N', 'M', 'B', 'H', 'F', 'V', 'W'))
+                        ) {
+                            nextPrimary = "K"
+                            advance = 2
                         } else {
-                            primary.append("TK")
-                            alternate.append("TK")
-                            current += 2
+                            if (position > sIdx) {
+                                if (slice(sIdx, sIdx + 2) == "MC") {
+                                    nextPrimary = "K"
+                                } else {
+                                    nextPrimary = "X"
+                                    nextSecondary = "K"
+                                }
+                            } else {
+                                nextPrimary = "X"
+                            }
+                            advance = 2
                         }
-                    } else if (clean.regionMatches(current, "DT", 0, 2) || clean.regionMatches(current, "DD", 0, 2)) {
-                        primary.append('T')
-                        alternate.append('T')
-                        current += 2
-                    } else {
-                        primary.append('T')
-                        alternate.append('T')
-                        current++
-                    }
-                }
-
-                'F' -> {
-                    primary.append('F')
-                    alternate.append('F')
-                    current += if (current + 1 < length && clean[current + 1] == 'F') 2 else 1
-                }
-
-                'G' -> {
-                    if (clean.regionMatches(current, "GH", 0, 2)) {
-                        if (current > 0 && !isVowel(clean, current - 1)) {
-                            primary.append('K')
-                            alternate.append('K')
-                            current += 2
-                        } else if (current == 0) {
-                            primary.append('K')
-                            alternate.append('K')
-                            current += 2
+                    } else if (slice(position, position + 2) == "CZ" && slice(position - 2, position + 2) != "WICZ") {
+                        nextPrimary = "S"
+                        nextSecondary = "X"
+                        advance = 2
+                    } else if (slice(position + 1, position + 4) == "CIA") {
+                        nextPrimary = "X"
+                        advance = 3
+                    } else if (slice(position, position + 2) == "CC" && !(position == sIdx + 1 && charAt(sIdx) == 'M')) {
+                        if (charAt(position + 2) in listOf('I', 'E', 'H') && slice(position + 2, position + 4) != "HU") {
+                            if ((position == sIdx + 1 && charAt(sIdx) == 'A') ||
+                                slice(position - 1, position + 4) in listOf("UCCEE", "UCCIS")
+                            ) {
+                                nextPrimary = "KS"
+                                nextSecondary = "X"
+                            } else {
+                                nextPrimary = "KS"
+                            }
+                            advance = 3
                         } else {
-                            current += 2
+                            nextPrimary = "K"
+                            advance = 2
                         }
-                    } else if (clean.regionMatches(current, "GN", 0, 2)) {
-                        primary.append('K')
-                        alternate.append('N')
-                        current += 2
-                    } else if (current + 1 < length && (clean[current + 1] == 'I' || clean[current + 1] == 'E' || clean[current + 1] == 'Y')) {
-                        primary.append('J')
-                        alternate.append('K')
-                        current += 2
-                    } else {
-                        primary.append('K')
-                        alternate.append('K')
-                        current += if (current + 1 < length && clean[current + 1] == 'G') 2 else 1
-                    }
-                }
-
-                'H' -> {
-                    if ((current == 0 || isVowel(clean, current - 1)) && isVowel(clean, current + 1)) {
-                        primary.append('H')
-                        alternate.append('H')
-                        current += 2
-                    } else {
-                        current++
-                    }
-                }
-
-                'J' -> {
-                    primary.append('J')
-                    alternate.append('A')
-                    current += if (current + 1 < length && clean[current + 1] == 'J') 2 else 1
-                }
-
-                'K' -> {
-                    primary.append('K')
-                    alternate.append('K')
-                    current += if (current + 1 < length && clean[current + 1] == 'K') 2 else 1
-                }
-
-                'L' -> {
-                    primary.append('L')
-                    alternate.append('L')
-                    current += if (current + 1 < length && clean[current + 1] == 'L') 2 else 1
-                }
-
-                'M' -> {
-                    primary.append('M')
-                    alternate.append('M')
-                    current += if (current + 1 < length && clean[current + 1] == 'M') 2 else 1
-                }
-
-                'N' -> {
-                    primary.append('N')
-                    alternate.append('N')
-                    current += if (current + 1 < length && clean[current + 1] == 'N') 2 else 1
-                }
-
-                'P' -> {
-                    if (clean.regionMatches(current, "PH", 0, 2)) {
-                        primary.append('F')
-                        alternate.append('F')
-                        current += 2
-                    } else {
-                        primary.append('P')
-                        alternate.append('P')
-                        current += if (current + 1 < length && clean[current + 1] == 'P') 2 else 1
-                    }
-                }
-
-                'Q' -> {
-                    primary.append('K')
-                    alternate.append('K')
-                    current += if (current + 1 < length && clean[current + 1] == 'Q') 2 else 1
-                }
-
-                'R' -> {
-                    primary.append('R')
-                    alternate.append('R')
-                    current += if (current + 1 < length && clean[current + 1] == 'R') 2 else 1
-                }
-
-                'S' -> {
-                    if (clean.regionMatches(current, "SH", 0, 2)) {
-                        primary.append('X')
-                        alternate.append('X')
-                        current += 2
-                    } else if (clean.regionMatches(current, "SC", 0, 2)) {
-                        if (current + 2 < length && (clean[current + 2] == 'I' || clean[current + 2] == 'E' || clean[current + 2] == 'Y')) {
-                            primary.append('S')
-                            alternate.append('S')
-                            current += 3
+                    } else if (slice(position, position + 2) in listOf("CK", "CG", "CQ")) {
+                        nextPrimary = "K"
+                        advance = 2
+                    } else if (slice(position, position + 2) in listOf("CI", "CE", "CY")) {
+                        if (slice(position, position + 3) in listOf("CIO", "CIE", "CIA")) {
+                            nextPrimary = "S"
+                            nextSecondary = "X"
                         } else {
-                            primary.append("SK")
-                            alternate.append("SK")
-                            current += 3
+                            nextPrimary = "S"
                         }
+                        advance = 2
                     } else {
-                        primary.append('S')
-                        alternate.append('S')
-                        current += if (current + 1 < length && clean[current + 1] == 'S') 2 else 1
+                        nextPrimary = "K"
+                        advance = if (charAt(position + 1) in listOf('C', 'Q', 'G')) 2 else 1
                     }
                 }
-
-                'T' -> {
-                    if (clean.regionMatches(current, "TION", 0, 4) || clean.regionMatches(current, "TIA", 0, 3)) {
-                        primary.append('X')
-                        alternate.append('X')
-                        current += 3
-                    } else if (clean.regionMatches(current, "TH", 0, 2)) {
-                        primary.append('0')
-                        alternate.append('T')
-                        current += 2
+                character == 'D' -> {
+                    if (slice(position, position + 2) == "DG") {
+                        if (charAt(position + 2) in listOf('I', 'E', 'Y')) {
+                            nextPrimary = "J"
+                            advance = 3
+                        } else {
+                            nextPrimary = "TK"
+                            advance = 2
+                        }
+                    } else if (slice(position, position + 2) in listOf("DT", "DD")) {
+                        nextPrimary = "T"
+                        advance = 2
                     } else {
-                        primary.append('T')
-                        alternate.append('T')
-                        current += if (current + 1 < length && clean[current + 1] == 'T') 2 else 1
+                        nextPrimary = "T"
+                        advance = 1
                     }
                 }
-
-                'V' -> {
-                    primary.append('F')
-                    alternate.append('F')
-                    current += if (current + 1 < length && clean[current + 1] == 'V') 2 else 1
+                character == 'F' -> {
+                    nextPrimary = "F"
+                    advance = if (charAt(position + 1) == 'F') 2 else 1
                 }
-
-                'W' -> {
-                    if (clean.regionMatches(current, "WR", 0, 2)) {
-                        primary.append('R')
-                        alternate.append('R')
-                        current += 2
-                    } else if (current == 0 && isVowel(clean, current + 1)) {
-                        primary.append('A')
-                        alternate.append('F')
-                        current++
+                character == 'G' -> {
+                    val sIdx = word.start_index
+                    if (charAt(position + 1) == 'H') {
+                        if (position > sIdx && charAt(position - 1) !in VOWELS) {
+                            nextPrimary = "K"
+                            advance = 2
+                        } else if (position < sIdx + 3) {
+                            if (position == sIdx) {
+                                nextPrimary = if (charAt(position + 2) == 'I') "J" else "K"
+                            }
+                            advance = 2
+                        } else if (
+                            (position > sIdx + 1 && charAt(position - 2) in listOf('B', 'H', 'D')) ||
+                            (position > sIdx + 2 && charAt(position - 3) in listOf('B', 'H', 'D')) ||
+                            (position > sIdx + 3 && charAt(position - 4) in listOf('B', 'H'))
+                        ) {
+                            advance = 2
+                        } else {
+                            if (position > sIdx + 2 && charAt(position - 1) == 'U' &&
+                                charAt(position - 3) in listOf('C', 'G', 'L', 'R', 'T')
+                            ) {
+                                nextPrimary = "F"
+                            } else if (position > sIdx && charAt(position - 1) != 'I') {
+                                nextPrimary = "K"
+                            }
+                            advance = 2
+                        }
+                    } else if (charAt(position + 1) == 'N') {
+                        if (position == sIdx + 1 && charAt(sIdx) in VOWELS && !word.isSlavoGermanic) {
+                            nextPrimary = "KN"
+                            nextSecondary = "N"
+                        } else {
+                            if (slice(position + 2, position + 4) != "EY" && charAt(position + 1) != 'Y' && !word.isSlavoGermanic) {
+                                nextPrimary = "N"
+                                nextSecondary = "KN"
+                            } else {
+                                nextPrimary = "KN"
+                            }
+                        }
+                        advance = 2
+                    } else if (slice(position + 1, position + 3) == "LI" && !word.isSlavoGermanic) {
+                        nextPrimary = "KL"
+                        nextSecondary = "L"
+                        advance = 2
+                    } else if (position == sIdx &&
+                        (charAt(position + 1) == 'Y' ||
+                            slice(position + 1, position + 3) in listOf(
+                                "ES", "EP", "EB", "EL", "EY", "IB", "IL", "IN", "IE", "EI", "ER"
+                            ))
+                    ) {
+                        nextPrimary = "K"
+                        nextSecondary = "J"
+                        advance = 2
+                    } else if (
+                        (slice(position + 1, position + 3) == "ER" || charAt(position + 1) == 'Y') &&
+                        slice(sIdx, sIdx + 6) !in listOf("DANGER", "RANGER", "MANGER") &&
+                        charAt(position - 1) !in listOf('E', 'I') &&
+                        slice(position - 1, position + 2) !in listOf("RGY", "OGY")
+                    ) {
+                        nextPrimary = "K"
+                        nextSecondary = "J"
+                        advance = 2
+                    } else if (
+                        charAt(position + 1) in listOf('E', 'I', 'Y') ||
+                        slice(position - 1, position + 3) in listOf("AGGI", "OGGI")
+                    ) {
+                        if (slice(sIdx, sIdx + 4) in listOf("VON ", "VAN ") ||
+                            slice(sIdx, sIdx + 3) == "SCH" ||
+                            slice(position + 1, position + 3) == "ET"
+                        ) {
+                            nextPrimary = "K"
+                        } else {
+                            if (slice(position + 1, position + 5) == "IER ") {
+                                nextPrimary = "J"
+                            } else {
+                                nextPrimary = "J"
+                                nextSecondary = "K"
+                            }
+                        }
+                        advance = 2
+                    } else if (charAt(position + 1) == 'G') {
+                        nextPrimary = "K"
+                        advance = 2
                     } else {
-                        current++
+                        nextPrimary = "K"
+                        advance = 1
                     }
                 }
-
-                'X' -> {
-                    primary.append("KS")
-                    alternate.append("KS")
-                    current += if (current + 1 < length && clean[current + 1] == 'X') 2 else 1
+                character == 'H' -> {
+                    val sIdx = word.start_index
+                    if ((position == sIdx || charAt(position - 1) in VOWELS) && charAt(position + 1) in VOWELS) {
+                        nextPrimary = "H"
+                        advance = 2
+                    } else {
+                        advance = 1
+                    }
                 }
-
-                'Z' -> {
-                    primary.append('S')
-                    alternate.append('S')
-                    current += if (current + 1 < length && clean[current + 1] == 'Z') 2 else 1
+                character == 'J' -> {
+                    val sIdx = word.start_index
+                    if (slice(position, position + 4) == "JOSE" || slice(sIdx, sIdx + 4) == "SAN ") {
+                        if ((position == sIdx && charAt(position + 4) == ' ') || slice(sIdx, sIdx + 4) == "SAN ") {
+                            nextPrimary = "H"
+                        } else {
+                            nextPrimary = "J"
+                            nextSecondary = "H"
+                        }
+                    } else if (position == sIdx && slice(position, position + 4) != "JOSE") {
+                        nextPrimary = "J"
+                        nextSecondary = "A"
+                    } else {
+                        if (charAt(position - 1) in VOWELS && !word.isSlavoGermanic && charAt(position + 1) in listOf('A', 'O')) {
+                            nextPrimary = "J"
+                            nextSecondary = "H"
+                        } else {
+                            if (position == word.end_index) {
+                                nextPrimary = "J"
+                                nextSecondary = " "
+                            } else {
+                                if (charAt(position + 1) !in listOf('L', 'T', 'K', 'S', 'N', 'M', 'B', 'Z') &&
+                                    charAt(position - 1) !in listOf('S', 'K', 'L')
+                                ) {
+                                    nextPrimary = "J"
+                                }
+                            }
+                        }
+                    }
+                    advance = if (charAt(position + 1) == 'J') 2 else 1
                 }
-
-                else -> current++
+                character == 'K' -> {
+                    nextPrimary = "K"
+                    advance = if (charAt(position + 1) == 'K') 2 else 1
+                }
+                character == 'L' -> {
+                    val eIdx = word.end_index
+                    if (charAt(position + 1) == 'L') {
+                        if ((position == eIdx - 2 && slice(position - 1, position + 3) in listOf("ILLO", "ILLA", "ALLE")) ||
+                            ((slice(eIdx - 1, eIdx + 1) in listOf("AS", "OS") || charAt(eIdx) in listOf('A', 'O')) &&
+                                slice(position - 1, position + 3) == "ALLE")
+                        ) {
+                            nextPrimary = "L"
+                            nextSecondary = ""
+                        } else {
+                            nextPrimary = "L"
+                        }
+                        advance = 2
+                    } else {
+                        nextPrimary = "L"
+                        advance = 1
+                    }
+                }
+                character == 'M' -> {
+                    val eIdx = word.end_index
+                    if ((slice(position + 1, position + 4) == "UMB" &&
+                            (position + 1 == eIdx || slice(position + 2, position + 4) == "ER")) ||
+                        charAt(position + 1) == 'M'
+                    ) {
+                        nextPrimary = "M"
+                        advance = 2
+                    } else {
+                        nextPrimary = "M"
+                        advance = 1
+                    }
+                }
+                character == 'N' -> {
+                    nextPrimary = "N"
+                    advance = if (charAt(position + 1) == 'N') 2 else 1
+                }
+                character == 'P' -> {
+                    if (charAt(position + 1) == 'H') {
+                        nextPrimary = "F"
+                        advance = 2
+                    } else if (charAt(position + 1) in listOf('P', 'B')) {
+                        nextPrimary = "P"
+                        advance = 2
+                    } else {
+                        nextPrimary = "P"
+                        advance = 1
+                    }
+                }
+                character == 'Q' -> {
+                    nextPrimary = "K"
+                    advance = if (charAt(position + 1) == 'Q') 2 else 1
+                }
+                character == 'R' -> {
+                    val eIdx = word.end_index
+                    if (position == eIdx && !word.isSlavoGermanic &&
+                        slice(position - 2, position) == "IE" &&
+                        slice(position - 4, position - 2) !in listOf("ME", "MA")
+                    ) {
+                        nextPrimary = ""
+                        nextSecondary = "R"
+                    } else {
+                        nextPrimary = "R"
+                    }
+                    advance = if (charAt(position + 1) == 'R') 2 else 1
+                }
+                character == 'S' -> {
+                    val sIdx = word.start_index
+                    val eIdx = word.end_index
+                    if (slice(position - 1, position + 2) in listOf("ISL", "YSL")) {
+                        advance = 1
+                    } else if (position == sIdx && slice(sIdx, sIdx + 5) == "SUGAR") {
+                        nextPrimary = "X"
+                        nextSecondary = "S"
+                        advance = 1
+                    } else if (slice(position, position + 2) == "SH") {
+                        if (slice(position + 1, position + 5) in listOf("HEIM", "HOEK", "HOLM", "HOLZ")) {
+                            nextPrimary = "S"
+                        } else {
+                            nextPrimary = "X"
+                        }
+                        advance = 2
+                    } else if (slice(position, position + 3) in listOf("SIO", "SIA") || slice(position, position + 4) == "SIAN") {
+                        if (!word.isSlavoGermanic) {
+                            nextPrimary = "S"
+                            nextSecondary = "X"
+                        } else {
+                            nextPrimary = "S"
+                        }
+                        advance = 3
+                    } else if ((position == sIdx && charAt(position + 1) in listOf('M', 'N', 'L', 'W')) || charAt(position + 1) == 'Z') {
+                        nextPrimary = "S"
+                        nextSecondary = "X"
+                        advance = if (charAt(position + 1) == 'Z') 2 else 1
+                    } else if (slice(position, position + 2) == "SC") {
+                        if (charAt(position + 2) == 'H') {
+                            if (slice(position + 3, position + 5) in listOf("OO", "ER", "EN", "UY", "ED", "EM")) {
+                                if (slice(position + 3, position + 5) in listOf("ER", "EN")) {
+                                    nextPrimary = "X"
+                                    nextSecondary = "SK"
+                                } else {
+                                    nextPrimary = "SK"
+                                }
+                            } else {
+                                if (position == sIdx && charAt(sIdx + 3) !in VOWELS && charAt(sIdx + 3) != 'W') {
+                                    nextPrimary = "X"
+                                    nextSecondary = "S"
+                                } else {
+                                    nextPrimary = "X"
+                                }
+                            }
+                        } else if (charAt(position + 2) in listOf('I', 'E', 'Y')) {
+                            nextPrimary = "S"
+                        } else {
+                            nextPrimary = "SK"
+                        }
+                        advance = 3
+                    } else if (position == eIdx && slice(position - 2, position) in listOf("AI", "OI")) {
+                        nextPrimary = ""
+                        nextSecondary = "S"
+                        advance = 1
+                    } else {
+                        nextPrimary = "S"
+                        advance = if (charAt(position + 1) in listOf('S', 'Z')) 2 else 1
+                    }
+                }
+                character == 'T' -> {
+                    val sIdx = word.start_index
+                    if (slice(position, position + 4) == "TION") {
+                        nextPrimary = "X"
+                        advance = 3
+                    } else if (slice(position, position + 3) in listOf("TIA", "TCH")) {
+                        nextPrimary = "X"
+                        advance = 3
+                    } else if (slice(position, position + 2) == "TH" || slice(position, position + 3) == "TTH") {
+                        if (slice(position + 2, position + 4) in listOf("OM", "AM") ||
+                            slice(sIdx, sIdx + 4) in listOf("VON ", "VAN ") ||
+                            slice(sIdx, sIdx + 3) == "SCH"
+                        ) {
+                            nextPrimary = "T"
+                        } else {
+                            nextPrimary = "0"
+                            nextSecondary = "T"
+                        }
+                        advance = 2
+                    } else if (charAt(position + 1) in listOf('T', 'D')) {
+                        nextPrimary = "T"
+                        advance = 2
+                    } else {
+                        nextPrimary = "T"
+                        advance = 1
+                    }
+                }
+                character == 'V' -> {
+                    nextPrimary = "F"
+                    advance = if (charAt(position + 1) == 'V') 2 else 1
+                }
+                character == 'W' -> {
+                    val sIdx = word.start_index
+                    val eIdx = word.end_index
+                    if (slice(position, position + 2) == "WR") {
+                        nextPrimary = "R"
+                        advance = 2
+                    } else if (position == sIdx && (charAt(position + 1) in VOWELS || slice(position, position + 2) == "WH")) {
+                        if (charAt(position + 1) in VOWELS) {
+                            nextPrimary = "A"
+                            nextSecondary = "F"
+                        } else {
+                            nextPrimary = "A"
+                        }
+                        advance = 1
+                    } else if (
+                        (position == eIdx && charAt(position - 1) in VOWELS) ||
+                        slice(position - 1, position + 4) in listOf("EWSKI", "EWSKY", "OWSKI", "OWSKY") ||
+                        slice(sIdx, sIdx + 3) == "SCH"
+                    ) {
+                        nextPrimary = ""
+                        nextSecondary = "F"
+                        advance = 1
+                    } else if (slice(position, position + 4) in listOf("WICZ", "WITZ")) {
+                        nextPrimary = "TS"
+                        nextSecondary = "FX"
+                        advance = 4
+                    } else {
+                        advance = 1
+                    }
+                }
+                character == 'X' -> {
+                    val eIdx = word.end_index
+                    if (!(position == eIdx &&
+                            (slice(position - 3, position) in listOf("IAU", "EAU") ||
+                                slice(position - 2, position) in listOf("AU", "OU")))
+                    ) {
+                        nextPrimary = "KS"
+                    }
+                    advance = if (charAt(position + 1) in listOf('C', 'X')) 2 else 1
+                }
+                character == 'Z' -> {
+                    val sIdx = word.start_index
+                    if (charAt(position + 1) == 'H') {
+                        nextPrimary = "J"
+                    } else if (
+                        slice(position + 1, position + 3) in listOf("ZO", "ZI", "ZA") ||
+                        (word.isSlavoGermanic && position > sIdx && charAt(position - 1) != 'T')
+                    ) {
+                        nextPrimary = "S"
+                        nextSecondary = "TS"
+                    } else {
+                        nextPrimary = "S"
+                    }
+                    advance = if (charAt(position + 1) in listOf('Z', 'H')) 2 else 1
+                }
+                else -> {
+                    advance = 1
+                }
             }
+
+            if (nextPrimary != null) {
+                primaryPhone.append(nextPrimary)
+                if (nextSecondary != null) {
+                    secondaryPhone.append(nextSecondary)
+                } else {
+                    secondaryPhone.append(nextPrimary)
+                }
+            } else if (nextSecondary != null) {
+                secondaryPhone.append(nextSecondary)
+            }
+
+            position += advance
         }
 
-        val p = if (primary.length > maxCodeLen) primary.substring(0, maxCodeLen) else primary.toString()
-        val a = if (alternate.length > maxCodeLen) alternate.substring(0, maxCodeLen) else alternate.toString()
+        var p = primaryPhone.toString()
+        var a = secondaryPhone.toString()
+
+        if (p.length > maxCodeLen) p = p.substring(0, maxCodeLen)
+        if (a.length > maxCodeLen) a = a.substring(0, maxCodeLen)
+        if (p == a) a = ""
+
         return Result(p, a)
-    }
-
-    private fun isVowel(s: String, index: Int): Boolean {
-        if (index < 0 || index >= s.length) return false
-        return when (s[index]) {
-            'A', 'E', 'I', 'O', 'U', 'Y' -> true
-            else -> false
-        }
     }
 }

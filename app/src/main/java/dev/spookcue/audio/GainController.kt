@@ -6,15 +6,16 @@ import kotlin.math.sqrt
 
 /**
  * Software Automatic Gain Control (AGC) and RMS normalizer.
- * Processes 160-sample (10ms @ 16kHz) frames of 16-bit PCM.
+ * Provides smooth, noise-gated gain adjustment to avoid amplifying background noise floors.
  */
 @Singleton
 class GainController @Inject constructor() {
 
     private var currentGain = 1.0f
     private val targetRms = 2500.0f
-    private val maxGain = 8.0f
+    private val maxGain = 5.0f
     private val minGain = 0.5f
+    private val noiseGateRms = 25.0f
 
     fun processFrame(samples: ShortArray): ShortArray {
         if (samples.isEmpty()) return samples
@@ -25,9 +26,12 @@ class GainController @Inject constructor() {
         }
         val rms = sqrt(sumSquares / samples.size).toFloat()
 
-        if (rms > 50.0f) {
+        if (rms > noiseGateRms) {
             val desiredGain = (targetRms / rms).coerceIn(minGain, maxGain)
             currentGain += (desiredGain - currentGain) * 0.05f
+        } else {
+            // Decay toward unity gain when signal is below noise gate
+            currentGain += (1.0f - currentGain) * 0.05f
         }
 
         val output = ShortArray(samples.size)

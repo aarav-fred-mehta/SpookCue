@@ -14,6 +14,7 @@ data class MovieEntity(
     val scareCount: Int,
     val posterPath: String? = null,
     val hasSubtitles: Boolean = true,
+    val syncType: String = "subtitles",
     val lastSyncedAt: Long? = null,
     val tags: String = ""
 ) {
@@ -25,6 +26,7 @@ data class MovieEntity(
         scareCount = scareCount,
         posterPath = posterPath,
         hasSubtitles = hasSubtitles,
+        syncType = syncType,
         lastSyncedAt = lastSyncedAt,
         tags = if (tags.isBlank()) emptyList() else tags.split(",").map { it.trim() }.filter { it.isNotEmpty() }
     )
@@ -38,6 +40,7 @@ data class MovieEntity(
             scareCount = item.scareCount,
             posterPath = item.posterPath,
             hasSubtitles = item.hasSubtitles,
+            syncType = item.syncType,
             lastSyncedAt = item.lastSyncedAt,
             tags = item.tags.joinToString(",")
         )

@@ -3,20 +3,25 @@ package dev.spookcue.sync
 sealed class SyncState {
     data object Idle : SyncState()
 
-    data class Acquiring(
+    // Stage 1: Finding Movie Progress
+    data class FindingProgress(
         val startedAtMs: Long,
-        val candidateMatches: Int = 0
+        val candidatesFound: Int = 0
     ) : SyncState()
 
-    data class Locked(
+    // Stage 2: Movie Playing
+    data class MoviePlaying(
         val currentMovieTimeMs: Long,
         val confidence: Float,
-        val nextScareCountdownMs: Long? = null
+        val nextScareCountdownMs: Long? = null,
+        val nextCheckpointInMs: Long? = null
     ) : SyncState()
 
-    data class Verifying(
-        val currentMovieTimeMs: Long,
-        val driftMs: Long = 0L
+    // Stage 3: Movie Paused (detected or manual)
+    data class MoviePaused(
+        val pausedAtMovieTimeMs: Long,
+        val isManual: Boolean = false,
+        val listeningDutyActive: Boolean = false
     ) : SyncState()
 
     data class Error(

@@ -30,6 +30,8 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.GraphicEq
 import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.Pause
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Visibility
 import androidx.compose.material.icons.filled.VisibilityOff
@@ -43,7 +45,6 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -98,12 +99,6 @@ fun SyncScreen(
         viewModel.loadMovieAndStartSync(tmdbId)
     }
 
-    DisposableEffect(Unit) {
-        onDispose {
-            viewModel.stop()
-        }
-    }
-
     // 1. OLED Screen Off (Stealth Mode)
     if (isScreenOff) {
         Box(
@@ -134,8 +129,8 @@ fun SyncScreen(
     val allScares = movie?.scares ?: emptyList()
     val totalDurationMs = (movie?.runtimeMinutes?.toLong() ?: 120L) * 60_000L
     val currentMovieTime = when (val s = syncState) {
-        is SyncState.Locked -> s.currentMovieTimeMs
-        is SyncState.Verifying -> s.currentMovieTimeMs
+        is SyncState.MoviePlaying -> s.currentMovieTimeMs
+        is SyncState.MoviePaused -> s.pausedAtMovieTimeMs
         else -> 0L
     }
 
@@ -294,7 +289,7 @@ fun SyncScreen(
                                 )
                             }
 
-                            is SyncState.Acquiring -> {
+                            is SyncState.FindingProgress -> {
                                 CircularProgressIndicator(
                                     color = LunarSlateMuted,
                                     strokeWidth = 2.5.dp,
@@ -302,20 +297,27 @@ fun SyncScreen(
                                 )
                                 Spacer(modifier = Modifier.height(18.dp))
                                 Text(
-                                    text = "LISTENING FOR DIALOGUE...",
+                                    text = "FINDING MOVIE PROGRESS...",
                                     style = MaterialTheme.typography.titleMedium,
                                     color = LunarSlate,
                                     fontWeight = FontWeight.SemiBold
                                 )
                                 Spacer(modifier = Modifier.height(6.dp))
+                                val statusText = if (state.candidatesFound == 0) {
+                                    "Listening to room audio for movie alignment..."
+                                } else {
+                                    val anchorTime = debugInfo.matchedTimeMs?.let { "around " + it.formatTimeMs() } ?: ""
+                                    "Anchor candidate found $anchorTime — waiting for confirmation (1/2)"
+                                }
                                 Text(
-                                    text = "Candidates detected: ${state.candidateMatches} / 2",
-                                    color = LunarSlateDim,
-                                    fontSize = 12.sp
+                                    text = statusText,
+                                    color = if (state.candidatesFound > 0) TheaterAmber else LunarSlateDim,
+                                    fontSize = 12.sp,
+                                    textAlign = TextAlign.Center
                                 )
                             }
 
-                            is SyncState.Locked -> {
+                            is SyncState.MoviePlaying -> {
                                 if (state.nextScareCountdownMs != null && state.nextScareCountdownMs > 0) {
                                     Text(
                                         text = "NEXT SCARE IN",
@@ -344,23 +346,25 @@ fun SyncScreen(
 
                                 Spacer(modifier = Modifier.height(6.dp))
                                 Text(
-                                    text = "Movie Clock: ${state.currentMovieTimeMs.formatTimeMs()}",
+                                    text = "Movie Clock: ${state.currentMovieTimeMs.formatTimeMs()} • Synced",
                                     style = MaterialTheme.typography.bodySmall,
                                     color = LunarSlateDim
                                 )
                             }
 
-                            is SyncState.Verifying -> {
+                            is SyncState.MoviePaused -> {
                                 Text(
-                                    text = "VERIFYING AUDIO SYNC",
+                                    text = "MOVIE PAUSED",
                                     style = MaterialTheme.typography.titleMedium,
-                                    color = LunarSlateMuted
+                                    color = TheaterAmber,
+                                    fontWeight = FontWeight.SemiBold
                                 )
                                 Spacer(modifier = Modifier.height(6.dp))
                                 Text(
-                                    text = "Movie Clock: ${state.currentMovieTimeMs.formatTimeMs()}",
+                                    text = "Paused at: ${state.pausedAtMovieTimeMs.formatTimeMs()} (Auto-detecting or tap Resume)",
                                     style = MaterialTheme.typography.bodySmall,
-                                    color = LunarSlateDim
+                                    color = LunarSlateDim,
+                                    textAlign = TextAlign.Center
                                 )
                             }
 
@@ -383,11 +387,39 @@ fun SyncScreen(
 
                         Spacer(modifier = Modifier.height(18.dp))
 
-                        // Compact Resync & Stop Actions
+                        // Compact Actions (Pause/Resume, Resync, Stop)
                         Row(
-                            horizontalArrangement = Arrangement.spacedBy(12.dp),
+                            horizontalArrangement = Arrangement.spacedBy(10.dp),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
+                            val isPaused = syncState is SyncState.MoviePaused
+                            val canTogglePause = syncState is SyncState.MoviePlaying || isPaused
+                            if (canTogglePause) {
+                                OutlinedButton(
+                                    onClick = { viewModel.togglePause() },
+                                    border = BorderStroke(1.dp, if (isPaused) TheaterAmber else LunarBorder),
+                                    shape = RoundedCornerShape(8.dp),
+                                    colors = ButtonDefaults.outlinedButtonColors(
+                                        containerColor = LunarSurface,
+                                        contentColor = if (isPaused) TheaterAmber else LunarSlate
+                                    ),
+                                    contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp)
+                                ) {
+                                    Icon(
+                                        imageVector = if (isPaused) Icons.Default.PlayArrow else Icons.Default.Pause,
+                                        contentDescription = null,
+                                        tint = if (isPaused) TheaterAmber else LunarSlateMuted,
+                                        modifier = Modifier.size(14.dp)
+                                    )
+                                    Spacer(modifier = Modifier.width(4.dp))
+                                    Text(
+                                        text = if (isPaused) "Resume" else "Pause",
+                                        fontSize = 12.sp,
+                                        fontWeight = FontWeight.SemiBold
+                                    )
+                                }
+                            }
+
                             OutlinedButton(
                                 onClick = { viewModel.forceResync() },
                                 border = BorderStroke(1.dp, LunarBorder),
@@ -396,7 +428,7 @@ fun SyncScreen(
                                     containerColor = LunarSurface,
                                     contentColor = LunarSlate
                                 ),
-                                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp)
+                                contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp)
                             ) {
                                 Icon(
                                     imageVector = Icons.Default.Refresh,
@@ -404,7 +436,7 @@ fun SyncScreen(
                                     tint = LunarSlateMuted,
                                     modifier = Modifier.size(14.dp)
                                 )
-                                Spacer(modifier = Modifier.width(6.dp))
+                                Spacer(modifier = Modifier.width(4.dp))
                                 Text("Resync", fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
                             }
 
@@ -619,6 +651,18 @@ private fun AudioDebugConsole(
             overflow = TextOverflow.Ellipsis
         )
 
+        if (debugInfo.windowText.isNotBlank() && debugInfo.windowText != displayedText) {
+            Spacer(modifier = Modifier.height(2.dp))
+            Text(
+                text = "WINDOW (${debugInfo.windowSegments}): \"${debugInfo.windowText}\"",
+                fontSize = 10.sp,
+                fontFamily = FontFamily.Monospace,
+                color = LunarSlateDim,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
+
         Spacer(modifier = Modifier.height(4.dp))
 
         // Phonetic tokens & match score
@@ -632,12 +676,25 @@ private fun AudioDebugConsole(
                 fontFamily = FontFamily.Monospace,
                 color = LunarSlateDim
             )
+            val matchPct = (debugInfo.matchScore * 100).toInt()
+            val timeLabel = debugInfo.matchedTimeMs?.let { "at " + it.formatTimeMs() } ?: ""
+            val staleInfo = if (debugInfo.staleMissCount > 0) " (Misses: ${debugInfo.staleMissCount})" else ""
             Text(
-                text = "MATCH: ${(debugInfo.matchScore * 100).toInt()}% ${debugInfo.matchedTimeMs?.let { "at " + it.formatTimeMs() } ?: ""}",
+                text = "BEST: $matchPct% $timeLabel$staleInfo",
                 fontSize = 9.sp,
                 fontFamily = FontFamily.Monospace,
-                color = if (debugInfo.matchScore > 0.7f) TheaterAmber else LunarSlateDim,
+                color = if (debugInfo.matchScore >= 0.7f) TheaterAmber else if (debugInfo.matchScore >= 0.4f) LunarSlate else LunarSlateDim,
                 fontWeight = FontWeight.Bold
+            )
+        }
+
+        if (debugInfo.topKScores.size > 1) {
+            Spacer(modifier = Modifier.height(2.dp))
+            Text(
+                text = "TOP-K SCORES: ${debugInfo.topKScores.joinToString(", ") { "${(it * 100).toInt()}%" }}",
+                fontSize = 9.sp,
+                fontFamily = FontFamily.Monospace,
+                color = LunarSlateDim
             )
         }
 

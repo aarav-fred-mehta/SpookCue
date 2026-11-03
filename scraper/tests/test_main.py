@@ -259,9 +259,10 @@ Do you hear clapping in the dark cellar?
                     # Subtitle fetcher WAS called
                     mock_fetch_subs.assert_called_once_with(138843, title="The Conjuring", year=2013, imdb_id=None)
 
-                    # Verify movie file was updated with phonetic index and anchor
+                    # Verify movie file was updated with anchor and sync file has phonetic index
                     updated_movie = load_json_bytes(movie_file.read_bytes())
-                    self.assertGreater(len(updated_movie["phonetic_index"]), 0)
+                    sync_data = load_json_bytes((data_dir / "sync" / "138843.json").read_bytes())
+                    self.assertGreater(len(sync_data["phonetic_index"]), 0)
                     scare = updated_movie["scares"][0]
                     self.assertIsNotNone(scare["anchor_phonetic"])
                     self.assertIsNotNone(scare["offset_from_anchor_ms"])
@@ -405,7 +406,9 @@ Do you hear clapping in the dark cellar?
                     self.assertEqual(len(updated_doc["scares"]), 2)
                     self.assertEqual(updated_doc["source"], "whenjumpscare")
                     self.assertEqual(updated_doc["source_lastmod"], "2026-10-28T12:00:00Z")
-                    self.assertEqual(len(updated_doc["phonetic_index"]), 2)
+                    self.assertNotIn("phonetic_index", updated_doc)
+                    sync_doc = load_json_bytes((data_dir / "sync" / "138843.json").read_bytes())
+                    self.assertEqual(len(sync_doc["phonetic_index"]), 2)
                     # First scare re-anchored to 'clapping' at 2430000
                     scare1 = updated_doc["scares"][0]
                     self.assertEqual(scare1["resolved_time_ms"], 2438000)

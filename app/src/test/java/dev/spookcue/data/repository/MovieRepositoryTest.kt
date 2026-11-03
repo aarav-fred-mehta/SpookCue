@@ -6,9 +6,9 @@ import dev.spookcue.data.local.MovieEntity
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
+import dev.spookcue.data.model.MovieSyncData
 import dev.spookcue.data.model.PhoneticEntry
 import dev.spookcue.data.remote.CdnClient
-import dev.spookcue.data.remote.DeltaSyncManager
 import dev.spookcue.data.remote.VersionInfo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -50,7 +50,8 @@ class MovieRepositoryTest {
             runtimeMinutes = 112,
             scareCount = 12,
             posterPath = "/conjuring.jpg",
-            hasSubtitles = true
+            hasSubtitles = true,
+            syncType = "subtitles"
         ),
         MovieCatalogItem(
             tmdbId = 58138,
@@ -59,7 +60,8 @@ class MovieRepositoryTest {
             runtimeMinutes = 103,
             scareCount = 14,
             posterPath = "/insidious.jpg",
-            hasSubtitles = true
+            hasSubtitles = true,
+            syncType = "subtitles"
         )
     )
 
@@ -68,6 +70,7 @@ class MovieRepositoryTest {
         title = "The Conjuring",
         releaseYear = 2013,
         runtimeMinutes = 112,
+        syncType = "subtitles",
         scares = listOf(
             JumpScare(
                 id = "scare_01",
@@ -75,7 +78,12 @@ class MovieRepositoryTest {
                 type = "major",
                 description = "Clap clap in cellar"
             )
-        ),
+        )
+    )
+
+    private val testConjuringSyncData = MovieSyncData(
+        tmdbId = 138843,
+        type = "subtitles",
         phoneticIndex = listOf(
             PhoneticEntry(startMs = 1240800L, phonetics = listOf("KL", "P"))
         )
@@ -86,7 +94,8 @@ class MovieRepositoryTest {
         fakeMovieDao = FakeMovieDao()
         fakeAssetLoader = FakeAssetLoader(
             catalog = testCatalog,
-            detailsMap = mapOf(138843 to testConjuringDetails)
+            detailsMap = mapOf(138843 to testConjuringDetails),
+            syncMap = mapOf(138843 to testConjuringSyncData)
         )
         fakeCdnClient = FakeCdnClient()
 
@@ -160,6 +169,17 @@ class MovieRepositoryTest {
     }
 
     @Test
+    fun testGetMovieSyncDataFromAssetLoader() = runBlocking {
+        val result = repository.getMovieSyncData(138843)
+        assertTrue(result.isSuccess)
+        val syncData = result.getOrNull()
+        assertNotNull(syncData)
+        assertEquals(138843, syncData?.tmdbId)
+        assertEquals("subtitles", syncData?.type)
+        assertEquals(1, syncData?.phoneticIndex?.size)
+    }
+
+    @Test
     fun testGetMovieDetailsFromDiskCache() = runBlocking {
         val moviesDir = File(tempFolder.root, "movies").apply { mkdirs() }
         val cachedDetails = MovieDetails(
@@ -174,6 +194,21 @@ class MovieRepositoryTest {
         val result = repository.getMovieDetails(777)
         assertTrue(result.isSuccess)
         assertEquals("Cached Movie", result.getOrNull()?.title)
+    }
+
+    @Test
+    fun testGetMovieSyncDataFromDiskCache() = runBlocking {
+        val syncDir = File(tempFolder.root, "sync").apply { mkdirs() }
+        val cachedSync = MovieSyncData(
+            tmdbId = 777,
+            type = "subtitles",
+            phoneticIndex = emptyList()
+        )
+        File(syncDir, "777.json").writeText(json.encodeToString(MovieSyncData.serializer(), cachedSync))
+
+        val result = repository.getMovieSyncData(777)
+        assertTrue(result.isSuccess)
+        assertEquals("subtitles", result.getOrNull()?.type)
     }
 
     @Test
@@ -260,14 +295,17 @@ class MovieRepositoryTest {
 
     private class FakeAssetLoader(
         private val catalog: List<MovieCatalogItem>,
-        private val detailsMap: Map<Int, MovieDetails>
+        private val detailsMap: Map<Int, MovieDetails>,
+        private val syncMap: Map<Int, MovieSyncData> = emptyMap()
     ) : AssetLoader {
         override fun loadCatalog(): List<MovieCatalogItem> = catalog
         override fun loadMovieDetails(tmdbId: Int): MovieDetails? = detailsMap[tmdbId]
+        override fun loadMovieSyncData(tmdbId: Int): MovieSyncData? = syncMap[tmdbId]
     }
 
     private class FakeCdnClient : CdnClient {
         val movieDetailsMap = mutableMapOf<Int, MovieDetails>()
+        val movieSyncMap = mutableMapOf<Int, MovieSyncData>()
 
         override suspend fun fetchVersion(): Result<VersionInfo> = Result.success(VersionInfo(1L))
         override suspend fun fetchCatalog(): Result<List<MovieCatalogItem>> = Result.success(emptyList())
@@ -277,6 +315,15 @@ class MovieRepositoryTest {
                 Result.success(details)
             } else {
                 Result.failure(Exception("Movie not found on CDN"))
+            }
+        }
+
+        override suspend fun fetchMovieSyncData(tmdbId: Int): Result<MovieSyncData> {
+            val syncData = movieSyncMap[tmdbId]
+            return if (syncData != null) {
+                Result.success(syncData)
+            } else {
+                Result.failure(Exception("Sync data not found on CDN"))
             }
         }
     }

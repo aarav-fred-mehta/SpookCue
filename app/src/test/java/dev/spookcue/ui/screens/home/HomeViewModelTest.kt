@@ -177,6 +177,10 @@ class HomeViewModelTest {
             return if (d != null) Result.success(d) else Result.failure(Exception("Not found"))
         }
 
+        override suspend fun getMovieSyncData(tmdbId: Int): Result<dev.spookcue.data.model.MovieSyncData> {
+            return Result.success(dev.spookcue.data.model.MovieSyncData(tmdbId = tmdbId, type = "subtitles"))
+        }
+
         override suspend fun syncCatalog(force: Boolean): Result<Boolean> {
             syncCatalogCalled = true
             return Result.success(true)

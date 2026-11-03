@@ -1,25 +1,39 @@
 {
   "tmdb_id": 242224,
-  "title": "The Babadook",
+  "title": "Annabelle",
   "release_year": 2014,
-  "runtime_minutes": 94,
+  "runtime_minutes": 99,
+  "sync_type": "subtitles",
   "scares": [
     {
       "id": "scare_01",
-      "resolved_time_ms": 1560000,
+      "resolved_time_ms": 756000,
       "type": "minor",
-      "description": "Pop-up book pops out with disturbing mechanical snapping sound",
-      "anchor_phonetic": null,
-      "offset_from_anchor_ms": null
+      "description": "Mia is startled by the sewing machine suddenly turning on by itself."
     },
     {
       "id": "scare_02",
-      "resolved_time_ms": 3780000,
+      "resolved_time_ms": 1345000,
       "type": "major",
-      "description": "Babadook glides across the ceiling of the dark bedroom screeching 'Ba-ba-dook!'",
-      "anchor_phonetic": null,
-      "offset_from_anchor_ms": null
+      "description": "The demon lunges at Mia from the basement stairs."
+    },
+    {
+      "id": "scare_03",
+      "resolved_time_ms": 2580000,
+      "type": "major",
+      "description": "The child running toward the door abruptly transforms into the adult Annabelle Higgins."
+    },
+    {
+      "id": "scare_04",
+      "resolved_time_ms": 3810000,
+      "type": "minor",
+      "description": "The record player needle violently scratches across the vinyl."
+    },
+    {
+      "id": "scare_05",
+      "resolved_time_ms": 4720000,
+      "type": "major",
+      "description": "Father Perez is thrown across the church steps by an unseen force."
     }
-  ],
-  "phonetic_index": []
+  ]
 }

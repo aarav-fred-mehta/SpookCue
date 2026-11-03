@@ -4,9 +4,11 @@ import android.annotation.SuppressLint
 import android.media.AudioFormat
 import android.media.AudioRecord
 import android.media.MediaRecorder
+import dev.spookcue.util.AppLogger
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharedFlow
@@ -22,9 +24,11 @@ import kotlin.math.sqrt
 
 @Singleton
 class AudioCaptureManager @Inject constructor(
-    private val gainController: GainController
+    private val gainController: GainController,
+    val audioEnergyMeter: AudioEnergyMeter
 ) {
     companion object {
+        private const val TAG = "AudioCaptureManager"
         const val SAMPLE_RATE = 16000
         const val CHANNEL_CONFIG = AudioFormat.CHANNEL_IN_MONO
         const val AUDIO_FORMAT = AudioFormat.ENCODING_PCM_16BIT
@@ -33,6 +37,7 @@ class AudioCaptureManager @Inject constructor(
 
     private var audioRecord: AudioRecord? = null
     private var isRecording = false
+    private var isEmissionPaused = false
     private var readJob: Job? = null
     private val scope = CoroutineScope(Dispatchers.IO)
 
@@ -47,82 +52,140 @@ class AudioCaptureManager @Inject constructor(
 
     @SuppressLint("MissingPermission")
     fun startCapture(): Boolean {
-        if (isRecording) return true
-
-        val bufferSize = maxOf(
-            AudioRecord.getMinBufferSize(SAMPLE_RATE, CHANNEL_CONFIG, AUDIO_FORMAT),
-            FRAME_SIZE_SAMPLES * 4
-        )
-
-        val record = runCatching {
-            AudioRecord(
-                MediaRecorder.AudioSource.UNPROCESSED,
-                SAMPLE_RATE,
-                CHANNEL_CONFIG,
-                AUDIO_FORMAT,
-                bufferSize
-            )
-        }.getOrElse {
-            AudioRecord(
-                MediaRecorder.AudioSource.MIC,
-                SAMPLE_RATE,
-                CHANNEL_CONFIG,
-                AUDIO_FORMAT,
-                bufferSize
-            )
+        if (isRecording) {
+            AppLogger.d(TAG, "Audio capture already active")
+            isEmissionPaused = false
+            return true
         }
 
-        if (record.state != AudioRecord.STATE_INITIALIZED) {
-            record.release()
+        val minBufferSize = AudioRecord.getMinBufferSize(SAMPLE_RATE, CHANNEL_CONFIG, AUDIO_FORMAT)
+        val bufferSize = maxOf(minBufferSize, FRAME_SIZE_SAMPLES * 8)
+
+        val record = createAudioRecord(bufferSize)
+        if (record == null) {
+            AppLogger.e(TAG, "Failed to initialize AudioRecord with any available audio source")
             return false
         }
 
         audioRecord = record
-        record.startRecording()
-        isRecording = true
-
-        startReadingLoop(record)
-        return true
-    }
-
-    private fun startReadingLoop(record: AudioRecord) {
-        readJob?.cancel()
-        readJob = scope.launch {
-            val buffer = ShortArray(FRAME_SIZE_SAMPLES)
-            while (isActive && isRecording) {
-                val readCount = record.read(buffer, 0, buffer.size)
-                if (readCount > 0) {
-                    // Compute live RMS energy
-                    var sum = 0.0
-                    for (i in 0 until readCount) {
-                        val sample = buffer[i].toDouble()
-                        sum += sample * sample
-                    }
-                    val rms = sqrt(sum / readCount)
-                    val db = (20.0 * log10(rms.coerceAtLeast(1.0))).toFloat().coerceIn(0f, 90f)
-
-                    _rmsDb.value = db
-                    _speechDetected.value = db > 38f // speech energy threshold
-
-                    val copy = buffer.copyOf(readCount)
-                    _audioFrames.emit(copy)
-                }
-            }
+        try {
+            record.startRecording()
+            isRecording = true
+            isEmissionPaused = false
+            AppLogger.i(TAG, "AudioRecord started recording successfully at 16kHz MONO")
+            startReadingLoop(record)
+            return true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Exception while starting AudioRecord", e)
+            record.release()
+            audioRecord = null
+            return false
         }
     }
 
+    @SuppressLint("MissingPermission")
+    private fun createAudioRecord(bufferSize: Int): AudioRecord? {
+        val sources = listOf(
+            MediaRecorder.AudioSource.VOICE_RECOGNITION,
+            MediaRecorder.AudioSource.MIC,
+            MediaRecorder.AudioSource.UNPROCESSED,
+            MediaRecorder.AudioSource.DEFAULT
+        )
+
+        for (source in sources) {
+            try {
+                AppLogger.d(TAG, "Attempting to create AudioRecord with source: $source")
+                val record = AudioRecord(
+                    source,
+                    SAMPLE_RATE,
+                    CHANNEL_CONFIG,
+                    AUDIO_FORMAT,
+                    bufferSize
+                )
+                if (record.state == AudioRecord.STATE_INITIALIZED) {
+                    AppLogger.i(TAG, "Successfully initialized AudioRecord with source $source")
+                    return record
+                } else {
+                    AppLogger.w(TAG, "AudioRecord source $source created with uninitialized state")
+                    record.release()
+                }
+            } catch (e: Exception) {
+                AppLogger.w(TAG, "AudioRecord source $source creation failed", e)
+            }
+        }
+        return null
+    }
+
+    private fun startReadingLoop(record: AudioRecord) {
+        readJob = scope.launch {
+            val buffer = ShortArray(FRAME_SIZE_SAMPLES)
+            var frameCount = 0L
+
+            while (isActive && isRecording) {
+                val readCount = record.read(buffer, 0, buffer.size, AudioRecord.READ_BLOCKING)
+
+                if (readCount > 0) {
+                    val actualFrame = if (readCount == buffer.size) {
+                        buffer.clone()
+                    } else {
+                        buffer.copyOf(readCount)
+                    }
+
+                    // 1. Process AGC gain adjustment
+                    val amplifiedFrame = gainController.processFrame(actualFrame)
+
+                    // 2. Track energy via AudioEnergyMeter
+                    val db = audioEnergyMeter.processFrame(amplifiedFrame)
+                    _rmsDb.value = db
+                    _speechDetected.value = db > 32f
+
+                    // 3. Emit amplified audio only if not paused
+                    if (!isEmissionPaused) {
+                        _audioFrames.emit(amplifiedFrame)
+                    }
+
+                    frameCount++
+                    if (frameCount % 100L == 0L) {
+                        AppLogger.d(TAG, "Audio captured: frame #$frameCount, live RMS: ${"%.1f".format(db)} dB (emissionPaused=$isEmissionPaused)")
+                    }
+                } else if (readCount < 0) {
+                    AppLogger.w(TAG, "AudioRecord read returned error code: $readCount")
+                }
+            }
+            AppLogger.i(TAG, "Audio reading loop finished")
+        }
+    }
+
+    fun pauseEmission() {
+        isEmissionPaused = true
+    }
+
+    fun resumeEmission() {
+        isEmissionPaused = false
+    }
+
+    fun isEmissionPaused(): Boolean = isEmissionPaused
+
     fun stopCapture() {
+        AppLogger.i(TAG, "Stopping audio capture")
         isRecording = false
+        isEmissionPaused = false
         readJob?.cancel()
         readJob = null
         _rmsDb.value = 0f
         _speechDetected.value = false
+        audioEnergyMeter.reset()
 
         audioRecord?.apply {
-            if (recordingState == AudioRecord.RECORDSTATE_RECORDING) {
-                stop()
+            try {
+                if (recordingState == AudioRecord.RECORDSTATE_RECORDING) {
+                    stop()
+                }
+            } catch (e: Exception) {
+                AppLogger.w(TAG, "Error stopping AudioRecord", e)
+            } finally {
+                release()
             }
-            release()
         }
         audioRecord = null
     }

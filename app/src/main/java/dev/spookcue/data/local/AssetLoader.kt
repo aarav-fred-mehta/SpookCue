@@ -4,6 +4,7 @@ import android.content.Context
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
+import dev.spookcue.data.model.MovieSyncData
 import kotlinx.serialization.json.Json
 import java.io.InputStreamReader
 import javax.inject.Inject
@@ -12,6 +13,7 @@ import javax.inject.Singleton
 interface AssetLoader {
     fun loadCatalog(): List<MovieCatalogItem>
     fun loadMovieDetails(tmdbId: Int): MovieDetails?
+    fun loadMovieSyncData(tmdbId: Int): MovieSyncData?
 }
 
 @Singleton
@@ -35,6 +37,16 @@ class AssetLoaderImpl @Inject constructor(
             context.assets.open("movies/$tmdbId.json").use { inputStream ->
                 InputStreamReader(inputStream).use { reader ->
                     json.decodeFromString<MovieDetails>(reader.readText())
+                }
+            }
+        }.getOrNull()
+    }
+
+    override fun loadMovieSyncData(tmdbId: Int): MovieSyncData? {
+        return runCatching {
+            context.assets.open("sync/$tmdbId.json").use { inputStream ->
+                InputStreamReader(inputStream).use { reader ->
+                    json.decodeFromString<MovieSyncData>(reader.readText())
                 }
             }
         }.getOrNull()

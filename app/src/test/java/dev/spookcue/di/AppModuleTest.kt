@@ -53,9 +53,6 @@ class AppModuleTest {
                     anchorPhonetic = listOf("KL", "P"),
                     offsetFromAnchorMs = 4200L
                 )
-            ),
-            phoneticIndex = listOf(
-                PhoneticEntry(startMs = 1240800L, phonetics = listOf("KL", "P"))
             )
         )
 

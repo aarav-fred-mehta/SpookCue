@@ -11,16 +11,22 @@ import androidx.core.app.ServiceCompat
 import dagger.hilt.android.AndroidEntryPoint
 import dev.spookcue.alert.NotificationManager
 import dev.spookcue.alert.ScareScheduler
+import dev.spookcue.audio.AcousticFingerprinter
 import dev.spookcue.audio.AudioCaptureManager
-import dev.spookcue.audio.SpeechRecognizerManager
+import dev.spookcue.audio.SttEngine
+import dev.spookcue.audio.VadEngine
+import dev.spookcue.data.model.MovieSyncData
 import dev.spookcue.data.repository.MovieRepository
 import dev.spookcue.sync.SyncEngine
 import dev.spookcue.sync.SyncState
+import dev.spookcue.util.AppLogger
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -34,7 +40,13 @@ class SpookCueService : Service() {
     lateinit var audioCaptureManager: AudioCaptureManager
 
     @Inject
-    lateinit var speechRecognizerManager: SpeechRecognizerManager
+    lateinit var vadEngine: VadEngine
+
+    @Inject
+    lateinit var sttEngine: SttEngine
+
+    @Inject
+    lateinit var acousticFingerprinter: AcousticFingerprinter
 
     @Inject
     lateinit var scareScheduler: ScareScheduler
@@ -49,6 +61,7 @@ class SpookCueService : Service() {
     private var wakeLock: PowerManager.WakeLock? = null
     private var syncJob: Job? = null
     private var activeMovieTitle = "Audio Sync"
+    private var currentSyncMode = "subtitles"
 
     override fun onBind(intent: Intent?): IBinder? = null
 
@@ -58,8 +71,9 @@ class SpookCueService : Service() {
             ACTION_START_SYNC -> {
                 val tmdbId = intent.getIntExtra(EXTRA_TMDB_ID, -1)
                 val title = intent.getStringExtra(EXTRA_MOVIE_TITLE) ?: "Movie"
+                val runtimeMs = intent.getLongExtra(EXTRA_RUNTIME_MS, 3 * 60 * 60 * 1000L)
                 activeMovieTitle = title
-                startForegroundService(title)
+                startForegroundService(title, runtimeMs)
                 startAcousticSync(tmdbId)
             }
             NotificationManager.ACTION_OFFSET_MINUS_5S -> {
@@ -67,6 +81,9 @@ class SpookCueService : Service() {
             }
             NotificationManager.ACTION_OFFSET_PLUS_5S -> {
                 syncEngine.adjustClock(5000L)
+            }
+            NotificationManager.ACTION_TOGGLE_PAUSE -> {
+                syncEngine.togglePause()
             }
             NotificationManager.ACTION_FORCE_RESYNC -> {
                 syncEngine.forceResync()
@@ -79,7 +96,7 @@ class SpookCueService : Service() {
         return START_NOT_STICKY
     }
 
-    private fun startForegroundService(title: String) {
+    private fun startForegroundService(title: String, runtimeMs: Long) {
         val notification = notificationManager.buildNotification(title, SyncState.Idle)
 
         val foregroundType = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
@@ -96,31 +113,110 @@ class SpookCueService : Service() {
         )
 
         val powerManager = getSystemService(POWER_SERVICE) as? PowerManager
+        val wakeTimeout = runtimeMs + 30 * 60 * 1000L
+        wakeLock?.apply { if (isHeld) release() }
         wakeLock = powerManager?.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "SpookCue::ListeningWakeLock")?.apply {
-            acquire(3 * 60 * 60 * 1000L)
+            acquire(wakeTimeout)
         }
     }
 
     private fun startAcousticSync(tmdbId: Int) {
         audioCaptureManager.startCapture()
-        speechRecognizerManager.startListening()
+        vadEngine.reset()
+        sttEngine.reset()
 
         syncJob?.cancel()
         syncJob = serviceScope.launch {
-            launch {
-                speechRecognizerManager.transcriptions.collect { text ->
-                    syncEngine.onSpeechTranscribed(text)
-                }
-            }
-
+            // 1. Load Movie Details & Decoupled Sync Data
             if (tmdbId > 0) {
-                movieRepository.getMovieDetails(tmdbId).onSuccess { movie ->
+                val detailsResult = movieRepository.getMovieDetails(tmdbId)
+                val syncDataResult = movieRepository.getMovieSyncData(tmdbId)
+
+                detailsResult.onSuccess { movie ->
                     activeMovieTitle = movie.title
-                    syncEngine.start(movie)
+                    val syncData = syncDataResult.getOrElse {
+                        MovieSyncData(tmdbId = tmdbId, type = movie.syncType)
+                    }
+                    currentSyncMode = syncData.type
+                    syncEngine.start(movie, syncData)
                     scareScheduler.startScheduling(movie.scares)
+                    movieRepository.recordMovieSynced(tmdbId)
                 }
             }
 
+            // 2. Audio Processing Loop
+            launch {
+                val audioBufferForHashes = mutableListOf<Short>()
+                val checkpointAudioBuffer = mutableListOf<Short>()
+
+                audioCaptureManager.audioFrames.collect { frame ->
+                    val currentState = syncEngine.state.value
+
+                    if (currentSyncMode == "audio_hash") {
+                        // Acoustic Hash Pipeline
+                        audioBufferForHashes.addAll(frame.toList())
+                        // Buffer ~3 seconds (48,000 samples @ 16kHz)
+                        if (audioBufferForHashes.size >= 48000) {
+                            val samples = audioBufferForHashes.toShortArray()
+                            audioBufferForHashes.clear()
+                            val hashes = acousticFingerprinter.extractFingerprintsFromShorts(samples)
+                            syncEngine.onAudioHashesExtracted(hashes)
+                        }
+                    } else {
+                        // Subtitles / Speech Pipeline
+                        when (currentState) {
+                            is SyncState.FindingProgress -> {
+                                // Stage 1: Continuous VAD + STT to acquire initial progress
+                                val segments = vadEngine.processFrame(frame)
+                                for (segment in segments) {
+                                    val result = sttEngine.transcribe(segment)
+                                    if (result.text.isNotBlank()) {
+                                        syncEngine.onSpeechTranscribed(result.text)
+                                    }
+                                }
+                            }
+
+                            is SyncState.MoviePlaying -> {
+                                // Stage 2: Low-cost scheduled checkpoint listening (VAD is OFF)
+                                val nextCheckpoint = currentState.nextCheckpointInMs
+                                val isNearCheckpoint = nextCheckpoint != null && nextCheckpoint in -1500L..2500L
+
+                                if (isNearCheckpoint) {
+                                    checkpointAudioBuffer.addAll(frame.toList())
+                                    // Collect ~2.5 seconds of audio around the checkpoint
+                                    if (checkpointAudioBuffer.size >= 40000) {
+                                        val floats = FloatArray(checkpointAudioBuffer.size) { checkpointAudioBuffer[it] / 32768.0f }
+                                        checkpointAudioBuffer.clear()
+                                        val result = sttEngine.transcribe(floats)
+                                        if (result.text.isNotBlank()) {
+                                            syncEngine.onSpeechTranscribed(result.text)
+                                        }
+                                    }
+                                } else {
+                                    checkpointAudioBuffer.clear()
+                                }
+                            }
+
+                            is SyncState.MoviePaused -> {
+                                // Stage 3: Low-cost duty cycle (sample speech periodically)
+                                checkpointAudioBuffer.addAll(frame.toList())
+                                if (checkpointAudioBuffer.size >= 48000) { // ~3 seconds
+                                    val floats = FloatArray(checkpointAudioBuffer.size) { checkpointAudioBuffer[it] / 32768.0f }
+                                    checkpointAudioBuffer.clear()
+                                    val result = sttEngine.transcribe(floats)
+                                    if (result.text.isNotBlank()) {
+                                        syncEngine.onSpeechTranscribed(result.text)
+                                    }
+                                }
+                            }
+
+                            else -> Unit
+                        }
+                    }
+                }
+            }
+
+            // 3. Notification updates
             syncEngine.state.collect { state ->
                 notificationManager.updateNotification(activeMovieTitle, state)
             }
@@ -128,8 +224,9 @@ class SpookCueService : Service() {
     }
 
     private fun stopSync() {
-        speechRecognizerManager.stopListening()
         audioCaptureManager.stopCapture()
+        vadEngine.reset()
+        sttEngine.reset()
         syncEngine.stop()
         scareScheduler.stopScheduling()
         syncJob?.cancel()
@@ -152,5 +249,6 @@ class SpookCueService : Service() {
         const val ACTION_STOP_SYNC = "dev.spookcue.action.STOP_SYNC"
         const val EXTRA_TMDB_ID = "extra_tmdb_id"
         const val EXTRA_MOVIE_TITLE = "extra_movie_title"
+        const val EXTRA_RUNTIME_MS = "extra_runtime_ms"
     }
 }

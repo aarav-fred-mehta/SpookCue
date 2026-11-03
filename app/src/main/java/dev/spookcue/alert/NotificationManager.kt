@@ -25,6 +25,7 @@ class NotificationManager @Inject constructor(
         const val NOTIFICATION_ID = 1001
         const val ACTION_OFFSET_MINUS_5S = "dev.spookcue.action.OFFSET_MINUS_5S"
         const val ACTION_OFFSET_PLUS_5S = "dev.spookcue.action.OFFSET_PLUS_5S"
+        const val ACTION_TOGGLE_PAUSE = "dev.spookcue.action.TOGGLE_PAUSE"
         const val ACTION_FORCE_RESYNC = "dev.spookcue.action.FORCE_RESYNC"
         const val ACTION_STOP_SERVICE = "dev.spookcue.action.STOP_SERVICE"
     }
@@ -47,18 +48,25 @@ class NotificationManager @Inject constructor(
 
         val minus5PendingIntent = createServicePendingIntent(ACTION_OFFSET_MINUS_5S, 1)
         val plus5PendingIntent = createServicePendingIntent(ACTION_OFFSET_PLUS_5S, 2)
-        val resyncPendingIntent = createServicePendingIntent(ACTION_FORCE_RESYNC, 3)
-        val stopPendingIntent = createServicePendingIntent(ACTION_STOP_SERVICE, 4)
+        val togglePausePendingIntent = createServicePendingIntent(ACTION_TOGGLE_PAUSE, 3)
+        val resyncPendingIntent = createServicePendingIntent(ACTION_FORCE_RESYNC, 4)
+        val stopPendingIntent = createServicePendingIntent(ACTION_STOP_SERVICE, 5)
+
+        val isPaused = state is SyncState.MoviePaused
+        val pauseActionLabel = if (isPaused) "Resume" else "Pause"
 
         val contentText = when (state) {
             is SyncState.Idle -> "Idle"
-            is SyncState.Acquiring -> "Listening... acquiring sync lock"
-            is SyncState.Locked -> {
+            is SyncState.FindingProgress -> "Listening to find movie progress..."
+            is SyncState.MoviePlaying -> {
                 val timeStr = state.currentMovieTimeMs.formatTimeMs()
                 val scareStr = state.nextScareCountdownMs?.let { " • Next scare in ${it.formatCountdownMs()}" } ?: ""
                 "Synced at $timeStr$scareStr"
             }
-            is SyncState.Verifying -> "Verifying audio sync..."
+            is SyncState.MoviePaused -> {
+                val timeStr = state.pausedAtMovieTimeMs.formatTimeMs()
+                "Movie Paused at $timeStr (Auto-detecting or tap Resume)"
+            }
             is SyncState.Error -> "Error: ${state.message}"
         }
 
@@ -72,6 +80,7 @@ class NotificationManager @Inject constructor(
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
             .addAction(0, "-5s", minus5PendingIntent)
             .addAction(0, "+5s", plus5PendingIntent)
+            .addAction(0, pauseActionLabel, togglePausePendingIntent)
             .addAction(0, "Resync", resyncPendingIntent)
             .addAction(0, "Stop", stopPendingIntent)
             .build()

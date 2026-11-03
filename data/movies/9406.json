@@ -1,0 +1,99 @@
+{
+  "release_year": 1997,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Chris looks behind a curtain and a werewolf lunges at him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf appears out of the darkness and attacks Brad.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2144000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Serafine removes her top, Andy briefly has a vision of her as a werewolf.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2553000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy sees the disfigured ghost of Serafine’s mother.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2619000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy sees Brad’s head on a plate of food.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3045000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy, now transformed into a werewolf, jumps out of the fountain and attacks Amy.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3345000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy’s shadow appears on the wall behind Amy.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3431000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead Amy suddenly opens her eyes and talks to Andy.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3537000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A transformed werewolf suddenly jumps out from underneath some robes.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4617000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf attacks two of the police.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4911000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf jumps through a train window, shortly after the werewolf bursts into the passengers section of the train.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5238000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.084Z",
+  "sync_type": "subtitles",
+  "title": "An American Werewolf In Paris",
+  "tmdb_id": 9406
+}

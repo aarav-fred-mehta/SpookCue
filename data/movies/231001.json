@@ -1,0 +1,115 @@
+{
+  "release_year": 2013,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the captives gets dragged away suddenly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1009000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man with a disfigured face comes up from behind the woman.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1145000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man’s face turns to a skeleton.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1233000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man with the crow mask’s face distorts with a loud sound in the background.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Some kids throw eggs at the house and they suddenly splatter at the window.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1656000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A door suddenly slams.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien creature appears in front of the camera.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2630000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien finds the woman hiding.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2825000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown runs out from the side of the gas station.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3390000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The clown appears in front of the woman’s car window.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3763000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman turns the driver over to see that it’s a man with a severely disfigured face.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman raises her head to see the clown right in front of her.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The video suddenly zooms in on the clown’s face.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4399000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.721Z",
+  "sync_type": "subtitles",
+  "title": "All Hallows Eve",
+  "tmdb_id": 231001
+}

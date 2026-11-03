@@ -1,0 +1,27 @@
+{
+  "release_year": 1980,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man opens the door revealing Eddie in his non-human state.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3854000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cop searching for the beast is suddenly grabbed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4027000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.635Z",
+  "sync_type": "subtitles",
+  "title": "Altered States",
+  "tmdb_id": 11542
+}

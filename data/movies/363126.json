@@ -1,0 +1,19 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 116,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog starts barking at the fence as Clare and Andi walk by.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 705000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:58.032Z",
+  "sync_type": "subtitles",
+  "title": "Berlin Syndrome",
+  "tmdb_id": 363126
+}

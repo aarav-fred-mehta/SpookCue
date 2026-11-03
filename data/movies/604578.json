@@ -1,0 +1,35 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The main character, Mara, leans down from her desk and a few seconds later an explosion happens right off screen, splattering the room with blood.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 41000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While driving, one of the drug dealers suddenly explodes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1928000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The student at the front of the classroom suddenly explodes.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3677000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:36.070Z",
+  "sync_type": "subtitles",
+  "title": "Spontaneous",
+  "tmdb_id": 604578
+}

@@ -1,0 +1,27 @@
+{
+  "release_year": 1995,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man in hazmat suit suddenly enters the room.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 990000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A distorted face suddenly flashes on-screen.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3813000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:29.801Z",
+  "sync_type": "subtitles",
+  "title": "Village Of The Damned",
+  "tmdb_id": 12122
+}

@@ -1,0 +1,35 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A hand unexpectedly appears on the bed.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1315000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a flashback young Jessie looks across the bed to see a scary looking bald man (the Moonlight Man) licking her feet.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4000000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jessie looks in the rear vision mirror and sees the deformed bald man.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5227000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:11.732Z",
+  "sync_type": "subtitles",
+  "title": "Gerald S Game",
+  "tmdb_id": 343674
+}

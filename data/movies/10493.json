@@ -1,0 +1,27 @@
+{
+  "release_year": 1989,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something comes loose on the boat and almost hits John.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1471000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hughie lunges at Rae from behind a curtain. [Video]",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4420000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:29.159Z",
+  "sync_type": "subtitles",
+  "title": "Dead Calm",
+  "tmdb_id": 10493
+}

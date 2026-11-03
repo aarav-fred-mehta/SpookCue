@@ -1,0 +1,19 @@
+{
+  "release_year": 2018,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "After a few seconds of droning sounds as the camera zooms in on the saleswoman, there is a sudden clinking noise that causes her to flinch.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1031000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:56.116Z",
+  "sync_type": "subtitles",
+  "title": "In Fabric",
+  "tmdb_id": 475220
+}

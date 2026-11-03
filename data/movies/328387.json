@@ -1,0 +1,19 @@
+{
+  "release_year": 2016,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A drone appears in front of Ian as he climbs the crane.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4410000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:36.453Z",
+  "sync_type": "subtitles",
+  "title": "Nerve",
+  "tmdb_id": 328387
+}

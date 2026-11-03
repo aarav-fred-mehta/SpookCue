@@ -1,0 +1,43 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The headlights of Ward’s car come on.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1983000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Theresa screams “Look out!” and there is a cut to a mutilated looking G-Spot (the name of the cat) shrieking on the road.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3065000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lavinia is pulled backwards by Nathan.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5199000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After calling out Lavinia’s name, there is a sudden cut to Theresa crawling towards her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5379000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:17.627Z",
+  "sync_type": "subtitles",
+  "title": "Color Out Of Space",
+  "tmdb_id": 548473
+}

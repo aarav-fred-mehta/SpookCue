@@ -1,0 +1,35 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden cut to a man shooting a gun may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1858000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kat walks into the hallway in front of Rose.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4261000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joan suddenly reaches over the seat and grabs Bill.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4678000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:52.832Z",
+  "sync_type": "subtitles",
+  "title": "The Blackcoat S Daughter",
+  "tmdb_id": 334536
+}

@@ -1,0 +1,27 @@
+{
+  "release_year": 2013,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A strange girl tapping on a window may startle some viewers.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man in a sleeping bag yells out as Mike shines his torch on him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3433000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:10.139Z",
+  "sync_type": "subtitles",
+  "title": "Resolution",
+  "tmdb_id": 121606
+}

@@ -1,0 +1,19 @@
+{
+  "release_year": 2022,
+  "runtime_minutes": 130,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Metal horse gets spit out by Jean Jacket onto Oj’s car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4928000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:39.426Z",
+  "sync_type": "subtitles",
+  "title": "Nope",
+  "tmdb_id": 762504
+}

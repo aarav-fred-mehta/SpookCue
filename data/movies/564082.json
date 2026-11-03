@@ -1,0 +1,51 @@
+{
+  "release_year": 2018,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog jumps at the car window and barks.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 136000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jack jumps at Bess to scare her.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2050000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Amber suddenly slips into the hole and screams.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2283000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A tree branch suddenly flies through the window and breaks it after Jack says “That’s why I come on when you least expect it.”",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2546000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Paul says “I think there’s something in here” an animal jumps at him.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3304000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.233Z",
+  "sync_type": "subtitles",
+  "title": "30 Miles From Nowhere",
+  "tmdb_id": 564082
+}

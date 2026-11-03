@@ -1,0 +1,123 @@
+{
+  "release_year": 2003,
+  "runtime_minutes": 115,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Su-yeon sits up in bed suddenly and looks around, but no one is there.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1555000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Su-mi is startled when her stepmother, standing right behind her, begins to talk.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1732000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Images of a girl with bloodied hands flash on the screen as Su-yeon lies in bed dreaming.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2026000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Su-yeon sees a woman crawling across the floor, she stands up quickly with her head at an unnatural angle.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2137000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman moves towards Su-yeon who is now cowering in her bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2161000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The woman’s head moves extremely close to Su-yeon, who then wakes up from her nightmare.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2197000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mi-hee recalls to her husband seeing a dead girl under the kitchen sink, the scene then abruptly cuts to an image of the dead girl.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3604000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand comes out from underneath the kitchen sink and grabs the stepmother. [Video]",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3834000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Moo-hyeon lifts the cover off the bird cage and notices a dead bird.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The kettle beings to make a high pitched whistling noise.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5075000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The bloodied bag begins to move just as Su-mi is about to touch it.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5175000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The stepmother sees something pull back from behind a wall in Su-yeon’s bedroom.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The door closes suddenly and the lights dim while the stepmother is in Su-yeon’s bedroom.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A ghost crawls out from between some sheets.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6336000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:37.071Z",
+  "sync_type": "subtitles",
+  "title": "A Tale Of Two Sisters",
+  "tmdb_id": 4552
+}

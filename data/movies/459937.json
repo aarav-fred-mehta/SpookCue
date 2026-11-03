@@ -1,0 +1,19 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The person on the phone suddenly cries out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 391000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:03.397Z",
+  "sync_type": "subtitles",
+  "title": "Four Hands",
+  "tmdb_id": 459937
+}

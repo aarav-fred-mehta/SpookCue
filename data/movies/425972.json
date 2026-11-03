@@ -1,0 +1,27 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 105,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kay’s head turns towards Andy to reveal her face is covered in congealed blood.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1598000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a very slight jump scare as Andy shines his torch on a woman and a percussion sound effect plays.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1951000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:09.840Z",
+  "sync_type": "subtitles",
+  "title": "Cargo",
+  "tmdb_id": 425972
+}

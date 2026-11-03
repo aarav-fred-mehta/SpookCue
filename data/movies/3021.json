@@ -1,0 +1,75 @@
+{
+  "release_year": 2007,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Music begins to play when Mike is looking out the window.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1882000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Music plays when Mike sits on the bed.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After looking out the window, Mike looks inside and the window abruptly shuts on his hand.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2445000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike looks out the window and sees someone approach the man in the adjacent building from behind. He spins around and is also attacked by a knife-wielding ghost.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2742000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike climbs back into the window and a ghost jumps out at the same time.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike turns on the light and sees a figure in the room with him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3687000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mike crawls through the vents and finds a dead body which jumps when touched.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4010000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gerald looks in his car mirror and sees a burnt corpse sitting in the back seat.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6308000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.022Z",
+  "sync_type": "subtitles",
+  "title": "1408",
+  "tmdb_id": 3021
+}

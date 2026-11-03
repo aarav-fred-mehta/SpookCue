@@ -1,0 +1,19 @@
+{
+  "release_year": 2021,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "While running on the road, Peter is suddenly shot in the leg.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3707000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:59.496Z",
+  "sync_type": "subtitles",
+  "title": "Prey",
+  "tmdb_id": 853588
+}

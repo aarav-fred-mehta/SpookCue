@@ -1,0 +1,19 @@
+{
+  "release_year": 2018,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl appears to commit suicide on camera by shooting herself in the head (although not a jump scare as we get some warning, viewers might find the scene traumatic).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3056000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:09.635Z",
+  "sync_type": "subtitles",
+  "title": "Cam",
+  "tmdb_id": 521935
+}

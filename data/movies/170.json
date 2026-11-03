@@ -1,0 +1,91 @@
+{
+  "release_year": 2002,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A chimpanzee makes a loud noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 132000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim sets off a car alarm.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 720000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected individual jumps through a window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1714000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected screams from somewhere below Jim and Selena.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2014000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jim wakes up in a nightmare.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3484000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A crow starts cawing loudly.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3893000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected jumps on the truck that Henry is trying to start.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5584000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the soldiers turns around and sees an infected at the window, who then jumps through the window and attacks the soldier.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected tries to break into the room where Jim and a soldier are.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected breaks through the back window of the car and attacks Henry.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6233000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.021Z",
+  "sync_type": "subtitles",
+  "title": "28 Days Later",
+  "tmdb_id": 170
+}

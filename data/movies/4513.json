@@ -1,0 +1,83 @@
+{
+  "release_year": 2007,
+  "runtime_minutes": 113,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette runs past the camera.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1045000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Gabe gets grabbed from behind while playing rock, paper, scissors.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A severed head is found by Eben on a pole.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1644000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A body flies through the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1715000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "John gets slashed by a hand.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1742000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Wilson gets grabbed by a vampire.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3736000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A girl runs through the doorway.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4050000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A vampire jumps from the air.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4363000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the group members gets attacked by a vampire.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5508000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.090Z",
+  "sync_type": "subtitles",
+  "title": "30 Days Of Night",
+  "tmdb_id": 4513
+}

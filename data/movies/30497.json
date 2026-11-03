@@ -1,0 +1,27 @@
+{
+  "release_year": 1974,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jerry opens the freezer to find Pam. She jumps upwards and leatherface runs into the room.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2756000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Leatherface jumps out at Franklin when him and Sally are walking through the trees.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3133000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:01.203Z",
+  "sync_type": "subtitles",
+  "title": "The Texas Chain Saw Massacre",
+  "tmdb_id": 30497
+}

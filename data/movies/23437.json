@@ -1,0 +1,131 @@
+{
+  "release_year": 2010,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dean falls asleep and Freddy grabs him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand grabs Kris from the ground.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy jumps out at Kris in the attic.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1061000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone jumps into view from outside Kris’s window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1424000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette walks past the camera when  Kris is in a hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1650000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kris lies back down on her bed but Freddy is lying there and says “found you”.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1763000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse jumps behind Nancy as she is painting.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1877000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quentin walks through the library and sees Freddy reading to kids. Freddy then spins around.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2216000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jesse gets attacked in his dream from behind.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2413000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy pulls Nancy out of the car.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy stands ahead of the car while Quentin is driving.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4266000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quentin sees Freddy attack Nancy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4346000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy grabs Quentin.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4839000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Jesse hides in the closet, Freddy appears next to her and says “boo!”.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4970000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Freddy appears in the mirror behind Nancy’s mother.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5428000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:36.855Z",
+  "sync_type": "subtitles",
+  "title": "A Nightmare On Elm Street",
+  "tmdb_id": 23437
+}

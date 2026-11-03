@@ -1,0 +1,99 @@
+{
+  "release_year": 2007,
+  "runtime_minutes": 78,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A body falls down from the stairwell next to a group of people on the ground floor.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Someone runs through the door space.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1194000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the infected slams against the glass door from the other side.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The little girl attacks the police officer.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2895000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected lady jumps into the centre of the hallway.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2941000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand bursts through some glass grabbing one of the men.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3213000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The light on the camera turns on revealing an infected person.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3408000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The attic door suddenly opens.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3914000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera spins around in the attic where a boy’s face appears. [Video].",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3951000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ángela and Pablo try and sneak past an infected person however they make a noise and it turns around.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4129000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ángela screams as she is suddenly dragged away.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4225000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.022Z",
+  "sync_type": "subtitles",
+  "title": "Rec",
+  "tmdb_id": 8329
+}

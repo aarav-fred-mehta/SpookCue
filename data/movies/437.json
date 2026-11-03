@@ -1,0 +1,27 @@
+{
+  "release_year": 2002,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Upon crawling through a passage a woman is suddenly dragged upwards.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 173000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A corpse suddenly springs back up and makes a gasping noise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2347000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:25.800Z",
+  "sync_type": "subtitles",
+  "title": "Cube 2 Hypercube",
+  "tmdb_id": 437
+}

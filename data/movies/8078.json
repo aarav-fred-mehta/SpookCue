@@ -1,0 +1,83 @@
+{
+  "release_year": 1997,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The alien’s tongue comes out of its mouth and slams into the glass barrier.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1905000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand grabs Dr. Gediman and pulls him into the hole.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2467000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A broken hose drops down and starts hissing behind Elgyn. [Video].",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2877000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead man suddenly jumps up and yells.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3855000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A Face Hugger jumps on to Ripley’s face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Purvis is suddenly shot.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien snaps at Ripley.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5874000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien roars from behind Call.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6085000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dying alien suddenly roars at Call once more.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6154000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.636Z",
+  "sync_type": "subtitles",
+  "title": "Alien Resurrection",
+  "tmdb_id": 8078
+}

@@ -1,0 +1,19 @@
+{
+  "release_year": 2015,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A dog barks, startling Ted.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2414000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:52.998Z",
+  "sync_type": "subtitles",
+  "title": "The Boy",
+  "tmdb_id": 257444
+}

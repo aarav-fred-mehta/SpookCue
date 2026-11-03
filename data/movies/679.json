@@ -1,0 +1,115 @@
+{
+  "release_year": 1986,
+  "runtime_minutes": 137,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The rover door is suddenly opened after the children question where the adults are.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1236000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Burke puts his face near a tank when suddenly one of the creatures slams against the inside wall of the tank.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The team walk through a corridor when a silhouette runs past the screen.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the crew members finds a body which suddenly opens its eyes when its head is lifted.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4328000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien attached to the wall jumps off to grab one of the crew members.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4447000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien pokes its head through the door before the group begin to leave.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4718000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellen emerges from underneath the bed and is suddenly attacked by a small alien.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6480000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After setting off the sprinklers, Ellen is jumped at again by the small alien.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "One of the men looks into the vents and spots a group of aliens approaching.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6968000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pvt. Vasquez looks at an upwards opening in the vent and spots an alien coming down.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7209000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The pair start to go up the elevator when an alien reaches in.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7482000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When the crew land, Bishop is attacked by an alien.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 8616000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ellen’s ankle is grabbed as she tries to climb the ladder.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 8893000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.722Z",
+  "sync_type": "subtitles",
+  "title": "Aliens",
+  "tmdb_id": 679
+}

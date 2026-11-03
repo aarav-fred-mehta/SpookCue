@@ -1,0 +1,43 @@
+{
+  "release_year": 2019,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A sudden blur in front of the screen attacks the girl.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 87000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead girl suddenly appears behind Martin.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1589000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dead girl is suddenly in the doorway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3473000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "McKenzie suddenly appears on screen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5737000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:48.636Z",
+  "sync_type": "subtitles",
+  "title": "The Axiom",
+  "tmdb_id": 517166
+}

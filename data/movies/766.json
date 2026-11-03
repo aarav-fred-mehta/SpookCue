@@ -1,0 +1,131 @@
+{
+  "release_year": 1992,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A deadite jumps out of the water behind Ash.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 769000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deadite jumps out of the water behind Ash.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 774000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deadite comes out of the wall.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deadite comes out of the wall.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 880000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash shoots Arthur’s sword out of his hand.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1072000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash shoots Arthur’s sword out of his hand.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1074000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman turns around to reveal she is a deadite.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The deadite woman suddenly jumps up.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1287000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Necronomicon bites Ash as he reaches out to pick it up.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2308000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Necronomicon bites Ash as he reaches out to pick it up.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2701000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash fires his shotgun.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash fires his shotgun.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3449000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Sheila jumps on Ash.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3916000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The girl in the store turns around to reveal she is a deadite.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Possessed Sheila jumps on Ash.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4678000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:30.622Z",
+  "sync_type": "subtitles",
+  "title": "Army Of Darkness",
+  "tmdb_id": 766
+}

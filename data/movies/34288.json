@@ -1,0 +1,19 @@
+{
+  "release_year": 1998,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts from Jim typing to a very loud gunshot.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2803000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:36.550Z",
+  "sync_type": "subtitles",
+  "title": "The Last Broadcast",
+  "tmdb_id": 34288
+}

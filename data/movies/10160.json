@@ -1,0 +1,91 @@
+{
+  "release_year": 1989,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man suddenly springs upwards from the bed next to Alice.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 444000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is suddenly a loud woosh sound and the camera quickly pans to an empty hallway.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 939000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Alice suddenly falls through the floor while slowly walking.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 994000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera pans around the diner back to Alice, and she is grabbed on the shoulder by a friend.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1344000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud buzzing noise.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1562000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The diner (a greenscreen) suddenly turns into a close-up of Daniel’s mangled face as he screams, scaring Alice.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1764000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Daniel’s corpse springs back upwards.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1806000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The upper half of Greta’s body appears out of the side of a rotting fridge and begins to scream.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden cut to the tower as Yvonne dives underwater that is accompanied by a loud sound effect.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3675000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Yvonne reaches her hand out to Amanda, and she suddenly turns around quickly to reveal a decomposing corpse under the robe.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4783000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:36.938Z",
+  "sync_type": "subtitles",
+  "title": "A Nightmare On Elm Street The Dream Child",
+  "tmdb_id": 10160
+}

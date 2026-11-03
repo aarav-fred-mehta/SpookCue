@@ -1,0 +1,107 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Louise opens the shower curtain and her dad is unexpectedly standing on the other side with his eyes turned white.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1617000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michael turns on the light and his mom is standing behind him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2359000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone suddenly rings during a quiet scene.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2454000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A sheep brushes against the chain, causing the hanging horseshoes and bottles to clatter.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2898000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone once again rings during a quiet scene.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3159000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The phone rings again.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3184000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a cut to some loud chimes during a quiet scene.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4008000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a sudden sound of chains.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4037000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A silhouette suddenly jumps out right behind Michael up to his neck and screams “Out!”",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4117000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden knocking on the door scares Louise.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4398000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The nurse begins to scream from another room.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4868000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The dad springs up from the bed and attacks Louise.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5471000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-06-22T21:38:24.401Z",
+  "sync_type": "subtitles",
+  "title": "The Dark And The Wicked",
+  "tmdb_id": 680593
+}

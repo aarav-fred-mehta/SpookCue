@@ -1,0 +1,67 @@
+{
+  "release_year": 2004,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A monkey abruptly leaps onto Gail.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 849000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A monkey leaps onto the table suddenly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1454000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben was pulled underwater by an anaconda.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2376000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ben was attacked by an anaconda.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2409000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The corpse of Livingston popped in the shot.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3164000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tran falls into a hole underwater.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4384000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An anaconda attacks Cole from the back.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4560000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.026Z",
+  "sync_type": "subtitles",
+  "title": "Anacondas The Hunt For The Blood Orchid",
+  "tmdb_id": 11237
+}

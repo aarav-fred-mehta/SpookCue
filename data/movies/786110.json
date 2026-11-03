@@ -1,0 +1,27 @@
+{
+  "release_year": 2021,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Tom jumps out with a flashlight to scare Anne.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Mrs. Fedder appears, yelling in the window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3012000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:06.234Z",
+  "sync_type": "subtitles",
+  "title": "Jakob S Wife",
+  "tmdb_id": 786110
+}

@@ -1,0 +1,35 @@
+{
+  "release_year": 2021,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Brianna Gets a jolt of electricity to her face, knocking her over.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2080000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nathan steps on a tile that moves.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2950000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nathan steps on a tile, activating the lasers.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3061000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:50.902Z",
+  "sync_type": "subtitles",
+  "title": "Escape Room Tournament Of Champions",
+  "tmdb_id": 585216
+}

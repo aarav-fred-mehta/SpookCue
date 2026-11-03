@@ -1,0 +1,123 @@
+{
+  "release_year": 1981,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "David is knocked down by a werewolf which then begins to attack Jack.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 976000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf attacks David.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1003000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a dream sequence, a naked David jumps on a deer and begins eating it.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1518000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During another dream sequence, Jack suddenly opens his eyes and growls at Nurse Alex.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1732000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man opens the front door and is gunned down by some strange looking mutants.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1923000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nurse Alex opens the curtains and is attacked by a mutant.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1972000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David adjusts the bathroom mirror and sees un-dead Jack in the reflection.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2598000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A werewolf jumps out and attacks a young couple.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3743000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to a telephone ringing.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3838000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a close up of the werewolf’s face and a loud growling noise before the scene cuts to a train.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3987000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to a lion roaring at a zoo.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man is attacked by a werewolf in the movie theater.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5272000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf bursts through the door to the movie theater.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5375000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The werewolf roars and is repeatedly shot.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5590000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.089Z",
+  "sync_type": "subtitles",
+  "title": "An American Werewolf In London",
+  "tmdb_id": 814
+}

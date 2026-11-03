@@ -1,0 +1,19 @@
+{
+  "release_year": 2010,
+  "runtime_minutes": 118,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "sudden appearance of a corpse inside a closet",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 437000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-31T15:28:06.872Z",
+  "sync_type": "subtitles",
+  "title": "The Book Of Eli",
+  "tmdb_id": 20504
+}

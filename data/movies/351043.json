@@ -1,0 +1,19 @@
+{
+  "release_year": 2015,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man opens a closet door and a body falls out.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2230000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.026Z",
+  "sync_type": "subtitles",
+  "title": "Amnesiac",
+  "tmdb_id": 351043
+}

@@ -1,0 +1,75 @@
+{
+  "release_year": 2016,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A vehicle suddenly crashes into Michelle’s car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 313000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise startles Michelle.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1198000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Howard bangs his fist on the table loudly.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2295000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A disfigured woman bangs on the window.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2503000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot may startle some viewers.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4508000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife suddenly pierces the air vent in front of Michelle.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4919000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A knife once again pierces the air vent.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4933000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Michelle runs over the mailbox.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5736000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.022Z",
+  "sync_type": "subtitles",
+  "title": "10 Cloverfield Lane",
+  "tmdb_id": 333371
+}

@@ -1,0 +1,27 @@
+{
+  "release_year": 2016,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a screeching noise as a man in a mask grabs Christian’s face.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2003000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "During a suspenseful scene, the light suddenly turns back on.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2139000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:17.833Z",
+  "sync_type": "subtitles",
+  "title": "They Look Like People",
+  "tmdb_id": 325302
+}

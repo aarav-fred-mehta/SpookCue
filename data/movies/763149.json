@@ -1,0 +1,51 @@
+{
+  "release_year": 2021,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man grabs a woman from behind.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1027000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Through the open bedroom door, a hand suddenly appears in the hallway from the right.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2365000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand suddenly reaches a woman from behind and covers her mouth.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2410000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A dark figure starts to get up in the background.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4456000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A foot suddenly appears from under the bed.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5693000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.496Z",
+  "sync_type": "subtitles",
+  "title": "Aftermath",
+  "tmdb_id": 763149
+}

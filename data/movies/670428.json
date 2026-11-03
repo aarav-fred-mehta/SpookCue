@@ -1,0 +1,19 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 95,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The kids turn and see a body.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 846000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:02.774Z",
+  "sync_type": "subtitles",
+  "title": "Psycho Goreman",
+  "tmdb_id": 670428
+}

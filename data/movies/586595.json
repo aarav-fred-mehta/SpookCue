@@ -1,0 +1,59 @@
+{
+  "release_year": 2019,
+  "runtime_minutes": 83,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Hank jumps at Abby from the side.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 88000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Hank says “you should get that thing off him before he floats away” there is a car horn blast and a cut to Hank firing a gun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 626000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Abby is pulling the hammock there is a cut to Hank falling out of bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1294000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The trap Hank set suddenly goes off.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2013000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Hank’s gunshot lights up the area the monster is seen kneeling on the ground.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2564000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While Hank is singing, the monster suddenly lunges at him.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4647000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:36.993Z",
+  "sync_type": "subtitles",
+  "title": "After Midnight",
+  "tmdb_id": 586595
+}

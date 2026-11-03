@@ -1,0 +1,35 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The bat creature comes alive and bites Tomaz.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2157000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Magda is grabbed from behind.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2997000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Magda is stabbed through the hole.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3804000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.026Z",
+  "sync_type": "subtitles",
+  "title": "Amulet",
+  "tmdb_id": 653615
+}

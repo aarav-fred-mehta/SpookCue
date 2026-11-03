@@ -1,0 +1,19 @@
+{
+  "release_year": 2012,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The small grabber jumps up after Lisa asks “is it dead?” and then attacks the group.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2560000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:16.923Z",
+  "sync_type": "subtitles",
+  "title": "Grabbers",
+  "tmdb_id": 84204
+}

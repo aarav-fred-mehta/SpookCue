@@ -1,0 +1,19 @@
+{
+  "release_year": 1968,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The young woman suddenly growls and bites down at the samurai’s neck.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1377000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:17.384Z",
+  "sync_type": "subtitles",
+  "title": "Kuroneko",
+  "tmdb_id": 40149
+}

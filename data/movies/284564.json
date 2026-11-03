@@ -1,0 +1,75 @@
+{
+  "release_year": 2016,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sick-Head suddenly appears underneath the door of the toilet cubicle that Charly is hiding in.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2128000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Levon bursts into the toilet cubicle startling Charly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2187000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sick-Head grabs Levon from behind.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2199000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sick-Head returns as Charly attempts to treat Levon.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2231000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sick-Head suddenly spasms as he lies on the floor.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2501000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The lady tied to the mattress suddenly moves and cries out.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3147000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand is placed over Venus’s mouth.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doom-Head appears behind Charly.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5415000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:32.952Z",
+  "sync_type": "subtitles",
+  "title": "31",
+  "tmdb_id": 284564
+}

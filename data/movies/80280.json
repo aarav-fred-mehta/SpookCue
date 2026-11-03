@@ -1,0 +1,123 @@
+{
+  "release_year": 2012,
+  "runtime_minutes": 80,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "An infected slams onto the window of the kitchen door.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Another infected slams onto the kitchen door.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1430000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected’s arm breaks through the window.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1478000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A woman appears screaming for help.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1623000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected guest suddenly lunges at Koldo from within the police car.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1657000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected’s arm breaks through the door.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2076000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected reaches through the window and kills one of the characters.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2320000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected suddenly runs out in front of Clara.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2383000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Medeiros girl from the first two films appears in the TV screen’s reflection behind Koldo.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2545000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "SpongeJohn appears from the darkness.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2628000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As the light flickers on, an infected appears behind the glass window.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The same infected bursts through the window and attacks Natalie.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2745000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected appears in the kitchen door window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3820000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected attacks Clara.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4042000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.021Z",
+  "sync_type": "subtitles",
+  "title": "Rec 3 Genesis",
+  "tmdb_id": 80280
+}

@@ -1,0 +1,27 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 123,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Elisa touches the outside of the tank when the creature bangs against it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 693000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature suddenly roars at Elisa as she offers it an egg.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1534000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:58:57.602Z",
+  "sync_type": "subtitles",
+  "title": "The Shape Of Water",
+  "tmdb_id": 399055
+}

@@ -1,0 +1,19 @@
+{
+  "release_year": 2018,
+  "runtime_minutes": 98,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A snake suddenly gets hit by a stone.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 977000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:50.902Z",
+  "sync_type": "subtitles",
+  "title": "Errementari The Blacksmith And The Devil",
+  "tmdb_id": 477033
+}

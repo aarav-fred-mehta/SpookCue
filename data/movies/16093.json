@@ -1,0 +1,19 @@
+{
+  "release_year": 1962,
+  "runtime_minutes": 78,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mary looks down from the railings to the first floor, and gasps as the camera cuts to the strange man staring directly at her from downstairs.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1557000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:09.699Z",
+  "sync_type": "subtitles",
+  "title": "Carnival Of Souls",
+  "tmdb_id": 16093
+}

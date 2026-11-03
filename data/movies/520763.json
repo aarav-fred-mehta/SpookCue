@@ -1,0 +1,155 @@
+{
+  "release_year": 2021,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The creature smashes against the police car while Lee is speaking to Officer Ronnie.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 468000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature lands on a car in front of Evelyn and her kids.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 503000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Evelyn blindly drives in reverse, a creature climbs out of a smashed tour bus windshield.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature leaps towards Officer Ronnie and slams into the police car.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 706000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Evelyn steps on a trip wire which drops a large rope full of glass bottles.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1208000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcus steps on a bear trap alerting the aliens to the family’s location.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1251000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emmett grabs Evelyn as she enters the refinery to silence her as an alien crawls down the wall behind her.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1372000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reagan is startled by a pack of birds hiding in the train.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2415000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The body of a dead person falls against Reagan as she releases the first aid box from the train’s restroom.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2511000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Reagan doesn’t hear the creature board the train after she falls backward.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2529000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Emmett is startled by something as he attempts to unmoor the boat.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3487000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An unknown girl startles Emmett.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marcus parts the curtain and discovers Emmett’s wife’s corpse.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3621000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature leaps onto the convertible and rips open the soft top.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4700000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature leaps onto the convertible AGAIN!",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4717000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature grabs a man and drags him out from under a garage door.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4758000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature rips off the door.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4781000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature rips the furnace door open as Evelyn tries to close and lock it.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5086000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:36.992Z",
+  "sync_type": "subtitles",
+  "title": "A Quiet Place Part Ii",
+  "tmdb_id": 520763
+}

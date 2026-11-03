@@ -1,0 +1,91 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 146,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, a man clutches his chest suddenly.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 160000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud car horn interrupts the flashback.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 808000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A deer runs onto the road and is hit by a car (we get a couple of seconds warning before impact).",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1372000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A swarm of eels appear in the tank.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Victoria grabs his shoulder.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5531000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An apparently dead man floating in a pool of water suddenly spasms.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5673000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lockhart removes the toilet lid and a large number of eels crawl out from underneath.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6275000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "He peels back the cloth to reveal a dead body.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6842000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man appears from behind a corner and attacks Lockhart.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lockhart and Hannah crash their bike into an oncoming car.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 8305000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-05-06T17:40:23.007Z",
+  "sync_type": "subtitles",
+  "title": "A Cure For Wellness",
+  "tmdb_id": 340837
+}

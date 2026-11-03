@@ -1,0 +1,27 @@
+{
+  "release_year": 1960,
+  "runtime_minutes": 109,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Arbogast reaches the top of the stairs, a figure comes out of the bedroom and stabs him.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4644000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lila turns around the figure sitting on the chair and it is revealed to be the corpse of Norman’s mother, a few seconds later Norman rushes in wearing his mother’s clothes and a wig.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6078000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:57:02.757Z",
+  "sync_type": "subtitles",
+  "title": "Psycho",
+  "tmdb_id": 539
+}

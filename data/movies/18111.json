@@ -1,0 +1,19 @@
+{
+  "release_year": 1990,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Herbert yells “Boo!”",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1024000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:05.527Z",
+  "sync_type": "subtitles",
+  "title": "Bride Of Re Animator",
+  "tmdb_id": 18111
+}

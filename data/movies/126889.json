@@ -1,0 +1,59 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 122,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A neomorph opens its mouth and violently attacks Rosenthal.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4371000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Oram suddenly shoots the neomorph.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4541000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The facehugger jumps out at Oram.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4853000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blood explodes out of Oram’s torso.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5002000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "David disables Walter.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5267000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A facehugger jumps out at Cole.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5367000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.559Z",
+  "sync_type": "subtitles",
+  "title": "Alien Covenant",
+  "tmdb_id": 126889
+}

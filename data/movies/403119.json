@@ -1,0 +1,99 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa and Kate drop the camera and a shark suddenly appears from below and eats it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1459000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang and the cage drops slightly.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1512000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark passes just above Kate.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2534000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark bangs into the cage as Kate tries to open the hatch.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2547000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark bites one of the bars on the cage.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2573000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark suddenly attacks Lisa as she approaches the opening of the cavern she is hiding in.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2933000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The shark suddenly swims into Lisa.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3163000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa bumps into Javier who tells her to get back to the cage, he is then attacked by the shark.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3172000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa turns around and Javier’s dead body appears right in front of her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3232000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Kate says “open the hatch” the shark attacks her.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3777000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lisa lights a flare to reveal several sharks are circling them.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4606000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.022Z",
+  "sync_type": "subtitles",
+  "title": "47 Meters Down",
+  "tmdb_id": 403119
+}

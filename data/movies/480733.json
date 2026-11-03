@@ -1,0 +1,27 @@
+{
+  "release_year": 2018,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a loud sound effect, the camera quickly pans to show Peeping Tom’s feet stepping in front of Feldman.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3521000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Feldman looks up, Peeping Tom suddenly jumps up right in front of the camera.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4522000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:05.528Z",
+  "sync_type": "subtitles",
+  "title": "Butterfly Kisses",
+  "tmdb_id": 480733
+}

@@ -1,0 +1,35 @@
+{
+  "release_year": 2013,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Dr. Barden is suddenly shot in the head.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a momentary silence, there is a loud bang as the dynamite explodes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4399000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Lucas begins talking to Iris but is suddenly shot mid-conversation.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5168000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:59:41.688Z",
+  "sync_type": "subtitles",
+  "title": "Would You Rather",
+  "tmdb_id": 97051
+}

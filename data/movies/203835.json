@@ -1,0 +1,99 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 87,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A girl suddenly appears at the window as Belle shuts it.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 837000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James suddenly opens his eyes.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1068000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Belle briefly sees James in the mirror.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1138000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Accompanied by a sound effect, Belle sees blood on the bed.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1513000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Belle turns around and a man is behind her with a gun.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1530000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Terrence suddenly appears at the door wearing a pig mask.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1709000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The fuse box sparks and the man with the gun briefly appears.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2047000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Juliet sees James in the closet.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2500000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "James suddenly grabs Belle by the hair.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3201000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Juliet sees a dead animal in the water.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3582000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joan knocks Belle out.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3876000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.781Z",
+  "sync_type": "subtitles",
+  "title": "Amityville The Awakening",
+  "tmdb_id": 203835
+}

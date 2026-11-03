@@ -1,0 +1,27 @@
+{
+  "release_year": 2010,
+  "runtime_minutes": 144,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Jang Kyung-chul breaks the window of the car.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 457000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jang Kyung-chul leaps from the left and tackles Jang Se-yun.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7207000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:52.724Z",
+  "sync_type": "subtitles",
+  "title": "I Saw The Devil",
+  "tmdb_id": 49797
+}

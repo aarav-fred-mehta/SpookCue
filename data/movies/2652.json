@@ -1,0 +1,19 @@
+{
+  "release_year": 2006,
+  "runtime_minutes": 104,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Hayley puts a bag over Jeff’s head.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2740000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:25.983Z",
+  "sync_type": "subtitles",
+  "title": "Hard Candy",
+  "tmdb_id": 2652
+}

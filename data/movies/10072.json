@@ -1,0 +1,99 @@
+{
+  "release_year": 1987,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen backs into a corpse.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 492000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen grabs the tap handle which then wraps around her hand.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 532000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something pops up underneath the mat on the floor.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1265000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A large worm-like creature lifts up through the floor underneath Kristen.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1293000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands reach out of both sides of the TV.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2390000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Neil steals a cross but is immediately grabbed on his shoulder by a hand.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3959000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A claw suddenly rips through the wall after Nancy says “How do we find him Kristen?”.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4242000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kristen’s mother is pulled through the doorway.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4325000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Taryn watches as a man walks past, she then spins around to see Freddy behind her.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4434000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Neil grabs the bag and a skeleton jumps out at him.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5132000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Nancy gets struck by the bladed-glove while receiving a hug.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5344000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:36.852Z",
+  "sync_type": "subtitles",
+  "title": "A Nightmare On Elm Street 3 Dream Warriors",
+  "tmdb_id": 10072
+}

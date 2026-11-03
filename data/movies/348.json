@@ -1,0 +1,99 @@
+{
+  "release_year": 1979,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A Facehugger jumps out of the egg and lands on Kane’s helmet.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2068000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Dallas accidentally kicks something over, causing Ripley to cry out in surprise.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Facehugger drops onto Ripley’s shoulder.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2918000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Facehugger twitches as Ash pokes it.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2935000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Blood spurts out of Kane’s chest and a few seconds later an alien bursts out of it.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3368000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A cat hisses and runs away.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3778000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien comes into view behind Brett.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien appears in front of Dallas. [Video].",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4542000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ash grabs Parker.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The cat jumps out at Ripley.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5515000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand extends out in front of Ripley.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6409000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-23T21:14:24.963Z",
+  "sync_type": "subtitles",
+  "title": "Alien",
+  "tmdb_id": 348
+}

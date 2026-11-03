@@ -1,0 +1,139 @@
+{
+  "release_year": 2009,
+  "runtime_minutes": 84,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Mirroring the final jump scare from the first film, Angela is pulled back into the darkness.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 57000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After Martos turns around in the apartment hallway, an infected comes running at him.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 859000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Martos, now an infected, lunges at the camera.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 894000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Out of nowhere, an infected boy drops down from the ceiling and grabs Larra.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1375000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The infected boy suddenly jumps onto the priest’s back.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1477000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When Larra turns, an infected appears in the doorway.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1980000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected girl appears at the end of the hallway.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2218000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ori accidentally fires a gun.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2798000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ori fires a second shot.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected suddenly jumps out from the kitchen.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3051000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Infected Martos lunges at the group.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3403000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A hand shoots out of the water and grabs the SWAT chief.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4237000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature appears and starts attacking Rosso.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4264000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The creature suddenly appears behind the priest and attacks him.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4440000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Angela shoots Rosso.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4576000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The camera suddenly cuts to the scene from the beginning of the film of Angela being dragged into the darkness.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4751000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.021Z",
+  "sync_type": "subtitles",
+  "title": "Rec 2",
+  "tmdb_id": 10664
+}

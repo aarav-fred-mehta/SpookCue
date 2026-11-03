@@ -1,0 +1,19 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Women sticks needle into scalp with close up",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 110000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-31T15:23:36.875Z",
+  "sync_type": "subtitles",
+  "title": "Possessor",
+  "tmdb_id": 435615
+}

@@ -1,0 +1,27 @@
+{
+  "release_year": 2005,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Marc suddenly brakes the van after hearing a noise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 574000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Marc looks up to the car window and a man is on the other side watching him, which causes him to scream.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 635000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:09.698Z",
+  "sync_type": "subtitles",
+  "title": "Calvaire",
+  "tmdb_id": 12517
+}

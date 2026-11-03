@@ -1,0 +1,51 @@
+{
+  "release_year": 2016,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Sophia rips the bedroom curtains open while touring the house.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 70000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sophia is startled in the parking lot observing a woman and her baby.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 932000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Joseph angrily throws a tub of water on Sophia to wake her up.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1374000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "While conjuring spirits, Sophia sees a dark shape smoking a cigarette shifting in the char across from her.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4453000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A demon hand grabs Sophia and forces her into the basement.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5412000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.020Z",
+  "sync_type": "subtitles",
+  "title": "A Dark Song",
+  "tmdb_id": 409297
+}

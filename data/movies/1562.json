@@ -1,0 +1,147 @@
+{
+  "release_year": 2007,
+  "runtime_minutes": 99,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Karen looks outside through a gap in the wall and is attacked by an infected.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 377000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected breaks through a wall in front of Alice and the boy as they try to escape.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 423000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A now infected man turns around and hisses at the remaining survivors.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 490000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Don recalls how his wife died and there is an abrupt flashback to earlier scenes of chaos.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "There is another abrupt flashback to Alice screaming for help.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1405000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doyle sneaks up and scares Flynn.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1559000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Doyle scares Flynn again.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1598000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy has a nightmare about his mother.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1715000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tammy screams as she grabs a key from a skeleton.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1910000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected jumps at a soldier.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2857000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected soldier bursts through a door and slams into a glass wall in front of Tammy and Andy. [Video].",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2871000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Infected Don hisses and jumps at the door in front of Andy.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3055000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An infected jumps up at the car window.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4740000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Tammy walks into something and screams.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5048000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Scarlet suddenly sees infected Don through her rifle’s night vision lens.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5118000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Infected Don comes into view behind Andy.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5192000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene abruptly cuts to the infected running through the streets of Paris.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5583000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.087Z",
+  "sync_type": "subtitles",
+  "title": "28 Weeks Later",
+  "tmdb_id": 1562
+}

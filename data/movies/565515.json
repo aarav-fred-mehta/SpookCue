@@ -1,0 +1,35 @@
+{
+  "release_year": 2020,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The killer appears behind a closing trunk lid.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1526000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Ranger Art spits blood at the car window.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3998000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Danny gets stabbed through the back with a machete.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4345000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:09.840Z",
+  "sync_type": "subtitles",
+  "title": "Camp Twilight",
+  "tmdb_id": 565515
+}

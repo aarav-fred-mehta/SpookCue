@@ -1,0 +1,35 @@
+{
+  "release_year": 2021,
+  "runtime_minutes": 86,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The hands on the door start pulling violently.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1999000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bloody body hits the roof.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2924000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The coffin lid loudly slides off.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4505000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-09-06T20:21:39.789Z",
+  "sync_type": "subtitles",
+  "title": "The Funeral Home",
+  "tmdb_id": 714277
+}

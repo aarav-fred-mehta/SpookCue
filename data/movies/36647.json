@@ -1,0 +1,19 @@
+{
+  "release_year": 1998,
+  "runtime_minutes": 121,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Quinn abruptly jumps up and attacks the medical examiner in the hospital. [Video]",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 798000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:01.545Z",
+  "sync_type": "subtitles",
+  "title": "Blade",
+  "tmdb_id": 36647
+}

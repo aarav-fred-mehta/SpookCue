@@ -1,0 +1,19 @@
+{
+  "release_year": 1998,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A man gets sliced into chunks by one of the traps.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 170000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:25.744Z",
+  "sync_type": "subtitles",
+  "title": "Cube",
+  "tmdb_id": 431
+}

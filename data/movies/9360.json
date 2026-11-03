@@ -1,0 +1,83 @@
+{
+  "release_year": 1997,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A boar chases Gary and Denise.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1284000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A baby snake bites Warren’s thumb.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1973000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Danny walks into Serone.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2323000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anaconda appears in front of Mateo.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2380000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something grabs onto the bait in the water.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3015000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anaconda emerges from the water screaming.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3131000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anaconda rears up in front of Gary and grabs him.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3201000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anaconda breaks through a wall behind Terri.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4757000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The Anazconda bursts through a wooden dock that Terri is sitting on.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4977000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:46.168Z",
+  "sync_type": "subtitles",
+  "title": "Anaconda",
+  "tmdb_id": 9360
+}

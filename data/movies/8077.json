@@ -1,0 +1,123 @@
+{
+  "release_year": 1992,
+  "runtime_minutes": 114,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a brief cut during the opening credits where a glass capsule cracks (another cut at 2:46 where an explosion occurs may also startle viewers).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 90000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quick cut during the sermon as the alien attempts to break out from inside the box (it finally breaks out at 29:33).",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1751000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quick cut during the sermon as the alien attempts to break out from inside the box (it finally breaks out at 29:33).",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1765000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Quick cut during the sermon as the alien attempts to break out from inside the box (it finally breaks out at 29:33).",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1773000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien suddenly spits acid in Murphy’s face.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2339000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rains sees the alien.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3254000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien drops down on Boggs.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3331000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene suddenly cuts to Bishop’s remains being thrown onto a table.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3352000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien grabs Clemens through the shower curtain.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4084000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien pulls Andrew into the vent above.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4248000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien suddenly appears in front of an inmate as he climbs up a ladder.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4801000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An alien hand bursts through the door in front of a prisoner. [Video].",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7099000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien appears in front of an inmate.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7229000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien suddenly leaps out of the molten lead.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 7850000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:41.568Z",
+  "sync_type": "subtitles",
+  "title": "Alien3",
+  "tmdb_id": 8077
+}

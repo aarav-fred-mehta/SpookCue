@@ -1,0 +1,35 @@
+{
+  "release_year": 2014,
+  "runtime_minutes": 88,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Bea screams as Paul touches her.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1651000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The computer makes a noise and turns off suddenly while Paul is using it.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3722000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The alien creature twitches on the bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4603000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:44.705Z",
+  "sync_type": "subtitles",
+  "title": "Honeymoon",
+  "tmdb_id": 254191
+}

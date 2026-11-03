@@ -1,0 +1,19 @@
+{
+  "release_year": 2010,
+  "runtime_minutes": 94,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A wolf suddenly appears in front of Dan.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2737000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:08.110Z",
+  "sync_type": "subtitles",
+  "title": "Frozen",
+  "tmdb_id": 44363
+}

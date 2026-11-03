@@ -1,0 +1,43 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Snake in tent",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1517000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Crossbow bolt hits the tree behind the main character",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2357000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bear trap closes on her foot in the water",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2927000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Sudden scream",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3680000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-10-31T15:22:59.920Z",
+  "sync_type": "subtitles",
+  "title": "Apex",
+  "tmdb_id": 1318447
+}

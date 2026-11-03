@@ -1,0 +1,35 @@
+{
+  "release_year": 2018,
+  "runtime_minutes": 66,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Something falls from the ceiling accompanied by a loud thud.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 225000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A creature suddenly appears behind the glass.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2361000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Andy quickly pans the camera to reveal one of the cultists standing next to him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3842000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:56:39.430Z",
+  "sync_type": "subtitles",
+  "title": "Occult Angel",
+  "tmdb_id": 536141
+}

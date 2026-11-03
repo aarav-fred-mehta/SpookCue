@@ -1,0 +1,19 @@
+{
+  "release_year": 2015,
+  "runtime_minutes": 100,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "One of the boys, who is wearing a mask, jumps at the other boy.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 146000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:55:16.771Z",
+  "sync_type": "subtitles",
+  "title": "Goodnight Mommy",
+  "tmdb_id": 284303
+}

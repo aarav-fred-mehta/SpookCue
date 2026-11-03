@@ -1,0 +1,35 @@
+{
+  "release_year": 2014,
+  "runtime_minutes": 89,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "someone knocks loudly",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1235000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "After a loud noise, they start running",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2069000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The original Em suddenly appears crawling in the hallway.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4928000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-11-15T06:21:22.630Z",
+  "sync_type": "subtitles",
+  "title": "Coherence",
+  "tmdb_id": 220289
+}

@@ -1,0 +1,91 @@
+{
+  "release_year": 1917,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Large rat suddenly appears next to Blake.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1623000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rat suddenly drops onto the floor.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1677000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Rat triggers a trip wire, causing a loud, sudden explosion next to Blake and Schofield.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1681000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Loud sound when plane crashes into the barn as Blake and Schofield run away.",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2620000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot rings out as Schofield thinks about jumping.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3819000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot suddenly hits near Schofield as he rounds a corner approaching the shooter.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3864000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud gunshot goes off as Schofield peaks his head out.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3876000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Schofield and the shooter suddenly fire at each other at close range as soon as the shooter becomes visible as Schofield opens the door.",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3974000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A gunshot goes off as Schofield suddenly finds himself under fire again from a new shooter.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4129000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "An artillery shell strikes right next to Schofield as he walks down the trench.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5750000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:28.021Z",
+  "sync_type": "subtitles",
+  "title": "1917 2019",
+  "tmdb_id": 530915
+}

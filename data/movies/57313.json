@@ -1,0 +1,27 @@
+{
+  "release_year": 2010,
+  "runtime_minutes": 85,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A blue light appears in the fireplace out of nowhere and makes a loud sound.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 550000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A glowing white figure appears in the camera, which startles Mike.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4586000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.020Z",
+  "sync_type": "subtitles",
+  "title": "8213 Gacy House",
+  "tmdb_id": 57313
+}

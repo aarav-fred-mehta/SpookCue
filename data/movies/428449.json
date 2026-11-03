@@ -1,0 +1,35 @@
+{
+  "release_year": 2017,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "There is a loud bang (like a gunshot).",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 258000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bulldozer crashes through the house.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3983000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "C appears deep in thought for several seconds before M bangs on the window and startles him.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4841000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:33.086Z",
+  "sync_type": "subtitles",
+  "title": "A Ghost Story",
+  "tmdb_id": 428449
+}

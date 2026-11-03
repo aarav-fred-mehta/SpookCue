@@ -1,0 +1,19 @@
+{
+  "release_year": 1973,
+  "runtime_minutes": 110,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A wooden board falls onto a glass window on the crane John is standing on (Foreshadowed a few seconds beforehand, but the impact is rather sudden.)",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3785000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:54:41.476Z",
+  "sync_type": "subtitles",
+  "title": "Don T Look Now",
+  "tmdb_id": 931
+}

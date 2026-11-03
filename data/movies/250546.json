@@ -10,7 +10,7 @@
         "LF",
         "HR"
       ],
-      "description": "Blood splatters on the neighbors’ wall.",
+      "description": "Blood splatters on the neighbors\u2019 wall.",
       "id": "scare_01",
       "offset_from_anchor_ms": 46540,
       "resolved_time_ms": 757000,
@@ -44,7 +44,7 @@
         "FRK",
         "P"
       ],
-      "description": "The curtain suddenly blows into Mia’s face and she falls to the ground, a few seconds later a young girl runs past her.",
+      "description": "The curtain suddenly blows into Mia\u2019s face and she falls to the ground, a few seconds later a young girl runs past her.",
       "id": "scare_04",
       "offset_from_anchor_ms": 24492,
       "resolved_time_ms": 2947000,
@@ -75,7 +75,7 @@
         "HLP",
         "M"
       ],
-      "description": "A black figure is lying at the bottom of the staircase and its face flashes on the screen.",
+      "description": "A black figure is lying at the bottom of the staircase and its face flashes on\u00a0the screen.",
       "id": "scare_07",
       "offset_from_anchor_ms": 16655,
       "resolved_time_ms": 3532000,
@@ -86,7 +86,7 @@
         "M",
         "L"
       ],
-      "description": "As Mia looks under the door at her baby, Annabelle’s face pops up under the other side of the door.",
+      "description": "As Mia looks under the door at her baby, Annabelle\u2019s face pops up under the other side of the door.",
       "id": "scare_08",
       "offset_from_anchor_ms": 18873,
       "resolved_time_ms": 4150000,
@@ -107,7 +107,7 @@
         "AL",
         "RT"
       ],
-      "description": "Father Perez knocks on Mia’s door with his back facing away from it. Mia opens the door and the father shouts “May god have mercy on your soul!”.",
+      "description": "Father Perez knocks on Mia\u2019s door with his back facing away from it. Mia opens the door and the father shouts \u201cMay god have mercy on your soul!\u201d.",
       "id": "scare_10",
       "offset_from_anchor_ms": 10507,
       "resolved_time_ms": 4967000,
@@ -139,7 +139,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:46.235Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Annabelle",
   "tmdb_id": 250546
 }

@@ -589,12 +589,12 @@
     "tmdb_id": 461928
   },
   {
-    "has_subtitles": true,
+    "has_subtitles": false,
     "poster_path": "/yLsuJm94ox5gacw7BwWwtqK0m17.jpg",
     "release_year": 2014,
     "runtime_minutes": 99,
     "scare_count": 11,
-    "sync_type": "subtitles",
+    "sync_type": "audio_hash",
     "tags": [],
     "title": "Annabelle",
     "tmdb_id": 250546

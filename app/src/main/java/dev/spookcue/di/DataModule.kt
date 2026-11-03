@@ -44,6 +44,7 @@ object DataModule {
                 "`hasSubtitles` INTEGER NOT NULL, " +
                 "`lastSyncedAt` INTEGER, " +
                 "`tags` TEXT NOT NULL, " +
+                "`syncType` TEXT NOT NULL DEFAULT 'subtitles', " +
                 "PRIMARY KEY(`tmdbId`)" +
             ")"
         )
@@ -66,6 +67,12 @@ object DataModule {
         override fun migrate(db: SupportSQLiteDatabase) = resetCatalogTables(db)
     }
 
+    private val MIGRATION_4_5 = object : Migration(4, 5) {
+        override fun migrate(db: SupportSQLiteDatabase) {
+            db.execSQL("ALTER TABLE `movies` ADD COLUMN `syncType` TEXT NOT NULL DEFAULT 'subtitles'")
+        }
+    }
+
     @Provides
     @Singleton
     fun provideCatalogDatabase(
@@ -75,7 +82,7 @@ object DataModule {
         CatalogDatabase::class.java,
         CatalogDatabase.DATABASE_NAME
     )
-        .addMigrations(MIGRATION_1_4, MIGRATION_2_4, MIGRATION_3_4)
+        .addMigrations(MIGRATION_1_4, MIGRATION_2_4, MIGRATION_3_4, MIGRATION_4_5)
         .fallbackToDestructiveMigration()
         .fallbackToDestructiveMigrationOnDowngrade()
         .build()

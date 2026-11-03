@@ -1,0 +1,83 @@
+{
+  "phonetic_index": [],
+  "release_year": 2025,
+  "runtime_minutes": 102,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "As Cynthia enters the room, she sees the entity grabbing Riley",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 652000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity is suddenly behind Cynthia",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1375000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jordan turns around and sees a burned person",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1988000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity lunges at Jordan",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2655000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Somebody throws a bottle at the house",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3025000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity grabs Cynthia's arm",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3112000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Randall grabs Jordan",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3787000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The entity can be seen on top of Jordan",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4224000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "As Cynthia opens the wooden box, the entity is shown inside it as well",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4691000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-02T05:15:39.147Z",
+  "title": "It Feeds",
+  "tmdb_id": 1145221
+}

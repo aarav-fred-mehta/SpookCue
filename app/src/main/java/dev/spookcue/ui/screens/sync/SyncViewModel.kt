@@ -101,6 +101,14 @@ class SyncViewModel @Inject constructor(
     fun simulateSpeech(text: String) {
         syncEngine.onSpeechTranscribed(text)
     }
+    fun simulateAcousticLock(targetMovieTimeMs: Long = 600_000L) {
+        syncEngine.simulateAcousticLock(targetMovieTimeMs)
+    }
+
+    fun simulateDrift(driftMs: Long) {
+        syncEngine.simulateDrift(driftMs)
+    }
+
 
     fun toggleScareRevealed(scareId: String) {
         val current = _revealedScareIds.value

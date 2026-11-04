@@ -153,14 +153,16 @@ class SpookCueService : Service() {
                     val currentState = syncEngine.state.value
 
                     if (currentSyncMode == "audio_hash") {
-                        // Acoustic Hash Pipeline
+                        // Acoustic Hash Pipeline (sliding 3.5s window evaluated every 1.0s)
                         audioBufferForHashes.addAll(frame.toList())
-                        // Buffer ~3 seconds (48,000 samples @ 16kHz)
-                        if (audioBufferForHashes.size >= 48000) {
-                            val samples = audioBufferForHashes.toShortArray()
+                        if (audioBufferForHashes.size >= 56000) {
+                            val samples = audioBufferForHashes.subList(0, 56000).toShortArray()
+                            val remaining = audioBufferForHashes.subList(16000, audioBufferForHashes.size).toList()
                             audioBufferForHashes.clear()
+                            audioBufferForHashes.addAll(remaining)
+
                             val hashes = acousticFingerprinter.extractFingerprintsFromShorts(samples)
-                            syncEngine.onAudioHashesExtracted(hashes)
+                            syncEngine.onAudioHashesExtracted(hashes, bufferDurationMs = 3500L)
                         }
                     } else {
                         // Subtitles / Speech Pipeline

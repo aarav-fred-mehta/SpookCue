@@ -225,7 +225,7 @@ class SyncEngineTest {
         )
 
         simulatedTime = 5000L
-        syncEngine.onAudioHashesExtracted(sampleHashes, captureEndMs = 5000L)
+        syncEngine.onAudioHashesExtracted(sampleHashes, bufferDurationMs = 3000L)
 
         val state = syncEngine.state.value
         assertTrue("Expected MoviePlaying after hash lock but was $state", state is SyncState.MoviePlaying)

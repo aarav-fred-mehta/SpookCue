@@ -161,7 +161,7 @@ def main():
             "release_year": 2014,
             "runtime_minutes": 99,
             "scare_count": len(annabelle_movie["scares"]),
-            "poster_path": "/yLsuJm94ox5gacw7BwWwtqK0m17.jpg",
+            "poster_path": "/yLsuU2P2SpDYFwtZQ7dtfVAf6TE.jpg",
             "has_subtitles": True,
             "sync_type": "subtitles",
             "tags": ["HOT"]

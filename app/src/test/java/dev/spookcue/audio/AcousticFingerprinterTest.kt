@@ -76,7 +76,7 @@ class AcousticFingerprinterTest {
             AudioHashEntry(h = 507, t = 1800L)
         )
 
-        val result = matcher.match(sampleHashes, currentCaptureEndMs = 1800L)
+        val result = matcher.match(sampleHashes, bufferDurationMs = 1800L)
         assertNotNull("Expected positive hash match", result)
         assertEquals(11_800L, result!!.movieTimeMs)
         assertEquals(7, result.votes)

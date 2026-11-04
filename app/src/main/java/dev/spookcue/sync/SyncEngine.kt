@@ -33,7 +33,12 @@ data class SyncDebugInfo(
     val windowSegments: Int = 0,
     val topKScores: List<Float> = emptyList(),
     val instantDb: Float = 0f,
-    val stageName: String = "Idle"
+    val stageName: String = "Idle",
+    val syncMode: String = "subtitles",
+    val hashCount: Int = 0,
+    val hashVotes: Int = 0,
+    val hashRunnerUpVotes: Int = 0,
+    val isEnergyDropped: Boolean = false
 )
 
 @Singleton
@@ -343,12 +348,12 @@ class SyncEngine @Inject constructor(
     /**
      * Process acoustic hashes extracted from audio (Acoustic Hash mode).
      */
-    fun onAudioHashesExtracted(hashes: List<dev.spookcue.data.model.AudioHashEntry>, captureEndMs: Long = timeProvider()) {
-        if (hashes.isEmpty() || currentSyncData?.type != "audio_hash") return
+    fun onAudioHashesExtracted(hashes: List<dev.spookcue.data.model.AudioHashEntry>, bufferDurationMs: Long = 3500L) {
+        if (currentSyncData?.type != "audio_hash") return
 
         when (val currentState = _state.value) {
             is SyncState.FindingProgress -> {
-                val result = audioHashMatcher.match(hashes, captureEndMs)
+                val result = audioHashMatcher.match(hashes, bufferDurationMs)
                 if (result != null) {
                     movieClock.snap(result.movieTimeMs)
                     consecutiveMissedCheckpoints = 0
@@ -363,7 +368,7 @@ class SyncEngine @Inject constructor(
 
             is SyncState.MoviePlaying -> {
                 val currentMovieTime = movieClock.getCurrentMovieTimeMs()
-                val bounded = audioHashMatcher.matchBounded(hashes, captureEndMs, currentMovieTime, windowMs = 15_000L)
+                val bounded = audioHashMatcher.matchBounded(hashes, currentMovieTime, bufferDurationMs, windowMs = 15_000L)
                 if (bounded != null) {
                     consecutiveMissedCheckpoints = 0
                     val drift = bounded.movieTimeMs - currentMovieTime
@@ -386,8 +391,7 @@ class SyncEngine @Inject constructor(
             }
 
             is SyncState.MoviePaused -> {
-                // Tier 1: Check bounded around paused position
-                val bounded = audioHashMatcher.matchBounded(hashes, captureEndMs, currentState.pausedAtMovieTimeMs, windowMs = PAUSE_LOCAL_WINDOW_MS)
+                val bounded = audioHashMatcher.matchBounded(hashes, currentState.pausedAtMovieTimeMs, bufferDurationMs, windowMs = PAUSE_LOCAL_WINDOW_MS)
                 if (bounded != null) {
                     movieClock.snap(bounded.movieTimeMs)
                     consecutiveMissedCheckpoints = 0
@@ -402,6 +406,54 @@ class SyncEngine @Inject constructor(
 
             else -> Unit
         }
+
+        // Update debug state with live acoustic statistics
+        val diag = audioHashMatcher.lastDiagnostics
+        val stageStr = when (_state.value) {
+            is SyncState.FindingProgress -> "Stage 1: Finding Progress"
+            is SyncState.MoviePlaying -> "Stage 2: Movie Playing"
+            is SyncState.MoviePaused -> "Stage 3: Movie Paused"
+            else -> "Idle"
+        }
+        val instantDb = audioEnergyMeter.getInstantEnergyDb()
+        val energyDropped = audioEnergyMeter.isEnergyDropped()
+        _debugInfo.value = _debugInfo.value.copy(
+            syncMode = "audio_hash",
+            stageName = stageStr,
+            hashCount = hashes.size,
+            hashVotes = diag.bestVotes,
+            hashRunnerUpVotes = diag.runnerUpVotes,
+            matchedTimeMs = if (diag.bestEstimatedMovieTimeMs > 0) diag.bestEstimatedMovieTimeMs else null,
+            instantDb = instantDb,
+            isEnergyDropped = energyDropped,
+            consecutiveMisses = consecutiveMissedCheckpoints,
+            lastText = "Acoustic hashes: ${hashes.size} | Best votes: ${diag.bestVotes} (runner-up: ${diag.runnerUpVotes})"
+        )
+    }
+
+    fun simulateAcousticLock(movieTimeMs: Long = 600_000L) {
+        movieClock.snap(movieTimeMs)
+        consecutiveMissedCheckpoints = 0
+        _state.value = SyncState.MoviePlaying(
+            currentMovieTimeMs = movieTimeMs,
+            confidence = 0.95f,
+            nextScareCountdownMs = calculateNextScareCountdown()
+        )
+        _debugInfo.value = _debugInfo.value.copy(
+            syncMode = "audio_hash",
+            stageName = "Stage 2: Movie Playing (Simulated)",
+            hashVotes = 12,
+            hashRunnerUpVotes = 2,
+            matchedTimeMs = movieTimeMs,
+            lastText = "Simulated Acoustic Lock @ ${movieTimeMs / 1000}s"
+        )
+    }
+
+    fun simulateDrift(driftMs: Long) {
+        movieClock.adjustOffset(driftMs)
+        _debugInfo.value = _debugInfo.value.copy(
+            lastText = "Simulated Drift: ${driftMs}ms applied"
+        )
     }
 
     private fun findAgreement(

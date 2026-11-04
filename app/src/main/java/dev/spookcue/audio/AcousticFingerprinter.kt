@@ -32,7 +32,7 @@ class AcousticFingerprinter @Inject constructor() {
             128..255  // 2000 Hz - 4000 Hz
         )
 
-        const val MIN_PEAK_MAGNITUDE = 10.0f
+        const val MIN_PEAK_MAGNITUDE = 8.0f
     }
 
     private val hannWindow = FloatArray(FFT_SIZE) { i ->
@@ -112,7 +112,20 @@ class AcousticFingerprinter @Inject constructor() {
      * Extracts fingerprints directly from 16-bit ShortArray audio frames.
      */
     fun extractFingerprintsFromShorts(samples: ShortArray, startTimestampOffsetMs: Long = 0L): List<AudioHashEntry> {
-        val floats = FloatArray(samples.size) { samples[it] / 32768.0f }
+        if (samples.isEmpty()) return emptyList()
+
+        var maxSample = 0
+        for (s in samples) {
+            val a = kotlin.math.abs(s.toInt())
+            if (a > maxSample) maxSample = a
+        }
+
+        // Gate out pure silence / ambient room murmur without movie audio
+        if (maxSample < 40) return emptyList()
+
+        // Dynamic gain normalization: scales phone mic audio to digital master range
+        val scale = 0.95f / (maxSample.toFloat() / 32768.0f)
+        val floats = FloatArray(samples.size) { (samples[it] / 32768.0f) * scale }
         return extractFingerprints(floats, startTimestampOffsetMs)
     }
 

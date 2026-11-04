@@ -70,6 +70,7 @@ import dev.spookcue.ui.theme.LunarSurface
 import dev.spookcue.ui.theme.LunarWhite
 import dev.spookcue.ui.theme.PureBlack
 import dev.spookcue.ui.theme.TheaterAmber
+import dev.spookcue.ui.theme.CrimsonLight
 import dev.spookcue.ui.theme.TheaterAmberDim
 import dev.spookcue.util.formatCountdownMs
 import dev.spookcue.util.formatTimeMs
@@ -267,6 +268,9 @@ fun SyncScreen(
                                 liveTranscript = liveTranscript,
                                 debugInfo = debugInfo,
                                 onSimulate = { viewModel.simulateSpeech(it) },
+                                onSimulateHashLock = { viewModel.simulateAcousticLock() },
+                                onSimulateDrift = { viewModel.simulateDrift(it) },
+                                onTogglePause = { viewModel.togglePause() },
                                 isAudioHash = movie?.syncType == "audio_hash",
                                 modifier = Modifier
                                     .fillMaxWidth()
@@ -597,6 +601,9 @@ private fun AudioDebugConsole(
     liveTranscript: String,
     debugInfo: dev.spookcue.sync.SyncDebugInfo,
     onSimulate: (String) -> Unit,
+    onSimulateHashLock: () -> Unit = {},
+    onSimulateDrift: (Long) -> Unit = {},
+    onTogglePause: () -> Unit = {},
     isAudioHash: Boolean = false,
     modifier: Modifier = Modifier
 ) {
@@ -606,6 +613,30 @@ private fun AudioDebugConsole(
             .border(1.dp, LunarBorder, RoundedCornerShape(10.dp))
             .padding(12.dp)
     ) {
+        // Top Mode & Stage Banner
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Text(
+                text = if (isAudioHash) "MODE: ACOUSTIC HASH" else "MODE: PHONETIC DIALOGUE",
+                fontSize = 10.sp,
+                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.Bold,
+                color = CrimsonLight
+            )
+            Text(
+                text = debugInfo.stageName.uppercase(),
+                fontSize = 9.sp,
+                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.Bold,
+                color = TheaterAmber
+            )
+        }
+
+        Spacer(modifier = Modifier.height(4.dp))
+
         // VU Audio Level Meter
         Row(
             modifier = Modifier.fillMaxWidth(),
@@ -617,14 +648,14 @@ private fun AudioDebugConsole(
                 fontSize = 10.sp,
                 fontFamily = FontFamily.Monospace,
                 fontWeight = FontWeight.Bold,
-                color = if (speechDetected) TheaterAmber else LunarSlateMuted
+                color = if (speechDetected || rmsDb > 35f) TheaterAmber else LunarSlateMuted
             )
             Text(
-                text = if (speechDetected) "VOICE DETECTED" else if (isListening) "LISTENING" else "MIC READY",
+                text = if (debugInfo.isEnergyDropped) "SILENCE DROPPED" else if (rmsDb > 38f) "SOUNDSCAPE ACTIVE" else if (isListening) "LISTENING" else "MIC READY",
                 fontSize = 9.sp,
                 fontFamily = FontFamily.Monospace,
                 fontWeight = FontWeight.Bold,
-                color = if (speechDetected) TheaterAmber else LunarSlateDim
+                color = if (debugInfo.isEnergyDropped) CrimsonLight else if (speechDetected || rmsDb > 38f) TheaterAmber else LunarSlateDim
             )
         }
 
@@ -637,109 +668,185 @@ private fun AudioDebugConsole(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(4.dp),
-            color = if (speechDetected) TheaterAmber else LunarSlateMuted,
+            color = if (debugInfo.isEnergyDropped) CrimsonLight else if (speechDetected || rmsDb > 38f) TheaterAmber else LunarSlateMuted,
             trackColor = PureBlack
         )
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Live transcription stream
-        val displayedText = if (isAudioHash) {
-            if (debugInfo.lastText.isNotBlank()) debugInfo.lastText else "Sampling audio landmarks (Acoustic mode)..."
-        } else if (liveTranscript.isNotBlank()) {
-            liveTranscript
-        } else if (debugInfo.lastText.isNotBlank()) {
-            debugInfo.lastText
-        } else {
-            "Listening for dialogue around you..."
-        }
-
-        Text(
-            text = "TRANSCRIPT: \"$displayedText\"",
-            fontSize = 11.sp,
-            fontFamily = FontFamily.Monospace,
-            color = LunarWhite,
-            maxLines = 2,
-            overflow = TextOverflow.Ellipsis
-        )
-
-        if (debugInfo.windowText.isNotBlank() && debugInfo.windowText != displayedText) {
-            Spacer(modifier = Modifier.height(2.dp))
+        if (isAudioHash) {
+            // ACOUSTIC HASH STATUS
             Text(
-                text = "WINDOW (${debugInfo.windowSegments}): \"${debugInfo.windowText}\"",
-                fontSize = 10.sp,
+                text = "LANDMARKS: ${debugInfo.lastText}",
+                fontSize = 11.sp,
                 fontFamily = FontFamily.Monospace,
-                color = LunarSlateDim,
+                color = LunarWhite,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis
             )
-        }
 
-        Spacer(modifier = Modifier.height(4.dp))
+            Spacer(modifier = Modifier.height(4.dp))
 
-        // Phonetic tokens & match score
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Text(
-                text = "TOKENS: ${debugInfo.tokens.ifEmpty { listOf("None") }.take(4).joinToString(", ")}",
-                fontSize = 9.sp,
-                fontFamily = FontFamily.Monospace,
-                color = LunarSlateDim
-            )
-            val matchPct = (debugInfo.matchScore * 100).toInt()
-            val timeLabel = debugInfo.matchedTimeMs?.let { "at " + it.formatTimeMs() } ?: ""
-            val staleInfo = if (debugInfo.staleMissCount > 0) " (Misses: ${debugInfo.staleMissCount})" else ""
-            Text(
-                text = "BEST: $matchPct% $timeLabel$staleInfo",
-                fontSize = 9.sp,
-                fontFamily = FontFamily.Monospace,
-                color = if (debugInfo.matchScore >= 0.7f) TheaterAmber else if (debugInfo.matchScore >= 0.4f) LunarSlate else LunarSlateDim,
-                fontWeight = FontWeight.Bold
-            )
-        }
-
-        if (debugInfo.topKScores.size > 1) {
-            Spacer(modifier = Modifier.height(2.dp))
-            Text(
-                text = "TOP-K SCORES: ${debugInfo.topKScores.joinToString(", ") { "${(it * 100).toInt()}%" }}",
-                fontSize = 9.sp,
-                fontFamily = FontFamily.Monospace,
-                color = LunarSlateDim
-            )
-        }
-
-        Spacer(modifier = Modifier.height(6.dp))
-
-        // Dialogue Test Simulation Buttons
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(6.dp)
-        ) {
-            OutlinedButton(
-                onClick = { onSimulate("Did you hear that noise upstairs?") },
-                border = BorderStroke(1.dp, LunarBorder),
-                shape = RoundedCornerShape(6.dp),
-                contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
-                modifier = Modifier.weight(1f)
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
             ) {
-                Text("Test Speech #1", fontSize = 9.sp, color = LunarSlate)
+                Text(
+                    text = "VOTES: ${debugInfo.hashVotes} (Runner-up: ${debugInfo.hashRunnerUpVotes})",
+                    fontSize = 9.sp,
+                    fontFamily = FontFamily.Monospace,
+                    color = if (debugInfo.hashVotes >= 5) TheaterAmber else LunarSlateDim,
+                    fontWeight = FontWeight.Bold
+                )
+                val timeLabel = debugInfo.matchedTimeMs?.let { "at " + it.formatTimeMs() } ?: "Scanning..."
+                Text(
+                    text = "CANDIDATE: $timeLabel",
+                    fontSize = 9.sp,
+                    fontFamily = FontFamily.Monospace,
+                    color = LunarSlateDim
+                )
             }
 
-            OutlinedButton(
-                onClick = { onSimulate("Look in the closet right now") },
-                border = BorderStroke(1.dp, LunarBorder),
-                shape = RoundedCornerShape(6.dp),
-                contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
-                modifier = Modifier.weight(1f)
+            Spacer(modifier = Modifier.height(2.dp))
+
+            Text(
+                text = "PAUSE DETECTOR: Misses ${debugInfo.consecutiveMisses}/4 | Energy: ${if (debugInfo.isEnergyDropped) "Dropped (Pause imminent)" else "Soundscape Normal"}",
+                fontSize = 9.sp,
+                fontFamily = FontFamily.Monospace,
+                color = if (debugInfo.isEnergyDropped) CrimsonLight else LunarSlateDim
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Text(
+                text = "ACOUSTIC TEST SIMULATION:",
+                fontSize = 9.sp,
+                fontFamily = FontFamily.Monospace,
+                color = LunarSlateMuted,
+                fontWeight = FontWeight.Bold
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
             ) {
-                Text("Test Speech #2", fontSize = 9.sp, color = LunarSlate)
+                OutlinedButton(
+                    onClick = onSimulateHashLock,
+                    border = BorderStroke(1.dp, TheaterAmber.copy(alpha = 0.5f)),
+                    shape = RoundedCornerShape(6.dp),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Text("Lock 10m", fontSize = 9.sp, color = TheaterAmber)
+                }
+
+                OutlinedButton(
+                    onClick = { onSimulateDrift(1500L) },
+                    border = BorderStroke(1.dp, LunarBorder),
+                    shape = RoundedCornerShape(6.dp),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Text("Drift +1.5s", fontSize = 9.sp, color = LunarSlate)
+                }
+
+                OutlinedButton(
+                    onClick = onTogglePause,
+                    border = BorderStroke(1.dp, LunarBorder),
+                    shape = RoundedCornerShape(6.dp),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Text("Toggle Pause", fontSize = 9.sp, color = LunarSlate)
+                }
+            }
+        } else {
+            // SUBTITLES / PHONETIC METRICS & BUTTONS
+            val displayedText = if (liveTranscript.isNotBlank()) liveTranscript else if (debugInfo.lastText.isNotBlank()) debugInfo.lastText else "Listening for dialogue around you..."
+            Text(
+                text = "TRANSCRIPT: \"$displayedText\"",
+                fontSize = 11.sp,
+                fontFamily = FontFamily.Monospace,
+                color = LunarWhite,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis
+            )
+
+            if (debugInfo.windowText.isNotBlank() && debugInfo.windowText != displayedText) {
+                Spacer(modifier = Modifier.height(2.dp))
+                Text(
+                    text = "WINDOW (${debugInfo.windowSegments}): \"${debugInfo.windowText}\"",
+                    fontSize = 10.sp,
+                    fontFamily = FontFamily.Monospace,
+                    color = LunarSlateDim,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis
+                )
+            }
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text(
+                    text = "TOKENS: ${debugInfo.tokens.ifEmpty { listOf("None") }.take(4).joinToString(", ")}",
+                    fontSize = 9.sp,
+                    fontFamily = FontFamily.Monospace,
+                    color = LunarSlateDim
+                )
+                val matchPct = (debugInfo.matchScore * 100).toInt()
+                val timeLabel = debugInfo.matchedTimeMs?.let { "at " + it.formatTimeMs() } ?: ""
+                val staleInfo = if (debugInfo.staleMissCount > 0) " (Misses: ${debugInfo.staleMissCount})" else ""
+                Text(
+                    text = "BEST: $matchPct% $timeLabel$staleInfo",
+                    fontSize = 9.sp,
+                    fontFamily = FontFamily.Monospace,
+                    color = if (debugInfo.matchScore >= 0.7f) TheaterAmber else if (debugInfo.matchScore >= 0.4f) LunarSlate else LunarSlateDim,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            if (debugInfo.topKScores.size > 1) {
+                Spacer(modifier = Modifier.height(2.dp))
+                Text(
+                    text = "TOP-K SCORES: ${debugInfo.topKScores.joinToString(", ") { "${(it * 100).toInt()}%" }}",
+                    fontSize = 9.sp,
+                    fontFamily = FontFamily.Monospace,
+                    color = LunarSlateDim
+                )
+            }
+
+            Spacer(modifier = Modifier.height(6.dp))
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                OutlinedButton(
+                    onClick = { onSimulate("Did you hear that noise upstairs?") },
+                    border = BorderStroke(1.dp, LunarBorder),
+                    shape = RoundedCornerShape(6.dp),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Text("Test Speech #1", fontSize = 9.sp, color = LunarSlate)
+                }
+
+                OutlinedButton(
+                    onClick = { onSimulate("Look in the closet right now") },
+                    border = BorderStroke(1.dp, LunarBorder),
+                    shape = RoundedCornerShape(6.dp),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp),
+                    modifier = Modifier.weight(1f)
+                ) {
+                    Text("Test Speech #2", fontSize = 9.sp, color = LunarSlate)
+                }
             }
         }
     }
 }
-
 @Composable
 private fun NextScareTab(
     scare: JumpScare,

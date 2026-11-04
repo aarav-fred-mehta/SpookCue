@@ -57,7 +57,7 @@ FREQ_BANDS = [
     (64, 127),   # 1000 Hz - 2000 Hz
     (128, 255),  # 2000 Hz - 4000 Hz
 ]
-MIN_PEAK_MAGNITUDE = 10.0
+MIN_PEAK_MAGNITUDE = 6.0  # Aligned with SpookCue AcousticFingerprinter.kt
 
 AUDIO_EXTENSIONS = {
     ".mp4", ".mp3", ".m4a", ".mkv", ".wav",
@@ -184,17 +184,57 @@ def encode_hash(f1: int, f2: int, delta_frames: int) -> int:
 
 
 def extract_landmark_hashes(audio_samples: np.ndarray, sample_rate: int = SAMPLE_RATE) -> List[Dict[str, int]]:
-    """Extract spectral peak constellation landmark pairs compatible with SpookCue."""
+    """Extract spectral peak constellation landmark pairs compatible with SpookCue.
+
+    Applies sliding window Automatic Gain Control (AGC) matching SpookCue's dynamic gain
+    normalization on Android. This preserves quiet dialogue, whispers, suspense chords,
+    and tense ambient cues without amplifying silence or room noise.
+    """
     if len(audio_samples) < FFT_SIZE:
         return []
 
     window = np.hanning(FFT_SIZE)
     num_frames = (len(audio_samples) - FFT_SIZE) // HOP_SIZE + 1
-    peaks: List[Tuple[int, int, float]] = []
+
+    # 1. Compute frame-level peak envelopes (512 samples / 32ms per hop)
+    n_full_hops = len(audio_samples) // HOP_SIZE
+    frame_maxes = np.max(np.abs(audio_samples[:n_full_hops * HOP_SIZE].reshape(-1, HOP_SIZE)), axis=1)
+
+    # 2. Sliding 3.5s window max (109 frames @ 32ms hop)
+    win_frames = 109
+    pad = win_frames // 2
+    padded = np.pad(frame_maxes, (pad, pad), mode="edge")
+
+    try:
+        from numpy.lib.stride_tricks import sliding_window_view
+        sw = sliding_window_view(padded, win_frames)
+        local_peaks = np.max(sw[:num_frames], axis=-1)
+    except Exception:
+        try:
+            from scipy.ndimage import maximum_filter1d
+            local_peaks = maximum_filter1d(frame_maxes[:num_frames], size=win_frames)
+        except Exception:
+            local_peaks = np.maximum(frame_maxes[:num_frames], 1e-4)
+
+    # 3. Dynamic scale matching Android AcousticFingerprinter:
+    # Scale audio so local 3.5s peak is ~0.95, clamped to [1.0x, 24.0x] max gain.
+    # Gate out silence if local peak < 60 / 32768 (~0.00183) so resting noise is not amplified.
+    silence_gate = 60.0 / 32768.0
+    scales = np.where(
+        local_peaks < silence_gate,
+        0.0,
+        np.minimum(24.0, 0.95 / np.maximum(local_peaks, 1e-6))
+    )
+
+    # 4. Extract spectral peaks
+    peaks: List[Tuple[int, int]] = []
 
     for frame_idx in range(num_frames):
+        scale = float(scales[frame_idx])
+        if scale == 0.0:
+            continue
         offset = frame_idx * HOP_SIZE
-        frame = audio_samples[offset:offset + FFT_SIZE] * window
+        frame = audio_samples[offset:offset + FFT_SIZE] * scale * window
         spectrum = np.fft.rfft(frame)
         magnitudes = np.abs(spectrum)
 
@@ -206,16 +246,18 @@ def extract_landmark_hashes(audio_samples: np.ndarray, sample_rate: int = SAMPLE
             max_val = float(band_mags[max_idx])
             if max_val > MIN_PEAK_MAGNITUDE:
                 best_bin = b_low + max_idx
-                peaks.append((frame_idx, best_bin, max_val))
+                peaks.append((frame_idx, best_bin))
 
+    # 5. Pair peaks to form landmark hashes
+    # (Stationary drone rejection: discard pairs where |f1 - f2| < 2)
     peaks.sort(key=lambda p: p[0])
     hashes: List[Dict[str, int]] = []
 
     for i in range(len(peaks)):
-        anchor_frame, anchor_bin, _ = peaks[i]
+        anchor_frame, anchor_bin = peaks[i]
         pairs_found = 0
         for j in range(i + 1, len(peaks)):
-            target_frame, target_bin, _ = peaks[j]
+            target_frame, target_bin = peaks[j]
             delta_frames = target_frame - anchor_frame
             if delta_frames > MAX_DELTA_FRAMES:
                 break
@@ -271,10 +313,13 @@ def sync_via_local_git(
 
     for tmdb_id, hash_path in hash_files:
         dest_sync = sync_dir / f"{tmdb_id}.json"
+        dest_assets_sync = spookcue_path / "app" / "src" / "main" / "assets" / "sync" / f"{tmdb_id}.json"
 
         if dry_run:
             logger.info("[DRY RUN] Would copy %s -> %s", hash_path.name, dest_sync)
             staged_files.append(dest_sync)
+            if dest_assets_sync.parent.exists():
+                staged_files.append(dest_assets_sync)
             tmdb_ids_updated.append(tmdb_id)
             continue
 
@@ -284,6 +329,9 @@ def sync_via_local_git(
         content = hash_path.read_bytes()
         dest_sync.write_bytes(content)
         staged_files.append(dest_sync)
+        if dest_assets_sync.parent.exists():
+            dest_assets_sync.write_bytes(content)
+            staged_files.append(dest_assets_sync)
         tmdb_ids_updated.append(tmdb_id)
 
         # Update sync_type in data/movies/<tmdb_id>.json if movie details exist

@@ -24,7 +24,7 @@ FREQ_BANDS = [
     (64, 127),   # 1000 Hz - 2000 Hz
     (128, 255),  # 2000 Hz - 4000 Hz
 ]
-MIN_PEAK_MAGNITUDE = 10.0
+MIN_PEAK_MAGNITUDE = 6.0
 
 
 def encode_hash(f1: int, f2: int, delta_frames: int) -> int:
@@ -40,11 +40,41 @@ def extract_landmark_hashes(audio_samples: np.ndarray, sample_rate: int = 16000)
 
     window = np.hanning(FFT_SIZE)
     num_frames = (len(audio_samples) - FFT_SIZE) // HOP_SIZE + 1
-    peaks = []
 
+    # Frame-level peak envelopes
+    n_full_hops = len(audio_samples) // HOP_SIZE
+    frame_maxes = np.max(np.abs(audio_samples[:n_full_hops * HOP_SIZE].reshape(-1, HOP_SIZE)), axis=1)
+
+    # Sliding 3.5s window max (109 frames @ 32ms hop)
+    win_frames = 109
+    pad = win_frames // 2
+    padded = np.pad(frame_maxes, (pad, pad), mode="edge")
+
+    try:
+        from numpy.lib.stride_tricks import sliding_window_view
+        sw = sliding_window_view(padded, win_frames)
+        local_peaks = np.max(sw[:num_frames], axis=-1)
+    except Exception:
+        try:
+            from scipy.ndimage import maximum_filter1d
+            local_peaks = maximum_filter1d(frame_maxes[:num_frames], size=win_frames)
+        except Exception:
+            local_peaks = np.maximum(frame_maxes[:num_frames], 1e-4)
+
+    silence_gate = 60.0 / 32768.0
+    scales = np.where(
+        local_peaks < silence_gate,
+        0.0,
+        np.minimum(24.0, 0.95 / np.maximum(local_peaks, 1e-6))
+    )
+
+    peaks = []
     for frame_idx in range(num_frames):
+        scale = float(scales[frame_idx])
+        if scale == 0.0:
+            continue
         offset = frame_idx * HOP_SIZE
-        frame = audio_samples[offset:offset + FFT_SIZE] * window
+        frame = audio_samples[offset:offset + FFT_SIZE] * scale * window
         spectrum = np.fft.rfft(frame)
         magnitudes = np.abs(spectrum)
 
@@ -52,20 +82,20 @@ def extract_landmark_hashes(audio_samples: np.ndarray, sample_rate: int = 16000)
             band_mags = magnitudes[b_low:b_high + 1]
             if len(band_mags) == 0:
                 continue
-            max_idx = np.argmax(band_mags)
-            max_val = band_mags[max_idx]
+            max_idx = int(np.argmax(band_mags))
+            max_val = float(band_mags[max_idx])
             if max_val > MIN_PEAK_MAGNITUDE:
                 best_bin = b_low + max_idx
-                peaks.append((frame_idx, best_bin, float(max_val)))
+                peaks.append((frame_idx, best_bin))
 
     peaks.sort(key=lambda p: p[0])
     hashes = []
 
     for i in range(len(peaks)):
-        anchor_frame, anchor_bin, _ = peaks[i]
+        anchor_frame, anchor_bin = peaks[i]
         pairs_found = 0
         for j in range(i + 1, len(peaks)):
-            target_frame, target_bin, _ = peaks[j]
+            target_frame, target_bin = peaks[j]
             delta_frames = target_frame - anchor_frame
             if delta_frames > MAX_DELTA_FRAMES:
                 break

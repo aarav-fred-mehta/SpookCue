@@ -17,9 +17,9 @@ class AudioHashMatcher @Inject constructor() {
     companion object {
         private const val TAG = "AudioHashMatcher"
         const val BUCKET_SIZE_MS = 300L // 300ms histogram resolution
-        const val MIN_CONSENSUS_VOTES = 5 // Minimum peak pair alignments required for full search
-        const val MIN_WEIGHTED_SCORE = 8.0f // Minimum uniqueness score required (lowered for living-room dialogue)
-        const val CONFIDENCE_RATIO_THRESHOLD = 1.4f // Primary bucket score vs runner-up score
+        const val MIN_CONSENSUS_VOTES = 6 // Minimum peak pair alignments required for full search
+        const val MIN_WEIGHTED_SCORE = 10.0f // Minimum uniqueness score required
+        const val CONFIDENCE_RATIO_THRESHOLD = 1.6f // Primary bucket score vs runner-up score
         const val MAX_KEY_OCCURRENCES = 25 // Stop-word threshold to prune repetitive drone/noise frequencies
     }
 

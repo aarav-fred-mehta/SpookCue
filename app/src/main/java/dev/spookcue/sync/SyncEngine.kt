@@ -370,22 +370,22 @@ class SyncEngine @Inject constructor(
                     val prev = pendingAcousticCandidate
                     val ratio = if (result.runnerUpVotes > 0) result.votes.toFloat() / result.runnerUpVotes else 999f
 
-                    // Fast lock if isolated clean match (runnerUp == 0 with votes >= 6) or dominant ratio >= 2.2f with 25+ votes
-                    val isFastLock = (result.runnerUpVotes == 0 && result.votes >= 6) ||
-                        (result.votes >= 25 && ratio >= 2.2f)
+                    // Fast lock strictly for isolated clean match with zero runner-up votes (e.g. tests or pristine quiet audio).
+                    // NEVER fast-lock on a single window if runnerUpVotes > 0 to eliminate noise-floor false snaps!
+                    val isFastLock = (result.runnerUpVotes == 0 && result.votes >= 6)
 
                     var consensusConfirmed = isFastLock
                     var newHits = 1
 
-                    if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 8000L) {
+                    if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 2500L) {
                         val deltaMovie = result.movieTimeMs - prev.movieTimeMs
                         val deltaSystem = now - prev.systemTimeMs
-                        // Forward trajectory agreement: movie must advance roughly in sync with wall clock
+                        // Forward trajectory agreement: movie must advance in sync with wall clock
                         if (deltaMovie >= 0L && abs(deltaMovie - deltaSystem) <= 1200L) {
                             newHits = prev.consensusHits + 1
                             val requiredHits = when {
-                                result.votes >= 18 && ratio >= 1.8f -> 2
-                                result.votes >= 6 && ratio >= 1.4f -> 2
+                                ratio >= 2.0f && result.votes >= 6 -> 2
+                                result.votes >= 12 && ratio >= 1.6f -> 2
                                 else -> 3
                             }
                             if (newHits >= requiredHits) {
@@ -406,14 +406,17 @@ class SyncEngine @Inject constructor(
                         )
                     } else {
                         // Register or update pending candidate
+                        // Register or update pending candidate:
+                        // If previous candidate was only an unconfirmed single hit and didn't match trajectory,
+                        // or is older than 1500ms, allow any valid candidate (even quiet dialogue) to replace it immediately!
                         if (newHits > 1) {
                             pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = newHits)
                             AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}, hits: $newHits) confirmed trajectory — awaiting lock")
-                        } else if (prev == null || (now - prev.systemTimeMs) > 6000L || result.votes >= prev.votes) {
+                        } else if (prev == null || (now - prev.systemTimeMs) > 1500L || prev.consensusHits == 1 || result.votes >= prev.votes) {
                             pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = 1)
                             AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) registered — awaiting trajectory confirmation")
                         } else {
-                            AppLogger.d(TAG, "Ignoring weaker candidate @ ${result.movieTimeMs / 1000}s (${result.votes} vs ${prev.votes} votes)")
+                            AppLogger.d(TAG, "Ignoring candidate @ ${result.movieTimeMs / 1000}s (${result.votes} vs ${prev.votes} votes)")
                         }
                         _state.value = SyncState.FindingProgress(
                             candidatesFound = newHits,

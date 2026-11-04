@@ -370,10 +370,9 @@ class SyncEngine @Inject constructor(
                     val prev = pendingAcousticCandidate
                     val ratio = if (result.runnerUpVotes > 0) result.votes.toFloat() / result.runnerUpVotes else 999f
 
-                    // Fast lock if isolated clean match (runnerUp == 0) or strong dominant consensus
+                    // Fast lock if isolated clean match (runnerUp == 0 with votes >= 6) or dominant ratio >= 2.2f with 25+ votes
                     val isFastLock = (result.runnerUpVotes == 0 && result.votes >= 6) ||
-                        (result.votes >= 25 && ratio >= 2.5f) ||
-                        (result.votes >= 35)
+                        (result.votes >= 25 && ratio >= 2.2f)
 
                     var consensusConfirmed = isFastLock
                     var newHits = 1
@@ -386,8 +385,7 @@ class SyncEngine @Inject constructor(
                             newHits = prev.consensusHits + 1
                             val requiredHits = when {
                                 result.votes >= 18 && ratio >= 1.8f -> 2
-                                result.votes >= 6 && ratio >= 2.0f -> 2
-                                result.votes >= 12 -> 2
+                                result.votes >= 6 && ratio >= 1.4f -> 2
                                 else -> 3
                             }
                             if (newHits >= requiredHits) {

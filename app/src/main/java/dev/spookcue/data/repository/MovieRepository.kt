@@ -73,7 +73,13 @@ class MovieRepositoryImpl @Inject constructor(
     }
 
     override suspend fun getMovieDetails(tmdbId: Int): Result<MovieDetails> = withContext(ioDispatcher) {
-        // 1. Check local disk cache
+        // 1. Check bundled assets first (assets/movies/{tmdbId}.json)
+        val bundled = assetLoader.loadMovieDetails(tmdbId)
+        if (bundled != null) {
+            return@withContext Result.success(bundled)
+        }
+
+        // 2. Check local disk cache (downloaded from CDN for unbundled movies)
         val diskFile = File(baseFilesDir, "movies/$tmdbId.json")
         if (diskFile.exists()) {
             runCatching {
@@ -85,12 +91,6 @@ class MovieRepositoryImpl @Inject constructor(
                     return@withContext Result.success(cached)
                 }
             }
-        }
-
-        // 2. Check bundled assets (assets/movies/{tmdbId}.json)
-        val bundled = assetLoader.loadMovieDetails(tmdbId)
-        if (bundled != null) {
-            return@withContext Result.success(bundled)
         }
 
         // 3. Fallback to remote CDN
@@ -105,7 +105,13 @@ class MovieRepositoryImpl @Inject constructor(
     }
 
     override suspend fun getMovieSyncData(tmdbId: Int): Result<MovieSyncData> = withContext(ioDispatcher) {
-        // 1. Check local disk cache
+        // 1. Check bundled assets first (assets/sync/{tmdbId}.json)
+        val bundled = assetLoader.loadMovieSyncData(tmdbId)
+        if (bundled != null) {
+            return@withContext Result.success(bundled)
+        }
+
+        // 2. Check local disk cache (downloaded from CDN for unbundled movies)
         val diskFile = File(baseFilesDir, "sync/$tmdbId.json")
         if (diskFile.exists()) {
             runCatching {
@@ -117,12 +123,6 @@ class MovieRepositoryImpl @Inject constructor(
                     return@withContext Result.success(cached)
                 }
             }
-        }
-
-        // 2. Check bundled assets (assets/sync/{tmdbId}.json)
-        val bundled = assetLoader.loadMovieSyncData(tmdbId)
-        if (bundled != null) {
-            return@withContext Result.success(bundled)
         }
 
         // 3. Fallback to remote CDN

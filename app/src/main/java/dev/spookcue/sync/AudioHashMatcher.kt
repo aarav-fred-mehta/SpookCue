@@ -17,9 +17,9 @@ class AudioHashMatcher @Inject constructor() {
     companion object {
         private const val TAG = "AudioHashMatcher"
         const val BUCKET_SIZE_MS = 300L // 300ms histogram resolution
-        const val MIN_CONSENSUS_VOTES = 6 // Minimum peak pair alignments required for full search
-        const val MIN_WEIGHTED_SCORE = 12.0f // Minimum uniqueness score required (noise ceiling is 10.0)
-        const val CONFIDENCE_RATIO_THRESHOLD = 1.7f // Primary bucket score vs runner-up score
+        const val MIN_CONSENSUS_VOTES = 5 // Minimum peak pair alignments required for full search
+        const val MIN_WEIGHTED_SCORE = 8.0f // Minimum uniqueness score required (lowered for living-room dialogue)
+        const val CONFIDENCE_RATIO_THRESHOLD = 1.4f // Primary bucket score vs runner-up score
         const val MAX_KEY_OCCURRENCES = 25 // Stop-word threshold to prune repetitive drone/noise frequencies
     }
 
@@ -162,13 +162,15 @@ class AudioHashMatcher @Inject constructor() {
         )
 
         if (isLocked) {
-            AppLogger.i(TAG, "Acoustic hash match locked! Votes=$votes (score=%.1f), runnerUpVotes=$runnerUpVotes (runnerScore=%.1f, ratio=%.1f), estimatedMovieTime=${estimatedMovieTimeMs / 1000}s".format(score, runnerUpScore, ratio))
+            AppLogger.i(TAG, "Acoustic hash candidate! Votes=$votes (score=%.1f), runnerUpVotes=$runnerUpVotes (runnerScore=%.1f, ratio=%.1f), estTime=${estimatedMovieTimeMs / 1000}s".format(score, runnerUpScore, ratio))
             return HashMatchResult(
                 movieTimeMs = estimatedMovieTimeMs,
                 confidence = confidence,
                 votes = votes,
                 runnerUpVotes = runnerUpVotes
             )
+        } else {
+            AppLogger.d(TAG, "Acoustic candidate rejected: Votes=$votes (score=%.1f), runnerUpVotes=$runnerUpVotes (runnerScore=%.1f, ratio=%.1f), estTime=${estimatedMovieTimeMs / 1000}s".format(score, runnerUpScore, ratio))
         }
 
         return null

@@ -367,11 +367,11 @@ class SyncEngine @Inject constructor(
                 if (result != null) {
                     val now = timeProvider()
                     val prev = pendingAcousticCandidate
+                    val ratio = if (result.runnerUpVotes > 0) result.votes.toFloat() / result.runnerUpVotes else 999f
 
-                    // Fast lock if runnerUp is 0 (isolated clear match / test case), or votes >= 35 (indisputable acoustic match),
-                    // or votes >= 20 with 2.0x runner-up ratio
-                    val isFastLock = result.runnerUpVotes == 0 || result.votes >= 35 ||
-                        (result.votes >= 20 && (result.runnerUpVotes == 0 || result.votes.toFloat() / result.runnerUpVotes >= 2.0f))
+                    // Fast lock if runnerUp is 0 (isolated clean scene) or votes >= 25 with 2.5x runner-up ratio
+                    val isFastLock = (result.runnerUpVotes == 0 && result.votes >= 6) ||
+                        (result.votes >= 25 && ratio >= 2.5f)
 
                     var consensusConfirmed = isFastLock
                     if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 8000L) {
@@ -387,15 +387,20 @@ class SyncEngine @Inject constructor(
                         pendingAcousticCandidate = null
                         movieClock.snap(result.movieTimeMs)
                         consecutiveMissedCheckpoints = 0
-                        AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}) <<<")
+                        AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}, ratio=%.1f) <<<".format(ratio))
                         _state.value = SyncState.MoviePlaying(
                             currentMovieTimeMs = result.movieTimeMs,
                             confidence = result.confidence,
                             nextScareCountdownMs = calculateNextScareCountdown()
                         )
                     } else {
-                        pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes)
-                        AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) detected — awaiting temporal confirmation")
+                        // Only register / replace pending candidate if higher confidence or previous candidate expired
+                        if (prev == null || (now - prev.systemTimeMs) > 6000L || result.votes >= prev.votes) {
+                            pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes)
+                            AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) registered — awaiting confirmation")
+                        } else {
+                            AppLogger.d(TAG, "Ignoring weaker candidate @ ${result.movieTimeMs / 1000}s (${result.votes} vs ${prev.votes} votes)")
+                        }
                         _state.value = SyncState.FindingProgress(
                             candidatesFound = 1,
                             startedAtMs = currentState.startedAtMs

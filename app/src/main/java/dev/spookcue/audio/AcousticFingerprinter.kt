@@ -120,8 +120,8 @@ class AcousticFingerprinter @Inject constructor() {
             if (a > maxSample) maxSample = a
         }
 
-        // Gate out ambient room murmur / quiet pauses without active movie audio
-        if (maxSample < 250) return emptyList()
+        // Gate out resting microphone silence while preserving normal room dialogue
+        if (maxSample < 80) return emptyList()
 
         // Dynamic gain normalization: scales phone mic audio to digital master range,
         // clamped to 8.0x max gain to prevent amplifying electrical noise floor into false peaks

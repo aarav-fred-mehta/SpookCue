@@ -368,11 +368,13 @@ class SyncEngine @Inject constructor(
                     val now = timeProvider()
                     val prev = pendingAcousticCandidate
 
-                    // Fast lock if runnerUp is 0 (isolated clear match / test case) or votes are overwhelmingly high (>= 30 with 3x runner-up)
-                    val isFastLock = result.runnerUpVotes == 0 || (result.votes >= 30 && (result.runnerUpVotes == 0 || result.votes.toFloat() / result.runnerUpVotes >= 3.0f))
+                    // Fast lock if runnerUp is 0 (isolated clear match / test case), or votes >= 35 (indisputable acoustic match),
+                    // or votes >= 20 with 2.0x runner-up ratio
+                    val isFastLock = result.runnerUpVotes == 0 || result.votes >= 35 ||
+                        (result.votes >= 20 && (result.runnerUpVotes == 0 || result.votes.toFloat() / result.runnerUpVotes >= 2.0f))
 
                     var consensusConfirmed = isFastLock
-                    if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 4500L) {
+                    if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 8000L) {
                         val deltaMovie = result.movieTimeMs - prev.movieTimeMs
                         val deltaSystem = now - prev.systemTimeMs
                         // Trajectory agreement within 1500ms
@@ -400,7 +402,7 @@ class SyncEngine @Inject constructor(
                         )
                     }
                 } else {
-                    if (pendingAcousticCandidate != null && (timeProvider() - pendingAcousticCandidate!!.systemTimeMs) > 4500L) {
+                    if (pendingAcousticCandidate != null && (timeProvider() - pendingAcousticCandidate!!.systemTimeMs) > 8000L) {
                         pendingAcousticCandidate = null
                     }
                 }

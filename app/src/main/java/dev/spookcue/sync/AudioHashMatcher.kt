@@ -18,8 +18,8 @@ class AudioHashMatcher @Inject constructor() {
         private const val TAG = "AudioHashMatcher"
         const val BUCKET_SIZE_MS = 300L // 300ms histogram resolution
         const val MIN_CONSENSUS_VOTES = 5 // Minimum peak pair alignments required for full search
-        const val MIN_WEIGHTED_SCORE = 8.0f // Minimum uniqueness score required
-        const val CONFIDENCE_RATIO_THRESHOLD = 2.0f // Primary bucket score vs runner-up score
+        const val MIN_WEIGHTED_SCORE = 7.0f // Minimum uniqueness score required
+        const val CONFIDENCE_RATIO_THRESHOLD = 1.35f // Primary bucket score vs runner-up score
         const val MAX_KEY_OCCURRENCES = 60 // Stop-word threshold to prune repetitive drone/noise frequencies
     }
 
@@ -150,7 +150,7 @@ class AudioHashMatcher @Inject constructor() {
         val estimatedMovieTimeMs = (actualOffset + bufferDurationMs).coerceAtLeast(0L)
 
         val isLocked = votes >= MIN_CONSENSUS_VOTES && score >= MIN_WEIGHTED_SCORE &&
-            (runnerUpScore == 0f || ratio >= CONFIDENCE_RATIO_THRESHOLD)
+            (runnerUpScore == 0f || ratio >= CONFIDENCE_RATIO_THRESHOLD || votes >= 30)
         val confidence = (score / (score + 10f)).coerceIn(0.5f, 1.0f)
 
         lastDiagnostics = HashMatchDiagnostics(

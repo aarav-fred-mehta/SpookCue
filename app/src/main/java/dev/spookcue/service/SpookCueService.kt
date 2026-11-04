@@ -153,11 +153,12 @@ class SpookCueService : Service() {
                     val currentState = syncEngine.state.value
 
                     if (currentSyncMode == "audio_hash") {
-                        // Acoustic Hash Pipeline (sliding 3.5s window evaluated every 1.0s)
+                        // Acoustic Hash Pipeline (sliding 3.5s window evaluated every 0.5s in FindingProgress, 1.0s in Playing)
                         audioBufferForHashes.addAll(frame.toList())
                         if (audioBufferForHashes.size >= 56000) {
                             val samples = audioBufferForHashes.subList(0, 56000).toShortArray()
-                            val remaining = audioBufferForHashes.subList(16000, audioBufferForHashes.size).toList()
+                            val hopSamples = if (currentState is SyncState.FindingProgress) 8000 else 16000
+                            val remaining = audioBufferForHashes.subList(hopSamples, audioBufferForHashes.size).toList()
                             audioBufferForHashes.clear()
                             audioBufferForHashes.addAll(remaining)
 

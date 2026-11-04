@@ -189,18 +189,37 @@ fun MovieDetailBottomSheet(
                     Spacer(modifier = Modifier.height(6.dp))
 
                     // Sync capability status
+                    val effectiveSyncType = movieDetails?.syncType ?: movie.syncType
+                    val isAudioHash = effectiveSyncType == "audio_hash"
+                    val isDialogueSync = !isAudioHash && (movie.hasSubtitles || effectiveSyncType == "subtitles")
+                    val syncLabel = when {
+                        isAudioHash -> "Acoustic Landmark Sync"
+                        isDialogueSync -> "Phonetic Dialogue Sync"
+                        else -> "Clock Sync Only"
+                    }
+                    val syncIcon = when {
+                        isAudioHash -> Icons.Default.GraphicEq
+                        isDialogueSync -> Icons.Default.GraphicEq
+                        else -> Icons.Default.AccessTime
+                    }
+                    val syncColor = when {
+                        isAudioHash -> CrimsonLight
+                        isDialogueSync -> CrimsonLight
+                        else -> TextSecondary
+                    }
+
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(
-                            imageVector = if (movie.hasSubtitles) Icons.Default.GraphicEq else Icons.Default.AccessTime,
+                            imageVector = syncIcon,
                             contentDescription = null,
-                            tint = if (movie.hasSubtitles) CrimsonLight else TextSecondary,
+                            tint = syncColor,
                             modifier = Modifier.size(14.dp)
                         )
                         Spacer(modifier = Modifier.width(4.dp))
                         Text(
-                            text = if (movie.hasSubtitles) "Phonetic Dialogue Sync" else "Clock Sync Only",
+                            text = syncLabel,
                             fontSize = 11.sp,
-                            color = if (movie.hasSubtitles) CrimsonLight else TextSecondary
+                            color = syncColor
                         )
                     }
 

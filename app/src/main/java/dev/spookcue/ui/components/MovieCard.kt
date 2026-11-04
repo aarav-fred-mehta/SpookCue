@@ -41,6 +41,7 @@ import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.ui.theme.CrimsonBorder
 import dev.spookcue.ui.theme.CrimsonDark
 import dev.spookcue.ui.theme.CrimsonPrimary
+import dev.spookcue.ui.theme.CrimsonLight
 import dev.spookcue.ui.theme.LunarBorder
 import dev.spookcue.ui.theme.LunarWhite
 import dev.spookcue.ui.theme.LunarSlateMuted
@@ -170,7 +171,20 @@ fun MovieCard(
 
                     Spacer(modifier = Modifier.width(8.dp))
 
-                    if (!movie.hasSubtitles) {
+                    if (movie.syncType == "audio_hash") {
+                        Surface(
+                            color = PureBlack,
+                            shape = RoundedCornerShape(4.dp),
+                            border = androidx.compose.foundation.BorderStroke(1.dp, CrimsonBorder)
+                        ) {
+                            Text(
+                                text = "Acoustic sync",
+                                color = CrimsonLight,
+                                fontSize = 10.sp,
+                                modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                            )
+                        }
+                    } else if (!movie.hasSubtitles && movie.syncType != "subtitles") {
                         Surface(
                             color = PureBlack,
                             shape = RoundedCornerShape(4.dp),

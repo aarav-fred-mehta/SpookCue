@@ -1,13 +1,13 @@
 [
   {
-    "tmdb_id": 242224,
+    "tmdb_id": 250546,
     "title": "Annabelle",
     "release_year": 2014,
     "runtime_minutes": 99,
-    "scare_count": 5,
+    "scare_count": 11,
     "poster_path": "/yLsuJm94ox5gacw7BwWwtqK0m17.jpg",
-    "has_subtitles": true,
-    "sync_type": "subtitles",
+    "has_subtitles": false,
+    "sync_type": "audio_hash",
     "tags": [
       "HOT"
     ]
@@ -21,6 +21,19 @@
     "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
     "has_subtitles": false,
     "sync_type": "audio_hash",
+    "tags": [
+      "HOT"
+    ]
+  },
+  {
+    "tmdb_id": 242224,
+    "title": "The Babadook",
+    "release_year": 2014,
+    "runtime_minutes": 94,
+    "scare_count": 5,
+    "poster_path": "/shN9PzIew1YqZkFszE12WbK8k0Z.jpg",
+    "has_subtitles": true,
+    "sync_type": "subtitles",
     "tags": [
       "HOT"
     ]

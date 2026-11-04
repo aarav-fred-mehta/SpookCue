@@ -80,7 +80,10 @@ class MovieRepositoryImpl @Inject constructor(
                 val text = diskFile.readText()
                 json.decodeFromString<MovieDetails>(text)
             }.onSuccess { cached ->
-                return@withContext Result.success(cached)
+                val dbEntity = movieDao.getMovieById(tmdbId)
+                if (dbEntity == null || dbEntity.syncType == cached.syncType) {
+                    return@withContext Result.success(cached)
+                }
             }
         }
 
@@ -109,7 +112,10 @@ class MovieRepositoryImpl @Inject constructor(
                 val text = diskFile.readText()
                 json.decodeFromString<MovieSyncData>(text)
             }.onSuccess { cached ->
-                return@withContext Result.success(cached)
+                val dbEntity = movieDao.getMovieById(tmdbId)
+                if (dbEntity == null || dbEntity.syncType == cached.type) {
+                    return@withContext Result.success(cached)
+                }
             }
         }
 

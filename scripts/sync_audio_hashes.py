@@ -309,6 +309,18 @@ def sync_via_local_git(
                 if changed:
                     catalog_file.write_text(json.dumps(cat, indent=2), encoding="utf-8")
                     staged_files.append(catalog_file)
+                    # Bump data/version.json to trigger DeltaSync in app
+                    version_file = spookcue_path / "data" / "version.json"
+                    if version_file.exists():
+                        try:
+                            from datetime import datetime, timezone
+                            vdata = json.loads(version_file.read_text(encoding="utf-8"))
+                            vdata["v"] = int(vdata.get("v", 1)) + 1
+                            vdata["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                            version_file.write_text(json.dumps(vdata, indent=2), encoding="utf-8")
+                            staged_files.append(version_file)
+                        except Exception as e:
+                            logger.debug("Could not bump version.json: %s", e)
             except Exception as e:
                 logger.debug("Could not update catalog.json: %s", e)
 

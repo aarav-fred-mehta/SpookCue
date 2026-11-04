@@ -267,6 +267,7 @@ fun SyncScreen(
                                 liveTranscript = liveTranscript,
                                 debugInfo = debugInfo,
                                 onSimulate = { viewModel.simulateSpeech(it) },
+                                isAudioHash = movie?.syncType == "audio_hash",
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .padding(top = 10.dp)
@@ -303,7 +304,14 @@ fun SyncScreen(
                                     fontWeight = FontWeight.SemiBold
                                 )
                                 Spacer(modifier = Modifier.height(6.dp))
-                                val statusText = if (state.candidatesFound == 0) {
+                                val isAudioHash = movie?.syncType == "audio_hash"
+                                val statusText = if (isAudioHash) {
+                                    if (state.candidatesFound == 0) {
+                                        "Sampling audio for acoustic landmarks..."
+                                    } else {
+                                        "Landmark cluster found — locking position..."
+                                    }
+                                } else if (state.candidatesFound == 0) {
                                     "Listening to room audio for movie alignment..."
                                 } else {
                                     val anchorTime = debugInfo.matchedTimeMs?.let { "around " + it.formatTimeMs() } ?: ""
@@ -345,8 +353,9 @@ fun SyncScreen(
                                 }
 
                                 Spacer(modifier = Modifier.height(6.dp))
+                                val syncModeTag = if (movie?.syncType == "audio_hash") "Acoustic Landmarks" else "Phonetic Dialogue"
                                 Text(
-                                    text = "Movie Clock: ${state.currentMovieTimeMs.formatTimeMs()} • Synced",
+                                    text = "Movie Clock: ${state.currentMovieTimeMs.formatTimeMs()} • $syncModeTag",
                                     style = MaterialTheme.typography.bodySmall,
                                     color = LunarSlateDim
                                 )
@@ -588,6 +597,7 @@ private fun AudioDebugConsole(
     liveTranscript: String,
     debugInfo: dev.spookcue.sync.SyncDebugInfo,
     onSimulate: (String) -> Unit,
+    isAudioHash: Boolean = false,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -634,7 +644,9 @@ private fun AudioDebugConsole(
         Spacer(modifier = Modifier.height(8.dp))
 
         // Live transcription stream
-        val displayedText = if (liveTranscript.isNotBlank()) {
+        val displayedText = if (isAudioHash) {
+            if (debugInfo.lastText.isNotBlank()) debugInfo.lastText else "Sampling audio landmarks (Acoustic mode)..."
+        } else if (liveTranscript.isNotBlank()) {
             liveTranscript
         } else if (debugInfo.lastText.isNotBlank()) {
             debugInfo.lastText

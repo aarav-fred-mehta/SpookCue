@@ -99,6 +99,13 @@ class SyncEngine @Inject constructor(
     private var consecutiveMissedCheckpoints = 0
     private var activeSoundscapeSustainedMs = 0L
 
+    data class AcousticCandidate(
+        val movieTimeMs: Long,
+        val systemTimeMs: Long,
+        val votes: Int
+    )
+    private var pendingAcousticCandidate: AcousticCandidate? = null
+
     fun start(movie: MovieDetails, syncData: MovieSyncData) {
         AppLogger.i(TAG, "Starting 3-Stage Sync for '${movie.title}' (type: ${syncData.type}, scares: ${movie.scares.size})")
         currentMovie = movie
@@ -109,6 +116,7 @@ class SyncEngine @Inject constructor(
         movieClock.reset()
         consecutiveMissedCheckpoints = 0
         activeSoundscapeSustainedMs = 0L
+        pendingAcousticCandidate = null
 
         if (syncData.type == "audio_hash") {
             audioHashMatcher.initIndex(syncData.audioHashes)
@@ -131,6 +139,7 @@ class SyncEngine @Inject constructor(
         pausedResumeCandidates.clear()
         transcriptWindow.clear()
         audioHashMatcher.clear()
+        pendingAcousticCandidate = null
         movieClock.reset()
         consecutiveMissedCheckpoints = 0
         activeSoundscapeSustainedMs = 0L
@@ -142,6 +151,7 @@ class SyncEngine @Inject constructor(
         candidateGroups.clear()
         pausedResumeCandidates.clear()
         transcriptWindow.clear()
+        pendingAcousticCandidate = null
         movieClock.reset()
         consecutiveMissedCheckpoints = 0
         activeSoundscapeSustainedMs = 0L
@@ -355,14 +365,44 @@ class SyncEngine @Inject constructor(
             is SyncState.FindingProgress -> {
                 val result = audioHashMatcher.match(hashes, bufferDurationMs)
                 if (result != null) {
-                    movieClock.snap(result.movieTimeMs)
-                    consecutiveMissedCheckpoints = 0
-                    AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}) <<<")
-                    _state.value = SyncState.MoviePlaying(
-                        currentMovieTimeMs = result.movieTimeMs,
-                        confidence = result.confidence,
-                        nextScareCountdownMs = calculateNextScareCountdown()
-                    )
+                    val now = timeProvider()
+                    val prev = pendingAcousticCandidate
+
+                    // Fast lock if runnerUp is 0 (isolated clear match / test case) or votes are overwhelmingly high (>= 30 with 3x runner-up)
+                    val isFastLock = result.runnerUpVotes == 0 || (result.votes >= 30 && (result.runnerUpVotes == 0 || result.votes.toFloat() / result.runnerUpVotes >= 3.0f))
+
+                    var consensusConfirmed = isFastLock
+                    if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 4500L) {
+                        val deltaMovie = result.movieTimeMs - prev.movieTimeMs
+                        val deltaSystem = now - prev.systemTimeMs
+                        // Trajectory agreement within 1500ms
+                        if (abs(deltaMovie - deltaSystem) <= 1500L) {
+                            consensusConfirmed = true
+                        }
+                    }
+
+                    if (consensusConfirmed) {
+                        pendingAcousticCandidate = null
+                        movieClock.snap(result.movieTimeMs)
+                        consecutiveMissedCheckpoints = 0
+                        AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}) <<<")
+                        _state.value = SyncState.MoviePlaying(
+                            currentMovieTimeMs = result.movieTimeMs,
+                            confidence = result.confidence,
+                            nextScareCountdownMs = calculateNextScareCountdown()
+                        )
+                    } else {
+                        pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes)
+                        AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) detected — awaiting temporal confirmation")
+                        _state.value = SyncState.FindingProgress(
+                            candidatesFound = 1,
+                            startedAtMs = currentState.startedAtMs
+                        )
+                    }
+                } else {
+                    if (pendingAcousticCandidate != null && (timeProvider() - pendingAcousticCandidate!!.systemTimeMs) > 4500L) {
+                        pendingAcousticCandidate = null
+                    }
                 }
             }
 
@@ -385,6 +425,13 @@ class SyncEngine @Inject constructor(
                         _state.value = SyncState.MoviePaused(
                             pausedAtMovieTimeMs = currentMovieTime,
                             isManual = false
+                        )
+                    } else if (consecutiveMissedCheckpoints >= 6) {
+                        // Seek/jump detection: audio active but hashes mismatching near current position for 6s
+                        AppLogger.w(TAG, "Acoustic sync missed 6 consecutive checkpoints — re-acquiring progress")
+                        pendingAcousticCandidate = null
+                        _state.value = SyncState.FindingProgress(
+                            startedAtMs = timeProvider()
                         )
                     }
                 }
@@ -433,6 +480,7 @@ class SyncEngine @Inject constructor(
 
     fun simulateAcousticLock(movieTimeMs: Long = 600_000L) {
         movieClock.snap(movieTimeMs)
+        pendingAcousticCandidate = null
         consecutiveMissedCheckpoints = 0
         _state.value = SyncState.MoviePlaying(
             currentMovieTimeMs = movieTimeMs,

@@ -37,6 +37,12 @@ interface MovieDao {
     @Query("UPDATE movies SET lastSyncedAt = :timestamp WHERE tmdbId = :tmdbId")
     suspend fun updateLastSynced(tmdbId: Int, timestamp: Long)
 
+    @Query("UPDATE movies SET posterPath = :posterPath WHERE tmdbId = :tmdbId")
+    suspend fun updatePosterPath(tmdbId: Int, posterPath: String)
+
+    @Query("UPDATE movies SET syncType = :syncType WHERE tmdbId = :tmdbId")
+    suspend fun updateSyncType(tmdbId: Int, syncType: String)
+
     @Query("DELETE FROM movies")
     suspend fun deleteAllMovies()
 }

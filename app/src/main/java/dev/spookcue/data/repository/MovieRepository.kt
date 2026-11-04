@@ -148,6 +148,15 @@ class MovieRepositoryImpl @Inject constructor(
                 val entities = bundledCatalog.map { MovieEntity.fromDomain(it) }
                 movieDao.insertMovies(entities)
             }
+        } else {
+            // Reconcile and heal bundled movie metadata (posters, sync types) in Room DB
+            val bundledCatalog = assetLoader.loadCatalog()
+            for (item in bundledCatalog) {
+                if (item.posterPath != null) {
+                    movieDao.updatePosterPath(item.tmdbId, item.posterPath)
+                }
+                movieDao.updateSyncType(item.tmdbId, item.syncType)
+            }
         }
     }
 

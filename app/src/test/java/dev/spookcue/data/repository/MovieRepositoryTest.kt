@@ -288,6 +288,24 @@ class MovieRepositoryTest {
             }
         }
 
+        override suspend fun updatePosterPath(tmdbId: Int, posterPath: String) {
+            val current = moviesFlow.value.toMutableList()
+            val index = current.indexOfFirst { it.tmdbId == tmdbId }
+            if (index != -1) {
+                current[index] = current[index].copy(posterPath = posterPath)
+                moviesFlow.value = current
+            }
+        }
+
+        override suspend fun updateSyncType(tmdbId: Int, syncType: String) {
+            val current = moviesFlow.value.toMutableList()
+            val index = current.indexOfFirst { it.tmdbId == tmdbId }
+            if (index != -1) {
+                current[index] = current[index].copy(syncType = syncType)
+                moviesFlow.value = current
+            }
+        }
+
         override suspend fun deleteAllMovies() {
             moviesFlow.value = emptyList()
         }

@@ -8,7 +8,8 @@ import kotlin.math.roundToLong
 
 /**
  * Matches live acoustic landmark hashes against a movie's precomputed hash index
- * using offset histogram voting (Shazam / Dejavu algorithm).
+ * using offset histogram voting (Shazam / Dejavu algorithm) with stop-word frequency
+ * pruning and TF-IDF uniqueness weighting to prevent false locks on drone/ambient noise.
  */
 @Singleton
 class AudioHashMatcher @Inject constructor() {
@@ -17,7 +18,9 @@ class AudioHashMatcher @Inject constructor() {
         private const val TAG = "AudioHashMatcher"
         const val BUCKET_SIZE_MS = 300L // 300ms histogram resolution
         const val MIN_CONSENSUS_VOTES = 5 // Minimum peak pair alignments required for full search
-        const val CONFIDENCE_RATIO_THRESHOLD = 1.5f // Primary bucket votes vs runner-up
+        const val MIN_WEIGHTED_SCORE = 8.0f // Minimum uniqueness score required
+        const val CONFIDENCE_RATIO_THRESHOLD = 2.0f // Primary bucket score vs runner-up score
+        const val MAX_KEY_OCCURRENCES = 60 // Stop-word threshold to prune repetitive drone/noise frequencies
     }
 
     data class HashMatchResult(
@@ -37,10 +40,12 @@ class AudioHashMatcher @Inject constructor() {
 
     private class BucketStats {
         var votes: Int = 0
+        var score: Float = 0f
         var sumOffset: Long = 0L
 
-        fun add(offset: Long) {
+        fun add(offset: Long, weight: Float) {
             votes++
+            score += weight
             sumOffset += offset
         }
 
@@ -48,30 +53,58 @@ class AudioHashMatcher @Inject constructor() {
     }
 
     private val indexTable = mutableMapOf<Int, MutableList<Long>>()
+    private val keyFrequencyTable = mutableMapOf<Int, Int>()
     private var totalIndexedEntries = 0
 
     var lastDiagnostics: HashMatchDiagnostics = HashMatchDiagnostics()
         private set
 
     /**
-     * Initializes the lookup table for the movie's acoustic hashes.
+     * Initializes the lookup table for the movie's acoustic hashes with stop-word pruning.
      */
     @Synchronized
     fun initIndex(entries: List<AudioHashEntry>) {
         indexTable.clear()
+        keyFrequencyTable.clear()
         totalIndexedEntries = entries.size
+
+        // Count raw occurrences across movie to detect repetitive drone/hum frequencies
         for (entry in entries) {
+            keyFrequencyTable[entry.h] = (keyFrequencyTable[entry.h] ?: 0) + 1
+        }
+
+        var prunedKeys = 0
+        var prunedHashes = 0
+        for (entry in entries) {
+            val freq = keyFrequencyTable[entry.h] ?: 1
+            if (freq > MAX_KEY_OCCURRENCES) {
+                prunedHashes++
+                continue
+            }
             val list = indexTable.getOrPut(entry.h) { mutableListOf() }
             list.add(entry.t)
         }
-        AppLogger.i(TAG, "Initialized acoustic hash index: $totalIndexedEntries hashes (${indexTable.size} unique keys)")
+
+        for ((_, freq) in keyFrequencyTable) {
+            if (freq > MAX_KEY_OCCURRENCES) prunedKeys++
+        }
+
+        AppLogger.i(TAG, "Initialized acoustic hash index: ${totalIndexedEntries - prunedHashes} hashes retained (${indexTable.size} unique keys). Pruned $prunedKeys stop-word keys ($prunedHashes repetitive hashes).")
     }
 
     @Synchronized
     fun clear() {
         indexTable.clear()
+        keyFrequencyTable.clear()
         totalIndexedEntries = 0
         lastDiagnostics = HashMatchDiagnostics()
+    }
+
+    private fun computeKeyWeight(freq: Int): Float = when {
+        freq <= 2 -> 3.0f
+        freq <= 8 -> 2.0f
+        freq <= 20 -> 1.0f
+        else -> 0.5f
     }
 
     /**
@@ -90,11 +123,13 @@ class AudioHashMatcher @Inject constructor() {
 
         for (sample in sampleHashes) {
             val movieTimestamps = indexTable[sample.h] ?: continue
+            val freq = keyFrequencyTable[sample.h] ?: 1
+            val weight = computeKeyWeight(freq)
             for (movieT in movieTimestamps) {
                 val offset = movieT - sample.t
                 val bucketKey = ((offset.toDouble() / BUCKET_SIZE_MS).roundToLong()) * BUCKET_SIZE_MS
                 val stats = histogram.getOrPut(bucketKey) { BucketStats() }
-                stats.add(offset)
+                stats.add(offset, weight)
             }
         }
 
@@ -103,17 +138,20 @@ class AudioHashMatcher @Inject constructor() {
             return null
         }
 
-        val sortedBuckets = histogram.entries.sortedByDescending { it.value.votes }
+        val sortedBuckets = histogram.entries.sortedByDescending { it.value.score }
         val best = sortedBuckets.first()
+        val runnerUpScore = sortedBuckets.getOrNull(1)?.value?.score ?: 0f
         val runnerUpVotes = sortedBuckets.getOrNull(1)?.value?.votes ?: 0
 
+        val score = best.value.score
         val votes = best.value.votes
-        val ratio = if (runnerUpVotes > 0) votes.toFloat() / runnerUpVotes else votes.toFloat()
+        val ratio = if (runnerUpScore > 0f) score / runnerUpScore else score
         val actualOffset = best.value.averageOffset()
         val estimatedMovieTimeMs = (actualOffset + bufferDurationMs).coerceAtLeast(0L)
 
-        val isLocked = votes >= MIN_CONSENSUS_VOTES && (runnerUpVotes == 0 || ratio >= CONFIDENCE_RATIO_THRESHOLD)
-        val confidence = (votes.toFloat() / (votes + 8)).coerceIn(0.5f, 1.0f)
+        val isLocked = votes >= MIN_CONSENSUS_VOTES && score >= MIN_WEIGHTED_SCORE &&
+            (runnerUpScore == 0f || ratio >= CONFIDENCE_RATIO_THRESHOLD)
+        val confidence = (score / (score + 10f)).coerceIn(0.5f, 1.0f)
 
         lastDiagnostics = HashMatchDiagnostics(
             totalHashes = sampleHashes.size,
@@ -124,7 +162,7 @@ class AudioHashMatcher @Inject constructor() {
         )
 
         if (isLocked) {
-            AppLogger.i(TAG, "Acoustic hash match locked! Votes=$votes, runnerUp=$runnerUpVotes, estimatedMovieTime=${estimatedMovieTimeMs / 1000}s")
+            AppLogger.i(TAG, "Acoustic hash match locked! Votes=$votes (score=%.1f), runnerUpVotes=$runnerUpVotes (runnerScore=%.1f, ratio=%.1f), estimatedMovieTime=${estimatedMovieTimeMs / 1000}s".format(score, runnerUpScore, ratio))
             return HashMatchResult(
                 movieTimeMs = estimatedMovieTimeMs,
                 confidence = confidence,
@@ -159,12 +197,14 @@ class AudioHashMatcher @Inject constructor() {
 
         for (sample in sampleHashes) {
             val movieTimestamps = indexTable[sample.h] ?: continue
+            val freq = keyFrequencyTable[sample.h] ?: 1
+            val weight = computeKeyWeight(freq)
             for (movieT in movieTimestamps) {
                 val offset = movieT - sample.t
                 if (offset in minOffset..maxOffset) {
                     val bucketKey = ((offset.toDouble() / BUCKET_SIZE_MS).roundToLong()) * BUCKET_SIZE_MS
                     val stats = histogram.getOrPut(bucketKey) { BucketStats() }
-                    stats.add(offset)
+                    stats.add(offset, weight)
                 }
             }
         }
@@ -174,8 +214,9 @@ class AudioHashMatcher @Inject constructor() {
             return null
         }
 
-        val best = histogram.maxByOrNull { it.value.votes } ?: return null
+        val best = histogram.maxByOrNull { it.value.score } ?: return null
         val votes = best.value.votes
+        val score = best.value.score
         val actualOffset = best.value.averageOffset()
         val estimatedMovieTimeMs = (actualOffset + bufferDurationMs).coerceAtLeast(0L)
 
@@ -191,8 +232,9 @@ class AudioHashMatcher @Inject constructor() {
         if (isLocked) {
             return HashMatchResult(
                 movieTimeMs = estimatedMovieTimeMs,
-                confidence = (votes.toFloat() / (votes + 4)).coerceIn(0.6f, 1.0f),
-                votes = votes
+                confidence = (score / (score + 4f)).coerceIn(0.6f, 1.0f),
+                votes = votes,
+                runnerUpVotes = 0
             )
         }
 

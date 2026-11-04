@@ -69,8 +69,8 @@ class CdnClientImpl @Inject constructor(
         parser: (String) -> T
     ): Result<T> {
         val urls = listOf(
-            "$JSDELIVR_BASE/$path",
             "$RAW_GITHUB_BASE/$path",
+            "$JSDELIVR_BASE/$path",
             "$GITHUB_PAGES_BASE/$path"
         )
         var lastException: Throwable = IOException("No CDN endpoints attempted")

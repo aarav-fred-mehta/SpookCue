@@ -120,11 +120,12 @@ class AcousticFingerprinter @Inject constructor() {
             if (a > maxSample) maxSample = a
         }
 
-        // Gate out pure silence / ambient room murmur without movie audio
-        if (maxSample < 40) return emptyList()
+        // Gate out ambient room murmur / quiet pauses without active movie audio
+        if (maxSample < 250) return emptyList()
 
-        // Dynamic gain normalization: scales phone mic audio to digital master range
-        val scale = 0.95f / (maxSample.toFloat() / 32768.0f)
+        // Dynamic gain normalization: scales phone mic audio to digital master range,
+        // clamped to 8.0x max gain to prevent amplifying electrical noise floor into false peaks
+        val scale = (0.95f / (maxSample.toFloat() / 32768.0f)).coerceAtMost(8.0f)
         val floats = FloatArray(samples.size) { (samples[it] / 32768.0f) * scale }
         return extractFingerprints(floats, startTimestampOffsetMs)
     }

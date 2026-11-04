@@ -232,6 +232,76 @@ class SyncEngineTest {
     }
 
     @Test
+    fun testAcousticTemporalConsensusVerification() {
+        val quietPlace = MovieDetails(
+            tmdbId = 202,
+            title = "A Quiet Place",
+            releaseYear = 2018,
+            runtimeMinutes = 90,
+            syncType = "audio_hash"
+        )
+        // Reference data with primary sequence at 20s and runner-up sequence at 50s
+        val syncData = MovieSyncData(
+            tmdbId = 202,
+            type = "audio_hash",
+            audioHashes = listOf(
+                AudioHashEntry(h = 2001, t = 20_000L),
+                AudioHashEntry(h = 2002, t = 20_500L),
+                AudioHashEntry(h = 2003, t = 21_000L),
+                AudioHashEntry(h = 2004, t = 21_500L),
+                AudioHashEntry(h = 2005, t = 22_000L),
+                AudioHashEntry(h = 2006, t = 22_500L),
+                AudioHashEntry(h = 2007, t = 23_000L),
+                AudioHashEntry(h = 2008, t = 23_500L),
+                // Secondary runner-up bucket (exactly 2 aligned matches at offset 50000)
+                AudioHashEntry(h = 2001, t = 50_000L),
+                AudioHashEntry(h = 2002, t = 50_500L),
+                // Unaligned secondary entries
+                AudioHashEntry(h = 2003, t = 60_000L),
+                AudioHashEntry(h = 2004, t = 70_000L)
+            )
+        )
+        syncEngine.start(quietPlace, syncData)
+        assertTrue(syncEngine.state.value is SyncState.FindingProgress)
+
+        // Window 1 at system time 1000L (buffer duration 2500L)
+        // Matches 6 primary votes vs 2 runner-up votes (ratio = 3.0 >= 2.0).
+        // Since runnerUpVotes > 0 and votes < 30, fast-lock does NOT trigger!
+        val window1 = listOf(
+            AudioHashEntry(h = 2001, t = 0L),
+            AudioHashEntry(h = 2002, t = 500L),
+            AudioHashEntry(h = 2003, t = 1000L),
+            AudioHashEntry(h = 2004, t = 1500L),
+            AudioHashEntry(h = 2005, t = 2000L),
+            AudioHashEntry(h = 2006, t = 2500L)
+        )
+
+        simulatedTime = 1000L
+        syncEngine.onAudioHashesExtracted(window1, bufferDurationMs = 2500L)
+
+        // Candidate 1 registered — should still be in FindingProgress awaiting confirmation!
+        val stateAfterWindow1 = syncEngine.state.value
+        assertTrue("Expected FindingProgress pending consensus confirmation but was $stateAfterWindow1", stateAfterWindow1 is SyncState.FindingProgress)
+
+        // Window 2 at system time 2000L (+1000ms), movie advanced by +1000ms (offset 21_000L)
+        val window2 = listOf(
+            AudioHashEntry(h = 2003, t = 0L),
+            AudioHashEntry(h = 2004, t = 500L),
+            AudioHashEntry(h = 2005, t = 1000L),
+            AudioHashEntry(h = 2006, t = 1500L),
+            AudioHashEntry(h = 2007, t = 2000L),
+            AudioHashEntry(h = 2008, t = 2500L)
+        )
+
+        simulatedTime = 2000L
+        syncEngine.onAudioHashesExtracted(window2, bufferDurationMs = 2500L)
+
+        // Consensus confirmed! Movie progress and system time both advanced by 1000ms.
+        val stateAfterWindow2 = syncEngine.state.value
+        assertTrue("Expected MoviePlaying after consensus confirmation but was $stateAfterWindow2", stateAfterWindow2 is SyncState.MoviePlaying)
+    }
+
+    @Test
     fun testManualPauseAndResumeToggle() {
         syncEngine.start(sampleMovie, samplePhoneticSyncData)
 

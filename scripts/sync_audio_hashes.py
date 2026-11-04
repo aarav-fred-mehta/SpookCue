@@ -219,6 +219,8 @@ def extract_landmark_hashes(audio_samples: np.ndarray, sample_rate: int = SAMPLE
             delta_frames = target_frame - anchor_frame
             if delta_frames > MAX_DELTA_FRAMES:
                 break
+            if abs(anchor_bin - target_bin) < 2:
+                continue
             if delta_frames >= MIN_DELTA_FRAMES:
                 h = encode_hash(anchor_bin, target_bin, delta_frames)
                 t_ms = (anchor_frame * HOP_SIZE * 1000) // sample_rate

@@ -81,4 +81,16 @@ class AcousticFingerprinterTest {
         assertEquals(11_800L, result!!.movieTimeMs)
         assertEquals(7, result.votes)
     }
+
+    @Test
+    fun testRejectsStationarySameBinHum() {
+        val sampleRate = 16000
+        val durationSec = 2
+        val samples = FloatArray(sampleRate * durationSec) { i ->
+            val t = i.toFloat() / sampleRate
+            (0.8f * kotlin.math.sin(2.0 * kotlin.math.PI * 440.0 * t)).toFloat()
+        }
+        val hashes = fingerprinter.extractFingerprints(samples)
+        assertTrue(hashes.isEmpty())
+    }
 }

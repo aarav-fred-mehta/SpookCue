@@ -102,7 +102,8 @@ class SyncEngine @Inject constructor(
     data class AcousticCandidate(
         val movieTimeMs: Long,
         val systemTimeMs: Long,
-        val votes: Int
+        val votes: Int,
+        val consensusHits: Int = 1
     )
     private var pendingAcousticCandidate: AcousticCandidate? = null
 
@@ -369,17 +370,29 @@ class SyncEngine @Inject constructor(
                     val prev = pendingAcousticCandidate
                     val ratio = if (result.runnerUpVotes > 0) result.votes.toFloat() / result.runnerUpVotes else 999f
 
-                    // Fast lock if runnerUp is 0 (isolated clean scene) or votes >= 25 with 2.5x runner-up ratio
+                    // Fast lock if isolated clean match (runnerUp == 0) or strong dominant consensus
                     val isFastLock = (result.runnerUpVotes == 0 && result.votes >= 6) ||
-                        (result.votes >= 25 && ratio >= 2.5f)
+                        (result.votes >= 25 && ratio >= 2.5f) ||
+                        (result.votes >= 35)
 
                     var consensusConfirmed = isFastLock
+                    var newHits = 1
+
                     if (!consensusConfirmed && prev != null && (now - prev.systemTimeMs) <= 8000L) {
                         val deltaMovie = result.movieTimeMs - prev.movieTimeMs
                         val deltaSystem = now - prev.systemTimeMs
-                        // Trajectory agreement within 1500ms
-                        if (abs(deltaMovie - deltaSystem) <= 1500L) {
-                            consensusConfirmed = true
+                        // Forward trajectory agreement: movie must advance roughly in sync with wall clock
+                        if (deltaMovie >= 0L && abs(deltaMovie - deltaSystem) <= 1200L) {
+                            newHits = prev.consensusHits + 1
+                            val requiredHits = when {
+                                result.votes >= 18 && ratio >= 1.8f -> 2
+                                result.votes >= 6 && ratio >= 2.0f -> 2
+                                result.votes >= 12 -> 2
+                                else -> 3
+                            }
+                            if (newHits >= requiredHits) {
+                                consensusConfirmed = true
+                            }
                         }
                     }
 
@@ -387,22 +400,25 @@ class SyncEngine @Inject constructor(
                         pendingAcousticCandidate = null
                         movieClock.snap(result.movieTimeMs)
                         consecutiveMissedCheckpoints = 0
-                        AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}, ratio=%.1f) <<<".format(ratio))
+                        AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}, ratio=%.1f, hits=$newHits) <<<".format(ratio))
                         _state.value = SyncState.MoviePlaying(
                             currentMovieTimeMs = result.movieTimeMs,
                             confidence = result.confidence,
                             nextScareCountdownMs = calculateNextScareCountdown()
                         )
                     } else {
-                        // Only register / replace pending candidate if higher confidence or previous candidate expired
-                        if (prev == null || (now - prev.systemTimeMs) > 6000L || result.votes >= prev.votes) {
-                            pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes)
-                            AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) registered — awaiting confirmation")
+                        // Register or update pending candidate
+                        if (newHits > 1) {
+                            pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = newHits)
+                            AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}, hits: $newHits) confirmed trajectory — awaiting lock")
+                        } else if (prev == null || (now - prev.systemTimeMs) > 6000L || result.votes >= prev.votes) {
+                            pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = 1)
+                            AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) registered — awaiting trajectory confirmation")
                         } else {
                             AppLogger.d(TAG, "Ignoring weaker candidate @ ${result.movieTimeMs / 1000}s (${result.votes} vs ${prev.votes} votes)")
                         }
                         _state.value = SyncState.FindingProgress(
-                            candidatesFound = 1,
+                            candidatesFound = newHits,
                             startedAtMs = currentState.startedAtMs
                         )
                     }

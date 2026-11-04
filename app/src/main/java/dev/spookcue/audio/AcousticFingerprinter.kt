@@ -32,7 +32,7 @@ class AcousticFingerprinter @Inject constructor() {
             128..255  // 2000 Hz - 4000 Hz
         )
 
-        const val MIN_PEAK_MAGNITUDE = 8.0f
+        const val MIN_PEAK_MAGNITUDE = 6.0f
     }
 
     private val hannWindow = FloatArray(FFT_SIZE) { i ->
@@ -95,6 +95,7 @@ class AcousticFingerprinter @Inject constructor() {
                 val target = peaks[j]
                 val deltaFrames = target.frameIdx - anchor.frameIdx
                 if (deltaFrames > MAX_DELTA_FRAMES) break
+                if (kotlin.math.abs(anchor.freqBin - target.freqBin) < 2) continue
                 if (deltaFrames >= MIN_DELTA_FRAMES) {
                     val hash = encodeHash(anchor.freqBin, target.freqBin, deltaFrames)
                     val timestampMs = startTimestampOffsetMs + (anchor.frameIdx.toLong() * HOP_SIZE * 1000L / SAMPLE_RATE)
@@ -121,11 +122,11 @@ class AcousticFingerprinter @Inject constructor() {
         }
 
         // Gate out resting microphone silence while preserving normal room dialogue
-        if (maxSample < 80) return emptyList()
+        if (maxSample < 60) return emptyList()
 
         // Dynamic gain normalization: scales phone mic audio to digital master range,
-        // clamped to 8.0x max gain to prevent amplifying electrical noise floor into false peaks
-        val scale = (0.95f / (maxSample.toFloat() / 32768.0f)).coerceAtMost(8.0f)
+        // clamped to 24.0x max gain to allow distant TV audio in normal living rooms
+        val scale = (0.95f / (maxSample.toFloat() / 32768.0f)).coerceAtMost(24.0f)
         val floats = FloatArray(samples.size) { (samples[it] / 32768.0f) * scale }
         return extractFingerprints(floats, startTimestampOffsetMs)
     }

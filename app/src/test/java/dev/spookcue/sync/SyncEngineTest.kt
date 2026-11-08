@@ -151,7 +151,7 @@ class SyncEngineTest {
     }
 
     @Test
-    fun testMoviePlayingToMoviePausedOnEnergyDrop() {
+    fun testQuietScenesDoNotAutoPause() {
         syncEngine.start(sampleMovie, samplePhoneticSyncData)
 
         // Lock
@@ -165,14 +165,14 @@ class SyncEngineTest {
         }
         assertTrue("Expected energy dropped", audioEnergyMeter.isEnergyDropped())
 
-        // 3 consecutive missed checkpoints while energy is dropped
-        for (i in 1..3) {
+        // Multiple consecutive missed checkpoints during a quiet scene before a scare
+        for (i in 1..6) {
             syncEngine.onSpeechTranscribed("unrelated audience chatter $i")
         }
 
         val state = syncEngine.state.value
-        assertTrue("Expected MoviePaused state but was $state", state is SyncState.MoviePaused)
-        assertTrue(movieClock.isFrozen)
+        assertTrue("Expected MoviePlaying to continue uninterrupted during quiet scenes but was $state", state is SyncState.MoviePlaying)
+        assertTrue("Expected clock to remain running", movieClock.isRunning)
     }
 
     @Test

@@ -65,7 +65,6 @@ class SyncEngine @Inject constructor(
         private const val DRIFT_CORRECTION_MIN_MS = 500L
         private const val DRIFT_CORRECTION_MAX_MS = 6_000L
         private const val DRIFT_DAMPING_FACTOR = 0.25f
-        private const val MAX_CONSECUTIVE_MISSES_FOR_PAUSE = 3
 
         // Stage 3 Re-acquisition
         private const val PAUSE_LOCAL_WINDOW_MS = 30_000L
@@ -302,18 +301,8 @@ class SyncEngine @Inject constructor(
                     updateDebugInfo(text, windowText, windowTokens, best.score, best.entry.startMs)
                 } else {
                     consecutiveMissedCheckpoints++
-                    AppLogger.w(TAG, "Checkpoint missed ($consecutiveMissedCheckpoints in a row). Energy dropped: ${audioEnergyMeter.isEnergyDropped()}")
-                    // Check pause condition: misses >= 3 AND audio energy dropped
-                    if (consecutiveMissedCheckpoints >= MAX_CONSECUTIVE_MISSES_FOR_PAUSE && audioEnergyMeter.isEnergyDropped()) {
-                        AppLogger.w(TAG, ">>> MOVIE PAUSE DETECTED! Freezing clock at ${currentMovieTime / 1000}s <<<")
-                        movieClock.freeze()
-                        transcriptWindow.clear()
-                        pausedResumeCandidates.clear()
-                        _state.value = SyncState.MoviePaused(
-                            pausedAtMovieTimeMs = currentMovieTime,
-                            isManual = false
-                        )
-                    }
+                    AppLogger.d(TAG, "Speech checkpoint missed ($consecutiveMissedCheckpoints in a row)")
+                    updateDebugInfo(text, windowText, windowTokens, 0f, null)
                 }
             }
 
@@ -443,21 +432,7 @@ class SyncEngine @Inject constructor(
                     }
                 } else {
                     consecutiveMissedCheckpoints++
-                    if (consecutiveMissedCheckpoints >= MAX_CONSECUTIVE_MISSES_FOR_PAUSE && audioEnergyMeter.isEnergyDropped()) {
-                        AppLogger.w(TAG, ">>> ACOUSTIC HASH PAUSE DETECTED! Freezing clock <<<")
-                        movieClock.freeze()
-                        _state.value = SyncState.MoviePaused(
-                            pausedAtMovieTimeMs = currentMovieTime,
-                            isManual = false
-                        )
-                    } else if (consecutiveMissedCheckpoints >= 6) {
-                        // Seek/jump detection: audio active but hashes mismatching near current position for 6s
-                        AppLogger.w(TAG, "Acoustic sync missed 6 consecutive checkpoints — re-acquiring progress")
-                        pendingAcousticCandidate = null
-                        _state.value = SyncState.FindingProgress(
-                            startedAtMs = timeProvider()
-                        )
-                    }
+                    AppLogger.d(TAG, "Acoustic bounded checkpoint missed ($consecutiveMissedCheckpoints in a row)")
                 }
             }
 

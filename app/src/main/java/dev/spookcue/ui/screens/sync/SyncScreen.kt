@@ -651,11 +651,11 @@ private fun AudioDebugConsole(
                 color = if (speechDetected || rmsDb > 35f) TheaterAmber else LunarSlateMuted
             )
             Text(
-                text = if (debugInfo.isEnergyDropped) "SILENCE DROPPED" else if (rmsDb > 38f) "SOUNDSCAPE ACTIVE" else if (isListening) "LISTENING" else "MIC READY",
+                text = if (rmsDb > 38f) "SOUNDSCAPE ACTIVE" else if (isListening) "LISTENING" else "MIC READY",
                 fontSize = 9.sp,
                 fontFamily = FontFamily.Monospace,
                 fontWeight = FontWeight.Bold,
-                color = if (debugInfo.isEnergyDropped) CrimsonLight else if (speechDetected || rmsDb > 38f) TheaterAmber else LunarSlateDim
+                color = if (speechDetected || rmsDb > 38f) TheaterAmber else LunarSlateDim
             )
         }
 
@@ -668,7 +668,7 @@ private fun AudioDebugConsole(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(4.dp),
-            color = if (debugInfo.isEnergyDropped) CrimsonLight else if (speechDetected || rmsDb > 38f) TheaterAmber else LunarSlateMuted,
+            color = if (speechDetected || rmsDb > 38f) TheaterAmber else LunarSlateMuted,
             trackColor = PureBlack
         )
 
@@ -710,10 +710,10 @@ private fun AudioDebugConsole(
             Spacer(modifier = Modifier.height(2.dp))
 
             Text(
-                text = "PAUSE DETECTOR: Misses ${debugInfo.consecutiveMisses}/4 | Energy: ${if (debugInfo.isEnergyDropped) "Dropped (Pause imminent)" else "Soundscape Normal"}",
+                text = "PAUSE MODE: Manual Only | Misses: ${debugInfo.consecutiveMisses}",
                 fontSize = 9.sp,
                 fontFamily = FontFamily.Monospace,
-                color = if (debugInfo.isEnergyDropped) CrimsonLight else LunarSlateDim
+                color = LunarSlateDim
             )
 
             Spacer(modifier = Modifier.height(8.dp))

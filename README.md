@@ -11,7 +11,7 @@ SpookCue/
 ├── .github/
 │   └── workflows/
 │       ├── ci.yml                   # CI: Runs unit tests for Scraper and Android
-│       ├── weekly_scrape.yml        # Weekly data scrape running every Sunday 00:00 UTC
+│       ├── daily_scrape.yml         # Daily data scrape running every day at 00:00 UTC
 │       └── release_apk.yml          # Builds signed release APK on version tag (v*)
 ├── scraper/                         # Python data pipeline
 │   ├── pyproject.toml
@@ -81,7 +81,7 @@ Run unit tests:
 
 ### Required GitHub Secrets
 
-To enable weekly scraping and signed APK releases, configure the following secrets under **Settings → Secrets and variables → Actions**:
+To enable daily scraping and signed APK releases, configure the following secrets under **Settings → Secrets and variables → Actions**:
 
 | Secret | Description |
 |---|---|

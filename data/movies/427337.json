@@ -3,66 +3,148 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "KT",
+        "RT",
+        "AF",
+        "AT",
+        "JST",
+        "T",
+        "A",
+        "PRMS"
+      ],
       "description": "Elvira’s mom run over something with her car.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15820,
       "resolved_time_ms": 161000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "K",
+        "ANT",
+        "PRX",
+        "M",
+        "T0"
+      ],
       "description": "When Meja leaves the room, Kevin dumps a bucket of water over her head (as a joke).",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 420,
       "resolved_time_ms": 884000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "S",
+        "AT",
+        "AT",
+        "AS",
+        "ANT",
+        "0N",
+        "X",
+        "S"
+      ],
       "description": "Meja screams when Kevin scares her from behind (as a joke).",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1700,
       "resolved_time_ms": 1021000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "N0NK",
+        "HR",
+        "AR",
+        "KNK",
+        "PT",
+        "AAL",
+        "JST"
+      ],
       "description": "Elvira and Meja looks around the dark room with a flashlight and sees Henny sitting alone in a corner.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2740,
       "resolved_time_ms": 1566000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "JF",
+        "M",
+        "M",
+        "PRSLTS",
+        "P",
+        "0",
+        "A"
+      ],
       "description": "A girl with a white dress walks into the room, scaring Bea.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46740,
       "resolved_time_ms": 1830000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "M",
+        "HF",
+        "FNT",
+        "A",
+        "AK",
+        "AN",
+        "AR",
+        "SLP",
+        "AS",
+        "AL"
+      ],
       "description": "A door opens and a girl looks up, accompanied by eerie music.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7900,
       "resolved_time_ms": 1873000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N0R",
+        "T",
+        "A",
+        "PT",
+        "AT",
+        "FLS",
+        "LK",
+        "MSKTS",
+        "XLT",
+        "LK",
+        "M"
+      ],
       "description": "During a tense scene, the girls open the shower curtain and gets scared by Kevin and Melker.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13860,
       "resolved_time_ms": 2441000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AF",
+        "ATTS",
+        "NT",
+        "KFN",
+        "PT",
+        "0",
+        "KST",
+        "STP",
+        "AT",
+        "P"
+      ],
       "description": "There’s a loud sound when the camera cuts to Meja acting strange.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6740,
       "resolved_time_ms": 2518000,
       "type": "minor"
     },
@@ -75,10 +157,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "TNLT",
+        "M",
+        "KMR"
+      ],
       "description": "Someone takes a flash photography of Elvira.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18980,
       "resolved_time_ms": 4041000,
       "type": "minor"
     },

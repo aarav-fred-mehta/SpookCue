@@ -11,10 +11,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "AT",
+        "AR",
+        "TLKNK",
+        "APT"
+      ],
       "description": "Another Hyper appears behind Fred.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20264,
       "resolved_time_ms": 2214000,
       "type": "minor"
     }

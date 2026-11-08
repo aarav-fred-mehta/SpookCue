@@ -3,26 +3,49 @@
   "runtime_minutes": 107,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "K",
+        "STT",
+        "AAL",
+        "S",
+        "A",
+        "LTR"
+      ],
       "description": "A woman screams.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23067,
       "resolved_time_ms": 581000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "S",
+        "KL",
+        "PRSTR"
+      ],
       "description": "A neighbor says “hey kid!” as he’s trying to get into the cellar.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42159,
       "resolved_time_ms": 716000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AM",
+        "PTR",
+        "FNSNT",
+        "0",
+        "KRT",
+        "FMPR",
+        "KLR"
+      ],
       "description": "The door slams shut.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 798,
       "resolved_time_ms": 4578000,
       "type": "minor"
     }

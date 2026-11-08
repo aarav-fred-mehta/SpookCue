@@ -3,10 +3,26 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MNT",
+        "MR",
+        "AF",
+        "AS",
+        "KSNK",
+        "AAL",
+        "P",
+        "PK",
+        "AT",
+        "FR",
+        "M",
+        "HR",
+        "AL",
+        "RT"
+      ],
       "description": "Nina turns around and Beth is standing right behind her. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48191,
       "resolved_time_ms": 2105000,
       "type": "major"
     },
@@ -27,18 +43,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NN",
+        "KM",
+        "AN",
+        "AAM",
+        "JST",
+        "PLNK",
+        "ARNT"
+      ],
       "description": "Nina looks up from underneath the water in the bathtub and sees another version of herself staring back at her. [Video].",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48350,
       "resolved_time_ms": 3113000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "STL",
+        "ARKNK",
+        "AN",
+        "HR"
+      ],
       "description": "A shadowy figure crosses a hallway in front of Nina.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7218,
       "resolved_time_ms": 4787000,
       "type": "minor"
     },
@@ -51,34 +81,64 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "JST",
+        "TRNK",
+        "T",
+        "P",
+        "PRFKT",
+        "LK",
+        "A"
+      ],
       "description": "Beth stabs herself in the cheek.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20656,
       "resolved_time_ms": 4946000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N0NK",
+        "N0NK",
+        "N0NK",
+        "N0NK"
+      ],
       "description": "Nina turns on the kitchen light and there is a bloodied figure standing in the corner. [Video].",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52958,
       "resolved_time_ms": 5009000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "JRL",
+        "ST",
+        "JRL"
+      ],
       "description": "Nina turns on a light and her mother’s paintings begin to talk.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 716,
       "resolved_time_ms": 5032000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "APT",
+        "A",
+        "TNS",
+        "0",
+        "PLK",
+        "SN",
+        "FR",
+        "A"
+      ],
       "description": "Lily suddenly sits up and grabs Nina around the neck.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15740,
       "resolved_time_ms": 5607000,
       "type": "minor"
     }

@@ -3,18 +3,35 @@
   "runtime_minutes": 121,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "AF",
+        "A",
+        "SLF",
+        "AT",
+        "T",
+        "A",
+        "KT",
+        "A",
+        "PRS"
+      ],
       "description": "A knife jumps out of the box through a man's hand.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34468,
       "resolved_time_ms": 394000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "HR"
+      ],
       "description": "A Cenobite suddenly appears watching two characters",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39316,
       "resolved_time_ms": 2073000,
       "type": "minor"
     },
@@ -27,26 +44,47 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "S",
+        "SR",
+        "AAM",
+        "S",
+        "SR"
+      ],
       "description": "Loud noise following an anatomically correct human backside.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10115,
       "resolved_time_ms": 3405000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "AL",
+        "RT",
+        "AL",
+        "RT"
+      ],
       "description": "A woman is stabbed in the back.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28427,
       "resolved_time_ms": 3782000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AR",
+        "KNK",
+        "0",
+        "RNK",
+        "A"
+      ],
       "description": "There's a loud noise for some reason.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21478,
       "resolved_time_ms": 4005000,
       "type": "minor"
     },

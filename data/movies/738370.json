@@ -3,10 +3,16 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "LRN",
+        "FRM",
+        "0",
+        "PST"
+      ],
       "description": "Lauren grabs Michael from behind.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6379,
       "resolved_time_ms": 1102000,
       "type": "minor"
     },

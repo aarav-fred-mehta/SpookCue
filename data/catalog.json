@@ -1024,7 +1024,7 @@
     "tmdb_id": 3603
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/viWheBd44bouiLCHgNMvahLThqx.jpg",
     "release_year": 2010,
     "runtime_minutes": 108,
@@ -1254,7 +1254,7 @@
     "tmdb_id": 763
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/wpRrdm6g8zWtJnzVqME5QwSKkn7.jpg",
     "release_year": 1992,
     "runtime_minutes": 128,
@@ -1426,7 +1426,7 @@
     "tmdb_id": 12517
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/p7m3sSQhnoT2uuxUsxF4mQX6opr.jpg",
     "release_year": 2018,
     "runtime_minutes": 95,
@@ -1623,7 +1623,7 @@
     "tmdb_id": 417501
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/wvpgvcWNkF2HLuTEMIM7K83MvZ.jpg",
     "release_year": 1988,
     "runtime_minutes": 87,
@@ -1645,7 +1645,7 @@
     "tmdb_id": 533642
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/sMzVNi2zlQvsAxv9dlUN5MIs2sW.jpg",
     "release_year": 2012,
     "runtime_minutes": 88,
@@ -1812,7 +1812,7 @@
     "tmdb_id": 586592
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ogavoWVR5ESW5vrHqBIPtsSK5A5.jpg",
     "release_year": 2008,
     "runtime_minutes": 83,
@@ -1930,7 +1930,7 @@
     "tmdb_id": 396493
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/bbanIymLuTYmQGis9nlCkFlT1eg.jpg",
     "release_year": 1987,
     "runtime_minutes": 92,
@@ -2020,7 +2020,7 @@
     "tmdb_id": 869291
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/uNBt2YxrQdyOjnm2rDQ5QiCmQ0K.jpg",
     "release_year": 1983,
     "runtime_minutes": 93,
@@ -2209,7 +2209,7 @@
     "tmdb_id": 10493
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/7zEQIztSdusobBMM2TNHcffaldp.jpg",
     "release_year": 2003,
     "runtime_minutes": 83,
@@ -2251,7 +2251,7 @@
     "tmdb_id": 14451
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/dC38JMmb17geWFIjIBgNoKRMFnL.jpg",
     "release_year": 2022,
     "runtime_minutes": 88,
@@ -2741,7 +2741,7 @@
     "tmdb_id": 329010
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/krKnsfvSJM1PL40tLicRhVQ6kuG.jpg",
     "release_year": 2010,
     "runtime_minutes": 161,
@@ -3317,7 +3317,7 @@
     "tmdb_id": 9728
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/rUzk9Qnyz2FZGxHMBrq6DYIQZkO.jpg",
     "release_year": 1988,
     "runtime_minutes": 88,
@@ -3359,7 +3359,7 @@
     "tmdb_id": 368031
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/euIh75MwNDrYkTEVSkw7VXWGXoE.jpg",
     "release_year": 1985,
     "runtime_minutes": 107,
@@ -3389,7 +3389,7 @@
     "tmdb_id": 1139937
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/zwmyxaKzIRLD4iUqZAQW940omdm.jpg",
     "release_year": 1986,
     "runtime_minutes": 85,
@@ -3626,7 +3626,9 @@
     "release_year": 2023,
     "runtime_minutes": 125,
     "scare_count": 3,
-    "tags": [],
+    "tags": [
+      "HOT"
+    ],
     "title": "Godzilla Minus One",
     "tmdb_id": 940721
   },
@@ -4136,7 +4138,7 @@
     "tmdb_id": 39929
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg",
     "release_year": 2022,
     "runtime_minutes": 121,
@@ -4359,7 +4361,7 @@
     "tmdb_id": 1690
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/qB20aiY8Ah3pQikkBxm3j7jQVc8.jpg",
     "release_year": 2007,
     "runtime_minutes": 93,
@@ -4379,7 +4381,7 @@
     "tmdb_id": 71670
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ufTv4VkttiFrfIyuwGXQ5VV4XF2.jpg",
     "release_year": 2020,
     "runtime_minutes": 89,
@@ -4646,7 +4648,8 @@
     "runtime_minutes": 86,
     "scare_count": 7,
     "tags": [
-      "NEW"
+      "NEW",
+      "HOT"
     ],
     "title": "Ice Cream Man",
     "tmdb_id": 1477712
@@ -5034,7 +5037,7 @@
     "tmdb_id": 1145221
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/iwnQ1JH1wdWrGYkgWySptJ5284A.jpg",
     "release_year": 2015,
     "runtime_minutes": 101,
@@ -5210,7 +5213,7 @@
     "tmdb_id": 259233
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/A95Q8XlMK9MsJKJAMbmi4JjMiNj.jpg",
     "release_year": 2015,
     "runtime_minutes": 90,
@@ -5697,7 +5700,7 @@
     "tmdb_id": 399596
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/5POhfNeFPIi4VUNwCTaK85sh98r.jpg",
     "release_year": 1997,
     "runtime_minutes": 134,
@@ -6057,7 +6060,7 @@
     "tmdb_id": 381283
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/x7A59t6ySylr1L7aubOQEA480vM.jpg",
     "release_year": 2001,
     "runtime_minutes": 147,
@@ -6077,7 +6080,7 @@
     "tmdb_id": 1433354
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/kl3mewFceFtYIavvGts2atzB0e0.jpg",
     "release_year": 1981,
     "runtime_minutes": 90,
@@ -6332,7 +6335,7 @@
     "tmdb_id": 157547
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/skBMhQjHLTU1rp4gutxHp0JuY1C.jpg",
     "release_year": 2013,
     "runtime_minutes": 97,
@@ -6645,7 +6648,7 @@
     "tmdb_id": 353979
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/7SPhr7Qj39vbnfF9O2qHRYaKHAL.jpg",
     "release_year": 2019,
     "runtime_minutes": 101,
@@ -6934,7 +6937,7 @@
     "tmdb_id": 70981
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
     "release_year": 1960,
     "runtime_minutes": 109,
@@ -7090,7 +7093,7 @@
     "tmdb_id": 1266127
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/hgyJR4sgMsee6xMFM3xYiG6cDCh.jpg",
     "release_year": 2007,
     "runtime_minutes": 78,
@@ -7364,7 +7367,7 @@
     "tmdb_id": 1249532
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/daKOkVVIhqxwtOMRA0H15xOYfdb.jpg",
     "release_year": 2017,
     "runtime_minutes": 95,
@@ -7478,7 +7481,7 @@
     "tmdb_id": 29210
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/rLNSOudrayDBo1uqXjrhxcjODIC.jpg",
     "release_year": 2004,
     "runtime_minutes": 103,
@@ -7518,7 +7521,7 @@
     "tmdb_id": 214
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ku1QdCXOU4ckz3zxLLlis8MIJVm.jpg",
     "release_year": 2007,
     "runtime_minutes": 93,
@@ -7743,7 +7746,7 @@
     "tmdb_id": 1586
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
     "release_year": 2026,
     "runtime_minutes": 113,
@@ -7904,8 +7907,7 @@
     "runtime_minutes": 138,
     "scare_count": 8,
     "tags": [
-      "NEW",
-      "HOT"
+      "NEW"
     ],
     "title": "Sinners",
     "tmdb_id": 1233413
@@ -7995,7 +7997,7 @@
     "tmdb_id": 463602
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/aPqcQwu4VGEewPhagWNncDbJ9Xp.jpg",
     "release_year": 2022,
     "runtime_minutes": 115,
@@ -8399,7 +8401,7 @@
     "tmdb_id": 328252
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/xyPPBPkGbZxfS6UM4PjR5bnVfwR.jpg",
     "release_year": 2019,
     "runtime_minutes": 82,
@@ -8565,7 +8567,7 @@
     "tmdb_id": 762079
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/7VMscq0659xKmcXzd86de1DGV4W.jpg",
     "release_year": 1979,
     "runtime_minutes": 118,
@@ -8747,7 +8749,7 @@
     "tmdb_id": 334536
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/n6nT4SMY6fLozm7AuGySpXUmjry.jpg",
     "release_year": 1988,
     "runtime_minutes": 95,
@@ -8757,7 +8759,7 @@
     "tmdb_id": 9599
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ctOwn1Ibg3SjDG4WulvFvSH0PRT.jpg",
     "release_year": 1958,
     "runtime_minutes": 82,
@@ -9323,7 +9325,7 @@
     "tmdb_id": 25329
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/upUqC8VT5eqNQi3jInHJ4J20Az3.jpg",
     "release_year": 2020,
     "runtime_minutes": 137,
@@ -9355,7 +9357,7 @@
     "tmdb_id": 430231
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/54C1qdaiSijIU5NeNb4WsPJdNkG.jpg",
     "release_year": 1983,
     "runtime_minutes": 85,
@@ -9627,7 +9629,7 @@
     "tmdb_id": 375366
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/9FxUm0peyinMPv21uUmgGt92WOi.jpg",
     "release_year": 2016,
     "runtime_minutes": 98,
@@ -9947,7 +9949,7 @@
     "tmdb_id": 37169
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
     "release_year": 2020,
     "runtime_minutes": 90,
@@ -9957,7 +9959,7 @@
     "tmdb_id": 514847
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/aC9XHtf0Opw2IJDVjSkL8eO71An.jpg",
     "release_year": 2012,
     "runtime_minutes": 101,
@@ -10083,7 +10085,7 @@
     "tmdb_id": 1284041
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/2Y35XCUS8U8vC8vs0HDEVkPu1BM.jpg",
     "release_year": 2009,
     "runtime_minutes": 113,
@@ -10167,7 +10169,7 @@
     "tmdb_id": 474764
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
     "release_year": 2001,
     "runtime_minutes": 179,
@@ -10879,9 +10881,7 @@
     "release_year": 1980,
     "runtime_minutes": 144,
     "scare_count": 3,
-    "tags": [
-      "HOT"
-    ],
+    "tags": [],
     "title": "The Shining",
     "tmdb_id": 694
   },
@@ -11037,7 +11037,7 @@
     "tmdb_id": 933260
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/q61qEyssk2ku3okWICKArlAdhBn.jpg",
     "release_year": 2021,
     "runtime_minutes": 132,
@@ -11103,7 +11103,7 @@
     "tmdb_id": 10781
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
     "release_year": 1982,
     "runtime_minutes": 109,
@@ -11187,7 +11187,7 @@
     "tmdb_id": 477462
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/42H2aaD5UubsHyWt6zfrFMRP8y1.jpg",
     "release_year": 2009,
     "runtime_minutes": 87,
@@ -11389,7 +11389,7 @@
     "tmdb_id": 310131
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/p4T3g4qZw5XDOZtRnjFIJ6ngjYT.jpg",
     "release_year": 2018,
     "runtime_minutes": 76,
@@ -11946,7 +11946,7 @@
     "tmdb_id": 267806
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/1DdfXaXzi1sJysZ800GOUAwlLR4.jpg",
     "release_year": 2007,
     "runtime_minutes": 86,
@@ -12008,7 +12008,7 @@
     "tmdb_id": 441701
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/AnVD7Gn14uOTQhcc5xYZGQ9DRvS.jpg",
     "release_year": 2019,
     "runtime_minutes": 92,
@@ -12031,7 +12031,7 @@
     "tmdb_id": 1251717
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/bYUmSLPtWylFKbEBHOXT1kt9l5b.jpg",
     "release_year": 2015,
     "runtime_minutes": 110,
@@ -12173,8 +12173,7 @@
     "runtime_minutes": 128,
     "scare_count": 9,
     "tags": [
-      "NEW",
-      "HOT"
+      "NEW"
     ],
     "title": "Weapons",
     "tmdb_id": 1078605

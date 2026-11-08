@@ -3,10 +3,18 @@
   "runtime_minutes": 137,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "NT",
+        "TL",
+        "M",
+        "T",
+        "KLM",
+        "TN"
+      ],
       "description": "The camera is zoomed in on a sleeping woman’s face, then suddenly cuts to a zoomed out shot to reveal Paul whispering something into her ear, accompanied by a loud sound.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40773,
       "resolved_time_ms": 1143000,
       "type": "minor"
     },
@@ -19,10 +27,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "0",
+        "SKNT",
+        "NT",
+        "A",
+        "S",
+        "HM",
+        "A",
+        "S",
+        "HM"
+      ],
       "description": "There is a sudden cut and a screech during a flashback.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8488,
       "resolved_time_ms": 6020000,
       "type": "minor"
     },

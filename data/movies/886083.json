@@ -3,90 +3,170 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HRT",
+        "SM0NK",
+        "AAM",
+        "KN",
+        "KL",
+        "HR"
+      ],
       "description": "Chrissy starts screaming.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1754,
       "resolved_time_ms": 2013000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FN",
+        "RPT",
+        "AFTR",
+        "M"
+      ],
       "description": "There is a loud thud.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18103,
       "resolved_time_ms": 2311000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "F",
+        "AS",
+        "RNK",
+        "A0",
+        "A"
+      ],
       "description": "Chrissy screams and scares Shawn.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 524,
       "resolved_time_ms": 2485000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "K",
+        "TR",
+        "T",
+        "SKS",
+        "PST",
+        "HR"
+      ],
       "description": "When Shawn moves the tablet down, Mildred’s face is behind it.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58677,
       "resolved_time_ms": 2837000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "KRS",
+        "N",
+        "A",
+        "AM",
+        "A",
+        "KNK",
+        "PK",
+        "APSTRS"
+      ],
       "description": "The creature under the bedsheets suddenly lurches towards Shawn.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49490,
       "resolved_time_ms": 3049000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "RSST",
+        "XN",
+        "AT",
+        "AS",
+        "0T"
+      ],
       "description": "Shawn moves the sheets and Mildred is underneath them.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17335,
       "resolved_time_ms": 3185000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RKR",
+        "A",
+        "SKRFS",
+        "AF",
+        "FLX"
+      ],
       "description": "There is a loud crash outside the car.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7394,
       "resolved_time_ms": 3571000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PTT",
+        "KN",
+        "PTTS",
+        "KM",
+        "AN"
+      ],
       "description": "A hand breaks through the car window behind Shawn.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37824,
       "resolved_time_ms": 3628000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "MLTRT",
+        "A",
+        "AM",
+        "0",
+        "ANFLNSR"
+      ],
       "description": "A man’s hand comes out of the bathtub and strangles Shawn.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24200,
       "resolved_time_ms": 4486000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "0T",
+        "HL",
+        "ATR",
+        "AL",
+        "F"
+      ],
       "description": "The man explodes.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6602,
       "resolved_time_ms": 4528000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AX",
+        "AR",
+        "HNTS",
+        "KX"
+      ],
       "description": "Mildred comes down from the ceiling.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7861,
       "resolved_time_ms": 4591000,
       "type": "major"
     },

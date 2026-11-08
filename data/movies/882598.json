@@ -11,10 +11,23 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "A",
+        "PTNT",
+        "AMRJNS",
+        "AN",
+        "AFL",
+        "A",
+        "NT",
+        "STF",
+        "HR",
+        "N"
+      ],
       "description": "Laura screams and falls back in her chair.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4320,
       "resolved_time_ms": 659000,
       "type": "minor"
     },
@@ -27,18 +40,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "S",
+        "SR",
+        "AT",
+        "KN",
+        "A",
+        "T"
+      ],
       "description": "Trevor speaks from offscreen and Rose drops her wine glass.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6480,
       "resolved_time_ms": 1091000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "KT",
+        "0T",
+        "FRRTT",
+        "T",
+        "M"
+      ],
       "description": "Scene cuts to Rose opening a canned meat.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 0,
       "resolved_time_ms": 1300000,
       "type": "minor"
     },
@@ -51,74 +80,165 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RS",
+        "KTR",
+        "AKPLK",
+        "MM",
+        "AF",
+        "TTKTT",
+        "A",
+        "TR",
+        "ALRM"
+      ],
       "description": "The home security alarm goes off and Rose drops her glass.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 960,
       "resolved_time_ms": 1874000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "A",
+        "HF",
+        "AR",
+        "NM",
+        "ANT",
+        "0",
+        "PSKT"
+      ],
       "description": "The phone rings suddenly.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2960,
       "resolved_time_ms": 1940000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "AN0NK",
+        "ALS",
+        "KMS",
+        "AP",
+        "A",
+        "KN",
+        "JF",
+        "AS",
+        "A",
+        "KL"
+      ],
       "description": "The phone rings suddenly again.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19880,
       "resolved_time_ms": 1995000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "A",
+        "PTNT",
+        "AMRJNS",
+        "AN",
+        "AFL",
+        "A",
+        "NT",
+        "STF",
+        "HR",
+        "N",
+        "HR"
+      ],
       "description": "Rose awakens abruptly from a nightmare.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43360,
       "resolved_time_ms": 2210000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KLT",
+        "AKTL",
+        "P",
+        "MR",
+        "APT",
+        "AR",
+        "M0RRS",
+        "SST"
+      ],
       "description": "The demon abruptly screams at Rose during a tense scene.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2000,
       "resolved_time_ms": 2313000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "ATTS",
+        "KN",
+        "P",
+        "RL",
+        "HRT",
+        "FR",
+        "A",
+        "T",
+        "PLF"
+      ],
       "description": "The camera cuts to a smiling partygoer standing very close to Rose with an accompanying sound effect.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3520,
       "resolved_time_ms": 2779000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNK",
+        "STRNJ",
+        "0NKS",
+        "0T",
+        "H",
+        "TTNNT",
+        "AFN",
+        "SM",
+        "T",
+        "RMMPR"
+      ],
       "description": "The demon screams Rose’s name and the scene abruptly changes.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3800,
       "resolved_time_ms": 3133000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "A",
+        "AL",
+        "AF",
+        "0S",
+        "AS",
+        "HPNNK"
+      ],
       "description": "The scene cuts to a mangled cadaver.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 840,
       "resolved_time_ms": 3281000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MN",
+        "0S",
+        "0S",
+        "AS",
+        "0S"
+      ],
       "description": "Holly’s head unnaturally drops from her shoulders and dangles in front of the car window.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1440,
       "resolved_time_ms": 4199000,
       "type": "major"
     },
@@ -155,18 +275,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "SLFX",
+        "ANT",
+        "0T",
+        "AS",
+        "NT",
+        "FR",
+        "T",
+        "A"
+      ],
       "description": "The demon grabs the door that Rose is trying to close.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4120,
       "resolved_time_ms": 6072000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "KRS",
+        "AAL",
+        "ST",
+        "A0",
+        "A"
+      ],
       "description": "The demon appears behind Rose and throws her against the wall.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6240,
       "resolved_time_ms": 6114000,
       "type": "major"
     },

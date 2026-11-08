@@ -11,10 +11,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "TK",
+        "M",
+        "A",
+        "FRM",
+        "AL",
+        "0S",
+        "T0"
+      ],
       "description": "Dracula suddenly breaks out of a box.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53028,
       "resolved_time_ms": 6114000,
       "type": "minor"
     }

@@ -3,10 +3,20 @@
   "runtime_minutes": 179,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "PLT",
+        "0T",
+        "KT",
+        "0",
+        "RNK",
+        "FRM",
+        "SRNNS",
+        "HNT"
+      ],
       "description": "When Bilbo sees the One Ring collared around Frodo's neck, his face changes while lunging towards Frodo.\r\n[THEATRICAL VERSION] 01:34:39\r\n[EXTENDED VERSION] 01:47:58",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17219,
       "resolved_time_ms": 5679000,
       "type": "minor"
     }

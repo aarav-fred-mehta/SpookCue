@@ -3,26 +3,50 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "K",
+        "HM",
+        "AN",
+        "A",
+        "F",
+        "MNTS"
+      ],
       "description": "Cujo jumps up at the car window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4984,
       "resolved_time_ms": 3010000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "K",
+        "HM",
+        "AN",
+        "A",
+        "F",
+        "MNTS"
+      ],
       "description": "Cujo jumps onto the hood of the car.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59584,
       "resolved_time_ms": 3071000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "HSNNT",
+        "AFN",
+        "KLT",
+        "AN"
+      ],
       "description": "Cujo runs at the cop exploring the building.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15701,
       "resolved_time_ms": 4747000,
       "type": "minor"
     },

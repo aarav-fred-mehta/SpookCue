@@ -11,34 +11,76 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "A",
+        "AR",
+        "A",
+        "LTL",
+        "S0RT"
+      ],
       "description": "An axe goes through the door.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10612,
       "resolved_time_ms": 398000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "0M",
+        "AT",
+        "AF",
+        "HR",
+        "KT",
+        "0M",
+        "AT",
+        "AF",
+        "HR"
+      ],
       "description": "A man hits the window of the door and begins yelling.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7694,
       "resolved_time_ms": 688000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "0R",
+        "AT",
+        "AS",
+        "AT",
+        "T",
+        "A",
+        "ANT",
+        "M",
+        "T",
+        "T",
+        "A0",
+        "HM"
+      ],
       "description": "Ass the light is turned on, Crawford charges forward with an axe.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 870,
       "resolved_time_ms": 1548000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "LF",
+        "AT",
+        "AF",
+        "TN",
+        "A0",
+        "0S",
+        "RM"
+      ],
       "description": "The fuse box catches fire.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12303,
       "resolved_time_ms": 3253000,
       "type": "minor"
     }

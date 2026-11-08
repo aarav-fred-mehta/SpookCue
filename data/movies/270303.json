@@ -3,10 +3,20 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PRKS",
+        "M",
+        "HRT",
+        "0",
+        "0NKS",
+        "H",
+        "ST",
+        "T",
+        "HR"
+      ],
       "description": "Jay looks in the mirror and a ball hits the window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36974,
       "resolved_time_ms": 1606000,
       "type": "minor"
     },
@@ -19,10 +29,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "TNNT",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "The door opens and an unsettling tall man is standing behind Yara in the door-frame. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11976,
       "resolved_time_ms": 2455000,
       "type": "major"
     },
@@ -35,10 +51,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "TRNK",
+        "T",
+        "KM",
+        "AN",
+        "0RS",
+        "N0NK",
+        "AT",
+        "HR"
+      ],
       "description": "Jay crawls towards the shed’s broken door and a boy jumps into the hole.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35140,
       "resolved_time_ms": 3690000,
       "type": "minor"
     }

@@ -3,18 +3,37 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MST",
+        "AT",
+        "0",
+        "FRST",
+        "TM",
+        "AT",
+        "KN",
+        "PL",
+        "AR",
+        "MNT"
+      ],
       "description": "A scary face flashes up on a laptop screen. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22602,
       "resolved_time_ms": 325000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "A",
+        "KNNT",
+        "ARK",
+        "0S",
+        "0NK"
+      ],
       "description": "Luke starts talking behind Claire while she is looking through window.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51121,
       "resolved_time_ms": 1472000,
       "type": "minor"
     },
@@ -51,10 +70,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "AN",
+        "K",
+        "PK",
+        "TN",
+        "0R"
+      ],
       "description": "A beer can falls down the basement steps, followed by the appearance of the old man from the bathtub standing behind Claire.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29026,
       "resolved_time_ms": 5275000,
       "type": "minor"
     },

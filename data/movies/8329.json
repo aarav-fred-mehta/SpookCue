@@ -3,74 +3,140 @@
   "runtime_minutes": 78,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "AS",
+        "KTNK",
+        "ANTPTKS",
+        "FR",
+        "HR"
+      ],
       "description": "A body falls down from the stairwell next to a group of people on the ground floor.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3520,
       "resolved_time_ms": 1080000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "KRFL",
+        "AR",
+        "AR",
+        "0"
+      ],
       "description": "Someone runs through the door space.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40000,
       "resolved_time_ms": 1194000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "RKXN",
+        "TM",
+        "TPNTS",
+        "AN",
+        "0",
+        "PLT",
+        "TP",
+        "A",
+        "KNNT",
+        "PRTKT"
+      ],
       "description": "One of the infected slams against the glass door from the other side.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3760,
       "resolved_time_ms": 2620000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AS"
+      ],
       "description": "The little girl attacks the police officer.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3640,
       "resolved_time_ms": 2895000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HPNT",
+        "T",
+        "HR",
+        "AS"
+      ],
       "description": "An infected lady jumps into the centre of the hallway.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49640,
       "resolved_time_ms": 2941000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "AN",
+        "HS",
+        "APRTMNT"
+      ],
       "description": "A hand bursts through some glass grabbing one of the men.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2040,
       "resolved_time_ms": 3213000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PPL",
+        "0",
+        "SPTLT",
+        "TRN",
+        "AT",
+        "AN",
+        "AAM",
+        "TRNK"
+      ],
       "description": "The light on the camera turns on revealing an infected person.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4800,
       "resolved_time_ms": 3408000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "AN0NK",
+        "KS",
+        "RNK",
+        "M",
+        "KT",
+        "HLP",
+        "AS"
+      ],
       "description": "The attic door suddenly opens.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7360,
       "resolved_time_ms": 3914000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "AR",
+        "RL",
+        "ART",
+        "NSS"
+      ],
       "description": "The camera spins around in the attic where a boy’s face appears. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7160,
       "resolved_time_ms": 3951000,
       "type": "major"
     },

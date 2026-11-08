@@ -3,18 +3,34 @@
   "runtime_minutes": 161,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STP",
+        "AT",
+        "AAM",
+        "NT",
+        "LTNK",
+        "A",
+        "TK"
+      ],
       "description": "Car hits the truck from the front.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1772,
       "resolved_time_ms": 2910000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "AT",
+        "FLS",
+        "S",
+        "FKNK",
+        "KT"
+      ],
       "description": "Car hits the truck from the front.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9532,
       "resolved_time_ms": 3915000,
       "type": "minor"
     },

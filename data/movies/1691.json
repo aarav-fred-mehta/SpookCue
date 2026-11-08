@@ -3,10 +3,20 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LRN",
+        "AR",
+        "A",
+        "HFNK",
+        "A",
+        "JRNL",
+        "KSM",
+        "RT",
+        "N"
+      ],
       "description": "Several children jump out in front of the girls.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1564,
       "resolved_time_ms": 1654000,
       "type": "minor"
     },
@@ -19,26 +29,43 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "0",
+        "KLNT",
+        "KLNT",
+        "AT",
+        "KLNT"
+      ],
       "description": "As the make-up man and Whitney are looking at each other, Whitney suddenly bites him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27704,
       "resolved_time_ms": 3775000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "0T",
+        "K"
+      ],
       "description": "While Beth is turning around, Stuart suddenly punches her.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14581,
       "resolved_time_ms": 4553000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNT",
+        "LF",
+        "A0T",
+        "KLNK"
+      ],
       "description": "As Stuart is saying “You’re a stupid f’ing c**t” he is interrupted by Beth suddenly pulling his schlong out.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 277,
       "resolved_time_ms": 5276000,
       "type": "minor"
     }

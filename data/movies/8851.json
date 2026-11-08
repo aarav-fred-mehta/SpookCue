@@ -3,26 +3,55 @@
   "runtime_minutes": 82,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "K",
+        "MX",
+        "A",
+        "KS",
+        "0RS",
+        "N0NK",
+        "ALS",
+        "A",
+        "KN",
+        "FNT",
+        "AT",
+        "HR",
+        "STF"
+      ],
       "description": "The nurse screams when she sees the blob, and loud music begins to play.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1512,
       "resolved_time_ms": 1368000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANNT",
+        "TL",
+        "ANPT",
+        "AAL",
+        "K",
+        "A0",
+        "A"
+      ],
       "description": "Steve gets startled by Jane when he walks around the corner.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1138,
       "resolved_time_ms": 2687000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "NT",
+        "KT",
+        "NT"
+      ],
       "description": "After Steve goes off screen, there’s a loud sound of cans falling down.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 166,
       "resolved_time_ms": 3280000,
       "type": "minor"
     }

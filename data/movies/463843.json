@@ -35,18 +35,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ST",
+        "AT",
+        "ALTNNT",
+        "KM",
+        "AT",
+        "TRNK",
+        "0"
+      ],
       "description": "The creature pierces through the raft.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2930,
       "resolved_time_ms": 3906000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ST",
+        "AT",
+        "ALTNNT",
+        "KM",
+        "AT",
+        "TRNK",
+        "0"
+      ],
       "description": "The creature grabs Jenn through the bottom of the raft and drags her down.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44930,
       "resolved_time_ms": 3948000,
       "type": "minor"
     }

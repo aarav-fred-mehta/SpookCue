@@ -11,10 +11,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MT",
+        "STP",
+        "0T",
+        "A",
+        "HF",
+        "T",
+        "K",
+        "T",
+        "PT",
+        "N"
+      ],
       "description": "Matty hits Casey over the head with the mirror.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2834,
       "resolved_time_ms": 378000,
       "type": "minor"
     },
@@ -35,18 +46,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PNT",
+        "0T",
+        "TR",
+        "0TTS",
+        "AR",
+        "X",
+        "HNK",
+        "HRSLF"
+      ],
       "description": "A sudden scene transition to a loud train passing may startle sensitive viewers.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5591,
       "resolved_time_ms": 1748000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "0TTS",
+        "PKS",
+        "HH",
+        "T",
+        "TRMTK"
+      ],
       "description": "Casey has a vision of the demonic boy while in a night club. He suddenly moves closer to the camera and screams.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46074,
       "resolved_time_ms": 1848000,
       "type": "minor"
     },
@@ -75,42 +102,88 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "N",
+        "TNNT",
+        "ANSR",
+        "0T"
+      ],
       "description": "We see a close up of the boy on Casey’s laptop (accompanied by a sound effect).",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17192,
       "resolved_time_ms": 3701000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "TR",
+        "AS",
+        "APN",
+        "AT"
+      ],
       "description": "Matty stabs Romy in the stomach.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3167,
       "resolved_time_ms": 3753000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "NT",
+        "FR",
+        "0",
+        "TRR",
+        "AF",
+        "0",
+        "NT",
+        "NR",
+        "0",
+        "AR",
+        "0T",
+        "FLS",
+        "P",
+        "T"
+      ],
       "description": "Several disturbing images flash across the screen in quick succession.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59113,
       "resolved_time_ms": 4488000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "KT",
+        "A",
+        "0NK",
+        "HH",
+        "KN"
+      ],
       "description": "Hands burst through the wall behind Mark and pull him through the hole.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6981,
       "resolved_time_ms": 4610000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PP",
+        "PP",
+        "AR",
+        "HRTNK",
+        "M",
+        "MRK",
+        "STP",
+        "AT"
+      ],
       "description": "Possessed Mark appears right behind Casey.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38838,
       "resolved_time_ms": 4701000,
       "type": "minor"
     }

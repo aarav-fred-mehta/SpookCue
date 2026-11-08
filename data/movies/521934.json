@@ -3,18 +3,35 @@
   "runtime_minutes": 76,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AX",
+        "AS",
+        "PT",
+        "NS",
+        "FR",
+        "AS",
+        "PKS",
+        "AP",
+        "HR",
+        "AN",
+        "M"
+      ],
       "description": "The lights suddenly flicker.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1471,
       "resolved_time_ms": 829000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "HPNNK",
+        "S",
+        "S"
+      ],
       "description": "The flashlight illuminates the electrician.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6465,
       "resolved_time_ms": 840000,
       "type": "minor"
     },
@@ -27,10 +44,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "JST",
+        "AFR0NK",
+        "LK",
+        "M",
+        "RM"
+      ],
       "description": "The lights suddenly go out.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4969,
       "resolved_time_ms": 2075000,
       "type": "minor"
     },
@@ -43,10 +67,18 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NFR",
+        "A",
+        "NFR",
+        "LFT",
+        "AR",
+        "HS"
+      ],
       "description": "The camera panes to the witch in the car with a sound effect.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36712,
       "resolved_time_ms": 3626000,
       "type": "minor"
     }

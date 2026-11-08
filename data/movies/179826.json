@@ -3,26 +3,52 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "RN",
+        "ANT",
+        "NTRL",
+        "A",
+        "KF",
+        "XS"
+      ],
       "description": "Odd turns around and a faceless man in a bowling shirt is in front of him. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53631,
       "resolved_time_ms": 498000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "0",
+        "FNT",
+        "AT",
+        "A",
+        "KN",
+        "S",
+        "0M",
+        "0",
+        "AL",
+        "KL",
+        "A"
+      ],
       "description": "A man gets hit by a truck suddenly.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3002,
       "resolved_time_ms": 734000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FNKS",
+        "MN",
+        "HS",
+        "FRNTS"
+      ],
       "description": "A cold force suddenly radiates out from the door.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29835,
       "resolved_time_ms": 1365000,
       "type": "minor"
     },
@@ -43,42 +69,84 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TS",
+        "0T",
+        "MN",
+        "KT",
+        "AN",
+        "A0",
+        "AT",
+        "AR",
+        "AP",
+        "ARS"
+      ],
       "description": "Something bangs on the door that Stormy is standing behind.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42250,
       "resolved_time_ms": 2140000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLT",
+        "HF",
+        "LSTNT",
+        "T",
+        "HR"
+      ],
       "description": "A bodach pops up in front of the camera.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27519,
       "resolved_time_ms": 3513000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "KRFL",
+        "TNNT",
+        "AR"
+      ],
       "description": "Odd closes the fridge door to reveal the ghost of Bob standing behind. [Video].",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8316,
       "resolved_time_ms": 3835000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "FRNR",
+        "AR",
+        "AR",
+        "A"
+      ],
       "description": "A masked man appears at a window.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27978,
       "resolved_time_ms": 4152000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFRN",
+        "KT",
+        "0",
+        "HL",
+        "AT",
+        "AF",
+        "HR",
+        "KT",
+        "0",
+        "HL",
+        "AT"
+      ],
       "description": "As Varner prepares to shoot Odd in the van, a bodach suddenly comes out of the window and screeches at Odd.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57190,
       "resolved_time_ms": 4816000,
       "type": "minor"
     }

@@ -3,26 +3,48 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "KT",
+        "T",
+        "LFRN",
+        "AL",
+        "AX",
+        "0N",
+        "AAL",
+        "AX"
+      ],
       "description": "The oil slick jumps onto Rachel hand and eats her alive.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14831,
       "resolved_time_ms": 2678000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0NKS",
+        "FR",
+        "0",
+        "RT",
+        "LT"
+      ],
       "description": "Mrs. Lansing hits a hitchhiker with her Mercedes.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42077,
       "resolved_time_ms": 3868000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTL",
+        "KST",
+        "A",
+        "MRS",
+        "LNSNK"
+      ],
       "description": "The dead hitchhiker, jump into Mrs. Lansing’s window.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26465,
       "resolved_time_ms": 4201000,
       "type": "major"
     }

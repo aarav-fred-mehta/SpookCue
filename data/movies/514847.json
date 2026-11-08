@@ -3,34 +3,69 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MF",
+        "K",
+        "K",
+        "K",
+        "0T",
+        "ALMST",
+        "HT",
+        "M"
+      ],
       "description": "A woman is suddenly shot in the head after saying “that almost hit me”.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3610,
       "resolved_time_ms": 817000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "LTTS",
+        "KT",
+        "0",
+        "FK",
+        "AT",
+        "AF",
+        "HR",
+        "KM",
+        "AN"
+      ],
       "description": "There is a loud explosion after a man steps on a mine.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10188,
       "resolved_time_ms": 912000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0L",
+        "HT",
+        "0",
+        "TRPS"
+      ],
       "description": "A pig suddenly drops onto the ramp startling the group.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19894,
       "resolved_time_ms": 3216000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "TTNNT",
+        "TT",
+        "A",
+        "PKS",
+        "AR",
+        "NT"
+      ],
       "description": "Martin is suddenly shot in the head with bloody results.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 989,
       "resolved_time_ms": 3236000,
       "type": "minor"
     }

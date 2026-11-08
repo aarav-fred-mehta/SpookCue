@@ -11,42 +11,84 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PLT",
+        "A",
+        "PRNT",
+        "AF",
+        "0T",
+        "KSNK",
+        "A",
+        "KT",
+        "A",
+        "MX",
+        "JSS"
+      ],
       "description": "A person wearing a pig mask appears behind Detective Hoffman.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5760,
       "resolved_time_ms": 1247000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "AF",
+        "AS",
+        "PRNNT",
+        "H",
+        "FR",
+        "MN0S"
+      ],
       "description": "Cecil suddenly pops up at a window, startling Jill.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8230,
       "resolved_time_ms": 2868000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "HF",
+        "T",
+        "HLP",
+        "0MSLFS"
+      ],
       "description": "Cecil bursts through the door, injuring Jill in the process.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9510,
       "resolved_time_ms": 2922000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MRKN",
+        "AT",
+        "0",
+        "FK",
+        "AR",
+        "A",
+        "TNK"
+      ],
       "description": "An apparently dead woman suddenly jerks awake, startling Rigg.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8280,
       "resolved_time_ms": 3397000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A0RS",
+        "L",
+        "XT",
+        "ANT",
+        "KT",
+        "ALKTT"
+      ],
       "description": "John suddenly grabs Jill’s hand.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 310,
       "resolved_time_ms": 4239000,
       "type": "minor"
     }

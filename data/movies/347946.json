@@ -3,10 +3,16 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "0",
+        "MTR",
+        "A0",
+        "A"
+      ],
       "description": "A ghostly boy’s hand is seen holding a woman’s waist.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41060,
       "resolved_time_ms": 306000,
       "type": "minor"
     },
@@ -27,10 +33,23 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NFR",
+        "MT",
+        "TX",
+        "PFR",
+        "ANT",
+        "AL",
+        "ALS",
+        "FST",
+        "AFTR",
+        "SKL",
+        "HS",
+        "ANTT"
+      ],
       "description": "As a woman looks through a strange notebook, she closes it and sees a pale woman on the reflection of the glass table.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32060,
       "resolved_time_ms": 1106000,
       "type": "major"
     },
@@ -43,10 +62,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "FR",
+        "HP",
+        "0NK",
+        "A"
+      ],
       "description": "A man’s voice suddenly distorts.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9180,
       "resolved_time_ms": 1423000,
       "type": "minor"
     },
@@ -83,42 +108,82 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "XKT",
+        "0RS",
+        "N",
+        "PRPLM"
+      ],
       "description": "A screaming boy suddenly appears as the lights flicker.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48000,
       "resolved_time_ms": 2933000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "TT",
+        "0S",
+        "KT",
+        "KM",
+        "FRM"
+      ],
       "description": "As a girl moves over and lifts the table cloth to look under the table again, she sees a ghostly boy sitting under it.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9060,
       "resolved_time_ms": 3202000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TX",
+        "AS",
+        "0",
+        "FRST",
+        "AN",
+        "A",
+        "KLT",
+        "KT",
+        "T"
+      ],
       "description": "As a mother and daughter talk to each other, a ghostly woman suddenly rushes over to the door.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1560,
       "resolved_time_ms": 3493000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KNK",
+        "T",
+        "PL",
+        "A0",
+        "AT",
+        "AFTR",
+        "A",
+        "T"
+      ],
       "description": "After a flashback scene plays, the man suddenly transitions back to the present.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15590,
       "resolved_time_ms": 4132000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TT",
+        "AT",
+        "HPN",
+        "AKN"
+      ],
       "description": "As the elevator door opens, it reveals many versions of the ghostly boy inside of it.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52000,
       "resolved_time_ms": 4452000,
       "type": "minor"
     }

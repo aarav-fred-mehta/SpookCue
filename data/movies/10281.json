@@ -3,10 +3,18 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KN",
+        "P",
+        "A",
+        "KLT",
+        "NT",
+        "TNT"
+      ],
       "description": "Dan chopping wood with a machete makes a brief surprising sound effect.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47506,
       "resolved_time_ms": 1585000,
       "type": "minor"
     },

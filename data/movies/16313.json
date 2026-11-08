@@ -27,10 +27,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "AS",
+        "0",
+        "STF",
+        "A",
+        "ASKT",
+        "M",
+        "T",
+        "KT",
+        "FR",
+        "A"
+      ],
       "description": "Shane leans forwards to pick up the watch he dropped, revealing the ghost woman sitting in the seat right next to his.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8917,
       "resolved_time_ms": 2636000,
       "type": "minor"
     },
@@ -43,18 +55,40 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XN",
+        "AAM",
+        "TLNK",
+        "A",
+        "T",
+        "KM",
+        "A0",
+        "M"
+      ],
       "description": "A ghostified looking Som lunges at Shane from the darkness.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1792,
       "resolved_time_ms": 3344000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "TL",
+        "M",
+        "AR",
+        "KN",
+        "TR",
+        "T",
+        "SKP",
+        "AT",
+        "AN",
+        "M",
+        "AKN"
+      ],
       "description": "While Shane is standing on top of a cardboard cut-out of the ghost, it suddenly turns into the real ghost when he looks down at it.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39667,
       "resolved_time_ms": 4240000,
       "type": "minor"
     },
@@ -67,10 +101,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "RL",
+        "ANT",
+        "T",
+        "S",
+        "M",
+        "T"
+      ],
       "description": "While Shane is running the ghost woman suddenly appears in front of him and attacks with a knife.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9500,
       "resolved_time_ms": 4417000,
       "type": "minor"
     },
@@ -83,10 +125,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "MF",
+        "AS",
+        "APT",
+        "T",
+        "STRT"
+      ],
       "description": "The credits begin to roll over a still frame of the woman hanging, but she suddenly springs back upwards a few seconds later and looks at the camera.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51208,
       "resolved_time_ms": 4679000,
       "type": "minor"
     }

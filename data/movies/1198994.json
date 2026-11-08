@@ -3,10 +3,19 @@
   "runtime_minutes": 113,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "LT",
+        "K",
+        "PLS",
+        "JF",
+        "M",
+        "AR",
+        "ST"
+      ],
       "description": "Man at the window of the airplane",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21081,
       "resolved_time_ms": 1191000,
       "type": "minor"
     },
@@ -27,10 +36,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "A",
+        "XLT",
+        "HT",
+        "PK"
+      ],
       "description": "She falls off the cliff",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3122,
       "resolved_time_ms": 3426000,
       "type": "minor"
     },
@@ -43,10 +59,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "TL",
+        "PRTL",
+        "AFR0NK"
+      ],
       "description": "A figure appears beside her in her dream",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5638,
       "resolved_time_ms": 5290000,
       "type": "major"
     },

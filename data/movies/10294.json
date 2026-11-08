@@ -3,90 +3,186 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MN",
+        "AFNTL",
+        "AF",
+        "KT",
+        "T",
+        "HT",
+        "A"
+      ],
       "description": "Someone appears beside the driver’s side window of the car.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1654,
       "resolved_time_ms": 499000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "A",
+        "LTL",
+        "LT",
+        "FR",
+        "0S",
+        "XT"
+      ],
       "description": "There is some very loud banging on the door.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3845,
       "resolved_time_ms": 1628000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "JST",
+        "TRNK",
+        "T",
+        "FKR",
+        "AT",
+        "AT",
+        "0R",
+        "TNK"
+      ],
       "description": "Further loud banging on the door startles Amy.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29410,
       "resolved_time_ms": 1672000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "ATTS",
+        "TFT"
+      ],
       "description": "The lights briefly turn on and a masked figure can be seen at the window.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22750,
       "resolved_time_ms": 2159000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "NLT",
+        "XT",
+        "JST",
+        "TR"
+      ],
       "description": "A masked face appears at the bathroom window.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17668,
       "resolved_time_ms": 2386000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "A",
+        "AR",
+        "A",
+        "SR",
+        "T",
+        "KT",
+        "AAM",
+        "KN",
+        "FKNK",
+        "AS",
+        "AT"
+      ],
       "description": "After a short pause, the banging on the door resumes again.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12806,
       "resolved_time_ms": 2410000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "XLTNNT",
+        "P",
+        "ANTRNK",
+        "ARNT",
+        "AN",
+        "0",
+        "TRK",
+        "P",
+        "ARSLF"
+      ],
       "description": "The phone booth is lit up by a car’s lights.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2571,
       "resolved_time_ms": 2603000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRN",
+        "ARNT",
+        "0R",
+        "PHNT",
+        "A"
+      ],
       "description": "The motel manager comes up beside the truck driver.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6872,
       "resolved_time_ms": 3039000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "0",
+        "K",
+        "FRM",
+        "0",
+        "AFS",
+        "0T",
+        "ANSRT",
+        "0",
+        "FN"
+      ],
       "description": "There is a loud bang as a man attempts to enter the room through a door in the floor.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2359,
       "resolved_time_ms": 3815000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "AAM",
+        "NT",
+        "KN",
+        "JF",
+        "AM",
+        "A",
+        "XS"
+      ],
       "description": "As the police officer lowers the bonnet, a masked man can be seen standing behind him.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17908,
       "resolved_time_ms": 3931000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PRMS",
+        "N",
+        "XT",
+        "0T"
+      ],
       "description": "David opens the motel door and is immediately attacked by a masked man.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56109,
       "resolved_time_ms": 4152000,
       "type": "minor"
     },

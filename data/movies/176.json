@@ -3,26 +3,49 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "AT",
+        "SNPT",
+        "XT",
+        "H",
+        "AS",
+        "JFN",
+        "T",
+        "HRS"
+      ],
       "description": "The scene abruptly cuts to a man struggling in a cage trap.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8483,
       "resolved_time_ms": 1093000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "NT",
+        "LTL",
+        "JRL"
+      ],
       "description": "After Zepp’s eye is revealed in Daina’s closet, the closet doors slam open.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6430,
       "resolved_time_ms": 2379000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "0NK",
+        "AT",
+        "AS",
+        "ATNK",
+        "FR",
+        "M"
+      ],
       "description": "A masked man lunges at Dr. Gordon while he is on phone.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8153,
       "resolved_time_ms": 3625000,
       "type": "minor"
     },
@@ -35,18 +58,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "AT",
+        "AAL",
+        "KL",
+        "A",
+        "A",
+        "M0RFKR"
+      ],
       "description": "Adam’s camera flashes to reveal a masked man hiding in a cupboard.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36931,
       "resolved_time_ms": 4243000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "KL",
+        "AR",
+        "HSPNT",
+        "N",
+        "MRS",
+        "KRTN"
+      ],
       "description": "Dr. Gordon is electrocuted while he is sobbing on the floor.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45290,
       "resolved_time_ms": 5227000,
       "type": "minor"
     }

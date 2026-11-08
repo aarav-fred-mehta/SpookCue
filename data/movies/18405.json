@@ -3,34 +3,85 @@
   "runtime_minutes": 113,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "AAT",
+        "PR",
+        "FR",
+        "SM0NK",
+        "A",
+        "LTL",
+        "PT",
+        "MR",
+        "SPSTNXL"
+      ],
       "description": "A truck crashes into the police car.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4394,
       "resolved_time_ms": 194000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "JST",
+        "STNK",
+        "AN",
+        "0",
+        "PT",
+        "AN",
+        "JNT",
+        "ANNT",
+        "HRT",
+        "A",
+        "TK",
+        "AT"
+      ],
       "description": "A hand suddenly bangs on Mari’s car window.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9035,
       "resolved_time_ms": 1100000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "N",
+        "ATTS",
+        "ATTS",
+        "0",
+        "LST",
+        "A",
+        "KLT",
+        "T"
+      ],
       "description": "Francis surprises Emma while she is picking up some knives.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7828,
       "resolved_time_ms": 4643000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "SR",
+        "PKT",
+        "A",
+        "HL",
+        "AF",
+        "A",
+        "TM",
+        "T",
+        "KR",
+        "SM",
+        "PLS"
+      ],
       "description": "There is a flash of lightning and Krug’s outline can be seen in the corner of the room.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6881,
       "resolved_time_ms": 5840000,
       "type": "minor"
     }

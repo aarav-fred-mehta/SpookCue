@@ -19,18 +19,40 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "A",
+        "JST",
+        "ANT",
+        "T",
+        "HR",
+        "0",
+        "RST",
+        "AF",
+        "AT"
+      ],
       "description": "A branch falls through the window of the cabin.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34832,
       "resolved_time_ms": 1121000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HRT",
+        "A",
+        "A",
+        "HRT",
+        "A",
+        "AN",
+        "0",
+        "SLR"
+      ],
       "description": "A loud noise startles Cheryl.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5872,
       "resolved_time_ms": 1469000,
       "type": "minor"
     },
@@ -43,26 +65,55 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "A",
+        "STPNK",
+        "AT",
+        "HR",
+        "A",
+        "MNT"
+      ],
       "description": "A branch drops down in front of Cheryl.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54306,
       "resolved_time_ms": 2000000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "AF",
+        "SPTS",
+        "JK",
+        "AF",
+        "TMNTS"
+      ],
       "description": "Cheryl turns around to reveal that her face has become demonic. [Video].",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4365,
       "resolved_time_ms": 2141000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "S",
+        "HR",
+        "AS",
+        "AX",
+        "AAM",
+        "SKRT",
+        "ATTS",
+        "RNK",
+        "A0",
+        "HR"
+      ],
       "description": "Possessed Cheryl suddenly jumps up and stabs Linda with a pencil.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21527,
       "resolved_time_ms": 2205000,
       "type": "minor"
     },
@@ -83,34 +134,72 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0N",
+        "A",
+        "AL",
+        "LK",
+        "A",
+        "AP",
+        "AN",
+        "0",
+        "SLR"
+      ],
       "description": "Linda opens her eyes and sits up in bed suddenly, revealing she has also been possessed.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37875,
       "resolved_time_ms": 3083000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0N",
+        "A",
+        "AL",
+        "LK",
+        "A",
+        "AP",
+        "AN",
+        "0",
+        "SLR"
+      ],
       "description": "Scotty grabs hold of Ash, begging for help.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55875,
       "resolved_time_ms": 3101000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANLK",
+        "0S",
+        "XN",
+        "ANT",
+        "LT",
+        "M",
+        "AT"
+      ],
       "description": "Cheryl’s hand comes through the cellar door and grabs Ash. [Video].",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51600,
       "resolved_time_ms": 3372000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PT",
+        "AT",
+        "LK",
+        "0T",
+        "ALTNNT",
+        "A"
+      ],
       "description": "Linda attacks Ash with a dagger.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28848,
       "resolved_time_ms": 3518000,
       "type": "minor"
     },

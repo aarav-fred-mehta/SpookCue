@@ -3,18 +3,31 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "SR",
+        "AAM",
+        "SR"
+      ],
       "description": "After Father Simon says “Now,” the camera pans to the left to show Alan being pulled out of a bathtub by someone and screaming.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3525,
       "resolved_time_ms": 2781000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LT",
+        "0",
+        "XTS",
+        "K",
+        "JNTL"
+      ],
       "description": "Alan is suddenly shot in the head.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 738,
       "resolved_time_ms": 4900000,
       "type": "minor"
     }

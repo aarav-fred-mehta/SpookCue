@@ -19,26 +19,53 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "A0",
+        "MK",
+        "PN",
+        "ANT",
+        "PRN",
+        "FLK",
+        "AS",
+        "HR",
+        "ARL",
+        "FLK",
+        "ARS",
+        "H",
+        "N"
+      ],
       "description": "After talking on the phone, Paul looks up, and sees the blob drop down on him from the roof.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6064,
       "resolved_time_ms": 1594000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "ANT",
+        "AN0R",
+        "AN",
+        "0N"
+      ],
       "description": "When Scott starts groping Vicky, the blob wraps itself around Scott’s arm and Vicky’s face begins to melt.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19340,
       "resolved_time_ms": 1914000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NK",
+        "ARSLF",
+        "AT",
+        "AL",
+        "0NKS"
+      ],
       "description": "The blob launches up from the sink drain, and pulls the diner worker through it.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48823,
       "resolved_time_ms": 2596000,
       "type": "major"
     },
@@ -51,42 +78,88 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "N0NK",
+        "RNK",
+        "A0",
+        "0",
+        "AR",
+        "KNTXNNK",
+        "KM",
+        "AP",
+        "ANT",
+        "S",
+        "FR",
+        "ARSLF"
+      ],
       "description": "While the theatre manager is walking through the projector room, a yoyo drops down right in front of him.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48755,
       "resolved_time_ms": 3413000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "MK",
+        "N",
+        "KT",
+        "AT",
+        "AF",
+        "0R"
+      ],
       "description": "After being dragged under the water in the sewer by the blob, a badly dissolved Eddie jumps up from the water.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21584,
       "resolved_time_ms": 4310000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "ARTRS",
+        "NT",
+        "T",
+        "XT"
+      ],
       "description": "A soldier is suddenly grabbed by the blob.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1205,
       "resolved_time_ms": 4358000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRKT",
+        "APT",
+        "AT",
+        "PRN",
+        "LTTS",
+        "K",
+        "FRKT",
+        "APT",
+        "AT"
+      ],
       "description": "After leaving the motorcycle behind in the sewer, a soldier abruptly walks into Brian.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7136,
       "resolved_time_ms": 4471000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "A",
+        "PST",
+        "AT",
+        "AF"
+      ],
       "description": "The blob crashes up through the sewer hole.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8688,
       "resolved_time_ms": 4875000,
       "type": "minor"
     }

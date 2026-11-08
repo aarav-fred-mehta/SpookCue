@@ -3,74 +3,167 @@
   "runtime_minutes": 83,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MKNK",
+        "SPRTS",
+        "PRT",
+        "AT",
+        "FN",
+        "AT",
+        "AS",
+        "T",
+        "RT"
+      ],
       "description": "A woman dressed in white appears beside Frank’s car window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16274,
       "resolved_time_ms": 509000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "NT",
+        "KN",
+        "P",
+        "MX",
+        "HLP",
+        "N"
+      ],
       "description": "Laura pokes at a skull on the wall and it falls to the floor, startling her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33984,
       "resolved_time_ms": 750000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "S",
+        "KLT",
+        "AAM",
+        "NT",
+        "SRPRST",
+        "ATTS",
+        "FRSNK",
+        "AN",
+        "HR"
+      ],
       "description": "Brad peeks at the baby and discovers that it is dead.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37,
       "resolved_time_ms": 896000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "T",
+        "AR",
+        "T",
+        "AK",
+        "A",
+        "0T",
+        "AAT",
+        "TK",
+        "A",
+        "RT"
+      ],
       "description": "Richard gets out of the car to investigate the baby’s pram on the road, as he looks in he pretends to be pulled into the carriage and eaten.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7639,
       "resolved_time_ms": 1603000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LKT",
+        "ASNNT",
+        "0T",
+        "AR",
+        "SL",
+        "XMT",
+        "PT",
+        "HR",
+        "KTJ"
+      ],
       "description": "There is a loud noise and the car shakes as a tire blows out.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7425,
       "resolved_time_ms": 2017000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANKL",
+        "TK",
+        "RT",
+        "AN"
+      ],
       "description": "There is a sudden bump as the car hits something.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37404,
       "resolved_time_ms": 2302000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "KTNK",
+        "PK",
+        "AN",
+        "0T",
+        "KR",
+        "M",
+        "N0R"
+      ],
       "description": "Frank lights a match and the woman in white is standing right behind him.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 329,
       "resolved_time_ms": 4008000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SMN",
+        "AN",
+        "HR",
+        "A",
+        "N",
+        "0RS",
+        "SMN",
+        "TT",
+        "STP",
+        "AT"
+      ],
       "description": "The silhouette of someone appears at the window beside Marion.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18004,
       "resolved_time_ms": 4218000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "AT",
+        "AAL",
+        "JF",
+        "A",
+        "A",
+        "TST",
+        "AF",
+        "AR",
+        "AN",
+        "MTSN",
+        "A",
+        "PX"
+      ],
       "description": "Marion turns around and runs into the woman in white.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1544,
       "resolved_time_ms": 4361000,
       "type": "minor"
     }

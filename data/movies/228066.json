@@ -3,26 +3,50 @@
   "runtime_minutes": 110,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RT",
+        "T",
+        "PP",
+        "AT",
+        "A0",
+        "A",
+        "PKT",
+        "AF",
+        "R"
+      ],
       "description": "Victor receives a shock of electricity and is thrown to the floor.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42080,
       "resolved_time_ms": 2720000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "FN",
+        "TNNT",
+        "LT",
+        "HM",
+        "ASKP"
+      ],
       "description": "A jump scare sound effect plays as Igor enters a room (although no actual scare occurs).",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29400,
       "resolved_time_ms": 2792000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "FN",
+        "TNNT",
+        "LT",
+        "HM",
+        "ASKP"
+      ],
       "description": "There is a spark of electricity and an implement shakes.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53400,
       "resolved_time_ms": 2816000,
       "type": "minor"
     },
@@ -35,10 +59,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "A",
+        "SM",
+        "T",
+        "P",
+        "LST"
+      ],
       "description": "Lorelei opens the carriage door to reveal Turpin standing behind her.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22520,
       "resolved_time_ms": 5001000,
       "type": "minor"
     },

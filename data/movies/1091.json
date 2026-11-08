@@ -11,34 +11,72 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "SKST",
+        "A",
+        "ANL",
+        "AT",
+        "AT",
+        "AF",
+        "KNS"
+      ],
       "description": "Something moves past a doorway in front of Fuchs.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40523,
       "resolved_time_ms": 3937000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ASL",
+        "AT",
+        "HF",
+        "TN",
+        "0",
+        "SM",
+        "0NK"
+      ],
       "description": "Norris and Nauls attack MacReady from behind.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10514,
       "resolved_time_ms": 4417000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "ANN",
+        "TRS",
+        "T",
+        "AK",
+        "M"
+      ],
       "description": "Copper attempts to defibrillate Norris when a giant hole opens in Norris’s chest.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19710,
       "resolved_time_ms": 4522000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "0",
+        "ANL",
+        "AN",
+        "0T",
+        "KLTTF",
+        "KT",
+        "T",
+        "0T",
+        "PLT"
+      ],
       "description": "Palmer’s blood has a violent reaction when MacReady tests it with the copper wire.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7659,
       "resolved_time_ms": 4978000,
       "type": "major"
     },

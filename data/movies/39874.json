@@ -3,10 +3,17 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RSS",
+        "AR",
+        "RT",
+        "FLTS",
+        "AR",
+        "PL"
+      ],
       "description": "The killer appears behind Mabel and attacks her.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9603,
       "resolved_time_ms": 1157000,
       "type": "minor"
     },
@@ -19,50 +26,111 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "AAL",
+        "JF",
+        "AM",
+        "A",
+        "SKR",
+        "0L",
+        "NFR",
+        "FRKT"
+      ],
       "description": "Happy opens the door once more and this time the real killer is standing behind it.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37675,
       "resolved_time_ms": 2364000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "A",
+        "0NK",
+        "H",
+        "RL",
+        "LKS",
+        "A"
+      ],
       "description": "The killer grabs Dave’s head as he tends to a boiling pot.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30137,
       "resolved_time_ms": 2645000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JN",
+        "AF",
+        "AR",
+        "TRNK",
+        "T",
+        "SKR",
+        "M",
+        "AR",
+        "TNK",
+        "A",
+        "KT",
+        "JP"
+      ],
       "description": "Miner coveralls drop from the ceiling startling Sylvia.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5318,
       "resolved_time_ms": 3148000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JN",
+        "AF",
+        "AR",
+        "TRNK",
+        "T",
+        "SKR",
+        "M",
+        "AR",
+        "TNK",
+        "A",
+        "KT",
+        "JP"
+      ],
       "description": "A corpse drops down in front of Sylvia.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32318,
       "resolved_time_ms": 3175000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HP",
+        "T",
+        "KT",
+        "A",
+        "KT",
+        "0R",
+        "PFR",
+        "HR",
+        "TS"
+      ],
       "description": "Hollis yells out “BOO” to scare Sarah and Patty.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33811,
       "resolved_time_ms": 3768000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "SNS",
+        "HR",
+        "ARTN"
+      ],
       "description": "Howard drops down from above Hollis to scare the group.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 278,
       "resolved_time_ms": 3809000,
       "type": "minor"
     },
@@ -75,18 +143,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "JRL",
+        "KP",
+        "MFNK",
+        "KT",
+        "JRL"
+      ],
       "description": "As Sarah and Patty climb the ladder, a corpse suddenly drops from above them.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6096,
       "resolved_time_ms": 4664000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "KP",
+        "KNK",
+        "0S",
+        "A"
+      ],
       "description": "The killer appears in front of Sarah and Patty.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9306,
       "resolved_time_ms": 4916000,
       "type": "minor"
     }

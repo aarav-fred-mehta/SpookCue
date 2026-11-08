@@ -525,7 +525,7 @@ def run_hasher(
     effective_spookcue_path = spookcue_path or (Path(config["spookcue_repo_path"]) if config.get("spookcue_repo_path") else None)
 
     # 1. Scan for raw audio/video files
-    raw_files = [f for f in raw_dir.iterdir() if f.is_file() and f.suffix.lower() in AUDIO_EXTENSIONS]
+    raw_files = [f for f in raw_dir.rglob("*") if f.is_file() and f.suffix.lower() in AUDIO_EXTENSIONS]
 
     if not raw_files:
         logger.info("No audio files found in: %s", raw_dir)

@@ -115,6 +115,11 @@ class SubtitleFetcher:
         self._opensubtitles_exhausted = False
 
     @property
+    def has_keys(self) -> bool:
+        """Check if at least one subtitle provider API key is configured."""
+        return bool(self.subdl_api_key or self.opensubtitles_api_key)
+
+    @property
     def is_exhausted(self) -> bool:
         """Check if configured subtitle providers have hit rate limits or quotas."""
         configured_providers = 0
@@ -147,12 +152,17 @@ class SubtitleFetcher:
         return self.cache_dir / f"{tmdb_id}.srt"
 
     def read_cached_subtitles(self, tmdb_id: int) -> Optional[str]:
-        path = self._get_cache_path(tmdb_id)
-        if path.exists():
-            try:
-                return path.read_text(encoding="utf-8", errors="replace")
-            except Exception as exc:
-                logger.debug("Failed to read cached subtitles for %d: %s", tmdb_id, exc)
+        candidate_paths = [
+            self._get_cache_path(tmdb_id),
+            Path("data/subtitles") / f"{tmdb_id}.srt",
+            Path("subtitles") / f"{tmdb_id}.srt",
+        ]
+        for path in candidate_paths:
+            if path.exists():
+                try:
+                    return path.read_text(encoding="utf-8", errors="replace")
+                except Exception as exc:
+                    logger.debug("Failed to read cached subtitles for %d at %s: %s", tmdb_id, path, exc)
         return None
 
     def write_cached_subtitles(self, tmdb_id: int, srt_content: str) -> None:

@@ -248,6 +248,12 @@ async def run_pipeline(
     tmdb_client = TmdbClient()
     subtitles_fetcher = SubtitleFetcher()
 
+    if not subtitles_fetcher.has_keys:
+        logger.warning(
+            "No subtitle API keys configured (SUBDL_API_KEY or OPENSUBTITLES_API_KEY). "
+            "Automated subtitle fetching will be skipped. Movies without subtitles will remain in clock-only sync mode."
+        )
+
     try:
         # Fetch movie index
         movie_items = await scraper.fetch_movie_index()
@@ -350,15 +356,22 @@ async def run_pipeline(
                     existing_scares = movie_doc.get("scares", [])
                     sync_file = sync_dir / f"{existing_tmdb_id}.json"
                     existing_phonetic = []
+                    has_audio_hash = False
                     if sync_file.exists():
                         try:
                             sync_data = load_json_bytes(sync_file.read_bytes())
                             existing_phonetic = sync_data.get("phonetic_index", [])
+                            has_audio_hash = (
+                                sync_data.get("type") == "audio_hash"
+                                and len(sync_data.get("audio_hashes", [])) > 0
+                            )
                         except Exception:
                             pass
                     elif "phonetic_index" in movie_doc:
                         existing_phonetic = movie_doc.get("phonetic_index", [])
-                    has_subs = len(existing_phonetic) > 0 or sync_file.exists()
+
+                    has_subs = len(existing_phonetic) > 0
+                    is_synced = has_subs or has_audio_hash
 
                     # Does this movie need jumpscare verification/reconciliation?
                     # 1. Scraped originally from WTJ (existing_source != "whenjumpscare" while WhenJumpScare is now live)
@@ -439,7 +452,7 @@ async def run_pipeline(
                             movie_file.write_bytes(dump_json_bytes(movie_doc))
 
                     # 3. Subtitle Fetch (if missing and quota not exhausted)
-                    if not has_subs and not subtitles_fetcher.is_exhausted:
+                    if not is_synced and not subtitles_fetcher.is_exhausted:
                         logger.info(
                             "Movie '%s' (%s, TMDB %d) lacks subtitles; attempting subtitle fetch...",
                             title,

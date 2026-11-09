@@ -3,18 +3,40 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "TK",
+        "KR",
+        "AF",
+        "A",
+        "JST",
+        "ART",
+        "A",
+        "KT",
+        "HT",
+        "A",
+        "ARNK",
+        "A",
+        "FST"
+      ],
       "description": "William is grabbed from behind by an individual weafring a pig mask.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3986,
       "resolved_time_ms": 1562000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "0NK",
+        "AF",
+        "AN0NK"
+      ],
       "description": "Pamela is abducted as she walks down a hallway.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35352,
       "resolved_time_ms": 2103000,
       "type": "minor"
     },

@@ -3,66 +3,132 @@
   "runtime_minutes": 110,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "AL",
+        "NMPR",
+        "TL",
+        "PTR",
+        "A",
+        "TL",
+        "HJ",
+        "A",
+        "TL",
+        "SNT"
+      ],
       "description": "The man that finds the bodies rotates to see Michael Myers behind him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5429,
       "resolved_time_ms": 2854000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "KR",
+        "AT",
+        "A",
+        "0NK"
+      ],
       "description": "The person wearing the blanket is suddenly jumped at by Michael.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14224,
       "resolved_time_ms": 4265000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HT",
+        "FKXN",
+        "LTTS",
+        "ST",
+        "HM"
+      ],
       "description": "Laurie’s father is abruptly attacked by a knife-wielding Michael. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7522,
       "resolved_time_ms": 4545000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "FK",
+        "A",
+        "S",
+        "AT",
+        "AKN"
+      ],
       "description": "While the couple are making out, Michael approaches from behind and grabs the boy by the neck.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36115,
       "resolved_time_ms": 5215000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PP",
+        "PP",
+        "HLT",
+        "AN",
+        "AN",
+        "0R",
+        "KM"
+      ],
       "description": "Laurie is grabbed at from behind.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4958,
       "resolved_time_ms": 5524000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "APSTRS",
+        "AAM",
+        "RT",
+        "HR"
+      ],
       "description": "Something loud bangs on the door.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 946,
       "resolved_time_ms": 5595000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HLT",
+        "AN",
+        "N",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "Michael hits the police officer against the door while Laurie is unlocking it.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8546,
       "resolved_time_ms": 5698000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "A",
+        "MTR",
+        "AF",
+        "FKT",
+        "A",
+        "T",
+        "PLF",
+        "AT",
+        "AS"
+      ],
       "description": "Michael breaks the car window and grabs Laurie. [Video].",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5117,
       "resolved_time_ms": 6357000,
       "type": "major"
     },

@@ -11,18 +11,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "PLS",
+        "A",
+        "RL",
+        "APRST",
+        "0S"
+      ],
       "description": "Mother walks towards a wall to and there is a loud rumbling noise.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46427,
       "resolved_time_ms": 787000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "H",
+        "AL",
+        "RT",
+        "FN",
+        "FN",
+        "AN",
+        "SK"
+      ],
       "description": "Mother closes a cupboard and the guest is revealed to be standing behind it.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11626,
       "resolved_time_ms": 1178000,
       "type": "minor"
     },
@@ -35,26 +51,45 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "S",
+        "AR",
+        "AMRJNS"
+      ],
       "description": "As Mother attempts to make a phone call, her husband suddenly appears in the house.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1,
       "resolved_time_ms": 3085000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "PRNK",
+        "0",
+        "PRT",
+        "AN"
+      ],
       "description": "Mother looks out a dark window when a light is turned on to reveal a man smiling at her from outside.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26482,
       "resolved_time_ms": 4758000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "A",
+        "K",
+        "HR",
+        "JST",
+        "K"
+      ],
       "description": "Mother crawls along the floor and is suddenly grabbed by her husband.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25943,
       "resolved_time_ms": 5714000,
       "type": "minor"
     }

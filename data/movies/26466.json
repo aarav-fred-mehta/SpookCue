@@ -3,10 +3,19 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "M",
+        "KT",
+        "AR",
+        "A",
+        "FKNK",
+        "XS"
+      ],
       "description": "Sally is suddenly shot.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5000,
       "resolved_time_ms": 2165000,
       "type": "minor"
     },
@@ -19,26 +28,47 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "STRNK",
+        "AAM",
+        "KN",
+        "KT",
+        "0",
+        "A0RS"
+      ],
       "description": "There is a loud gunshot.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5292,
       "resolved_time_ms": 3453000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRK",
+        "KN",
+        "A",
+        "HR",
+        "M",
+        "KRK"
+      ],
       "description": "A flock of seagulls begin to squawk.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41333,
       "resolved_time_ms": 3870000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "MM",
+        "MMS",
+        "NS"
+      ],
       "description": "A bird flies into the windscreen.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7208,
       "resolved_time_ms": 5237000,
       "type": "minor"
     }

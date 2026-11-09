@@ -11,10 +11,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KKST",
+        "MN",
+        "SNL",
+        "T",
+        "SRT"
+      ],
       "description": "As they open the door a box falls down.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 650,
       "resolved_time_ms": 1966000,
       "type": "minor"
     }

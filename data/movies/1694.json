@@ -3,18 +3,38 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "PN",
+        "AN",
+        "AKSLNT",
+        "FSKL",
+        "KNTXN"
+      ],
       "description": "The cat jumps up at Dan’s face.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17957,
       "resolved_time_ms": 2151000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "T",
+        "A",
+        "ANT",
+        "A",
+        "ANT",
+        "T",
+        "N",
+        "A",
+        "S",
+        "HRT",
+        "FPRLTT"
+      ],
       "description": "The body suddenly jolts upwards and begins yelling.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1778,
       "resolved_time_ms": 3065000,
       "type": "minor"
     },

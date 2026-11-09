@@ -3,34 +3,73 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "PK",
+        "AP",
+        "SM",
+        "PR",
+        "TRLS",
+        "LPRT",
+        "M",
+        "KPNTS"
+      ],
       "description": "The title card appears abruptly on the screen accompanied by a scream. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4413,
       "resolved_time_ms": 167000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HLTN",
+        "A",
+        "TNNT",
+        "0NK",
+        "0RS",
+        "KN",
+        "P",
+        "AN"
+      ],
       "description": "The gas station attendant suddenly appears in front of Holden.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 144,
       "resolved_time_ms": 631000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "ALT",
+        "P",
+        "KLS0NKS"
+      ],
       "description": "Holden removes a painting from the wall to reveal a window with Dana standing behind it.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25330,
       "resolved_time_ms": 937000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0N",
+        "AL",
+        "PS",
+        "AT",
+        "ANT",
+        "S",
+        "0T",
+        "A",
+        "ANTT",
+        "TR0",
+        "AL",
+        "ALNK"
+      ],
       "description": "The cellar door opens by itself.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8284,
       "resolved_time_ms": 1633000,
       "type": "minor"
     },
@@ -43,66 +82,123 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "0RT",
+        "P",
+        "STRS"
+      ],
       "description": "An agitated Curt suddenly appears beside Marty.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33782,
       "resolved_time_ms": 2793000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "KFR",
+        "MR",
+        "KRNT",
+        "0T",
+        "A"
+      ],
       "description": "Something punches through the cabin wall.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6999,
       "resolved_time_ms": 2916000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "PRNTS",
+        "AR",
+        "KN",
+        "0NK",
+        "AAM",
+        "SX",
+        "A",
+        "PRNT"
+      ],
       "description": "A zombie breaks through the window and grabs Marty.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1911,
       "resolved_time_ms": 2999000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRTST",
+        "X",
+        "AN",
+        "AR0"
+      ],
       "description": "A zombie hand comes through the window in Dana’s room.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9529,
       "resolved_time_ms": 3089000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRT",
+        "A",
+        "MN",
+        "0RS",
+        "KT",
+        "P"
+      ],
       "description": "Holden is stabbed in the back by a zombie.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1353,
       "resolved_time_ms": 3189000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "MTR",
+        "AT",
+        "HPNS",
+        "A",
+        "KT",
+        "STK"
+      ],
       "description": "Holden is stabbed in the neck while driving.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2136,
       "resolved_time_ms": 3675000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TKL",
+        "FRM",
+        "TRKNS",
+        "0R",
+        "AS",
+        "LT"
+      ],
       "description": "The father zombie bangs his chain down in front of Dana.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36001,
       "resolved_time_ms": 3810000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "FKNK",
+        "SMP",
+        "ARM"
+      ],
       "description": "Dana puts her face up to a window and a werewolf lunges at the glass from the other side. [Video].",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54740,
       "resolved_time_ms": 4189000,
       "type": "major"
     }

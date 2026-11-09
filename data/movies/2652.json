@@ -3,10 +3,15 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "L",
+        "RKNS",
+        "0S",
+        "JRL"
+      ],
       "description": "Hayley puts a bag over Jeff’s head.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53438,
       "resolved_time_ms": 2740000,
       "type": "minor"
     }

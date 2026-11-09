@@ -3,50 +3,98 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MK",
+        "SL",
+        "TN",
+        "AR",
+        "KN",
+        "MK",
+        "ARSLF",
+        "SK"
+      ],
       "description": "Kyle jumps out from behind a couch to scare Lizzie.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5735,
       "resolved_time_ms": 255000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "SLPRTNK"
+      ],
       "description": "Lizzie puts her hand on Kyle’s shoulder while he is watching TV.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 68,
       "resolved_time_ms": 550000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PTR",
+        "KT",
+        "KNK",
+        "MKS",
+        "PRNTS",
+        "AL",
+        "P",
+        "HM",
+        "SN"
+      ],
       "description": "Timothy suddenly appears in frame, chasing after Lizzie.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28802,
       "resolved_time_ms": 758000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PTR",
+        "KT",
+        "KNK",
+        "MKS",
+        "PRNTS",
+        "AL",
+        "P",
+        "HM",
+        "SN"
+      ],
       "description": "Timothy’s hand appears in front of Mikey.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59802,
       "resolved_time_ms": 789000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NLSN",
+        "ST",
+        "A0",
+        "M",
+        "PP"
+      ],
       "description": "A hand reaches out from underneath a car to grab a woman.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31435,
       "resolved_time_ms": 1569000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "XT",
+        "HL",
+        "XT"
+      ],
       "description": "A man’s face is suddenly engulfed in flames.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5576,
       "resolved_time_ms": 1617000,
       "type": "minor"
     },
@@ -59,26 +107,57 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "AT",
+        "PP",
+        "AT",
+        "AR",
+        "A",
+        "LKNK",
+        "AT"
+      ],
       "description": "A lady leans back on the sofa to reveal Mary Bailey is sitting beside her.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20183,
       "resolved_time_ms": 2841000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "HNSL",
+        "ANT",
+        "KRTL"
+      ],
       "description": "Over the next few seconds there are several sudden cuts to Bobbie (in red witch form) that may startle some viewers.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52283,
       "resolved_time_ms": 2961000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "TK",
+        "A",
+        "PK",
+        "T",
+        "0",
+        "STLK",
+        "T",
+        "HLP",
+        "A",
+        "LK",
+        "FR",
+        "AR",
+        "M0R"
+      ],
       "description": "Bobbie turns around to face Jack and her face morphs into the red witch.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5984,
       "resolved_time_ms": 3217000,
       "type": "minor"
     },
@@ -91,10 +170,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRK",
+        "AR",
+        "TRT",
+        "TRK",
+        "AR",
+        "TRT"
+      ],
       "description": "The previously dead girl suddenly sits up and screams.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44800,
       "resolved_time_ms": 4025000,
       "type": "minor"
     },
@@ -107,10 +193,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "HM",
+        "AF",
+        "M",
+        "KT",
+        "HM",
+        "AF",
+        "M",
+        "FK"
+      ],
       "description": "The “child” jumps out at one of the kidnappers.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 484,
       "resolved_time_ms": 4474000,
       "type": "minor"
     }

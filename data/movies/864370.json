@@ -11,10 +11,20 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "ANKFR",
+        "AT",
+        "HLT",
+        "0S",
+        "FR",
+        "M",
+        "HR",
+        "AP"
+      ],
       "description": "Man screams",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20959,
       "resolved_time_ms": 5544000,
       "type": "minor"
     },

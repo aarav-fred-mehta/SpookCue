@@ -3,10 +3,17 @@
   "runtime_minutes": 124,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "H",
+        "SS",
+        "SM0NK",
+        "A",
+        "KNNT"
+      ],
       "description": "A pig suddenly runs past the screen.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9229,
       "resolved_time_ms": 1115000,
       "type": "minor"
     },
@@ -19,26 +26,50 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "AR",
+        "M0R",
+        "AL",
+        "NFR",
+        "LT",
+        "M",
+        "S",
+        "A",
+        "AKN"
+      ],
       "description": "A man places his bloodied hand on the back window, startling Claire.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1250,
       "resolved_time_ms": 5824000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "HLT",
+        "AN",
+        "PK",
+        "0R"
+      ],
       "description": "A Velociraptor breaks through the window while Claire is driving.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3862,
       "resolved_time_ms": 5848000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NTR",
+        "AS",
+        "0",
+        "JFT",
+        "0T",
+        "JST"
+      ],
       "description": "A Velociraptor appears beside Hoskins.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2839,
       "resolved_time_ms": 6203000,
       "type": "minor"
     }

@@ -3,10 +3,18 @@
   "runtime_minutes": 107,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "SPK",
+        "KNK",
+        "AR0R",
+        "T",
+        "SR",
+        "PTFR"
+      ],
       "description": "A sudden loud noise as the scene changes to a classroom setting.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38,
       "resolved_time_ms": 1500000,
       "type": "minor"
     },
@@ -19,26 +27,48 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "PKRS",
+        "A",
+        "ALS",
+        "S",
+        "0T"
+      ],
       "description": "A hand grabs Florence as she reaches into the lake.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54521,
       "resolved_time_ms": 2864000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AR",
+        "0R",
+        "RPRT"
+      ],
       "description": "A distorted child’s face comes into view through the peep hole.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31314,
       "resolved_time_ms": 3257000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TM",
+        "ST",
+        "HR",
+        "T",
+        "NT",
+        "LF",
+        "0S",
+        "RM"
+      ],
       "description": "A face comes out of the pillow beside Florence.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59081,
       "resolved_time_ms": 4602000,
       "type": "major"
     },

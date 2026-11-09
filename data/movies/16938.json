@@ -11,26 +11,58 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "A",
+        "ALTNNT",
+        "AR",
+        "0S",
+        "T",
+        "HF",
+        "M",
+        "LFR",
+        "AT"
+      ],
       "description": "Accompanied by a sound effect, the scene cuts to Clare’s corpse on a rocking chair.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22670,
       "resolved_time_ms": 1003000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AL",
+        "RT",
+        "AAL",
+        "HLT",
+        "PT",
+        "ANL",
+        "FR",
+        "A",
+        "MMNT"
+      ],
       "description": "Peter startles Jess by throwing some clothing on her while she is on the phone.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6289,
       "resolved_time_ms": 2768000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AKNS",
+        "ATTS",
+        "TNNT",
+        "A",
+        "TL",
+        "AT",
+        "A",
+        "TT",
+        "AKNS"
+      ],
       "description": "Billy reaches out with his hand and grabs Jess’s hair.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20428,
       "resolved_time_ms": 5110000,
       "type": "minor"
     }

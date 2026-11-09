@@ -3,34 +3,69 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "TT",
+        "M",
+        "KX",
+        "TL",
+        "M",
+        "A",
+        "AN"
+      ],
       "description": "The scarecrow suddenly scares Ben.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 583,
       "resolved_time_ms": 201000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "A",
+        "HF",
+        "FRKS",
+        "HR",
+        "RP"
+      ],
       "description": "The camera pans around the tree-house and Robbie is suddenly in frame.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1442,
       "resolved_time_ms": 648000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNKT",
+        "PRJKTS",
+        "0S",
+        "TRKNK",
+        "TTS",
+        "PSKL"
+      ],
       "description": "Alex jumps in front of the webcam to scare Ben.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 428,
       "resolved_time_ms": 1009000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "AR",
+        "AN",
+        "0",
+        "HNT",
+        "A",
+        "NT",
+        "0",
+        "JR"
+      ],
       "description": "Alex’s mum enters the house, scaring Alex.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22133,
       "resolved_time_ms": 1456000,
       "type": "minor"
     },
@@ -43,10 +78,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "ALT",
+        "T",
+        "P",
+        "AN",
+        "M",
+        "RM"
+      ],
       "description": "Ben pulls Alex off her bed while she is looking into her webcam.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59254,
       "resolved_time_ms": 1720000,
       "type": "minor"
     },
@@ -59,66 +103,130 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "HF",
+        "RNKS",
+        "ARNT",
+        "0M"
+      ],
       "description": "Wyatt’s toy train turns on.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35416,
       "resolved_time_ms": 2318000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "A",
+        "HF",
+        "T",
+        "KLN",
+        "AL",
+        "AF",
+        "0S",
+        "AF",
+        "JSS"
+      ],
       "description": "A chandelier falls from the ceiling and smashes in front of Alex. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 466,
       "resolved_time_ms": 2363000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "ATTS",
+        "NT",
+        "SKPLS",
+        "AN",
+        "HS",
+        "PK"
+      ],
       "description": "A lady suddenly appears in front of Alex while she is spying on the neighbours at night.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3152,
       "resolved_time_ms": 2550000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTT",
+        "X",
+        "S",
+        "T",
+        "A",
+        "ATTS",
+        "S",
+        "ART"
+      ],
       "description": "A book drops down in front of the camera.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 227,
       "resolved_time_ms": 3255000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "RT",
+        "KM",
+        "AN"
+      ],
       "description": "A knife drops down in front of the camera.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22058,
       "resolved_time_ms": 3751000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "AAL",
+        "TLK",
+        "T",
+        "A",
+        "TMR"
+      ],
       "description": "The garage door slams down suddenly, narrowly missing Alex.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56959,
       "resolved_time_ms": 4190000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "TM",
+        "AR",
+        "A",
+        "KMNK",
+        "PK"
+      ],
       "description": "The sheets are pulled off Alex’s bed suddenly.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2153,
       "resolved_time_ms": 4419000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "LSTN",
+        "AF",
+        "A",
+        "ANT",
+        "T",
+        "KL"
+      ],
       "description": "A book drops from the shelf.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48532,
       "resolved_time_ms": 4478000,
       "type": "minor"
     },
@@ -131,10 +239,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "AAM",
+        "KN",
+        "PL",
+        "AT",
+        "AP",
+        "AN",
+        "AR",
+        "KMPTR"
+      ],
       "description": "There is a loud thump as Ben looks at the camera.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33734,
       "resolved_time_ms": 4609000,
       "type": "minor"
     },
@@ -147,18 +265,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PN",
+        "TNNT",
+        "FK",
+        "A0",
+        "M"
+      ],
       "description": "Alex is flung back out of a doorway by an unseen force.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41314,
       "resolved_time_ms": 4820000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "TT",
+        "LT",
+        "HM",
+        "K",
+        "ALKS",
+        "LT",
+        "HM",
+        "K",
+        "TT",
+        "STP"
+      ],
       "description": "Alex sees her dad being flung against a wall.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5407,
       "resolved_time_ms": 4865000,
       "type": "minor"
     },
@@ -171,10 +307,22 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AT",
+        "AS",
+        "RNK",
+        "A0",
+        "A",
+        "LTTS",
+        "K",
+        "LTTS",
+        "K",
+        "AT"
+      ],
       "description": "Alex sees a large group of women approaching her, she turns around and is then attacked by the possessed Katie.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11496,
       "resolved_time_ms": 4956000,
       "type": "major"
     }

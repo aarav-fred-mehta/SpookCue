@@ -3,42 +3,81 @@
   "runtime_minutes": 102,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "XRJ",
+        "A",
+        "FR",
+        "AT",
+        "0"
+      ],
       "description": "A dark figure moves behind Marvin.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8768,
       "resolved_time_ms": 408000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "XRJ",
+        "A",
+        "FR",
+        "AT",
+        "0"
+      ],
       "description": "A woman jumps out at Marvin to scare him as a joke.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50768,
       "resolved_time_ms": 450000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "LK",
+        "A",
+        "HF",
+        "SR",
+        "FR",
+        "TM"
+      ],
       "description": "As Marvin looks around the room he suddenly spots a girl jumping up and down on the bed. Not really a jump scare, but accompanied by a loud sound.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1840,
       "resolved_time_ms": 963000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "AFR",
+        "ANTR",
+        "AT",
+        "ALT",
+        "HF",
+        "HPNT"
+      ],
       "description": "The little girl appears out of the darkness and runs into the elevator.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21558,
       "resolved_time_ms": 2767000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NPT",
+        "NS",
+        "HR",
+        "ALS",
+        "FLTS"
+      ],
       "description": "Marvin turns around and the policeman is standing right in front of him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2441,
       "resolved_time_ms": 4366000,
       "type": "minor"
     },

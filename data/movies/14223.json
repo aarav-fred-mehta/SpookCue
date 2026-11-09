@@ -11,18 +11,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KLT",
+        "RL",
+        "AS",
+        "SM",
+        "HLP",
+        "HR"
+      ],
       "description": "The guy once again startles the girl, this time by saying “hey” from behind her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18635,
       "resolved_time_ms": 1820000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LT",
+        "M",
+        "JST",
+        "KT",
+        "AAM",
+        "STRFNK"
+      ],
       "description": "The guy puts his hand down the back of the seat and suddenly starts screaming (as a joke).",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 277,
       "resolved_time_ms": 2160000,
       "type": "minor"
     },
@@ -43,18 +58,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "STP",
+        "PLS",
+        "STP",
+        "ATTS",
+        "TNNT",
+        "PT",
+        "M",
+        "AN",
+        "0",
+        "RFR"
+      ],
       "description": "The girl puts her hand on the back of a figure walking the other direction but quickly withdraws as he is very cold to the touch. The man then turns around to reveal a grossly deformed face.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1324,
       "resolved_time_ms": 2748000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "0RS",
+        "ARS",
+        "AS",
+        "T",
+        "K"
+      ],
       "description": "Someone knocks on the car door.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4046,
       "resolved_time_ms": 2962000,
       "type": "minor"
     },
@@ -75,26 +109,56 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AK",
+        "AP",
+        "KM",
+        "AN",
+        "KM",
+        "AN",
+        "AK",
+        "AP"
+      ],
       "description": "The girl suddenly sits up in the back seat.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1996,
       "resolved_time_ms": 3577000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "HR",
+        "M",
+        "FRNTTS",
+        "HRT",
+        "ANT",
+        "HH",
+        "KN",
+        "A",
+        "RPT",
+        "AR"
+      ],
       "description": "The girl sees some bare feet in front of her as she crawls through the snow.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34366,
       "resolved_time_ms": 4307000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NFR",
+        "KNK",
+        "T",
+        "KT",
+        "RT",
+        "AF",
+        "M"
+      ],
       "description": "The policeman jumps out of the burning car and tries to attack the girl and the truck driver.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17345,
       "resolved_time_ms": 4845000,
       "type": "minor"
     },

@@ -3,66 +3,137 @@
   "runtime_minutes": 138,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LT",
+        "AT",
+        "XN",
+        "SM",
+        "R0"
+      ],
       "description": "Sudden jump cut to Remmick with audio scare.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17608,
       "resolved_time_ms": 160000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "P",
+        "FXRS",
+        "AF",
+        "MN",
+        "A",
+        "SN"
+      ],
       "description": "Sudden jump cut to Remmick with audio scare.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3831,
       "resolved_time_ms": 173000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "LF",
+        "0S",
+        "SNN",
+        "AS",
+        "AR",
+        "0",
+        "L"
+      ],
       "description": "Sudden jump cut to Remmick with audio scare.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2354,
       "resolved_time_ms": 190000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKRT",
+        "A",
+        "MT",
+        "AS",
+        "AL",
+        "TL",
+        "A0",
+        "0",
+        "TFL",
+        "A",
+        "N"
+      ],
       "description": "A snake hidden under the leaves coils to attack. Contains audio scare.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33090,
       "resolved_time_ms": 694000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "AF",
+        "S",
+        "A",
+        "NT",
+        "T",
+        "AKT",
+        "N"
+      ],
       "description": "Sudden jump cut to a bloody Remmick, sitting in the rocking chair. Contains audio scare.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56812,
       "resolved_time_ms": 2664000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "JF",
+        "HM",
+        "XT",
+        "SMK",
+        "TNNT",
+        "JF",
+        "HM",
+        "N0N"
+      ],
       "description": "Vampire grabs Smoke’s arm, accompanied by a loud audio scare.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19163,
       "resolved_time_ms": 5236000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRNPRT",
+        "PLT",
+        "M",
+        "AT",
+        "0",
+        "KTMN",
+        "TR"
+      ],
       "description": "Knife comes through door as kid is listening. No audio scare other than the sound of knife but it's sudden even though expected.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7801,
       "resolved_time_ms": 5295000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "SMK",
+        "LT",
+        "M",
+        "AT",
+        "AF",
+        "0S",
+        "RM"
+      ],
       "description": "Stack comes barreling through the door.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13485,
       "resolved_time_ms": 5409000,
       "type": "major"
     }

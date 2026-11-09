@@ -3,18 +3,32 @@
   "runtime_minutes": 106,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "SKRT",
+        "AAM",
+        "SKRT",
+        "XTLS"
+      ],
       "description": "The truck hits a naked man.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7289,
       "resolved_time_ms": 732000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "AR",
+        "KR",
+        "TTNNT",
+        "T",
+        "AL",
+        "0T"
+      ],
       "description": "The man starts moving.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2804,
       "resolved_time_ms": 804000,
       "type": "minor"
     },

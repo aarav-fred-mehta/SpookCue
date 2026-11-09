@@ -3,10 +3,16 @@
   "runtime_minutes": 118,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "KRS",
+        "MN",
+        "0NKS",
+        "KRSS"
+      ],
       "description": "Kramer attacks Diego from the back seat.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19198,
       "resolved_time_ms": 2074000,
       "type": "minor"
     },
@@ -35,10 +41,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "A",
+        "KN",
+        "LP",
+        "AT",
+        "ARNT",
+        "0",
+        "TPL",
+        "ANT"
+      ],
       "description": "Amanda shocks Cecilia",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35510,
       "resolved_time_ms": 3989000,
       "type": "minor"
     }

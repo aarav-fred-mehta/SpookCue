@@ -3,10 +3,20 @@
   "runtime_minutes": 106,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "JST",
+        "K",
+        "T",
+        "AR",
+        "STS",
+        "LTS",
+        "ANT",
+        "JNTLMN"
+      ],
       "description": "As a woman touches David, the screen flashes and loud screams are heard",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36765,
       "resolved_time_ms": 3233000,
       "type": "minor"
     },
@@ -27,10 +37,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "0S",
+        "AS",
+        "AR",
+        "A",
+        "XK",
+        "HNTS"
+      ],
       "description": "As David touches Elijah's hand, a flashing light swaps the scene to a flashback",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13839,
       "resolved_time_ms": 5930000,
       "type": "minor"
     }

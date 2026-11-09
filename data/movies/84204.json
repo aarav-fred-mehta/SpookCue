@@ -3,10 +3,17 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "TRNK",
+        "T",
+        "FK",
+        "M",
+        "FS"
+      ],
       "description": "The small grabber jumps up after Lisa asks “is it dead?” and then attacks the group.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1204,
       "resolved_time_ms": 2560000,
       "type": "minor"
     }

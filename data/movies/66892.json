@@ -3,18 +3,37 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "PT",
+        "0S",
+        "AR",
+        "PLNTS",
+        "MRKR",
+        "FNS",
+        "AR0",
+        "MRS"
+      ],
       "description": "There is a quick, loud cut to a fire.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10004,
       "resolved_time_ms": 780000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "KT",
+        "A",
+        "KR",
+        "AFR",
+        "T",
+        "HR",
+        "PLS"
+      ],
       "description": "As seen through a bathroom mirror, Cortese suddenly pulls open the shower curtains and attacks Bartone.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4715,
       "resolved_time_ms": 1903000,
       "type": "minor"
     },
@@ -27,10 +46,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "AF",
+        "A",
+        "KN",
+        "TP",
+        "ANT",
+        "HS",
+        "PFR",
+        "AT",
+        "MFS",
+        "AN"
+      ],
       "description": "The body of Cortese suddenly twitches.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2879,
       "resolved_time_ms": 3880000,
       "type": "minor"
     }

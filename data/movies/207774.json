@@ -11,90 +11,182 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "SKPNK",
+        "AF",
+        "PNT",
+        "A"
+      ],
       "description": "Gray jumps out at Deacon as he investigates a strange noise. [Video].",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36462,
       "resolved_time_ms": 1993000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKNK",
+        "HL",
+        "FKNK",
+        "HL"
+      ],
       "description": "Gray turns and is startled by a dog standing in front of him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2376,
       "resolved_time_ms": 2170000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HNSTL",
+        "0T",
+        "SM",
+        "FF",
+        "AR",
+        "ALT",
+        "JRL",
+        "MST",
+        "HF",
+        "PRKN",
+        "HR",
+        "LK"
+      ],
       "description": "There is a loud noise as Mark appears to hit his head on something.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31648,
       "resolved_time_ms": 2219000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "LT",
+        "M",
+        "P",
+        "STRNK"
+      ],
       "description": "A book falls to the floor.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35417,
       "resolved_time_ms": 2579000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STRNK0N",
+        "M",
+        "PR",
+        "ANT",
+        "M",
+        "F0",
+        "FR",
+        "0S",
+        "ARTL"
+      ],
       "description": "A door slams.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4461,
       "resolved_time_ms": 2588000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "HR",
+        "AT",
+        "ARS",
+        "AT",
+        "KMNK",
+        "FRM"
+      ],
       "description": "The crucifix falls off the wall.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3571,
       "resolved_time_ms": 3186000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FK",
+        "KT",
+        "FK",
+        "FK"
+      ],
       "description": "Father Crellick who appears to be dead, suddenly grabs Gray by the arm.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2661,
       "resolved_time_ms": 3220000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "KRST",
+        "SK",
+        "PSTRTS"
+      ],
       "description": "Deacon kicks a beer can during a tense scene.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50133,
       "resolved_time_ms": 3838000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "NMN",
+        "PTRS",
+        "AT",
+        "FL",
+        "AT",
+        "SPRTS",
+        "SNKT"
+      ],
       "description": "Several lights suddenly explode.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10652,
       "resolved_time_ms": 4655000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "A",
+        "FKR",
+        "AAM",
+        "NT",
+        "AN",
+        "0S"
+      ],
       "description": "A panicked Gray runs into Deacon.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59185,
       "resolved_time_ms": 4796000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "KN",
+        "T",
+        "KT",
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "TNNT",
+        "N"
+      ],
       "description": "The camera cuts out for several seconds before coming back to Gray who is screaming in agony.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35296,
       "resolved_time_ms": 5328000,
       "type": "minor"
     }

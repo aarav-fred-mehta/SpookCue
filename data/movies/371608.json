@@ -3,82 +3,170 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "PRPPL",
+        "HF",
+        "TNS",
+        "AF",
+        "FL0",
+        "PRN",
+        "SKS"
+      ],
       "description": "As Luke enters the trailer Kinsey jumps out at him (as a joke).",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41125,
       "resolved_time_ms": 1585000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "SRSL",
+        "LTTS",
+        "K",
+        "X",
+        "AT",
+        "LTTS",
+        "JST"
+      ],
       "description": "There is a loud bang as Kinsey and Luke approach the door.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9868,
       "resolved_time_ms": 1644000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "SRSL",
+        "LTTS",
+        "K",
+        "X",
+        "AT",
+        "LTTS",
+        "JST"
+      ],
       "description": "A dog yelps and runs out of the room.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29868,
       "resolved_time_ms": 1664000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "SKRT",
+        "M",
+        "HLF",
+        "T",
+        "T0"
+      ],
       "description": "A sound effect plays as Kinsey removes a sheet revealing two disfigured corpses.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59166,
       "resolved_time_ms": 1728000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "LFT",
+        "A",
+        "AP"
+      ],
       "description": "As Kinsey climbs out through the skylight, Dollface starts breaking down the wall.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6945,
       "resolved_time_ms": 2023000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANTL",
+        "ARNT",
+        "AR",
+        "XT",
+        "AT",
+        "AS",
+        "0T"
+      ],
       "description": "There is a loud bang.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3105,
       "resolved_time_ms": 2234000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANTL",
+        "ARNT",
+        "AR",
+        "XT",
+        "AT",
+        "AS",
+        "0T"
+      ],
       "description": "A window breaks as something is thrown through it.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23105,
       "resolved_time_ms": 2254000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FF",
+        "SKNTS",
+        "T",
+        "LF",
+        "ANT",
+        "0N",
+        "A",
+        "STRT",
+        "XTNK"
+      ],
       "description": "A window is once again broken.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2987,
       "resolved_time_ms": 2352000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "KT",
+        "0",
+        "KR",
+        "ANT",
+        "AR",
+        "KN",
+        "K",
+        "FNT",
+        "HR"
+      ],
       "description": "A concrete block is thrown at the windshield of Mike’s minivan.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52120,
       "resolved_time_ms": 2560000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LF",
+        "AS",
+        "ALN",
+        "PT",
+        "AF",
+        "JST",
+        "STRTT"
+      ],
       "description": "As Kinsey, who is hiding in a tunnel, yells “Leave us alone!” Pin Up girl appears from the shadows beside her.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1995,
       "resolved_time_ms": 2677000,
       "type": "major"
     },
@@ -91,10 +179,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "T",
+        "KT",
+        "T",
+        "A",
+        "LNTLN"
+      ],
       "description": "A truck smashes through the wall of the caravan just after Luke tells Kinsey that they need to find a landline and call 911.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4784,
       "resolved_time_ms": 3391000,
       "type": "major"
     },

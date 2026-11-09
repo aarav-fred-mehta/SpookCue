@@ -76,8 +76,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A bomb explodes in a boy’s hand unexpectedly",
+      "description": "Somebody suddenly greets Jonathan from behind",
       "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3812000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A bomb explodes in a boy’s hand unexpectedly",
+      "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5247000,
       "type": "minor"
@@ -85,7 +93,7 @@
     {
       "anchor_phonetic": null,
       "description": "The clown attacks two people in the shower with a chainsaw",
-      "id": "scare_11",
+      "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5293000,
       "type": "minor"
@@ -93,7 +101,7 @@
     {
       "anchor_phonetic": null,
       "description": "Receiving a picture triggers loud flashback with a big sound burst",
-      "id": "scare_12",
+      "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5644000,
       "type": "minor"
@@ -101,7 +109,7 @@
     {
       "anchor_phonetic": null,
       "description": "Someone comes downstairs and shouts at a figure (sudden reveal)",
-      "id": "scare_13",
+      "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5802000,
       "type": "minor"
@@ -109,7 +117,7 @@
     {
       "anchor_phonetic": null,
       "description": "Someone attacks the clown with a gift-knife unexpectedly",
-      "id": "scare_14",
+      "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6655000,
       "type": "minor"
@@ -117,7 +125,7 @@
     {
       "anchor_phonetic": null,
       "description": "The clown attacks with a chainsaw suddenly",
-      "id": "scare_15",
+      "id": "scare_16",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6718000,
       "type": "minor"
@@ -125,14 +133,14 @@
     {
       "anchor_phonetic": null,
       "description": "The clown lets out a loud laugh at the end on the bus",
-      "id": "scare_16",
+      "id": "scare_17",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 7080000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-12-28T01:27:56.411Z",
+  "source_lastmod": "2026-11-08T07:50:37.555Z",
   "sync_type": "subtitles",
   "title": "Terrifier 3",
   "tmdb_id": 1034541

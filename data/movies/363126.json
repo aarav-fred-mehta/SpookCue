@@ -3,10 +3,18 @@
   "runtime_minutes": 116,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AN",
+        "AS",
+        "NS",
+        "A",
+        "LK",
+        "AT"
+      ],
       "description": "A dog starts barking at the fence as Clare and Andi walk by.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4343,
       "resolved_time_ms": 705000,
       "type": "minor"
     }

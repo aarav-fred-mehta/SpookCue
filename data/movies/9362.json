@@ -3,34 +3,66 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "ST",
+        "AP",
+        "0R",
+        "ANT",
+        "JST",
+        "TT",
+        "AF",
+        "0RST"
+      ],
       "description": "A farmer is pulled into the ground by an unseen entity.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37824,
       "resolved_time_ms": 924000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "ART",
+        "0S",
+        "AS",
+        "RL",
+        "ART"
+      ],
       "description": "Val lifts a hat off the ground and Fred’s head is underneath it.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6395,
       "resolved_time_ms": 1030000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "TNNT",
+        "0N",
+        "A",
+        "TNNT",
+        "AN",
+        "FL",
+        "AN"
+      ],
       "description": "The generator suddenly pops out of the ground.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5516,
       "resolved_time_ms": 1450000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "STNK",
+        "LK",
+        "0T"
+      ],
       "description": "Jim is attacked by one of the snakes.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3858,
       "resolved_time_ms": 1481000,
       "type": "minor"
     },
@@ -43,90 +75,188 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MST",
+        "P",
+        "A",
+        "MLN",
+        "AF",
+        "0M"
+      ],
       "description": "A giant snake like creature comes out of the ground.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4278,
       "resolved_time_ms": 1979000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AX",
+        "AT",
+        "FLNTN",
+        "ATTS",
+        "KT",
+        "A",
+        "KT",
+        "SKS",
+        "FT",
+        "RX"
+      ],
       "description": "A snake attacks the piece of wood Val is hitting the ground with.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4575,
       "resolved_time_ms": 2391000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "AS",
+        "0T",
+        "LTL",
+        "XT",
+        "STN"
+      ],
       "description": "The giant snake surfaces just in front of a group of people.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10147,
       "resolved_time_ms": 2908000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MNT",
+        "KT",
+        "PK",
+        "KT",
+        "PK"
+      ],
       "description": "The pogo stick pops up out of the ground.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2082,
       "resolved_time_ms": 3007000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "AT",
+        "PK",
+        "PL",
+        "AT",
+        "PK"
+      ],
       "description": "The snake bursts through the floor of the store.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9051,
       "resolved_time_ms": 3212000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JF",
+        "M",
+        "AR",
+        "HNT",
+        "JF",
+        "M",
+        "AR",
+        "HNT"
+      ],
       "description": "Another snake bursts through the floor.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18198,
       "resolved_time_ms": 3241000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "KN",
+        "TK",
+        "LK",
+        "A",
+        "SN",
+        "AF",
+        "A",
+        "PX",
+        "PK",
+        "MNSTRS",
+        "ANTRKRNT",
+        "N",
+        "KT",
+        "AT"
+      ],
       "description": "A snake comes through the wall of Burt and Heather’s house.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24313,
       "resolved_time_ms": 3549000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "NSTR",
+        "0TTS",
+        "N",
+        "KT",
+        "KM",
+        "AN",
+        "A",
+        "KT",
+        "KT",
+        "HHR"
+      ],
       "description": "Nestor is dragged underground by one of the creatures.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3183,
       "resolved_time_ms": 3908000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "PT",
+        "AT",
+        "T",
+        "A",
+        "0NK"
+      ],
       "description": "The building begins to cave in suddenly.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1407,
       "resolved_time_ms": 4099000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "TT",
+        "AT",
+        "JRL",
+        "KT",
+        "TMN",
+        "KT",
+        "0NKNK"
+      ],
       "description": "One of the snake heads comes out of the water and screeches at Rhonda.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26382,
       "resolved_time_ms": 4358000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "AT",
+        "0R"
+      ],
       "description": "The remaining snake bursts out of the ground in front of Val and Earl.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7103,
       "resolved_time_ms": 5160000,
       "type": "minor"
     }

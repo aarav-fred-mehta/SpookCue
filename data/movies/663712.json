@@ -1,0 +1,99 @@
+{
+  "release_year": 2022,
+  "runtime_minutes": 138,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Art the Clown suddenly walks into kitchen",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3795000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Running children suddenly appear",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4820000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Little Pale Girl suddenly appears",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4863000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Art the Clown appears in the front of the windshield of the car",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5083000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Little Pale Girl suddenly appears on dance floor",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5104000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Little Pale Girl suddenly appears again in close-up shot",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5147000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A giant clown suddenly appears",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5804000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeff suddenly appears in front of the windshield screaming",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5871000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jeff suddenly gets his penis stabbed by Art the Clown",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 5936000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jonathan suddenly runs into Art the Clown",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6542000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Art the Clown suddenly grabs Sienna",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 6924000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-08T07:50:48.220Z",
+  "sync_type": "subtitles",
+  "title": "Terrifier 2",
+  "tmdb_id": 663712
+}

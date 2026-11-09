@@ -19,26 +19,49 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "ATTS",
+        "ARJNT",
+        "A",
+        "KN",
+        "PJ",
+        "HM",
+        "FR",
+        "A",
+        "N"
+      ],
       "description": "A woman suddenly appears while Mun is learning calligraphy. She asks “why are you sitting on my chair?” and lunges at Mun. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41400,
       "resolved_time_ms": 2176000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HF",
+        "A",
+        "SN",
+        "M",
+        "RPRT",
+        "KRT"
+      ],
       "description": "An elderly man appears in the lift with Mun.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2640,
       "resolved_time_ms": 2888000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANK",
+        "ANK",
+        "HS",
+        "ALRT"
+      ],
       "description": "Mun sees a dark figure standing behind Ying Ying.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22840,
       "resolved_time_ms": 3507000,
       "type": "minor"
     }

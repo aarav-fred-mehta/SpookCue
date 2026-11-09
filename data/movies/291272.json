@@ -11,90 +11,186 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "TF",
+        "ST",
+        "0S",
+        "HS",
+        "NTS",
+        "A",
+        "FML"
+      ],
       "description": "The charred woman runs at the electrician.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43370,
       "resolved_time_ms": 1541000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "TF",
+        "ST",
+        "0S",
+        "HS",
+        "NTS",
+        "A",
+        "FML"
+      ],
       "description": "Joe is attacked from behind by another charred figure.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53370,
       "resolved_time_ms": 1551000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "RL",
+        "KN",
+        "FL",
+        "SM0NK",
+        "HR",
+        "PL"
+      ],
       "description": "A picture falls off the wall, startling Anne.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6031,
       "resolved_time_ms": 1643000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AT",
+        "JST",
+        "M",
+        "AR",
+        "AS",
+        "AT",
+        "LK",
+        "MJRL",
+        "HT",
+        "TN",
+        "HR"
+      ],
       "description": "The charred woman grabs Harry.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16373,
       "resolved_time_ms": 2379000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKNK",
+        "XT",
+        "KTMN",
+        "AT"
+      ],
       "description": "Daniella sees the charred woman in the rear vision mirror, she is then impaled through the stomach.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15498,
       "resolved_time_ms": 2453000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKNK",
+        "XT",
+        "KTMN",
+        "AT"
+      ],
       "description": "A door slams shut.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48498,
       "resolved_time_ms": 2486000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "M",
+        "0RS",
+        "S",
+        "MX",
+        "T0"
+      ],
       "description": "Paul sees two charred figures in the doorway, he then turns to his wife in bed but there is a shrivelled corpse in her place.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8212,
       "resolved_time_ms": 3099000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "NT",
+        "PP",
+        "AT",
+        "ATTS",
+        "NT",
+        "PP"
+      ],
       "description": "Jacob is pushed back on his chair by an unseen force.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7796,
       "resolved_time_ms": 3615000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "T",
+        "LF",
+        "A",
+        "KT",
+        "T",
+        "K",
+        "K",
+        "K",
+        "K",
+        "K",
+        "K",
+        "K",
+        "K"
+      ],
       "description": "May is shot in the head as she opens the door and blood splatters onto the camera.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1733,
       "resolved_time_ms": 3972000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "ALN",
+        "AN",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "A man is impaled through the stomach by one of the charred people.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3910,
       "resolved_time_ms": 3997000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "0",
+        "FK",
+        "AF",
+        "AF",
+        "M"
+      ],
       "description": "A man is grabbed around the ankle by one of the charred figures.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1725,
       "resolved_time_ms": 4080000,
       "type": "minor"
     }

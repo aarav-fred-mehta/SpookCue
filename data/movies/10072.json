@@ -11,10 +11,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "M",
+        "TN",
+        "AR",
+        "HRTNK",
+        "M"
+      ],
       "description": "Kristen grabs the tap handle which then wraps around her hand.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32167,
       "resolved_time_ms": 532000,
       "type": "minor"
     },
@@ -35,58 +42,108 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "AR",
+        "PRK",
+        "JNFR"
+      ],
       "description": "Hands reach out of both sides of the TV.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6619,
       "resolved_time_ms": 2390000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "HL",
+        "AR",
+        "A",
+        "TNK",
+        "HR"
+      ],
       "description": "Neil steals a cross but is immediately grabbed on his shoulder by a hand.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57936,
       "resolved_time_ms": 3959000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "T",
+        "A",
+        "FNT",
+        "HM",
+        "KRSTN"
+      ],
       "description": "A claw suddenly rips through the wall after Nancy says “How do we find him Kristen?”.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 346,
       "resolved_time_ms": 4242000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "MM",
+        "A",
+        "JST",
+        "TNNT",
+        "AN",
+        "P",
+        "ALN"
+      ],
       "description": "Kristen’s mother is pulled through the doorway.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2473,
       "resolved_time_ms": 4325000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NNS",
+        "KRSTN",
+        "AS",
+        "0T",
+        "A"
+      ],
       "description": "Taryn watches as a man walks past, she then spins around to see Freddy behind her.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59213,
       "resolved_time_ms": 4434000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PR",
+        "0",
+        "FKNK",
+        "0NK"
+      ],
       "description": "Neil grabs the bag and a skeleton jumps out at him.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3960,
       "resolved_time_ms": 5132000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "ALS",
+        "LF",
+        "A",
+        "AAL",
+        "ALS",
+        "LF",
+        "A"
+      ],
       "description": "Nancy gets struck by the bladed-glove while receiving a hug.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13008,
       "resolved_time_ms": 5344000,
       "type": "minor"
     }

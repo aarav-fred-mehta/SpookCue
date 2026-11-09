@@ -3,34 +3,68 @@
   "runtime_minutes": 123,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "STL",
+        "ALKT",
+        "ANT",
+        "A",
+        "TRK",
+        "AL",
+        "ALN"
+      ],
       "description": "After a moment of silence, children scream at a distance, startling Laura.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15721,
       "resolved_time_ms": 338000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "STL",
+        "ALKT",
+        "ANT",
+        "A",
+        "TRK",
+        "AL",
+        "ALN"
+      ],
       "description": "Ghostface rushes from the shadows to stab Laura.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24721,
       "resolved_time_ms": 347000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PTR",
+        "AX",
+        "ARS"
+      ],
       "description": "Ghostface grabs Tara from behind",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1252,
       "resolved_time_ms": 2002000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FK",
+        "ATTS",
+        "LKT",
+        "KS",
+        "A",
+        "NT",
+        "AR",
+        "KS"
+      ],
       "description": "Ghostface suddenly fires a random shot in the store.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40115,
       "resolved_time_ms": 2095000,
       "type": "minor"
     },
@@ -43,50 +77,95 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "T",
+        "ARL",
+        "FR",
+        "TRK",
+        "AR",
+        "TRTNK",
+        "A",
+        "N"
+      ],
       "description": "The shape behind the window punches trough the glass to attack the psychiatrist.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6476,
       "resolved_time_ms": 2576000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "KTNK",
+        "AT",
+        "T"
+      ],
       "description": "Right after Mindy says “run”, Quinn’s corpse burst out of her room.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32481,
       "resolved_time_ms": 3306000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MNT",
+        "P0RM",
+        "TR",
+        "HR"
+      ],
       "description": "Accompanied by a sound effect, Mindy finds a dead man in her bathroom, shortly after, ghostface barges in the room.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4794,
       "resolved_time_ms": 3382000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "LK",
+        "AR",
+        "NT",
+        "KN",
+        "P",
+        "APL",
+        "T",
+        "STP",
+        "0S"
+      ],
       "description": "Just after the killer says “you’re not gonna be able to stop this” on the phone, Ghostface drops the body of Gale’s lover on the floor.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1603,
       "resolved_time_ms": 4571000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "ARS",
+        "MNT",
+        "XT",
+        "SM",
+        "SM"
+      ],
       "description": "Ethan touches Mindy’s shoulder with a clear lack of manner.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21183,
       "resolved_time_ms": 5094000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "NKST",
+        "STP",
+        "AS",
+        "STRT"
+      ],
       "description": "A man with a ghostface costume jumps in front of the camera.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2556,
       "resolved_time_ms": 5244000,
       "type": "minor"
     },
@@ -99,26 +178,52 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRP",
+        "A",
+        "APN",
+        "ANT",
+        "KLR",
+        "0S",
+        "PLS",
+        "ARSLF"
+      ],
       "description": "Sam’s phone suddenly rings during a quiet scene.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53364,
       "resolved_time_ms": 5654000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "KLT",
+        "ALS",
+        "T",
+        "AT",
+        "A",
+        "LT",
+        "MR",
+        "TMS"
+      ],
       "description": "Ghostface stabs Tara.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5039,
       "resolved_time_ms": 5764000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "KT",
+        "0R",
+        "0S"
+      ],
       "description": "Ethan, back from the dead, runs into the room screaming.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8610,
       "resolved_time_ms": 6781000,
       "type": "minor"
     },

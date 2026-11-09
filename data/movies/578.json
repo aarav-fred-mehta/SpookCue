@@ -3,26 +3,60 @@
   "runtime_minutes": 124,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AL",
+        "PNJT",
+        "AP",
+        "SR",
+        "A",
+        "N",
+        "HM",
+        "HH",
+        "A",
+        "FXRMN"
+      ],
       "description": "Hooper looks into a hole in Ben Gardner’s boat when a human head appears from inside.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4300,
       "resolved_time_ms": 2873000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "K",
+        "SL",
+        "AHT",
+        "KM",
+        "AN",
+        "TN",
+        "ANT",
+        "XM",
+        "SM",
+        "AF",
+        "0S",
+        "XT"
+      ],
       "description": "The shark jumps out while Brody is throwing bait into the water.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4388,
       "resolved_time_ms": 4870000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "SS",
+        "PNS",
+        "FL",
+        "AF",
+        "0M"
+      ],
       "description": "The men begin pulling rope out of the water when the shark emerges.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10720,
       "resolved_time_ms": 5879000,
       "type": "minor"
     },

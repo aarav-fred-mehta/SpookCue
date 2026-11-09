@@ -1,0 +1,19 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 30,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "A claw scratches Neekani",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 423000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-08T07:51:33.672Z",
+  "sync_type": "subtitles",
+  "title": "A Story Of Derry",
+  "tmdb_id": 1813355
+}

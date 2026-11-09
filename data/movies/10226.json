@@ -11,10 +11,23 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "FR",
+        "AN",
+        "P0RM",
+        "0",
+        "HTRRS",
+        "ALKTRK",
+        "T",
+        "A",
+        "ANT",
+        "AT",
+        "AN"
+      ],
       "description": "Marie closes a cabinet and in the reflection of the mirror Alex suddenly appears.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 342,
       "resolved_time_ms": 861000,
       "type": "minor"
     },
@@ -35,10 +48,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "JF",
+        "M",
+        "A",
+        "PTL",
+        "AF",
+        "J",
+        "P"
+      ],
       "description": "The gas station attendant gets a bottle of liquor out of a chiller. When he turns around the killer is standing right behind him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32537,
       "resolved_time_ms": 3182000,
       "type": "minor"
     },
@@ -59,10 +82,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANNT",
+        "LT",
+        "ANN",
+        "KM",
+        "PTN",
+        "AS",
+        "ANMR"
+      ],
       "description": "Alex looks at Marie through a one way mirror, suddenly Alex turns around and reaches for her.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29933,
       "resolved_time_ms": 5269000,
       "type": "minor"
     }

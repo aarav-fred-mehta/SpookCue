@@ -3,10 +3,17 @@
   "runtime_minutes": 118,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRNTL",
+        "RT",
+        "TMS",
+        "FL",
+        "AN",
+        "TMS"
+      ],
       "description": "After a few seconds of droning sounds as the camera zooms in on the saleswoman, there is a sudden clinking noise that causes her to flinch.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56583,
       "resolved_time_ms": 1031000,
       "type": "minor"
     }

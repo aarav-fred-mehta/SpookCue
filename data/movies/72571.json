@@ -11,18 +11,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "0T",
+        "A",
+        "TNNT",
+        "N"
+      ],
       "description": "A photo-frame falls off the wall as an earthquake begins suddenly.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15548,
       "resolved_time_ms": 885000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "KTNK",
+        "AT",
+        "AAM",
+        "KTN",
+        "AT"
+      ],
       "description": "Julie jumps out of the closet wearing a mask, scaring Dennis and Randy. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23310,
       "resolved_time_ms": 1465000,
       "type": "major"
     },
@@ -43,10 +58,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SKRT",
+        "KT",
+        "A",
+        "HF",
+        "T",
+        "P",
+        "KT"
+      ],
       "description": "There is a loud thump as Julie enters the bathroom where the two girls are playing bloody Mary.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2319,
       "resolved_time_ms": 2394000,
       "type": "minor"
     },
@@ -59,18 +83,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "KRST",
+        "AT",
+        "AR",
+        "A",
+        "TNK"
+      ],
       "description": "Katie crawls into a cupboard and the door slams shut behind her.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 745,
       "resolved_time_ms": 2758000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "NT",
+        "LS",
+        "KT",
+        "NT",
+        "ST"
+      ],
       "description": "As the camera pans back to the kitchen, the babysitter’s face suddenly appears in front of it.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52930,
       "resolved_time_ms": 2959000,
       "type": "minor"
     },
@@ -91,42 +129,80 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "0T",
+        "A",
+        "N",
+        "A",
+        "HRT",
+        "AT",
+        "T"
+      ],
       "description": "There is a hissing noise and Randi is attacked by something while the lights are off.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8094,
       "resolved_time_ms": 3793000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "AN",
+        "PL",
+        "ANMR"
+      ],
       "description": "The table and chairs in the children’s room are suddenly pushed over.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20564,
       "resolved_time_ms": 3877000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "AKSPLNS",
+        "AT",
+        "TNS",
+        "AAM",
+        "NT",
+        "LSTNNK",
+        "T"
+      ],
       "description": "An invisible force pulls Katie off the ground by her hair.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15966,
       "resolved_time_ms": 4096000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "JST",
+        "AKNR",
+        "AT",
+        "JST",
+        "AKNR",
+        "AT"
+      ],
       "description": "Katie’s sheets are pulled off the bed and fly towards the camera.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11591,
       "resolved_time_ms": 4300000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "KL",
+        "A",
+        "PK"
+      ],
       "description": "Julie returns to the kitchen and notices everything has been removed from the kitchen, seconds later all the kitchen items fall from the ceiling. [Video].",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37229,
       "resolved_time_ms": 4438000,
       "type": "major"
     },
@@ -147,18 +223,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "K",
+        "XK",
+        "ST",
+        "HR"
+      ],
       "description": "Dennis opens the door slowly, and there is a whooshing noise.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8900,
       "resolved_time_ms": 5114000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRST",
+        "LSTN",
+        "T",
+        "M",
+        "ST",
+        "RT",
+        "HR"
+      ],
       "description": "A now possessed Katie turns around and snarls at Dennis before throwing him backwards. [Video].",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47015,
       "resolved_time_ms": 5204000,
       "type": "major"
     }

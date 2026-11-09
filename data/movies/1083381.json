@@ -3,50 +3,92 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "KN",
+        "A",
+        "KM",
+        "PLS",
+        "STNTRT"
+      ],
       "description": "A bird flies into the room",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18076,
       "resolved_time_ms": 233000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "AT",
+        "0",
+        "FK"
+      ],
       "description": "Said bird flies away.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3460,
       "resolved_time_ms": 252000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FK",
+        "FK",
+        "FK",
+        "FK"
+      ],
       "description": "The figure is standing around the corner and attacks him",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3244,
       "resolved_time_ms": 384000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MLPNJ",
+        "AM",
+        "PNS",
+        "PNT"
+      ],
       "description": "Something thrown against wall",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17789,
       "resolved_time_ms": 2189000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "ATTS",
+        "AS",
+        "FR",
+        "AS",
+        "AT",
+        "KS"
+      ],
       "description": "a loud noise in the distance",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11023,
       "resolved_time_ms": 3116000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "TP",
+        "PR0",
+        "AT",
+        "KNT",
+        "AF",
+        "NT",
+        "AS",
+        "0S"
+      ],
       "description": "Bobby gets pulled by the rope he's still attached to",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1814,
       "resolved_time_ms": 3149000,
       "type": "minor"
     },
@@ -67,26 +109,46 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "AL",
+        "AFR",
+        "0",
+        "PLS"
+      ],
       "description": "the wall by the door is demolished",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19467,
       "resolved_time_ms": 3597000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "LNK",
+        "HF",
+        "A",
+        "PN",
+        "HR"
+      ],
       "description": "Clark strangles Mary from behind",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45349,
       "resolved_time_ms": 4325000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "AT",
+        "0S",
+        "0",
+        "PST",
+        "PRT"
+      ],
       "description": "There's a head in the refrigerator",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42421,
       "resolved_time_ms": 4709000,
       "type": "minor"
     },

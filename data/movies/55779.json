@@ -3,42 +3,82 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "A",
+        "FR",
+        "AN",
+        "HR"
+      ],
       "description": "Isaac’s head jolts up suddenly as he regains consciousness.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27523,
       "resolved_time_ms": 3010000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FNSNT",
+        "SPT",
+        "AT",
+        "AP"
+      ],
       "description": "The tenderizing machine suddenly spins as Sam tries to remove a piece of meat stuck in it.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22049,
       "resolved_time_ms": 4313000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "ATTS",
+        "KNK",
+        "AN",
+        "ATTS",
+        "PTR",
+        "H",
+        "HS",
+        "A",
+        "KN"
+      ],
       "description": "Agent Block is shot several times.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4405,
       "resolved_time_ms": 4773000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "TS",
+        "0T",
+        "MN",
+        "A",
+        "KT",
+        "PLKK",
+        "LF"
+      ],
       "description": "The gun sitting on the gas burner discharges by itself.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2736,
       "resolved_time_ms": 4941000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LFS",
+        "A",
+        "PX",
+        "TST",
+        "AN",
+        "0",
+        "ANT"
+      ],
       "description": "Debris from the plane crash falls through the roof and crushes Nathan.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5249,
       "resolved_time_ms": 5180000,
       "type": "minor"
     }

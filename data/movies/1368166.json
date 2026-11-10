@@ -11,18 +11,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "NT",
+        "FR",
+        "A",
+        "TT",
+        "AFR0NK",
+        "A",
+        "KLT"
+      ],
       "description": "She stands in the doorway and looks at her",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2124,
       "resolved_time_ms": 2359000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0R",
+        "AR",
+        "KNNPLS"
+      ],
       "description": "She attacks him",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7085,
       "resolved_time_ms": 6712000,
       "type": "minor"
     }

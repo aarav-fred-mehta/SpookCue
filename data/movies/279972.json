@@ -3,34 +3,68 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRN",
+        "AF",
+        "0T",
+        "LT",
+        "TRN",
+        "AN",
+        "0",
+        "LT"
+      ],
       "description": "Will turns on the camera light and a monster is standing right in front of him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1143,
       "resolved_time_ms": 1826000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "JST",
+        "SNK",
+        "0TTS",
+        "KN"
+      ],
       "description": "There is suddenly a loud bang in the middle of a conversation.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1180,
       "resolved_time_ms": 1989000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "KT",
+        "AT",
+        "AT",
+        "0",
+        "HL",
+        "AR",
+        "A",
+        "T",
+        "TNK"
+      ],
       "description": "Adam grabs his boot from the grave and stands up to reveal Dekker standing right behind him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3588,
       "resolved_time_ms": 4121000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AKSKTL",
+        "A",
+        "A",
+        "AR"
+      ],
       "description": "While Adam and Dekker are arguing, Will points the camera downwards and a monster runs straight at him.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57,
       "resolved_time_ms": 4247000,
       "type": "major"
     },

@@ -3,18 +3,30 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "TSTNT",
+        "T",
+        "TK",
+        "LF"
+      ],
       "description": "The little girl leans forwards to reveal Sadako standing right behind her.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29621,
       "resolved_time_ms": 3384000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "PHNT",
+        "0S",
+        "RKS"
+      ],
       "description": "Sadako’s hand suddenly reaches out of the rocks and grabs Mayu’s arm.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45661,
       "resolved_time_ms": 4769000,
       "type": "minor"
     },

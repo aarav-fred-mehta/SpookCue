@@ -11,18 +11,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "A",
+        "A",
+        "JSS",
+        "NS"
+      ],
       "description": "A patient opens his mouth to reveal his diseased tongue.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 605,
       "resolved_time_ms": 1396000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "A",
+        "ST",
+        "AF",
+        "A",
+        "S",
+        "A",
+        "TR",
+        "A",
+        "XLTNNT",
+        "FKNK",
+        "SRF"
+      ],
       "description": "A zombie breaks into El Wray’s truck.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5739,
       "resolved_time_ms": 1768000,
       "type": "minor"
     },
@@ -35,26 +55,49 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "KT",
+        "A",
+        "KT",
+        "LK",
+        "AT",
+        "MN"
+      ],
       "description": "A zombie bites Carlos on the arm as he goes to give Tolo his ring back.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27404,
       "resolved_time_ms": 2659000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FN",
+        "PT",
+        "AR",
+        "TKNK",
+        "M",
+        "KR"
+      ],
       "description": "A car explodes.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2537,
       "resolved_time_ms": 2768000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AT",
+        "KK",
+        "ST",
+        "KM",
+        "AN"
+      ],
       "description": "While feeding his wife some soup, Earl briefly looks away and when he looks back his wife has transformed into a zombie. [Video].",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2652,
       "resolved_time_ms": 2920000,
       "type": "major"
     },
@@ -67,50 +110,102 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AN",
+        "0",
+        "TRNK",
+        "A",
+        "AR",
+        "T",
+        "A",
+        "0NK",
+        "AR",
+        "KNK",
+        "A",
+        "FKNK",
+        "PX"
+      ],
       "description": "A crow bar slams into Dakota’s car window.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 525,
       "resolved_time_ms": 3345000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "AN",
+        "KT",
+        "AF",
+        "HM",
+        "RST"
+      ],
       "description": "An apparently dead J.T. suddenly sits up and points his gun at Hague.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9439,
       "resolved_time_ms": 3440000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "P",
+        "RT",
+        "PK",
+        "A",
+        "LF",
+        "A"
+      ],
       "description": "There is a single gun shot as Dakota walks towards the house.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17087,
       "resolved_time_ms": 3600000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "P",
+        "RT",
+        "PK",
+        "A",
+        "LF",
+        "A"
+      ],
       "description": "Block grabs Dakota by the hair.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27087,
       "resolved_time_ms": 3610000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "FT",
+        "0M",
+        "AF"
+      ],
       "description": "Zombies break into the restaurant.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6693,
       "resolved_time_ms": 4084000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "LNT",
+        "AF",
+        "MT",
+        "FR",
+        "ARSLFS"
+      ],
       "description": "A zombie runs out of some bushes.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14334,
       "resolved_time_ms": 5919000,
       "type": "minor"
     }

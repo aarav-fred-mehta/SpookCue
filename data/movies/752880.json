@@ -3,10 +3,20 @@
   "runtime_minutes": 119,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "PN",
+        "PJNS",
+        "T",
+        "PL",
+        "AN",
+        "0",
+        "PLKNS"
+      ],
       "description": "Very minor but there’s a really quiet poem and then the title card happens with noise of a rain storm",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5433,
       "resolved_time_ms": 72000,
       "type": "minor"
     },

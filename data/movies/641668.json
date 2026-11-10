@@ -3,26 +3,49 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "AF",
+        "A",
+        "KNNT",
+        "HF",
+        "FN",
+        "AN",
+        "TTNXN"
+      ],
       "description": "A person with a mask appears as the lights flicker.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 129,
       "resolved_time_ms": 1254000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "PNK",
+        "A",
+        "KST",
+        "AS",
+        "KNFSNK"
+      ],
       "description": "The mask appears in the flame of the lighter before disappearing.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23795,
       "resolved_time_ms": 1645000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "T",
+        "KT",
+        "NT",
+        "MM"
+      ],
       "description": "A snarling figure appears.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31527,
       "resolved_time_ms": 3055000,
       "type": "minor"
     }

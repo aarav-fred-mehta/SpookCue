@@ -11,10 +11,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "A",
+        "SPRFSL",
+        "AR",
+        "FR",
+        "ANTRNT",
+        "LKS"
+      ],
       "description": "Close-up of a walking leg. Loud noise.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36664,
       "resolved_time_ms": 1458000,
       "type": "minor"
     },
@@ -27,26 +36,46 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "FLP",
+        "RT",
+        "PHNT",
+        "A"
+      ],
       "description": "A comically large man is just standing in place.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8611,
       "resolved_time_ms": 2185000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "0",
+        "FK",
+        "AS",
+        "KN",
+        "MN"
+      ],
       "description": "Nothing scary happens there's just a loud noise.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39998,
       "resolved_time_ms": 2430000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "0S",
+        "PTS",
+        "AN",
+        "0",
+        "KR"
+      ],
       "description": "Timmy was in the backseat the whole time!",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6362,
       "resolved_time_ms": 4568000,
       "type": "minor"
     }

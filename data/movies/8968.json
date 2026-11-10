@@ -11,42 +11,84 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "LTTS",
+        "HF",
+        "A",
+        "LK",
+        "ARNT",
+        "0N",
+        "XL",
+        "A"
+      ],
       "description": "The Boogeyman manifests behind Tim's father",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39698,
       "resolved_time_ms": 275000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "LTTS",
+        "HF",
+        "A",
+        "LK",
+        "ARNT",
+        "0N",
+        "XL",
+        "A"
+      ],
       "description": "Tim's father leaps out of the closet",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59698,
       "resolved_time_ms": 295000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ALT",
+        "0",
+        "T",
+        "0S",
+        "AR",
+        "AS",
+        "H"
+      ],
       "description": "A sudden scene transition to a figure passing by could startle some viewers",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4837,
       "resolved_time_ms": 568000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LK",
+        "0S",
+        "SNKNK",
+        "ARNT",
+        "0NK"
+      ],
       "description": "Tim asks his girlfriend ''are you alright'' and sees a ghastly rendition of his mother on the bed, accompanied by a jarring musical sting",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8485,
       "resolved_time_ms": 957000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFR0NKKS",
+        "KN",
+        "P",
+        "AL",
+        "RT"
+      ],
       "description": "A dead woman abruptly grabs Tim's hand accompanied by a sound effect",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38417,
       "resolved_time_ms": 1255000,
       "type": "minor"
     },
@@ -83,10 +125,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HPNS",
+        "AN",
+        "A",
+        "KT",
+        "T",
+        "SKS"
+      ],
       "description": "A door opens on it's own",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42776,
       "resolved_time_ms": 2569000,
       "type": "minor"
     },
@@ -123,50 +173,109 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AST",
+        "T",
+        "KM",
+        "TLK",
+        "T",
+        "0",
+        "MN",
+        "A",
+        "LFT",
+        "HR"
+      ],
       "description": "More scary images flash across the screen",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1589,
       "resolved_time_ms": 3949000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "AS",
+        "TRNK",
+        "T",
+        "ANTRSTNT",
+        "AT"
+      ],
       "description": "more flashes and cuts to disturbing imagery",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34416,
       "resolved_time_ms": 4022000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TM",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "KT",
+        "AN",
+        "HR"
+      ],
       "description": "The bath faucet suddenly turns on and then a woman leaps out of the bathtub",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41320,
       "resolved_time_ms": 4492000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "KT",
+        "A",
+        "AT",
+        "AAM",
+        "NT",
+        "KN",
+        "HRT",
+        "A"
+      ],
       "description": "The Boogeyman manifests behind Tim",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3694,
       "resolved_time_ms": 4614000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "LTNK",
+        "M",
+        "SMR",
+        "AF",
+        "AAM",
+        "NT",
+        "ARNT",
+        "H",
+        "ANNT",
+        "P0R",
+        "A"
+      ],
       "description": "A woman is dragged away by The Boogeyman",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22768,
       "resolved_time_ms": 4692000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FF",
+        "M",
+        "TT",
+        "KT",
+        "T",
+        "SKRT"
+      ],
       "description": "The Boogeyman lunges out of the closet",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37494,
       "resolved_time_ms": 4814000,
       "type": "major"
     }

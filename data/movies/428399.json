@@ -11,18 +11,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "TNNT",
+        "XT",
+        "PT",
+        "AR",
+        "KN",
+        "TN"
+      ],
       "description": "A creature jumps at Friend as he turns around.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9159,
       "resolved_time_ms": 1581000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AT",
+        "AF",
+        "M",
+        "A",
+        "P",
+        "PLS",
+        "KRNR"
+      ],
       "description": "The creature snarls to stop Gunner.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10587,
       "resolved_time_ms": 3293000,
       "type": "minor"
     },

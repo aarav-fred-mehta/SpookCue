@@ -3,26 +3,49 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ASNNT",
+        "KN",
+        "LT",
+        "0T",
+        "TMN",
+        "KR",
+        "HT",
+        "M"
+      ],
       "description": "A car approaches with its horn blaring and headlights shining.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3882,
       "resolved_time_ms": 638000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "MF",
+        "AN",
+        "T",
+        "0S",
+        "NKST",
+        "AN"
+      ],
       "description": "Flashback to a car accident. Woman screaming.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26716,
       "resolved_time_ms": 1202000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TMN",
+        "AT",
+        "TT",
+        "RL"
+      ],
       "description": "Woman is scared by man tapping her shoulder. Fake out jumpscare.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5784,
       "resolved_time_ms": 1446000,
       "type": "minor"
     },
@@ -35,42 +58,84 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AT",
+        "A",
+        "TT",
+        "LST",
+        "SMR"
+      ],
       "description": "A sudden flashback to the car crash.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2785,
       "resolved_time_ms": 2275000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "ANN",
+        "KM",
+        "S",
+        "M",
+        "AT",
+        "PST",
+        "MNSN",
+        "TLRRS",
+        "AKTNK",
+        "SSPSS"
+      ],
       "description": "The woman turns around to see the killer.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13894,
       "resolved_time_ms": 2344000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "TMN",
+        "AT",
+        "AR",
+        "TT",
+        "X",
+        "K"
+      ],
       "description": "The woman is scared by her friend.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 178,
       "resolved_time_ms": 2421000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0NKS",
+        "0NKS",
+        "A",
+        "LT",
+        "AAL",
+        "XK"
+      ],
       "description": "The man is grabbed from behind by the killer.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26132,
       "resolved_time_ms": 3368000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AT",
+        "NFR",
+        "MNT",
+        "SR"
+      ],
       "description": "The killer appears behind the woman.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47571,
       "resolved_time_ms": 3451000,
       "type": "minor"
     },
@@ -83,26 +148,51 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KM",
+        "AN",
+        "KM",
+        "HR",
+        "KM",
+        "HR"
+      ],
       "description": "The woman has a flashback. Sudden cut with loud noise.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52100,
       "resolved_time_ms": 3676000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "0",
+        "HL",
+        "AS",
+        "M",
+        "XRKR",
+        "LT",
+        "M",
+        "S"
+      ],
       "description": "he man has a rope wrapped around his neck from behind.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50346,
       "resolved_time_ms": 4137000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "ATTS",
+        "JST",
+        "TN",
+        "0",
+        "HL"
+      ],
       "description": "Cuts to a shot with a man standing behind the woman with sound.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16911,
       "resolved_time_ms": 4289000,
       "type": "minor"
     }

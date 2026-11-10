@@ -11,34 +11,67 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "A",
+        "KLTNNT",
+        "FNX",
+        "AR",
+        "KM"
+      ],
       "description": "Jessica’s father suddenly grabs her",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37339,
       "resolved_time_ms": 131000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TT",
+        "NT",
+        "S",
+        "TL",
+        "M",
+        "AN",
+        "A",
+        "AS",
+        "APT",
+        "AR",
+        "AJ"
+      ],
       "description": "Alice screams at Jessica under the bed",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50240,
       "resolved_time_ms": 1176000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "SS",
+        "HH",
+        "RT",
+        "PHNT",
+        "A"
+      ],
       "description": "Alice’s mom jumps out of the doorway at Jessica",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8962,
       "resolved_time_ms": 1546000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HNTS",
+        "AF",
+        "M",
+        "STF"
+      ],
       "description": "Chauncey appears under a towel",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53157,
       "resolved_time_ms": 2462000,
       "type": "minor"
     },
@@ -51,42 +84,80 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "HS",
+        "NM",
+        "AS",
+        "NT",
+        "PNK",
+        "PNK"
+      ],
       "description": "Taylor suddenly walks in front of Jessica",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29641,
       "resolved_time_ms": 4189000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "APNT",
+        "0",
+        "TR",
+        "FR",
+        "A",
+        "ANS",
+        "PFR"
+      ],
       "description": "Teddy bears to a killer bear with teeth out of a black screen with a high screaming pitch with fire out",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12830,
       "resolved_time_ms": 4383000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FK",
+        "0T",
+        "AS",
+        "PRTL",
+        "JS"
+      ],
       "description": "Taylor grabs Jessica in Never Ever world",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39385,
       "resolved_time_ms": 4587000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "HP",
+        "FR",
+        "A",
+        "RL"
+      ],
       "description": "A door opens in Jessica’s vision",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46891,
       "resolved_time_ms": 4722000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "P",
+        "HP",
+        "HR",
+        "AL",
+        "AF",
+        "AS",
+        "FRFR"
+      ],
       "description": "A bear grabs Gloria and pulls her into a doorway",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4169,
       "resolved_time_ms": 4935000,
       "type": "minor"
     },
@@ -99,26 +170,53 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "KT",
+        "AT",
+        "AF",
+        "HR",
+        "A",
+        "KNNT",
+        "HF",
+        "HR"
+      ],
       "description": "A demon version of Alice’s mom appears",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1088,
       "resolved_time_ms": 5379000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "ST",
+        "JST",
+        "LF",
+        "0M",
+        "ALN"
+      ],
       "description": "Taylor hits a demon with a hockey stick",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12333,
       "resolved_time_ms": 5746000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "K",
+        "N",
+        "N",
+        "0T",
+        "AS",
+        "NT",
+        "ANK"
+      ],
       "description": "The door to the Never Ever is yanked open",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19337,
       "resolved_time_ms": 5815000,
       "type": "minor"
     }

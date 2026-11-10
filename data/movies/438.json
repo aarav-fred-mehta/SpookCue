@@ -3,10 +3,18 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "A",
+        "RMMPR",
+        "M",
+        "TTRRS",
+        "NM"
+      ],
       "description": "While climbing down a cube hatch, Cassandra is suddenly grabbed on the leg.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42848,
       "resolved_time_ms": 1202000,
       "type": "minor"
     }

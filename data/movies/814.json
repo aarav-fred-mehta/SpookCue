@@ -3,50 +3,101 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "HLP",
+        "M",
+        "AP",
+        "AR",
+        "AT"
+      ],
       "description": "David is knocked down by a werewolf which then begins to attack Jack.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4716,
       "resolved_time_ms": 976000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "FK",
+        "KT",
+        "HLP",
+        "HLP"
+      ],
       "description": "The werewolf attacks David.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24501,
       "resolved_time_ms": 1003000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "M",
+        "SNT",
+        "AAM",
+        "PJNNK",
+        "T",
+        "AR",
+        "APT"
+      ],
       "description": "During a dream sequence, a naked David jumps on a deer and begins eating it.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29408,
       "resolved_time_ms": 1518000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "HF",
+        "T",
+        "TK",
+        "SX",
+        "TRSTK",
+        "AKXN",
+        "AKN",
+        "TFT"
+      ],
       "description": "During another dream sequence, Jack suddenly opens his eyes and growls at Nurse Alex.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30153,
       "resolved_time_ms": 1732000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "AL",
+        "RT",
+        "HLT",
+        "AR",
+        "HRSS"
+      ],
       "description": "A man opens the front door and is gunned down by some strange looking mutants.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8357,
       "resolved_time_ms": 1923000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "T",
+        "AR",
+        "A",
+        "HF",
+        "JST",
+        "0",
+        "0NK"
+      ],
       "description": "Nurse Alex opens the curtains and is attacked by a mutant.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8266,
       "resolved_time_ms": 1972000,
       "type": "major"
     },
@@ -59,26 +110,47 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "HR",
+        "SM0NK",
+        "JST",
+        "N"
+      ],
       "description": "A werewolf jumps out and attacks a young couple.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5244,
       "resolved_time_ms": 3743000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "AF",
+        "AT",
+        "MTNT",
+        "ANT",
+        "AR",
+        "NMPR"
+      ],
       "description": "The scene abruptly cuts to a telephone ringing.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29715,
       "resolved_time_ms": 3838000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "MR",
+        "M0R",
+        "AF",
+        "KT"
+      ],
       "description": "There is a close up of the werewolf’s face and a loud growling noise before the scene cuts to a train.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6460,
       "resolved_time_ms": 3987000,
       "type": "minor"
     },
@@ -91,26 +163,53 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "NPT",
+        "AF",
+        "0T",
+        "NM",
+        "0NK",
+        "A",
+        "P"
+      ],
       "description": "A man is attacked by a werewolf in the movie theater.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5217,
       "resolved_time_ms": 5272000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "HLL",
+        "KNK",
+        "AN",
+        "HR",
+        "SM",
+        "KNT",
+        "AF",
+        "ANML",
+        "SR"
+      ],
       "description": "The werewolf bursts through the door to the movie theater.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4530,
       "resolved_time_ms": 5375000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "KNK",
+        "T",
+        "KL",
+        "A"
+      ],
       "description": "The werewolf roars and is repeatedly shot.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27922,
       "resolved_time_ms": 5590000,
       "type": "minor"
     }

@@ -3,162 +3,312 @@
   "runtime_minutes": 57,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "MFNK",
+        "KT",
+        "A",
+        "LT"
+      ],
       "description": "A knock is heard at Seylan’s door, which is revealed to just be a late delivery.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 741,
       "resolved_time_ms": 1078000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "HS",
+        "AS",
+        "KNT",
+        "AF",
+        "KRP",
+        "AN",
+        "0",
+        "TRK"
+      ],
       "description": "Jemma suddenly screams loudly as she claims to have felt something touch her neck.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6365,
       "resolved_time_ms": 1168000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "P",
+        "SMXT",
+        "AF",
+        "A",
+        "KR",
+        "0S",
+        "AN"
+      ],
       "description": "Haley is suddenly dragged backwards in her chair.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32889,
       "resolved_time_ms": 1421000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLT",
+        "P",
+        "ANTR",
+        "STNKS"
+      ],
       "description": "A loud thud is heard.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46868,
       "resolved_time_ms": 1581000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "HL",
+        "HL"
+      ],
       "description": "Emma’s drinking glass suddenly shatters.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2800,
       "resolved_time_ms": 1897000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MN",
+        "PSKL",
+        "AF",
+        "P",
+        "ANFNTNK",
+        "A",
+        "A",
+        "PRSN"
+      ],
       "description": "A warbling sound is heard as the lights in everyone’s rooms begin to flicker.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1868,
       "resolved_time_ms": 2078000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "ANTL",
+        "TT",
+        "HRS",
+        "APT",
+        "0S"
+      ],
       "description": "Caroline becomes visible through her virtual background as she appears to fall towards the webcam, knocking the laptop over.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 788,
       "resolved_time_ms": 2324000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KS",
+        "TT",
+        "ANPT",
+        "S",
+        "ALN",
+        "LFNK"
+      ],
       "description": "Emma’s camera pans down and a floating face filter is seen.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2356,
       "resolved_time_ms": 2341000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "FRNT",
+        "AT",
+        "ASNNT",
+        "0S",
+        "HR",
+        "PKKRNT"
+      ],
       "description": "Emma’s cabinet doors burst open.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 579,
       "resolved_time_ms": 2408000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AM",
+        "AM",
+        "KT",
+        "AT",
+        "AM",
+        "KT",
+        "AT",
+        "AF",
+        "0T",
+        "0R",
+        "RT",
+        "N"
+      ],
       "description": "Alan’s body falls to the floor behind Radina.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2436,
       "resolved_time_ms": 2511000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "TNNT",
+        "K",
+        "PK",
+        "AN",
+        "0R"
+      ],
       "description": "Caroline once again becomes visible through her virtual background as she starts repeatedly slamming her head.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2567,
       "resolved_time_ms": 2547000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "KT",
+        "AT",
+        "AF",
+        "0",
+        "HS"
+      ],
       "description": "Something dragged Haley.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 600,
       "resolved_time_ms": 2596000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "FK",
+        "RN",
+        "RN"
+      ],
       "description": "Haley’s chair gets pulled away.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3078,
       "resolved_time_ms": 2620000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "HL",
+        "HL",
+        "XT",
+        "AP"
+      ],
       "description": "A mysterious face appears in Teddy’s view.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39699,
       "resolved_time_ms": 2744000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AM",
+        "AL",
+        "P",
+        "FN",
+        "PLS",
+        "TNNT",
+        "K"
+      ],
       "description": "Another mysterious face appears in Teddy’s view as loud screaming is heard.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1017,
       "resolved_time_ms": 2762000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "A",
+        "TK",
+        "S",
+        "LNK",
+        "MN"
+      ],
       "description": "Thudding is heard in the distance.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1260,
       "resolved_time_ms": 2811000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "A",
+        "KL",
+        "AT",
+        "0",
+        "PKS"
+      ],
       "description": "Teddy’s flashlight explodes.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1387,
       "resolved_time_ms": 2851000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "FKN",
+        "HL",
+        "KN"
+      ],
       "description": "A scream is heard as another explosion occurs, blowing Teddy backwards.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6979,
       "resolved_time_ms": 2890000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "HR",
+        "0T",
+        "TT"
+      ],
       "description": "Emma screams loudly after she throws a blanket and it lands in mid-air.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20709,
       "resolved_time_ms": 3007000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "TT",
+        "ANSR",
+        "M"
+      ],
       "description": "A window shatters off-screen as Jemma breaks into Haley’s house.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17630,
       "resolved_time_ms": 3041000,
       "type": "minor"
     },

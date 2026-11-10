@@ -3,10 +3,20 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "KN",
+        "S",
+        "A",
+        "AT",
+        "AR",
+        "A",
+        "TNK"
+      ],
       "description": "the protagonists friend sits hunched over in a chair before scaring the protagonist",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6935,
       "resolved_time_ms": 1274000,
       "type": "minor"
     },

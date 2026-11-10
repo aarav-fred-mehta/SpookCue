@@ -3,10 +3,17 @@
   "runtime_minutes": 135,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "KNFNST",
+        "M",
+        "AAM",
+        "SR"
+      ],
       "description": "As the young woman and Jake begin to kiss, there is suddenly a cut to an old man watching them with loud echoing noises.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39459,
       "resolved_time_ms": 6254000,
       "type": "minor"
     }

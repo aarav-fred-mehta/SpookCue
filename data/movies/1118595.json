@@ -3,26 +3,52 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "ANNT",
+        "LSTN",
+        "T",
+        "AT",
+        "A",
+        "HF",
+        "T",
+        "S"
+      ],
       "description": "The jester grabs the man’s face.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14845,
       "resolved_time_ms": 308000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "AS",
+        "RNK",
+        "A0",
+        "A"
+      ],
       "description": "The jester appears in front of the woman.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12321,
       "resolved_time_ms": 1577000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "AS",
+        "RNK",
+        "A0",
+        "A"
+      ],
       "description": "The jester appears in front of the woman again.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31321,
       "resolved_time_ms": 1596000,
       "type": "minor"
     },
@@ -35,18 +61,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TKNK",
+        "HL",
+        "SLNK",
+        "AR",
+        "HRT"
+      ],
       "description": "The noose appears around the woman’s neck and pulls her backward.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2761,
       "resolved_time_ms": 4088000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RKRTLS",
+        "AF",
+        "H",
+        "A",
+        "FL",
+        "APT",
+        "AT",
+        "A"
+      ],
       "description": "Cut to a side shot with the jester unfocused in the background.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1991,
       "resolved_time_ms": 4852000,
       "type": "minor"
     }

@@ -27,10 +27,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HPNT",
+        "AN",
+        "0",
+        "XRX"
+      ],
       "description": "The image of Bughuul can briefly be seen on the laptop screen.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39971,
       "resolved_time_ms": 1552000,
       "type": "minor"
     },
@@ -43,10 +49,16 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ARNNT",
+        "A",
+        "KN",
+        "S",
+        "AN0NK"
+      ],
       "description": "Bughuul can be seen in the reflection of the window.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1271,
       "resolved_time_ms": 1840000,
       "type": "minor"
     },
@@ -59,10 +71,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "P",
+        "KTNK",
+        "M"
+      ],
       "description": "The deputy points his flashlight into the darkness a few times then Bughuul appears directly in front of him. [Video].",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47504,
       "resolved_time_ms": 2104000,
       "type": "major"
     },
@@ -75,34 +93,71 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "HL",
+        "AM",
+        "A",
+        "TNK",
+        "HR"
+      ],
       "description": "The deputy sees Bughuul in one of the images he is looking through, suddenly Bughuul appears to move towards him. [Video].",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43006,
       "resolved_time_ms": 2726000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "0",
+        "KTS",
+        "H",
+        "KTS",
+        "0",
+        "KTS"
+      ],
       "description": "The radio suddenly begins playing.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4905,
       "resolved_time_ms": 3544000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LT",
+        "HM",
+        "ANT",
+        "A",
+        "LT",
+        "TT"
+      ],
       "description": "Dylan sees Bughuul in front of him.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47073,
       "resolved_time_ms": 3765000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HS",
+        "T",
+        "P",
+        "TNT",
+        "AF",
+        "A",
+        "TNNT",
+        "T",
+        "0S",
+        "TNT",
+        "0N"
+      ],
       "description": "Dylan turns around and the ghost children are standing in front of him.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 306,
       "resolved_time_ms": 3805000,
       "type": "minor"
     },
@@ -123,18 +178,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "KT",
+        "AN",
+        "HR",
+        "KM",
+        "AN"
+      ],
       "description": "A young girl appears behind the deputy.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21474,
       "resolved_time_ms": 5031000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "KNK",
+        "T",
+        "P",
+        "MT",
+        "HH",
+        "KNK",
+        "T",
+        "P",
+        "S",
+        "MT"
+      ],
       "description": "Zack closes the chest to reveal the ghost children standing in front of him.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 341,
       "resolved_time_ms": 5211000,
       "type": "minor"
     },
@@ -147,10 +222,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "0",
+        "KTS",
+        "H",
+        "KTS",
+        "0",
+        "KTS"
+      ],
       "description": "A face jumps in front of the camera before the credits start. [Video].",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10008,
       "resolved_time_ms": 5350000,
       "type": "major"
     }

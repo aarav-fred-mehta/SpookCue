@@ -19,18 +19,45 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "TN",
+        "0R",
+        "A0",
+        "N",
+        "ANTS",
+        "AF",
+        "A",
+        "RSK",
+        "PRT",
+        "TT",
+        "KM",
+        "A",
+        "ALTNNT",
+        "AFN",
+        "N",
+        "AT"
+      ],
       "description": "Two arms reach through holes in the barricade and grab Ben.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2035,
       "resolved_time_ms": 2678000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "MST",
+        "HF",
+        "0T",
+        "SMPT",
+        "AS",
+        "AN",
+        "0R"
+      ],
       "description": "The lights suddenly turn off.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1395,
       "resolved_time_ms": 4820000,
       "type": "minor"
     },

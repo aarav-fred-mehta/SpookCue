@@ -27,10 +27,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "KNK",
+        "T",
+        "KT",
+        "RT",
+        "AF",
+        "M",
+        "0T",
+        "ASL"
+      ],
       "description": "A previously unseen large eel suddenly leaps at the character’s helmet, shown from his POV.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50285,
       "resolved_time_ms": 2350000,
       "type": "major"
     },

@@ -3,10 +3,17 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANT",
+        "AN0R",
+        "0TTT",
+        "P",
+        "KRT"
+      ],
       "description": "A man walks into a coffee shop and unexpectedly shoots a customer.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9136,
       "resolved_time_ms": 145000,
       "type": "minor"
     },
@@ -19,18 +26,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "S",
+        "KTP",
+        "T",
+        "AL",
+        "0T",
+        "FTKRF",
+        "ANT",
+        "0",
+        "AMN"
+      ],
       "description": "Luke slowly moves towards a seemingly passed out Daniel, who suddenly bites at him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54766,
       "resolved_time_ms": 3621000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNL",
+        "TLK",
+        "T",
+        "M",
+        "APT",
+        "AT"
+      ],
       "description": "Doctor Braun calls out to Daniel, followed by a cut to Daniel standing right beside his ear and speaking which frightens him.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4041,
       "resolved_time_ms": 4395000,
       "type": "minor"
     },

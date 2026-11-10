@@ -3,18 +3,34 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "A",
+        "RST",
+        "ANT",
+        "AAL",
+        "PRNK",
+        "A",
+        "SM",
+        "LNX"
+      ],
       "description": "Jackson turns his head to reveal some blood.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 469,
       "resolved_time_ms": 439000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "TNNT",
+        "NK",
+        "AKN"
+      ],
       "description": "The boy appears at the back door.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54996,
       "resolved_time_ms": 2230000,
       "type": "minor"
     },
@@ -35,26 +51,55 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KLT",
+        "FKS",
+        "0S",
+        "PT",
+        "A",
+        "XS",
+        "NT",
+        "T"
+      ],
       "description": "The detective walks back into the room and shoots herself.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21704,
       "resolved_time_ms": 4360000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "A0",
+        "M",
+        "MS",
+        "PKR",
+        "AT",
+        "AR",
+        "A",
+        "RNNK",
+        "FRM"
+      ],
       "description": "The detective opens her eyes and there is a loud drum sound.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1503,
       "resolved_time_ms": 5455000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "0",
+        "AN",
+        "A",
+        "RNT",
+        "0S",
+        "FML"
+      ],
       "description": "The handyman slams into the side window of the car.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 122,
       "resolved_time_ms": 5530000,
       "type": "minor"
     }

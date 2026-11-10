@@ -3,74 +3,159 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PRS",
+        "PS",
+        "0S",
+        "A",
+        "N",
+        "0",
+        "PLS",
+        "MST",
+        "SM0NK",
+        "HR",
+        "A",
+        "KN",
+        "FL",
+        "AT"
+      ],
       "description": "A reporter walks down a dark hallway and is hit by a stick held by someone off-screen.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 719,
       "resolved_time_ms": 27000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "T",
+        "A",
+        "NT",
+        "MR",
+        "PK"
+      ],
       "description": "Alison lifts up a can of bug spray to reveal Dale standing behind it watching her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 424,
       "resolved_time_ms": 201000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LPRKTT",
+        "KNTMS",
+        "XT",
+        "HNT",
+        "TRL"
+      ],
       "description": "Chloe puts her hand on Alison’s shoulder.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4958,
       "resolved_time_ms": 210000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "0S",
+        "AS",
+        "KL",
+        "A",
+        "LK",
+        "0S"
+      ],
       "description": "An unseen person appears in camera shot, ambushing the woman hiding behind the tree trunk.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31554,
       "resolved_time_ms": 769000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "AS",
+        "0",
+        "LST",
+        "0NK",
+        "A",
+        "ST"
+      ],
       "description": "Chad taps on the car door and yells out (as a joke) which startles Alison.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11689,
       "resolved_time_ms": 852000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "A",
+        "FKNK",
+        "ATTS",
+        "N",
+        "AN0NK"
+      ],
       "description": "Chloe jumps out in front of the cop car.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8211,
       "resolved_time_ms": 2244000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AAM",
+        "SR",
+        "AAM",
+        "SR",
+        "TKR",
+        "TT",
+        "A",
+        "HRT",
+        "AR",
+        "FLNKS"
+      ],
       "description": "There are several loud gunshots.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 815,
       "resolved_time_ms": 2658000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "A",
+        "PTFL",
+        "T",
+        "FR",
+        "A",
+        "RN",
+        "ASNNT",
+        "AT"
+      ],
       "description": "Chad ambushes Tucker who is attempting to hide behind a tree trunk.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53683,
       "resolved_time_ms": 2887000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "TL",
+        "STP",
+        "AT",
+        "N",
+        "TNNT",
+        "K",
+        "0R"
+      ],
       "description": "Dale looks up and sees Mitch impaled on the tree.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34724,
       "resolved_time_ms": 3321000,
       "type": "minor"
     }

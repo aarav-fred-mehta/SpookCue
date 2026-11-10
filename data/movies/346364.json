@@ -11,18 +11,30 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLL",
+        "KN",
+        "KL",
+        "M"
+      ],
       "description": "There is another minor scare as we see Pennywise’s eyes appear at the drain grill in front of Georgie.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6892,
       "resolved_time_ms": 365000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "AN",
+        "LS",
+        "AT",
+        "JRJ"
+      ],
       "description": "After an intense suspense, Pennywise grabs the arm of Georgie then rip Georgie's right arm with it's monstrous expendable mouth.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30963,
       "resolved_time_ms": 526000,
       "type": "minor"
     },
@@ -35,10 +47,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "SN",
+        "HLP",
+        "AT",
+        "PRNS"
+      ],
       "description": "After a rather intense scene, Mike is almost run over by Henry’s car.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30852,
       "resolved_time_ms": 1221000,
       "type": "minor"
     },
@@ -59,34 +77,66 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AN",
+        "AR0",
+        "AR",
+        "A",
+        "TNK"
+      ],
       "description": "Ben is jumped by Patrick as he leaves the library (this is a very minor jump scare).",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27011,
       "resolved_time_ms": 1725000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "FNT",
+        "AS",
+        "PTRK",
+        "A",
+        "FNT",
+        "AS",
+        "PTRK"
+      ],
       "description": "Patrick enters the sewerage system and uses an aerosol can and lighter flamethrower style as he hunts for Ben, suddenly he sees various dead children standing in front of him.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6775,
       "resolved_time_ms": 2108000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "FNT",
+        "AS",
+        "PTRK",
+        "A",
+        "FNT",
+        "AS",
+        "PTRK"
+      ],
       "description": "Patrick sees a balloon in front of him and it pops to reveal Pennywise standing there.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44775,
       "resolved_time_ms": 2146000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "S",
+        "A",
+        "FLT",
+        "A",
+        "XNJ"
+      ],
       "description": "The hair from the drain suddenly winds itself around Beverly’s wrist.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57888,
       "resolved_time_ms": 3214000,
       "type": "minor"
     },
@@ -99,34 +149,61 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "FLT",
+        "T",
+        "AL",
+        "FLT",
+        "T"
+      ],
       "description": "Bill sees Georgie in the flooded basement, he slowly begins to decay and suddenly Pennywise rushes through the water towards Bill.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6075,
       "resolved_time_ms": 3559000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRN",
+        "AT",
+        "AF",
+        "TRN",
+        "AT",
+        "AF"
+      ],
       "description": "The children are in Bill’s garage looking at various slides on a projector screen that suddenly begins to take on a life of its own. Pennywise appears on the projector screen and the kids panic and attempt to turn the projector off. Suddenly Pennywise is coming out of the projector and into the room with them.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18174,
       "resolved_time_ms": 4431000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "PLNK",
+        "TRKS",
+        "AN",
+        "A"
+      ],
       "description": "In the Neibolt street house  Richie, Bill, and Eddie see Betty begging for help at a doorway when she is suddenly pulled off screen.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54308,
       "resolved_time_ms": 4750000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KNK",
+        "AN",
+        "RX",
+        "A",
+        "KNNT"
+      ],
       "description": "After Richie finds himself locked in the room full of clowns, Richie turns around and a clown doll is standing right behind him and he gets a scare.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17084,
       "resolved_time_ms": 4896000,
       "type": "minor"
     },
@@ -155,42 +232,84 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANTRTSNK",
+        "PNS",
+        "0",
+        "TNSNK",
+        "KLN"
+      ],
       "description": "Beverly notices a music box playing, the music stops and a second later we get a slight jump scare as a toy clown pops out of the box.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9005,
       "resolved_time_ms": 6343000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLT",
+        "KT",
+        "AP",
+        "0R",
+        "AR",
+        "A",
+        "ANSN",
+        "A0",
+        "AT"
+      ],
       "description": "Stan hears someone whispering his name, he shines the torch down the tunnel and sees Pennywise briefly appear at the opening.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56700,
       "resolved_time_ms": 6529000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "KS",
+        "ARS",
+        "STN"
+      ],
       "description": "Stan looks around with a torch and there is a scare when the distorted woman from the painting rushes at Stan.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36874,
       "resolved_time_ms": 6585000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AT",
+        "AT",
+        "M",
+        "KT",
+        "M",
+        "FKNK",
+        "FLXLT"
+      ],
       "description": "Eddie slips into the water in a sewer tunnel and sees several floating corpses.",
       "id": "scare_23",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1593,
       "resolved_time_ms": 6748000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANT",
+        "MR",
+        "0N",
+        "AN0NK",
+        "FR",
+        "A",
+        "T",
+        "P",
+        "HM"
+      ],
       "description": "There is a slight scare when Georgie’s motionless body suddenly starts to shake.",
       "id": "scare_24",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49272,
       "resolved_time_ms": 6992000,
       "type": "minor"
     }

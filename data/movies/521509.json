@@ -3,18 +3,32 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "MRN",
+        "KN",
+        "SKR",
+        "A",
+        "ATTS",
+        "AS"
+      ],
       "description": "A clown doll falls from the ceiling with a loud horn.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5877,
       "resolved_time_ms": 922000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNT",
+        "SKNT",
+        "HT",
+        "STRT",
+        "KTS"
+      ],
       "description": "A skeleton reaches through a break in the wall.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39219,
       "resolved_time_ms": 1948000,
       "type": "minor"
     },
@@ -27,18 +41,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "A",
+        "MTS",
+        "ATTS",
+        "A",
+        "FKNK",
+        "MTS"
+      ],
       "description": "A cartoon clown jumps on the screen right at the camera.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33983,
       "resolved_time_ms": 2137000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AR",
+        "FKNK",
+        "HNTS",
+        "AF",
+        "M"
+      ],
       "description": "A woman starts banging on the car door and screaming.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32098,
       "resolved_time_ms": 2312000,
       "type": "minor"
     }

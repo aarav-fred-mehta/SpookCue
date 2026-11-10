@@ -3,18 +3,33 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "FX",
+        "A",
+        "PLNKT",
+        "FR",
+        "M"
+      ],
       "description": "A figure in red passes by the base of a ladder.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45394,
       "resolved_time_ms": 1851000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "N",
+        "TNNT",
+        "LT",
+        "0M",
+        "AN"
+      ],
       "description": "Lucius suddenly grabs Ivy’s outstretched hand as a creature approaches.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15111,
       "resolved_time_ms": 2023000,
       "type": "minor"
     },

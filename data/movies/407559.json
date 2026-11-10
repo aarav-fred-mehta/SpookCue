@@ -3,26 +3,59 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "MP",
+        "AAL",
+        "PK",
+        "A",
+        "P",
+        "A",
+        "0NK",
+        "A",
+        "S",
+        "SM",
+        "PLKPR"
+      ],
       "description": "The phone is yanked out of Lily’s hand.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3642,
       "resolved_time_ms": 1071000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "TNNT",
+        "MNT",
+        "TLNK",
+        "A",
+        "A",
+        "AS",
+        "A",
+        "LTL",
+        "ART"
+      ],
       "description": "Lily turns around and sees Iris watching her from the doorway.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33822,
       "resolved_time_ms": 1379000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AMS",
+        "N",
+        "AMS",
+        "N",
+        "AMS",
+        "STP"
+      ],
       "description": "Lily catches a glimpse of Polly in the reflection of the television screen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3062,
       "resolved_time_ms": 2652000,
       "type": "minor"
     },

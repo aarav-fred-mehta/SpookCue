@@ -1,0 +1,51 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 82,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Audio jumpscare, when James shines the flashlight on Pinocchio",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 383000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pinocchio rushes towards James",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 522000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "When James looks through the keyhole, Pinocchio appears on the other side",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 586000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Pinocchio appears at the end of the hospital bed",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1907000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Something monster-like in the video starts screaming",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2579000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-09T12:45:35.356Z",
+  "sync_type": "subtitles",
+  "title": "Pinocchio Unstrung",
+  "tmdb_id": 1232569
+}

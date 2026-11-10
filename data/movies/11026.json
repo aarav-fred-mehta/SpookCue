@@ -11,18 +11,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNNT",
+        "AFN",
+        "TRST",
+        "ANJLS",
+        "KN",
+        "A"
+      ],
       "description": "Some birds suddenly fly through the church.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2144,
       "resolved_time_ms": 1193000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "PK",
+        "T",
+        "PT",
+        "ANT",
+        "AAL",
+        "JF",
+        "A",
+        "0",
+        "STPT",
+        "0NK"
+      ],
       "description": "A hyena jumps out from behind a well to grab the monkey.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1419,
       "resolved_time_ms": 1834000,
       "type": "minor"
     },
@@ -43,10 +62,19 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "SMS",
+        "LK",
+        "A",
+        "KNNT",
+        "HLP",
+        "ANN",
+        "ANMR"
+      ],
       "description": "Joseph’s bed suddenly moves.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59707,
       "resolved_time_ms": 2647000,
       "type": "minor"
     },
@@ -107,34 +135,61 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0N",
+        "AS",
+        "PRT",
+        "AN",
+        "0T",
+        "KRFRT"
+      ],
       "description": "A sound effect plays as the shroud around Joseph’s bed is ripped away to reveal a large number of villagers standing around him.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50931,
       "resolved_time_ms": 3957000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "P",
+        "AFRT",
+        "N",
+        "F0R"
+      ],
       "description": "Joseph is suddenly pulled through a hole.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 765,
       "resolved_time_ms": 5533000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "AR",
+        "STRNK0",
+        "TFNT",
+        "M",
+        "KS"
+      ],
       "description": "A body suddenly drops down in front of Father Merrin. [Video].",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53225,
       "resolved_time_ms": 5625000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "AR",
+        "F0FLNS",
+        "TSTR",
+        "0M"
+      ],
       "description": "The lantern turns back on to reveal Sarah’s possessed face.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13345,
       "resolved_time_ms": 5716000,
       "type": "minor"
     }

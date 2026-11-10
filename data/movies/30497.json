@@ -11,10 +11,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SL",
+        "A",
+        "HR",
+        "SM0NK",
+        "STP"
+      ],
       "description": "Leatherface jumps out at Franklin when him and Sally are walking through the trees.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3748,
       "resolved_time_ms": 3133000,
       "type": "minor"
     }

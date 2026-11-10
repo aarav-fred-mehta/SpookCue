@@ -3,58 +3,119 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AAM",
+        "KNT",
+        "AF",
+        "ANTRNK",
+        "AT",
+        "AAF",
+        "KTN",
+        "MSLF",
+        "ANT"
+      ],
       "description": "Flashing red images with static sounds.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23469,
       "resolved_time_ms": 555000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "KS",
+        "HLP",
+        "ALSN"
+      ],
       "description": "The security lockdown alarm sounds.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49538,
       "resolved_time_ms": 1513000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "AAL",
+        "HF",
+        "0S",
+        "KRKT",
+        "AN",
+        "N",
+        "TM"
+      ],
       "description": "The stove ignites.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45944,
       "resolved_time_ms": 2415000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "AAM",
+        "STL",
+        "NT",
+        "RT",
+        "FR",
+        "AT",
+        "T",
+        "P",
+        "AFR"
+      ],
       "description": "Loud, delayed sound from the bathroom faucet.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47546,
       "resolved_time_ms": 2504000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "K",
+        "TL",
+        "0",
+        "A0RS"
+      ],
       "description": "A smiling corpse flashes into view.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6806,
       "resolved_time_ms": 3135000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "T",
+        "SLP",
+        "JF",
+        "AP",
+        "PX",
+        "KNT",
+        "T"
+      ],
       "description": "Another corpse appears.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12519,
       "resolved_time_ms": 3256000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "T",
+        "TK",
+        "KNTRL",
+        "AF",
+        "0",
+        "STXN"
+      ],
       "description": "Sudden closeup hallucination saying \"Hey!\"",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 483,
       "resolved_time_ms": 4281000,
       "type": "minor"
     },
@@ -83,10 +144,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N0NK",
+        "AL",
+        "STNT",
+        "AN",
+        "AR",
+        "A"
+      ],
       "description": "Claire's eyes open.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9955,
       "resolved_time_ms": 5130000,
       "type": "minor"
     }

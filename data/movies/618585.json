@@ -3,18 +3,36 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLT",
+        "A",
+        "SKRT",
+        "0",
+        "XT",
+        "AT",
+        "AF",
+        "M"
+      ],
       "description": "The can rolls and reveals a girl in a gas mask.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3792,
       "resolved_time_ms": 1757000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "ATMPT",
+        "T",
+        "TRNKLT",
+        "AR",
+        "PSXN"
+      ],
       "description": "The girl is suddenly in front of him.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21916,
       "resolved_time_ms": 3398000,
       "type": "minor"
     },

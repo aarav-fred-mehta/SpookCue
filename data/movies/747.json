@@ -3,106 +3,208 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "M",
+        "FRNT",
+        "N",
+        "PR",
+        "TT"
+      ],
       "description": "Nelson startles Shaun as he is looking at the paper.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 188,
       "resolved_time_ms": 513000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "A",
+        "ST",
+        "0S",
+        "ASNNT",
+        "A",
+        "SSL",
+        "K0RNK"
+      ],
       "description": "Noel surprises Shaun.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1248,
       "resolved_time_ms": 687000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "XN",
+        "AFN"
+      ],
       "description": "Shaun walks into Yvonne.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 604,
       "resolved_time_ms": 797000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "A",
+        "XLT",
+        "K",
+        "PK",
+        "ANST"
+      ],
       "description": "Shaun and Ed turn around and see another zombie in the back yard.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5225,
       "resolved_time_ms": 1849000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LSTN",
+        "AR",
+        "KN",
+        "PR",
+        "AR",
+        "KR"
+      ],
       "description": "Pete’s hand reaches out from behind the shower curtain.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1361,
       "resolved_time_ms": 2409000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0T",
+        "FR",
+        "0",
+        "JMPL",
+        "XN"
+      ],
       "description": "Barbara bursts into the lounge startling Shaun.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 421,
       "resolved_time_ms": 2649000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FLP",
+        "AT",
+        "LK",
+        "AT",
+        "A",
+        "KRST"
+      ],
       "description": "A zombie appears behind Phillip.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2542,
       "resolved_time_ms": 2797000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ARS",
+        "H",
+        "KN",
+        "MM",
+        "HH",
+        "TT"
+      ],
       "description": "Shaun looks back at Phillip who has now turned into a zombie.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6437,
       "resolved_time_ms": 3239000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "XN",
+        "AFN"
+      ],
       "description": "Shaun’s group runs into another group of survivors.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 115,
       "resolved_time_ms": 3355000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "0NK",
+        "JL",
+        "ANT",
+        "TRK",
+        "T",
+        "LF",
+        "HR"
+      ],
       "description": "Shaun and a zombie break through the fence.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15390,
       "resolved_time_ms": 3496000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "AL",
+        "JST",
+        "HF",
+        "T",
+        "P",
+        "AKSTR",
+        "KT",
+        "0N",
+        "ANNT",
+        "A"
+      ],
       "description": "A zombie puts his hand on David’s shoulder.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46279,
       "resolved_time_ms": 4271000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "AAM",
+        "NT",
+        "0",
+        "AN",
+        "A",
+        "XLT",
+        "P",
+        "APLJSNK",
+        "T"
+      ],
       "description": "The zombies break the window that David is standing in front of.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12014,
       "resolved_time_ms": 4936000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLR",
+        "T",
+        "HS",
+        "ANTRT",
+        "0",
+        "KM"
+      ],
       "description": "A zombified Ed leans down and attempts to eat Shaun’s arm.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3183,
       "resolved_time_ms": 5626000,
       "type": "minor"
     }

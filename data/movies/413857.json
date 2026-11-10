@@ -11,58 +11,116 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "KN",
+        "HF",
+        "S",
+        "MX",
+        "FN",
+        "TK0R"
+      ],
       "description": "Lowell head butts McKayla.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2953,
       "resolved_time_ms": 342000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "MR",
+        "AN",
+        "ST",
+        "0T",
+        "A",
+        "KLT"
+      ],
       "description": "Syl trips on a rubbish bin.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25905,
       "resolved_time_ms": 1831000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "KT",
+        "T",
+        "P",
+        "KTNK",
+        "M"
+      ],
       "description": "After switching the lights back on, Syl turns around and a masked person is standing behind her.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14504,
       "resolved_time_ms": 1846000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KNT",
+        "AF",
+        "ARKNK",
+        "AN",
+        "SM0NK"
+      ],
       "description": "Syl turns and sees another masked figure in front of her.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3224,
       "resolved_time_ms": 1864000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASPSL",
+        "A0",
+        "A",
+        "NT",
+        "JP",
+        "AN",
+        "0",
+        "LS"
+      ],
       "description": "Sadie clobbers Big Al with a baseball bat as he talks to McKayla.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9457,
       "resolved_time_ms": 2805000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "TRN",
+        "0S",
+        "AF",
+        "ANTM",
+        "ANTM",
+        "A",
+        "ANT",
+        "RL"
+      ],
       "description": "The scene cuts away from Sadie and Jordan back to the gym (as an ominous sound effect plays).",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2222,
       "resolved_time_ms": 2992000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "ATNK",
+        "FR",
+        "A",
+        "FRNT"
+      ],
       "description": "The camera cuts back to Mrs. Kent and Lowell is now standing behind her.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7235,
       "resolved_time_ms": 4860000,
       "type": "minor"
     }

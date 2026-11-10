@@ -3,10 +3,20 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "KT",
+        "T",
+        "P",
+        "MR",
+        "T",
+        "AT",
+        "0N",
+        "0T"
+      ],
       "description": "Accompanied by a sudden scream, the title card cuts in during a conversation.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2708,
       "resolved_time_ms": 339000,
       "type": "minor"
     },

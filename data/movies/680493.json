@@ -3,18 +3,34 @@
   "runtime_minutes": 106,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ASNNT",
+        "AKSPKTNK",
+        "A",
+        "N",
+        "X",
+        "JMS"
+      ],
       "description": "Man under the blanket reaches for him",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2220,
       "resolved_time_ms": 1248000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "N",
+        "HM",
+        "FR",
+        "A",
+        "0R",
+        "ANMR"
+      ],
       "description": "A figure stands in front of the man under the blanket and transforme itself",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58100,
       "resolved_time_ms": 1324000,
       "type": "minor"
     },
@@ -35,26 +51,51 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "N",
+        "A",
+        "KN",
+        "FL",
+        "HR",
+        "XS",
+        "KLS"
+      ],
       "description": "Hallucinations with loud sound",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 850,
       "resolved_time_ms": 1851000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ALT",
+        "A",
+        "T",
+        "0T",
+        "A",
+        "ASL"
+      ],
       "description": "Sword of the figure drags across the floor",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1371,
       "resolved_time_ms": 2363000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TT",
+        "AT",
+        "TTNNT",
+        "A",
+        "JM"
+      ],
       "description": "Figure with sword stands behind him and reaches for him",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33357,
       "resolved_time_ms": 2409000,
       "type": "minor"
     },
@@ -83,18 +124,31 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "KM",
+        "AN",
+        "KK",
+        "0S",
+        "A"
+      ],
       "description": "A figure appears",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19862,
       "resolved_time_ms": 3025000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "KT",
+        "FNT",
+        "HR",
+        "N"
+      ],
       "description": "A figure begins to move and knock",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43956,
       "resolved_time_ms": 3554000,
       "type": "minor"
     },
@@ -107,10 +161,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LT",
+        "M",
+        "HLP",
+        "A",
+        "TNNT",
+        "TNNT"
+      ],
       "description": "She is grabbed by something",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47596,
       "resolved_time_ms": 5018000,
       "type": "minor"
     },

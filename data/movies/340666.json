@@ -3,10 +3,21 @@
   "runtime_minutes": 116,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "KN",
+        "TLK",
+        "T",
+        "HR",
+        "AF",
+        "A",
+        "ANT",
+        "T"
+      ],
       "description": "One of Susan’s employees shows her footage on her smart phone from a baby monitor. While looking at the phone, Susan suddenly sees a frightening image of Ray (the antagonist of the story she is reading) flash briefly on the screen.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1990,
       "resolved_time_ms": 4044000,
       "type": "major"
     }

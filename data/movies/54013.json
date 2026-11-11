@@ -27,18 +27,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "SLFX",
+        "MM",
+        "A",
+        "LF",
+        "A",
+        "FR",
+        "MX"
+      ],
       "description": "Katie jumps out from behind Barbara.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38787,
       "resolved_time_ms": 3485000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "MST",
+        "T",
+        "AKSKTL",
+        "AS",
+        "A",
+        "S"
+      ],
       "description": "A sudden loud noise startles Barbara.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1002,
       "resolved_time_ms": 4315000,
       "type": "minor"
     },
@@ -51,10 +69,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "HF",
+        "A",
+        "KS",
+        "MM",
+        "KN",
+        "A",
+        "HF",
+        "A",
+        "KS"
+      ],
       "description": "Barbara approaches Katie, and she suddenly turns around to reveal her face is distorted.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1977,
       "resolved_time_ms": 5897000,
       "type": "minor"
     }

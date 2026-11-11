@@ -11,10 +11,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRS",
+        "M",
+        "A",
+        "KRTRS"
+      ],
       "description": "Crossbow bolt hits the tree behind the main character",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6500,
       "resolved_time_ms": 2357000,
       "type": "minor"
     },

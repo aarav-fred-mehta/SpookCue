@@ -3,10 +3,19 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "TR",
+        "A",
+        "ANT",
+        "T",
+        "PL",
+        "A",
+        "KM"
+      ],
       "description": "Kerry wipes the steam off the mirror and sees Eric’s reflection.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36910,
       "resolved_time_ms": 708000,
       "type": "minor"
     },
@@ -19,18 +28,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "TKTR",
+        "KNNT",
+        "ARK",
+        "AF",
+        "AR",
+        "0RTNNK",
+        "HR"
+      ],
       "description": "Amanda grabs Lynn and pulls her close.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2730,
       "resolved_time_ms": 2233000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "AMNT",
+        "A",
+        "TNNT",
+        "N",
+        "M",
+        "PT",
+        "A",
+        "N",
+        "A"
+      ],
       "description": "Lynn reaches for a phone but a trap goes off causing her to pull back. Seconds later Amanda appears behind Lynn, startling her once more.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6870,
       "resolved_time_ms": 2977000,
       "type": "minor"
     },

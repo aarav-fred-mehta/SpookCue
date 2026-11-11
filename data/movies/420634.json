@@ -3,10 +3,16 @@
   "runtime_minutes": 84,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALRT",
+        "LF",
+        "A",
+        "T",
+        "P"
+      ],
       "description": "The disfigured woman suddenly attacks the TV host.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16801,
       "resolved_time_ms": 281000,
       "type": "major"
     },
@@ -19,10 +25,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PNKTLT",
+        "AS",
+        "0",
+        "0F",
+        "AF",
+        "TM",
+        "TR"
+      ],
       "description": "After standing motionless for several seconds, the clown suddenly runs after Tara.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12442,
       "resolved_time_ms": 1605000,
       "type": "minor"
     },
@@ -75,10 +89,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TR",
+        "TR",
+        "AR",
+        "ATTS"
+      ],
       "description": "The clown (disguised as Tara), suddenly sits up behind Vicky.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7652,
       "resolved_time_ms": 3424000,
       "type": "minor"
     },
@@ -115,10 +134,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "LTTS",
+        "KT",
+        "AT",
+        "AF",
+        "HR"
+      ],
       "description": "The clown appears through a door and attacks the pest exterminator.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16960,
       "resolved_time_ms": 4293000,
       "type": "minor"
     },
@@ -131,18 +158,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "HF",
+        "A",
+        "LK",
+        "AT",
+        "0",
+        "MN",
+        "AF",
+        "0",
+        "HR"
+      ],
       "description": "There is a loud noise and the lights start to flicker.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7361,
       "resolved_time_ms": 4784000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "RL",
+        "KNK",
+        "T",
+        "LK",
+        "AT",
+        "HR"
+      ],
       "description": "The clown grabs the coroner by the neck.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7857,
       "resolved_time_ms": 4821000,
       "type": "minor"
     }

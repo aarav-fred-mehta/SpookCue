@@ -11,18 +11,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "ATFR",
+        "AT",
+        "AS",
+        "0T",
+        "MT",
+        "HM",
+        "TT",
+        "AS",
+        "TFNTL",
+        "KN"
+      ],
       "description": "Todd’s dead body twitches.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6366,
       "resolved_time_ms": 2603000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "A",
+        "KN",
+        "JST",
+        "TRP",
+        "FKNK",
+        "TT"
+      ],
       "description": "Terry is hit by a bus. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4400,
       "resolved_time_ms": 2961000,
       "type": "major"
     },

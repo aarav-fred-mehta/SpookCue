@@ -3,50 +3,103 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "TRNK",
+        "T",
+        "KL",
+        "M",
+        "0",
+        "AR",
+        "KRS"
+      ],
       "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1070,
       "resolved_time_ms": 51000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "TL",
+        "M",
+        "AT",
+        "HPNT"
+      ],
       "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12157,
       "resolved_time_ms": 69000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "TL",
+        "M",
+        "AT",
+        "HPNT"
+      ],
       "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41157,
       "resolved_time_ms": 98000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "TL",
+        "M",
+        "AT",
+        "HPNT"
+      ],
       "description": "Opening sequence with several rapid-fire jump scares like Leatherface suddenly appearing with high pitched sound effects.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54157,
       "resolved_time_ms": 111000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AT",
+        "0TTS",
+        "A",
+        "RP",
+        "AF",
+        "TNNT",
+        "AR",
+        "APT",
+        "AT",
+        "HN",
+        "ATTS",
+        "AN",
+        "AR",
+        "KRTT",
+        "KRT"
+      ],
       "description": "Kenny hits someone as he drives off from the gas station.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 617,
       "resolved_time_ms": 1010000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "NT",
+        "SM",
+        "KKNK"
+      ],
       "description": "Darryl turns around and is attacked by Leatherface.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8123,
       "resolved_time_ms": 1896000,
       "type": "major"
     },
@@ -59,10 +112,18 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TLT",
+        "A",
+        "AT",
+        "AS",
+        "FKT",
+        "AP"
+      ],
       "description": "Heather closes the closet door and sees a dead woman in the mirror.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20686,
       "resolved_time_ms": 2375000,
       "type": "minor"
     },
@@ -75,34 +136,65 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LKS",
+        "LK",
+        "SM",
+        "KNT",
+        "AF",
+        "KRS",
+        "KTKMP"
+      ],
       "description": "A rat scuttles away in a neighboring room startling the officer.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7441,
       "resolved_time_ms": 3695000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AN",
+        "0R",
+        "ATTS",
+        "AN",
+        "0",
+        "FRSR"
+      ],
       "description": "The officer opens a chest freezer and a screaming Nikki is hiding inside.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2358,
       "resolved_time_ms": 3857000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AN",
+        "0R",
+        "ATTS",
+        "AN",
+        "0",
+        "FRSR"
+      ],
       "description": "The officer is attacked by Leatherface.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29358,
       "resolved_time_ms": 3884000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "A",
+        "N",
+        "AR",
+        "HH",
+        "HTT"
+      ],
       "description": "Heather pokes her knife through one of the holes in the barrier startling Carl.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12385,
       "resolved_time_ms": 4471000,
       "type": "minor"
     },

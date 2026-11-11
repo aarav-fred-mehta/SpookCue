@@ -11,10 +11,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "M",
+        "TSR",
+        "TSR",
+        "PK",
+        "MN"
+      ],
       "description": "Tricia suddenly has a vision of her husband as she closes the door.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4601,
       "resolved_time_ms": 1114000,
       "type": "minor"
     },
@@ -27,10 +35,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "A",
+        "T",
+        "SN",
+        "0",
+        "LST",
+        "LN",
+        "AF",
+        "0",
+        "PTXN"
+      ],
       "description": "Tricia sees her husband standing behind the lawyer.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16827,
       "resolved_time_ms": 1640000,
       "type": "minor"
     },
@@ -43,10 +63,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AN",
+        "AN",
+        "AF",
+        "0",
+        "ALS",
+        "AN",
+        "0R"
+      ],
       "description": "There is a strange chirping noise in the room next to Daniel and Callie, seconds later a large insect like creature crawls past.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22272,
       "resolved_time_ms": 3200000,
       "type": "minor"
     },

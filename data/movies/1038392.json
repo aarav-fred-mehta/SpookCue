@@ -3,18 +3,30 @@
   "runtime_minutes": 136,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "NM",
+        "AS",
+        "LRN",
+        "ARN"
+      ],
       "description": "A noise sounded behind the woman",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40512,
       "resolved_time_ms": 298000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "NM",
+        "AS",
+        "LRN",
+        "ARN"
+      ],
       "description": "The mirror breaks and we see the entity in the mirror.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56512,
       "resolved_time_ms": 314000,
       "type": "minor"
     },
@@ -27,42 +39,85 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LRN",
+        "LRN",
+        "AT",
+        "LRN",
+        "AT",
+        "HPNT"
+      ],
       "description": "Some scenes appear",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3650,
       "resolved_time_ms": 330000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "N",
+        "PLS",
+        "A",
+        "NT",
+        "T",
+        "TLK",
+        "T",
+        "M",
+        "AF"
+      ],
       "description": "A hand appears at the top of the room",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 730,
       "resolved_time_ms": 456000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KS",
+        "KM",
+        "AN",
+        "LTTS",
+        "HF",
+        "A",
+        "PT",
+        "AF",
+        "PS"
+      ],
       "description": "Lamp falls from ceiling and hits Heather",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2356,
       "resolved_time_ms": 1081000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "H0R",
+        "M",
+        "KT"
+      ],
       "description": "Lamp falls from ceiling and hits Heather",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 394,
       "resolved_time_ms": 1083000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "KT",
+        "0T",
+        "PT",
+        "A0",
+        "XKN"
+      ],
       "description": "Hand on Heathers shoulder",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8107,
       "resolved_time_ms": 1378000,
       "type": "minor"
     },
@@ -83,34 +138,63 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "TTNNT",
+        "S",
+        "0T",
+        "N"
+      ],
       "description": "The telephone receiver is snatched from her hand.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 816,
       "resolved_time_ms": 1578000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "TTNNT",
+        "S",
+        "0T",
+        "N"
+      ],
       "description": "The telephone receiver is snatched from her hand.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2816,
       "resolved_time_ms": 1580000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "TT",
+        "A",
+        "KT",
+        "AN",
+        "HR",
+        "SS"
+      ],
       "description": "Figure appears behind the toy",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31472,
       "resolved_time_ms": 1703000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "HF",
+        "A",
+        "PR0T",
+        "KMNK",
+        "AP",
+        "SN"
+      ],
       "description": "Dawn spits blood",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14562,
       "resolved_time_ms": 2013000,
       "type": "minor"
     },
@@ -139,18 +223,28 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TN",
+        "0R",
+        "PRNT"
+      ],
       "description": "The lights go out and figure is in the dress",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27030,
       "resolved_time_ms": 3765000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "FXR",
+        "FNT",
+        "AT"
+      ],
       "description": "Heather's reflection attacks her through the mirror.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32487,
       "resolved_time_ms": 3814000,
       "type": "minor"
     },
@@ -235,130 +329,272 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LRN",
+        "ST",
+        "TN",
+        "0R",
+        "KP",
+        "AFRPT",
+        "TN",
+        "0R"
+      ],
       "description": "The woman appears as screamer followed by a loud sound",
       "id": "scare_30",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30082,
       "resolved_time_ms": 6425000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LRN",
+        "ST",
+        "TN",
+        "0R",
+        "KP",
+        "AFRPT",
+        "TN",
+        "0R"
+      ],
       "description": "A woman appears on the road",
       "id": "scare_31",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33082,
       "resolved_time_ms": 6428000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LRN",
+        "ST",
+        "TN",
+        "0R",
+        "KP",
+        "AFRPT",
+        "TN",
+        "0R"
+      ],
       "description": "The woman appears as screamer followed by a loud sound",
       "id": "scare_32",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34082,
       "resolved_time_ms": 6429000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "LTL",
+        "JT",
+        "T",
+        "KM",
+        "PK",
+        "T",
+        "AS"
+      ],
       "description": "The girl runs towards the mother",
       "id": "scare_33",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4000,
       "resolved_time_ms": 6564000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "LTL",
+        "JT",
+        "T",
+        "KM",
+        "PK",
+        "T",
+        "AS"
+      ],
       "description": "The girl runs towards the mother",
       "id": "scare_34",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8000,
       "resolved_time_ms": 6568000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "LTL",
+        "JT",
+        "T",
+        "KM",
+        "PK",
+        "T",
+        "AS"
+      ],
       "description": "The girl moves the dog with her mind and crushes it against the wall",
       "id": "scare_35",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50000,
       "resolved_time_ms": 6610000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "A",
+        "KN",
+        "HR",
+        "M",
+        "JT",
+        "JT"
+      ],
       "description": "The daughter suddenly puts her hands on the father",
       "id": "scare_36",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8903,
       "resolved_time_ms": 6666000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0R",
+        "AAM",
+        "KNK",
+        "RNT",
+        "0",
+        "PK"
+      ],
       "description": "An entity was behind the mother when she turned around.",
       "id": "scare_37",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41403,
       "resolved_time_ms": 6740000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0R",
+        "AAM",
+        "KNK",
+        "RNT",
+        "0",
+        "PK"
+      ],
       "description": "An entity was behind the mother when she turned around",
       "id": "scare_38",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46403,
       "resolved_time_ms": 6745000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0R",
+        "AAM",
+        "KNK",
+        "RNT",
+        "0",
+        "PK"
+      ],
       "description": "The entity gets stabbed in the head by an axe while hearing a loud noise.",
       "id": "scare_39",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51403,
       "resolved_time_ms": 6750000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "TNNT",
+        "TK",
+        "HR",
+        "PLS",
+        "KT"
+      ],
       "description": "An entity is visible behind",
       "id": "scare_40",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10843,
       "resolved_time_ms": 6978000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0NK",
+        "A",
+        "0NK",
+        "A",
+        "KT",
+        "0NK",
+        "A"
+      ],
       "description": "The mirror starts to spin",
       "id": "scare_41",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30218,
       "resolved_time_ms": 7039000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "P",
+        "0",
+        "PR",
+        "AF",
+        "AR",
+        "LRT",
+        "JSS",
+        "KRST"
+      ],
       "description": "The mirror stops spinning",
       "id": "scare_42",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8447,
       "resolved_time_ms": 7080000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "P",
+        "0",
+        "PR",
+        "AF",
+        "AR",
+        "LRT",
+        "JSS",
+        "KRST"
+      ],
       "description": "The mirror falls",
       "id": "scare_43",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15447,
       "resolved_time_ms": 7087000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "XT",
+        "AT",
+        "AT",
+        "JST",
+        "XT",
+        "AT",
+        "AT"
+      ],
       "description": "The mirror breaks",
       "id": "scare_44",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54990,
       "resolved_time_ms": 7208000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "XT",
+        "AT",
+        "AT",
+        "JST",
+        "XT",
+        "AT",
+        "AT"
+      ],
       "description": "The mirror breaks",
       "id": "scare_45",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57990,
       "resolved_time_ms": 7211000,
       "type": "minor"
     },

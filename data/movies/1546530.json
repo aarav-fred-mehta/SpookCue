@@ -27,18 +27,30 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRX",
+        "FT",
+        "FRX",
+        "A",
+        "A"
+      ],
       "description": "A picture falls off the wall in the bedroom",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7219,
       "resolved_time_ms": 1874000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PST",
+        "FRNT",
+        "AN",
+        "0",
+        "ARLT"
+      ],
       "description": "A bottle of wine smashes",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35122,
       "resolved_time_ms": 2124000,
       "type": "minor"
     },
@@ -67,42 +79,80 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "0TTS",
+        "PRPPL",
+        "AR",
+        "X",
+        "AS"
+      ],
       "description": "There are a few bangs and the closet opens",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12324,
       "resolved_time_ms": 4610000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "0TTS",
+        "PRPPL",
+        "AR",
+        "X",
+        "AS"
+      ],
       "description": "Something runs up to the feeder and turns off the camera",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32324,
       "resolved_time_ms": 4630000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "KLT",
+        "A",
+        "PLS",
+        "KLT",
+        "A",
+        "TL",
+        "M",
+        "A",
+        "LTL",
+        "MR",
+        "SR"
+      ],
       "description": "Nug mews quietly in the background",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3395,
       "resolved_time_ms": 5156000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANKL",
+        "PNKL",
+        "S",
+        "HR"
+      ],
       "description": "Someone gets dragged under the bed",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9694,
       "resolved_time_ms": 5196000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "M",
+        "HFNK",
+        "AN",
+        "AMRJNS"
+      ],
       "description": "Someone sits up in the background",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2134,
       "resolved_time_ms": 5666000,
       "type": "minor"
     }

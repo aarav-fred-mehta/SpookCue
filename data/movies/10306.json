@@ -3,10 +3,19 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AF",
+        "A",
+        "TLK",
+        "APT",
+        "0NKS",
+        "0",
+        "HPN"
+      ],
       "description": "A zombie hand suddenly bursts out of the table.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3439,
       "resolved_time_ms": 1440000,
       "type": "minor"
     },
@@ -19,42 +28,87 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "LTL",
+        "PST",
+        "FRM",
+        "0",
+        "AST",
+        "PLNK",
+        "HR",
+        "LTL",
+        "TRKS"
+      ],
       "description": "The phone makes a loud screeching noise, startling Dr. Seaton.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10083,
       "resolved_time_ms": 2262000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "A",
+        "KRL",
+        "AN",
+        "LT",
+        "AS",
+        "ANT",
+        "0",
+        "LT"
+      ],
       "description": "Zombified hands suddenly appear out of the puddle and drag Carol Anne down.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25490,
       "resolved_time_ms": 2829000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MT",
+        "PS",
+        "SM0NK",
+        "PSTS",
+        "AT",
+        "XP",
+        "0S",
+        "AR"
+      ],
       "description": "There is a sudden burst of light behind Bruce.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38945,
       "resolved_time_ms": 3055000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RMMPR",
+        "AT",
+        "TNJN",
+        "ST"
+      ],
       "description": "The animal meat hanging near the walls suddenly shriek and begin to move.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30293,
       "resolved_time_ms": 4366000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "SNTNK",
+        "HR",
+        "HM",
+        "T",
+        "M",
+        "SSTR"
+      ],
       "description": "Reverend Kane appears in the elevator mirror behind Bruce and Patricia.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9770,
       "resolved_time_ms": 4827000,
       "type": "minor"
     },
@@ -67,10 +121,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "HF",
+        "0S",
+        "T",
+        "PRTKT",
+        "M"
+      ],
       "description": "Patricia’s reflection quickly turns around to reveal it has a zombified face.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18446,
       "resolved_time_ms": 5410000,
       "type": "minor"
     }

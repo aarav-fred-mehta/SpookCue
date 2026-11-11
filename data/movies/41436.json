@@ -19,10 +19,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HNTR",
+        "KM",
+        "HR",
+        "KM",
+        "HR"
+      ],
       "description": "A pan drops in the kitchen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48180,
       "resolved_time_ms": 1995000,
       "type": "minor"
     },
@@ -35,34 +41,66 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "S",
+        "AN0NK",
+        "A",
+        "TNNT",
+        "ANTRSTNT"
+      ],
       "description": "The pool cleaning machine jumps out of the water.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8511,
       "resolved_time_ms": 2583000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "KT",
+        "T",
+        "ASTT",
+        "P",
+        "KN",
+        "A",
+        "S",
+        "P",
+        "P"
+      ],
       "description": "Ali’s boyfriend suddenly knocks on the sliding glass door.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19154,
       "resolved_time_ms": 2785000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "SKS",
+        "MLMTR",
+        "LMNT",
+        "FLR"
+      ],
       "description": "A shadow passes over Ali and she suddenly jolts awake.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49340,
       "resolved_time_ms": 3004000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0",
+        "T",
+        "HF",
+        "SPRP",
+        "KL"
+      ],
       "description": "There is a loud bang on the front door.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25320,
       "resolved_time_ms": 3042000,
       "type": "minor"
     },
@@ -83,34 +121,70 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "PLS",
+        "PLS",
+        "P",
+        "KRFL",
+        "PLS"
+      ],
       "description": "Kristi lunges at Daniel as he approaches her.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11476,
       "resolved_time_ms": 4999000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "ST",
+        "PHNT",
+        "M",
+        "JST",
+        "ST",
+        "RT",
+        "0R"
+      ],
       "description": "A pan drops on the kitchen bench.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14841,
       "resolved_time_ms": 5054000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "A",
+        "LTL",
+        "PT",
+        "AR",
+        "A"
+      ],
       "description": "As Daniel moves the camera around the room, Kristi suddenly appears up close and attacks him. [Video].",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21674,
       "resolved_time_ms": 5186000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FL",
+        "AT",
+        "0R",
+        "KRTR",
+        "P",
+        "0R",
+        "ANT",
+        "A",
+        "KRTR",
+        "ANX",
+        "NTRL"
+      ],
       "description": "Katie throws Kristi into the camera.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13798,
       "resolved_time_ms": 5471000,
       "type": "minor"
     }

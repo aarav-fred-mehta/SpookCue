@@ -19,10 +19,17 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "FNT",
+        "0",
+        "LT",
+        "AJTTS",
+        "AT"
+      ],
       "description": "A man appears at a window startling Dr. Ember.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4543,
       "resolved_time_ms": 1241000,
       "type": "minor"
     },
@@ -35,42 +42,89 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKS",
+        "AN",
+        "0",
+        "AMPRTNT",
+        "XT"
+      ],
       "description": "Dr. Ember suddenly pushes Dan off a chair.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5371,
       "resolved_time_ms": 2515000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "AT",
+        "P",
+        "LK",
+        "PFR",
+        "AT",
+        "KN",
+        "P",
+        "LK",
+        "PFR",
+        "PRMS"
+      ],
       "description": "Cameron suddenly grabs Dan’s arm and breaks it.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7177,
       "resolved_time_ms": 2811000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "0TTS",
+        "KT",
+        "MN",
+        "T"
+      ],
       "description": "Dan begins talking from behind Dr. Ember.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5894,
       "resolved_time_ms": 3994000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PKS",
+        "A",
+        "ANT",
+        "A",
+        "T",
+        "HRT",
+        "S0"
+      ],
       "description": "Dr. Ember goes through a door and is attacked by a demon.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8215,
       "resolved_time_ms": 4419000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "HR",
+        "M",
+        "PT",
+        "KN",
+        "A",
+        "HR",
+        "M",
+        "JST",
+        "KM",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "A high pitched sound plays as Dr. Ember starts convulsing.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57354,
       "resolved_time_ms": 4587000,
       "type": "minor"
     }

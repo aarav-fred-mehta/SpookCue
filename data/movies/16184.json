@@ -3,10 +3,18 @@
   "runtime_minutes": 113,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ALMST",
+        "FRKT",
+        "0",
+        "MST",
+        "AMPRTNT",
+        "0NK"
+      ],
       "description": "The camera slowly zooms in on a silhouette on the window, and then quickly cuts to the dead guest’s disfigured face.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54884,
       "resolved_time_ms": 2197000,
       "type": "minor"
     },
@@ -19,18 +27,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0R",
+        "TKNK",
+        "0",
+        "AL",
+        "LK",
+        "AR"
+      ],
       "description": "There is a sudden flashback to screaming faces.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7390,
       "resolved_time_ms": 3437000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "ALT",
+        "PRPPL",
+        "AT",
+        "PSN",
+        "AF",
+        "A",
+        "KKT",
+        "AT"
+      ],
       "description": "The front door suddenly opens during a quiet scene and a bunch of leaves fly inside.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10424,
       "resolved_time_ms": 4574000,
       "type": "minor"
     }

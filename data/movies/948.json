@@ -3,82 +3,177 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLTNNT",
+        "A",
+        "K",
+        "AN",
+        "AP",
+        "T",
+        "0",
+        "HSPTL",
+        "ANS"
+      ],
       "description": "Mike Myers climbs onto a car roof.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12458,
       "resolved_time_ms": 599000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLTNNT",
+        "A",
+        "K",
+        "AN",
+        "AP",
+        "T",
+        "0",
+        "HSPTL",
+        "ANS"
+      ],
       "description": "A hand reaches through a window to grab lady.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21458,
       "resolved_time_ms": 608000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLTNNT",
+        "A",
+        "K",
+        "AN",
+        "AP",
+        "T",
+        "0",
+        "HSPTL",
+        "ANS"
+      ],
       "description": "A hand smashes through car window.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44458,
       "resolved_time_ms": 631000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "A",
+        "SPK",
+        "HS",
+        "JST",
+        "AX"
+      ],
       "description": "A silhouette watches Laurie walk away from the house.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12541,
       "resolved_time_ms": 827000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "PJMN",
+        "0",
+        "PJMN",
+        "0",
+        "PJMN"
+      ],
       "description": "Tommy runs into Myers while at school.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8959,
       "resolved_time_ms": 1038000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "HM",
+        "ST",
+        "HM",
+        "S",
+        "A",
+        "LTR"
+      ],
       "description": "Laurie runs into Sheriff Brackett.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18291,
       "resolved_time_ms": 1509000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STNTNK",
+        "AN",
+        "0",
+        "LN",
+        "H",
+        "KLT",
+        "HF",
+        "SN",
+        "ANST"
+      ],
       "description": "A window smashes.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2791,
       "resolved_time_ms": 2298000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "AF",
+        "A",
+        "KN",
+        "FKS",
+        "AT",
+        "S",
+        "A",
+        "KN",
+        "AX",
+        "TF",
+        "A0",
+        "TM",
+        "TL",
+        "ALT",
+        "A",
+        "LK",
+        "0T"
+      ],
       "description": "Myers steps out from a car.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29416,
       "resolved_time_ms": 3050000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "A",
+        "KN",
+        "N",
+        "LNKR",
+        "STL"
+      ],
       "description": "Myers appears behind Annie in the car.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22124,
       "resolved_time_ms": 3215000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "TK",
+        "AT",
+        "AF",
+        "0",
+        "HK"
+      ],
       "description": "A shadow crosses the bed while Lynda and Bob are in it.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22333,
       "resolved_time_ms": 3793000,
       "type": "minor"
     },
@@ -99,10 +194,20 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SKRT",
+        "T",
+        "AS",
+        "A",
+        "S",
+        "0",
+        "PJMN",
+        "HR"
+      ],
       "description": "Myers pops up from behind a sofa.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40124,
       "resolved_time_ms": 4806000,
       "type": "minor"
     }

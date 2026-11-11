@@ -19,10 +19,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "S",
+        "AN0NK",
+        "AR",
+        "HR",
+        "AN0NK"
+      ],
       "description": "Something falls from the ceiling towards Alison.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25845,
       "resolved_time_ms": 3601000,
       "type": "minor"
     },

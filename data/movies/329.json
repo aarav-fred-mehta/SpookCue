@@ -3,50 +3,98 @@
   "runtime_minutes": 127,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LKT",
+        "LTNK",
+        "TM",
+        "STP",
+        "A"
+      ],
       "description": "A worker is suddenly pulled into the crate.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29652,
       "resolved_time_ms": 169000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "ATTS",
+        "0",
+        "PR",
+        "TRNK",
+        "T",
+        "KM",
+        "PK",
+        "AN"
+      ],
       "description": "The remains of the goat drop on the roof of the truck after Lex asks: “Where’s the goat?”.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24663,
       "resolved_time_ms": 3778000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "0",
+        "AN",
+        "A",
+        "TRNT",
+        "AT"
+      ],
       "description": "The Tyrannosaurus breaks through the roof of the truck.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1125,
       "resolved_time_ms": 3959000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "RN",
+        "A",
+        "AFR",
+        "AN",
+        "A",
+        "KM",
+        "PK",
+        "TN"
+      ],
       "description": "The Dilophosaur’s frill opens and it screeches at Dennis.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18935,
       "resolved_time_ms": 4416000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "AR",
+        "PK",
+        "AN",
+        "PSNS"
+      ],
       "description": "After Ellie says “Mr. Hammond I think we’re back in business”, a Velociraptor bursts through the wall behind her.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2396,
       "resolved_time_ms": 6231000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "AR",
+        "PK",
+        "AN",
+        "PSNS"
+      ],
       "description": "The Velociraptor sudden lunges at Ellie from behind the fence after she finds Mr. Arnold’s arm.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27396,
       "resolved_time_ms": 6256000,
       "type": "minor"
     },
@@ -59,18 +107,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KN",
+        "KT",
+        "0R",
+        "0",
+        "KLS"
+      ],
       "description": "The Velociraptor pokes its head through the air duct that Lex is crawling through.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38869,
       "resolved_time_ms": 6919000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KN",
+        "KT",
+        "0R",
+        "0",
+        "KLS"
+      ],
       "description": "The Velociraptor jumps at Lex as she is pulled back through the air duct (this is particularly effective in the 3D version).",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51869,
       "resolved_time_ms": 6932000,
       "type": "minor"
     }

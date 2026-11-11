@@ -3,10 +3,15 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "STP",
+        "KLNK",
+        "M"
+      ],
       "description": "A dark figure darts by the wind chimes, accompanied by a loud noise",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8971,
       "resolved_time_ms": 137000,
       "type": "minor"
     },
@@ -19,10 +24,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "KT",
+        "KL",
+        "AF",
+        "A",
+        "NT",
+        "AN0NK",
+        "ALS"
+      ],
       "description": "Sprinkles loudly turn on during a tense moment",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32464,
       "resolved_time_ms": 1680000,
       "type": "minor"
     },
@@ -51,10 +65,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "KT",
+        "A",
+        "PTR",
+        "KT",
+        "0S",
+        "AT"
+      ],
       "description": "A jarring scene change, accompanied by a loud noise",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32961,
       "resolved_time_ms": 2560000,
       "type": "minor"
     },
@@ -67,10 +89,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "ST",
+        "RT",
+        "HR",
+        "ST",
+        "HR"
+      ],
       "description": "Jill sees The Stranger watching her",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19373,
       "resolved_time_ms": 4183000,
       "type": "minor"
     },
@@ -99,10 +128,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "K",
+        "A",
+        "KT",
+        "K",
+        "A",
+        "KT",
+        "K"
+      ],
       "description": "The Stranger appears, accompanied by a loud noise",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3022,
       "resolved_time_ms": 4621000,
       "type": "minor"
     },

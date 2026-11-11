@@ -19,34 +19,66 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "0",
+        "HPS",
+        "0T",
+        "AFR",
+        "FNTS",
+        "0",
+        "MSK",
+        "NKST"
+      ],
       "description": "The Mazzik jumps out at Yakov from the darkness.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38902,
       "resolved_time_ms": 2733000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MRS",
+        "LTFK",
+        "MRS",
+        "LTFK"
+      ],
       "description": "A loud shriek is heard over the phone.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14814,
       "resolved_time_ms": 3070000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "A",
+        "TF",
+        "K",
+        "HR",
+        "0",
+        "A",
+        "H",
+        "KMS",
+        "AF"
+      ],
       "description": "Yakov sees the Mazzik standing at the top of the stairs.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2493,
       "resolved_time_ms": 3436000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "AXT",
+        "HM",
+        "T"
+      ],
       "description": "Sarah is grabbed from behind.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26015,
       "resolved_time_ms": 3765000,
       "type": "minor"
     },

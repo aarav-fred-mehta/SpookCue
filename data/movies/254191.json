@@ -19,10 +19,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "PL",
+        "KRTR",
+        "XRKS"
+      ],
       "description": "The alien creature twitches on the bed.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1303,
       "resolved_time_ms": 4603000,
       "type": "minor"
     }

@@ -3,18 +3,34 @@
   "runtime_minutes": 81,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "XT",
+        "M",
+        "KT",
+        "AR",
+        "ARS"
+      ],
       "description": "The ice cream truck quickly drives in from the side and runs over a cop.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9316,
       "resolved_time_ms": 360000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SM",
+        "AF",
+        "HS",
+        "ASSTNTS",
+        "N",
+        "PTS",
+        "N",
+        "AFTNS"
+      ],
       "description": "There is a sudden loud shriek and the woman on the bed is flung to the side.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50202,
       "resolved_time_ms": 724000,
       "type": "minor"
     },
@@ -35,42 +51,79 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "TT",
+        "XT",
+        "XT",
+        "XT"
+      ],
       "description": "The cameraman suddenly screams as a bone cracking sound is heard, followed by him turning back to the woman who rips his arm out.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5208,
       "resolved_time_ms": 3467000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "0",
+        "FK",
+        "AS",
+        "KS",
+        "MN",
+        "KT",
+        "KNK"
+      ],
       "description": "The camera suddenly shatters as the cameraman is stabbed.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14518,
       "resolved_time_ms": 3583000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "A",
+        "SPST",
+        "T"
+      ],
       "description": "A cloud of dust shoots out of the sewer gate as a growl is heard.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11083,
       "resolved_time_ms": 3765000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "AR",
+        "A",
+        "FKNK",
+        "SRS",
+        "LTTS",
+        "K"
+      ],
       "description": "While the camera is lying on the ground, a cloud of dust shoots into screen from the side after a few seconds.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23302,
       "resolved_time_ms": 3934000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SRS",
+        "LTL",
+        "MS"
+      ],
       "description": "The ice cream truck suddenly begins blasting music which startles Kev.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 917,
       "resolved_time_ms": 4380000,
       "type": "minor"
     }

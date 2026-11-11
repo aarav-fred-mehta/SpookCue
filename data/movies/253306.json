@@ -3,26 +3,56 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "ANT",
+        "A",
+        "F",
+        "MNTS",
+        "PFR",
+        "A",
+        "KM",
+        "AN"
+      ],
       "description": "A car suddenly crashes into the back of Kylie’s car.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14622,
       "resolved_time_ms": 260000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "ANT",
+        "A",
+        "F",
+        "MNTS",
+        "PFR",
+        "A",
+        "KM",
+        "AN"
+      ],
       "description": "The driver of the white car walks up to Kylie’s window, accompanied with a loud musical sting.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25622,
       "resolved_time_ms": 271000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AAM",
+        "KN",
+        "P",
+        "LT",
+        "AT",
+        "FR"
+      ],
       "description": "The computer that Kylie’s using, short-circuits.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21740,
       "resolved_time_ms": 783000,
       "type": "minor"
     },
@@ -51,26 +81,50 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KLT",
+        "NFR",
+        "T",
+        "0T",
+        "T",
+        "M",
+        "FRNT"
+      ],
       "description": "While she’s in the shower, Kylie crouches and is then attacked by the possessed teddy bear, accompanied by a loud musical sting.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21957,
       "resolved_time_ms": 1967000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "KRST",
+        "KRM",
+        "AT",
+        "0",
+        "FK"
+      ],
       "description": "Graham startles Kylie while she’s dancing.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 226,
       "resolved_time_ms": 2276000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RT",
+        "AT",
+        "TS",
+        "0T",
+        "AN",
+        "T",
+        "N"
+      ],
       "description": "The lights come back on and a veiled figure suddenly appears besides Dennis, accompanied by a loud musical stinger.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9362,
       "resolved_time_ms": 2717000,
       "type": "minor"
     },
@@ -107,50 +161,112 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "T",
+        "AS",
+        "0",
+        "P0RM",
+        "PLS"
+      ],
       "description": "Kylie turns around and Miriam suddenly appears in front of her.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32178,
       "resolved_time_ms": 5126000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KS",
+        "H",
+        "HT",
+        "T",
+        "K",
+        "AS",
+        "AL"
+      ],
       "description": "A sudden scene transition from a silent scene to Kylie loudly and violently opening a kitchen shelf may startle some viewers.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24526,
       "resolved_time_ms": 5170000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "AAM",
+        "STRTNK",
+        "T",
+        "KT",
+        "M",
+        "HT",
+        "ARNT",
+        "AT"
+      ],
       "description": "Dennis suddenly goes on the attack, accompanied by a musical stinger.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2641,
       "resolved_time_ms": 5267000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "KN",
+        "PRK",
+        "0",
+        "STRP",
+        "ATTL",
+        "SNT",
+        "AT",
+        "A",
+        "TMPR",
+        "SNL"
+      ],
       "description": "Miriam opens a cupboard in the bathroom and Eugene stumbles out of it, prompting both of them to scream. Close-up on Miriam’s face as she’s screaming. Accompanied by a musical stinger.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9937,
       "resolved_time_ms": 5412000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "T",
+        "HLP",
+        "AS",
+        "AJN",
+        "PLS"
+      ],
       "description": "After stabbing Eugene through the wall, Dennis suddenly kicks down the wall.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29829,
       "resolved_time_ms": 5973000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "T",
+        "A",
+        "ANT",
+        "T",
+        "TLK",
+        "T",
+        "0M",
+        "A",
+        "TNNT",
+        "A",
+        "JST",
+        "S"
+      ],
       "description": "Dennis suddenly comes out of frame and punches Kylie unconscious.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2447,
       "resolved_time_ms": 6128000,
       "type": "minor"
     }

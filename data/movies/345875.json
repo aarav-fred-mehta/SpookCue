@@ -3,42 +3,83 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "A",
+        "JRL",
+        "LK",
+        "A",
+        "ANTS",
+        "T",
+        "T",
+        "AT",
+        "0",
+        "LTS"
+      ],
       "description": "A homeless man bangs on the door of the taxi.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20157,
       "resolved_time_ms": 96000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "AR",
+        "RT",
+        "K",
+        "TN",
+        "0T",
+        "KRTR"
+      ],
       "description": "Julia stares at her reflection in the window and it abruptly changes to another image of her looking distressed.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34844,
       "resolved_time_ms": 1059000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "0T",
+        "SML"
+      ],
       "description": "Julia sees a dead rat.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10162,
       "resolved_time_ms": 1149000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TLKN",
+        "T",
+        "0",
+        "ALS",
+        "N",
+        "0T",
+        "AT",
+        "AR",
+        "TN"
+      ],
       "description": "There is a metallic bang from the other side of a door.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14143,
       "resolved_time_ms": 1505000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SM0NK",
+        "0R",
+        "AMPSPL"
+      ],
       "description": "There is a loud noise and visual disturbance from the camera feed that Julia and Dennis are watching.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10313,
       "resolved_time_ms": 1565000,
       "type": "minor"
     },
@@ -59,10 +100,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "AN",
+        "T",
+        "0T"
+      ],
       "description": "Julia walks into a bucket.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18443,
       "resolved_time_ms": 2144000,
       "type": "minor"
     },
@@ -83,26 +130,62 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "RT",
+        "AR",
+        "A",
+        "AR",
+        "T",
+        "NT",
+        "MF",
+        "AAM",
+        "KMNK",
+        "TN"
+      ],
       "description": "A figure moves quickly past a window.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20712,
       "resolved_time_ms": 2678000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "RT",
+        "AR",
+        "A",
+        "AR",
+        "T",
+        "NT",
+        "MF",
+        "AAM",
+        "KMNK",
+        "TN"
+      ],
       "description": "Julia shines the torch on a disfigured person.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32712,
       "resolved_time_ms": 2690000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "RT",
+        "AR",
+        "A",
+        "AR",
+        "T",
+        "NT",
+        "MF",
+        "AAM",
+        "KMNK",
+        "TN"
+      ],
       "description": "A distressed Julia suddenly appears out of the darkness.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52712,
       "resolved_time_ms": 2710000,
       "type": "minor"
     },
@@ -123,18 +206,31 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KPR",
+        "A",
+        "KT",
+        "KT",
+        "AT",
+        "AF",
+        "0R"
+      ],
       "description": "Children can be seen on the security footage peeking at Dennis from behind some pillars.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3255,
       "resolved_time_ms": 3585000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "XTNK",
+        "0S",
+        "TR"
+      ],
       "description": "There is a loud noise and Dennis’s wheelchair begins to shake.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11452,
       "resolved_time_ms": 3729000,
       "type": "minor"
     },
@@ -163,10 +259,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KPR",
+        "KN",
+        "A",
+        "HR",
+        "M",
+        "KPR"
+      ],
       "description": "Julia shines the torch on Jim’s bloodied face.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5373,
       "resolved_time_ms": 4103000,
       "type": "minor"
     }

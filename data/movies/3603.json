@@ -3,26 +3,51 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "PN",
+        "AN",
+        "AKSTNT"
+      ],
       "description": "A sheep carcass comes down from the ceiling.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10211,
       "resolved_time_ms": 301000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "F0R",
+        "FL",
+        "AF",
+        "A",
+        "KLF",
+        "XSNK",
+        "A",
+        "AL",
+        "PLNT",
+        "A"
+      ],
       "description": "The hanging sheep moves.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2420,
       "resolved_time_ms": 2366000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ARK",
+        "ANT",
+        "N",
+        "AT",
+        "HS",
+        "T",
+        "ANT"
+      ],
       "description": "A sheep hybrid comes out of the darkness.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3920,
       "resolved_time_ms": 4575000,
       "type": "minor"
     }

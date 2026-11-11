@@ -11,10 +11,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "A",
+        "K",
+        "TNNT",
+        "A",
+        "AFR",
+        "T",
+        "0T"
+      ],
       "description": "Bobby’s apartment door suddenly shuts off on its own.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1869,
       "resolved_time_ms": 1935000,
       "type": "minor"
     },
@@ -27,10 +36,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "ANT",
+        "A",
+        "T",
+        "P",
+        "KRFL"
+      ],
       "description": "Bobby is suddenly grabbed by bloody hands and dragged away.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56890,
       "resolved_time_ms": 3671000,
       "type": "minor"
     },
@@ -51,26 +68,54 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "KP",
+        "A",
+        "AN",
+        "ANTL",
+        "0T",
+        "TRNS",
+        "AP"
+      ],
       "description": "A box of pins suddenly drops down on a chair.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37704,
       "resolved_time_ms": 4206000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "AMN",
+        "A",
+        "ALKT",
+        "AN",
+        "HR",
+        "T",
+        "A"
+      ],
       "description": "The apartment door shuts off on its own.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4248,
       "resolved_time_ms": 4962000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "AMN",
+        "A",
+        "ALKT",
+        "AN",
+        "HR",
+        "T",
+        "A"
+      ],
       "description": "Carly is grabbed from behind and dragged into the darkness.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47248,
       "resolved_time_ms": 5005000,
       "type": "minor"
     }

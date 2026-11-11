@@ -3,26 +3,46 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "A",
+        "0NK",
+        "A",
+        "AS",
+        "HR",
+        "ARTN",
+        "AR",
+        "SM0NK"
+      ],
       "description": "A teenage boy jumps out with a gas mask on and  growling to scare Sarah.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1191,
       "resolved_time_ms": 521000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MKL",
+        "XK",
+        "0S",
+        "AT"
+      ],
       "description": "The same teenage boy is suddenly stabbed all the way from the back of his head and out through his eye socket, pushing his eyeball out.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5188,
       "resolved_time_ms": 527000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MKL",
+        "XK",
+        "0S",
+        "AT"
+      ],
       "description": "Sarah is suddenly grabbed from behind.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38188,
       "resolved_time_ms": 560000,
       "type": "minor"
     },
@@ -35,82 +55,164 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JS",
+        "AT",
+        "AT",
+        "AR",
+        "A",
+        "TNK"
+      ],
       "description": "‘Frank The Trucker’ opens his cab door, only to see Harry Ward in the cab, immediately followed by Harry Stabbing Frank through the top of his skull.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11565,
       "resolved_time_ms": 1532000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "ARTN",
+        "AS",
+        "TT",
+        "A",
+        "XT",
+        "HM",
+        "MSLF"
+      ],
       "description": "A sudden sound cue and visual of pool balls being hit.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3581,
       "resolved_time_ms": 2051000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "M",
+        "JP",
+        "HR",
+        "LK",
+        "FK",
+        "A",
+        "T"
+      ],
       "description": "Tom turns around and is suddenly attacked by Harry Ward.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14894,
       "resolved_time_ms": 2541000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "M",
+        "JP",
+        "HR",
+        "LK",
+        "FK",
+        "A",
+        "T"
+      ],
       "description": "Tom turns around in the cage only to be face to face with the killer.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42894,
       "resolved_time_ms": 2569000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "M",
+        "AMNK",
+        "AT",
+        "XTS"
+      ],
       "description": "Harry Ward suddenly appears and attacks Ben Foley.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27342,
       "resolved_time_ms": 3440000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "NPT",
+        "HR",
+        "SR"
+      ],
       "description": "The lights in the grocery store abruptly and loudly turn off.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6176,
       "resolved_time_ms": 3752000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "KT",
+        "HLP",
+        "M",
+        "HLP",
+        "M",
+        "HLP",
+        "M"
+      ],
       "description": "The pick-axe goes through the door missing Sarah’s face by a hair.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 551,
       "resolved_time_ms": 3829000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "HLP",
+        "M",
+        "HLP",
+        "M",
+        "SR"
+      ],
       "description": "Harry Ward suddenly appears at the window.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26716,
       "resolved_time_ms": 3941000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AR",
+        "KRTN",
+        "AFR",
+        "ALRT"
+      ],
       "description": "Ex-Sheriff Burke suddenly bangs on the car window.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31425,
       "resolved_time_ms": 4195000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "KM",
+        "AT",
+        "ANTL",
+        "A",
+        "KM",
+        "ANT",
+        "KT",
+        "A",
+        "N",
+        "MTR",
+        "AT"
+      ],
       "description": "The deputy opens the bloodied dryer door and a steaming, grotesque head falls out.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55278,
       "resolved_time_ms": 4366000,
       "type": "minor"
     },
@@ -147,10 +249,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "KT",
+        "A",
+        "AT",
+        "AF",
+        "HR"
+      ],
       "description": "Tom swings a pick-axe at his rescuer, stabbing him through the head.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6434,
       "resolved_time_ms": 5621000,
       "type": "minor"
     }

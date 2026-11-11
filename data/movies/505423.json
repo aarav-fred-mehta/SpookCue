@@ -11,10 +11,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "FKNK",
+        "NTS",
+        "SX"
+      ],
       "description": "(-1:05:14) A hand suddenly comes out of the hole in the decapitated head.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6084,
       "resolved_time_ms": 1832000,
       "type": "minor"
     },
@@ -43,10 +48,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0R",
+        "ANPT",
+        "ALS",
+        "AN",
+        "HR"
+      ],
       "description": "(-30:49) As Will enters the bedroom he sees a mask accompanied by a sound effect.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30667,
       "resolved_time_ms": 3897000,
       "type": "minor"
     }

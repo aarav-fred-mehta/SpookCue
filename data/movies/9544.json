@@ -3,10 +3,18 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "AAM",
+        "KN",
+        "K",
+        "FNX",
+        "M",
+        "RPRT"
+      ],
       "description": "Turnbull looks up and the camera quickly pans to reveal the ghost girl standing outside the car window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58282,
       "resolved_time_ms": 1393000,
       "type": "minor"
     },
@@ -19,26 +27,54 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JN",
+        "AST",
+        "T",
+        "PL",
+        "0R",
+        "AS",
+        "A",
+        "XLT"
+      ],
       "description": "Terry spots a corpse in the water which startles her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49062,
       "resolved_time_ms": 3969000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "SM",
+        "LK",
+        "A",
+        "AR",
+        "AKSPKTNK",
+        "M"
+      ],
       "description": "The corpse’s head suddenly turns towards Terry.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10229,
       "resolved_time_ms": 4017000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TM",
+        "AS",
+        "RNNK",
+        "AT",
+        "LF",
+        "M",
+        "ALN",
+        "AR",
+        "AR",
+        "A"
+      ],
       "description": "While walking through the darkness, the tortured girl suddenly comes into Terry’s view.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37145,
       "resolved_time_ms": 4313000,
       "type": "minor"
     }

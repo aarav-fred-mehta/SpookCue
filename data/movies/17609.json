@@ -3,10 +3,21 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "LK",
+        "HPNTSM",
+        "A",
+        "KNNT",
+        "P",
+        "HPNTST",
+        "ANT",
+        "TNK",
+        "SM0NK"
+      ],
       "description": "The woman hits the man from behind",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1564,
       "resolved_time_ms": 4317000,
       "type": "minor"
     }

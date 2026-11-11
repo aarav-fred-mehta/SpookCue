@@ -19,74 +19,156 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "HR",
+        "M",
+        "A",
+        "ATTS",
+        "FR",
+        "AR",
+        "AN",
+        "KT"
+      ],
       "description": "As the boy backs up he is hit by a bus.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32358,
       "resolved_time_ms": 1301000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LKL",
+        "A",
+        "KNT",
+        "A0",
+        "0",
+        "TPTS",
+        "APRFL"
+      ],
       "description": "A thump comes from within the freezer.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 959,
       "resolved_time_ms": 2670000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "PLS",
+        "LT",
+        "M",
+        "N",
+        "AF",
+        "A",
+        "S",
+        "0",
+        "PKPK"
+      ],
       "description": "Rosentock is stabbed in the hand as he examines the cupboard.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25102,
       "resolved_time_ms": 3135000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "FR",
+        "SKRT",
+        "A",
+        "NT",
+        "T",
+        "S",
+        "0S",
+        "ATTS",
+        "APT",
+        "AR",
+        "SN"
+      ],
       "description": "The demon in the cupboard moves suddenly, moving all of the utensils with it.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 572,
       "resolved_time_ms": 3182000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JN",
+        "AT",
+        "0",
+        "FK",
+        "AR",
+        "A",
+        "0R"
+      ],
       "description": "The creature in the window of the background suddenly appears in the foreground.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19377,
       "resolved_time_ms": 3521000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "TMN",
+        "AT",
+        "RSNTK",
+        "ATTS",
+        "MFNK"
+      ],
       "description": "The tall demon suddenly appears from under the bed.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20021,
       "resolved_time_ms": 3669000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STP",
+        "AT",
+        "AL",
+        "AF",
+        "0S",
+        "AR",
+        "TLNK",
+        "M"
+      ],
       "description": "A demon hand comes out and kills Mora.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29712,
       "resolved_time_ms": 4030000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "PNK",
+        "TRTRT",
+        "FNS"
+      ],
       "description": "As the woman approaches in the background she suddenly hits the car with a distorted appearance, paired with the car starting.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19559,
       "resolved_time_ms": 4465000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALS",
+        "ALS",
+        "A",
+        "NT",
+        "T",
+        "LF",
+        "ALS"
+      ],
       "description": "The undead child appears in the doorway suddenly as Funes is closing the door.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59745,
       "resolved_time_ms": 4778000,
       "type": "major"
     },
@@ -99,10 +181,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "TSNNT",
+        "LK",
+        "LK",
+        "0T",
+        "HS",
+        "FS",
+        "AS",
+        "PRNT"
+      ],
       "description": "The chair suddenly flies towards the camera.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44756,
       "resolved_time_ms": 5127000,
       "type": "minor"
     }

@@ -3,26 +3,59 @@
   "runtime_minutes": 107,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "PN",
+        "KN",
+        "A",
+        "HF",
+        "T",
+        "MK",
+        "SR",
+        "M",
+        "STRS",
+        "NT",
+        "PRNNK",
+        "T",
+        "0",
+        "KRNT"
+      ],
       "description": "Something bangs on the outhouse.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17110,
       "resolved_time_ms": 752000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "KN",
+        "A",
+        "HLP",
+        "A",
+        "MS"
+      ],
       "description": "An old man appears behind Lynn.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1390,
       "resolved_time_ms": 884000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "P",
+        "RT",
+        "0R",
+        "HN"
+      ],
       "description": "Bobby bangs against the caravan.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28630,
       "resolved_time_ms": 1571000,
       "type": "minor"
     },
@@ -43,18 +76,39 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "0T",
+        "HPNT",
+        "A",
+        "KRPT",
+        "M",
+        "KT",
+        "ANT",
+        "A",
+        "RN",
+        "AT",
+        "0",
+        "TR"
+      ],
       "description": "As Doug is leaving the building he is a confronted by a mutant.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12430,
       "resolved_time_ms": 4746000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PM",
+        "PM",
+        "PM",
+        "ARS",
+        "M",
+        "PP"
+      ],
       "description": "One of the mutants jumps through the door.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13950,
       "resolved_time_ms": 5086000,
       "type": "minor"
     },

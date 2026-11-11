@@ -1,0 +1,155 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 93,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy's face distorts when looking over at Bela.",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 658000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy appears under the table.",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 704000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy is seen floating above Bela's bed.",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 985000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy says \"SHH\".",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1064000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Russ speaks as he turns the lights in Bela's room on.",
+      "id": "scare_05",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1310000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Kelvin appears on the stairs.",
+      "id": "scare_06",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1593000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy (disguised as Kelvin) changes her hand to be five fingers after Bela calls out that the hand has six fingers on it.",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1643000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy jumps out from under the balloons",
+      "id": "scare_08",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1750000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy jumps through the curtains.",
+      "id": "scare_09",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1800000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Towels falls out of the bathroom cabinet when Bela opens it.",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2296000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy sticks her hand through Uncle Frank's mouth.",
+      "id": "scare_11",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2435000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Frank is thrown onto a window, smashing it.",
+      "id": "scare_12",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2474000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A kid runs through the play blocks.",
+      "id": "scare_13",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2890000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Hands appear all around Bela in the indoor playground tube.",
+      "id": "scare_14",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2984000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Bela screams as a kid from behind pushes her down the slide into the ball pit.",
+      "id": "scare_15",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3028000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy lunges at Russ from above.",
+      "id": "scare_16",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3038000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Other Mommy appears from under the ball pit balls on Bela's bed.",
+      "id": "scare_17",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3138000,
+      "type": "major"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A man sneezes in a tense moment.",
+      "id": "scare_18",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3665000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-10T15:55:56.833Z",
+  "sync_type": "subtitles",
+  "title": "Other Mommy",
+  "tmdb_id": 1400837
+}

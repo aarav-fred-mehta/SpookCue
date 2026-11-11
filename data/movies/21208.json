@@ -19,10 +19,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "N",
+        "KM",
+        "AN",
+        "A",
+        "HF",
+        "T",
+        "AT",
+        "AT",
+        "AT"
+      ],
       "description": "John sees Esther watching while he and Kate are having sex in the kitchen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58199,
       "resolved_time_ms": 2320000,
       "type": "minor"
     },
@@ -43,18 +55,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "AR",
+        "ARMS",
+        "ANT",
+        "MK",
+        "HR",
+        "STP"
+      ],
       "description": "Sister Abigail bends down to check on Max which reveals Esther standing behind her.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38363,
       "resolved_time_ms": 3345000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRP",
+        "A",
+        "FT",
+        "ANT",
+        "HLP",
+        "M",
+        "KT",
+        "HR",
+        "AF",
+        "0",
+        "RT"
+      ],
       "description": "Esther appears with the hammer as Abigail is crawling away.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53392,
       "resolved_time_ms": 3415000,
       "type": "minor"
     },
@@ -67,10 +99,25 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KLT",
+        "A",
+        "JST",
+        "KL",
+        "M",
+        "AS",
+        "SN",
+        "AS",
+        "A",
+        "N",
+        "AN0NK",
+        "PLS",
+        "0NK",
+        "A"
+      ],
       "description": "Esther jumps out from under the covers to scare John.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52850,
       "resolved_time_ms": 4082000,
       "type": "minor"
     },
@@ -91,10 +138,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "PK",
+        "ATTS",
+        "T",
+        "TNJRS",
+        "K",
+        "PK"
+      ],
       "description": "Esther grabs Kate’s leg as she is crawling out of the hole in the ice.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6040,
       "resolved_time_ms": 6890000,
       "type": "minor"
     }

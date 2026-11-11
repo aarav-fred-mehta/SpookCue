@@ -11,10 +11,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "MMNT",
+        "N",
+        "SMLLS",
+        "HNKR"
+      ],
       "description": "The witch turns around and lets out a cackle.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44921,
       "resolved_time_ms": 4419000,
       "type": "minor"
     },

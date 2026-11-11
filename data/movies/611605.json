@@ -19,10 +19,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "A",
+        "KNNT",
+        "AFN",
+        "S",
+        "AT",
+        "AR",
+        "NT",
+        "KN"
+      ],
       "description": "Sarah fires the gun.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3045,
       "resolved_time_ms": 4884000,
       "type": "minor"
     }

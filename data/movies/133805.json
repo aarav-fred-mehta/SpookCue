@@ -3,18 +3,42 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANT",
+        "T",
+        "TLK",
+        "APT",
+        "AT",
+        "RT",
+        "HR",
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "K",
+        "ANST",
+        "A0",
+        "A"
+      ],
       "description": "A boy bangs on the car window, startling Carrie.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20947,
       "resolved_time_ms": 864000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "AN",
+        "ANX",
+        "KM",
+        "AN"
+      ],
       "description": "A girl smashing into the window in front of Sue may startle some viewers.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38613,
       "resolved_time_ms": 4553000,
       "type": "minor"
     },

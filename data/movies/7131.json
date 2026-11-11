@@ -19,10 +19,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "0S",
+        "AS",
+        "AT",
+        "A",
+        "KT",
+        "AN",
+        "FMPRS",
+        "MT"
+      ],
       "description": "The baby vampire’s head suddenly breaks through the cocoon.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5290,
       "resolved_time_ms": 3384000,
       "type": "minor"
     }

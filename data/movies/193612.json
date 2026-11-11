@@ -11,66 +11,135 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "MN",
+        "0T",
+        "MKS",
+        "0NKS",
+        "HPN"
+      ],
       "description": "A chandelier falls from the ceiling.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3628,
       "resolved_time_ms": 293000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "NM",
+        "AS",
+        "AF",
+        "A",
+        "TNNT",
+        "LK",
+        "HR"
+      ],
       "description": "Something appears to fly off the heater in the corner of the room, causing a woman to scream.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12886,
       "resolved_time_ms": 545000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANNT",
+        "X",
+        "SPK",
+        "T",
+        "AS"
+      ],
       "description": "Joseph bangs on the table during a quiet scene.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3027,
       "resolved_time_ms": 1436000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JN",
+        "AF",
+        "AR",
+        "NT",
+        "KNK",
+        "T",
+        "TR",
+        "A",
+        "KN",
+        "K",
+        "PK",
+        "T",
+        "0",
+        "KMKL"
+      ],
       "description": "There is a high pitched noise and the camera falls to the ground.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1722,
       "resolved_time_ms": 1657000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "AS",
+        "HR",
+        "A",
+        "TTNNT",
+        "A",
+        "TL",
+        "AS"
+      ],
       "description": "A popping champagne cork in a quiet scene may startle some viewers.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18751,
       "resolved_time_ms": 1687000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "NT",
+        "PRN",
+        "KT",
+        "NT"
+      ],
       "description": "There is a loud crash from a neighboring room.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28810,
       "resolved_time_ms": 1763000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LKS",
+        "LK",
+        "XS",
+        "PN",
+        "SKXNK",
+        "SM0NK"
+      ],
       "description": "Jane lunges at Chrissy.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13050,
       "resolved_time_ms": 1966000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "KT",
+        "ANTM",
+        "XS",
+        "NT",
+        "AR",
+        "RSPNSPLT"
+      ],
       "description": "Harry, with a torch shining on his face, appears at the window in an attempt to scare Brian.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2984,
       "resolved_time_ms": 2063000,
       "type": "minor"
     },
@@ -83,74 +152,158 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "NTS",
+        "A",
+        "TKTR",
+        "N",
+        "N",
+        "TKTR"
+      ],
       "description": "Jane bends backwards and a stream of blood comes out of her mouth.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9367,
       "resolved_time_ms": 2729000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "HR",
+        "T",
+        "KM",
+        "AN",
+        "ANT",
+        "PL",
+        "A0",
+        "AS"
+      ],
       "description": "There is a high pitched static sound and the camera wobbles violently.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5170,
       "resolved_time_ms": 2922000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HF",
+        "A",
+        "KT",
+        "SM0NK",
+        "T",
+        "X",
+        "AS"
+      ],
       "description": "An unseen force pulls Joseph into the closet.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18131,
       "resolved_time_ms": 3016000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "ANTS",
+        "T",
+        "KR",
+        "HR",
+        "S",
+        "H",
+        "KN",
+        "HF",
+        "HR"
+      ],
       "description": "Chrissy receives a shock as she walks past some electrical equipment.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5856,
       "resolved_time_ms": 3571000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "0NK",
+        "A",
+        "KN",
+        "SF",
+        "HR"
+      ],
       "description": "The lights spark and the power goes out in the house.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5377,
       "resolved_time_ms": 3674000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "ALTNNT",
+        "P",
+        "MSNK",
+        "ALT",
+        "X"
+      ],
       "description": "There are several loud bangs on the door.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38884,
       "resolved_time_ms": 3743000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "LK",
+        "0",
+        "PNTNK",
+        "AN",
+        "0",
+        "AL",
+        "AN",
+        "JNS",
+        "RM"
+      ],
       "description": "There is a loud crash.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6864,
       "resolved_time_ms": 3814000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "XS",
+        "NT",
+        "HR",
+        "KN",
+        "A",
+        "PLS",
+        "KT",
+        "AT",
+        "AF",
+        "HR"
+      ],
       "description": "Chrissy bumps into Brian.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6796,
       "resolved_time_ms": 3840000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "LF",
+        "0S",
+        "HS"
+      ],
       "description": "Jane’s arm suddenly ignites as she goes to pick up Evie. [Video]",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16686,
       "resolved_time_ms": 3919000,
       "type": "major"
     },
@@ -163,10 +316,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AT",
+        "AF",
+        "HR",
+        "KRS",
+        "AT"
+      ],
       "description": "Chrissy is pulled into the air by an invisible force.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5453,
       "resolved_time_ms": 5058000,
       "type": "minor"
     },
@@ -179,10 +339,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APN",
+        "0",
+        "TR",
+        "JN",
+        "JN",
+        "PLS",
+        "TNNT"
+      ],
       "description": "A demonic face flies out of the flames at the camera.",
       "id": "scare_23",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21888,
       "resolved_time_ms": 5557000,
       "type": "minor"
     }

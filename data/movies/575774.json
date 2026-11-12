@@ -43,18 +43,40 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "PR0",
+        "HLP",
+        "M",
+        "HLP",
+        "M",
+        "A",
+        "KNNT",
+        "SM"
+      ],
       "description": "The lights go off and the man sees a dead person appear in front of him.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32741,
       "resolved_time_ms": 2920000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "PR0",
+        "HLP",
+        "M",
+        "HLP",
+        "M",
+        "A",
+        "KNNT",
+        "SM"
+      ],
       "description": "The girl turns the lights off and several dead appear.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48741,
       "resolved_time_ms": 2936000,
       "type": "minor"
     },

@@ -3,10 +3,19 @@
   "runtime_minutes": 82,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "0",
+        "PLS",
+        "A",
+        "HF",
+        "M",
+        "KN",
+        "TRN"
+      ],
       "description": "The child eater jumps out at the officer Wesley from the corner of the room.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15290,
       "resolved_time_ms": 3094000,
       "type": "minor"
     },
@@ -35,26 +44,44 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RN",
+        "P",
+        "0S",
+        "ANTS",
+        "N"
+      ],
       "description": "Lucas points his flashlight at a corner and the child eater jumps out from behind it.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54760,
       "resolved_time_ms": 3533000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASL",
+        "KM",
+        "AN",
+        "AFR",
+        "XRF",
+        "XRF"
+      ],
       "description": "Lucas turns around and the child eater crawls out from behind a corner in front of him.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54220,
       "resolved_time_ms": 3603000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "M",
+        "RSPNSPLT",
+        "HLN"
+      ],
       "description": "Helen picks up a seemingly dead Ginger’s glass eye, and Ginger grabs her by the arm.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17250,
       "resolved_time_ms": 3674000,
       "type": "minor"
     },

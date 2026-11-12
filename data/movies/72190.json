@@ -3,42 +3,84 @@
   "runtime_minutes": 116,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "PK",
+        "AN",
+        "AR",
+        "KR",
+        "RT",
+        "N"
+      ],
       "description": "A police officer on a motorbike gets hit by a truck.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5204,
       "resolved_time_ms": 425000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "KN",
+        "LT",
+        "M",
+        "AN",
+        "HLT",
+        "AN"
+      ],
       "description": "There is a loud explosion. Several seconds later a zombie falls onto a car behind Gerry’s family.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14149,
       "resolved_time_ms": 1032000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "LTTS",
+        "K",
+        "A",
+        "KT",
+        "T",
+        "K"
+      ],
       "description": "As Gerry looks down a stairwell, a zombie suddenly rushes at him. [Video]",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6967,
       "resolved_time_ms": 1457000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "RL",
+        "0R",
+        "KT"
+      ],
       "description": "A zombie spurts into life beside a group of soldiers.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5413,
       "resolved_time_ms": 3011000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "KT",
+        "T",
+        "XNJ",
+        "0S",
+        "PNTJ",
+        "ANT",
+        "AR",
+        "KN",
+        "KLN",
+        "AT"
+      ],
       "description": "A zombie runs into the gun of an armed woman.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10316,
       "resolved_time_ms": 3947000,
       "type": "minor"
     },
@@ -51,10 +93,18 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "K",
+        "TRMNT",
+        "AL",
+        "STS",
+        "AR",
+        "LST"
+      ],
       "description": "As Gerry turns around, a zombie bangs on the window in front of him.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 77,
       "resolved_time_ms": 6387000,
       "type": "minor"
     }

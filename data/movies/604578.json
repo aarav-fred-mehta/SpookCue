@@ -3,10 +3,18 @@
   "runtime_minutes": 102,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "LK",
+        "A",
+        "PMP",
+        "N",
+        "LK",
+        "PLN"
+      ],
       "description": "The main character, Mara, leans down from her desk and a few seconds later an explosion happens right off screen, splattering the room with blood.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3950,
       "resolved_time_ms": 41000,
       "type": "minor"
     },

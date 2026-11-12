@@ -11,10 +11,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "SR",
+        "AS",
+        "HL",
+        "ANNT",
+        "TL",
+        "0",
+        "KPS"
+      ],
       "description": "While Fuller is looking through the back window, the truck driver breaks the window from the inside.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14979,
       "resolved_time_ms": 5084000,
       "type": "minor"
     }

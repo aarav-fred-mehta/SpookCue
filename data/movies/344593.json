@@ -19,18 +19,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NN",
+        "AF",
+        "M",
+        "PSNS",
+        "XS",
+        "AN",
+        "APSTTRSN"
+      ],
       "description": "Faith leans forwards and Sissy is revealed to be standing behind her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4168,
       "resolved_time_ms": 2991000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "TM",
+        "HS",
+        "ALMST",
+        "KM",
+        "TT",
+        "AR",
+        "A",
+        "TT"
+      ],
       "description": "There is a cut with a sound effect to a masked coven member watching Amy from a window.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1154,
       "resolved_time_ms": 3790000,
       "type": "minor"
     },

@@ -11,10 +11,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "RM",
+        "FR",
+        "KMTMNTS",
+        "AMN"
+      ],
       "description": "Burt slams on his brakes as he sees a child standing on the road.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51657,
       "resolved_time_ms": 926000,
       "type": "minor"
     },
@@ -27,42 +33,81 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "KT",
+        "AT",
+        "FRST",
+        "AL",
+        "NT"
+      ],
       "description": "A knife lands on the monopoly board.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2367,
       "resolved_time_ms": 1359000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SRJ",
+        "KM",
+        "PK",
+        "HR",
+        "ANTR",
+        "0",
+        "ANNK"
+      ],
       "description": "A truck hood slams down.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17649,
       "resolved_time_ms": 1829000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "XK",
+        "AT",
+        "0",
+        "PK"
+      ],
       "description": "Burt walks into Vicky. [Video].",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7438,
       "resolved_time_ms": 2704000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "SF",
+        "AS",
+        "ATTS",
+        "ART",
+        "HR",
+        "PT",
+        "ATTS",
+        "SF"
+      ],
       "description": "The corn stalks part in front of Burt.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9901,
       "resolved_time_ms": 3381000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PX",
+        "0",
+        "PTN",
+        "AT",
+        "0",
+        "TP"
+      ],
       "description": "A cult member jumps up from the back seat as Burt gets into the car.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41539,
       "resolved_time_ms": 5071000,
       "type": "minor"
     }

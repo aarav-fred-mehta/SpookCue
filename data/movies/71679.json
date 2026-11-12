@@ -3,10 +3,16 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "KT",
+        "A",
+        "0T",
+        "XRT"
+      ],
       "description": "A zombie runs at Todd",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2110,
       "resolved_time_ms": 568000,
       "type": "minor"
     },

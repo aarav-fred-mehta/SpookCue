@@ -27,10 +27,18 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PKS",
+        "A",
+        "FL",
+        "AT",
+        "AL",
+        "0",
+        "TM"
+      ],
       "description": "During Archer’s dream when he’s kneeling beside the bed telling son he loves him the son turns into something else. Very startling and unexpected.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7750,
       "resolved_time_ms": 2468000,
       "type": "major"
     },
@@ -59,10 +67,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "PK",
+        "0R"
+      ],
       "description": "As Justine steps on the salt line, there is a sudden scream from behind her",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2800,
       "resolved_time_ms": 6709000,
       "type": "minor"
     },

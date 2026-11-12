@@ -3,90 +3,177 @@
   "runtime_minutes": 105,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PNK",
+        "A",
+        "KTNK",
+        "0S"
+      ],
       "description": "A monkey jumps against a cage and screeches.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17881,
       "resolved_time_ms": 1172000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "PRFT",
+        "TN",
+        "FRFKXN"
+      ],
       "description": "A pipe comes loose causing The Kid to shoot his gun.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37770,
       "resolved_time_ms": 1370000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SM0NK",
+        "AN",
+        "KRMKK",
+        "AFS"
+      ],
       "description": "Something jumps down onto a table behind Portman and Goat.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56024,
       "resolved_time_ms": 1601000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "A",
+        "FNT",
+        "0",
+        "RST",
+        "AF",
+        "0T",
+        "ARM"
+      ],
       "description": "Dr. Carmack grabs Samantha while lying on the operating table.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6035,
       "resolved_time_ms": 1940000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLT",
+        "A",
+        "PK",
+        "HM",
+        "ANT",
+        "TK",
+        "HM",
+        "NKTF"
+      ],
       "description": "Destroyer pokes his head through a hole and is attacked by a monkey. [Video]",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55331,
       "resolved_time_ms": 2160000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "ANNT",
+        "FRKNK",
+        "M",
+        "AT",
+        "AT",
+        "AL"
+      ],
       "description": "Portman is pulled under the water.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5233,
       "resolved_time_ms": 2408000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "S",
+        "AN0NK",
+        "TNNT",
+        "MF",
+        "AAM",
+        "AN",
+        "M",
+        "A"
+      ],
       "description": "Goat is attacked by a creature.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30298,
       "resolved_time_ms": 2602000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "TMN",
+        "AT",
+        "RPR",
+        "RPRT",
+        "T",
+        "M"
+      ],
       "description": "A creature jumps out at John.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22122,
       "resolved_time_ms": 2637000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "AK",
+        "PRSNL",
+        "AFKTT",
+        "T",
+        "AR0"
+      ],
       "description": "Samantha runs into Duke.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55483,
       "resolved_time_ms": 3109000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNSL",
+        "ANTKTS",
+        "N0NKKS",
+        "KM",
+        "AN",
+        "AR",
+        "AT",
+        "FR",
+        "HRS"
+      ],
       "description": "Mac is suddenly beheaded.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3366,
       "resolved_time_ms": 3341000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FK",
+        "A",
+        "PRTMN",
+        "A",
+        "PS",
+        "AF",
+        "XT"
+      ],
       "description": "A creature grabs Destroyer.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13670,
       "resolved_time_ms": 3748000,
       "type": "minor"
     },
@@ -99,18 +186,33 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SM0NK",
+        "PHNT",
+        "M",
+        "ASNNT",
+        "0R"
+      ],
       "description": "Several infected people suddenly rush at the remaining soldiers.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59516,
       "resolved_time_ms": 5182000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "A",
+        "HSTT",
+        "A",
+        "ANNT",
+        "NT",
+        "T"
+      ],
       "description": "For a 5 minute period, the camera switches to John’s first person POV and various creatures leap out suddenly and attack John.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25198,
       "resolved_time_ms": 5400000,
       "type": "minor"
     },

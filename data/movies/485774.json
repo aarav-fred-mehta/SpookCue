@@ -3,10 +3,21 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "PS",
+        "M",
+        "M",
+        "FN",
+        "ATTS",
+        "AT",
+        "AR",
+        "FT"
+      ],
       "description": "Accompanied by a sound effect, a man appears on the road.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11491,
       "resolved_time_ms": 480000,
       "type": "minor"
     },
@@ -43,10 +54,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "N",
+        "K",
+        "AT",
+        "AS",
+        "AT",
+        "ANLKT"
+      ],
       "description": "As Logan walks towards an open door, the real estate agent surprises him from the other side.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32580,
       "resolved_time_ms": 1746000,
       "type": "major"
     },
@@ -83,10 +102,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "M",
+        "KT",
+        "SR"
+      ],
       "description": "The plumber puts his hand on Naomi’s shoulder as she looks at a photo.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 916,
       "resolved_time_ms": 3255000,
       "type": "minor"
     },
@@ -99,10 +123,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "P",
+        "FN",
+        "A",
+        "LF",
+        "A"
+      ],
       "description": "The stereo turns on.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57957,
       "resolved_time_ms": 4815000,
       "type": "minor"
     },

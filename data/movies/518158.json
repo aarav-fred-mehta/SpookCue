@@ -11,58 +11,128 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NKST",
+        "STP",
+        "TFLLS",
+        "LK"
+      ],
       "description": "A truck backs into some barrels.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30876,
       "resolved_time_ms": 155000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PNK",
+        "SPR",
+        "KLFR",
+        "ANNT",
+        "KT",
+        "A",
+        "ANR"
+      ],
       "description": "A bloody Ozzy is standing over Lila.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13296,
       "resolved_time_ms": 1218000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AT",
+        "A",
+        "RNT",
+        "AT",
+        "AR",
+        "NT",
+        "HFNK",
+        "SKS",
+        "AKN"
+      ],
       "description": "Matt comes around the corner.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26009,
       "resolved_time_ms": 1560000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "HT",
+        "ATR",
+        "JST",
+        "RN",
+        "AT",
+        "TNNT",
+        "TL",
+        "RS",
+        "XS",
+        "KN",
+        "FLP"
+      ],
       "description": "There is a stuffed panda on the bed.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3645,
       "resolved_time_ms": 1944000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "FLM",
+        "0",
+        "TMN",
+        "STRS",
+        "SKRSS"
+      ],
       "description": "Andy sneaks up and grabs Katie.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14633,
       "resolved_time_ms": 2259000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LT",
+        "M",
+        "PT",
+        "AT",
+        "AN",
+        "A",
+        "A",
+        "AL",
+        "ANTRSTNT"
+      ],
       "description": "The leprechaun jumps out in front of the closet.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15065,
       "resolved_time_ms": 2703000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MT",
+        "A",
+        "TL",
+        "A0",
+        "HM",
+        "A",
+        "AN",
+        "MK",
+        "AR",
+        "AN",
+        "TL",
+        "K",
+        "AHT"
+      ],
       "description": "A rabbit knocks into a barrel.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 908,
       "resolved_time_ms": 3722000,
       "type": "minor"
     }

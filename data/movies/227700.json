@@ -27,18 +27,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "A0",
+        "M",
+        "ANK",
+        "LT",
+        "TT",
+        "LT",
+        "M",
+        "TN"
+      ],
       "description": "During a memory flashback, Robert’s face appears in front of young Anna as she looks through a chair.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 664,
       "resolved_time_ms": 1539000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JF",
+        "A",
+        "TK",
+        "A",
+        "PN",
+        "0S",
+        "ALT",
+        "AS",
+        "0R"
+      ],
       "description": "A shadowy figure (presumed to be Anna), appears at a window.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28156,
       "resolved_time_ms": 3442000,
       "type": "minor"
     }

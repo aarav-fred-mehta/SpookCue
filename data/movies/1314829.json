@@ -3,50 +3,99 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "HF",
+        "AN",
+        "HP",
+        "MMRS",
+        "MR",
+        "JNSN"
+      ],
       "description": "Sudden glitch sounds.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7231,
       "resolved_time_ms": 743000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FLNKS",
+        "KM",
+        "T",
+        "A",
+        "0NK",
+        "A",
+        "MST",
+        "T"
+      ],
       "description": "Piano pounds on the keys.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6266,
       "resolved_time_ms": 1406000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FLNKS",
+        "KM",
+        "T",
+        "A",
+        "0NK",
+        "A",
+        "MST",
+        "T"
+      ],
       "description": "Piano pounds again.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8227,
       "resolved_time_ms": 1447000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0T",
+        "H",
+        "A",
+        "FL",
+        "AN",
+        "AR",
+        "PLS",
+        "ARNNT",
+        "ARNT",
+        "LNL"
+      ],
       "description": "Glitchy flashback to a boy sitting in the dark.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2732,
       "resolved_time_ms": 1737000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "SM0NK",
+        "S",
+        "SM0NK"
+      ],
       "description": "Bird and Beaver turn around with mutilated bodies.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3266,
       "resolved_time_ms": 3337000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "A",
+        "KP",
+        "PRTNTNK"
+      ],
       "description": "James hits the camera with a shovel.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21937,
       "resolved_time_ms": 3918000,
       "type": "minor"
     }

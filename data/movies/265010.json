@@ -11,10 +11,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "NT",
+        "T",
+        "S",
+        "0",
+        "0",
+        "RM"
+      ],
       "description": "A shadow appears behind David’s son after his son spins the laptop around.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11467,
       "resolved_time_ms": 3415000,
       "type": "minor"
     },

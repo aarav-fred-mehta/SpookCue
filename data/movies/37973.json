@@ -11,42 +11,81 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFR0NK",
+        "ALTTF",
+        "PN",
+        "FN"
+      ],
       "description": "An abrupt flashback may startles some viewers.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8959,
       "resolved_time_ms": 518000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "0NK",
+        "A",
+        "MM",
+        "ATTS",
+        "PST",
+        "A",
+        "K",
+        "HM"
+      ],
       "description": "Pim opens her eyes in bed and sees a corpse lying beside her. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41084,
       "resolved_time_ms": 991000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "ALS",
+        "TPNTS",
+        "AN",
+        "HR",
+        "SPRT"
+      ],
       "description": "Pim looks in the mirror and her reflection changes into the ghost of Ploy. [Video].",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8334,
       "resolved_time_ms": 1281000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "0T",
+        "KS",
+        "A",
+        "TNNT",
+        "A",
+        "TR",
+        "A",
+        "XNJ",
+        "AF",
+        "SNR"
+      ],
       "description": "During a dream Pim turns around and blood is dripping from her eyes.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30584,
       "resolved_time_ms": 1926000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "ASNNT",
+        "0T",
+        "TST"
+      ],
       "description": "Pim looks up and the ghost of Ploy is hanging from the fan.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28709,
       "resolved_time_ms": 2013000,
       "type": "minor"
     },
@@ -75,26 +114,46 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRFNKR",
+        "AS",
+        "RK",
+        "PPR",
+        "SSRS"
+      ],
       "description": "Something lands on the bed while Wee is crawling underneath it.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54584,
       "resolved_time_ms": 3193000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "PL",
+        "LFT",
+        "A",
+        "AL",
+        "ALNK"
+      ],
       "description": "Pim is grabbed through a sheet.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8500,
       "resolved_time_ms": 3535000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "PL",
+        "LFT",
+        "A",
+        "AL",
+        "ALNK"
+      ],
       "description": "Pim suddenly sees the ghost of Ploy underneath the sheet. [Video].",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17500,
       "resolved_time_ms": 3544000,
       "type": "major"
     },
@@ -115,18 +174,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "A",
+        "AKTL",
+        "S",
+        "HR"
+      ],
       "description": "Pim see Ploy’s face in the reflection of a window.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 417,
       "resolved_time_ms": 3712000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "XT",
+        "AP",
+        "H",
+        "MN",
+        "TMS",
+        "MST",
+        "A",
+        "TL",
+        "A",
+        "XS",
+        "HR"
+      ],
       "description": "Pim hugs Wee however when she looks again he has transformed into Ploy.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4792,
       "resolved_time_ms": 3735000,
       "type": "minor"
     },
@@ -139,10 +217,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "M",
+        "H",
+        "X",
+        "TT",
+        "PL"
+      ],
       "description": "Wee is hit on the head by a glass object.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 834,
       "resolved_time_ms": 4195000,
       "type": "minor"
     },
@@ -163,10 +248,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "ALS",
+        "AAL",
+        "PRN",
+        "0",
+        "HS",
+        "TN"
+      ],
       "description": "Wee’s face suddenly transforms into Pim’s ghost.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19292,
       "resolved_time_ms": 4819000,
       "type": "minor"
     }

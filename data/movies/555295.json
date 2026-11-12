@@ -3,10 +3,17 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "FN",
+        "AAF",
+        "KT",
+        "AT",
+        "0NKS"
+      ],
       "description": "A man emerges from behind rock.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4390,
       "resolved_time_ms": 630000,
       "type": "minor"
     },
@@ -19,18 +26,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "ALKL",
+        "NT",
+        "T",
+        "ANSR",
+        "A",
+        "PRK",
+        "AMPL"
+      ],
       "description": "Wendy opens tent. Accompanied by sound effect.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51336,
       "resolved_time_ms": 2006000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "AT",
+        "TL",
+        "TN"
+      ],
       "description": "A quick jump-cut to a shot of the dead man’s face.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32964,
       "resolved_time_ms": 2371000,
       "type": "minor"
     },
@@ -67,10 +88,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "ATTS",
+        "A",
+        "0T",
+        "ATTS",
+        "A"
+      ],
       "description": "A sound is heard in the distance.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49243,
       "resolved_time_ms": 4060000,
       "type": "minor"
     },

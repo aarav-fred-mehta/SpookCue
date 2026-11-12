@@ -11,10 +11,27 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "T",
+        "LR",
+        "0",
+        "HX",
+        "FRM",
+        "HR",
+        "AAL",
+        "AKTFT",
+        "AT",
+        "ANT",
+        "KT",
+        "AN",
+        "A0",
+        "A"
+      ],
       "description": "The man with the bandaged head suddenly looks through the window at Héctor.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7690,
       "resolved_time_ms": 1380000,
       "type": "minor"
     },

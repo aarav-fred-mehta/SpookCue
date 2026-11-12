@@ -3,50 +3,95 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NNT",
+        "T",
+        "AXTNT",
+        "N",
+        "AN",
+        "AFT"
+      ],
       "description": "While walking towards the tricycle, Jill is jumped by Hoffman in a pig mask.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23790,
       "resolved_time_ms": 1072000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "STT",
+        "PRFT",
+        "STSR"
+      ],
       "description": "Bobby is grabbed by a man in a pig mask while looking into his car from the window.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18500,
       "resolved_time_ms": 1677000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "APN",
+        "ANSNTT",
+        "ANNT",
+        "K",
+        "SL",
+        "SN",
+        "TL",
+        "KRMN"
+      ],
       "description": "There is a sudden, very large explosion in the junkyard.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3540,
       "resolved_time_ms": 2268000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "KS",
+        "N",
+        "S",
+        "LPRM",
+        "PRTM",
+        "F",
+        "T",
+        "K"
+      ],
       "description": "The window breaks",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8290,
       "resolved_time_ms": 2840000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PRNT",
+        "KPSN",
+        "M",
+        "SNT"
+      ],
       "description": "The coroner opens up a body bag, and Hoffman jumps out from inside and attacks him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14080,
       "resolved_time_ms": 4246000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "S",
+        "M",
+        "STT",
+        "RJSTRT",
+        "NL",
+        "NSTR"
+      ],
       "description": "As Hoffman is walking away, he is jumped by three people in pig masks.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17170,
       "resolved_time_ms": 4884000,
       "type": "minor"
     }

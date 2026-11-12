@@ -3,18 +3,37 @@
   "runtime_minutes": 80,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AT",
+        "FR",
+        "APT",
+        "MTRS",
+        "T",
+        "0",
+        "NR0"
+      ],
       "description": "The straw person falls from the roof.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30293,
       "resolved_time_ms": 3490000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "T",
+        "T",
+        "SM0NK",
+        "0RS",
+        "N",
+        "A",
+        "AT"
+      ],
       "description": "Alexey is pulled into the air.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14734,
       "resolved_time_ms": 4401000,
       "type": "minor"
     },

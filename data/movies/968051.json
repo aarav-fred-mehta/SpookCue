@@ -19,10 +19,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFR",
+        "A",
+        "AR",
+        "ATFR",
+        "A",
+        "AR",
+        "HR",
+        "FR"
+      ],
       "description": "The nun's eyes glow up with a small sound.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55070,
       "resolved_time_ms": 361000,
       "type": "minor"
     },
@@ -67,10 +76,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "AN",
+        "AT",
+        "HPNT"
+      ],
       "description": "\"That's when it happened\" followed by a flashback of the nun with a sound.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1887,
       "resolved_time_ms": 2285000,
       "type": "minor"
     },
@@ -91,10 +105,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLST",
+        "AR",
+        "0",
+        "AMNK",
+        "AMN"
+      ],
       "description": "A sound of a door banging.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57667,
       "resolved_time_ms": 3061000,
       "type": "minor"
     },
@@ -107,26 +127,47 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "M",
+        "KT",
+        "M",
+        "KT"
+      ],
       "description": "\"Mama\" is heard whispered suddenly behind the woman.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10220,
       "resolved_time_ms": 3128000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "M",
+        "KT",
+        "M",
+        "KT"
+      ],
       "description": "A door tries to open on its own.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21220,
       "resolved_time_ms": 3139000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "M",
+        "KT",
+        "M",
+        "KT"
+      ],
       "description": "A figure runs past the camera in the dark. Can be considered major for some, but it's just a woosh sound with visual.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52220,
       "resolved_time_ms": 3170000,
       "type": "major"
     },
@@ -155,42 +196,75 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SM0NK",
+        "ANTR",
+        "AR",
+        "SKN"
+      ],
       "description": "Nun's fanged face comes out of the painting.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20663,
       "resolved_time_ms": 4197000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AT",
+        "AT",
+        "K",
+        "PK",
+        "AP",
+        "SLL"
+      ],
       "description": "A crow flies past in the background.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54382,
       "resolved_time_ms": 4553000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "0RS",
+        "SMN",
+        "APSTRS"
+      ],
       "description": "\"What the hell\" followed by a demon looking at the camera and roaring.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25950,
       "resolved_time_ms": 4790000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "AS",
+        "0T"
+      ],
       "description": "A girl is pulled up into the air suddenly from the back of the group.",
       "id": "scare_23",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20900,
       "resolved_time_ms": 4835000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "STNTNK",
+        "AN",
+        "HR",
+        "RM"
+      ],
       "description": "A woman's hands grab the girl as she says \"She's standing in her room\".",
       "id": "scare_24",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1600,
       "resolved_time_ms": 5074000,
       "type": "minor"
     },
@@ -219,10 +293,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SF",
+        "M",
+        "KT",
+        "P",
+        "0",
+        "NM"
+      ],
       "description": "Man appears in the crawlspace suddenly.",
       "id": "scare_28",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23136,
       "resolved_time_ms": 5644000,
       "type": "minor"
     }

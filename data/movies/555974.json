@@ -3,34 +3,73 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRN",
+        "AF",
+        "0",
+        "FT",
+        "KMS"
+      ],
       "description": "Jude scares Lisa from behind as she stands by the shoes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19288,
       "resolved_time_ms": 122000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "AR",
+        "TRNK",
+        "T",
+        "SKR",
+        "M",
+        "AKN",
+        "ATTS",
+        "NT",
+        "FN"
+      ],
       "description": "The lights come on and suddenly a masked man stands behind Lisa.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19114,
       "resolved_time_ms": 326000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "ATTL",
+        "P",
+        "A",
+        "KT",
+        "XNS",
+        "FR",
+        "AS",
+        "T",
+        "HF",
+        "A",
+        "FRX",
+        "STRT"
+      ],
       "description": "When Lisa is sleeping, she is suddenly strangled.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39667,
       "resolved_time_ms": 574000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "AR",
+        "A",
+        "FNT",
+        "HM"
+      ],
       "description": "After Lisa says “This is where you found him,” a cut follows and a dog suddenly barks. It happens out of nowhere.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1518,
       "resolved_time_ms": 1187000,
       "type": "major"
     },
@@ -51,18 +90,35 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FN",
+        "ST",
+        "HR",
+        "AL",
+        "NT",
+        "0N"
+      ],
       "description": "When lisa is standing in the kitchen there is suddenly a bang.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14157,
       "resolved_time_ms": 2728000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "SRKL",
+        "ARNT",
+        "AL",
+        "MT",
+        "PK",
+        "AN",
+        "0",
+        "HS"
+      ],
       "description": "A silhouette whizzes past the window.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38934,
       "resolved_time_ms": 2964000,
       "type": "minor"
     },
@@ -75,18 +131,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "PL",
+        "A0",
+        "AS",
+        "MM"
+      ],
       "description": "As Lisa runs through the corridor, bats suddenly fly out of the ceiling.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5053,
       "resolved_time_ms": 3086000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "S",
+        "KT",
+        "T",
+        "HR",
+        "AR",
+        "FS"
+      ],
       "description": "After Lisa finds Jude and they hug, something bangs on the door behind them and moves the handle.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1109,
       "resolved_time_ms": 3217000,
       "type": "minor"
     }

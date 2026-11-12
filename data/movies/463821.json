@@ -11,50 +11,111 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "AR",
+        "NT",
+        "FR",
+        "A",
+        "LNK",
+        "LNK",
+        "TM",
+        "AR",
+        "PRFKTL",
+        "SF"
+      ],
       "description": "A tentacled creature bursts out of the door behind Jonathan.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4234,
       "resolved_time_ms": 1605000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASK",
+        "ASK",
+        "ASK",
+        "TNNT",
+        "T",
+        "0S"
+      ],
       "description": "During a flashback, Isaac grabs Jonathan’s throat after Jonathan checks him for a pulse.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32236,
       "resolved_time_ms": 1715000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "STRTNK",
+        "T",
+        "0NK",
+        "A",
+        "AR",
+        "ANKPPL"
+      ],
       "description": "Some manure suddenly lands on Lewis.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5290,
       "resolved_time_ms": 2092000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "AR",
+        "AS",
+        "AT",
+        "ALRT",
+        "A",
+        "AFL",
+        "ALT",
+        "KT"
+      ],
       "description": "Birds fly out of the secret entrance as Jonathan crawls inside.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44844,
       "resolved_time_ms": 2620000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0S",
+        "AL",
+        "0NK",
+        "AS",
+        "JST",
+        "KN",
+        "P",
+        "A",
+        "PK",
+        "AST",
+        "AF",
+        "TM"
+      ],
       "description": "Lewis shines his torch on a statue and Tarby suddenly shouts “BOO!”.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57388,
       "resolved_time_ms": 3047000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "TLT",
+        "A",
+        "AL",
+        "0S",
+        "AS",
+        "A",
+        "HJ"
+      ],
       "description": "There is a loud bang from inside the coffin.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2509,
       "resolved_time_ms": 3163000,
       "type": "minor"
     },

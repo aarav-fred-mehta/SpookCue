@@ -3,66 +3,129 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NKS",
+        "A",
+        "FNT",
+        "A",
+        "PT"
+      ],
       "description": "The green goo exploded towards the woman.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11958,
       "resolved_time_ms": 495000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "HFR",
+        "AT",
+        "HPNT"
+      ],
       "description": "The corpses head bursts open.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1333,
       "resolved_time_ms": 610000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "T",
+        "A",
+        "TLK",
+        "LK",
+        "0T",
+        "LK",
+        "AT"
+      ],
       "description": "A red light switches on with loud sound.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1917,
       "resolved_time_ms": 2235000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LSTN",
+        "AAM",
+        "S",
+        "SR",
+        "A",
+        "XT",
+        "A",
+        "MN"
+      ],
       "description": "The cat screams at the man.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10833,
       "resolved_time_ms": 2488000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "0T",
+        "AS",
+        "A",
+        "LT",
+        "AF",
+        "FNKS"
+      ],
       "description": "The rat jumps at the guy.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30250,
       "resolved_time_ms": 2755000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "LK",
+        "SM",
+        "SRSL",
+        "APSTNK",
+        "XT"
+      ],
       "description": "The cat wakes up.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1583,
       "resolved_time_ms": 3197000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "A",
+        "MLTR",
+        "PS",
+        "S",
+        "T",
+        "A",
+        "KL",
+        "0M"
+      ],
       "description": "A man tries to grab the person.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5375,
       "resolved_time_ms": 3442000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "FR",
+        "MNTS",
+        "T",
+        "KT",
+        "TN",
+        "0R"
+      ],
       "description": "The womans head explodes.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1667,
       "resolved_time_ms": 4758000,
       "type": "minor"
     }

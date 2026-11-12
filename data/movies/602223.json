@@ -3,10 +3,18 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "KN",
+        "KT",
+        "A",
+        "TNNT",
+        "S",
+        "HM"
+      ],
       "description": "In a dark tunnel, a boys face suddenly appears.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5661,
       "resolved_time_ms": 179000,
       "type": "minor"
     },
@@ -19,10 +27,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "AR",
+        "0",
+        "TNK"
+      ],
       "description": "A hand smacks the glass",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5029,
       "resolved_time_ms": 1687000,
       "type": "minor"
     },
@@ -51,18 +66,30 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0",
+        "PRJ",
+        "AS",
+        "AFR",
+        "HLP"
+      ],
       "description": "Darius suddenly hits a ‘Rabbit Head’ man who is attacking Adela.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7358,
       "resolved_time_ms": 2110000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "P",
+        "RT",
+        "PK"
+      ],
       "description": "A masked man with an axe bangs on the truck cab window.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54576,
       "resolved_time_ms": 2899000,
       "type": "major"
     },
@@ -75,26 +102,49 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "0",
+        "KSTL",
+        "AS",
+        "FK"
+      ],
       "description": "A bat skeleton suddenly falls from the ceiling right in front of Adela.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2693,
       "resolved_time_ms": 3981000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "AN0R",
+        "TNK",
+        "A",
+        "KNNT",
+        "K",
+        "ARNT"
+      ],
       "description": "A presumed to be dead body that is pinned against the wall, suddenly attacks Adela.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27917,
       "resolved_time_ms": 4032000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRP",
+        "AR",
+        "APNS",
+        "A",
+        "0",
+        "FK",
+        "AR",
+        "A"
+      ],
       "description": "The sound of a gun lever action is suddenly heard behind Adela.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 167,
       "resolved_time_ms": 4421000,
       "type": "minor"
     },

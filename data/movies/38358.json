@@ -3,18 +3,36 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "AT",
+        "AT",
+        "KP",
+        "KNK"
+      ],
       "description": "Caleb throws a rock at the back window as Daniel begins to drive away.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 919,
       "resolved_time_ms": 950000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "TMN",
+        "TNNT",
+        "LSTN",
+        "P",
+        "N",
+        "ATNXN",
+        "TNNT",
+        "LSTN",
+        "AT",
+        "AL"
+      ],
       "description": "Nell’s bed starts to shake.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6428,
       "resolved_time_ms": 1847000,
       "type": "minor"
     },
@@ -27,34 +45,73 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NL",
+        "AR",
+        "KN",
+        "K",
+        "N",
+        "AR",
+        "KN",
+        "KT",
+        "A",
+        "AN",
+        "0",
+        "KR"
+      ],
       "description": "Nell cuts Marcus and runs away.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4117,
       "resolved_time_ms": 3591000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NL",
+        "LK",
+        "AT",
+        "M",
+        "KN",
+        "A",
+        "LK",
+        "AT",
+        "M"
+      ],
       "description": "Nell suddenly attacks the cameraman.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5722,
       "resolved_time_ms": 3755000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNK",
+        "PK",
+        "T",
+        "0",
+        "HS"
+      ],
       "description": "Accompanied by a sound effect, the camera zooms in on an occult symbol on the wall.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57429,
       "resolved_time_ms": 4633000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "PLS",
+        "N",
+        "N",
+        "KL",
+        "HR",
+        "KL",
+        "0",
+        "PX"
+      ],
       "description": "Daniel hears a noise and spins the camera around to see Caleb standing right in front of him.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48457,
       "resolved_time_ms": 4897000,
       "type": "minor"
     }

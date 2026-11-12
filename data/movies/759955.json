@@ -11,10 +11,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "A",
+        "KNNT",
+        "T",
+        "0S",
+        "ANMR",
+        "MN"
+      ],
       "description": "The coffin lid blows open.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27963,
       "resolved_time_ms": 4638000,
       "type": "minor"
     },

@@ -43,18 +43,30 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JTS",
+        "JTS",
+        "JTS",
+        "JTS",
+        "JTS"
+      ],
       "description": "Stevie, Annie, and Giles look up and see a woman in a floral dress floating above them.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19387,
       "resolved_time_ms": 2969000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JTS",
+        "JTS",
+        "JTS",
+        "JTS",
+        "JTS"
+      ],
       "description": "The woman in the floral dress turns suddenly to face Annie.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44387,
       "resolved_time_ms": 2994000,
       "type": "minor"
     },

@@ -3,10 +3,18 @@
   "runtime_minutes": 106,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A0R",
+        "APS",
+        "AL",
+        "APS",
+        "AR",
+        "AF"
+      ],
       "description": "Some lights come on and an animal in a trap is seen.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 546,
       "resolved_time_ms": 1142000,
       "type": "minor"
     },

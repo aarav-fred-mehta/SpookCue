@@ -3,74 +3,163 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "FNT",
+        "HM",
+        "K",
+        "AN",
+        "K",
+        "AN",
+        "K",
+        "FNT",
+        "AR",
+        "TK",
+        "HR",
+        "AP"
+      ],
       "description": "A distant gunshot fires.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22989,
       "resolved_time_ms": 401000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "MNT",
+        "0"
+      ],
       "description": "Dad Meiks slams the light on.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 913,
       "resolved_time_ms": 830000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "ANJL",
+        "KM",
+        "T",
+        "HM",
+        "AL",
+        "H",
+        "AS",
+        "AT",
+        "ARK"
+      ],
       "description": "Fenton has a flashback of his father swinging an axe.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47147,
       "resolved_time_ms": 1393000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "PLFT",
+        "0T",
+        "AN",
+        "H",
+        "LT",
+        "HS",
+        "HNTS",
+        "AN",
+        "HR",
+        "AT",
+        "RFLT",
+        "HR",
+        "SNS"
+      ],
       "description": "Very loud noise as Meiks touches a woman.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30795,
       "resolved_time_ms": 1979000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "0TTS",
+        "AN",
+        "ANSNT",
+        "MN",
+        "0R",
+        "TNNT",
+        "A"
+      ],
       "description": "Meiks touches another demon.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9122,
       "resolved_time_ms": 2715000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "X",
+        "A",
+        "AR",
+        "0",
+        "PTS",
+        "AR",
+        "PRT"
+      ],
       "description": "Cop gets whacked.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7542,
       "resolved_time_ms": 3711000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "RT",
+        "T",
+        "FLFL",
+        "M",
+        "TSTN"
+      ],
       "description": "Another demon gets touched very loudly.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16405,
       "resolved_time_ms": 4608000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "KRST",
+        "A",
+        "RL",
+        "T",
+        "PLF",
+        "AL",
+        "0S",
+        "STF"
+      ],
       "description": "Loud noises with flashing lights and images.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9497,
       "resolved_time_ms": 5218000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0L",
+        "N",
+        "AT",
+        "AS",
+        "A"
+      ],
       "description": "Booming noise as Adam swings down.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9670,
       "resolved_time_ms": 5420000,
       "type": "minor"
     }

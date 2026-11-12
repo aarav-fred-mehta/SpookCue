@@ -3,10 +3,24 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PFR",
+        "A",
+        "STRT",
+        "0R",
+        "AS",
+        "SM0NK",
+        "0T",
+        "A",
+        "ANT",
+        "T",
+        "TL",
+        "A",
+        "KS"
+      ],
       "description": "Loud music begins to play after AJ says “I just got these new speakers”.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2951,
       "resolved_time_ms": 1136000,
       "type": "minor"
     },
@@ -19,26 +33,52 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KL",
+        "KL",
+        "KL",
+        "KL"
+      ],
       "description": "After blacking out, the camera footage comes back on and an intruder is now standing right behind Kelly.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21755,
       "resolved_time_ms": 2477000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "A",
+        "TL",
+        "AS",
+        "A",
+        "TTNNT",
+        "A",
+        "TR",
+        "ANT",
+        "ARN",
+        "AS"
+      ],
       "description": "A door opens loudly behind AJ.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 255,
       "resolved_time_ms": 3873000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "APLTNK",
+        "SM0NK",
+        "PLS",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "There is a loud bang on the door of AJ’s house.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1057,
       "resolved_time_ms": 4281000,
       "type": "minor"
     },

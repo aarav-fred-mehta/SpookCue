@@ -11,18 +11,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "A",
+        "KT",
+        "P",
+        "ANT",
+        "PT",
+        "0",
+        "NF",
+        "TN"
+      ],
       "description": "The man appears.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25252,
       "resolved_time_ms": 1358000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "PLS",
+        "TNNT",
+        "PLS",
+        "PLS"
+      ],
       "description": "The attacker starts hitting the door with an axe.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48588,
       "resolved_time_ms": 2880000,
       "type": "minor"
     },
@@ -35,10 +51,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "LST",
+        "NT",
+        "A",
+        "RN"
+      ],
       "description": "The officer is hit with an axe.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56977,
       "resolved_time_ms": 3250000,
       "type": "minor"
     }

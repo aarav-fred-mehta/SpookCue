@@ -11,18 +11,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "TNNT",
+        "AAM",
+        "KNK",
+        "T",
+        "KL",
+        "0",
+        "PLS"
+      ],
       "description": "Olin shouts",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8606,
       "resolved_time_ms": 611000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LST",
+        "NT",
+        "AN",
+        "A",
+        "AS",
+        "KNK",
+        "T",
+        "PT"
+      ],
       "description": "Woman turns to look down the corridor again and sees another woman further away.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16750,
       "resolved_time_ms": 1614000,
       "type": "minor"
     },
@@ -43,42 +62,91 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "AAL",
+        "P",
+        "0R",
+        "AS",
+        "KK",
+        "AS",
+        "A",
+        "KN"
+      ],
       "description": "Woman looks down and the odd statue is looking up at her now.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23509,
       "resolved_time_ms": 3277000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0M",
+        "PK",
+        "AT",
+        "AS",
+        "0S"
+      ],
       "description": "Darcy shouts",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 223,
       "resolved_time_ms": 3540000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "FNT",
+        "AT",
+        "KNT",
+        "AF",
+        "KS",
+        "ANT",
+        "RMNTK"
+      ],
       "description": "camera move to creepy figure",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4624,
       "resolved_time_ms": 3833000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "FNT",
+        "AT",
+        "KNT",
+        "AF",
+        "KS",
+        "ANT",
+        "RMNTK"
+      ],
       "description": "Camera flashes on the floor illuminating the same woman from the shot before now in the corner.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10624,
       "resolved_time_ms": 3839000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "FNT",
+        "AT",
+        "KNT",
+        "AF",
+        "KS",
+        "ANT",
+        "RMNTK"
+      ],
       "description": "The lid on the chest jumps",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58624,
       "resolved_time_ms": 3887000,
       "type": "minor"
     },
@@ -107,10 +175,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "A",
+        "N",
+        "AN",
+        "AR",
+        "AN"
+      ],
       "description": "The dead bellhop stands right next to Ted.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6266,
       "resolved_time_ms": 5677000,
       "type": "minor"
     }

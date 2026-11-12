@@ -19,82 +19,175 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "T",
+        "A",
+        "MN",
+        "A",
+        "FL",
+        "0R",
+        "AT",
+        "M",
+        "HNT",
+        "ANT",
+        "0R",
+        "0",
+        "L0R"
+      ],
       "description": "Maggie shines a torch on a decayed corpse.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6688,
       "resolved_time_ms": 1682000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "ATTS",
+        "KT",
+        "FL",
+        "HR",
+        "A",
+        "K",
+        "KRFL"
+      ],
       "description": "A chandelier explodes.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25630,
       "resolved_time_ms": 1770000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "HHL",
+        "MNFST",
+        "HMSLF",
+        "AN",
+        "SPRT",
+        "AN",
+        "0S",
+        "RM"
+      ],
       "description": "The table suddenly lifts off the floor and hits the ceiling.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44180,
       "resolved_time_ms": 2314000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SM0NK",
+        "APT",
+        "AT",
+        "FLS",
+        "S",
+        "RNK"
+      ],
       "description": "A corpse suddenly jumps up from underneath a sheet and grabs Sarah.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2638,
       "resolved_time_ms": 2481000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PX",
+        "0R",
+        "JM",
+        "PX",
+        "0R"
+      ],
       "description": "A woman suddenly stands up and shrieks.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4980,
       "resolved_time_ms": 2939000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "A",
+        "ST",
+        "AT",
+        "T",
+        "A",
+        "ANT"
+      ],
       "description": "A desk lifts off the ground and hits Nick.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5297,
       "resolved_time_ms": 3208000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "ANT",
+        "AT",
+        "T",
+        "0",
+        "JN",
+        "JSS"
+      ],
       "description": "The sudden appearance of Sarah scares the group.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1305,
       "resolved_time_ms": 3269000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "JM",
+        "A",
+        "TNNT",
+        "HF",
+        "A",
+        "HRTPT",
+        "KRN",
+        "KT",
+        "JM",
+        "KM",
+        "AN"
+      ],
       "description": "Jim begins to spasm.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 862,
       "resolved_time_ms": 3460000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "MP",
+        "M",
+        "KT",
+        "AT",
+        "XT"
+      ],
       "description": "A bloodied Ed appears in front of Jill and Matt.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1697,
       "resolved_time_ms": 3842000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NN",
+        "AF",
+        "0M",
+        "N",
+        "0",
+        "ALTNNT",
+        "HF"
+      ],
       "description": "Jim grabs young Sarah’s hand.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55522,
       "resolved_time_ms": 4839000,
       "type": "minor"
     }

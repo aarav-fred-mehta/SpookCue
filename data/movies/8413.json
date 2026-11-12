@@ -19,26 +19,43 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SKNNK",
+        "FR",
+        "LF",
+        "RTNKS"
+      ],
       "description": "Miller is startled by a floating hand that appears from behind.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10062,
       "resolved_time_ms": 1575000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "PRT",
+        "JMT",
+        "AN",
+        "0R"
+      ],
       "description": "A disfigured face pops out from behind one of the crew members as she investigates a stuck CD.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7120,
       "resolved_time_ms": 1722000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "KT",
+        "SM",
+        "PRPLMS",
+        "HR"
+      ],
       "description": "The lights flicker then Weir sees a person appear next to him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9606,
       "resolved_time_ms": 2698000,
       "type": "minor"
     },
@@ -51,18 +68,29 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AR",
+        "PR0",
+        "PK"
+      ],
       "description": "Something bangs heavily on the door.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4944,
       "resolved_time_ms": 3022000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "KTTS",
+        "SKS",
+        "HLP",
+        "M"
+      ],
       "description": "Flashing images occur as Miller puts his head against the wall.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20300,
       "resolved_time_ms": 3474000,
       "type": "minor"
     },
@@ -75,18 +103,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "AR",
+        "A",
+        "SPT",
+        "HM",
+        "A",
+        "TK",
+        "HM",
+        "AT"
+      ],
       "description": "D.J. gets attacked after spinning around.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9390,
       "resolved_time_ms": 4415000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "FN",
+        "0R",
+        "A0",
+        "AS"
+      ],
       "description": "One of the crew member’s helmets is opened dramatically.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3273,
       "resolved_time_ms": 5444000,
       "type": "minor"
     }

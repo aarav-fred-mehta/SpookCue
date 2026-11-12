@@ -3,26 +3,58 @@
   "runtime_minutes": 84,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "AS",
+        "N0NK",
+        "0RS",
+        "N0NK",
+        "PK",
+        "0R"
+      ],
       "description": "While Kyra reaches for the mirror cabinet there is a knock on the door, startling her.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6406,
       "resolved_time_ms": 1560000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PKS",
+        "A",
+        "RL",
+        "T",
+        "ANJ",
+        "AR",
+        "ARK",
+        "PT",
+        "A",
+        "KT",
+        "KT",
+        "T",
+        "SLP"
+      ],
       "description": "A sharp blade suddenly pierces through the wall.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50352,
       "resolved_time_ms": 2242000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "SR",
+        "AF",
+        "SMN",
+        "ALS",
+        "AS",
+        "AN",
+        "X"
+      ],
       "description": "A deformed looking man jumps in front of the camera while it zooms in on a dark room.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19238,
       "resolved_time_ms": 3243000,
       "type": "minor"
     },

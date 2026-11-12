@@ -3,10 +3,18 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "ANS",
+        "KT",
+        "AR",
+        "NM",
+        "AN",
+        "AT"
+      ],
       "description": "The cardboard boxes fall over.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 922,
       "resolved_time_ms": 532000,
       "type": "minor"
     }

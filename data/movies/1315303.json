@@ -3,18 +3,34 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRST",
+        "M",
+        "0SSL",
+        "MK",
+        "A",
+        "FL",
+        "PTR"
+      ],
       "description": "Ben grabs him and pulls him into the cage",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7302,
       "resolved_time_ms": 164000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRST",
+        "M",
+        "0SSL",
+        "MK",
+        "A",
+        "FL",
+        "PTR"
+      ],
       "description": "The man reappears from the darkness and Ben pulls off his face",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13302,
       "resolved_time_ms": 170000,
       "type": "minor"
     },
@@ -27,10 +43,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PN",
+        "STP",
+        "KT",
+        "AF",
+        "PN",
+        "AR",
+        "HRTNK",
+        "M"
+      ],
       "description": "primate reaches for her",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4,
       "resolved_time_ms": 997000,
       "type": "minor"
     },
@@ -43,42 +68,82 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "JST",
+        "KN",
+        "PT",
+        "0S",
+        "AFR",
+        "AR",
+        "HT"
+      ],
       "description": "primate attacks the guy",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12807,
       "resolved_time_ms": 1916000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SNT",
+        "AS",
+        "0",
+        "AT",
+        "PTS",
+        "KM",
+        "AN"
+      ],
       "description": "primate reaches for her",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1719,
       "resolved_time_ms": 2535000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MN",
+        "A",
+        "SR",
+        "0S",
+        "AS",
+        "0",
+        "RT",
+        "PLS"
+      ],
       "description": "primate behind the window appears",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7798,
       "resolved_time_ms": 3588000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0",
+        "FK",
+        "HS",
+        "A",
+        "PT",
+        "XMP"
+      ],
       "description": "primate screams and stands next to the bed",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16692,
       "resolved_time_ms": 3787000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "FKNK",
+        "XT",
+        "HM",
+        "HR"
+      ],
       "description": "primate next to her in the car",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18331,
       "resolved_time_ms": 4275000,
       "type": "minor"
     },

@@ -3,18 +3,36 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "A",
+        "HM",
+        "AN0NK",
+        "RT",
+        "FK",
+        "HM"
+      ],
       "description": "A hand reaches through the window",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23481,
       "resolved_time_ms": 501000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "LT",
+        "A",
+        "N",
+        "AN",
+        "A",
+        "HF",
+        "HM"
+      ],
       "description": "Brooks suddenly appears",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17205,
       "resolved_time_ms": 1396000,
       "type": "minor"
     }

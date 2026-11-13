@@ -3,26 +3,45 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "ATTS",
+        "AT",
+        "0R"
+      ],
       "description": "As Chloe looks outside through the cat flap, a coyote runs across the screen as the light comes on",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11726,
       "resolved_time_ms": 986000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "HLL",
+        "RNK",
+        "A0",
+        "0M"
+      ],
       "description": "As Tony walks backwards, he is suddenly bitten on the Achilles heel by a coyote",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2386,
       "resolved_time_ms": 1616000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "TR",
+        "AT",
+        "A",
+        "NT"
+      ],
       "description": "A coyote jumps onto Julies car",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24920,
       "resolved_time_ms": 2204000,
       "type": "minor"
     },
@@ -35,18 +54,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "A",
+        "KT",
+        "K",
+        "S",
+        "A",
+        "XRPRKTR"
+      ],
       "description": "Scott is attacked by a coyote after getting out of the car",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2500,
       "resolved_time_ms": 3269000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "MS",
+        "0",
+        "K",
+        "PRPK"
+      ],
       "description": "Trip is attacked by a coyote",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11663,
       "resolved_time_ms": 4481000,
       "type": "minor"
     }

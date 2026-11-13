@@ -11,10 +11,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "RL",
+        "KT",
+        "0",
+        "MNXS"
+      ],
       "description": "Slow-mo car crash, but it's LOUD.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49642,
       "resolved_time_ms": 1325000,
       "type": "minor"
     },

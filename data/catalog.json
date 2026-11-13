@@ -198,7 +198,7 @@
     "tmdb_id": 409297
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/rp5JPIyZi9sMob15l46zNQLe5cO.jpg",
     "release_year": 2017,
     "runtime_minutes": 93,
@@ -280,7 +280,7 @@
     "tmdb_id": 10014
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/kizvpgXQfrAgN8FhOd87LbKk6kO.jpg",
     "release_year": 1989,
     "runtime_minutes": 89,
@@ -925,7 +925,7 @@
     "tmdb_id": 301804
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/2qcnM2j2gatClqweKytsLmSclgj.jpg",
     "release_year": 2020,
     "runtime_minutes": 86,
@@ -1283,9 +1283,7 @@
     "release_year": 1998,
     "runtime_minutes": 89,
     "scare_count": 11,
-    "tags": [
-      "HOT"
-    ],
+    "tags": [],
     "title": "Bride Of Chucky",
     "tmdb_id": 11932
   },
@@ -1783,7 +1781,7 @@
     "tmdb_id": 696393
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/enz3WLx5QU1FUyhXZld04QWIc6N.jpg",
     "release_year": 2026,
     "runtime_minutes": 123,
@@ -1894,7 +1892,7 @@
     "tmdb_id": 599975
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/fSzs9ZXYcrln0FRrjGIPCjuB6En.jpg",
     "release_year": 2025,
     "runtime_minutes": 91,
@@ -1986,7 +1984,7 @@
     "tmdb_id": 664561
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/7OQ2McKYgnyfIHHkm0jBxQnu7ou.jpg",
     "release_year": 2005,
     "runtime_minutes": 90,
@@ -1996,7 +1994,7 @@
     "tmdb_id": 10092
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/x4BTjxdrOKC27FcSkBh8KPEgnum.jpg",
     "release_year": 1998,
     "runtime_minutes": 90,
@@ -2091,7 +2089,7 @@
     "tmdb_id": 537788
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/qaFRm7Ixvu41eCx4wIXXNq8M8KR.jpg",
     "release_year": 2013,
     "runtime_minutes": 87,
@@ -2111,7 +2109,7 @@
     "tmdb_id": 612515
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/fd9Ck4cxVlmtXsbeGtQW7WFuUFI.jpg",
     "release_year": 2012,
     "runtime_minutes": 113,
@@ -2509,7 +2507,7 @@
     "tmdb_id": 11880
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/jMBMm1jwqvILV8p1K44brBnmwLK.jpg",
     "release_year": 2010,
     "runtime_minutes": 99,
@@ -3104,7 +3102,7 @@
     "tmdb_id": 55779
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg",
     "release_year": 2025,
     "runtime_minutes": 110,
@@ -3321,7 +3319,7 @@
     "tmdb_id": 9725
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/9kukTSlgFgXnQGdpcHvHcpTDiUc.jpg",
     "release_year": 1982,
     "runtime_minutes": 95,
@@ -3361,7 +3359,7 @@
     "tmdb_id": 9730
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/7gfG9tGRPzmVyg3nEwQrTGOJ8C6.jpg",
     "release_year": 2016,
     "runtime_minutes": 92,
@@ -3475,7 +3473,7 @@
     "tmdb_id": 403283
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/32dippiypDdaKv7XFEfUlQ7kPup.jpg",
     "release_year": 2017,
     "runtime_minutes": 104,
@@ -4172,7 +4170,7 @@
     "tmdb_id": 9003
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/A975uoqpADhIXvREe6fNtTW3KBN.jpg",
     "release_year": 2016,
     "runtime_minutes": 97,
@@ -4368,9 +4366,7 @@
     "release_year": 2006,
     "runtime_minutes": 94,
     "scare_count": 3,
-    "tags": [
-      "HOT"
-    ],
+    "tags": [],
     "title": "Hostel",
     "tmdb_id": 1690
   },
@@ -4731,7 +4727,7 @@
     "tmdb_id": 475220
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/msh4tEUzbnEqlHcFOUH4O0Zti8r.jpg",
     "release_year": 1995,
     "runtime_minutes": 95,
@@ -5173,7 +5169,7 @@
     "tmdb_id": 19994
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/hYkfUKjWlVP6GVqIW5wL2ruREGZ.jpg",
     "release_year": 2016,
     "runtime_minutes": 94,
@@ -5395,7 +5391,7 @@
     "tmdb_id": 40149
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/5IaGu8r0t6bBaydkR6z9l9tJsCg.jpg",
     "release_year": 2009,
     "runtime_minutes": 87,
@@ -5652,7 +5648,7 @@
     "tmdb_id": 1226578
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/6zSzaUmoUCwII2pGTqX1jaX8F0p.jpg",
     "release_year": 2018,
     "runtime_minutes": 103,
@@ -5724,7 +5720,7 @@
     "tmdb_id": 638
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/4cOWAuejsbqbzQ1AVb46mtglHOR.jpg",
     "release_year": 2020,
     "runtime_minutes": 83,
@@ -5970,7 +5966,7 @@
     "tmdb_id": 615656
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/lDmIqn0HJDjQJZDZaofuyaAnw2X.jpg",
     "release_year": 2011,
     "runtime_minutes": 86,
@@ -6012,7 +6008,7 @@
     "tmdb_id": 13515
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/klPO5oh1LOxiPpdDXZo1ADgpKcw.jpg",
     "release_year": 1990,
     "runtime_minutes": 107,
@@ -6371,7 +6367,7 @@
     "tmdb_id": 1216191
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/vclShucpUmPhdAOmKgf3B3Z4POD.jpg",
     "release_year": 2021,
     "runtime_minutes": 108,
@@ -6438,7 +6434,7 @@
     "tmdb_id": 1400837
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/gwjHlGjK2xXKpjd65BWyAMwzTWC.jpg",
     "release_year": 2014,
     "runtime_minutes": 89,
@@ -7186,7 +7182,7 @@
     "tmdb_id": 9533
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/uBJvbf0g9rcsYElcwZCMYU0Vrj8.jpg",
     "release_year": 2023,
     "runtime_minutes": 118,
@@ -7480,7 +7476,7 @@
     "tmdb_id": 257527
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ArNYeeDFLVye7JpqLElYdbE6fOa.jpg",
     "release_year": 2020,
     "runtime_minutes": 85,
@@ -7718,7 +7714,7 @@
     "tmdb_id": 4234
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/3cf8p2qw9qnsaaFWc64AG6U05eT.jpg",
     "release_year": 2011,
     "runtime_minutes": 111,
@@ -7892,7 +7888,7 @@
     "tmdb_id": 588
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/rkAh9cPkb5PoTzEGWfBkhdFNIsf.jpg",
     "release_year": 2012,
     "runtime_minutes": 94,
@@ -7916,7 +7912,7 @@
     "tmdb_id": 17898
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/nzx10sca3arCeYBAomHan4Q6wa1.jpg",
     "release_year": 2012,
     "runtime_minutes": 110,
@@ -8111,7 +8107,7 @@
     "tmdb_id": 1114513
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/cT5wdyo8kT7dycqjrolJ2sHWkFx.jpg",
     "release_year": 1995,
     "runtime_minutes": 108,
@@ -8171,7 +8167,7 @@
     "tmdb_id": 602734
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/tFNReQlU92jmN7uuR1HHLiFkEua.jpg",
     "release_year": 2008,
     "runtime_minutes": 82,
@@ -8201,7 +8197,7 @@
     "tmdb_id": 604578
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/tbYvzpy4QFhUHRBHe4VeUKJst96.jpg",
     "release_year": 2020,
     "runtime_minutes": 93,
@@ -8261,7 +8257,7 @@
     "tmdb_id": 52015
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/ellZ2dQLPVeWgd2fjf4arcZwALc.jpg",
     "release_year": 2019,
     "runtime_minutes": 99,
@@ -8347,7 +8343,7 @@
     "tmdb_id": 1330443
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/dEJCk1vTOaldD8hzOYY96AdFdr6.jpg",
     "release_year": 2007,
     "runtime_minutes": 85,
@@ -8367,7 +8363,7 @@
     "tmdb_id": 1006947
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/zastd8zM2ftOJpC7Y6gRFqAB7r.jpg",
     "release_year": 2018,
     "runtime_minutes": 106,
@@ -8379,7 +8375,7 @@
     "tmdb_id": 470229
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/oKGGeJ8qvm0UmClz43VJ31fzPP7.jpg",
     "release_year": 2007,
     "runtime_minutes": 108,
@@ -8543,7 +8539,7 @@
     "tmdb_id": 1034541
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/gab9aBrD8fxP2NveitSzOEP4rfV.jpg",
     "release_year": 2010,
     "runtime_minutes": 86,
@@ -8627,7 +8623,7 @@
     "tmdb_id": 11449
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/4D246dpe7yy2GvHI2IbpeqkUXry.jpg",
     "release_year": 2005,
     "runtime_minutes": 90,
@@ -8819,7 +8815,7 @@
     "tmdb_id": 8851
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/pYwZdnXVnVxAr7dx4MEK7tTK9gI.jpg",
     "release_year": 2023,
     "runtime_minutes": 99,
@@ -9132,7 +9128,7 @@
     "tmdb_id": 29427
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/yxTFHGcS0AJab3olU9BjABf5Ogx.jpg",
     "release_year": 2017,
     "runtime_minutes": 90,
@@ -9178,7 +9174,7 @@
     "tmdb_id": 623521
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/4DB9VFVTp0IQEWFEIf9f3f2z3t5.jpg",
     "release_year": 2020,
     "runtime_minutes": 95,
@@ -9292,7 +9288,7 @@
     "tmdb_id": 760875
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/x1KYpYqf4a4fzlKLJ7pqBphWf4Y.jpg",
     "release_year": 2012,
     "runtime_minutes": 83,
@@ -9711,7 +9707,7 @@
     "tmdb_id": 327253
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
     "release_year": 2014,
     "runtime_minutes": 100,
@@ -10722,7 +10718,7 @@
     "tmdb_id": 346910
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/g4sq725mXv5urY6nLQvYmv3RvcO.jpg",
     "release_year": 1981,
     "runtime_minutes": 89,
@@ -11097,7 +11093,7 @@
     "tmdb_id": 436969
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/77i7EBUyQKOUiZeYQ5tWDGQb0AI.jpg",
     "release_year": 2014,
     "runtime_minutes": 90,
@@ -11345,7 +11341,7 @@
     "tmdb_id": 244458
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/5UYFGPDGFIPGlO4vU1dqzJi3MNd.jpg",
     "release_year": 2016,
     "runtime_minutes": 90,
@@ -11986,7 +11982,7 @@
     "tmdb_id": 1373445
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/uS8yoiA6NfsuYeOTbVfpem8Ib9.jpg",
     "release_year": 2026,
     "runtime_minutes": 98,
@@ -12103,7 +12099,7 @@
     "tmdb_id": 228066
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/qqqkiZSU9EBGZ1KiDmfn07S7qvv.jpg",
     "release_year": 1983,
     "runtime_minutes": 88,
@@ -12406,7 +12402,7 @@
     "tmdb_id": 643586
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/4D9Bby0pNtRUYeI5mNJ3F0mSmXG.jpg",
     "release_year": 2018,
     "runtime_minutes": 100,
@@ -12502,7 +12498,7 @@
     "tmdb_id": 72190
   },
   {
-    "has_subtitles": false,
+    "has_subtitles": true,
     "poster_path": "/unYQSQWX66qmQwUYDBaBkOOFEGm.jpg",
     "release_year": 2013,
     "runtime_minutes": 93,

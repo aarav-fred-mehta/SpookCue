@@ -3,18 +3,34 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "A",
+        "N",
+        "A",
+        "TLT",
+        "A",
+        "S",
+        "MN",
+        "TMS"
+      ],
       "description": "A sudden sound of smashing dishes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2708,
       "resolved_time_ms": 713000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNKT",
+        "T",
+        "SM0NK",
+        "PKR"
+      ],
       "description": "As Maddox is in the water, a floating dead body bumps into her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38037,
       "resolved_time_ms": 3624000,
       "type": "minor"
     }

@@ -3,26 +3,54 @@
   "runtime_minutes": 107,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "HR",
+        "AL",
+        "0",
+        "ANTMT",
+        "TTLS",
+        "AF",
+        "0",
+        "TT"
+      ],
       "description": "Paul wakes up and Annie is standing directly over his bed.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37184,
       "resolved_time_ms": 4803000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MS",
+        "ALKS",
+        "AR",
+        "A",
+        "AL",
+        "RT"
+      ],
       "description": "Annie shoots Buster through the back with a shotgun.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14144,
       "resolved_time_ms": 5619000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AT",
+        "TL",
+        "A",
+        "XK",
+        "A",
+        "SK",
+        "TSTT",
+        "FK"
+      ],
       "description": "Annie jumps on Paul as he crawls away.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50733,
       "resolved_time_ms": 6100000,
       "type": "minor"
     }

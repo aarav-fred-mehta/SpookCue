@@ -3,10 +3,17 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "ALMST",
+        "TN",
+        "AN",
+        "0R"
+      ],
       "description": "A girl is pulled away by an evil entity. This is used a few times in the movie so it won’t be terrifying or startling.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43124,
       "resolved_time_ms": 193000,
       "type": "minor"
     },
@@ -27,34 +34,62 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "ATTS",
+        "A",
+        "TNNT",
+        "NT",
+        "HR",
+        "ANMR"
+      ],
       "description": "Claire is pulled away by an evil entity.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39871,
       "resolved_time_ms": 3911000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P0",
+        "ASNNT",
+        "0R",
+        "A",
+        "LNTRN",
+        "AN",
+        "HR"
+      ],
       "description": "Claire is attacked by an entity.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16181,
       "resolved_time_ms": 4143000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "PSMNT",
+        "0",
+        "PSMNT"
+      ],
       "description": "A door slams.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6476,
       "resolved_time_ms": 4172000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "P0",
+        "A",
+        "KNNT",
+        "T",
+        "0S"
+      ],
       "description": "The old lady is pulled by the evil force.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12517,
       "resolved_time_ms": 4604000,
       "type": "minor"
     },

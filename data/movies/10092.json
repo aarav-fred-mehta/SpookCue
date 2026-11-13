@@ -11,82 +11,178 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AP",
+        "A",
+        "TK",
+        "SR",
+        "A",
+        "ASL",
+        "LK",
+        "0",
+        "TR",
+        "A",
+        "KT",
+        "AR",
+        "MSJ"
+      ],
       "description": "Tom suddenly calls out to Owen while he’s texting, startling him.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 71,
       "resolved_time_ms": 1633000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KT",
+        "P",
+        "SMN",
+        "AN",
+        "KMPS"
+      ],
       "description": "Something big is dropped into the water while Dodger is swimming.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16696,
       "resolved_time_ms": 1724000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KT",
+        "P",
+        "SMN",
+        "AN",
+        "KMPS"
+      ],
       "description": "More stuff is suddenly dropped into the pool.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46696,
       "resolved_time_ms": 1754000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "SNTT",
+        "LK",
+        "A",
+        "AR",
+        "HFNK",
+        "F",
+        "TRTS",
+        "AP",
+        "0R"
+      ],
       "description": "Owen turns on the light, and with a loud string sound effect Tom is revealed to be sitting on a chair and staring at him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29504,
       "resolved_time_ms": 1971000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MN",
+        "0",
+        "SNKNK",
+        "AT",
+        "0",
+        "HKS",
+        "AML"
+      ],
       "description": "The killer suddenly walks by in the background.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36420,
       "resolved_time_ms": 2228000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "NS",
+        "AS",
+        "A",
+        "AS",
+        "RT",
+        "A",
+        "A",
+        "M",
+        "TNR"
+      ],
       "description": "Owen walks away from the window and the killer takes a step forward to reveal he is outside.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52290,
       "resolved_time_ms": 2932000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "SMS",
+        "T",
+        "FL",
+        "0T",
+        "AR",
+        "TRK",
+        "AR",
+        "TRT",
+        "ATM"
+      ],
       "description": "While the headmistress is talking, there is an abrupt very loud sound of someone opening the door that startles Owen.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1347,
       "resolved_time_ms": 3408000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "AL",
+        "TRMMS",
+        "AMPT",
+        "AKSPT",
+        "FR",
+        "0",
+        "ANKRSRTT"
+      ],
       "description": "The killer walks by in the foreground.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3665,
       "resolved_time_ms": 3784000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TLKNK",
+        "APT"
+      ],
       "description": "Mercedes wipes the steam off the mirror, revealing the killer in the background and causing her to scream.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1772,
       "resolved_time_ms": 3883000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TM",
+        "ANT",
+        "RJN",
+        "AR",
+        "ATNK",
+        "A",
+        "HF",
+        "T",
+        "KT"
+      ],
       "description": "The killer suddenly grabs Lewis while he’s looking down at Owen from the railings.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1155,
       "resolved_time_ms": 4091000,
       "type": "minor"
     }

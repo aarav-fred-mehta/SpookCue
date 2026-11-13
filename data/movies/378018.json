@@ -19,42 +19,80 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "K",
+        "TMS",
+        "AP",
+        "0TTS",
+        "AR",
+        "K",
+        "T",
+        "LF"
+      ],
       "description": "Accompanied by a sound effect, Allison ducks down to reveal Dr. Powell watching her from the doorway.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10278,
       "resolved_time_ms": 2268000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "PP",
+        "TKTR",
+        "PL",
+        "AS",
+        "A",
+        "KRT",
+        "MN"
+      ],
       "description": "A man is shown with his neck suddenly cut open.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1611,
       "resolved_time_ms": 3810000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "0",
+        "FK",
+        "A",
+        "FRM",
+        "M"
+      ],
       "description": "The lights cut out suddenly.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5811,
       "resolved_time_ms": 3845000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "M",
+        "TTR",
+        "ANT",
+        "0S",
+        "FSL"
+      ],
       "description": "Maggie has a sudden vision of a grotesque creature which causes her to fall backwards in fear.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28911,
       "resolved_time_ms": 4532000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "ANFNT",
+        "ASTR",
+        "ARKNKS"
+      ],
       "description": "The creature’s foot stamps on the ground.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17911,
       "resolved_time_ms": 4728000,
       "type": "minor"
     },

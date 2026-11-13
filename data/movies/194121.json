@@ -3,10 +3,15 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "T",
+        "AN0NK",
+        "PLS"
+      ],
       "description": "The demon reveals her face.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7514,
       "resolved_time_ms": 320000,
       "type": "minor"
     }

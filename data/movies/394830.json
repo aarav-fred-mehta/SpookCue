@@ -3,10 +3,22 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "A",
+        "TK",
+        "KR",
+        "AF",
+        "ARSLF",
+        "ANT",
+        "KL",
+        "M",
+        "LTR"
+      ],
       "description": "A honking car horn startles Nicole.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30605,
       "resolved_time_ms": 705000,
       "type": "minor"
     },
@@ -59,18 +71,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "LT",
+        "M",
+        "N",
+        "H",
+        "AT",
+        "KS"
+      ],
       "description": "A dog jumps up and barks at the door while Nicole is in the car.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47908,
       "resolved_time_ms": 3276000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "LT",
+        "M",
+        "N",
+        "H",
+        "AT",
+        "KS"
+      ],
       "description": "The dog jumps up at the car once more.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54908,
       "resolved_time_ms": 3283000,
       "type": "minor"
     },
@@ -83,10 +113,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATLN",
+        "HT",
+        "PN",
+        "AN",
+        "KRMN",
+        "FR",
+        "0",
+        "LST",
+        "AR"
+      ],
       "description": "While Nicole is in the bathtub, there is a loud sound effect and the lights turn off.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6003,
       "resolved_time_ms": 3669000,
       "type": "minor"
     },
@@ -107,26 +147,51 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AKTL",
+        "A",
+        "APN",
+        "AT",
+        "ANT",
+        "AAL",
+        "KT",
+        "TRST"
+      ],
       "description": "In a dream where Nicole is having sex with Father Anton, a woman’s screaming face suddenly appears on screen and Nicole wakes up.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37972,
       "resolved_time_ms": 3853000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "FR",
+        "A",
+        "ANNT",
+        "P",
+        "LNK"
+      ],
       "description": "Nicole briefly sees someone in the rear view mirror.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27092,
       "resolved_time_ms": 4163000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "FR",
+        "A",
+        "ANNT",
+        "P",
+        "LNK"
+      ],
       "description": "Hands wrap around Nicole’s feet.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39092,
       "resolved_time_ms": 4175000,
       "type": "minor"
     },
@@ -139,18 +204,40 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANTN",
+        "AT",
+        "AS",
+        "TRNSFRNS"
+      ],
       "description": "A low pitched demonic voice interupts Nicole’s conversation with Anton.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1138,
       "resolved_time_ms": 4741000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JF",
+        "PLS",
+        "T",
+        "0",
+        "AN",
+        "HL",
+        "XRX",
+        "AKRT",
+        "P",
+        "KRST",
+        "AT",
+        "0",
+        "PRS",
+        "AF",
+        "HS",
+        "PLT"
+      ],
       "description": "Possessed Nicole opens her eyes as a sound effect plays.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6542,
       "resolved_time_ms": 4959000,
       "type": "minor"
     }

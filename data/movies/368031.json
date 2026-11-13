@@ -3,10 +3,22 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "HF",
+        "AN",
+        "ANF",
+        "0T",
+        "KN",
+        "XT",
+        "LT",
+        "AN",
+        "0S",
+        "TRJT"
+      ],
       "description": "The cat lunges at the screen and hisses.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42535,
       "resolved_time_ms": 141000,
       "type": "minor"
     },
@@ -19,10 +31,19 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "SKL",
+        "TN",
+        "A",
+        "AN",
+        "S",
+        "HR",
+        "TMLN"
+      ],
       "description": "A startling image of some disfigured faces flashes up on the screen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16311,
       "resolved_time_ms": 806000,
       "type": "minor"
     },
@@ -67,18 +88,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "ST",
+        "X",
+        "KF",
+        "0M",
+        "NTMRS"
+      ],
       "description": "A close up of some eyes suddenly appears on the computer screen.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45435,
       "resolved_time_ms": 2846000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "ST",
+        "X",
+        "KF",
+        "0M",
+        "NTMRS"
+      ],
       "description": "A demonic face appears at the door as Kobe runs towards it.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58435,
       "resolved_time_ms": 2859000,
       "type": "minor"
     },
@@ -107,10 +142,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "T",
+        "FNT",
+        "AT",
+        "AR",
+        "X",
+        "KLT",
+        "HRSLF"
+      ],
       "description": "Olivia looks up from the paper and sees a girl slitting her throat.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54461,
       "resolved_time_ms": 3530000,
       "type": "major"
     },
@@ -131,18 +176,36 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STP",
+        "RT",
+        "HR",
+        "ANT",
+        "LT",
+        "M",
+        "AT"
+      ],
       "description": "A body falls on Tyler’s car.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2052,
       "resolved_time_ms": 3854000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRM",
+        "TN",
+        "N",
+        "TN",
+        "AT",
+        "0",
+        "AN",
+        "P",
+        "0"
+      ],
       "description": "A man is suddenly attacked by Olivia.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6361,
       "resolved_time_ms": 4116000,
       "type": "minor"
     },
@@ -155,10 +218,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "KNNT",
+        "MK",
+        "A",
+        "LNL",
+        "AF",
+        "AR",
+        "TT"
+      ],
       "description": "Kobe stabs Laura.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3910,
       "resolved_time_ms": 4431000,
       "type": "minor"
     },

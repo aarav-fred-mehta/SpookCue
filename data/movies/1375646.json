@@ -3,10 +3,22 @@
   "runtime_minutes": 123,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KS",
+        "A",
+        "HF",
+        "A",
+        "LT",
+        "AF",
+        "ARK",
+        "AHT",
+        "AF",
+        "AS"
+      ],
       "description": "Frozen zombie suddenly revives himself.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14520,
       "resolved_time_ms": 7084000,
       "type": "minor"
     }

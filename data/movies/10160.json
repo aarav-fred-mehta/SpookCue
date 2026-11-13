@@ -3,10 +3,15 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALS",
+        "ALS",
+        "AK",
+        "AP"
+      ],
       "description": "A man suddenly springs upwards from the bed next to Alice.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12487,
       "resolved_time_ms": 444000,
       "type": "minor"
     },
@@ -27,58 +32,120 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MST",
+        "P",
+        "RLST",
+        "FRM",
+        "M",
+        "AR0L",
+        "PRSN"
+      ],
       "description": "The camera pans around the diner back to Alice, and she is grabbed on the shoulder by a friend.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31023,
       "resolved_time_ms": 1344000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KLNK",
+        "APT",
+        "M",
+        "ART",
+        "AKS",
+        "SN",
+        "TNL"
+      ],
       "description": "There is a loud buzzing noise.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 66,
       "resolved_time_ms": 1562000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "P",
+        "FLS",
+        "0",
+        "NT",
+        "FR",
+        "SPT"
+      ],
       "description": "The diner (a greenscreen) suddenly turns into a close-up of Daniel’s mangled face as he screams, scaring Alice.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53042,
       "resolved_time_ms": 1764000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TN",
+        "PTR",
+        "NT",
+        "TRM",
+        "ANT",
+        "TRF"
+      ],
       "description": "Daniel’s corpse springs back upwards.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40737,
       "resolved_time_ms": 1806000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "TLK",
+        "A0",
+        "AR",
+        "M0",
+        "FL",
+        "TR"
+      ],
       "description": "The upper half of Greta’s body appears out of the side of a rotting fridge and begins to scream.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20943,
       "resolved_time_ms": 2456000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0",
+        "PL",
+        "STL",
+        "APN",
+        "A",
+        "0NK",
+        "AF",
+        "A",
+        "HR"
+      ],
       "description": "There is a sudden cut to the tower as Yvonne dives underwater that is accompanied by a loud sound effect.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12384,
       "resolved_time_ms": 3675000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "A",
+        "KN",
+        "RL",
+        "KT",
+        "T",
+        "N",
+        "AX",
+        "A0R"
+      ],
       "description": "Yvonne reaches her hand out to Amanda, and she suddenly turns around quickly to reveal a decomposing corpse under the robe.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22412,
       "resolved_time_ms": 4783000,
       "type": "minor"
     }

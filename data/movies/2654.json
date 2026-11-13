@@ -3,34 +3,71 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "NT",
+        "0",
+        "ANTNK",
+        "A",
+        "HFNNT",
+        "RT",
+        "AT",
+        "AT"
+      ],
       "description": "A hand breaks through the glass in the cell where John is staying.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7294,
       "resolved_time_ms": 380000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "ANT",
+        "SM",
+        "T",
+        "PT"
+      ],
       "description": "After waking from a dream, John looks across and sees the deformed policeman sitting beside him. [Video].",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48584,
       "resolved_time_ms": 1466000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NFR",
+        "MNT",
+        "AT",
+        "AS",
+        "N0NK",
+        "KT"
+      ],
       "description": "The strange cyclist appears in front of Linda while she is driving and she crashes into him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16954,
       "resolved_time_ms": 1940000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "KT",
+        "AT",
+        "TNNT",
+        "MF",
+        "H",
+        "ANNT",
+        "LT",
+        "M",
+        "AT"
+      ],
       "description": "The cyclist appears behind Linda before driving off.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19039,
       "resolved_time_ms": 1982000,
       "type": "minor"
     },
@@ -43,10 +80,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "FNT",
+        "SM0NK",
+        "AR",
+        "TT",
+        "A",
+        "K"
+      ],
       "description": "Linda grabs John from behind as he goes back into his room.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 114,
       "resolved_time_ms": 3348000,
       "type": "minor"
     },
@@ -59,10 +104,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AN",
+        "AS",
+        "PNT",
+        "T",
+        "P",
+        "FR",
+        "FR",
+        "PPLR"
+      ],
       "description": "Sutter Cane’s head appears beside John.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9742,
       "resolved_time_ms": 4147000,
       "type": "minor"
     },

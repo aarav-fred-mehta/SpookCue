@@ -19,26 +19,51 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SRSL",
+        "A",
+        "TRNK",
+        "T",
+        "KL",
+        "M"
+      ],
       "description": "George walks into a room where a girl is held to the roof with someone else’s hands.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32113,
       "resolved_time_ms": 1588000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "APLJSNK",
+        "FR",
+        "SM0NK",
+        "A",
+        "TTNNT",
+        "T"
+      ],
       "description": "A silhouette runs past the camera as Kathy is washing the dishes.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39367,
       "resolved_time_ms": 1741000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "ASNNT",
+        "FN",
+        "LT",
+        "M",
+        "0",
+        "FK",
+        "AT"
+      ],
       "description": "A girl appears behind Lisa.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20452,
       "resolved_time_ms": 2238000,
       "type": "minor"
     },
@@ -51,18 +76,39 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "FNTS",
+        "AT",
+        "A",
+        "LT",
+        "A",
+        "AT",
+        "AF",
+        "M",
+        "ST",
+        "XS",
+        "KN",
+        "KL",
+        "M"
+      ],
       "description": "A teddy bear fals on the ground next to George.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19659,
       "resolved_time_ms": 2797000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "AR",
+        "HNTS",
+        "AP",
+        "0R"
+      ],
       "description": "A face in the projector changes to a demonic face.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43089,
       "resolved_time_ms": 3224000,
       "type": "minor"
     },
@@ -75,10 +121,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "T",
+        "PRNK",
+        "0M",
+        "0",
+        "APNTNS",
+        "AF",
+        "AL",
+        "0",
+        "FRTS"
+      ],
       "description": "Flies fly out of the vent at Father Callaway. [Video].",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45777,
       "resolved_time_ms": 3773000,
       "type": "major"
     },
@@ -91,26 +148,53 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "STRTT",
+        "A",
+        "MSN",
+        "FR",
+        "ANTNS"
+      ],
       "description": "A figure jumps out at George from inside a cell. [Video].",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41082,
       "resolved_time_ms": 4097000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLS",
+        "HN",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "TN",
+        "HR"
+      ],
       "description": "Kathy begins to walk through the doorway and George appears.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24813,
       "resolved_time_ms": 4383000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "HLP",
+        "M",
+        "PX",
+        "0S",
+        "MM",
+        "AR",
+        "AR",
+        "A",
+        "KNK"
+      ],
       "description": "George grabs Kathy.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44391,
       "resolved_time_ms": 4458000,
       "type": "minor"
     },
@@ -123,18 +207,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "KT",
+        "HM",
+        "AN",
+        "0",
+        "PT"
+      ],
       "description": "George wakes up suddenly.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4112,
       "resolved_time_ms": 4764000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "AFN",
+        "LK",
+        "AT",
+        "AT",
+        "K0"
+      ],
       "description": "The ghost girl is grabbed through the floor.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57587,
       "resolved_time_ms": 4909000,
       "type": "minor"
     }

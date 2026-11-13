@@ -11,10 +11,26 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AKNT",
+        "AT",
+        "AS",
+        "HH",
+        "TM",
+        "T",
+        "KT",
+        "T",
+        "S",
+        "AS",
+        "SN",
+        "AS",
+        "A",
+        "KN"
+      ],
       "description": "Aubrey closes her eyes and the screen cuts to black. A second later, the screen suddenly cuts back in to show the creature standing right above her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48409,
       "resolved_time_ms": 2892000,
       "type": "major"
     },

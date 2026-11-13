@@ -11,18 +11,38 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "JSS",
+        "AT",
+        "AM",
+        "A",
+        "TNK"
+      ],
       "description": "George startles the cameraman",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 150,
       "resolved_time_ms": 721000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "AT",
+        "0",
+        "FK",
+        "AT",
+        "0",
+        "FK"
+      ],
       "description": "One of the hands grabs the cameraman",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6974,
       "resolved_time_ms": 991000,
       "type": "minor"
     },
@@ -35,18 +55,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "KLR",
+        "HL",
+        "MR"
+      ],
       "description": "A monster appears in the camera",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27414,
       "resolved_time_ms": 2486000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "A",
+        "KN",
+        "RPL",
+        "AT",
+        "AN",
+        "AAM",
+        "ST"
+      ],
       "description": "The woman knocks the homeless woman out",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1666,
       "resolved_time_ms": 4950000,
       "type": "minor"
     }

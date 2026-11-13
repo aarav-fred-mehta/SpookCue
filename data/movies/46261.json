@@ -3,10 +3,18 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "TN",
+        "J",
+        "MMKSS",
+        "AFS",
+        "FS",
+        "MNSR"
+      ],
       "description": "The housekeeper trips on the wire and falls down the stairs.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22257,
       "resolved_time_ms": 182000,
       "type": "minor"
     },
@@ -19,26 +27,58 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "FRKT",
+        "M",
+        "PK",
+        "HR",
+        "AT",
+        "AP",
+        "0N",
+        "JJ",
+        "MN",
+        "SK",
+        "T",
+        "T",
+        "L",
+        "PRNTR"
+      ],
       "description": "The fireplace cover falls to the ground.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30540,
       "resolved_time_ms": 1840000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LF",
+        "A",
+        "A",
+        "LF",
+        "A",
+        "J",
+        "TTM",
+        "J",
+        "TTM"
+      ],
       "description": "The teddy-bear suddenly moves forward as Sally goes to touch it.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12080,
       "resolved_time_ms": 2152000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FNS",
+        "XS",
+        "NS",
+        "TSNTS"
+      ],
       "description": "There is a high pitched screaming noise when Sally shines the torch in the fireplace.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8290,
       "resolved_time_ms": 2534000,
       "type": "minor"
     },
@@ -59,10 +99,24 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KLK",
+        "TMPS",
+        "S",
+        "FT",
+        "L",
+        "TR",
+        "T",
+        "PLKT",
+        "T",
+        "SNS",
+        "LSR",
+        "T",
+        "TRS"
+      ],
       "description": "A creature comes out from behind the sink in the bathroom and screeches at Sally.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37680,
       "resolved_time_ms": 3972000,
       "type": "minor"
     }

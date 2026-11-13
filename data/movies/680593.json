@@ -3,10 +3,16 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "0R",
+        "FKN",
+        "MNTS"
+      ],
       "description": "Louise opens the shower curtain and her dad is unexpectedly standing on the other side with his eyes turned white.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15826,
       "resolved_time_ms": 1617000,
       "type": "major"
     },
@@ -27,26 +33,44 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "ATS",
+        "H",
+        "AS",
+        "AFRR"
+      ],
       "description": "A sheep brushes against the chain, causing the hanging horseshoes and bottles to clatter.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23685,
       "resolved_time_ms": 2898000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MKL",
+        "ART",
+        "H",
+        "FKNK",
+        "K"
+      ],
       "description": "The phone once again rings during a quiet scene.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1870,
       "resolved_time_ms": 3159000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MKL",
+        "ART",
+        "H",
+        "FKNK",
+        "K"
+      ],
       "description": "The phone rings again.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26870,
       "resolved_time_ms": 3184000,
       "type": "minor"
     },
@@ -59,10 +83,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFR",
+        "TRLS",
+        "ANT",
+        "TMPTXNS"
+      ],
       "description": "There is a sudden sound of chains.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5662,
       "resolved_time_ms": 4037000,
       "type": "minor"
     },
@@ -83,18 +112,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "ANNT",
+        "AT",
+        "MX",
+        "LNKR"
+      ],
       "description": "The nurse begins to scream from another room.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56682,
       "resolved_time_ms": 4868000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "A",
+        "FRNT",
+        "A",
+        "HF",
+        "AN",
+        "JSS"
+      ],
       "description": "The dad springs up from the bed and attacks Louise.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18741,
       "resolved_time_ms": 5471000,
       "type": "major"
     }

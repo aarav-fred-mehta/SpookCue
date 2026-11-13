@@ -3,34 +3,76 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "AL",
+        "TST",
+        "AS",
+        "HMN",
+        "SKN"
+      ],
       "description": "As the crew explore the Icarus I, something dislodges from the ship and makes a loud bang.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5545,
       "resolved_time_ms": 3006000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "ARNNT",
+        "PHNT",
+        "0",
+        "SKN",
+        "AF",
+        "AKRS",
+        "A",
+        "AT",
+        "JN",
+        "0M"
+      ],
       "description": "Icarus II abruptly disengages from Icarus I.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13173,
       "resolved_time_ms": 3386000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "PNPKR",
+        "NT",
+        "AR",
+        "KT",
+        "MN"
+      ],
       "description": "Pinbacker suddenly attacks Capa.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8022,
       "resolved_time_ms": 4533000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AKRS",
+        "PX",
+        "M",
+        "0R",
+        "T",
+        "MS",
+        "A",
+        "HF",
+        "SM0NK",
+        "ANTRFL",
+        "T",
+        "X",
+        "HM"
+      ],
       "description": "Pinbacker impales Corazon with a scalpel.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11549,
       "resolved_time_ms": 4718000,
       "type": "minor"
     },

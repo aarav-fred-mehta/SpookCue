@@ -3,10 +3,15 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "N",
+        "HLT",
+        "AN"
+      ],
       "description": "The lid of a barrel is removed to reveal a decomposed corpse.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5106,
       "resolved_time_ms": 4153000,
       "type": "minor"
     }

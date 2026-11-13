@@ -3,10 +3,17 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MKNK",
+        "M",
+        "FRKT",
+        "A",
+        "AAM",
+        "HR"
+      ],
       "description": "Some viewers might be startled by a loud gunshot as Ann shoots a zombie.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24497,
       "resolved_time_ms": 4035000,
       "type": "minor"
     },

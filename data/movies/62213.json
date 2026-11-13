@@ -3,18 +3,31 @@
   "runtime_minutes": 113,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NFR",
+        "LKT",
+        "0",
+        "PX",
+        "AN"
+      ],
       "description": "Barnabas appears behind Roger as he searches for the secret room.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48388,
       "resolved_time_ms": 4915000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KMNT",
+        "A",
+        "MK",
+        "M",
+        "SK"
+      ],
       "description": "Angelique suddenly projectile vomits towards Barnabas.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1833,
       "resolved_time_ms": 5758000,
       "type": "minor"
     }

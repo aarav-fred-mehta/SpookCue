@@ -3,26 +3,53 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "0",
+        "FK",
+        "A",
+        "FRM",
+        "HM"
+      ],
       "description": "A hand unexpectedly appears on the bed.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15411,
       "resolved_time_ms": 1315000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "LTTS",
+        "KT",
+        "KRLNK",
+        "0",
+        "XLT",
+        "P",
+        "PK",
+        "AN",
+        "A",
+        "PT"
+      ],
       "description": "During a flashback young Jessie looks across the bed to see a scary looking bald man (the Moonlight Man) licking her feet.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26030,
       "resolved_time_ms": 4000000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "JST",
+        "A",
+        "LTL",
+        "PT",
+        "LNKR"
+      ],
       "description": "Jessie looks in the rear vision mirror and sees the deformed bald man.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36065,
       "resolved_time_ms": 5227000,
       "type": "minor"
     }

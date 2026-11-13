@@ -3,10 +3,20 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "SMN",
+        "AS",
+        "HR",
+        "A0",
+        "AS",
+        "MK",
+        "ARSLF",
+        "NN"
+      ],
       "description": "Kid sees silhouette through the eye-hole of the Ouija set.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14146,
       "resolved_time_ms": 103000,
       "type": "minor"
     },
@@ -19,58 +29,133 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "SSTR",
+        "ANTS",
+        "T",
+        "T",
+        "0S",
+        "S",
+        "JST",
+        "SP",
+        "AT",
+        "ANT",
+        "K",
+        "ALNK"
+      ],
       "description": "Pete jumps out as the group goes exploring through the house.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17615,
       "resolved_time_ms": 1673000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AF",
+        "AT",
+        "AS",
+        "AT",
+        "AF",
+        "XS",
+        "TRNK",
+        "T",
+        "TL",
+        "M",
+        "SM0NK"
+      ],
       "description": "Pete sees a figure in the mirror and is suddenly pushed against it.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12457,
       "resolved_time_ms": 2092000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "KRP",
+        "0",
+        "KRPJ",
+        "AN",
+        "AR",
+        "A",
+        "AT"
+      ],
       "description": "On a car window the words “Hi Friend” are written in dust  all of a sudden a hand slams against the window from the inside.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50853,
       "resolved_time_ms": 2469000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0T",
+        "A",
+        "N",
+        "A",
+        "0T",
+        "AT",
+        "AS",
+        "A"
+      ],
       "description": "Something slams against the door as the girls are listening against it.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25356,
       "resolved_time_ms": 2573000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TP",
+        "AR",
+        "AL",
+        "HR",
+        "FR",
+        "A",
+        "A",
+        "AL",
+        "KT",
+        "AR",
+        "MSJS",
+        "AR",
+        "HR"
+      ],
       "description": "The chair slides along the ground and all of a sudden a piece of the Ouija board moves.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28376,
       "resolved_time_ms": 2723000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KS",
+        "A",
+        "0NK",
+        "A",
+        "XLT",
+        "KT",
+        "AT",
+        "AF"
+      ],
       "description": "Laine looks through the piece of the Ouija set and sees a being with a stitched mouth.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2439,
       "resolved_time_ms": 2901000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "KMNK",
+        "AS",
+        "KMNK"
+      ],
       "description": "Laine looks through the Ouija piece again and sees a demonic figure running towards her. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13293,
       "resolved_time_ms": 2925000,
       "type": "major"
     },
@@ -83,34 +168,68 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLT",
+        "JST",
+        "LF",
+        "A",
+        "XLTNNT",
+        "P",
+        "HR"
+      ],
       "description": "Trevor gets grabbed by something.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7463,
       "resolved_time_ms": 3950000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "N",
+        "NT",
+        "N",
+        "KM",
+        "AN",
+        "STP",
+        "KM",
+        "AN"
+      ],
       "description": "A lady appears behind Laine.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46397,
       "resolved_time_ms": 4122000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MS",
+        "A",
+        "TP",
+        "AL",
+        "0",
+        "TM"
+      ],
       "description": "Debbie morphs into a demonic girl then screams.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39233,
       "resolved_time_ms": 4279000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRFR",
+        "SR",
+        "AR",
+        "PK",
+        "HR"
+      ],
       "description": "Trevor walks towards the pool and spins around to see a screaming decomposed face  he is then thrown back into the pool. [Video].",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35865,
       "resolved_time_ms": 4510000,
       "type": "major"
     },
@@ -123,10 +242,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "0",
+        "PT",
+        "T",
+        "LTTS",
+        "PRN",
+        "0S",
+        "TMN",
+        "0NK"
+      ],
       "description": "Sarah is grabbed and pulled into a hole in the wall.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 689,
       "resolved_time_ms": 4651000,
       "type": "minor"
     }

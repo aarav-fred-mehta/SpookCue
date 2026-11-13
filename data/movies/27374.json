@@ -3,10 +3,18 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "AT",
+        "X",
+        "S",
+        "AN",
+        "0T",
+        "FN"
+      ],
       "description": "The face from Alice’s phone footage suddenly comes towards the camera. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7211,
       "resolved_time_ms": 4249000,
       "type": "major"
     }

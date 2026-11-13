@@ -3,162 +3,330 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "AR",
+        "N",
+        "ARTS",
+        "T",
+        "TSKP",
+        "H",
+        "TSTRSNK",
+        "AT",
+        "AS"
+      ],
       "description": "Luis spins the camera back around and Deborah is suddenly standing right in front of him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9541,
       "resolved_time_ms": 657000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HNKR",
+        "LTTS",
+        "KT",
+        "SM",
+        "LNX"
+      ],
       "description": "A door slams.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10342,
       "resolved_time_ms": 690000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "0T",
+        "AAM",
+        "KN",
+        "K",
+        "XK",
+        "AN",
+        "MM"
+      ],
       "description": "Sarah suddenly appears in the room and begins talking to Deborah.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32923,
       "resolved_time_ms": 1215000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "TTNS",
+        "SR"
+      ],
       "description": "Deborah screams into the camera.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12193,
       "resolved_time_ms": 1341000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "AN",
+        "A",
+        "KT",
+        "ANST",
+        "A",
+        "AR",
+        "SPNK",
+        "MM"
+      ],
       "description": "Deborah suddenly attacks Sarah.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4485,
       "resolved_time_ms": 1625000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "LTS",
+        "KT",
+        "ASS"
+      ],
       "description": "Deborah suddenly appears in front of Luis. [Video]",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3445,
       "resolved_time_ms": 1956000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALRT",
+        "A",
+        "HF",
+        "ST",
+        "TRMS",
+        "N"
+      ],
       "description": "A phone rings loudly.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45495,
       "resolved_time_ms": 2073000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KF",
+        "AR",
+        "AR",
+        "A",
+        "KNK",
+        "A",
+        "TNNT",
+        "N",
+        "AAM",
+        "KNK",
+        "TNSTRS",
+        "T",
+        "MK",
+        "A",
+        "SNTX"
+      ],
       "description": "A door slams shut.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1440,
       "resolved_time_ms": 2126000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "XS",
+        "AN",
+        "0R"
+      ],
       "description": "A loud noise startles the group.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 507,
       "resolved_time_ms": 2183000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "XS",
+        "AN",
+        "0R"
+      ],
       "description": "Something loud clatters inside the closet.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16507,
       "resolved_time_ms": 2199000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "AT",
+        "SS",
+        "HH",
+        "MSNK"
+      ],
       "description": "A loud bang comes from outside followed by several more over the next few seconds.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1214,
       "resolved_time_ms": 3020000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PLF",
+        "XS",
+        "STL",
+        "AN",
+        "0",
+        "PLTNK"
+      ],
       "description": "A loud bang startles the group.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 500,
       "resolved_time_ms": 3233000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "HF",
+        "T",
+        "T",
+        "0S",
+        "N",
+        "N",
+        "TP"
+      ],
       "description": "The television suddenly comes off its stand and slams into Harris.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32133,
       "resolved_time_ms": 3674000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RT",
+        "HR",
+        "AS",
+        "0S",
+        "T",
+        "JST",
+        "KTS",
+        "PTR",
+        "ANT",
+        "PTR"
+      ],
       "description": "A snake crawls out of the bag.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 261,
       "resolved_time_ms": 4056000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "T",
+        "PX",
+        "0",
+        "0NK"
+      ],
       "description": "A face can briefly be seen in the window.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1003,
       "resolved_time_ms": 4106000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFRPT",
+        "TLS",
+        "M",
+        "0R",
+        "TNK"
+      ],
       "description": "Deborah suddenly bites the security guard on the neck.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1569,
       "resolved_time_ms": 4208000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APT",
+        "KTNK",
+        "A",
+        "TN",
+        "0S",
+        "MNTN"
+      ],
       "description": "Deborah spits at one of the police officers.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1044,
       "resolved_time_ms": 4357000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "0",
+        "PJNNK",
+        "A",
+        "LT",
+        "A",
+        "LT",
+        "APT",
+        "M",
+        "KRNTF0R"
+      ],
       "description": "A window breaks in front of Sarah and Mia.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2247,
       "resolved_time_ms": 4489000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "AN",
+        "T",
+        "AT",
+        "A",
+        "KN",
+        "T",
+        "0S"
+      ],
       "description": "Sarah slowly approaches Deborah in an attempt to sedate her, however Deborah spins around and attacks her. [Video]",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22681,
       "resolved_time_ms": 4701000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "SR",
+        "TNNT",
+        "M",
+        "HR",
+        "A",
+        "KM"
+      ],
       "description": "Deborah opens her mouth in a horribly contorted manner and roars at Sarah.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8883,
       "resolved_time_ms": 4818000,
       "type": "minor"
     }

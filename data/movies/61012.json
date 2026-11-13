@@ -11,34 +11,56 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "NFR",
+        "K",
+        "0R"
+      ],
       "description": "A knife suddenly impales Harry.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1583,
       "resolved_time_ms": 251000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "NFR",
+        "K",
+        "0R"
+      ],
       "description": "There is a sudden scene change to a close-up of a pop tart popping out of a toaster.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31583,
       "resolved_time_ms": 281000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "SFT",
+        "A",
+        "ARS",
+        "MM"
+      ],
       "description": "A homeless man’s face suddenly transforms into a disfigured eyeless head.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46871,
       "resolved_time_ms": 650000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "SFT",
+        "A",
+        "ARS",
+        "MM"
+      ],
       "description": "A man startles Heather.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57871,
       "resolved_time_ms": 661000,
       "type": "minor"
     },
@@ -51,10 +73,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AN",
+        "NS",
+        "AAL",
+        "S",
+        "A",
+        "SN"
+      ],
       "description": "A figure crosses in front of Harry as he opens a door.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7989,
       "resolved_time_ms": 1028000,
       "type": "minor"
     },
@@ -67,18 +97,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0",
+        "ANT",
+        "A",
+        "PK",
+        "ASK",
+        "AR",
+        "TT"
+      ],
       "description": "A monster (The Missionary) drops down behind Douglas and attacks him.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5921,
       "resolved_time_ms": 1248000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0",
+        "ANT",
+        "A",
+        "PK",
+        "ASK",
+        "AR",
+        "TT"
+      ],
       "description": "The Missionary appears once more and pulls Douglas away.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59921,
       "resolved_time_ms": 1302000,
       "type": "minor"
     },
@@ -91,26 +139,53 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "TNNT",
+        "ANT",
+        "AN0NK",
+        "T",
+        "HPN",
+        "T",
+        "A"
+      ],
       "description": "Heather has a dream of Alessa in Silent Hill.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20222,
       "resolved_time_ms": 2216000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0T",
+        "ALS",
+        "AS",
+        "0",
+        "KRT",
+        "AFL",
+        "AF",
+        "0",
+        "ARLT"
+      ],
       "description": "Alessa’s image briefly flashes across the screen.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1390,
       "resolved_time_ms": 2305000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FNSNT",
+        "AT",
+        "AS",
+        "KNK",
+        "AN"
+      ],
       "description": "Vincent is grabbed by The Missionary.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3329,
       "resolved_time_ms": 2445000,
       "type": "minor"
     },
@@ -131,10 +206,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TK",
+        "A",
+        "RNK",
+        "TRN",
+        "KT",
+        "LST",
+        "AN",
+        "0",
+        "FK"
+      ],
       "description": "The spider-like creature attacks Heather.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33027,
       "resolved_time_ms": 3133000,
       "type": "minor"
     },
@@ -155,10 +241,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AAF",
+        "KT",
+        "0",
+        "SL",
+        "AF",
+        "MTTRN"
+      ],
       "description": "A prisoner grabs at Heather through some bars. [Video].",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16988,
       "resolved_time_ms": 3879000,
       "type": "major"
     },
@@ -171,10 +266,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TLKNK",
+        "APT"
+      ],
       "description": "Heather looks to her left and sees a man in a gas mask beside her.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54092,
       "resolved_time_ms": 4423000,
       "type": "minor"
     }

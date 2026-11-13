@@ -3,10 +3,21 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "PRPPL",
+        "FNT",
+        "A",
+        "PTR",
+        "AN",
+        "AF",
+        "A",
+        "JST"
+      ],
       "description": "There is a loud bang (like a gunshot).",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39381,
       "resolved_time_ms": 258000,
       "type": "minor"
     },
@@ -19,10 +30,18 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AAM",
+        "XNK",
+        "A",
+        "HS",
+        "RT",
+        "N"
+      ],
       "description": "C appears deep in thought for several seconds before M bangs on the window and startles him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31066,
       "resolved_time_ms": 4841000,
       "type": "minor"
     }

@@ -3,10 +3,16 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LNK",
+        "LF",
+        "0",
+        "N",
+        "FLX"
+      ],
       "description": "As Max pulls the trigger in the tape, the TV suddenly explodes and innards begin to fly out of it.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2320,
       "resolved_time_ms": 5146000,
       "type": "minor"
     }

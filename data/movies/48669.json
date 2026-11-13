@@ -3,10 +3,23 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APRST",
+        "AT",
+        "AF",
+        "A",
+        "KLT",
+        "KP",
+        "0",
+        "NS",
+        "TN",
+        "A",
+        "LTL",
+        "PT"
+      ],
       "description": "A sudden scream startles Nancy.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7650,
       "resolved_time_ms": 2284000,
       "type": "minor"
     }

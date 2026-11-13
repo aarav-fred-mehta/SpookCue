@@ -3,10 +3,21 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LSTN",
+        "T",
+        "M",
+        "LSTN",
+        "0RS",
+        "A",
+        "MN",
+        "AN",
+        "0",
+        "HS"
+      ],
       "description": "Sadie's dad comes bursting through a door.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1051,
       "resolved_time_ms": 1145000,
       "type": "minor"
     },

@@ -3,50 +3,96 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AX",
+        "S",
+        "NRFS",
+        "APT",
+        "KM",
+        "AN"
+      ],
       "description": "A snake slithers out of the rabbit cage.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8779,
       "resolved_time_ms": 795000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "A",
+        "TR",
+        "AAM",
+        "NT",
+        "RT"
+      ],
       "description": "A hand reaches out and grabs Chris.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10941,
       "resolved_time_ms": 1427000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "MSNK",
+        "AFR0NK",
+        "AP"
+      ],
       "description": "The motorcycle gang member gets stabbed by a pitchfork.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41121,
       "resolved_time_ms": 2529000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XL",
+        "AF",
+        "0S",
+        "AS",
+        "AN0R",
+        "AN",
+        "AF",
+        "AR",
+        "TRKS"
+      ],
       "description": "Chuck suddenly bumps into Debbie.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8896,
       "resolved_time_ms": 3264000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "KS",
+        "TNK",
+        "AN",
+        "0R"
+      ],
       "description": "A bag falls from the ceiling.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25726,
       "resolved_time_ms": 3534000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "A",
+        "KS",
+        "AR",
+        "RKNK",
+        "0",
+        "HS"
+      ],
       "description": "A hanging corpse falls from the tree.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47384,
       "resolved_time_ms": 4440000,
       "type": "minor"
     },

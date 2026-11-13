@@ -3,26 +3,46 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "KL",
+        "FR",
+        "MRS",
+        "MRT"
+      ],
       "description": "Eric reaches out to open the door and a maid comes through the door from the other side startling him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56238,
       "resolved_time_ms": 753000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "AT",
+        "AR",
+        "TNK"
+      ],
       "description": "Eric readjusts the mirror a third time and sees a ghostly boy appear behind it.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17913,
       "resolved_time_ms": 1040000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "AT",
+        "AR",
+        "TNK"
+      ],
       "description": "Eric adjusts the mirror once more and in the reflection sees a ghostly boy holding a pitchfork.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48913,
       "resolved_time_ms": 1071000,
       "type": "minor"
     },
@@ -35,10 +55,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "PSNT",
+        "AR",
+        "MNT",
+        "A",
+        "NT",
+        "SM",
+        "AR"
+      ],
       "description": "Henry looks under the bed and a toy train suddenly races past.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58218,
       "resolved_time_ms": 1693000,
       "type": "minor"
     },
@@ -59,10 +88,23 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "TT",
+        "0",
+        "TM",
+        "AFR",
+        "KM",
+        "AN",
+        "A",
+        "HT",
+        "T",
+        "PRTKT",
+        "0M"
+      ],
       "description": "Henry shoots at Sarah.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37221,
       "resolved_time_ms": 3254000,
       "type": "minor"
     },
@@ -75,66 +117,129 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "ANT",
+        "AS",
+        "KFT",
+        "AN",
+        "A",
+        "SPRSTXN"
+      ],
       "description": "Sarah opens a door from the other side startling Eric.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47838,
       "resolved_time_ms": 3481000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "KT",
+        "AT",
+        "A",
+        "ANTT"
+      ],
       "description": "After hanging up the phone, Eric bumps into Ben.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1730,
       "resolved_time_ms": 3585000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "AL",
+        "ANXSTR",
+        "0",
+        "AL",
+        "AL"
+      ],
       "description": "As Ben says “They will all die” he transforms into a spirit.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1290,
       "resolved_time_ms": 3691000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HNR",
+        "S0RT",
+        "AR",
+        "AR",
+        "A"
+      ],
       "description": "Marion turns around and sees a hand sticking out of the rubble.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6876,
       "resolved_time_ms": 4153000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HNR",
+        "S0RT",
+        "AR",
+        "AR",
+        "A"
+      ],
       "description": "Eric opens a door and sees a ghost in front of him.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27876,
       "resolved_time_ms": 4174000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ARK",
+        "0S",
+        "AS",
+        "JST",
+        "AN",
+        "AR",
+        "MNT",
+        "FR",
+        "AS",
+        "JST",
+        "AN",
+        "AR",
+        "MNT"
+      ],
       "description": "A bell rings during a tense scene.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25718,
       "resolved_time_ms": 4204000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MSTR",
+        "HNR",
+        "ANT",
+        "MRN",
+        "A",
+        "NT",
+        "T",
+        "FNT",
+        "0M"
+      ],
       "description": "The wooden train races past Marion.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21601,
       "resolved_time_ms": 4651000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PN",
+        "LF",
+        "M",
+        "FML",
+        "ALN"
+      ],
       "description": "Marion turns around and a spirit is beside her.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20032,
       "resolved_time_ms": 4802000,
       "type": "minor"
     }

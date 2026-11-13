@@ -3,66 +3,131 @@
   "runtime_minutes": 83,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRS",
+        "STRPS",
+        "AST",
+        "FR",
+        "RSTRNT"
+      ],
       "description": "There is a loud bang, and the camera footage cuts out.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20980,
       "resolved_time_ms": 242000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "KRS",
+        "AS",
+        "TSNT",
+        "T",
+        "AKSPLR",
+        "AL",
+        "0S",
+        "KNTXNS"
+      ],
       "description": "A lady on the television screen suddenly lunges at the camera.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38063,
       "resolved_time_ms": 676000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AKNST",
+        "KTTS",
+        "AL",
+        "A",
+        "N"
+      ],
       "description": "Maria suddenly starts to scream at Isabella.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6427,
       "resolved_time_ms": 1448000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "T",
+        "A",
+        "STL",
+        "KT",
+        "NRFS",
+        "AR"
+      ],
       "description": "A dog barks at Isabella from behind a fence.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4083,
       "resolved_time_ms": 2024000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "S",
+        "A",
+        "NT",
+        "LT",
+        "A",
+        "NT",
+        "LT"
+      ],
       "description": "The light turns on and Rosalita is now out of the bed and screaming at the crew.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6421,
       "resolved_time_ms": 2488000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "ASPL",
+        "0S"
+      ],
       "description": "Maria suddenly starts screaming.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2011,
       "resolved_time_ms": 2994000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HS",
+        "AN0NK",
+        "LK",
+        "0S",
+        "AFR",
+        "HPNT",
+        "PFR"
+      ],
       "description": "There is a loud bang while Isabella and Ben are talking.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2802,
       "resolved_time_ms": 3905000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "T",
+        "A",
+        "MN",
+        "A",
+        "TNNT",
+        "N",
+        "A",
+        "TNNT",
+        "N"
+      ],
       "description": "The camera moves around the room and David is seen standing behind Ben.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8635,
       "resolved_time_ms": 3978000,
       "type": "minor"
     }

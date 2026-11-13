@@ -11,34 +11,61 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "LF",
+        "A"
+      ],
       "description": "As girl drives car a flashback to the earlier disaster plays with sound.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20973,
       "resolved_time_ms": 1256000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "RT",
+        "AR",
+        "NT",
+        "KRS"
+      ],
       "description": "Flashback of the previous head explosion death suddenly with a sound.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45526,
       "resolved_time_ms": 2604000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PKS",
+        "0T",
+        "ALT",
+        "P",
+        "FKNK",
+        "KRS"
+      ],
       "description": "Eric is almost hit by a speeding van.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2084,
       "resolved_time_ms": 3754000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KNK",
+        "T",
+        "ST",
+        "ALF",
+        "AS",
+        "LNK",
+        "AS"
+      ],
       "description": "Darlene exclaims \"I'm gonna stay alive as long as..\" before a pole falls over and kills her.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1454,
       "resolved_time_ms": 5760000,
       "type": "minor"
     },

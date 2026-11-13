@@ -11,18 +11,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AN",
+        "HR",
+        "HN",
+        "ATTS",
+        "A",
+        "LTL",
+        "LT",
+        "FR",
+        "T",
+        "F"
+      ],
       "description": "The creature grabs the train conductor.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34929,
       "resolved_time_ms": 1102000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALL",
+        "FR",
+        "AN",
+        "LF",
+        "ANT",
+        "AR"
+      ],
       "description": "An alien hand pierces the cubicle and impales the girl on the toilet.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13233,
       "resolved_time_ms": 2361000,
       "type": "minor"
     },
@@ -43,10 +62,17 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "KLS",
+        "AF",
+        "X",
+        "FLS",
+        "0RTNT"
+      ],
       "description": "Preston startles the rest of the group in the sewers.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22072,
       "resolved_time_ms": 5326000,
       "type": "minor"
     },

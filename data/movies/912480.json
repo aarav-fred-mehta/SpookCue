@@ -3,10 +3,20 @@
   "runtime_minutes": 118,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "ANSR",
+        "0T",
+        "AR",
+        "SL",
+        "FNS",
+        "AR",
+        "TRNT",
+        "AF"
+      ],
       "description": "Dismembodied, loud screeching and wailing.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24060,
       "resolved_time_ms": 5510000,
       "type": "minor"
     },

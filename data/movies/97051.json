@@ -3,26 +3,54 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MT",
+        "A",
+        "MSTK",
+        "A",
+        "XLTTF",
+        "JST",
+        "TLT"
+      ],
       "description": "Dr. Barden is suddenly shot in the head.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2208,
       "resolved_time_ms": 3924000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "0S",
+        "AS",
+        "A",
+        "TT",
+        "T",
+        "A",
+        "HF",
+        "T",
+        "K",
+        "AKN"
+      ],
       "description": "After a momentary silence, there is a loud bang as the dynamite explodes.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12994,
       "resolved_time_ms": 4399000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AKSKTL",
+        "H",
+        "A",
+        "FL"
+      ],
       "description": "Lucas begins talking to Iris but is suddenly shot mid-conversation.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2715,
       "resolved_time_ms": 5168000,
       "type": "minor"
     }

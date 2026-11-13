@@ -51,10 +51,21 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "AT",
+        "TSNNT",
+        "N",
+        "0NK",
+        "A",
+        "0NK",
+        "A",
+        "TPT"
+      ],
       "description": "Bughuul’s face on Ellison’s laptop begins to move.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2525,
       "resolved_time_ms": 3150000,
       "type": "minor"
     },
@@ -75,10 +86,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ST",
+        "A0",
+        "HM",
+        "A",
+        "LFT",
+        "SM0NK",
+        "ATST"
+      ],
       "description": "Several deceased children are seen standing behind Ellison.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29643,
       "resolved_time_ms": 3434000,
       "type": "minor"
     },

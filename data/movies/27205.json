@@ -3,18 +3,40 @@
   "runtime_minutes": 148,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "RMMPR",
+        "AN",
+        "A",
+        "ASKT",
+        "M",
+        "T",
+        "MR",
+        "A"
+      ],
       "description": "She suddenly turns and stares at her with loud audio scare",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7029,
       "resolved_time_ms": 3315000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "KLT",
+        "A",
+        "PRNK",
+        "HR",
+        "HR",
+        "TM",
+        "AT",
+        "AS",
+        "0S",
+        "PLS"
+      ],
       "description": "Accompanied by a loud audio scare, she suddenly runs at them",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3407,
       "resolved_time_ms": 3600000,
       "type": "major"
     }

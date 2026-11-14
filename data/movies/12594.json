@@ -11,18 +11,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "PRFS",
+        "ANT",
+        "A",
+        "M",
+        "AT",
+        "AS",
+        "AT",
+        "APT",
+        "M"
+      ],
       "description": "A quick cut to the Djinn in full makeup.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10937,
       "resolved_time_ms": 2166000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "NT",
+        "AF",
+        "0S",
+        "ARLT"
+      ],
       "description": "The Djinn appears at the shower curtain.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34279,
       "resolved_time_ms": 2806000,
       "type": "minor"
     }

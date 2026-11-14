@@ -11,50 +11,87 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "MM",
+        "A",
+        "TTNNT",
+        "MN"
+      ],
       "description": "Rebecca is pulled underwater",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54909,
       "resolved_time_ms": 314000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TMKM",
+        "TMKM",
+        "TMKM",
+        "TMKM"
+      ],
       "description": "Rebecca bursts out of the water",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4385,
       "resolved_time_ms": 329000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PFR",
+        "A",
+        "KT",
+        "T",
+        "NSTLJK"
+      ],
       "description": "Ray falls into the pool",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23141,
       "resolved_time_ms": 634000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "AS",
+        "AS",
+        "TT",
+        "M",
+        "KX"
+      ],
       "description": "Ray cuts himself cleaning the pool drain",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 197,
       "resolved_time_ms": 1014000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "LK",
+        "TRNK",
+        "T",
+        "KNKR",
+        "T0"
+      ],
       "description": "The pool man trips on the diving board",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2080,
       "resolved_time_ms": 1091000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "SM"
+      ],
       "description": "Eve sees a vision of Ray by the pool",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45797,
       "resolved_time_ms": 1376000,
       "type": "minor"
     },
@@ -67,18 +104,29 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "NM",
+        "AS",
+        "RPK",
+        "SMRS"
+      ],
       "description": "Demonic hand grabs a boy’s arm.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35497,
       "resolved_time_ms": 2167000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RNN",
+        "STP",
+        "PLS",
+        "MRK"
+      ],
       "description": "A ghost appears behind Izzy",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58934,
       "resolved_time_ms": 2754000,
       "type": "minor"
     },
@@ -91,10 +139,16 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "R",
+        "R",
+        "AT",
+        "HPNT",
+        "T"
+      ],
       "description": "Ray wakes up gasping for air",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8694,
       "resolved_time_ms": 3486000,
       "type": "minor"
     },
@@ -115,34 +169,64 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "A",
+        "AAM",
+        "KLNK",
+        "FR",
+        "HLP"
+      ],
       "description": "Demonic father figure suddenly appears yelling.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6265,
       "resolved_time_ms": 4705000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LF",
+        "AS",
+        "T",
+        "HRT",
+        "FR",
+        "ALT"
+      ],
       "description": "Ghosts swim after Eve",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55262,
       "resolved_time_ms": 4799000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "ANN",
+        "AT",
+        "0R",
+        "KL",
+        "FR",
+        "HLP"
+      ],
       "description": "A television suddenly turns on",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18847,
       "resolved_time_ms": 4844000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "M",
+        "SM",
+        "PNTS",
+        "ANT",
+        "KRKR",
+        "JK"
+      ],
       "description": "Ray pops up in the garage",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9694,
       "resolved_time_ms": 4863000,
       "type": "minor"
     }

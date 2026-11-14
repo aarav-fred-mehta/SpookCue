@@ -3,10 +3,18 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANNT",
+        "KN",
+        "S",
+        "AT",
+        "AKN",
+        "M0RFKR"
+      ],
       "description": "The camera cuts back from the mannequin to the cop to reveal a man in a pig mask who suddenly attacks him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13880,
       "resolved_time_ms": 175000,
       "type": "minor"
     },
@@ -19,50 +27,101 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LF",
+        "A",
+        "MSJ",
+        "ANT",
+        "AAL",
+        "KT",
+        "PK",
+        "T",
+        "A"
+      ],
       "description": "As Fitch is walking away, he is jumped by the man in the pig mask.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3560,
       "resolved_time_ms": 1987000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KR",
+        "PRT",
+        "AT",
+        "AR",
+        "HLTNK",
+        "HM",
+        "FR",
+        "KSXNNK"
+      ],
       "description": "After showing the spiral for a few seconds, there is a loud glitch sound and the video cuts away to a pig doll.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19230,
       "resolved_time_ms": 2295000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HLT",
+        "AT",
+        "0R",
+        "KS"
+      ],
       "description": "Zeke opens the car door and a dead pig falls out, startling him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5650,
       "resolved_time_ms": 2357000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANJ",
+        "KT",
+        "T",
+        "0",
+        "PLPN",
+        "HH",
+        "KMNK",
+        "FR",
+        "A"
+      ],
       "description": "The camera pans around the room to reveal the man in the pig mask in front of Angie.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10220,
       "resolved_time_ms": 3581000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "T",
+        "KLS",
+        "T",
+        "0S",
+        "0NK",
+        "SK"
+      ],
       "description": "There is a sudden loud cut from Zeke sitting in his car to him screaming.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6710,
       "resolved_time_ms": 3969000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "SM0NK",
+        "T",
+        "TL",
+        "M",
+        "FK"
+      ],
       "description": "As Zeke walks out the door, he is attacked by the man in the pig mask.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2500,
       "resolved_time_ms": 4003000,
       "type": "major"
     },

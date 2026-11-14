@@ -3,10 +3,17 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "A",
+        "HRT",
+        "A",
+        "S",
+        "SM0NK"
+      ],
       "description": "Dogs suddenly bark as the movie starts",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 736,
       "resolved_time_ms": 56000,
       "type": "minor"
     },

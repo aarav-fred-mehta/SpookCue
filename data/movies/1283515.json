@@ -1,0 +1,45 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 117,
+  "scares": [
+    {
+      "anchor_phonetic": [
+        "0N",
+        "KRS",
+        "ALT",
+        "K",
+        "TNT",
+        "KRSS",
+        "HT",
+        "KM"
+      ],
+      "description": "Accompanied by a loud sound effect, Lowen turns her head to see Verity looking directly at her",
+      "id": "scare_01",
+      "offset_from_anchor_ms": 13750,
+      "resolved_time_ms": 2455000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "AS",
+        "AR",
+        "MM",
+        "PRTNTNK",
+        "LK",
+        "X",
+        "KNNT",
+        "TLK"
+      ],
+      "description": "Crew cuts his own tongue",
+      "id": "scare_02",
+      "offset_from_anchor_ms": 2042,
+      "resolved_time_ms": 4956000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-13T14:49:39.149Z",
+  "sync_type": "subtitles",
+  "title": "Verity",
+  "tmdb_id": 1283515
+}

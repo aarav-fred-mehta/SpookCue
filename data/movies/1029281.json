@@ -1,0 +1,43 @@
+{
+  "release_year": 2024,
+  "runtime_minutes": 97,
+  "scares": [
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts to a man with a loud song",
+      "id": "scare_01",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 62000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man suddenly shoots the chest",
+      "id": "scare_02",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 878000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The scene cuts to the man strangling the woman, with a loud song",
+      "id": "scare_03",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 1569000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "The man shoots the woman in the ear",
+      "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3674000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-13T14:48:21.438Z",
+  "sync_type": "subtitles",
+  "title": "Strange Darling",
+  "tmdb_id": 1029281
+}

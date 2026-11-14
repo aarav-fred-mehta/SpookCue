@@ -3,90 +3,195 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "KT",
+        "T",
+        "K",
+        "ANT",
+        "KT",
+        "0T"
+      ],
       "description": "Lisa and Kate drop the camera and a shark suddenly appears from below and eats it.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 916,
       "resolved_time_ms": 1459000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "H",
+        "TFNTL",
+        "LKS",
+        "T",
+        "LK",
+        "AT",
+        "A"
+      ],
       "description": "There is a loud bang and the cage drops slightly.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2448,
       "resolved_time_ms": 1512000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "AS",
+        "ANN",
+        "0R",
+        "PLS",
+        "SMN",
+        "ANSR",
+        "M"
+      ],
       "description": "The shark passes just above Kate.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3678,
       "resolved_time_ms": 2534000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APN",
+        "0",
+        "HX",
+        "AT",
+        "AS",
+        "A",
+        "XRK"
+      ],
       "description": "The shark bangs into the cage as Kate tries to open the hatch.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3748,
       "resolved_time_ms": 2547000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "AT",
+        "AS",
+        "A",
+        "0T",
+        "AT",
+        "AS",
+        "KN",
+        "KT",
+        "M"
+      ],
       "description": "The shark bites one of the bars on the cage.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6142,
       "resolved_time_ms": 2573000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "AAM",
+        "AN",
+        "A",
+        "KF",
+        "0",
+        "XRK",
+        "ALMST",
+        "KT",
+        "M"
+      ],
       "description": "The shark suddenly attacks Lisa as she approaches the opening of the cavern she is hiding in.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23841,
       "resolved_time_ms": 2933000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "KLM",
+        "ST",
+        "KLM",
+        "ANT",
+        "MK",
+        "A",
+        "TSSN"
+      ],
       "description": "The shark suddenly swims into Lisa.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43464,
       "resolved_time_ms": 3163000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "KLM",
+        "ST",
+        "KLM",
+        "ANT",
+        "MK",
+        "A",
+        "TSSN"
+      ],
       "description": "Lisa bumps into Javier who tells her to get back to the cage, he is then attacked by the shark.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52464,
       "resolved_time_ms": 3172000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "A",
+        "N",
+        "AX",
+        "A",
+        "T",
+        "K"
+      ],
       "description": "Lisa turns around and Javier’s dead body appears right in front of her.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6859,
       "resolved_time_ms": 3232000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "KT",
+        "N",
+        "N",
+        "N",
+        "TNNT",
+        "MF",
+        "ST",
+        "TN",
+        "PLS",
+        "ST",
+        "TN"
+      ],
       "description": "After Kate says “open the hatch” the shark attacks her.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4145,
       "resolved_time_ms": 3777000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AT",
+        "KT",
+        "AT",
+        "JST",
+        "0R",
+        "MR",
+        "MNTS"
+      ],
       "description": "Lisa lights a flare to reveal several sharks are circling them.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6194,
       "resolved_time_ms": 4606000,
       "type": "minor"
     }

@@ -3,26 +3,45 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "KT",
+        "P",
+        "A",
+        "SKRT",
+        "PTN",
+        "SMR"
+      ],
       "description": "After opening a secret cupboard, a doll pops out startling Beth and Vera.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25770,
       "resolved_time_ms": 486000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P0",
+        "P0",
+        "P0",
+        "FKNK",
+        "P0"
+      ],
       "description": "Accompanied by a sound effect, we see the candy truck’s lights in the distance.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22727,
       "resolved_time_ms": 646000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "HLP",
+        "LFKRFT",
+        "JNR"
+      ],
       "description": "A large man suddenly runs at Pauline while she is on the phone.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57616,
       "resolved_time_ms": 772000,
       "type": "minor"
     },
@@ -43,10 +62,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "FRST",
+        "AT",
+        "KT",
+        "P0"
+      ],
       "description": "A screaming Vera bursts through the door and tackles Beth.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15424,
       "resolved_time_ms": 1713000,
       "type": "major"
     },
@@ -67,34 +92,63 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APN",
+        "0",
+        "TR",
+        "FR",
+        "PLS",
+        "PLS"
+      ],
       "description": "As Beth looks through the keyhole, a figure suddenly appears in front of it.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40273,
       "resolved_time_ms": 2470000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AF",
+        "M",
+        "A",
+        "M0RFKR"
+      ],
       "description": "A screaming Vera runs out of the room.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3783,
       "resolved_time_ms": 2523000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "PLS",
+        "ST",
+        "A0",
+        "M",
+        "PLS",
+        "FR"
+      ],
       "description": "Someone bangs on the door grate from the other side as Beth tries to talk to her sister.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18221,
       "resolved_time_ms": 2670000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "PLS",
+        "ST",
+        "A0",
+        "M",
+        "PLS",
+        "FR"
+      ],
       "description": "Beth turns to see the fat man walk past her in the hallway.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39221,
       "resolved_time_ms": 2691000,
       "type": "minor"
     },
@@ -107,10 +161,23 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "LST",
+        "TM",
+        "H",
+        "HT",
+        "M",
+        "AN",
+        "HR",
+        "AT",
+        "AS",
+        "MX",
+        "ARS"
+      ],
       "description": "After opening the door to the cupboard slowly, the mysterious woman rushes at Beth.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57112,
       "resolved_time_ms": 3318000,
       "type": "minor"
     },
@@ -155,18 +222,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AR",
+        "0",
+        "JRLS",
+        "KM",
+        "FRM"
+      ],
       "description": "A man is suddenly shot.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10759,
       "resolved_time_ms": 4426000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "SR",
+        "A",
+        "ANT",
+        "T",
+        "T",
+        "0T"
+      ],
       "description": "As Beth runs towards Vera she suddenly finds herself back in reality as she crashes through a mirror.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35449,
       "resolved_time_ms": 4791000,
       "type": "minor"
     }

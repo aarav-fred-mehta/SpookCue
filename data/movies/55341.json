@@ -11,42 +11,83 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "AN",
+        "N",
+        "FR",
+        "AT"
+      ],
       "description": "Bars shoot out of the ceiling and impale the cop.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8920,
       "resolved_time_ms": 301000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "AS",
+        "0",
+        "LST",
+        "PLS",
+        "A",
+        "S",
+        "AT"
+      ],
       "description": "A hook shoots out of the back of the Creeper Van.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11120,
       "resolved_time_ms": 436000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "A",
+        "STXN",
+        "A0",
+        "0",
+        "AMPNT",
+        "FHKL"
+      ],
       "description": "The Creeper lands on the man in the background.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58680,
       "resolved_time_ms": 760000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "JST",
+        "NKNK",
+        "AL",
+        "TNNT"
+      ],
       "description": "A loud knocking comes from the inside of the Creeper Van after he says “anybody in there?”",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 710,
       "resolved_time_ms": 1803000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "FLS",
+        "AR",
+        "RL",
+        "0T",
+        "SML",
+        "AS",
+        "RL"
+      ],
       "description": "The gates on the truck suddenly slam shut.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22620,
       "resolved_time_ms": 1914000,
       "type": "minor"
     },
@@ -59,18 +100,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RL",
+        "AR",
+        "ANT",
+        "AP",
+        "ATTS",
+        "HPNNK"
+      ],
       "description": "Buddy suddenly opens the truck door.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1180,
       "resolved_time_ms": 2932000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "TRPT",
+        "HM",
+        "AT",
+        "0R",
+        "SMR"
+      ],
       "description": "A bloodied person slams into the window beside Addison.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10680,
       "resolved_time_ms": 3016000,
       "type": "major"
     },
@@ -83,18 +138,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "TX",
+        "0T",
+        "0NK",
+        "AF",
+        "A",
+        "PT",
+        "AR",
+        "HNT",
+        "AN",
+        "AT"
+      ],
       "description": "The hand reaches through a hole in the pot.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43630,
       "resolved_time_ms": 3460000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TR",
+        "0T",
+        "TR",
+        "HNTL"
+      ],
       "description": "Addison accidentally activates a loud horn.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2750,
       "resolved_time_ms": 3765000,
       "type": "minor"
     },
@@ -107,10 +180,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "0S",
+        "AS",
+        "AN",
+        "AMRJNS",
+        "PLS",
+        "HLT",
+        "0",
+        "LN"
+      ],
       "description": "The man on the phone is suddenly pulled off screen.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8180,
       "resolved_time_ms": 5274000,
       "type": "minor"
     }

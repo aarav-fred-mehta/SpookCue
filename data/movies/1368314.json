@@ -19,10 +19,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "KT",
+        "AL",
+        "0",
+        "PKSS"
+      ],
       "description": "A figure can be heard",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6820,
       "resolved_time_ms": 492000,
       "type": "minor"
     },
@@ -43,10 +50,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "S",
+        "0T",
+        "RT"
+      ],
       "description": "A figure is illuminated by the projector",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42750,
       "resolved_time_ms": 3209000,
       "type": "minor"
     },
@@ -75,26 +87,49 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "A",
+        "LST",
+        "A",
+        "PP"
+      ],
       "description": "he transforms into a figure",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5524,
       "resolved_time_ms": 4051000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "AFR0NK",
+        "HL",
+        "0R",
+        "S",
+        "SM0NK",
+        "ANL"
+      ],
       "description": "she startles",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15827,
       "resolved_time_ms": 4629000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "S",
+        "JST",
+        "TRNK",
+        "T",
+        "STP",
+        "AS"
+      ],
       "description": "A figure appears before him",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44731,
       "resolved_time_ms": 5015000,
       "type": "minor"
     },

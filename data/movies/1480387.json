@@ -3,10 +3,18 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "MK",
+        "KL",
+        "AL"
+      ],
       "description": "A loud static noise after a short period of silence while listening to the end of the recording. (major auditory jump scare)",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15107,
       "resolved_time_ms": 909000,
       "type": "major"
     },
@@ -27,10 +35,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "PRNK",
+        "FR",
+        "A",
+        "AAM",
+        "PR"
+      ],
       "description": "Evy's phone rings as she listens to the mothers words on repeat and searches for information about nursery rhymes (minor auditory jump scare)",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41239,
       "resolved_time_ms": 2221000,
       "type": "minor"
     },
@@ -43,50 +58,95 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "APS",
+        "KM",
+        "AN",
+        "APS"
+      ],
       "description": "EDIT SUGGESTION: These mother appearances by this Misco Jones user are simply not jump scares, they're just blurred visuals.\r\n\r\nOnce again, Evy's mom can be seen, now by the stairs while light flashes",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22113,
       "resolved_time_ms": 2995000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "0NK",
+        "AAM",
+        "FT",
+        "T",
+        "P",
+        "A",
+        "MM",
+        "MM"
+      ],
       "description": "Evy was closing door and Mama starts to move and raise in her bed which is seen from the mirror.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35149,
       "resolved_time_ms": 3890000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APL",
+        "AT",
+        "KPRT",
+        "0",
+        "MK"
+      ],
       "description": "Silence is broken by a woman rising into frame from below with an auditory scare",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7916,
       "resolved_time_ms": 4096000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "TX",
+        "AN0NK",
+        "A",
+        "TTNNT"
+      ],
       "description": "Loud static noise comes on in her headphones all of a sudden.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7816,
       "resolved_time_ms": 4780000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASP",
+        "N",
+        "AMK",
+        "ASP",
+        "N",
+        "AMK"
+      ],
       "description": "Screen flashes with an image/sound of Evy suffocating",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33423,
       "resolved_time_ms": 5324000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASP",
+        "N",
+        "AMK",
+        "ASP",
+        "N",
+        "AMK"
+      ],
       "description": "Screen flashes with an image/sound of Evy suffocating/dying again",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41423,
       "resolved_time_ms": 5332000,
       "type": "minor"
     }

@@ -3,34 +3,67 @@
   "runtime_minutes": 84,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "NMS",
+        "ALS",
+        "XS",
+        "SKS"
+      ],
       "description": "A boy runs past a girl in a hallway and says “Where are you?”.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47600,
       "resolved_time_ms": 116000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LF",
+        "A",
+        "P0",
+        "SLP",
+        "TT"
+      ],
       "description": "A man calls out, startling Dr. Arnolds who is napping on a chair.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14910,
       "resolved_time_ms": 750000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "A",
+        "K",
+        "ANT",
+        "KT",
+        "AS",
+        "SM",
+        "MR",
+        "KF"
+      ],
       "description": "Mr Futterman places a hand on Malcolm’s shoulder after he opens the shower door.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57040,
       "resolved_time_ms": 1725000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "A",
+        "KT",
+        "P",
+        "TK",
+        "AT",
+        "AS",
+        "0TTS",
+        "AT"
+      ],
       "description": "As Dr. Arnolds approaches Emily in the corner, she is suddenly attacked by Charlie who screams “I won’t let you!”.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12270,
       "resolved_time_ms": 1957000,
       "type": "major"
     },
@@ -43,50 +76,103 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "ST",
+        "HR"
+      ],
       "description": "The door suddenly shuts on Sarah as she goes to check on Daniel.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27890,
       "resolved_time_ms": 2663000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AA",
+        "SR",
+        "SR",
+        "AK",
+        "AP",
+        "SR",
+        "ATTS",
+        "M"
+      ],
       "description": "Sarah comes out of a doorway behind Dr. Arnolds.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1470,
       "resolved_time_ms": 3052000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "X",
+        "PT",
+        "A0",
+        "HR",
+        "AN",
+        "LF"
+      ],
       "description": "The bed moves across the room.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5120,
       "resolved_time_ms": 3660000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "0S",
+        "AL",
+        "KP",
+        "A",
+        "AP",
+        "TLK",
+        "T",
+        "M",
+        "TNL"
+      ],
       "description": "Daniel is pulled under water.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3580,
       "resolved_time_ms": 3691000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "N",
+        "AN",
+        "SLPLKNK"
+      ],
       "description": "A boy runs past Dr. Arnold.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38870,
       "resolved_time_ms": 4261000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ALT",
+        "A",
+        "S",
+        "0T",
+        "APT",
+        "M",
+        "T0",
+        "A"
+      ],
       "description": "The demon appears on top of Daniel.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14520,
       "resolved_time_ms": 4315000,
       "type": "minor"
     },

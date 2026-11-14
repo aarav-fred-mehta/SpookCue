@@ -19,10 +19,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANTL",
+        "A",
+        "N",
+        "AT",
+        "0",
+        "FKK",
+        "HPNNK"
+      ],
       "description": "Jump cut to some knocking.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48289,
       "resolved_time_ms": 1600000,
       "type": "minor"
     },
@@ -51,18 +59,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "ASNNT",
+        "RL",
+        "0S",
+        "ASNNT",
+        "RL"
+      ],
       "description": "A nazi body falls and is hanged.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23073,
       "resolved_time_ms": 2642000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRK",
+        "A",
+        "FRKT",
+        "T",
+        "TRN",
+        "0",
+        "TP"
+      ],
       "description": "The boy appears in the water and then a moment later behind the soldier.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46291,
       "resolved_time_ms": 3130000,
       "type": "minor"
     },
@@ -75,10 +98,16 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLT",
+        "PR",
+        "AR",
+        "SM0NK"
+      ],
       "description": "The woman appears behind the sniper.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2509,
       "resolved_time_ms": 4160000,
       "type": "minor"
     }

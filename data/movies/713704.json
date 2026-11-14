@@ -3,42 +3,78 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "STL",
+        "AT",
+        "ALT",
+        "LT",
+        "M",
+        "AN"
+      ],
       "description": "Girl on floor opens eyes and starts convulsing",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24114,
       "resolved_time_ms": 273000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XT",
+        "XT",
+        "XT",
+        "XT",
+        "XT",
+        "XT"
+      ],
       "description": "Jess chokes girl",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19322,
       "resolved_time_ms": 297000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0",
+        "PRNLS",
+        "MT",
+        "PPT",
+        "N"
+      ],
       "description": "Jess scalps girl",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1855,
       "resolved_time_ms": 308000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FK",
+        "AT",
+        "N",
+        "N",
+        "N"
+      ],
       "description": "Head gets thrown out of water",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19382,
       "resolved_time_ms": 368000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TN",
+        "RLKS",
+        "A",
+        "MNT",
+        "PRJ"
+      ],
       "description": "Danny falls back after a life size crucifix falls towards him",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14171,
       "resolved_time_ms": 1204000,
       "type": "minor"
     },
@@ -59,10 +95,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "0T",
+        "A",
+        "KLT",
+        "ST",
+        "AN",
+        "HP",
+        "FML"
+      ],
       "description": "When she drops the pan, it is loud. This whole scene has loud music with her awkward movements in turn makes for good jump scares.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19283,
       "resolved_time_ms": 2167000,
       "type": "minor"
     },
@@ -75,18 +120,32 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MMS",
+        "A0",
+        "0",
+        "MKTS",
+        "N"
+      ],
       "description": "Ellie charges Beth",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59883,
       "resolved_time_ms": 2706000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "FRM",
+        "AL",
+        "A",
+        "TT",
+        "SKNK",
+        "PRSTS"
+      ],
       "description": "Ellie charges daughter",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3553,
       "resolved_time_ms": 2750000,
       "type": "minor"
     },
@@ -99,10 +158,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N0NK",
+        "A",
+        "PK",
+        "ALT",
+        "HK",
+        "ANT",
+        "KS",
+        "FRM",
+        "A",
+        "ANNT",
+        "FKS"
+      ],
       "description": "Ellie ties to grab Kassie through the door",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35261,
       "resolved_time_ms": 3369000,
       "type": "minor"
     },
@@ -115,18 +186,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "PK",
+        "KFR",
+        "AR",
+        "ARS"
+      ],
       "description": "Ellie screams Bethy-boo unexpectedly and charges at Beth",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6372,
       "resolved_time_ms": 4401000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "A",
+        "AT",
+        "N",
+        "A",
+        "AT",
+        "N",
+        "A",
+        "AT"
+      ],
       "description": "Elevator falls to the bottom and blood explodes out to camera",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57783,
       "resolved_time_ms": 4645000,
       "type": "minor"
     },
@@ -147,10 +234,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "A",
+        "XNS",
+        "AAM",
+        "PKNK",
+        "A",
+        "AP",
+        "AN"
+      ],
       "description": "Loud clanging noises for the next 20 seconds and then a camera zooms quickly to girl",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51825,
       "resolved_time_ms": 5392000,
       "type": "minor"
     }

@@ -19,10 +19,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "AT",
+        "AR",
+        "AL",
+        "TN",
+        "AR",
+        "AL",
+        "TN"
+      ],
       "description": "Carol suddenly grabs Wendell on the arm.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35935,
       "resolved_time_ms": 3663000,
       "type": "minor"
     },
@@ -43,34 +52,69 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MN",
+        "H",
+        "TT",
+        "AT",
+        "ANN",
+        "ALT",
+        "T",
+        "AN",
+        "HS",
+        "STXN"
+      ],
       "description": "As the camera zooms in on Wendell’s face there is a flash of Carol’s ghost screaming at the camera.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1173,
       "resolved_time_ms": 4478000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "TTNNT",
+        "S",
+        "0T",
+        "AN",
+        "KMNK"
+      ],
       "description": "In the horror movie Sam is watching on TV, a girl begins to call out “hello?” while looking out of the shower and is grabbed by her boyfriend scaring her as a joke.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 750,
       "resolved_time_ms": 4814000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "AT",
+        "H",
+        "ANTS",
+        "MNT",
+        "A",
+        "AS",
+        "PLT"
+      ],
       "description": "Sam turns around and the bloody man is standing right in front of her.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43735,
       "resolved_time_ms": 5133000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "0S",
+        "LPRR",
+        "AR",
+        "ARS"
+      ],
       "description": "A hand suddenly reaches out of the burning book very fast.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39485,
       "resolved_time_ms": 6120000,
       "type": "minor"
     }

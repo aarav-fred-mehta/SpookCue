@@ -3,26 +3,55 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "KT",
+        "AR",
+        "TLS",
+        "AAL",
+        "MT",
+        "A",
+        "AN",
+        "0",
+        "TRK"
+      ],
       "description": "A worker is abruptly and quickly pulled out of the frame.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6412,
       "resolved_time_ms": 146000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "0R",
+        "TRNK",
+        "T",
+        "KT",
+        "AT",
+        "XK",
+        "AR",
+        "SN"
+      ],
       "description": "A walkie-talkie suddenly makes a noise.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 373,
       "resolved_time_ms": 1254000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "XK",
+        "AN",
+        "AN",
+        "AAM",
+        "TN",
+        "AFR"
+      ],
       "description": "A cracking sound is heard.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30401,
       "resolved_time_ms": 1291000,
       "type": "minor"
     },
@@ -35,34 +64,66 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "FK",
+        "AT",
+        "HPNT",
+        "KTMN",
+        "AT"
+      ],
       "description": "A loud shriek is heard through the headphones.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 368,
       "resolved_time_ms": 2251000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TRN",
+        "AT",
+        "AP",
+        "LSTN",
+        "T",
+        "0S"
+      ],
       "description": "A man is suddenly pulled toward the mine shaft.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25230,
       "resolved_time_ms": 2282000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "A",
+        "PRX",
+        "RPT",
+        "A",
+        "HF",
+        "A",
+        "PRX"
+      ],
       "description": "A man is grabbed accompanied by a loud sound.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2676,
       "resolved_time_ms": 2702000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "AT",
+        "AT",
+        "0",
+        "FK",
+        "AS",
+        "0T"
+      ],
       "description": "A sudden loud monstrous shriek.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 808,
       "resolved_time_ms": 2817000,
       "type": "minor"
     },
@@ -75,10 +136,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "S",
+        "AT",
+        "ANMR",
+        "XLP",
+        "AR",
+        "STTS",
+        "XT",
+        "XT"
+      ],
       "description": "A walkie-talkie suddenly makes a sound.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1608,
       "resolved_time_ms": 3350000,
       "type": "minor"
     },

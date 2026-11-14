@@ -3,26 +3,51 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0T",
+        "AL",
+        "AF",
+        "AS",
+        "N",
+        "MTR",
+        "H",
+        "TMJT"
+      ],
       "description": "Louis, who appears to be dead, suddenly coughs which startles the mortuary assistant.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35600,
       "resolved_time_ms": 504000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LT",
+        "LS",
+        "ANT",
+        "HS",
+        "ALT",
+        "FRNT",
+        "KT",
+        "RKNTT"
+      ],
       "description": "A book slams down in front of the hamster.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10200,
       "resolved_time_ms": 2150000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TSRF",
+        "PTR",
+        "0N",
+        "0T"
+      ],
       "description": "A loud sound effect may startle some viewers.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41240,
       "resolved_time_ms": 2551000,
       "type": "minor"
     },

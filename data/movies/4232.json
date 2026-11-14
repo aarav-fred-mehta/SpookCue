@@ -3,10 +3,18 @@
   "runtime_minutes": 112,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "T",
+        "0S",
+        "A",
+        "KNNT",
+        "A",
+        "ANNT"
+      ],
       "description": "A chair is thrown through the window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7508,
       "resolved_time_ms": 533000,
       "type": "minor"
     },
@@ -19,138 +27,309 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "JST",
+        "M",
+        "PL",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "HR",
+        "SR",
+        "TNNT",
+        "HT",
+        "M"
+      ],
       "description": "Sidney peers out of the window as Billy pops up.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 900,
       "resolved_time_ms": 802000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "AN",
+        "T",
+        "STN",
+        "AR",
+        "M0R",
+        "SR",
+        "TTNNT"
+      ],
       "description": "A masked man comes out of the door behind Sidney.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14133,
       "resolved_time_ms": 1716000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "0",
+        "TRRS",
+        "LKT",
+        "A",
+        "HRT",
+        "SKMNK",
+        "A",
+        "AL",
+        "RT"
+      ],
       "description": "Billy climbs through the window.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 281,
       "resolved_time_ms": 1788000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STN",
+        "KM",
+        "PK",
+        "STN"
+      ],
       "description": "Sidney opens front door to Deputy Dewey holding the killer’s mask. [Video].",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3741,
       "resolved_time_ms": 1831000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TMN",
+        "LTL",
+        "XTS",
+        "ATTT",
+        "A",
+        "KL",
+        "M"
+      ],
       "description": "Principal Himbry closes the door revealing the masked man standing behind it.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55108,
       "resolved_time_ms": 3184000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "0NK",
+        "S",
+        "K",
+        "KT",
+        "0",
+        "KMR"
+      ],
       "description": "Gale turns around and almost runs into Deputy Dewey.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5012,
       "resolved_time_ms": 3730000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "0",
+        "AN",
+        "A",
+        "ANT",
+        "HLN"
+      ],
       "description": "Some tools fall down.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47247,
       "resolved_time_ms": 3904000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PL",
+        "PL",
+        "AT",
+        "AR",
+        "A",
+        "TN",
+        "HR"
+      ],
       "description": "Billy suddenly appears.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1430,
       "resolved_time_ms": 4075000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HLP",
+        "M",
+        "SMPT",
+        "HLP",
+        "M"
+      ],
       "description": "The masked man grabs Sidney’s arm.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24050,
       "resolved_time_ms": 4912000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "NT",
+        "0",
+        "SLLR"
+      ],
       "description": "Randy pops up beside Gale’s window.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36978,
       "resolved_time_ms": 5164000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "NT",
+        "0",
+        "SLLR"
+      ],
       "description": "Kenny’s dead body slides off the roof onto the windscreen.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 59978,
       "resolved_time_ms": 5187000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "TRNR",
+        "LN",
+        "PLS",
+        "HH",
+        "KNK",
+        "T",
+        "TR",
+        "ANT",
+        "KL",
+        "M"
+      ],
       "description": "The masked man pops up from the back-seat behind Sidney.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4299,
       "resolved_time_ms": 5311000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "HH",
+        "AT",
+        "0R",
+        "N",
+        "JF",
+        "M",
+        "0",
+        "KN",
+        "JF",
+        "M",
+        "0",
+        "KN",
+        "ATTS"
+      ],
       "description": "Billy opens the door and Randy bursts in.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8694,
       "resolved_time_ms": 5420000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ALS",
+        "HT",
+        "A",
+        "0NK",
+        "FR",
+        "A",
+        "ST"
+      ],
       "description": "Randy grabs Sidney while she is kneeling on the floor.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36073,
       "resolved_time_ms": 6069000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "PRPPL",
+        "XLT",
+        "P",
+        "A",
+        "NFR",
+        "0T",
+        "AAT",
+        "P",
+        "S",
+        "HP",
+        "T",
+        "P",
+        "A",
+        "FRJN"
+      ],
       "description": "Billy punches Randy.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3666,
       "resolved_time_ms": 6077000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "0",
+        "MMNT",
+        "AN",
+        "0",
+        "SPSTL",
+        "TT",
+        "KLR",
+        "KMS",
+        "PK",
+        "T",
+        "LF"
+      ],
       "description": "A dead looking Billy reaches out his hand suddenly.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7128,
       "resolved_time_ms": 6152000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "0",
+        "MMNT",
+        "AN",
+        "0",
+        "SPSTL",
+        "TT",
+        "KLR",
+        "KMS",
+        "PK",
+        "T",
+        "LF"
+      ],
       "description": "Sidney’s father falls out of the closet.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15128,
       "resolved_time_ms": 6160000,
       "type": "minor"
     }

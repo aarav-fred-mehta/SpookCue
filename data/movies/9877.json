@@ -3,42 +3,82 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "0",
+        "ANT",
+        "AF",
+        "0",
+        "LN",
+        "N"
+      ],
       "description": "The gas station attendant appears beside Michelle’s window. [Video]",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49208,
       "resolved_time_ms": 259000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "0R",
+        "SKNNK",
+        "KT"
+      ],
       "description": "Damon comes up behind Brenda and Natalie and surprises them. [Video]",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16654,
       "resolved_time_ms": 823000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "H",
+        "AS",
+        "HLF",
+        "NRML",
+        "PFR",
+        "PLJ",
+        "AK"
+      ],
       "description": "Natalie is surprised by the janitor as she enters her campus hall.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13232,
       "resolved_time_ms": 866000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "TK",
+        "A",
+        "PS",
+        "AAL",
+        "P",
+        "RT",
+        "PK"
+      ],
       "description": "Someone appears behind Damon and puts a rope around his neck while he is urinating in the woods.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40651,
       "resolved_time_ms": 1726000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TMN",
+        "XK",
+        "AT",
+        "ANT",
+        "LTTS",
+        "K"
+      ],
       "description": "A hooded figure appears in front of Natalie.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8328,
       "resolved_time_ms": 1766000,
       "type": "minor"
     },
@@ -51,18 +91,34 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "A",
+        "X",
+        "MRSL",
+        "MK",
+        "A",
+        "A",
+        "MNK"
+      ],
       "description": "The killer grabs Tosh around the mouth.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46053,
       "resolved_time_ms": 2371000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASNNT",
+        "HLPNK",
+        "M",
+        "K",
+        "P",
+        "A"
+      ],
       "description": "Natalie opens a door in Professor Wexler’s office and is surprised by a coat resembling the one worn by the killer.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27425,
       "resolved_time_ms": 2940000,
       "type": "minor"
     },
@@ -83,50 +139,93 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANTRSTT",
+        "KT",
+        "NT",
+        "SR"
+      ],
       "description": "A knife appears from underneath the car, and Dean Adams ankle is cut.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16791,
       "resolved_time_ms": 3522000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "A",
+        "TRNK",
+        "T",
+        "JF",
+        "M",
+        "A",
+        "HRT",
+        "ATK",
+        "HR"
+      ],
       "description": "The janitor surprises Reese.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1354,
       "resolved_time_ms": 3777000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "AT",
+        "AR",
+        "KN",
+        "T"
+      ],
       "description": "Sasha walks up to a window as is surprised by the hooded killer appearing on the other side.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20313,
       "resolved_time_ms": 4170000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "KT",
+        "A",
+        "KT",
+        "XLS"
+      ],
       "description": "Sasha runs into the killer on some stairs.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19833,
       "resolved_time_ms": 4234000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "K",
+        "ANT",
+        "TN",
+        "AL",
+        "FNT",
+        "A",
+        "FN"
+      ],
       "description": "Natalie and Paul are surprised by Brenda coming around a corner.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5448,
       "resolved_time_ms": 4480000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "SMPT",
+        "HLP",
+        "M"
+      ],
       "description": "Natalie opens a door and Parker’s dead body falls out.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43308,
       "resolved_time_ms": 4991000,
       "type": "minor"
     },

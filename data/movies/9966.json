@@ -11,18 +11,33 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "0S",
+        "AS",
+        "SM0NK",
+        "A",
+        "N"
+      ],
       "description": "Accompanied by a sound effect, the silhoutte of a bird moves past a window behind Jess.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53248,
       "resolved_time_ms": 590000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "T",
+        "A",
+        "0NK",
+        "AF",
+        "0",
+        "HS"
+      ],
       "description": "As Jess looks through the window we get a quick cut to a closeup of the bird as it flies past the window once more.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 463,
       "resolved_time_ms": 608000,
       "type": "major"
     },
@@ -35,66 +50,146 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "AN",
+        "APRTNT",
+        "KM",
+        "AP",
+        "AT",
+        "0",
+        "PNK"
+      ],
       "description": "A shadow moves past screen.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1974,
       "resolved_time_ms": 873000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JF",
+        "M",
+        "A",
+        "KL",
+        "AF",
+        "A",
+        "ANT",
+        "T",
+        "TSKS",
+        "AT"
+      ],
       "description": "Some ghostly legs can briefly be seen under a sheet as Denise makes the bed.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54598,
       "resolved_time_ms": 959000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "0T",
+        "NS",
+        "ATTS",
+        "KNK",
+        "AN"
+      ],
       "description": "An apparently dead bird suddenly squawks and flies away as Jess prods it with a piece of wood.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4066,
       "resolved_time_ms": 1869000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "SNT",
+        "A",
+        "KR",
+        "AMTTL",
+        "MM",
+        "AR",
+        "A",
+        "ALN"
+      ],
       "description": "The stairs suddenly collapse and several ghostly screams can be heard over the next minute or so.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51752,
       "resolved_time_ms": 2248000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AF",
+        "N",
+        "AR",
+        "KNK",
+        "T",
+        "KLSF",
+        "0S",
+        "AS",
+        "A",
+        "FLS",
+        "ALRM"
+      ],
       "description": "Ghostly hands reach out and grab Jess.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4134,
       "resolved_time_ms": 2338000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "PLS",
+        "PLF",
+        "M",
+        "AAM",
+        "NT",
+        "MKNK",
+        "0S",
+        "AP",
+        "AAM",
+        "TLNK",
+        "0",
+        "TR0"
+      ],
       "description": "There is a sudden transition from a quiet scene back to Jess being held back by the ghostly hands.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3414,
       "resolved_time_ms": 2362000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "AAM",
+        "RL",
+        "SKRT",
+        "KN",
+        "A",
+        "JST",
+        "K",
+        "HM"
+      ],
       "description": "John taps on the window.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5261,
       "resolved_time_ms": 2381000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HPNT",
+        "T",
+        "0T"
+      ],
       "description": "Accompanied by a sound effect, the camera suddenly zooms out.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3974,
       "resolved_time_ms": 2398000,
       "type": "minor"
     },
@@ -107,34 +202,66 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "HPNNK",
+        "T",
+        "M"
+      ],
       "description": "There is a loud bang.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12057,
       "resolved_time_ms": 3088000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "LKT",
+        "JST",
+        "SKRT",
+        "T",
+        "T0"
+      ],
       "description": "Ghostly hands grab Jess once more.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1781,
       "resolved_time_ms": 3128000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HF",
+        "A",
+        "TLT",
+        "AR",
+        "FLKS",
+        "APT",
+        "0S"
+      ],
       "description": "The ghost grabs Jess around the ankle.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 785,
       "resolved_time_ms": 3137000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "AR",
+        "APT",
+        "M",
+        "A",
+        "JST",
+        "TK",
+        "KR",
+        "AF",
+        "AR",
+        "FML"
+      ],
       "description": "A short, jarring flashback might startle some viewers.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8875,
       "resolved_time_ms": 3240000,
       "type": "minor"
     },
@@ -147,10 +274,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AKTL",
+        "0NK",
+        "0T",
+        "A",
+        "ALT",
+        "T",
+        "0S",
+        "T",
+        "MSLF"
+      ],
       "description": "After staring at Jess for several seconds, the ghost suddenly lunges at her.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6192,
       "resolved_time_ms": 3602000,
       "type": "minor"
     },
@@ -163,18 +301,41 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "NT",
+        "HR",
+        "LTTS",
+        "K",
+        "PP",
+        "AX",
+        "AT"
+      ],
       "description": "Accompanied by a sound effect, Denise runs into John.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20295,
       "resolved_time_ms": 4344000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MR",
+        "T",
+        "A",
+        "0NK",
+        "A",
+        "ALT",
+        "LT",
+        "A",
+        "ALK",
+        "AT",
+        "AN",
+        "0S",
+        "FML"
+      ],
       "description": "The door slams shut on Jess and Bobby.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47322,
       "resolved_time_ms": 4439000,
       "type": "minor"
     },
@@ -195,10 +356,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "FML",
+        "AS",
+        "KNK",
+        "T",
+        "STK",
+        "TK0R"
+      ],
       "description": "The pitchfork comes through the door, narrowly missing Jess.",
       "id": "scare_25",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9086,
       "resolved_time_ms": 4600000,
       "type": "minor"
     },
@@ -211,10 +380,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0T",
+        "A",
+        "KLT",
+        "KR",
+        "0TTS",
+        "A",
+        "KR"
+      ],
       "description": "A hand comes out of the mud to grab Jess around the ankle.",
       "id": "scare_27",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5538,
       "resolved_time_ms": 4869000,
       "type": "minor"
     }

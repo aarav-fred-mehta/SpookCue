@@ -11,18 +11,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "P",
+        "KT",
+        "P",
+        "S",
+        "A",
+        "LTR",
+        "LTS"
+      ],
       "description": "During a quiet scene a car suddenly slams on its brakes and runs over a girl.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21378,
       "resolved_time_ms": 1108000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PP",
+        "AS",
+        "TRPNK",
+        "RTS",
+        "TKRTNK"
+      ],
       "description": "Quinn looks around in her sleep and a face jumps at her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56218,
       "resolved_time_ms": 1204000,
       "type": "major"
     },
@@ -43,18 +58,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "FKT",
+        "MN",
+        "LK",
+        "A",
+        "AN",
+        "M",
+        "TM",
+        "TMN"
+      ],
       "description": "Elise follows dark footsteps onto the wall and looks up to see a demon.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36538,
       "resolved_time_ms": 2264000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TLKNK",
+        "APT"
+      ],
       "description": "Quinn’s friend on skype notices someone in the room. Quinn glances around to see a figure behind the curtain.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28578,
       "resolved_time_ms": 2383000,
       "type": "minor"
     },
@@ -83,26 +114,50 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ASNNT",
+        "TRNK",
+        "T",
+        "APST",
+        "HM"
+      ],
       "description": "Elise approaches the back of a female who spreads her hair revealing her face.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29698,
       "resolved_time_ms": 3425000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "M",
+        "FRNT",
+        "H",
+        "A",
+        "MT",
+        "M",
+        "ANT"
+      ],
       "description": "A dark clothed woman jumps at Elise.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35538,
       "resolved_time_ms": 3599000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "KP",
+        "0",
+        "FLXLT",
+        "AN",
+        "0",
+        "KLST"
+      ],
       "description": "The camera spins around to reveal Quinn.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39698,
       "resolved_time_ms": 4115000,
       "type": "minor"
     },

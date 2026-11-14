@@ -3,18 +3,38 @@
   "runtime_minutes": 107,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "0",
+        "T",
+        "FRS",
+        "HT",
+        "SRTN",
+        "ANFRSN",
+        "ST",
+        "AFKTS"
+      ],
       "description": "A young boy lying motionless on the ground suddenly jumps up and attacks a man.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25350,
       "resolved_time_ms": 177000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "0",
+        "T",
+        "FRS",
+        "HT",
+        "SRTN",
+        "ANFRSN",
+        "ST",
+        "AFKTS"
+      ],
       "description": "A bloodied hand appears on a window.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48350,
       "resolved_time_ms": 200000,
       "type": "minor"
     },
@@ -51,10 +71,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0R",
+        "ANN",
+        "ALF",
+        "AN",
+        "HR"
+      ],
       "description": "There is a loud noise as Alice bangs into a metallic object.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33820,
       "resolved_time_ms": 770000,
       "type": "minor"
     },
@@ -67,10 +94,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "STP",
+        "M",
+        "STP",
+        "A",
+        "ANT",
+        "A",
+        "T",
+        "STP",
+        "M"
+      ],
       "description": "The red queen says “behind you” and Alice turns around to see a mutant running at her.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4650,
       "resolved_time_ms": 846000,
       "type": "minor"
     },
@@ -99,10 +137,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SF",
+        "AR",
+        "AM",
+        "0RS",
+        "T",
+        "MN",
+        "AF",
+        "0S",
+        "0NKS"
+      ],
       "description": "Alice shoots a flaming zombie.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1560,
       "resolved_time_ms": 2725000,
       "type": "minor"
     },
@@ -115,26 +163,49 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "0R",
+        "SKRT",
+        "SKRT",
+        "AF",
+        "AT"
+      ],
       "description": "Claire yells out to Alice who turns around as a zombie attacks her.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40080,
       "resolved_time_ms": 3169000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "AP",
+        "0",
+        "PRRS",
+        "KMNK",
+        "PK",
+        "AN"
+      ],
       "description": "The lights start to switch back on.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2790,
       "resolved_time_ms": 3607000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "AP",
+        "0",
+        "PRRS",
+        "KMNK",
+        "PK",
+        "AN"
+      ],
       "description": "The blades of the fan start to spin as Claire and Abigail go through it.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18790,
       "resolved_time_ms": 3623000,
       "type": "minor"
     },
@@ -211,26 +282,46 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PPN",
+        "LT",
+        "AS",
+        "ANS",
+        "HMN"
+      ],
       "description": "Doc puts his hand on Alice’s shoulder.",
       "id": "scare_27",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 810,
       "resolved_time_ms": 4212000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "PLT",
+        "A",
+        "LNK",
+        "KM",
+        "A",
+        "ANT",
+        "L"
+      ],
       "description": "There is a loud (although not unexpected) explosion.",
       "id": "scare_28",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46350,
       "resolved_time_ms": 5447000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TRT",
+        "FL0",
+        "KLN"
+      ],
       "description": "A zombie attacks Dr. Isaacs.",
       "id": "scare_29",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23780,
       "resolved_time_ms": 5616000,
       "type": "minor"
     }

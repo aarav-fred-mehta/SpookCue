@@ -3,34 +3,67 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "TNNT",
+        "MK",
+        "M",
+        "K",
+        "AN",
+        "PLS"
+      ],
       "description": "A sudden blur in front of the screen attacks the girl.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54509,
       "resolved_time_ms": 87000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "JRL",
+        "XS",
+        "XS",
+        "RT",
+        "HR"
+      ],
       "description": "The dead girl suddenly appears behind Martin.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14400,
       "resolved_time_ms": 1589000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XK",
+        "0T",
+        "ANT",
+        "PLS",
+        "TNNT",
+        "JMP",
+        "AT",
+        "PLS",
+        "TNNT",
+        "JMP",
+        "AT"
+      ],
       "description": "The dead girl is suddenly in the doorway.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 471,
       "resolved_time_ms": 3473000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "AT",
+        "LST",
+        "A"
+      ],
       "description": "McKenzie suddenly appears on screen.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23666,
       "resolved_time_ms": 5737000,
       "type": "minor"
     }

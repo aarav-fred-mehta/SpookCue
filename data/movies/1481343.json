@@ -3,42 +3,71 @@
   "runtime_minutes": 106,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "JLFX",
+        "A",
+        "PRMS"
+      ],
       "description": "minor, an eel goes towards a girl and suddenly changes direction with a (not so) loud audio scare",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11709,
       "resolved_time_ms": 1357000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "AS",
+        "TFLLS",
+        "M0",
+        "S"
+      ],
       "description": "bat flies over them",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29834,
       "resolved_time_ms": 1544000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "MR",
+        "SPSL",
+        "TRTMNT"
+      ],
       "description": "very minor, the same (?) eel is now dead and scares her. mostly an audio scare.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26459,
       "resolved_time_ms": 1854000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AP",
+        "AT",
+        "AS",
+        "0T",
+        "AFN",
+        "SF"
+      ],
       "description": "the shark attacks the swimmer",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33542,
       "resolved_time_ms": 2134000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLTTF",
+        "KLT",
+        "M",
+        "MM"
+      ],
       "description": "shark attacks",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47625,
       "resolved_time_ms": 2639000,
       "type": "minor"
     },
@@ -59,26 +88,56 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "TS",
+        "0T",
+        "MN",
+        "A",
+        "LT",
+        "HR",
+        "P",
+        "AN",
+        "XRJ"
+      ],
       "description": "very minor, a girl emerges. might startle one.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4875,
       "resolved_time_ms": 3476000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "AFN",
+        "0NK",
+        "0T",
+        "AR",
+        "KN",
+        "KT",
+        "AT",
+        "AF",
+        "HR"
+      ],
       "description": "very minor, a girl emerges (yes, again). might startle some.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4334,
       "resolved_time_ms": 3947000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "LK",
+        "0",
+        "XRK",
+        "NFR",
+        "STP",
+        "MFNK"
+      ],
       "description": "shark tries to attack",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58000,
       "resolved_time_ms": 4016000,
       "type": "major"
     },
@@ -107,34 +166,70 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "MK",
+        "AT",
+        "AR",
+        "KN",
+        "MK",
+        "AT"
+      ],
       "description": "shark jumps out of water trying to attack",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41125,
       "resolved_time_ms": 4288000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "SR",
+        "AAL",
+        "XK",
+        "AT",
+        "AT",
+        "N",
+        "N"
+      ],
       "description": "shark jumps out of water",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22625,
       "resolved_time_ms": 4521000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "SR",
+        "AAL",
+        "XK",
+        "AT",
+        "AT",
+        "N",
+        "N"
+      ],
       "description": "a girl suddenly appears.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36625,
       "resolved_time_ms": 4535000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "0TTS",
+        "0",
+        "PL",
+        "TNL"
+      ],
       "description": "shark jumps out of water again",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22000,
       "resolved_time_ms": 4560000,
       "type": "minor"
     }

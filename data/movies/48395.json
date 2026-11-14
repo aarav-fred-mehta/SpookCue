@@ -11,18 +11,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKR",
+        "SFT",
+        "ANSTRKXNS",
+        "AT",
+        "0",
+        "FK"
+      ],
       "description": "A blast of air comes from the fireplace.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54523,
       "resolved_time_ms": 1784000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "AN",
+        "HR",
+        "T",
+        "M",
+        "FRST",
+        "SNT",
+        "STP"
+      ],
       "description": "The hand of the corpse moves.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55687,
       "resolved_time_ms": 2246000,
       "type": "minor"
     },

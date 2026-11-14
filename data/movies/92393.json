@@ -1,0 +1,157 @@
+{
+  "release_year": 2012,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "anchor_phonetic": [
+        "A",
+        "ST",
+        "KLS",
+        "T",
+        "M",
+        "A",
+        "K",
+        "A",
+        "AL"
+      ],
+      "description": "The man appears, startling the women",
+      "id": "scare_01",
+      "offset_from_anchor_ms": 54272,
+      "resolved_time_ms": 1951000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "S",
+        "PLS",
+        "JST",
+        "TR",
+        "ANT",
+        "ST",
+        "KLM",
+        "JST",
+        "TR",
+        "T",
+        "ST"
+      ],
+      "description": "Accompanied by a loud roar, Lois gets pulled inside the plane",
+      "id": "scare_02",
+      "offset_from_anchor_ms": 9736,
+      "resolved_time_ms": 2303000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "KT",
+        "HLP",
+        "M",
+        "KLS",
+        "0T",
+        "TR"
+      ],
+      "description": "Laura arrives",
+      "id": "scare_03",
+      "offset_from_anchor_ms": 3691,
+      "resolved_time_ms": 2572000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "TRX",
+        "KT",
+        "AT",
+        "AF",
+        "HR",
+        "XT"
+      ],
+      "description": "The animal is suddenly behind them, making a loud sound",
+      "id": "scare_04",
+      "offset_from_anchor_ms": 489,
+      "resolved_time_ms": 3349000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "KS",
+        "A",
+        "0NK",
+        "A",
+        "NT",
+        "T",
+        "KT",
+        "0",
+        "HL",
+        "AT",
+        "AF",
+        "HR"
+      ],
+      "description": "The animal grabs Charlie",
+      "id": "scare_05",
+      "offset_from_anchor_ms": 2390,
+      "resolved_time_ms": 4422000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "A",
+        "K",
+        "AL",
+        "RT",
+        "M",
+        "KT"
+      ],
+      "description": "They crash the car",
+      "id": "scare_06",
+      "offset_from_anchor_ms": 2612,
+      "resolved_time_ms": 4491000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "AT",
+        "AS",
+        "0T"
+      ],
+      "description": "The animal attacks the car",
+      "id": "scare_07",
+      "offset_from_anchor_ms": 2455,
+      "resolved_time_ms": 4502000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "A",
+        "TTNNT",
+        "SF",
+        "JM"
+      ],
+      "description": "They crash the car",
+      "id": "scare_08",
+      "offset_from_anchor_ms": 957,
+      "resolved_time_ms": 4910000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": [
+        "KP",
+        "FL",
+        "SP",
+        "KNFRMT"
+      ],
+      "description": "The dinosaur runs at the man",
+      "id": "scare_09",
+      "offset_from_anchor_ms": 11529,
+      "resolved_time_ms": 5187000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-13T14:48:10.020Z",
+  "sync_type": "subtitles",
+  "title": "Tape 407",
+  "tmdb_id": 92393
+}

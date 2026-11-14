@@ -3,10 +3,20 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "N",
+        "H",
+        "T",
+        "T",
+        "0NKS",
+        "0T",
+        "ARNNT",
+        "PSPL"
+      ],
       "description": "Minor audio jump scare. The scene transitions to a knock on a door. It's the only thing that could be categorized as a jump scare in the whole movie and it's very subtle.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4287,
       "resolved_time_ms": 3283000,
       "type": "minor"
     }

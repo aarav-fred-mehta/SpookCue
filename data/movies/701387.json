@@ -3,74 +3,154 @@
   "runtime_minutes": 119,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "TNNT",
+        "LT",
+        "0M",
+        "KT",
+        "A",
+        "T"
+      ],
       "description": "Loud sound scene switch",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21640,
       "resolved_time_ms": 1978000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "JRN",
+        "0R",
+        "AL",
+        "P",
+        "ANSTNTNS"
+      ],
       "description": "she gets slap in the face",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 280,
       "resolved_time_ms": 2801000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "ALT",
+        "LK",
+        "T",
+        "MF",
+        "FRRT",
+        "N",
+        "T",
+        "A",
+        "SLXN"
+      ],
       "description": "loud sound scene switch",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2600,
       "resolved_time_ms": 3038000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "RLSNK",
+        "AF",
+        "KRS",
+        "AT",
+        "A",
+        "AR"
+      ],
       "description": "loud sound scene switch",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2440,
       "resolved_time_ms": 3425000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "A",
+        "AKTL",
+        "T",
+        "HF",
+        "A",
+        "RL",
+        "RSN",
+        "T",
+        "P",
+        "HR",
+        "0"
+      ],
       "description": "a man jumps over the table attacks her",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2080,
       "resolved_time_ms": 4096000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "FR",
+        "TN",
+        "A",
+        "FKNK",
+        "FRS"
+      ],
       "description": "man shoots himself in the face with a shotgun",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34200,
       "resolved_time_ms": 4930000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "MM",
+        "PLS",
+        "KM",
+        "AN",
+        "KM",
+        "AN",
+        "AK",
+        "AP"
+      ],
       "description": "loud sound scene switch",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6040,
       "resolved_time_ms": 5108000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "AS",
+        "XSN",
+        "PKS",
+        "X",
+        "AS",
+        "AK"
+      ],
       "description": "loud sound scene switch",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2280,
       "resolved_time_ms": 5440000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "0",
+        "S",
+        "0R",
+        "HR",
+        "N"
+      ],
       "description": "loud sound scene switch",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6360,
       "resolved_time_ms": 5740000,
       "type": "minor"
     }

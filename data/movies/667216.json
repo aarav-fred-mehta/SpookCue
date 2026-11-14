@@ -19,18 +19,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "S",
+        "AT",
+        "0S",
+        "AS",
+        "NN",
+        "NKXPL"
+      ],
       "description": "The body-double suddenly opens his eyes.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11586,
       "resolved_time_ms": 2386000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "TRST",
+        "M",
+        "TNT"
+      ],
       "description": "There is a sudden cut to a man shooting a vase.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7013,
       "resolved_time_ms": 3247000,
       "type": "minor"
     }

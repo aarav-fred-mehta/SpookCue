@@ -19,10 +19,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KKNK",
+        "LTL",
+        "FRNT",
+        "A",
+        "A",
+        "AR"
+      ],
       "description": "Accompanied by a loud sound, the shot abruptly changes to show an old lady in a bathtub.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37354,
       "resolved_time_ms": 684000,
       "type": "minor"
     },
@@ -43,10 +51,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "MNTTS",
+        "A",
+        "K0TRL"
+      ],
       "description": "The shot abruptly changes to show Abra sitting on the edge of her bed, her eyes all white.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38384,
       "resolved_time_ms": 4726000,
       "type": "minor"
     },

@@ -3,10 +3,18 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "JLS",
+        "AF",
+        "RT",
+        "ATTS",
+        "RT"
+      ],
       "description": "Roses’s car runs into a deer.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 550,
       "resolved_time_ms": 620000,
       "type": "minor"
     },
@@ -59,10 +67,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "SR",
+        "KN",
+        "A",
+        "RPT",
+        "0T"
+      ],
       "description": "Chris drives into Georgina.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2550,
       "resolved_time_ms": 5607000,
       "type": "minor"
     },

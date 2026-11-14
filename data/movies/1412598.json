@@ -11,18 +11,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PS",
+        "HH",
+        "FN",
+        "LF",
+        "HM",
+        "ALN"
+      ],
       "description": "Dead janitor in the water",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4796,
       "resolved_time_ms": 1377000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "ATFR",
+        "A",
+        "STPT",
+        "AN",
+        "ASTRT",
+        "AS",
+        "ATPL"
+      ],
       "description": "The whale is passing by Maddie",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56361,
       "resolved_time_ms": 3157000,
       "type": "minor"
     },

@@ -3,26 +3,47 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N0NK",
+        "S",
+        "MX",
+        "FR",
+        "0T"
+      ],
       "description": "Candyman slits Jerrica’s throat.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 805,
       "resolved_time_ms": 1981000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANKSPLKPL",
+        "ALRNK",
+        "APT",
+        "0",
+        "PRMS",
+        "AF",
+        "SNK",
+        "A",
+        "KST"
+      ],
       "description": "Trapped in a mirrored elevator, Anthony looks up and sees Candyman.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50997,
       "resolved_time_ms": 2448000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SPRNKL",
+        "AT",
+        "A0",
+        "T"
+      ],
       "description": "In pitch black darkness, Sherman suddenly turns his flashlight on as Brianna screams.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6008,
       "resolved_time_ms": 4655000,
       "type": "minor"
     }

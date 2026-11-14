@@ -3,10 +3,21 @@
   "runtime_minutes": 123,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "ANTRSTNT",
+        "AAL",
+        "P",
+        "AN",
+        "XRJ",
+        "FRM",
+        "N",
+        "AN"
+      ],
       "description": "Elisa touches the outside of the tank when the creature bangs against it.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16658,
       "resolved_time_ms": 693000,
       "type": "minor"
     },

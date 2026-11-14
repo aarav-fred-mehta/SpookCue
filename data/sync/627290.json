@@ -1,5 +1,24 @@
 {
-  "phonetic_index": [],
+  "phonetic_index": [
+    {
+      "p": [
+        "PT",
+        "SPS",
+        "P",
+        "MSTRN"
+      ],
+      "s": 10372
+    },
+    {
+      "p": [
+        "PT",
+        "SPS",
+        "P",
+        "MSTRN"
+      ],
+      "s": 6055283
+    }
+  ],
   "tmdb_id": 627290,
   "type": "subtitles"
 }

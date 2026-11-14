@@ -3,26 +3,51 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "XK",
+        "0",
+        "JNRTR"
+      ],
       "description": "A shadowy figure appears behind Meera.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52616,
       "resolved_time_ms": 1149000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "PLS",
+        "LF",
+        "HM",
+        "ALN",
+        "PLS",
+        "RN",
+        "RN",
+        "K"
+      ],
       "description": "There is a loud gunshot.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24991,
       "resolved_time_ms": 1395000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "PLS",
+        "LF",
+        "HM",
+        "ALN",
+        "PLS",
+        "RN",
+        "RN",
+        "K"
+      ],
       "description": "A barking dog lunges at the car window.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35991,
       "resolved_time_ms": 1406000,
       "type": "major"
     },
@@ -35,18 +60,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "AR",
+        "KT",
+        "0NK",
+        "AS",
+        "AR",
+        "RT"
+      ],
       "description": "Meera looks up to see a masked man pointing a gun at her.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39158,
       "resolved_time_ms": 2071000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "HSRMNK",
+        "PRT",
+        "A",
+        "A",
+        "KT",
+        "0",
+        "AFT",
+        "KNSLXN"
+      ],
       "description": "A hand suddenly knocks on the car window.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32075,
       "resolved_time_ms": 2164000,
       "type": "minor"
     },
@@ -75,26 +118,49 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "P",
+        "AAL",
+        "P",
+        "RT",
+        "PK",
+        "AAL",
+        "P",
+        "RT",
+        "PK"
+      ],
       "description": "Meera turns around to run and immediately runs into Henry.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2908,
       "resolved_time_ms": 4358000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRSTN",
+        "LSTN",
+        "T",
+        "M"
+      ],
       "description": "Henry suddenly grabs Meera by the shoulder and throws her.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1575,
       "resolved_time_ms": 4914000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "PLS",
+        "PLS",
+        "PLS",
+        "PLS"
+      ],
       "description": "Meera suddenly Strikes Henry from behind.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19783,
       "resolved_time_ms": 5026000,
       "type": "minor"
     }

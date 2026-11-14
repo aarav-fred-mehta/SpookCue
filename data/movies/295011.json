@@ -3,42 +3,88 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "0T",
+        "A",
+        "0RT",
+        "TKTR",
+        "JST",
+        "XRNK"
+      ],
       "description": "A zombie snatches away the plate that Morgan holds out.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44827,
       "resolved_time_ms": 1052000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "ANT",
+        "A",
+        "ANNT",
+        "JF",
+        "AT",
+        "AP",
+        "AFN",
+        "AF",
+        "A",
+        "HF",
+        "T",
+        "ARK",
+        "JPS"
+      ],
       "description": "Several of the infected start attacking Morgan’s car.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3617,
       "resolved_time_ms": 2389000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HS",
+        "NM",
+        "AS",
+        "HNK",
+        "TN"
+      ],
       "description": "One of the apparently dead soldiers suddenly jumps up and bites a man.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24089,
       "resolved_time_ms": 2479000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KNK",
+        "AN",
+        "ALRM",
+        "AN",
+        "0",
+        "KRMTRM"
+      ],
       "description": "A silhouette passes by in the foreground.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14763,
       "resolved_time_ms": 2546000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KNK",
+        "AN",
+        "ALRM",
+        "AN",
+        "0",
+        "KRMTRM"
+      ],
       "description": "An infected person jumps out at Colonel Knox.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31763,
       "resolved_time_ms": 2563000,
       "type": "minor"
     },

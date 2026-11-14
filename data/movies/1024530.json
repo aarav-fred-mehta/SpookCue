@@ -11,42 +11,81 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "JF",
+        "AT",
+        "PK",
+        "AFTR",
+        "A",
+        "PRMS",
+        "A",
+        "JST"
+      ],
       "description": "Grimcutty",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1667,
       "resolved_time_ms": 1412000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "TLK",
+        "T",
+        "A",
+        "APSTRS",
+        "FR",
+        "JST",
+        "A",
+        "SKNT"
+      ],
       "description": "Grimcutty",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11000,
       "resolved_time_ms": 2001000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "PSTNK",
+        "APT",
+        "KRMKT",
+        "N"
+      ],
       "description": "Grimcutty",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4959,
       "resolved_time_ms": 2836000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "TT",
+        "JST",
+        "KLM",
+        "TN"
+      ],
       "description": "Grimcutty",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42875,
       "resolved_time_ms": 3063000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JF",
+        "M",
+        "0",
+        "SSRS",
+        "AX"
+      ],
       "description": "Steam from a pipe",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38250,
       "resolved_time_ms": 5080000,
       "type": "minor"
     }

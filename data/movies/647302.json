@@ -3,26 +3,51 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HF",
+        "A",
+        "TLT",
+        "A",
+        "APT",
+        "KTNK",
+        "AT",
+        "AF",
+        "PT"
+      ],
       "description": "Teddy the bear pops up on the edge of the bed.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 293,
       "resolved_time_ms": 178000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "ANT",
+        "HM",
+        "S",
+        "PTL",
+        "HF",
+        "HM"
+      ],
       "description": "The dollhouse bursts open.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1683,
       "resolved_time_ms": 267000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KTNT",
+        "M",
+        "SPSL",
+        "P"
+      ],
       "description": "A silhouette of a demon appears in the hallway.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45249,
       "resolved_time_ms": 1127000,
       "type": "minor"
     },
@@ -35,10 +60,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "KN",
+        "T",
+        "AR",
+        "KN",
+        "T"
+      ],
       "description": "Jack slaps her across the face.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2509,
       "resolved_time_ms": 4599000,
       "type": "minor"
     }

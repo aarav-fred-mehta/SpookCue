@@ -3,26 +3,48 @@
   "runtime_minutes": 66,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "NS",
+        "AS",
+        "KTNK",
+        "LTR"
+      ],
       "description": "Something falls from the ceiling accompanied by a loud thud.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18570,
       "resolved_time_ms": 225000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SM0NK",
+        "AT",
+        "0R"
+      ],
       "description": "A creature suddenly appears behind the glass.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9770,
       "resolved_time_ms": 2361000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TN",
+        "T",
+        "LK",
+        "0S",
+        "AT",
+        "TSN",
+        "T",
+        "FL",
+        "SF"
+      ],
       "description": "Andy quickly pans the camera to reveal one of the cultists standing next to him.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36870,
       "resolved_time_ms": 3842000,
       "type": "minor"
     }

@@ -3,26 +3,52 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "RMMPRT",
+        "0",
+        "ARTST",
+        "TRM",
+        "A",
+        "HT",
+        "LST",
+        "NT"
+      ],
       "description": "A truck plows into the drivers side of the car that Jessabelle and her boyfriend are in.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2700,
       "resolved_time_ms": 132000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "ANTS",
+        "A",
+        "AT",
+        "AF",
+        "0",
+        "HS"
+      ],
       "description": "Leon appears behind Jessabelle suddenly and turns off the TV.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11140,
       "resolved_time_ms": 1115000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "S",
+        "A",
+        "FR",
+        "HRPL",
+        "T0"
+      ],
       "description": "There is a loud crash from upstairs.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38220,
       "resolved_time_ms": 1675000,
       "type": "minor"
     },
@@ -43,18 +69,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "SNK",
+        "AT",
+        "T",
+        "KL",
+        "0",
+        "SPRTS",
+        "T",
+        "PSS",
+        "SMN"
+      ],
       "description": "Mrs. Davis grabs Jessabelle around the head and pulls her back.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5460,
       "resolved_time_ms": 3709000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "P",
+        "RT",
+        "PK"
+      ],
       "description": "Preston picks up Jessabelle and puts her in his truck, however when she turns around she has transformed into the ghost woman.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51380,
       "resolved_time_ms": 4126000,
       "type": "minor"
     },
@@ -67,10 +110,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "KRST",
+        "AR",
+        "TN",
+        "A0",
+        "AR",
+        "F0RRS",
+        "A0",
+        "LNNS"
+      ],
       "description": "The TV turns on suddenly.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7060,
       "resolved_time_ms": 4428000,
       "type": "minor"
     }

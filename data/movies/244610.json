@@ -3,10 +3,17 @@
   "runtime_minutes": 77,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "ATTS",
+        "N0NK",
+        "0RS",
+        "N0NK",
+        "0R"
+      ],
       "description": "A scary figure appears behind a boy. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3136,
       "resolved_time_ms": 101000,
       "type": "major"
     },
@@ -19,26 +26,48 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "JST",
+        "XTNK",
+        "A0",
+        "0S"
+      ],
       "description": "Damien gets into his car and a masked man can be seen sitting in the back seat.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2065,
       "resolved_time_ms": 1571000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "H",
+        "AL",
+        "RT",
+        "AR",
+        "AR",
+        "A"
+      ],
       "description": "A masked man appears behind Jenni and hits her head.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22653,
       "resolved_time_ms": 1872000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "N0NK",
+        "A",
+        "KN",
+        "T",
+        "APT"
+      ],
       "description": "There is a loud electronic noise as Elizabeth clicks on the link.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25311,
       "resolved_time_ms": 2349000,
       "type": "minor"
     },
@@ -51,10 +80,15 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "AS",
+        "SMPT",
+        "0R"
+      ],
       "description": "A door bursts open and a masked man stands behind it.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20076,
       "resolved_time_ms": 2880000,
       "type": "minor"
     },
@@ -83,10 +117,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "SN",
+        "0M",
+        "AN",
+        "0",
+        "MNTR"
+      ],
       "description": "There is a loud metallic noise.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2203,
       "resolved_time_ms": 3602000,
       "type": "minor"
     },
@@ -107,10 +148,18 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "KM",
+        "AN",
+        "KM",
+        "AN",
+        "KM",
+        "AN"
+      ],
       "description": "A vehicle collides with the car Elizabeth is driving.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26168,
       "resolved_time_ms": 4096000,
       "type": "minor"
     }

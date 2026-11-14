@@ -243,6 +243,7 @@ class PocketTestRunner:
         self.exported_history: List[Dict[str, Any]] = []
         self.phone_movie_time_ms: int = 0
         self.last_status_str = "SEARCHING"
+        self.package_name = "dev.spookcue.debug"
 
     def _load_movie_metadata(self):
         movie_file = PROJECT_ROOT / "data" / "movies" / f"{self.tmdb_id}.json"
@@ -284,7 +285,15 @@ class PocketTestRunner:
         for b_line in battery.splitlines():
             if "level:" in b_line:
                 level = b_line.split(":")[1].strip() + "%"
-        logger.info(f"Target ADB Device: {model} ({self.device_serial}) | Battery: {level}")
+        
+        # Detect debug vs release package
+        pkg_res = self._run_adb(["shell", "pm", "list", "packages", "spookcue"], check=False)
+        if "package:dev.spookcue.debug" in pkg_res.stdout:
+            self.package_name = "dev.spookcue.debug"
+        elif "package:dev.spookcue" in pkg_res.stdout:
+            self.package_name = "dev.spookcue"
+        
+        logger.info(f"Target ADB Device: {model} ({self.device_serial}) | Battery: {level} | Package: {self.package_name}")
 
     def prepare_phone_app(self):
         """Clear logcat and launch SpookCue into the target movie sync screen with optional mode override."""
@@ -296,7 +305,7 @@ class PocketTestRunner:
 
         cmd = [
             "shell", "am", "start",
-            "-n", "dev.spookcue/.MainActivity",
+            "-n", f"{self.package_name}/dev.spookcue.MainActivity",
             "--ei", "tmdb_id", str(self.tmdb_id)
         ]
         if self.sync_mode:
@@ -309,7 +318,7 @@ class PocketTestRunner:
     def stop_phone_app(self):
         """Force stop SpookCue to terminate service and mic recording between tests."""
         logger.debug("Stopping SpookCue app process on device...")
-        self._run_adb(["shell", "am", "force-stop", "dev.spookcue"], check=False)
+        self._run_adb(["shell", "am", "force-stop", self.package_name], check=False)
 
     def _start_logcat_listener(self):
         """Background listener reading Android logcat events in real time."""
@@ -514,7 +523,7 @@ class PocketTestRunner:
         """Pull exported history from phone and generate test report."""
         try:
             pull_res = self._run_adb([
-                "shell", "run-as", "dev.spookcue", "cat", "files/spookcue_sync_history.json"
+                "shell", "run-as", self.package_name, "cat", "files/spookcue_sync_history.json"
             ], check=False)
             if pull_res.returncode == 0 and pull_res.stdout.strip().startswith("["):
                 self.exported_history = json.loads(pull_res.stdout.strip())

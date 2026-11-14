@@ -17,6 +17,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
 import javax.inject.Inject
 import javax.inject.Singleton
 import kotlin.math.abs
@@ -84,6 +86,33 @@ class SyncEngine @Inject constructor(
     private val _lastTranscript = MutableStateFlow("")
     val lastTranscript: StateFlow<String> = _lastTranscript.asStateFlow()
 
+    private val _syncHistory = MutableStateFlow<List<SyncHistoryRecord>>(emptyList())
+    val syncHistory: StateFlow<List<SyncHistoryRecord>> = _syncHistory.asStateFlow()
+
+    private val jsonSerializer = Json { prettyPrint = true }
+
+    fun recordSyncEvent(eventType: String, movieTimeMs: Long, confidence: Float = 1.0f, details: String = "") {
+        val record = SyncHistoryRecord(
+            timestampMs = System.currentTimeMillis(),
+            eventType = eventType,
+            syncMode = currentSyncData?.type ?: "subtitles",
+            movieTimeMs = movieTimeMs,
+            confidence = confidence,
+            details = details
+        )
+        _syncHistory.value = (_syncHistory.value + record).takeLast(100)
+        val confStr = "%.2f".format(confidence)
+        AppLogger.i(TAG, "[SYNC_HISTORY][$eventType] @ ${movieTimeMs / 1000}s (${record.syncMode}, conf: $confStr) - $details")
+    }
+
+    fun getSyncHistoryJson(): String {
+        return jsonSerializer.encodeToString(_syncHistory.value)
+    }
+
+    fun clearHistory() {
+        _syncHistory.value = emptyList()
+    }
+
     private var currentMovie: MovieDetails? = null
     private var currentSyncData: MovieSyncData? = null
     private var sortedPhoneticIndex: List<PhoneticEntry> = emptyList()
@@ -108,6 +137,7 @@ class SyncEngine @Inject constructor(
 
     fun start(movie: MovieDetails, syncData: MovieSyncData) {
         AppLogger.i(TAG, "Starting 3-Stage Sync for '${movie.title}' (type: ${syncData.type}, scares: ${movie.scares.size})")
+        recordSyncEvent("START", 0L, 1.0f, "Starting sync for '${movie.title}'")
         currentMovie = movie
         currentSyncData = syncData
         candidateGroups.clear()
@@ -148,6 +178,7 @@ class SyncEngine @Inject constructor(
 
     fun forceResync() {
         AppLogger.i(TAG, "Force resync requested")
+        recordSyncEvent("RESYNC", 0L, 0f, "Force resync requested")
         candidateGroups.clear()
         pausedResumeCandidates.clear()
         transcriptWindow.clear()
@@ -162,6 +193,7 @@ class SyncEngine @Inject constructor(
         when (val s = _state.value) {
             is SyncState.MoviePlaying -> {
                 AppLogger.i(TAG, "Manual pause requested")
+                recordSyncEvent("PAUSE", movieClock.getCurrentMovieTimeMs(), 1.0f, "Manual pause requested")
                 movieClock.freeze()
                 transcriptWindow.clear()
                 pausedResumeCandidates.clear()
@@ -172,6 +204,7 @@ class SyncEngine @Inject constructor(
             }
             is SyncState.MoviePaused -> {
                 AppLogger.i(TAG, "Manual resume requested")
+                recordSyncEvent("RESUME", movieClock.getCurrentMovieTimeMs(), 1.0f, "Manual resume requested")
                 movieClock.resume()
                 consecutiveMissedCheckpoints = 0
                 _state.value = SyncState.MoviePlaying(
@@ -238,6 +271,7 @@ class SyncEngine @Inject constructor(
                             consecutiveMissedCheckpoints = 0
                             val movieTime = movieClock.getCurrentMovieTimeMs()
                             AppLogger.i(TAG, ">>> FAST-LOCKED! Snapped to movie time: ${movieTime / 1000}s (score: ${best.score}) <<<")
+                            recordSyncEvent("LOCK", movieTime, best.score, "Fast-locked with unique phrase (score: ${(best.score * 100).toInt()}%)")
                             _state.value = SyncState.MoviePlaying(
                                 currentMovieTimeMs = movieTime,
                                 confidence = best.score,
@@ -263,6 +297,7 @@ class SyncEngine @Inject constructor(
                         consecutiveMissedCheckpoints = 0
                         val movieTime = movieClock.getCurrentMovieTimeMs()
                         AppLogger.i(TAG, ">>> CONSENSUS LOCKED! Snapped to movie time: ${movieTime / 1000}s (confidence: ${agreement.score}) <<<")
+                        recordSyncEvent("LOCK", movieTime, agreement.score, "Consensus locked from 2 agreeing utterances (score: ${(agreement.score * 100).toInt()}%)")
                         _state.value = SyncState.MoviePlaying(
                             currentMovieTimeMs = movieTime,
                             confidence = agreement.score,
@@ -271,6 +306,7 @@ class SyncEngine @Inject constructor(
                     } else {
                         candidateGroups.add(CandidateGroup(now, topK))
                         _state.value = currentState.copy(candidatesFound = candidateGroups.size)
+                        recordSyncEvent("CANDIDATE", topK.first().entry.startMs, topK.first().score, "Phonetic candidate (score: ${(topK.first().score * 100).toInt()}%)")
                     }
                 }
             }
@@ -297,6 +333,7 @@ class SyncEngine @Inject constructor(
                         val correction = (DRIFT_DAMPING_FACTOR * drift).toLong()
                         movieClock.adjustOffset(correction)
                         AppLogger.i(TAG, "Applied micro-drift correction: ${correction}ms")
+                        recordSyncEvent("DRIFT", currentMovieTime, best.score, "Micro-drift correction applied: ${correction}ms (drift: ${drift}ms)")
                     }
                     updateDebugInfo(text, windowText, windowTokens, best.score, best.entry.startMs)
                 } else {
@@ -388,6 +425,7 @@ class SyncEngine @Inject constructor(
                         movieClock.snap(result.movieTimeMs)
                         consecutiveMissedCheckpoints = 0
                         AppLogger.i(TAG, ">>> ACOUSTIC HASH LOCKED! Snapped to movie time: ${result.movieTimeMs / 1000}s (votes: ${result.votes}, ratio=%.1f, hits=$newHits) <<<".format(ratio))
+                        recordSyncEvent("LOCK", result.movieTimeMs, result.confidence, "Acoustic hash locked (votes: ${result.votes}, hits: $newHits)")
                         _state.value = SyncState.MoviePlaying(
                             currentMovieTimeMs = result.movieTimeMs,
                             confidence = result.confidence,
@@ -401,6 +439,7 @@ class SyncEngine @Inject constructor(
                         if (newHits > 1) {
                             pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = newHits)
                             AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}, hits: $newHits) confirmed trajectory — awaiting lock")
+                            recordSyncEvent("CANDIDATE", result.movieTimeMs, result.confidence, "Acoustic candidate (votes: ${result.votes}, hits: $newHits)")
                         } else if (prev == null || (now - prev.systemTimeMs) > 1500L || prev.consensusHits == 1 || result.votes >= prev.votes) {
                             pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = 1)
                             AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}) registered — awaiting trajectory confirmation")
@@ -429,6 +468,7 @@ class SyncEngine @Inject constructor(
                         val correction = (DRIFT_DAMPING_FACTOR * drift).toLong()
                         movieClock.adjustOffset(correction)
                         AppLogger.d(TAG, "Applied acoustic hash drift correction: ${correction}ms")
+                        recordSyncEvent("DRIFT", currentMovieTime, 1.0f, "Acoustic drift correction applied: ${correction}ms")
                     }
                 } else {
                     consecutiveMissedCheckpoints++
@@ -442,6 +482,7 @@ class SyncEngine @Inject constructor(
                     movieClock.snap(bounded.movieTimeMs)
                     consecutiveMissedCheckpoints = 0
                     AppLogger.i(TAG, ">>> ACOUSTIC HASH RESUMED! Snapped to ${bounded.movieTimeMs / 1000}s <<<")
+                    recordSyncEvent("RESUME", bounded.movieTimeMs, bounded.confidence, "Acoustic hash resumed")
                     _state.value = SyncState.MoviePlaying(
                         currentMovieTimeMs = bounded.movieTimeMs,
                         confidence = bounded.confidence,
@@ -478,6 +519,7 @@ class SyncEngine @Inject constructor(
     }
 
     fun simulateAcousticLock(movieTimeMs: Long = 600_000L) {
+        recordSyncEvent("LOCK", movieTimeMs, 0.95f, "Simulated acoustic lock")
         movieClock.snap(movieTimeMs)
         pendingAcousticCandidate = null
         consecutiveMissedCheckpoints = 0
@@ -498,6 +540,7 @@ class SyncEngine @Inject constructor(
 
     fun simulateDrift(driftMs: Long) {
         movieClock.adjustOffset(driftMs)
+        recordSyncEvent("DRIFT", movieClock.getCurrentMovieTimeMs(), 1.0f, "Simulated drift: ${driftMs}ms")
         _debugInfo.value = _debugInfo.value.copy(
             lastText = "Simulated Drift: ${driftMs}ms applied"
         )

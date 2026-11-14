@@ -16,6 +16,7 @@ import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.repository.MovieRepository
 import dev.spookcue.service.SpookCueService
 import dev.spookcue.sync.SyncDebugInfo
+import dev.spookcue.sync.SyncHistoryRecord
 import dev.spookcue.sync.SyncEngine
 import dev.spookcue.sync.SyncState
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -64,6 +65,7 @@ class SyncViewModel @Inject constructor(
     val isListening: StateFlow<Boolean> = _isListening.asStateFlow()
 
     val debugInfo: StateFlow<SyncDebugInfo> = syncEngine.debugInfo
+    val syncHistory: StateFlow<List<SyncHistoryRecord>> = syncEngine.syncHistory
 
     private val _isDebugVisible = MutableStateFlow(preferencesManager.isAudioDebug())
     val isDebugVisible: StateFlow<Boolean> = _isDebugVisible.asStateFlow()
@@ -107,6 +109,46 @@ class SyncViewModel @Inject constructor(
 
     fun simulateDrift(driftMs: Long) {
         syncEngine.simulateDrift(driftMs)
+    }
+
+    fun clearSyncHistory() {
+        syncEngine.clearHistory()
+    }
+
+    fun exportSyncHistory(context: Context) {
+        val json = syncEngine.getSyncHistoryJson()
+        val movieTitle = _movie.value?.title ?: "Movie"
+
+        // 1. Log to logcat with clear delimiter for automated ADB capture
+        Log.i("SyncExport", "=== SPOOKCUE_SYNC_EXPORT_START ===")
+        Log.i("SyncExport", json)
+        Log.i("SyncExport", "=== SPOOKCUE_SYNC_EXPORT_END ===")
+
+        // 2. Save to external files dir (accessible via adb pull)
+        try {
+            val exportDir = context.getExternalFilesDir(null) ?: context.filesDir
+            val exportFile = java.io.File(exportDir, "spookcue_sync_history.json")
+            exportFile.writeText(json)
+            Log.i("SyncExport", "Saved sync history to: ${exportFile.absolutePath}")
+        } catch (e: Exception) {
+            Log.e("SyncExport", "Failed to write sync history to file", e)
+        }
+
+        // 3. Launch Android system share sheet
+        try {
+            val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                type = "text/plain"
+                putExtra(Intent.EXTRA_SUBJECT, "SpookCue Sync Log: $movieTitle")
+                putExtra(Intent.EXTRA_TEXT, json)
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            val chooserIntent = Intent.createChooser(shareIntent, "Export SpookCue Sync Log").apply {
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+            context.startActivity(chooserIntent)
+        } catch (e: Exception) {
+            Log.e("SyncExport", "Failed to launch share chooser", e)
+        }
     }
 
 

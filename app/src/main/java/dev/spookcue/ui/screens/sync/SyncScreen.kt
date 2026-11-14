@@ -60,6 +60,12 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.sync.SyncState
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.filled.Share
+import androidx.compose.ui.platform.LocalContext
+import dev.spookcue.sync.SyncHistoryRecord
 import dev.spookcue.ui.components.PulseOverlay
 import dev.spookcue.ui.components.ScareTimeline
 import dev.spookcue.ui.theme.LunarBorder
@@ -95,6 +101,8 @@ fun SyncScreen(
     val isListening by viewModel.isListening.collectAsState()
     val debugInfo by viewModel.debugInfo.collectAsState()
     val isDebugVisible by viewModel.isDebugVisible.collectAsState()
+    val syncHistory by viewModel.syncHistory.collectAsState()
+    val context = LocalContext.current
 
     LaunchedEffect(tmdbId) {
         viewModel.loadMovieAndStartSync(tmdbId)
@@ -272,6 +280,9 @@ fun SyncScreen(
                                 onSimulateDrift = { viewModel.simulateDrift(it) },
                                 onTogglePause = { viewModel.togglePause() },
                                 isAudioHash = movie?.syncType == "audio_hash",
+                                syncHistory = syncHistory,
+                                onExportHistory = { viewModel.exportSyncHistory(context) },
+                                onClearHistory = { viewModel.clearSyncHistory() },
                                 modifier = Modifier
                                     .fillMaxWidth()
                                     .padding(top = 10.dp)
@@ -605,6 +616,9 @@ private fun AudioDebugConsole(
     onSimulateDrift: (Long) -> Unit = {},
     onTogglePause: () -> Unit = {},
     isAudioHash: Boolean = false,
+    syncHistory: List<SyncHistoryRecord> = emptyList(),
+    onExportHistory: () -> Unit = {},
+    onClearHistory: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -842,6 +856,127 @@ private fun AudioDebugConsole(
                     modifier = Modifier.weight(1f)
                 ) {
                     Text("Test Speech #2", fontSize = 9.sp, color = LunarSlate)
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(10.dp))
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(1.dp)
+                .background(LunarBorder)
+        )
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            Text(
+                text = "PREVIOUS SYNCS (${syncHistory.size})",
+                fontSize = 10.sp,
+                fontFamily = FontFamily.Monospace,
+                fontWeight = FontWeight.Bold,
+                color = LunarWhite
+            )
+            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                if (syncHistory.isNotEmpty()) {
+                    OutlinedButton(
+                        onClick = onClearHistory,
+                        border = BorderStroke(1.dp, LunarBorder),
+                        shape = RoundedCornerShape(6.dp),
+                        contentPadding = PaddingValues(horizontal = 6.dp, vertical = 2.dp)
+                    ) {
+                        Text("Clear", fontSize = 9.sp, color = LunarSlateDim)
+                    }
+                }
+                OutlinedButton(
+                    onClick = onExportHistory,
+                    border = BorderStroke(1.dp, TheaterAmber),
+                    shape = RoundedCornerShape(6.dp),
+                    colors = ButtonDefaults.outlinedButtonColors(
+                        containerColor = TheaterAmber.copy(alpha = 0.12f)
+                    ),
+                    contentPadding = PaddingValues(horizontal = 8.dp, vertical = 2.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Share,
+                        contentDescription = "Export Sync Log",
+                        tint = TheaterAmber,
+                        modifier = Modifier.size(11.dp)
+                    )
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text("Export", fontSize = 9.sp, fontWeight = FontWeight.Bold, color = TheaterAmber)
+                }
+            }
+        }
+
+        Spacer(modifier = Modifier.height(6.dp))
+
+        if (syncHistory.isEmpty()) {
+            Text(
+                text = "No sync events recorded yet.",
+                fontSize = 9.sp,
+                fontFamily = FontFamily.Monospace,
+                color = LunarSlateDim
+            )
+        } else {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 140.dp)
+                    .verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                syncHistory.reversed().forEach { event ->
+                    val badgeColor = when (event.eventType) {
+                        "LOCK" -> TheaterAmber
+                        "DRIFT" -> CrimsonLight
+                        "RESUME" -> TheaterAmber
+                        "PAUSE" -> LunarSlate
+                        else -> LunarSlateDim
+                    }
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .background(PureBlack.copy(alpha = 0.6f), RoundedCornerShape(4.dp))
+                            .padding(horizontal = 6.dp, vertical = 4.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Surface(
+                            color = badgeColor.copy(alpha = 0.2f),
+                            shape = RoundedCornerShape(3.dp),
+                            border = BorderStroke(1.dp, badgeColor.copy(alpha = 0.5f))
+                        ) {
+                            Text(
+                                text = event.eventType,
+                                color = badgeColor,
+                                fontSize = 8.sp,
+                                fontFamily = FontFamily.Monospace,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.padding(horizontal = 4.dp, vertical = 1.dp)
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(6.dp))
+                        Text(
+                            text = if (event.movieTimeMs > 0) event.movieTimeMs.formatTimeMs() else "--:--",
+                            fontSize = 9.sp,
+                            fontFamily = FontFamily.Monospace,
+                            fontWeight = FontWeight.Bold,
+                            color = LunarWhite
+                        )
+                        Spacer(modifier = Modifier.width(6.dp))
+                        Text(
+                            text = event.details,
+                            fontSize = 8.sp,
+                            fontFamily = FontFamily.Monospace,
+                            color = LunarSlateDim,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
                 }
             }
         }

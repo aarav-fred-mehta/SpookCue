@@ -1,6 +1,7 @@
 package dev.spookcue
 
 import android.Manifest
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -11,6 +12,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
@@ -28,6 +32,8 @@ class MainActivity : ComponentActivity() {
         Log.i("MainActivity", "RECORD_AUDIO permission granted: $recordAudioGranted")
     }
 
+    private var initialTmdbId by mutableStateOf<Int?>(null)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge(
@@ -35,6 +41,7 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT)
         )
 
+        handleIntent(intent)
         requestRequiredPermissions()
 
         setContent {
@@ -44,9 +51,24 @@ class MainActivity : ComponentActivity() {
                     color = PureBlack
                 ) {
                     val navController = rememberNavController()
-                    NavGraph(navController = navController)
+                    NavGraph(navController = navController, initialTmdbId = initialTmdbId)
                 }
             }
+        }
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        handleIntent(intent)
+    }
+
+    private fun handleIntent(intent: Intent?) {
+        val tmdbExtra = intent?.getIntExtra("tmdb_id", -1)?.takeIf { it > 0 }
+            ?: intent?.data?.lastPathSegment?.toIntOrNull()
+        if (tmdbExtra != null) {
+            Log.i("MainActivity", "Launched with direct tmdbId: $tmdbExtra")
+            initialTmdbId = tmdbExtra
         }
     }
 

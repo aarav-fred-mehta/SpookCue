@@ -22,11 +22,13 @@ sealed class Screen(val route: String) {
 @Composable
 fun NavGraph(
     navController: NavHostController,
+    initialTmdbId: Int? = null,
     modifier: Modifier = Modifier
 ) {
+    val startDestination = initialTmdbId?.let { Screen.Sync.createRoute(it) } ?: Screen.Home.route
     NavHost(
         navController = navController,
-        startDestination = Screen.Home.route,
+        startDestination = startDestination,
         modifier = modifier
     ) {
         composable(Screen.Home.route) {

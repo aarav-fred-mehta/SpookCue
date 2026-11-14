@@ -33,6 +33,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private var initialTmdbId by mutableStateOf<Int?>(null)
+    private var initialSyncMode by mutableStateOf<String?>(null)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,7 +52,7 @@ class MainActivity : ComponentActivity() {
                     color = PureBlack
                 ) {
                     val navController = rememberNavController()
-                    NavGraph(navController = navController, initialTmdbId = initialTmdbId)
+                    NavGraph(navController = navController, initialTmdbId = initialTmdbId, initialSyncMode = initialSyncMode)
                 }
             }
         }
@@ -69,6 +70,11 @@ class MainActivity : ComponentActivity() {
         if (tmdbExtra != null) {
             Log.i("MainActivity", "Launched with direct tmdbId: $tmdbExtra")
             initialTmdbId = tmdbExtra
+        }
+        val modeExtra = intent?.getStringExtra("sync_mode") ?: intent?.data?.getQueryParameter("mode")
+        if (modeExtra != null) {
+            Log.i("MainActivity", "Launched with syncMode override: $modeExtra")
+            initialSyncMode = modeExtra
         }
     }
 

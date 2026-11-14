@@ -84,6 +84,7 @@ import dev.spookcue.util.formatTimeMs
 @Composable
 fun SyncScreen(
     tmdbId: Int,
+    syncModeOverride: String? = null,
     onNavigateBack: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: SyncViewModel = hiltViewModel()
@@ -104,8 +105,8 @@ fun SyncScreen(
     val syncHistory by viewModel.syncHistory.collectAsState()
     val context = LocalContext.current
 
-    LaunchedEffect(tmdbId) {
-        viewModel.loadMovieAndStartSync(tmdbId)
+    LaunchedEffect(tmdbId, syncModeOverride) {
+        viewModel.loadMovieAndStartSync(tmdbId, syncModeOverride)
     }
 
     // 1. OLED Screen Off (Stealth Mode)

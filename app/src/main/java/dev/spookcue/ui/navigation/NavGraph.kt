@@ -23,6 +23,7 @@ sealed class Screen(val route: String) {
 fun NavGraph(
     navController: NavHostController,
     initialTmdbId: Int? = null,
+    initialSyncMode: String? = null,
     modifier: Modifier = Modifier
 ) {
     val startDestination = initialTmdbId?.let { Screen.Sync.createRoute(it) } ?: Screen.Home.route
@@ -51,6 +52,7 @@ fun NavGraph(
             val tmdbId = backStackEntry.arguments?.getInt("tmdbId") ?: -1
             SyncScreen(
                 tmdbId = tmdbId,
+                syncModeOverride = initialSyncMode,
                 onNavigateBack = {
                     navController.popBackStack()
                 }

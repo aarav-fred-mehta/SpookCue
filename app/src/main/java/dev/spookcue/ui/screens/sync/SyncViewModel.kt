@@ -169,7 +169,7 @@ class SyncViewModel @Inject constructor(
         _isScreenOff.value = !_isScreenOff.value
     }
 
-    fun loadMovieAndStartSync(tmdbId: Int) {
+    fun loadMovieAndStartSync(tmdbId: Int, syncModeOverride: String? = null) {
         Log.i(TAG, "loadMovieAndStartSync called with tmdbId: $tmdbId")
         viewModelScope.launch {
             val result = movieRepository.getMovieDetails(tmdbId)
@@ -184,6 +184,9 @@ class SyncViewModel @Inject constructor(
                     putExtra(SpookCueService.EXTRA_TMDB_ID, tmdbId)
                     putExtra(SpookCueService.EXTRA_MOVIE_TITLE, details.title)
                     putExtra(SpookCueService.EXTRA_RUNTIME_MS, details.runtimeMinutes * 60_000L)
+                    if (syncModeOverride != null) {
+                        putExtra(SpookCueService.EXTRA_SYNC_MODE, syncModeOverride)
+                    }
                 }
                 ContextCompat.startForegroundService(context, intent)
             }.onFailure { e ->

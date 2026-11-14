@@ -73,8 +73,9 @@ class SpookCueService : Service() {
                 val title = intent.getStringExtra(EXTRA_MOVIE_TITLE) ?: "Movie"
                 val runtimeMs = intent.getLongExtra(EXTRA_RUNTIME_MS, 3 * 60 * 60 * 1000L)
                 activeMovieTitle = title
+                val syncModeOverride = intent.getStringExtra(EXTRA_SYNC_MODE)
                 startForegroundService(title, runtimeMs)
-                startAcousticSync(tmdbId)
+                startAcousticSync(tmdbId, syncModeOverride)
             }
             NotificationManager.ACTION_OFFSET_MINUS_5S -> {
                 syncEngine.adjustClock(-5000L)
@@ -120,7 +121,7 @@ class SpookCueService : Service() {
         }
     }
 
-    private fun startAcousticSync(tmdbId: Int) {
+    private fun startAcousticSync(tmdbId: Int, overrideSyncMode: String? = null) {
         audioCaptureManager.startCapture()
         vadEngine.reset()
         sttEngine.reset()
@@ -137,8 +138,15 @@ class SpookCueService : Service() {
                     val syncData = syncDataResult.getOrElse {
                         MovieSyncData(tmdbId = tmdbId, type = movie.syncType)
                     }
-                    currentSyncMode = syncData.type
-                    syncEngine.start(movie, syncData)
+                    val effectiveMode = overrideSyncMode ?: syncData.type
+                    currentSyncMode = effectiveMode
+                    val effectiveSyncData = if (effectiveMode != syncData.type) {
+                        syncData.copy(type = effectiveMode)
+                    } else {
+                        syncData
+                    }
+                    AppLogger.i("SpookCueService", "Starting sync engine with effective mode: $currentSyncMode (override: $overrideSyncMode)")
+                    syncEngine.start(movie, effectiveSyncData)
                     scareScheduler.startScheduling(movie.scares)
                     movieRepository.recordMovieSynced(tmdbId)
                 }
@@ -253,5 +261,6 @@ class SpookCueService : Service() {
         const val EXTRA_TMDB_ID = "extra_tmdb_id"
         const val EXTRA_MOVIE_TITLE = "extra_movie_title"
         const val EXTRA_RUNTIME_MS = "extra_runtime_ms"
+        const val EXTRA_SYNC_MODE = "extra_sync_mode"
     }
 }

@@ -134,7 +134,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The alpha infected’s arm shoots through a grate and grabs Doctor Kelson.",
+      "description": "The alpha infected\u2019s arm shoots through a grate and grabs Doctor Kelson.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6146000,
@@ -143,7 +143,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-24T09:41:56.875Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "28 Years Later",
   "tmdb_id": 1100988
 }

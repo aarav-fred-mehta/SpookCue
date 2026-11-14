@@ -36,7 +36,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The alien attacks Hi Hatz’ henchman as he turns around.",
+      "description": "The alien attacks Hi Hatz\u2019 henchman as he turns around.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1984000,
@@ -92,7 +92,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Jerome grabs Pest’s ankle.",
+      "description": "Jerome grabs Pest\u2019s ankle.",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3852000,
@@ -101,7 +101,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:54.084Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Attack The Block",
   "tmdb_id": 59678
 }

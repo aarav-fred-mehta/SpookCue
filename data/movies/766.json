@@ -36,7 +36,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ash shoots Arthur’s sword out of his hand.",
+      "description": "Ash shoots Arthur\u2019s sword out of his hand.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1072000,
@@ -44,7 +44,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ash shoots Arthur’s sword out of his hand.",
+      "description": "Ash shoots Arthur\u2019s sword out of his hand.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1074000,
@@ -125,7 +125,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-06T20:21:30.622Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Army Of Darkness",
   "tmdb_id": 766
 }

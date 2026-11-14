@@ -36,7 +36,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The infected boy suddenly jumps onto the priest’s back.",
+      "description": "The infected boy suddenly jumps onto the priest\u2019s back.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1477000,
@@ -133,7 +133,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:28.021Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Rec 2",
   "tmdb_id": 10664
 }

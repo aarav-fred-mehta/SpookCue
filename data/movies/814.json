@@ -148,7 +148,7 @@
         "AF",
         "KT"
       ],
-      "description": "There is a close up of the werewolf’s face and a loud growling noise before the scene cuts to a train.",
+      "description": "There is a close up of the werewolf\u2019s face and a loud growling noise before the scene cuts to a train.",
       "id": "scare_10",
       "offset_from_anchor_ms": 6460,
       "resolved_time_ms": 3987000,
@@ -216,7 +216,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:46.089Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "An American Werewolf In London",
   "tmdb_id": 814
 }

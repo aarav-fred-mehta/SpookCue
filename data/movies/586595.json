@@ -12,7 +12,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "After Hank says “you should get that thing off him before he floats away” there is a car horn blast and a cut to Hank firing a gun.",
+      "description": "After Hank says \u201cyou should get that thing off him before he floats away\u201d there is a car horn blast and a cut to Hank firing a gun.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 626000,
@@ -36,7 +36,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Hank’s gunshot lights up the area the monster is seen kneeling on the ground.",
+      "description": "As Hank\u2019s gunshot lights up the area the monster is seen kneeling on the ground.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2564000,
@@ -53,7 +53,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.993Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "After Midnight",
   "tmdb_id": 586595
 }

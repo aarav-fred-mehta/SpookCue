@@ -60,7 +60,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy’s claw comes out of the bed.",
+      "description": "Freddy\u2019s claw comes out of the bed.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4098000,
@@ -76,7 +76,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy jumps out from behind Nancy’s bed, just after she has woken from a nightmare. [Video].",
+      "description": "Freddy jumps out from behind Nancy\u2019s bed, just after she has woken from a nightmare. [Video].",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4872000,
@@ -84,7 +84,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy’s hand bursts through the door and grabs Nancy’s mother. [Video].",
+      "description": "Freddy\u2019s hand bursts through the door and grabs Nancy\u2019s mother. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5332000,
@@ -93,7 +93,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.854Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "A Nightmare On Elm Street",
   "tmdb_id": 377
 }

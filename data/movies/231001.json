@@ -20,7 +20,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A man’s face turns to a skeleton.",
+      "description": "A man\u2019s face turns to a skeleton.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1233000,
@@ -28,7 +28,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The man with the crow mask’s face distorts with a loud sound in the background.",
+      "description": "The man with the crow mask\u2019s face distorts with a loud sound in the background.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1267000,
@@ -76,7 +76,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The clown appears in front of the woman’s car window.",
+      "description": "The clown appears in front of the woman\u2019s car window.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3763000,
@@ -84,7 +84,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The woman turns the driver over to see that it’s a man with a severely disfigured face.",
+      "description": "The woman turns the driver over to see that it\u2019s a man with a severely disfigured face.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3819000,
@@ -100,7 +100,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The video suddenly zooms in on the clown’s face.",
+      "description": "The video suddenly zooms in on the clown\u2019s face.",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4399000,
@@ -109,7 +109,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:41.721Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "All Hallows Eve",
   "tmdb_id": 231001
 }

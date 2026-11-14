@@ -4,7 +4,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A Facehugger jumps out of the egg and lands on Kane’s helmet.",
+      "description": "A Facehugger jumps out of the egg and lands on Kane\u2019s helmet.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2068000,
@@ -20,7 +20,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The Facehugger drops onto Ripley’s shoulder.",
+      "description": "The Facehugger drops onto Ripley\u2019s shoulder.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2918000,
@@ -36,7 +36,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Blood spurts out of Kane’s chest and a few seconds later an alien bursts out of it.",
+      "description": "Blood spurts out of Kane\u2019s chest and a few seconds later an alien bursts out of it.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3368000,
@@ -93,7 +93,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-23T21:14:24.963Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Alien",
   "tmdb_id": 348
 }

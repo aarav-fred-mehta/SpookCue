@@ -80,7 +80,7 @@
         "HM",
         "KRSTN"
       ],
-      "description": "A claw suddenly rips through the wall after Nancy says “How do we find him Kristen?”.",
+      "description": "A claw suddenly rips through the wall after Nancy says \u201cHow do we find him Kristen?\u201d.",
       "id": "scare_07",
       "offset_from_anchor_ms": 346,
       "resolved_time_ms": 4242000,
@@ -97,7 +97,7 @@
         "P",
         "ALN"
       ],
-      "description": "Kristen’s mother is pulled through the doorway.",
+      "description": "Kristen\u2019s mother is pulled through the doorway.",
       "id": "scare_08",
       "offset_from_anchor_ms": 2473,
       "resolved_time_ms": 4325000,
@@ -150,7 +150,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.852Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "A Nightmare On Elm Street 3 Dream Warriors",
   "tmdb_id": 10072
 }

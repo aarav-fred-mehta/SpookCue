@@ -116,7 +116,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Scarlet suddenly sees infected Don through her rifle’s night vision lens.",
+      "description": "Scarlet suddenly sees infected Don through her rifle\u2019s night vision lens.",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5118000,
@@ -141,7 +141,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:33.087Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "28 Weeks Later",
   "tmdb_id": 1562
 }

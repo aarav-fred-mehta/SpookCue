@@ -4,7 +4,7 @@
   "scares": [
     {
       "anchor_phonetic": null,
-      "description": "A vehicle suddenly crashes into Michelle’s car.",
+      "description": "A vehicle suddenly crashes into Michelle\u2019s car.",
       "id": "scare_01",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 313000,
@@ -69,7 +69,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:28.022Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "10 Cloverfield Lane",
   "tmdb_id": 333371
 }

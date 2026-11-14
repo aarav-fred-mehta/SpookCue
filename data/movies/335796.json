@@ -12,7 +12,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ellie’s mom bursts into the room causing the group to scream.",
+      "description": "Ellie\u2019s mom bursts into the room causing the group to scream.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 785000,
@@ -20,7 +20,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The sheets are suddenly ripped off Lina’s bed.",
+      "description": "The sheets are suddenly ripped off Lina\u2019s bed.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1492000,
@@ -60,7 +60,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Doris is suddenly beside Lina’s bed.",
+      "description": "Doris is suddenly beside Lina\u2019s bed.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2552000,
@@ -84,7 +84,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Mikey’s body suddenly drops down from a noose. [Video].",
+      "description": "Mikey\u2019s body suddenly drops down from a noose. [Video].",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4300000,
@@ -149,7 +149,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:43.398Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Ouija Origin Of Evil",
   "tmdb_id": 335796
 }

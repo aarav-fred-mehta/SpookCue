@@ -42,7 +42,7 @@
         "AN",
         "AKSTNT"
       ],
-      "description": "As Ed says “that should do it” and lowers the bonnet, Lorraine sees a group of ghosts standing behind him, seconds later one of the ghosts pushes Ed to the ground.",
+      "description": "As Ed says \u201cthat should do it\u201d and lowers the bonnet, Lorraine sees a group of ghosts standing behind him, seconds later one of the ghosts pushes Ed to the ground.",
       "id": "scare_03",
       "offset_from_anchor_ms": 29163,
       "resolved_time_ms": 433000,
@@ -106,7 +106,7 @@
         "AR",
         "FLT"
       ],
-      "description": "As the camera pans across to Daniela, we see the disfigured face of her father beside her and he screams “you did this to me!”.",
+      "description": "As the camera pans across to Daniela, we see the disfigured face of her father beside her and he screams \u201cyou did this to me!\u201d.",
       "id": "scare_07",
       "offset_from_anchor_ms": 520,
       "resolved_time_ms": 3716000,
@@ -203,7 +203,7 @@
         "AAM",
         "SR"
       ],
-      "description": "As Daniela says “everything”, all the objects in the room suddenly turn on at once.",
+      "description": "As Daniela says \u201ceverything\u201d, all the objects in the room suddenly turn on at once.",
       "id": "scare_15",
       "offset_from_anchor_ms": 23079,
       "resolved_time_ms": 4847000,
@@ -265,7 +265,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:45.910Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Annabelle Comes Home",
   "tmdb_id": 521029
 }

@@ -44,7 +44,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The woman’s head moves extremely close to Su-yeon, who then wakes up from her nightmare.",
+      "description": "The woman\u2019s head moves extremely close to Su-yeon, who then wakes up from her nightmare.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2197000,
@@ -92,7 +92,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The stepmother sees something pull back from behind a wall in Su-yeon’s bedroom.",
+      "description": "The stepmother sees something pull back from behind a wall in Su-yeon\u2019s bedroom.",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6218000,
@@ -100,7 +100,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The door closes suddenly and the lights dim while the stepmother is in Su-yeon’s bedroom.",
+      "description": "The door closes suddenly and the lights dim while the stepmother is in Su-yeon\u2019s bedroom.",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 6265000,
@@ -117,7 +117,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:37.071Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "A Tale Of Two Sisters",
   "tmdb_id": 4552
 }

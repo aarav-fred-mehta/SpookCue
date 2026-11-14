@@ -28,7 +28,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy grabs Lisa’s face after she drops the knife.",
+      "description": "Freddy grabs Lisa\u2019s face after she drops the knife.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4053000,
@@ -60,7 +60,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy’s arm breaks through the person sitting behind Jesse and Lisa on the bus.",
+      "description": "Freddy\u2019s arm breaks through the person sitting behind Jesse and Lisa on the bus.",
       "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4947000,
@@ -69,7 +69,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.939Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "A Nightmare On Elm Street Part 2 Freddy S Revenge",
   "tmdb_id": 10014
 }

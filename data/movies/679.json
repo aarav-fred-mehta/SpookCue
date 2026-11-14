@@ -100,7 +100,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ellen’s ankle is grabbed as she tries to climb the ladder.",
+      "description": "Ellen\u2019s ankle is grabbed as she tries to climb the ladder.",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 8893000,
@@ -109,7 +109,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:41.722Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Aliens",
   "tmdb_id": 679
 }

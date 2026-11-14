@@ -44,7 +44,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Marcus steps on a bear trap alerting the aliens to the family’s location.",
+      "description": "Marcus steps on a bear trap alerting the aliens to the family\u2019s location.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1251000,
@@ -68,7 +68,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The body of a dead person falls against Reagan as she releases the first aid box from the train’s restroom.",
+      "description": "The body of a dead person falls against Reagan as she releases the first aid box from the train\u2019s restroom.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2511000,
@@ -76,7 +76,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Reagan doesn’t hear the creature board the train after she falls backward.",
+      "description": "Reagan doesn\u2019t hear the creature board the train after she falls backward.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2529000,
@@ -100,7 +100,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Marcus parts the curtain and discovers Emmett’s wife’s corpse.",
+      "description": "Marcus parts the curtain and discovers Emmett\u2019s wife\u2019s corpse.",
       "id": "scare_13",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3621000,
@@ -149,7 +149,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.992Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "A Quiet Place Part Ii",
   "tmdb_id": 520763
 }

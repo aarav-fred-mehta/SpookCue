@@ -12,7 +12,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Luke stands outside the cabin for a few seconds after he hears noises from the woods. Hutch then appears behind him and calls out “Luke” which may startle some viewers.",
+      "description": "Luke stands outside the cabin for a few seconds after he hears noises from the woods. Hutch then appears behind him and calls out \u201cLuke\u201d which may startle some viewers.",
       "id": "scare_02",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1341000,
@@ -28,7 +28,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "During Luke’s dream there is a sharp high pitched noise.",
+      "description": "During Luke\u2019s dream there is a sharp high pitched noise.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1791000,
@@ -125,7 +125,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-05-05T02:24:12.257Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Ritual",
   "tmdb_id": 433808
 }

@@ -28,7 +28,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Blood explodes out of Oram’s torso.",
+      "description": "Blood explodes out of Oram\u2019s torso.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5002000,
@@ -53,7 +53,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:41.559Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Alien Covenant",
   "tmdb_id": 126889
 }

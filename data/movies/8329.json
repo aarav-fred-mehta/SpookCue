@@ -134,7 +134,7 @@
         "ART",
         "NSS"
       ],
-      "description": "The camera spins around in the attic where a boy’s face appears. [Video].",
+      "description": "The camera spins around in the attic where a boy\u2019s face appears. [Video].",
       "id": "scare_09",
       "offset_from_anchor_ms": 7160,
       "resolved_time_ms": 3951000,
@@ -142,7 +142,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ángela and Pablo try and sneak past an infected person however they make a noise and it turns around.",
+      "description": "\u00c1ngela and Pablo try and sneak past an infected person however they make a noise and it turns around.",
       "id": "scare_10",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4129000,
@@ -150,7 +150,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Ángela screams as she is suddenly dragged away.",
+      "description": "\u00c1ngela screams as she is suddenly dragged away.",
       "id": "scare_11",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4225000,
@@ -159,7 +159,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:28.022Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Rec",
   "tmdb_id": 8329
 }

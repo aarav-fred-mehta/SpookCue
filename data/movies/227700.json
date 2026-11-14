@@ -38,7 +38,7 @@
         "M",
         "TN"
       ],
-      "description": "During a memory flashback, Robert’s face appears in front of young Anna as she looks through a chair.",
+      "description": "During a memory flashback, Robert\u2019s face appears in front of young Anna as she looks through a chair.",
       "id": "scare_04",
       "offset_from_anchor_ms": 664,
       "resolved_time_ms": 1539000,
@@ -65,7 +65,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:46.144Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Anna",
   "tmdb_id": 227700
 }

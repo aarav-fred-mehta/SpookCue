@@ -20,7 +20,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "An infected’s arm breaks through the window.",
+      "description": "An infected\u2019s arm breaks through the window.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1478000,
@@ -44,7 +44,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "An infected’s arm breaks through the door.",
+      "description": "An infected\u2019s arm breaks through the door.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2076000,
@@ -68,7 +68,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The Medeiros girl from the first two films appears in the TV screen’s reflection behind Koldo.",
+      "description": "The Medeiros girl from the first two films appears in the TV screen\u2019s reflection behind Koldo.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2545000,
@@ -117,7 +117,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:28.021Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Rec 3 Genesis",
   "tmdb_id": 80280
 }

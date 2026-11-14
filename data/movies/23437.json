@@ -28,7 +28,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Someone jumps into view from outside Kris’s window.",
+      "description": "Someone jumps into view from outside Kris\u2019s window.",
       "id": "scare_04",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1424000,
@@ -36,7 +36,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A silhouette walks past the camera when  Kris is in a hallway.",
+      "description": "A silhouette walks past the camera when\u00a0 Kris is in a hallway.",
       "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1650000,
@@ -44,7 +44,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Kris lies back down on her bed but Freddy is lying there and says “found you”.",
+      "description": "Kris lies back down on her bed but Freddy is lying there and says \u201cfound you\u201d.",
       "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1763000,
@@ -108,7 +108,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Jesse hides in the closet, Freddy appears next to her and says “boo!”.",
+      "description": "As Jesse hides in the closet, Freddy appears next to her and says \u201cboo!\u201d.",
       "id": "scare_14",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4970000,
@@ -116,7 +116,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Freddy appears in the mirror behind Nancy’s mother.",
+      "description": "Freddy appears in the mirror behind Nancy\u2019s mother.",
       "id": "scare_15",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 5428000,
@@ -125,7 +125,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.855Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "A Nightmare On Elm Street",
   "tmdb_id": 23437
 }

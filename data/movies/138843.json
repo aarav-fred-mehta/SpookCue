@@ -20,7 +20,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "The door to the girl’s bedroom slams shut.",
+      "description": "The door to the girl\u2019s bedroom slams shut.",
       "id": "scare_03",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 1972000,
@@ -52,7 +52,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A monster appears on the top of the girl’s closet.",
+      "description": "A monster appears on the top of the girl\u2019s closet.",
       "id": "scare_07",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 2560000,
@@ -68,7 +68,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "As Roger leaves a room, a lady shouts “look what you made me do!”.",
+      "description": "As Roger leaves a room, a lady shouts \u201clook what you made me do!\u201d.",
       "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4360000,
@@ -92,7 +92,7 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "Nancy’s hair gets pulled upwards.",
+      "description": "Nancy\u2019s hair gets pulled upwards.",
       "id": "scare_12",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4830000,
@@ -109,7 +109,7 @@
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-06-12T02:58:54.613Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Conjuring",
   "tmdb_id": 138843
 }

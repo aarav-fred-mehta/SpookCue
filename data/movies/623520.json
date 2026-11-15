@@ -3,26 +3,51 @@
   "runtime_minutes": 83,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "TSNNT",
+        "ANT",
+        "KRST",
+        "AN",
+        "HS",
+        "SNTX"
+      ],
       "description": "Josh is behind the fridge door holding a knife.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2682,
       "resolved_time_ms": 1030000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AS",
+        "AS",
+        "AS",
+        "AS",
+        "N",
+        "A",
+        "TNNT",
+        "LK",
+        "AT"
+      ],
       "description": "A creature follows Josh through the tube.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28923,
       "resolved_time_ms": 1149000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "TNL",
+        "JRJ",
+        "KL"
+      ],
       "description": "Daniel hits the balcony behind the parents.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 904,
       "resolved_time_ms": 1682000,
       "type": "minor"
     },
@@ -35,10 +60,15 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JX",
+        "MXNKL",
+        "FS",
+        "S"
+      ],
       "description": "Multiple toy lights start flashing.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47506,
       "resolved_time_ms": 3211000,
       "type": "minor"
     },
@@ -51,26 +81,49 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SR",
+        "A",
+        "FRKT",
+        "A",
+        "N"
+      ],
       "description": "Z bangs on the table and startles",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3173,
       "resolved_time_ms": 3709000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "A",
+        "XLT",
+        "K",
+        "PLS"
+      ],
       "description": "Z is standing behind the doctor.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2685,
       "resolved_time_ms": 3905000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "HF",
+        "T",
+        "PL",
+        "0S",
+        "KM",
+        "TNT"
+      ],
       "description": "The flashlight reveals a hanging body.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31407,
       "resolved_time_ms": 4170000,
       "type": "minor"
     }

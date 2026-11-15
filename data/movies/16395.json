@@ -11,26 +11,52 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "HS",
+        "A",
+        "LF",
+        "AN",
+        "0",
+        "0RT",
+        "K",
+        "AS",
+        "ANTR",
+        "0",
+        "SLS",
+        "AF",
+        "AR",
+        "XS"
+      ],
       "description": "Sara rips through blue fabric on the door with a scream.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56479,
       "resolved_time_ms": 2330000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "J",
+        "FKLSNK",
+        "KNTNS",
+        "A"
+      ],
       "description": "Red window swings open and shatters.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16596,
       "resolved_time_ms": 2798000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "J",
+        "FKLSNK",
+        "KNTNS",
+        "A"
+      ],
       "description": "Hands reach out from an open window and grabs Rose's head.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51596,
       "resolved_time_ms": 2833000,
       "type": "major"
     },

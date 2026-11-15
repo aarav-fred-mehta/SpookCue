@@ -3,18 +3,38 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "ANFNT",
+        "PFT",
+        "AF",
+        "A",
+        "TNNT",
+        "KM"
+      ],
       "description": "Sudden scream",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1658,
       "resolved_time_ms": 2064000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "SM",
+        "PR",
+        "0T",
+        "AL",
+        "SN",
+        "P",
+        "KMNK",
+        "AFTR",
+        "A"
+      ],
       "description": "A man’s head explodes. Quite graphic",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14123,
       "resolved_time_ms": 2611000,
       "type": "minor"
     }

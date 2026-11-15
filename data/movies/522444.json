@@ -3,10 +3,18 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KS",
+        "KMNK",
+        "AFTR",
+        "A",
+        "KM",
+        "AN"
+      ],
       "description": "Eric pretends to be pulled into the water to scare Cash as a joke.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18880,
       "resolved_time_ms": 1307000,
       "type": "minor"
     },
@@ -19,10 +27,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "MT",
+        "JST",
+        "ARK"
+      ],
       "description": "The crocodile suddenly drags the floating dead body underwater.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52476,
       "resolved_time_ms": 2287000,
       "type": "minor"
     },
@@ -35,10 +48,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KLM",
+        "TN",
+        "KLM",
+        "PR0S",
+        "KLM",
+        "PR0S"
+      ],
       "description": "Yolanda hears a splash and turns around in fright, shining the light on the dead body.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29994,
       "resolved_time_ms": 2705000,
       "type": "minor"
     },
@@ -59,18 +79,37 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JN",
+        "KT",
+        "AT",
+        "AF",
+        "0",
+        "ATR",
+        "JN"
+      ],
       "description": "As Viktor looks around the water with a flashlight, the crocodile suddenly jumps out and attacks him.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55760,
       "resolved_time_ms": 4425000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "KT",
+        "0",
+        "KN",
+        "KK",
+        "KK",
+        "KK",
+        "KT",
+        "AT"
+      ],
       "description": "The crocodile jumps out of the water towards the car.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4726,
       "resolved_time_ms": 5409000,
       "type": "minor"
     }

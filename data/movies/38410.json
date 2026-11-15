@@ -3,42 +3,91 @@
   "runtime_minutes": 81,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "PN",
+        "TNK",
+        "0S",
+        "FR",
+        "KLS",
+        "T",
+        "ARS",
+        "N"
+      ],
       "description": "Sudden loud glitch.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4832,
       "resolved_time_ms": 90000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AN",
+        "S",
+        "AT",
+        "AT",
+        "LKS",
+        "LK",
+        "0R",
+        "0",
+        "KMR"
+      ],
       "description": "The man behind the camera hits the little girl with it.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9087,
       "resolved_time_ms": 590000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "0",
+        "KS",
+        "STXNNS",
+        "RT",
+        "ARNT",
+        "0",
+        "PNT"
+      ],
       "description": "Ed hits the driving man with something.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26526,
       "resolved_time_ms": 835000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "AN",
+        "P",
+        "ANT",
+        "PRX",
+        "M",
+        "T0"
+      ],
       "description": "The lights turn on to reveal Ed’s reflection in the window, startling Tim.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32220,
       "resolved_time_ms": 1814000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JMS",
+        "FL",
+        "AL",
+        "P",
+        "AKSKTT",
+        "A0N",
+        "0",
+        "HR"
+      ],
       "description": "There is a loud cut to a dead body.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9938,
       "resolved_time_ms": 3201000,
       "type": "minor"
     }

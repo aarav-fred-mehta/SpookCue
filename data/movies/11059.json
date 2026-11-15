@@ -3,34 +3,75 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AL",
+        "PRTKT",
+        "A",
+        "ANT",
+        "AR",
+        "FRNTS",
+        "FRM",
+        "HRM"
+      ],
       "description": "There is loud bang when the girl enters the cabin",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26200,
       "resolved_time_ms": 860000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "A",
+        "NT",
+        "A",
+        "PK",
+        "STRNK",
+        "MN",
+        "T",
+        "PRTKT",
+        "AS"
+      ],
       "description": "The man gets attacked in the forest",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1200,
       "resolved_time_ms": 1358000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "KNK",
+        "T",
+        "T",
+        "0",
+        "HMPT",
+        "PMPT",
+        "KM",
+        "AN",
+        "PP"
+      ],
       "description": "A bloody hand suddenly grabs the tree",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 400,
       "resolved_time_ms": 1457000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MMS",
+        "KNK",
+        "T",
+        "JF",
+        "AT",
+        "T",
+        "A"
+      ],
       "description": "The girl gets tackled by a man who is storming through the door behind her",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34100,
       "resolved_time_ms": 1624000,
       "type": "minor"
     },

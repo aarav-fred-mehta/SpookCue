@@ -3,10 +3,18 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "AT",
+        "AR",
+        "TLKNK",
+        "APT"
+      ],
       "description": "There is banging on the door.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51389,
       "resolved_time_ms": 245000,
       "type": "minor"
     },
@@ -19,10 +27,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "HPNNK",
+        "PT",
+        "AR",
+        "A"
+      ],
       "description": "David charges forward with a knife.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14798,
       "resolved_time_ms": 341000,
       "type": "minor"
     },
@@ -43,10 +57,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "ARN",
+        "PLS",
+        "STP",
+        "AT"
+      ],
       "description": "The demon Bruno charges out of the shadows.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26284,
       "resolved_time_ms": 1451000,
       "type": "minor"
     },
@@ -59,18 +82,32 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AR",
+        "AR",
+        "KMNK",
+        "FRM"
+      ],
       "description": "Arne’s head is grabbed by the demon behind him.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9360,
       "resolved_time_ms": 2818000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "AR",
+        "AR",
+        "KMNK",
+        "FRM"
+      ],
       "description": "Arne’s head is grabbed by the demon behind him.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13360,
       "resolved_time_ms": 2822000,
       "type": "minor"
     },
@@ -83,18 +120,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "AT",
+        "TT",
+        "A",
+        "T",
+        "HN",
+        "N"
+      ],
       "description": "Lorraine is grabbed by a demon hand.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51514,
       "resolved_time_ms": 3457000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAT",
+        "HT",
+        "FR",
+        "A",
+        "T",
+        "JF",
+        "AP",
+        "N"
+      ],
       "description": "The body in the corner reanimates and runs at Ed.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27095,
       "resolved_time_ms": 4602000,
       "type": "minor"
     },

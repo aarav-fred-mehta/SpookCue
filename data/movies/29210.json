@@ -19,10 +19,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XLT",
+        "HF",
+        "SM0NK",
+        "ARNT",
+        "A"
+      ],
       "description": "As Mildred is walking out of a closet, Victor suddenly jumps her from the side and grabs her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16858,
       "resolved_time_ms": 5247000,
       "type": "minor"
     }

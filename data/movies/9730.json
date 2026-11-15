@@ -28,8 +28,16 @@
     },
     {
       "anchor_phonetic": null,
-      "description": "A loud noise is heard as the woman turns her head.",
+      "description": "Jason jumps out of the water and stabs Sam",
       "id": "scare_04",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 2610000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "A loud noise is heard as the woman turns her head.",
+      "id": "scare_05",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3313000,
       "type": "minor"
@@ -37,15 +45,23 @@
     {
       "anchor_phonetic": null,
       "description": "Jason grabs the woman through the window.",
-      "id": "scare_05",
+      "id": "scare_06",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 3710000,
       "type": "minor"
     },
     {
       "anchor_phonetic": null,
+      "description": "Jason stabs Ted from behind through the screen",
+      "id": "scare_07",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 3925000,
+      "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
       "description": "Jason breaks through the shower glass.",
-      "id": "scare_06",
+      "id": "scare_08",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4075000,
       "type": "minor"
@@ -53,14 +69,22 @@
     {
       "anchor_phonetic": null,
       "description": "Jason throws a body through the window.",
-      "id": "scare_07",
+      "id": "scare_09",
       "offset_from_anchor_ms": null,
       "resolved_time_ms": 4663000,
       "type": "minor"
+    },
+    {
+      "anchor_phonetic": null,
+      "description": "Jason grabs Tommy through the window",
+      "id": "scare_10",
+      "offset_from_anchor_ms": null,
+      "resolved_time_ms": 4674000,
+      "type": "major"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:55:03.612Z",
+  "source_lastmod": "2026-11-14T20:15:29.177Z",
   "sync_type": "subtitles",
   "title": "Friday The 13Th The Final Chapter",
   "tmdb_id": 9730

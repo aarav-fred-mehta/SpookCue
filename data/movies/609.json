@@ -11,34 +11,67 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "TNNT",
+        "T",
+        "0T",
+        "HN"
+      ],
       "description": "Carol’s hand comes up from the bottom of the screen to pull at her mother.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 119,
       "resolved_time_ms": 1758000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "ANS",
+        "KNK",
+        "AN",
+        "0",
+        "KXN",
+        "TL",
+        "A",
+        "N",
+        "ATTS",
+        "HPNNK"
+      ],
       "description": "A giant tree smashes through the window of the children’s bedroom.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27806,
       "resolved_time_ms": 2215000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAT",
+        "LK",
+        "T",
+        "X",
+        "A",
+        "SM0NK"
+      ],
       "description": "The mother opens the bathroom door to a loud noise.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50554,
       "resolved_time_ms": 4267000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ST",
+        "TNNT",
+        "K",
+        "ANT",
+        "0",
+        "LT"
+      ],
       "description": "A giant skull comes out of the doorway.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17346,
       "resolved_time_ms": 5461000,
       "type": "minor"
     },
@@ -59,18 +92,30 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SMPT",
+        "HLP",
+        "AS",
+        "PLS"
+      ],
       "description": "A skull comes out of the water behind the wife.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14590,
       "resolved_time_ms": 6160000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STFN",
+        "HR",
+        "KM",
+        "AN",
+        "KM",
+        "AN"
+      ],
       "description": "A skeleton lands on the wind-shield of the family car.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8974,
       "resolved_time_ms": 6456000,
       "type": "minor"
     }

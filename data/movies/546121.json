@@ -3,10 +3,20 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "AF",
+        "AN",
+        "AF",
+        "0S",
+        "PKSS",
+        "FL",
+        "TN",
+        "AR"
+      ],
       "description": "The mailman is stabbed with a needle.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10657,
       "resolved_time_ms": 3290000,
       "type": "minor"
     }

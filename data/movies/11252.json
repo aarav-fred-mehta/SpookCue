@@ -11,26 +11,52 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "0S",
+        "P",
+        "HT",
+        "A",
+        "SK",
+        "ALT",
+        "M0R"
+      ],
       "description": "A blonde woman runs toward Mr. Arbogast and attacks him with a knife.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 368,
       "resolved_time_ms": 4428000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRST",
+        "TM",
+        "AAF",
+        "AFR",
+        "SN",
+        "AT",
+        "HPN"
+      ],
       "description": "Lila turns around suddenly and gasps.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 125,
       "resolved_time_ms": 5422000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "XR",
+        "KRTN",
+        "SM",
+        "LK",
+        "AT",
+        "AS",
+        "AT"
+      ],
       "description": "Lila turns the chair around revealing a preserved dead body.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1635,
       "resolved_time_ms": 5622000,
       "type": "minor"
     }

@@ -11,18 +11,39 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "TNNT",
+        "P",
+        "LT",
+        "A",
+        "ANNT",
+        "A",
+        "PRMS"
+      ],
       "description": "Angela bumps into a security guard as she walks around a corner.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50403,
       "resolved_time_ms": 361000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KTNK",
+        "AT",
+        "AF",
+        "0",
+        "KR",
+        "AS",
+        "AT",
+        "AAM",
+        "KN",
+        "T"
+      ],
       "description": "As Angela enters the security office a dog barks at her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44601,
       "resolved_time_ms": 591000,
       "type": "minor"
     },
@@ -51,26 +72,48 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "AT",
+        "FKNK",
+        "LKT"
+      ],
       "description": "As the lift opens, Angela sees Thomas watching her from behind a door.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1416,
       "resolved_time_ms": 3266000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "NT",
+        "FKNK",
+        "MFNK",
+        "A",
+        "FK"
+      ],
       "description": "A dead body falls into the flooded lift.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50176,
       "resolved_time_ms": 3622000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "TN",
+        "HR",
+        "HL",
+        "KN",
+        "A",
+        "HR",
+        "M"
+      ],
       "description": "Angela sees the policeman on the security camera, she then turns around but Thomas is standing right behind her. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4004,
       "resolved_time_ms": 4115000,
       "type": "major"
     },
@@ -123,10 +166,22 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "A",
+        "LT",
+        "M",
+        "HLP",
+        "A",
+        "FR",
+        "A",
+        "XNJ",
+        "M0RFKR"
+      ],
       "description": "Thomas grabs Angela around the ankle.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31618,
       "resolved_time_ms": 5428000,
       "type": "minor"
     }

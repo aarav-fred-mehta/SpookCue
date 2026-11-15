@@ -27,26 +27,62 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "A",
+        "TNNT",
+        "0NK",
+        "APT",
+        "AT",
+        "AT",
+        "KNNT",
+        "HRT",
+        "A"
+      ],
       "description": "A car horn sounds as Brian is nearly run over.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1888,
       "resolved_time_ms": 1332000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TMN",
+        "AT",
+        "A",
+        "FRKT",
+        "A",
+        "SR",
+        "AF",
+        "A",
+        "TTNNT",
+        "HF",
+        "M",
+        "HT",
+        "SKT",
+        "AN"
+      ],
       "description": "There is a loud explosion while Brian and Beth are talking.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3350,
       "resolved_time_ms": 1372000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PKS",
+        "M",
+        "NMPR",
+        "AS",
+        "AN",
+        "PRNNS",
+        "SL",
+        "T",
+        "HR"
+      ],
       "description": "Beth is surprised by Taylor’s appearance in the room. [Video].",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56800,
       "resolved_time_ms": 1642000,
       "type": "major"
     },
@@ -59,10 +95,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "A",
+        "TRLNK",
+        "TLR",
+        "ATTS",
+        "P0",
+        "P0"
+      ],
       "description": "A hand holding a phone appears beside Taylor.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 334,
       "resolved_time_ms": 2586000,
       "type": "minor"
     },
@@ -83,18 +127,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "LTTS",
+        "K",
+        "XS",
+        "KMNK"
+      ],
       "description": "A hand reaches out from between some doors to grab Beth.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11200,
       "resolved_time_ms": 3732000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TR",
+        "0S",
+        "TRS",
+        "RT",
+        "0R",
+        "AN"
+      ],
       "description": "Jack shines his torch on a figure in the corner of the room.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17069,
       "resolved_time_ms": 3769000,
       "type": "minor"
     },

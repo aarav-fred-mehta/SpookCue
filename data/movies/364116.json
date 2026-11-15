@@ -3,10 +3,17 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "MST",
+        "NT",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "A loud bang may startle some viewers.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47697,
       "resolved_time_ms": 1017000,
       "type": "minor"
     },
@@ -27,18 +34,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "A",
+        "F",
+        "MR",
+        "MNTS",
+        "PP"
+      ],
       "description": "Maria turns around and sees a man watching her.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33286,
       "resolved_time_ms": 1914000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "TNNT",
+        "LT",
+        "0",
+        "PTPKS",
+        "PT"
+      ],
       "description": "A chair moves across the room.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15484,
       "resolved_time_ms": 2823000,
       "type": "minor"
     },
@@ -51,34 +72,69 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "0T",
+        "MN",
+        "MM",
+        "0T",
+        "MN"
+      ],
       "description": "Maria turns around and a strange man is standing right in front of her.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2209,
       "resolved_time_ms": 3168000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "KT",
+        "AT",
+        "AL",
+        "A",
+        "KT",
+        "AT"
+      ],
       "description": "The head of a dead person lying on the road suddenly turns to face Maria.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46312,
       "resolved_time_ms": 3234000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "HF",
+        "AN",
+        "KLS",
+        "H",
+        "TT",
+        "AT",
+        "H",
+        "TT",
+        "AT"
+      ],
       "description": "Oliver’s corpse can briefly be seen in the doorway.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17453,
       "resolved_time_ms": 3356000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SNTS",
+        "LK",
+        "A",
+        "NT",
+        "A",
+        "TTKTF"
+      ],
       "description": "Oliver appears right beside Lucy.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3633,
       "resolved_time_ms": 3371000,
       "type": "major"
     },
@@ -91,18 +147,36 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "N",
+        "AT",
+        "AT",
+        "A",
+        "HF",
+        "TN"
+      ],
       "description": "Piki speaks to Maria as she closes the door.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 685,
       "resolved_time_ms": 3732000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0T",
+        "A",
+        "AS",
+        "TRNK",
+        "T",
+        "HLP",
+        "A"
+      ],
       "description": "The Lucy “clone” turns around to reveal a contorted face.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53194,
       "resolved_time_ms": 3859000,
       "type": "minor"
     },
@@ -123,10 +197,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "S",
+        "A",
+        "AN",
+        "0",
+        "MRNNK"
+      ],
       "description": "A man standing outside Michael’s car knocks on the window and suddenly screams at him.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 43493,
       "resolved_time_ms": 4592000,
       "type": "minor"
     }

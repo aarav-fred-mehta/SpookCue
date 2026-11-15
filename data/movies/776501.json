@@ -3,18 +3,34 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "AAM",
+        "TRNNK",
+        "ANT",
+        "SM0NK"
+      ],
       "description": "A scream sound is heard.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5148,
       "resolved_time_ms": 657000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANT",
+        "T",
+        "K",
+        "T",
+        "0",
+        "ARLTTS",
+        "FR"
+      ],
       "description": "The laptop screen turns white, and a hand reaches out through it.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17141,
       "resolved_time_ms": 2476000,
       "type": "minor"
     }

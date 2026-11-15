@@ -3,42 +3,91 @@
   "runtime_minutes": 102,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XT",
+        "AP",
+        "JST",
+        "XT",
+        "AP",
+        "KRST",
+        "ALRT",
+        "AAL",
+        "T",
+        "AT"
+      ],
       "description": "The presumed dead man suddenly grabs Helen.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7017,
       "resolved_time_ms": 1325000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HH",
+        "KT",
+        "M",
+        "KRN",
+        "N",
+        "PR"
+      ],
       "description": "The drowning man suddenly opens his eyes, startling Barry.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23543,
       "resolved_time_ms": 1357000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATNK",
+        "PRKNK",
+        "ANT",
+        "ANTRNK",
+        "T",
+        "AR",
+        "KRM",
+        "SPR"
+      ],
       "description": "Missy appears behind Julie and Helen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3213,
       "resolved_time_ms": 2835000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "A",
+        "AR",
+        "JST",
+        "ANTRNK",
+        "AF",
+        "MP",
+        "A",
+        "KLT",
+        "AS",
+        "AR",
+        "FN"
+      ],
       "description": "Helen turns around and is startled by a hanging coat.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31283,
       "resolved_time_ms": 2876000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "JFNK",
+        "AS",
+        "A",
+        "T",
+        "MX",
+        "KRTT"
+      ],
       "description": "Missy bangs on the car window.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3589,
       "resolved_time_ms": 3084000,
       "type": "minor"
     },
@@ -59,18 +108,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "TT",
+        "A",
+        "SLP",
+        "LST",
+        "NT"
+      ],
       "description": "Missy approaches Julie with a knife.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42645,
       "resolved_time_ms": 4027000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PFR",
+        "A",
+        "LF",
+        "M",
+        "FR",
+        "AN0R",
+        "AN"
+      ],
       "description": "The killer jumps out from underneath a plastic sheet and attacks Helen.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48056,
       "resolved_time_ms": 4788000,
       "type": "major"
     },

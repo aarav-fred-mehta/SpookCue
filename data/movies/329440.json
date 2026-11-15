@@ -3,66 +3,139 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ALTNNT",
+        "HPN",
+        "T",
+        "HF",
+        "A",
+        "TT",
+        "AN",
+        "ALT",
+        "A"
+      ],
       "description": "A man bangs on the car window, startling Sara.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11006,
       "resolved_time_ms": 327000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "AR",
+        "A",
+        "SKRT"
+      ],
       "description": "During a dream, Sara unzips a tent to reveal a girl however the girl’s face suddenly turns demonic.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11600,
       "resolved_time_ms": 569000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "0",
+        "AR",
+        "AR",
+        "LKNK",
+        "FR",
+        "M",
+        "AAL",
+        "P",
+        "AT",
+        "M",
+        "HTL"
+      ],
       "description": "Sara removes a sheet from a body and sees a decayed corpse.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11383,
       "resolved_time_ms": 1130000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "STL",
+        "0NK",
+        "A",
+        "XLT",
+        "NT",
+        "K",
+        "A"
+      ],
       "description": "An elderly lady suddenly lunges at Sara.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16312,
       "resolved_time_ms": 1710000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "AS",
+        "X",
+        "N",
+        "TRST",
+        "HM"
+      ],
       "description": "Something moves just outside the tent.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 665,
       "resolved_time_ms": 2958000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "KT",
+        "PK",
+        "PFR",
+        "A",
+        "KT",
+        "TRNT",
+        "ARNT",
+        "KM",
+        "AN"
+      ],
       "description": "Sara looks out of the tent and has a vision of an old lady running towards her.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1658,
       "resolved_time_ms": 3002000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "KM",
+        "T",
+        "0",
+        "P0",
+        "PFR",
+        "T",
+        "LNK"
+      ],
       "description": "Sara turns around and sees a girl watching her.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20841,
       "resolved_time_ms": 3092000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MS",
+        "JS",
+        "ANT",
+        "T",
+        "S",
+        "A"
+      ],
       "description": "A skeletal figure appears behind Sara.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1435,
       "resolved_time_ms": 3738000,
       "type": "minor"
     },
@@ -75,18 +148,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "PP",
+        "KM",
+        "AN",
+        "ARK"
+      ],
       "description": "Sara looks through a reel of photos and a man’s face suddenly pops up in front of one of the images.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6706,
       "resolved_time_ms": 4173000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HF",
+        "A",
+        "SN",
+        "SR",
+        "XS",
+        "NT",
+        "A0",
+        "A"
+      ],
       "description": "An apparently dead man suddenly sits up and screams.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47228,
       "resolved_time_ms": 4834000,
       "type": "minor"
     },

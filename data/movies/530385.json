@@ -3,26 +3,54 @@
   "runtime_minutes": 147,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "SR",
+        "APT",
+        "0S",
+        "A",
+        "0NK",
+        "ATTS",
+        "KN",
+        "P",
+        "FN"
+      ],
       "description": "After entering the toilet, we see a figure in the mirror watching Dani. A few seconds later Dani runs out of the toilet and this is accompanied by some loud dissonant strings in the soundtrack.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 612,
       "resolved_time_ms": 1933000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "HF",
+        "A",
+        "SLPNK",
+        "PL",
+        "A",
+        "KN",
+        "TK"
+      ],
       "description": "Josh is distracted by a person (who he believes to be Mark) entering the temple behind him. After he turns around and tells him “we’re not supposed to be here”, he is hit over the head by an unseen assailant.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38358,
       "resolved_time_ms": 5603000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "SPK",
+        "STX",
+        "AT"
+      ],
       "description": "After witnessing Simon’s body being displayed ritualistically, Christian sits back up and a man blows some powder into Christian’s eyes.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11436,
       "resolved_time_ms": 7750000,
       "type": "minor"
     }

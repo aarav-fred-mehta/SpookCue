@@ -3,10 +3,16 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "AN",
+        "T",
+        "0R"
+      ],
       "description": "The priest starts screaming as his hands burn on the altar.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30034,
       "resolved_time_ms": 672000,
       "type": "minor"
     },

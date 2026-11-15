@@ -3,10 +3,15 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "APT",
+        "FRKN",
+        "TM"
+      ],
       "description": "Reggie’s coworker opens the door, followed by a cut to a zombified man attacking him.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2753,
       "resolved_time_ms": 893000,
       "type": "minor"
     },

@@ -3,50 +3,93 @@
   "runtime_minutes": 131,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "NTS",
+        "0",
+        "PK",
+        "TR",
+        "JMS"
+      ],
       "description": "A gloved hand suddenly appears as Michèle attempts to close the glass doors.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48167,
       "resolved_time_ms": 960000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SM",
+        "PPL",
+        "ANNT",
+        "JST",
+        "TS",
+        "KRP"
+      ],
       "description": "There is an abrupt flashback to the masked man attacking Michèle.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8883,
       "resolved_time_ms": 1847000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SM",
+        "PPL",
+        "ANNT",
+        "JST",
+        "TS",
+        "KRP"
+      ],
       "description": "A bird flies into a window.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54883,
       "resolved_time_ms": 1893000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MK",
+        "AF",
+        "KTN",
+        "N",
+        "XNJ",
+        "AP",
+        "AT",
+        "T"
+      ],
       "description": "Michèle’s cat jumps on her during a tense scene.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58267,
       "resolved_time_ms": 4303000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "STL",
+        "KT",
+        "0",
+        "KRNT"
+      ],
       "description": "The masked man appears behind Michèle.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57600,
       "resolved_time_ms": 4977000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AN",
+        "APRTNT",
+        "FR",
+        "A"
+      ],
       "description": "A deer jumps in front of Michèle’s car.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1642,
       "resolved_time_ms": 5374000,
       "type": "minor"
     },

@@ -3,10 +3,15 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "MK",
+        "A",
+        "KLN"
+      ],
       "description": "The security guard’s reflection stabs itself in the throat.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30112,
       "resolved_time_ms": 213000,
       "type": "minor"
     },
@@ -19,10 +24,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "A",
+        "XLT",
+        "0NK",
+        "APT",
+        "AT"
+      ],
       "description": "Ben looks up from the sink into the mirror and his reflected face is distorted.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10433,
       "resolved_time_ms": 1367000,
       "type": "minor"
     },
@@ -59,26 +71,48 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "TRL",
+        "AF",
+        "FNSNT",
+        "FN",
+        "KRJS"
+      ],
       "description": "The mother turns off the TV which cuts to Michael viewing a screaming woman in the mirror.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 747,
       "resolved_time_ms": 2076000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "HH",
+        "HF",
+        "SM0NK",
+        "T",
+        "KT",
+        "HMSLF",
+        "A0"
+      ],
       "description": "In the morgue, the reflection of Gary’s corpse abruptly turns sideways and speaks to Ben. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4022,
       "resolved_time_ms": 2484000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "0",
+        "KTS",
+        "AAM",
+        "SR"
+      ],
       "description": "Ben looks into the car mirror and sees his sister sitting in the back seat.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30994,
       "resolved_time_ms": 3672000,
       "type": "minor"
     },
@@ -91,10 +125,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "A",
+        "HTNK",
+        "FRM",
+        "M",
+        "S0RT"
+      ],
       "description": "Amy bends down to look at Michael’s reflection in the water. She suddenly gets cut on the face by the reflection.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27746,
       "resolved_time_ms": 5524000,
       "type": "minor"
     },

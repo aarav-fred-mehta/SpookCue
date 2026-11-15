@@ -3,10 +3,24 @@
   "runtime_minutes": 105,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JSS",
+        "JSS",
+        "LLM",
+        "SR",
+        "LLM",
+        "SR",
+        "L",
+        "0T",
+        "A",
+        "HRT",
+        "M",
+        "LLM",
+        "SR"
+      ],
       "description": "Kale’s mother surprises him while he is looking at the neighbors through his binoculars.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 472,
       "resolved_time_ms": 1881000,
       "type": "minor"
     },
@@ -19,42 +33,85 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "STP",
+        "0S",
+        "AL",
+        "RT",
+        "KL"
+      ],
       "description": "Kale closes the fridge door and Mr Turner is standing behind it.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46199,
       "resolved_time_ms": 3067000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "0",
+        "STST",
+        "0NK",
+        "LLF",
+        "AFR",
+        "HRT"
+      ],
       "description": "There is a loud noise from Mr Turner’s house and blood splatters on the window.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22723,
       "resolved_time_ms": 3654000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "AS",
+        "PLXT",
+        "L",
+        "KT",
+        "A",
+        "MLN",
+        "ASS"
+      ],
       "description": "There is an abrupt cut back to Mr Turner’s house, accompanied by a sound effect.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4323,
       "resolved_time_ms": 3669000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "TNK",
+        "KRT",
+        "MN",
+        "AR",
+        "TNK",
+        "KRT"
+      ],
       "description": "Ashley runs into another girl while on the phone at the store.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19838,
       "resolved_time_ms": 3803000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "RNLT",
+        "K",
+        "AR",
+        "A",
+        "RT",
+        "LTTS",
+        "AN",
+        "TN"
+      ],
       "description": "Mr Turner appears in front of Ashley as she drives out of the car-park.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3,
       "resolved_time_ms": 3885000,
       "type": "minor"
     },
@@ -67,10 +124,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "AF",
+        "KT",
+        "KT",
+        "AKRS",
+        "0",
+        "LN"
+      ],
       "description": "Mr Turner breaks into Kale’s room with a baseball bat. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27137,
       "resolved_time_ms": 5246000,
       "type": "major"
     },

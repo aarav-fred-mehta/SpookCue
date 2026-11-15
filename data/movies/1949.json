@@ -3,26 +3,45 @@
   "runtime_minutes": 157,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRK",
+        "S",
+        "PLS",
+        "K",
+        "FXR"
+      ],
       "description": "Some fireworks are let off, interrupting a conversation in a nearby car.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5625,
       "resolved_time_ms": 148000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MS",
+        "0J",
+        "MS",
+        "KX",
+        "AXT",
+        "NK"
+      ],
       "description": "A man is suddenly shot in a car.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58332,
       "resolved_time_ms": 294000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NK",
+        "ARTKT",
+        "TJ",
+        "TJF",
+        "T"
+      ],
       "description": "A sudden cut to a man firing a gun at a shooting range may startle some viewers.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8079,
       "resolved_time_ms": 3967000,
       "type": "minor"
     }

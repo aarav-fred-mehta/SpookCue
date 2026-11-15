@@ -3,66 +3,138 @@
   "runtime_minutes": 85,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "A",
+        "STNK",
+        "KLT",
+        "HS",
+        "ANFTT",
+        "0",
+        "TN"
+      ],
       "description": "An isopod crawls out of a fish.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3049,
       "resolved_time_ms": 1752000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "PTS",
+        "AR",
+        "NFR",
+        "TSKFRT"
+      ],
       "description": "A swimmer is pulled under water.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3253,
       "resolved_time_ms": 1950000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "0",
+        "A0RTS",
+        "NT",
+        "LK",
+        "AT",
+        "0S",
+        "FTJ"
+      ],
       "description": "Accompanied by a high pitched screeching noise, the diver is attacked by an isopod.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4402,
       "resolved_time_ms": 3335000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "A",
+        "MRKL",
+        "A",
+        "ARNNT",
+        "ANFKTT",
+        "ALRT",
+        "AS",
+        "A",
+        "MTR",
+        "AF",
+        "FKT"
+      ],
       "description": "Donna screams as some blood falls on her.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4981,
       "resolved_time_ms": 3457000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "AS",
+        "AKTL",
+        "0",
+        "LST",
+        "FTJ",
+        "A",
+        "XT"
+      ],
       "description": "An apparently dead man’s eyeball suddenly moves.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5150,
       "resolved_time_ms": 3689000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALKS",
+        "ALKS",
+        "A",
+        "KT",
+        "PL",
+        "AN",
+        "0",
+        "SKP"
+      ],
       "description": "A loud gunshot may startle some viewers (this is followed by a second gunshot a few seconds later).",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2327,
       "resolved_time_ms": 4142000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "KMNK",
+        "0R",
+        "KMNK",
+        "A",
+        "KNNT"
+      ],
       "description": "A car crashes into the mayor’s vehicle.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 775,
       "resolved_time_ms": 4393000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "APT",
+        "A",
+        "SPRTNK",
+        "TSS",
+        "AR",
+        "FR",
+        "A",
+        "SPRTNK",
+        "TSS"
+      ],
       "description": "Stephanie is about to start the cop car when a diseased person jumps up from the back seat and grabs her. [Video]",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2092,
       "resolved_time_ms": 4611000,
       "type": "major"
     }

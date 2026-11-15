@@ -11,18 +11,35 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TTNNT",
+        "A",
+        "ANSR",
+        "AN",
+        "A",
+        "KLT",
+        "A",
+        "SR"
+      ],
       "description": "As Sarah runs out of the room, Dr. Feinstone steps in front of her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49546,
       "resolved_time_ms": 4800000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "TMS",
+        "A",
+        "T",
+        "N",
+        "KNT"
+      ],
       "description": "The detective suddenly puts his hand over Sarah’s mouth.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39692,
       "resolved_time_ms": 4936000,
       "type": "minor"
     }

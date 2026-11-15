@@ -11,26 +11,55 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "AS",
+        "ANL",
+        "HR",
+        "KS",
+        "X",
+        "RN",
+        "AT",
+        "AF",
+        "PS"
+      ],
       "description": "An ornament shatters.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2999,
       "resolved_time_ms": 394000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AX",
+        "A",
+        "HT",
+        "KRST",
+        "ALMT"
+      ],
       "description": "The walkie talkie makes a screeching noise.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31749,
       "resolved_time_ms": 1351000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "0T",
+        "MKS",
+        "A",
+        "A",
+        "SNT",
+        "A",
+        "SL",
+        "ALT",
+        "PX"
+      ],
       "description": "After Tony shines the torch around and says “hello”, several birds suddenly fly away.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55791,
       "resolved_time_ms": 1613000,
       "type": "minor"
     },
@@ -43,10 +72,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "A",
+        "KM",
+        "A",
+        "PRPPL",
+        "LK",
+        "AN"
+      ],
       "description": "There is a loud bang on the door.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 416,
       "resolved_time_ms": 1887000,
       "type": "minor"
     },
@@ -91,34 +129,67 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "SK",
+        "T",
+        "0",
+        "PLT",
+        "PK",
+        "T0"
+      ],
       "description": "Simon hits a figure with his car as he talks on the phone.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12666,
       "resolved_time_ms": 2960000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HF",
+        "A",
+        "TN",
+        "AT",
+        "HF",
+        "A",
+        "TN"
+      ],
       "description": "There is a loud bang on Simon’s car.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11916,
       "resolved_time_ms": 3242000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "HF",
+        "A",
+        "TN",
+        "AT",
+        "HF",
+        "A",
+        "TN"
+      ],
       "description": "Simon leans back to reveal a figure at the driver’s side window.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32916,
       "resolved_time_ms": 3263000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ASPSL",
+        "AN",
+        "AR",
+        "TRT",
+        "ANT",
+        "AMXNL"
+      ],
       "description": "Accompanied by a sound effect, Goodman sees a ghostly image of himself inside the car.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13416,
       "resolved_time_ms": 3457000,
       "type": "minor"
     },
@@ -131,10 +202,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "RT",
+        "AN",
+        "0",
+        "MTL",
+        "AF",
+        "0S",
+        "XNS",
+        "0NK"
+      ],
       "description": "The hooded figure in the distance suddenly appears directly in front of Goodman.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1624,
       "resolved_time_ms": 3903000,
       "type": "major"
     },
@@ -155,18 +236,30 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "LFT",
+        "A",
+        "LTL",
+        "TRS"
+      ],
       "description": "The hooded figure suddenly jumps out of the crib behind Goodman.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32999,
       "resolved_time_ms": 5207000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LTL",
+        "XNJ",
+        "AF",
+        "SNR"
+      ],
       "description": "A bird flies into the window.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52332,
       "resolved_time_ms": 5560000,
       "type": "minor"
     }

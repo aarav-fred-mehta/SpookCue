@@ -3,10 +3,15 @@
   "runtime_minutes": 119,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AL",
+        "RT",
+        "0TTS"
+      ],
       "description": "While kissing Alex, Dan is shocked to discover that Alex has slit her wrists.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6969,
       "resolved_time_ms": 2123000,
       "type": "major"
     },
@@ -43,10 +48,16 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "STPT",
+        "SLFX",
+        "PX"
+      ],
       "description": "Dan pulls the tea kettle off the stove and hears Beth screaming.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29944,
       "resolved_time_ms": 6759000,
       "type": "minor"
     },

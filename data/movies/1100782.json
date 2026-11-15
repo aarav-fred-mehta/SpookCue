@@ -3,10 +3,20 @@
   "runtime_minutes": 127,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SR",
+        "T",
+        "KT",
+        "AF",
+        "AR",
+        "FKNK",
+        "A0",
+        "M",
+        "TT"
+      ],
       "description": "A man runs through the door screaming.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13513,
       "resolved_time_ms": 1294000,
       "type": "minor"
     },
@@ -51,26 +61,46 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "PKS",
+        "AR",
+        "A",
+        "HRPL",
+        "PRSN"
+      ],
       "description": "A bright flash accompanied by the sound of a horn",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48355,
       "resolved_time_ms": 3364000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "MK",
+        "STPT",
+        "MSTKS"
+      ],
       "description": "A man’s face appears.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7610,
       "resolved_time_ms": 3611000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "PL",
+        "STP",
+        "SMLNK",
+        "AT",
+        "M"
+      ],
       "description": "Skye is grabbed from behind by the bloody man.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41971,
       "resolved_time_ms": 4243000,
       "type": "major"
     },
@@ -83,10 +113,21 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "H",
+        "TR",
+        "HS",
+        "AN",
+        "J",
+        "AF",
+        "A0",
+        "A",
+        "KRPR"
+      ],
       "description": "Sudden jump-cut to man tearing his jaw off",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2327,
       "resolved_time_ms": 4723000,
       "type": "minor"
     },
@@ -99,10 +140,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HFNK",
+        "T",
+        "LF",
+        "ANST",
+        "M",
+        "HT"
+      ],
       "description": "The woman starts yelling in a demonic voice.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5452,
       "resolved_time_ms": 5602000,
       "type": "major"
     },
@@ -115,18 +163,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "KT",
+        "A",
+        "FRM",
+        "M",
+        "SK"
+      ],
       "description": "The woman appears in front of Skye.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12381,
       "resolved_time_ms": 6806000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "NFR",
+        "ASKP",
+        "A",
+        "A",
+        "TRL",
+        "AR",
+        "AN",
+        "0",
+        "ANST"
+      ],
       "description": "The woman start yelling at Skye with bulging eyes.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12112,
       "resolved_time_ms": 6825000,
       "type": "minor"
     }

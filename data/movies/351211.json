@@ -11,10 +11,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "JST",
+        "HRT",
+        "SM0NK",
+        "MFNK",
+        "ATST"
+      ],
       "description": "A loud bang startles James in his tent.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 42750,
       "resolved_time_ms": 1550000,
       "type": "minor"
     },
@@ -27,66 +34,142 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "SM0NK",
+        "AT",
+        "0R",
+        "AT",
+        "AN",
+        "0",
+        "ATS",
+        "LK",
+        "A",
+        "PR"
+      ],
       "description": "There is a burst of static from the walkie-talkie during a quiet scene.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13510,
       "resolved_time_ms": 1595000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "SNTS",
+        "KN",
+        "TRFL",
+        "PRT",
+        "FR",
+        "AT",
+        "HR"
+      ],
       "description": "Lane suddenly appears in front of Talia and James.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4880,
       "resolved_time_ms": 1751000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SNTT",
+        "LK",
+        "AN0R",
+        "TR",
+        "FLNK",
+        "TK",
+        "0S"
+      ],
       "description": "Something appears to pull Peter away and the camera footage cuts out.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56850,
       "resolved_time_ms": 2756000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PTR",
+        "AF",
+        "A",
+        "KN",
+        "HR",
+        "M",
+        "JST",
+        "PRS",
+        "0",
+        "PTN",
+        "AN",
+        "AR",
+        "ALK",
+        "TLK"
+      ],
       "description": "Ashley suddenly pulls Lisa’s hand away from the camera.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51150,
       "resolved_time_ms": 2862000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALT",
+        "AFRN",
+        "STP",
+        "TNK",
+        "0T"
+      ],
       "description": "James startles Lisa.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 360,
       "resolved_time_ms": 2894000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0R",
+        "KN",
+        "P",
+        "HR",
+        "FRFR"
+      ],
       "description": "The camera gradually approaches the back of Talia’s head and she suddenly screams.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22460,
       "resolved_time_ms": 3106000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HF",
+        "T",
+        "K",
+        "A",
+        "HF",
+        "T",
+        "K",
+        "A",
+        "HF",
+        "T",
+        "K"
+      ],
       "description": "A branch snaps and a hysterical Talia appears in front of James.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 110,
       "resolved_time_ms": 3268000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "KN",
+        "P",
+        "ATTS",
+        "KN",
+        "P"
+      ],
       "description": "A tent flies into the air.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3230,
       "resolved_time_ms": 3364000,
       "type": "minor"
     },
@@ -107,10 +190,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LS",
+        "A",
+        "AS",
+        "0T",
+        "A",
+        "LK",
+        "AKSKTL",
+        "H",
+        "A",
+        "RMMPR"
+      ],
       "description": "A disheveled Lane suddenly appears in front of Lisa.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 830,
       "resolved_time_ms": 4301000,
       "type": "major"
     },

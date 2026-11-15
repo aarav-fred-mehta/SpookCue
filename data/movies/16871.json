@@ -3,10 +3,21 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TRT",
+        "T",
+        "RTRN",
+        "AT",
+        "0",
+        "ALTNNT",
+        "TK",
+        "AT",
+        "PK"
+      ],
       "description": "The doors burst open.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47890,
       "resolved_time_ms": 126000,
       "type": "minor"
     },

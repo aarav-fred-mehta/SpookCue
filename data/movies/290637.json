@@ -27,10 +27,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "AT",
+        "AT",
+        "SS",
+        "A",
+        "KS"
+      ],
       "description": "A hooded figure with a burnt face briefly appears behind Mike.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15562,
       "resolved_time_ms": 2289000,
       "type": "minor"
     },
@@ -43,10 +50,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "SF",
+        "M",
+        "FRM",
+        "0",
+        "KST"
+      ],
       "description": "A pan suddenly catches fire.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2121,
       "resolved_time_ms": 3134000,
       "type": "minor"
     },
@@ -59,10 +73,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "XLTRN",
+        "T",
+        "A",
+        "XRL"
+      ],
       "description": "The apparently dead psychic suddenly grabs Mike’s wrist.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38315,
       "resolved_time_ms": 3477000,
       "type": "minor"
     },
@@ -83,10 +103,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "PK",
+        "AL",
+        "P",
+        "TRPT",
+        "AN",
+        "0R"
+      ],
       "description": "Some birds fly at Mike while he is on the bridge.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44633,
       "resolved_time_ms": 4666000,
       "type": "minor"
     },

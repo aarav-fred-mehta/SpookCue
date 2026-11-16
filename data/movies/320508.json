@@ -19,58 +19,109 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RT",
+        "HR",
+        "AN",
+        "0",
+        "PK"
+      ],
       "description": "A young girl with a distorted face slams against the car window (a repeat of the first jump scare).",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8940,
       "resolved_time_ms": 1808000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TT",
+        "A",
+        "T",
+        "KT",
+        "ANT",
+        "A",
+        "FT"
+      ],
       "description": "A man sitting in the waiting room suddenly has a distorted grin.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3080,
       "resolved_time_ms": 2278000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "PRT",
+        "0",
+        "KF",
+        "TN",
+        "HR",
+        "AP",
+        "A",
+        "ATT"
+      ],
       "description": "Dan slams his face against the car window, cracking the glass.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11080,
       "resolved_time_ms": 3889000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KT",
+        "AT",
+        "AS",
+        "0S"
+      ],
       "description": "Humanoid monsters slam against the car windows and Beth screams.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35140,
       "resolved_time_ms": 3993000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "A",
+        "KNNT",
+        "ATRN",
+        "0",
+        "APKLPS"
+      ],
       "description": "Humanoid monsters bust through the wall, and a little girl monster slams against the window.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49670,
       "resolved_time_ms": 4289000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "RL",
+        "0NK",
+        "0S",
+        "AS",
+        "0",
+        "ANT"
+      ],
       "description": "Two humanoid monsters are slowly swallowing the arms of a man.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4570,
       "resolved_time_ms": 4330000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "0",
+        "MMRS"
+      ],
       "description": "There is a humanoid monster woman in the photo with a distorted face, causing screaming.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 660,
       "resolved_time_ms": 4565000,
       "type": "minor"
     },
@@ -91,26 +142,50 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "STK",
+        "A0",
+        "A",
+        "HRR",
+        "MF"
+      ],
       "description": "A monster humanoid wearing a horse mask suddenly pulls the car door off.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33120,
       "resolved_time_ms": 4866000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANT",
+        "T",
+        "FT",
+        "RT",
+        "N"
+      ],
       "description": "The kid in the pig mask rushes into the car and starts eating Terry.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17630,
       "resolved_time_ms": 4944000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "A",
+        "TTNNT",
+        "TX",
+        "AT"
+      ],
       "description": "Jeff knocks over something on the ground which makes a loud noise.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 390,
       "resolved_time_ms": 5142000,
       "type": "minor"
     },

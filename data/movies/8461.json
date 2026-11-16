@@ -3,10 +3,17 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HNTS",
+        "AF",
+        "N",
+        "JST",
+        "JST",
+        "LSTN"
+      ],
       "description": "Just as in the original Austrian version, the title card appears on screen alongside loud heavy metal music which will likely startle those with the sound turned up.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12930,
       "resolved_time_ms": 211000,
       "type": "minor"
     }

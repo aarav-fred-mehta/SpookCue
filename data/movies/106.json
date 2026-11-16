@@ -11,18 +11,29 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "R",
+        "KSTNK",
+        "AS",
+        "M0RFKR"
+      ],
       "description": "Dillon almost runs into Mac.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1810,
       "resolved_time_ms": 1197000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ALT",
+        "PNLS",
+        "AS",
+        "ATNK"
+      ],
       "description": "Blood splatters on Blaine’s shoulder.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9300,
       "resolved_time_ms": 2824000,
       "type": "minor"
     },
@@ -35,18 +46,42 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "M",
+        "KN",
+        "HF",
+        "M",
+        "SM",
+        "A",
+        "M",
+        "KN",
+        "HF",
+        "M",
+        "SM"
+      ],
       "description": "Mac puts his hand over Dillon’s mouth.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56550,
       "resolved_time_ms": 4179000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TM",
+        "AL",
+        "ARM",
+        "TM",
+        "AL",
+        "ARM",
+        "JF",
+        "M",
+        "0",
+        "APN"
+      ],
       "description": "The Predator shoots a laser at Poncho from the trees.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56980,
       "resolved_time_ms": 4552000,
       "type": "minor"
     },

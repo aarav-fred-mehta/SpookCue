@@ -3,34 +3,65 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "AAM",
+        "KN",
+        "HF",
+        "T",
+        "ASK",
+        "A",
+        "A",
+        "KSXN"
+      ],
       "description": "The scene cuts to a man with a loud song",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 32469,
       "resolved_time_ms": 62000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "KT",
+        "KT",
+        "KT"
+      ],
       "description": "The man suddenly shoots the chest",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19850,
       "resolved_time_ms": 878000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "KN",
+        "A",
+        "TLK",
+        "APT",
+        "AL",
+        "0",
+        "0NKS"
+      ],
       "description": "The scene cuts to the man strangling the woman, with a loud song",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18700,
       "resolved_time_ms": 1569000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAF",
+        "NFR",
+        "PT",
+        "AT",
+        "0R",
+        "PFR"
+      ],
       "description": "The man shoots the woman in the ear",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39326,
       "resolved_time_ms": 3674000,
       "type": "minor"
     }

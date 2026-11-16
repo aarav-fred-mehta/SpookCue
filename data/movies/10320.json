@@ -3,90 +3,183 @@
   "runtime_minutes": 109,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AML",
+        "AT",
+        "0",
+        "HL",
+        "TT",
+        "A",
+        "T",
+        "A",
+        "PLT",
+        "AT",
+        "A",
+        "JST",
+        "TTNNT",
+        "LK"
+      ],
       "description": "A hand appears at the entrance to the well.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12243,
       "resolved_time_ms": 395000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "JST",
+        "HRPL",
+        "S",
+        "ANK"
+      ],
       "description": "Rachel unzips the body bag to reveal Jake’s horribly contorted face.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6158,
       "resolved_time_ms": 849000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "JST",
+        "HRPL",
+        "S",
+        "ANK"
+      ],
       "description": "As Rachel zips up the body bag, Samara’s arm suddenly grabs her. [Video]",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36158,
       "resolved_time_ms": 879000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RMMPR",
+        "A",
+        "KT",
+        "AT",
+        "FR",
+        "0",
+        "ASTL"
+      ],
       "description": "Samara briefly flashes up on the screen.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18739,
       "resolved_time_ms": 1740000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "AT",
+        "LST",
+        "NT",
+        "AR",
+        "0S",
+        "MRNNK"
+      ],
       "description": "A deer smashes through the car window beside Rachel. [Video]",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1168,
       "resolved_time_ms": 1877000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATN",
+        "KLT",
+        "A",
+        "ANLK",
+        "0",
+        "TR",
+        "PLS"
+      ],
       "description": "Rachel attempts to pull Aidan from the bathtub but he has been replaced by Samara.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7485,
       "resolved_time_ms": 2734000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0N",
+        "AT",
+        "ASNNT",
+        "0",
+        "RT",
+        "0NK",
+        "AS",
+        "AT"
+      ],
       "description": "Aidan grabs Rachel’s arm.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20401,
       "resolved_time_ms": 3039000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KNK",
+        "PK",
+        "T",
+        "AR",
+        "A",
+        "KM",
+        "FRM"
+      ],
       "description": "As Rachel goes to open a door, it is suddenly opened on the other side.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11460,
       "resolved_time_ms": 3388000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AAM",
+        "HR",
+        "ATNK",
+        "FR",
+        "M",
+        "MM"
+      ],
       "description": "Aidan comes up behind Rachel and hugs her.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2861,
       "resolved_time_ms": 4646000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "NT",
+        "A",
+        "0T",
+        "TKTR",
+        "AR",
+        "ANN",
+        "ALS"
+      ],
       "description": "Max slumps back in the drivers seat to reveal a horribly contorted face.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25489,
       "resolved_time_ms": 4750000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "A",
+        "FRM",
+        "HR",
+        "RXL"
+      ],
       "description": "Samara surfaces from the well once more.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13571,
       "resolved_time_ms": 5657000,
       "type": "minor"
     }

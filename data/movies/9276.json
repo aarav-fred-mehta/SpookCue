@@ -3,82 +3,170 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HF",
+        "A",
+        "PN",
+        "TRNKNK",
+        "KX"
+      ],
       "description": "Principal Drake turns around and is surprised by Coach Willis standing behind her.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 547,
       "resolved_time_ms": 246000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AS",
+        "SR",
+        "AAM",
+        "SR",
+        "APT",
+        "0T",
+        "SR"
+      ],
       "description": "Coach Willis appears behind Casey.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4289,
       "resolved_time_ms": 1134000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "ATTS",
+        "HPNNK"
+      ],
       "description": "Mrs Brummel appears behind Stan in the showers.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 745,
       "resolved_time_ms": 1592000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "HL",
+        "AS",
+        "KNK",
+        "AN"
+      ],
       "description": "Casey runs out of the closet.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2129,
       "resolved_time_ms": 2001000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "NT",
+        "PST",
+        "AR",
+        "A",
+        "APT",
+        "AT"
+      ],
       "description": "Gabe runs into Stan in the school hallway.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8176,
       "resolved_time_ms": 2794000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MN",
+        "0",
+        "ANL",
+        "PRSN",
+        "AN",
+        "0S",
+        "SKL",
+        "A",
+        "AS",
+        "AN",
+        "ALN"
+      ],
       "description": "Zeke screams as he enters the classroom.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1582,
       "resolved_time_ms": 3299000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "A",
+        "MT",
+        "A",
+        "MSTK",
+        "KS"
+      ],
       "description": "Principal Drake, who appeared to be dead, suddenly stands up.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15966,
       "resolved_time_ms": 4597000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "LST",
+        "AT",
+        "0",
+        "KX",
+        "AS",
+        "T",
+        "FST",
+        "FR",
+        "M"
+      ],
       "description": "Stan jumps up at the window while Stokes is looking out.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 252,
       "resolved_time_ms": 4754000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KMS",
+        "T",
+        "SKL",
+        "AFR",
+        "T",
+        "NNK",
+        "0T",
+        "0S",
+        "AS",
+        "AT"
+      ],
       "description": "Delilah surprises Casey.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3760,
       "resolved_time_ms": 4958000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "ARNNT",
+        "A",
+        "TRT",
+        "AF",
+        "PNK",
+        "SM0NK",
+        "AR",
+        "NT"
+      ],
       "description": "Marybeth hits Stokes.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28081,
       "resolved_time_ms": 5245000,
       "type": "minor"
     },

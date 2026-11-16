@@ -27,34 +27,63 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "KNNT",
+        "RL",
+        "HRM",
+        "A"
+      ],
       "description": "The librarian looks out to the hallway to see a shadow person standing around a corner.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 24344,
       "resolved_time_ms": 1934000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "AS",
+        "LTRL",
+        "SKRT",
+        "T",
+        "T0"
+      ],
       "description": "Charlie looks at the turned off TV and sees the reflection of a shadow person right next to him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6089,
       "resolved_time_ms": 3002000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "AS",
+        "LTRL",
+        "SKRT",
+        "T",
+        "T0"
+      ],
       "description": "Charlie turns around to see if there’s anyone there, but doesn’t see anything. He turns back to the TV, staring at it for a few seconds when a shadow behind him suddenly moves very quickly.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19089,
       "resolved_time_ms": 3015000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "MSR",
+        "AR",
+        "KNTN",
+        "AN",
+        "AF",
+        "0S",
+        "PNKS"
+      ],
       "description": "A shadow person runs across the hallway.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46748,
       "resolved_time_ms": 3366000,
       "type": "minor"
     },
@@ -75,10 +104,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0RS",
+        "0S",
+        "SNT",
+        "LK",
+        "RSNTNK",
+        "AN",
+        "M",
+        "ARS"
+      ],
       "description": "In a mid-credits scene, Preston’s shadow begins to move on its own. After a few seconds of slow build up of an arm morphing out of the shadow, it suddenly grabs him.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44256,
       "resolved_time_ms": 4885000,
       "type": "minor"
     }

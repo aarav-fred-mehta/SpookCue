@@ -3,42 +3,77 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "MN",
+        "A",
+        "HR",
+        "FSS",
+        "AL",
+        "0",
+        "TM"
+      ],
       "description": "After Kim says “Man, I hear voices all the time,” there is suddenly a loud cut to a man being stabbed.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1704,
       "resolved_time_ms": 632000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "HL",
+        "AS",
+        "0T"
+      ],
       "description": "A few people jump out at the group from behind some bushes to scare them as a joke.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14294,
       "resolved_time_ms": 1121000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "P",
+        "AR0",
+        "ANT",
+        "FR",
+        "ANT",
+        "ATR",
+        "ANT",
+        "SMK"
+      ],
       "description": "A window at the back of the truck suddenly shatters as Kim is driving.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20808,
       "resolved_time_ms": 2982000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0T",
+        "RSTN",
+        "PR",
+        "KLT"
+      ],
       "description": "As Jeff turns towards Kim, he suddenly turns into a burning electrocuted body in a vision.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1301,
       "resolved_time_ms": 3103000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "LF",
+        "0S",
+        "KNT"
+      ],
       "description": "An owl suddenly flies through a window and it shatters.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3237,
       "resolved_time_ms": 3503000,
       "type": "minor"
     }

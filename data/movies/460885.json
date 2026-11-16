@@ -3,10 +3,18 @@
   "runtime_minutes": 122,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ST",
+        "K",
+        "FX",
+        "M",
+        "PR0R",
+        "SN"
+      ],
       "description": "A sound effect plays as Jeremiah becomes agitated when asking Marlene to fetch Brother Swan.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9312,
       "resolved_time_ms": 1408000,
       "type": "minor"
     },
@@ -27,10 +35,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "RPT",
+        "M",
+        "XRT",
+        "A",
+        "RPT",
+        "M",
+        "XRT"
+      ],
       "description": "There is a loud gunshot and the television blows out.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2438,
       "resolved_time_ms": 5028000,
       "type": "major"
     },

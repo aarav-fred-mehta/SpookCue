@@ -3,18 +3,35 @@
   "runtime_minutes": 102,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "FNT",
+        "0M",
+        "AL",
+        "FNT",
+        "0M"
+      ],
       "description": "A ladder cracks while Dalton is climbing it.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28778,
       "resolved_time_ms": 815000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RS",
+        "N0NK",
+        "A",
+        "KN",
+        "T",
+        "N0NK",
+        "A",
+        "KN",
+        "T"
+      ],
       "description": "A voice in the baby monitor yells “NOW”.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13791,
       "resolved_time_ms": 1352000,
       "type": "minor"
     },
@@ -35,18 +52,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FSTR",
+        "ATTS",
+        "KNK",
+        "AN"
+      ],
       "description": "The burglar alarm goes off again.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39956,
       "resolved_time_ms": 1783000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "JST",
+        "TLNK",
+        "A0",
+        "AT",
+        "AN",
+        "M",
+        "AN",
+        "FKNK",
+        "A"
+      ],
       "description": "Renai wakes from a nightmare.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30728,
       "resolved_time_ms": 2155000,
       "type": "minor"
     },
@@ -83,26 +116,51 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "STNTNK",
+        "0R",
+        "AN",
+        "0",
+        "KRNR"
+      ],
       "description": "Lorraine sees a red faced demon standing behind Josh.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5488,
       "resolved_time_ms": 2765000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "KN",
+        "NT",
+        "SM",
+        "TM",
+        "ALN",
+        "T",
+        "KNSNTRT"
+      ],
       "description": "Tucker sees the image of two women in dresses through his UV light camera.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27704,
       "resolved_time_ms": 2981000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "KLNK",
+        "AT",
+        "T",
+        "A",
+        "TLTN"
+      ],
       "description": "There is a cracking sound and a bright flash of light, followed by several more flashes of light over the next few minutes.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1046,
       "resolved_time_ms": 3792000,
       "type": "minor"
     },
@@ -123,26 +181,50 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "M",
+        "AR",
+        "M",
+        "SN",
+        "AS"
+      ],
       "description": "A strange smiling family suddenly appear in front of Josh.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9190,
       "resolved_time_ms": 4910000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TL",
+        "M",
+        "AR",
+        "M",
+        "SN",
+        "AS"
+      ],
       "description": "A man suddenly appears in front of the red door.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50190,
       "resolved_time_ms": 4951000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NN",
+        "AF",
+        "0S",
+        "AS",
+        "RL",
+        "0S",
+        "AS",
+        "NT",
+        "RL"
+      ],
       "description": "A red faced demon appears beside Josh.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1214,
       "resolved_time_ms": 5161000,
       "type": "major"
     },
@@ -155,42 +237,82 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "K",
+        "XK",
+        "AN",
+        "TLTN",
+        "N"
+      ],
       "description": "The door bursts open and the strange screaming family are revealed.",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27641,
       "resolved_time_ms": 5500000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "K",
+        "XK",
+        "AN",
+        "TLTN",
+        "N"
+      ],
       "description": "Tucker shines a torch on a mysterious man.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31641,
       "resolved_time_ms": 5504000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JX",
+        "JX",
+        "KM",
+        "PK",
+        "T",
+        "AS",
+        "JX",
+        "PLS"
+      ],
       "description": "Dalton opens the door in his bedroom and the red demon jumps out from behind.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2963,
       "resolved_time_ms": 5566000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "T",
+        "K",
+        "AAM",
+        "RT",
+        "PHNT",
+        "A",
+        "K"
+      ],
       "description": "The demon grabs Daltons leg from underneath the bed.",
       "id": "scare_23",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3701,
       "resolved_time_ms": 5579000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KN",
+        "A",
+        "AX",
+        "HM",
+        "LRN",
+        "SR"
+      ],
       "description": "A mysterious lady lunges at Elise.",
       "id": "scare_24",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31681,
       "resolved_time_ms": 5908000,
       "type": "minor"
     }

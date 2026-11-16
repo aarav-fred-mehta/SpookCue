@@ -11,10 +11,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLF",
+        "M",
+        "ANS",
+        "A",
+        "LS",
+        "HP",
+        "AF",
+        "LST",
+        "0",
+        "KM"
+      ],
       "description": "Asakawa suddenly jumps up from the table in anger.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23564,
       "resolved_time_ms": 3440000,
       "type": "minor"
     }

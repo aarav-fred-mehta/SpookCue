@@ -3,42 +3,86 @@
   "runtime_minutes": 117,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JST",
+        "N0N",
+        "MN",
+        "AL",
+        "RT"
+      ],
       "description": "Mark’s son breaks a glass.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 9292,
       "resolved_time_ms": 1151000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "STMK",
+        "AR",
+        "XST"
+      ],
       "description": "A loud whirring sound and smoke appears.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2209,
       "resolved_time_ms": 1289000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "T",
+        "A",
+        "ANT",
+        "A",
+        "SMK",
+        "N",
+        "A",
+        "KT"
+      ],
       "description": "Sudden cut to a car flipping over.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2000,
       "resolved_time_ms": 1791000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "0",
+        "FKNK",
+        "MTR",
+        "A0",
+        "A",
+        "A",
+        "KT",
+        "0",
+        "FK",
+        "AT"
+      ],
       "description": "A car drives forward after being cussed out and honked at by Mark and Henry and is immediately hit by another car.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3459,
       "resolved_time_ms": 3030000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAL",
+        "HF",
+        "T",
+        "TK",
+        "A",
+        "TN",
+        "T",
+        "0",
+        "FKN",
+        "AX",
+        "HS"
+      ],
       "description": "Henry screams at Mark.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5209,
       "resolved_time_ms": 3328000,
       "type": "major"
     },

@@ -3,10 +3,18 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "AN",
+        "0S",
+        "HS",
+        "RT",
+        "N"
+      ],
       "description": "A man's foot appears behind the boy accompanied by a jarring sound",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6996,
       "resolved_time_ms": 52000,
       "type": "minor"
     },
@@ -27,10 +35,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0RST",
+        "FR",
+        "ANK",
+        "PLT"
+      ],
       "description": "One of the campers scares the others by disguising himself into a masked killer.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2669,
       "resolved_time_ms": 1585000,
       "type": "minor"
     },
@@ -51,18 +64,31 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "SNTR",
+        "JF",
+        "SNTR",
+        "JF"
+      ],
       "description": "Jason comes up from under the sheets.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 29127,
       "resolved_time_ms": 3905000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PL",
+        "0RS",
+        "SMN",
+        "AN",
+        "0S",
+        "FKNK",
+        "RM"
+      ],
       "description": "Jason stands up facing Ginny.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 33927,
       "resolved_time_ms": 4110000,
       "type": "minor"
     },
@@ -83,10 +109,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "STRT",
+        "KM",
+        "AN",
+        "STRT"
+      ],
       "description": "Jason starts reaching into the car.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34143,
       "resolved_time_ms": 4270000,
       "type": "minor"
     },

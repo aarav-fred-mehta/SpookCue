@@ -3,10 +3,25 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "0NK",
+        "AF",
+        "A",
+        "NK",
+        "AT",
+        "AF",
+        "A",
+        "KN",
+        "KT",
+        "T",
+        "0",
+        "TP"
+      ],
       "description": "A wolf suddenly appears in front of Dan.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 19725,
       "resolved_time_ms": 2737000,
       "type": "minor"
     }

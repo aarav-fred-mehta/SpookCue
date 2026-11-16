@@ -11,10 +11,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "0NKS",
+        "AR",
+        "PRT",
+        "FN"
+      ],
       "description": "Holly’s hair is suddenly grabbed by a child.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 468,
       "resolved_time_ms": 1196000,
       "type": "minor"
     },
@@ -35,10 +41,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "HSL",
+        "HSL",
+        "AR"
+      ],
       "description": "A bloodied Hazel jumps up after she walks down the hallway.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4390,
       "resolved_time_ms": 3645000,
       "type": "minor"
     }

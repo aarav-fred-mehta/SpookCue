@@ -3,18 +3,30 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "ARNNT",
+        "HR",
+        "PFR",
+        "N"
+      ],
       "description": "Tom jumps out with a flashlight to scare Anne.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4471,
       "resolved_time_ms": 1076000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HL",
+        "AR",
+        "A",
+        "AN",
+        "HR"
+      ],
       "description": "Mrs. Fedder appears, yelling in the window.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14339,
       "resolved_time_ms": 3012000,
       "type": "minor"
     }

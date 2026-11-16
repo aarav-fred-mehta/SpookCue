@@ -19,10 +19,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "PRNNK",
+        "MNLT",
+        "ALRT",
+        "FN"
+      ],
       "description": "Fanny suddenly says “Let me out!”",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1160,
       "resolved_time_ms": 1217000,
       "type": "minor"
     },

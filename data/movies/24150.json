@@ -3,26 +3,46 @@
   "runtime_minutes": 105,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "ANT",
+        "A",
+        "T",
+        "KM",
+        "A0",
+        "M"
+      ],
       "description": "The scene abruptly cuts to Laurie screaming while being wheeled through a hospital.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1716,
       "resolved_time_ms": 202000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FK",
+        "FK",
+        "FK",
+        "FK",
+        "FK",
+        "FK"
+      ],
       "description": "There is a loud bang from the inside of the van.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20589,
       "resolved_time_ms": 557000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AFR0NK",
+        "AL",
+        "P",
+        "FN"
+      ],
       "description": "Myers suddenly appears and attacks Buddy from behind.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4001,
       "resolved_time_ms": 1379000,
       "type": "minor"
     },
@@ -35,10 +55,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "NT",
+        "AT",
+        "MKL",
+        "NT",
+        "AT"
+      ],
       "description": "During a nightmare, hands come up through a table and grab Laurie.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5314,
       "resolved_time_ms": 2819000,
       "type": "minor"
     },
@@ -51,82 +77,163 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKNK",
+        "HR",
+        "AP",
+        "TT"
+      ],
       "description": "A man dressed as a werewolf is suddenly stabbed in the back by Myers.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16488,
       "resolved_time_ms": 4866000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FKNK",
+        "HR",
+        "AP",
+        "TT"
+      ],
       "description": "Myers breaks through the back window of the van and attacks Harley.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37488,
       "resolved_time_ms": 4887000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "ALMST",
+        "TM",
+        "T",
+        "KM",
+        "HM",
+        "ANJL"
+      ],
       "description": "During a hallucination, Myers suddenly grabs Laurie.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8718,
       "resolved_time_ms": 5046000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "A",
+        "LF",
+        "M",
+        "KT",
+        "A",
+        "LF",
+        "A",
+        "T"
+      ],
       "description": "Myers appears from behind a tree and attacks a police officer.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30260,
       "resolved_time_ms": 5150000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "A",
+        "LF",
+        "M",
+        "KT",
+        "A",
+        "LF",
+        "A",
+        "T"
+      ],
       "description": "Deborah and young Myers can be seen in the doorway, several seconds later Myers face can be seen in the mirror as Annie closes the medicine cabinet.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57260,
       "resolved_time_ms": 5177000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "0NK",
+        "A",
+        "KK",
+        "AS",
+        "KN",
+        "SF",
+        "M"
+      ],
       "description": "There are several short flash-backs to Annie being attacked by Myers.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 28151,
       "resolved_time_ms": 5382000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AR",
+        "AT",
+        "AR",
+        "AT",
+        "XR"
+      ],
       "description": "Myers grabs Mya around the head while she in on the phone.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1949,
       "resolved_time_ms": 5475000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KT",
+        "ST",
+        "A0",
+        "M",
+        "A",
+        "KT"
+      ],
       "description": "Myers begins to pound on the bathroom door.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56312,
       "resolved_time_ms": 5625000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "AL",
+        "RT",
+        "AR",
+        "AL",
+        "RT",
+        "ATTS"
+      ],
       "description": "As Laurie gets into a car, Myers appears and grabs the driver.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4197,
       "resolved_time_ms": 5896000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AL",
+        "AN",
+        "AR",
+        "MNT",
+        "LT",
+        "M",
+        "K"
+      ],
       "description": "Myers and Loomis burst out of the shed.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 26449,
       "resolved_time_ms": 6334000,
       "type": "minor"
     }

@@ -3,18 +3,33 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANJ",
+        "AR",
+        "NT",
+        "KT"
+      ],
       "description": "The Jester suddenly leans down.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46695,
       "resolved_time_ms": 1719000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LT",
+        "M",
+        "S",
+        "AT",
+        "HR",
+        "LT",
+        "M",
+        "S",
+        "AT"
+      ],
       "description": "The Jester appears from behind.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23633,
       "resolved_time_ms": 2159000,
       "type": "minor"
     },
@@ -43,10 +58,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MM",
+        "H",
+        "AR",
+        "A",
+        "FLNK"
+      ],
       "description": "The man lifts his head up and this eyes missing.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40109,
       "resolved_time_ms": 3802000,
       "type": "minor"
     }

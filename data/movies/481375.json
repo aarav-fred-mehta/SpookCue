@@ -3,26 +3,56 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "RL",
+        "TKS",
+        "A",
+        "TL",
+        "AN",
+        "HR",
+        "PRS"
+      ],
       "description": "During a very tense scene, Angela slowly approaches three mannequins by a window when one of them makes a hissing noise and briefly transforms into a person.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57542,
       "resolved_time_ms": 540000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TK",
+        "XRJ",
+        "ANT",
+        "RMMPR",
+        "0T",
+        "A",
+        "AR",
+        "AMSNK"
+      ],
       "description": "An old man walks around the corner startling Jackson.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17042,
       "resolved_time_ms": 2035000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "STRT",
+        "A0",
+        "JKLNK",
+        "ANT",
+        "0N",
+        "AMP",
+        "AT",
+        "AP",
+        "FRM",
+        "0R"
+      ],
       "description": "During a tense scene, Angela turns around to see Elliot right beside her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 50875,
       "resolved_time_ms": 2140000,
       "type": "minor"
     },
@@ -35,10 +65,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "N",
+        "STP",
+        "P0",
+        "KN",
+        "A",
+        "HR",
+        "M"
+      ],
       "description": "After Jackson says “Beth” one of the young girls appears in front of Jackson and Angela.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 58875,
       "resolved_time_ms": 3544000,
       "type": "minor"
     },
@@ -51,18 +90,32 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "0S",
+        "JRLS",
+        "HT",
+        "JST",
+        "LSTNT"
+      ],
       "description": "A figure moves past the screen in front of Angela.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34250,
       "resolved_time_ms": 4220000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "K",
+        "ANT",
+        "KT",
+        "0",
+        "A0RS"
+      ],
       "description": "A hand is placed on Angela’s shoulder.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 47750,
       "resolved_time_ms": 4381000,
       "type": "minor"
     }

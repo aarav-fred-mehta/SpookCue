@@ -3,18 +3,32 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "MKS",
+        "A",
+        "0NK",
+        "AF",
+        "0S",
+        "N"
+      ],
       "description": "Some children appear in front of Josh and Paxton.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2492,
       "resolved_time_ms": 1847000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "AR",
+        "LK",
+        "T",
+        "JX"
+      ],
       "description": "A shrouded figure grabs Josh in the museum.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51370,
       "resolved_time_ms": 1934000,
       "type": "minor"
     },

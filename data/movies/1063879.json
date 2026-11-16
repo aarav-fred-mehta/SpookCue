@@ -27,26 +27,51 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "XT",
+        "AP",
+        "HHL",
+        "KT",
+        "AT",
+        "ATTS"
+      ],
       "description": "The spider moves normally but the music sting says otherwise.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3192,
       "resolved_time_ms": 2688000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "JST",
+        "A",
+        "SPTR",
+        "XT",
+        "AP"
+      ],
       "description": "More spiders from under a cloth.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5610,
       "resolved_time_ms": 2731000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AF",
+        "ATTS",
+        "AN",
+        "A",
+        "RM",
+        "AR",
+        "ATTS",
+        "AT",
+        "TS"
+      ],
       "description": "Box opens. Spider!",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12185,
       "resolved_time_ms": 2913000,
       "type": "major"
     },
@@ -59,10 +84,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "AR",
+        "A0RS",
+        "A",
+        "KNNT",
+        "LF",
+        "HM"
+      ],
       "description": "Guy is screaming with spiders on his face.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35573,
       "resolved_time_ms": 3382000,
       "type": "minor"
     },
@@ -75,18 +108,31 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "N",
+        "A",
+        "KN",
+        "TFNT",
+        "ARSLFS"
+      ],
       "description": "Little flashbang.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 54266,
       "resolved_time_ms": 4626000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STP",
+        "AT",
+        "M0S",
+        "KM",
+        "PK"
+      ],
       "description": "You'll never guess but it's spiders.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57799,
       "resolved_time_ms": 5472000,
       "type": "minor"
     },

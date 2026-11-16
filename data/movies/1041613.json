@@ -11,18 +11,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AL",
+        "A",
+        "AL",
+        "A",
+        "AKSS",
+        "M",
+        "PLS"
+      ],
       "description": "While Sister Cecilia speaks, it suddenly cuts to a flashback of her screaming underwater.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31720,
       "resolved_time_ms": 1096000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "SFRT",
+        "AN",
+        "0",
+        "KRS"
+      ],
       "description": "Sister Cecilia turns to find help and the Reverend Mother is suddenly behind her, accompanied by an emphatic sound effect.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15360,
       "resolved_time_ms": 1236000,
       "type": "minor"
     },
@@ -35,34 +50,74 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "X",
+        "HT",
+        "SKRS",
+        "AN",
+        "0",
+        "PTM",
+        "AF",
+        "HR",
+        "FT"
+      ],
       "description": "Sister Cecilia is lying in bed when someone lunges with scissors and snips part of her hair.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3000,
       "resolved_time_ms": 1684000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HF",
+        "A",
+        "HF",
+        "PN",
+        "APTNT",
+        "AR",
+        "AMNNS"
+      ],
       "description": "A bird slams into the window, accompanied by an emphatic sound effect.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 440,
       "resolved_time_ms": 1881000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A0R",
+        "AT",
+        "P",
+        "JLS",
+        "X",
+        "TRT",
+        "T",
+        "TRN",
+        "M"
+      ],
       "description": "Sister Cecilia is suddenly shoved underwater in the tub, accompanied by a loud sound effect.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4160,
       "resolved_time_ms": 2340000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "T",
+        "A",
+        "TNNT",
+        "ANT",
+        "T",
+        "T"
+      ],
       "description": "As Sister Cecelia backs away from the keyhole, someone quickly covers her mouth from behind.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 21400,
       "resolved_time_ms": 3028000,
       "type": "minor"
     },

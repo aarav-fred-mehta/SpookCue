@@ -3,10 +3,8 @@
   "runtime_minutes": 30,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A claw scratches Neekani",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 423000,
       "type": "minor"
     }

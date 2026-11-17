@@ -3,45 +3,21 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AT",
-        "0",
-        "ANFNT",
-        "PFT",
-        "AF",
-        "A",
-        "TNNT",
-        "KM"
-      ],
       "description": "Sudden scream",
       "id": "scare_01",
-      "offset_from_anchor_ms": 1658,
       "resolved_time_ms": 2064000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "SM",
-        "PR",
-        "0T",
-        "AL",
-        "SN",
-        "P",
-        "KMNK",
-        "AFTR",
-        "A"
-      ],
-      "description": "A man’s head explodes. Quite graphic",
+      "description": "A man\u2019s head explodes. Quite graphic",
       "id": "scare_02",
-      "offset_from_anchor_ms": 14123,
       "resolved_time_ms": 2611000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-06-01T23:08:24.692Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Buffet Infinity",
   "tmdb_id": 1495041
 }

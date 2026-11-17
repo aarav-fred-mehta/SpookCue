@@ -3,49 +3,33 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A loud noise sounds after David closes a manhole and looks upwards at a shadowy figure.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3104000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "JST",
-        "NT",
-        "T",
-        "S",
-        "0",
-        "0",
-        "RM"
-      ],
-      "description": "A shadow appears behind David’s son after his son spins the laptop around.",
+      "description": "A shadow appears behind David\u2019s son after his son spins the laptop around.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 11467,
       "resolved_time_ms": 3415000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Sophie gets abruptly tackled by something.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3692000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "David wakes up from his sleep to see a man bagging a human body on the ground. The body then suddenly jolts upwards and yells.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4148000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:56.900Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Canal",
   "tmdb_id": 265010
 }

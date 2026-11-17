@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "spookcue-scraper"
 version = "0.1.0"
-description = "Jump-scare scraper, TMDB metadata fetcher, and phonetic dialogue indexing pipeline for SpookCue"
+description = "Jump-scare scraper and TMDB metadata pipeline for SpookCue"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [
@@ -15,8 +15,6 @@ dependencies = [
     "httpx[http2]>=0.27.0",
     "curl-cffi>=0.7.0",
     "beautifulsoup4>=4.12.0",
-    "srt>=3.5.3",
-    "Metaphone>=0.6",
     "orjson>=3.10.0",
 ]
 

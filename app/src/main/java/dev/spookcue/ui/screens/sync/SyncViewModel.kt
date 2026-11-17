@@ -10,7 +10,6 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.spookcue.alert.ScareScheduler
 import dev.spookcue.audio.AudioCaptureManager
-import dev.spookcue.audio.VadEngine
 import dev.spookcue.data.local.UserPreferencesManager
 import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.repository.MovieRepository
@@ -32,7 +31,6 @@ class SyncViewModel @Inject constructor(
     private val syncEngine: SyncEngine,
     private val scareScheduler: ScareScheduler,
     private val audioCaptureManager: AudioCaptureManager,
-    private val vadEngine: VadEngine,
     private val preferencesManager: UserPreferencesManager
 ) : ViewModel() {
 
@@ -56,10 +54,6 @@ class SyncViewModel @Inject constructor(
 
     // Real-Time Audio Debug State (observed from audio singletons)
     val rmsDb: StateFlow<Float> = audioCaptureManager.rmsDb
-    val speechDetected: StateFlow<Boolean> = vadEngine.speechDetected
-
-    private val _liveTranscript = MutableStateFlow("")
-    val liveTranscript: StateFlow<String> = _liveTranscript.asStateFlow()
 
     private val _isListening = MutableStateFlow(false)
     val isListening: StateFlow<Boolean> = _isListening.asStateFlow()
@@ -71,14 +65,6 @@ class SyncViewModel @Inject constructor(
     val isDebugVisible: StateFlow<Boolean> = _isDebugVisible.asStateFlow()
 
     init {
-        viewModelScope.launch {
-            syncEngine.lastTranscript.collect { text ->
-                if (text.isNotBlank()) {
-                    _liveTranscript.value = text
-                }
-            }
-        }
-
         viewModelScope.launch {
             scareScheduler.alertEvents.collect { event ->
                 when (event) {
@@ -100,9 +86,6 @@ class SyncViewModel @Inject constructor(
         _isDebugVisible.value = !_isDebugVisible.value
     }
 
-    fun simulateSpeech(text: String) {
-        syncEngine.onSpeechTranscribed(text)
-    }
     fun simulateAcousticLock(targetMovieTimeMs: Long = 600_000L) {
         syncEngine.simulateAcousticLock(targetMovieTimeMs)
     }
@@ -151,7 +134,6 @@ class SyncViewModel @Inject constructor(
         }
     }
 
-
     fun toggleScareRevealed(scareId: String) {
         val current = _revealedScareIds.value
         if (current.contains(scareId)) {
@@ -178,15 +160,13 @@ class SyncViewModel @Inject constructor(
                 _movie.value = details
                 _isListening.value = true
 
-                // Start SpookCueService as foreground service — it owns audio capture, VAD, STT and sync
+                // Start SpookCueService as foreground service — it owns audio capture and acoustic sync
                 val intent = Intent(context, SpookCueService::class.java).apply {
                     action = SpookCueService.ACTION_START_SYNC
                     putExtra(SpookCueService.EXTRA_TMDB_ID, tmdbId)
                     putExtra(SpookCueService.EXTRA_MOVIE_TITLE, details.title)
                     putExtra(SpookCueService.EXTRA_RUNTIME_MS, details.runtimeMinutes * 60_000L)
-                    if (syncModeOverride != null) {
-                        putExtra(SpookCueService.EXTRA_SYNC_MODE, syncModeOverride)
-                    }
+                    putExtra(SpookCueService.EXTRA_SYNC_MODE, "audio_hash")
                 }
                 ContextCompat.startForegroundService(context, intent)
             }.onFailure { e ->
@@ -217,7 +197,6 @@ class SyncViewModel @Inject constructor(
         context.startService(intent)
         _isPulsing.value = false
         _isListening.value = false
-        _liveTranscript.value = ""
     }
 
     override fun onCleared() {

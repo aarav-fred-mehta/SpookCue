@@ -3,113 +3,45 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AKSPT",
-        "H",
-        "APSLTL",
-        "ASLS",
-        "A",
-        "AM",
-        "AT",
-        "APL",
-        "PPNK"
-      ],
       "description": "A masked crew member jumps out of a kitchen cupboard to scare Sarah.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 880,
       "resolved_time_ms": 887000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TTNNT",
-        "N",
-        "0",
-        "HT",
-        "A",
-        "KT"
-      ],
       "description": "There is a sudden thud from upstairs.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 880,
       "resolved_time_ms": 3318000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "SR",
-        "SR",
-        "0",
-        "LNTNK",
-        "KMR"
-      ],
       "description": "A sudden cut from the studio to a loud scream might startle some viewers.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 280,
       "resolved_time_ms": 3376000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "LT",
-        "M",
-        "N",
-        "AR",
-        "A",
-        "AR",
-        "S",
-        "0T",
-        "A",
-        "KN",
-        "HLP",
-        "A"
-      ],
       "description": "A cat suddenly screeches.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 44520,
       "resolved_time_ms": 4572000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "HF",
-        "A",
-        "STL",
-        "KT",
-        "AR",
-        "LTR"
-      ],
       "description": "There is another loud thud from upstairs.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 19760,
       "resolved_time_ms": 5203000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "KT",
-        "T",
-        "TR",
-        "ANT",
-        "PX",
-        "AT",
-        "FRM",
-        "0",
-        "ANST"
-      ],
       "description": "The door shuts on its own after Sarah enters the room under the stairs.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 1719,
       "resolved_time_ms": 5258000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:11.916Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Ghostwatch",
   "tmdb_id": 46633
 }

@@ -3,155 +3,69 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AAM",
-        "JST",
-        "RL",
-        "KRTFL"
-      ],
-      "description": "A car crashes into Jess and Matt’s car from the side.",
+      "description": "A car crashes into Jess and Matt\u2019s car from the side.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 672,
       "resolved_time_ms": 62000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "TR",
-        "HS",
-        "0",
-        "KX"
-      ],
       "description": "As Matt approaches the closet, Jess jumps out to scare him.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 42,
       "resolved_time_ms": 725000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "LTTS",
-        "JST",
-        "AT",
-        "HR",
-        "MT",
-        "MT"
-      ],
       "description": "After a hand reaches out from behind, Matt is suddenly pulled away.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 55685,
       "resolved_time_ms": 1371000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "H",
-        "0",
-        "HL",
-        "TT",
-        "AT",
-        "KT",
-        "HR"
-      ],
-      "description": "As Matt reaches for Trey’s phone a hand suddenly grabs him.",
+      "description": "As Matt reaches for Trey\u2019s phone a hand suddenly grabs him.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 601,
       "resolved_time_ms": 1635000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "MT",
-        "LS",
-        "SMN",
-        "ALS",
-        "A",
-        "LF"
-      ],
       "description": "A loud sound may startle some viewers.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 17139,
       "resolved_time_ms": 2146000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "While Trey is talking into the camera a hand suddenly grabs him.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2308000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "LK",
-        "AT",
-        "KLT",
-        "0",
-        "ANT"
-      ],
       "description": "Matt is suddenly dragged away.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 28857,
       "resolved_time_ms": 3009000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "0",
-        "HL",
-        "TT",
-        "A",
-        "K"
-      ],
       "description": "After a sudden loud growl Julia turns around to see the monster running at her.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 546,
       "resolved_time_ms": 3192000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "MT",
-        "AT",
-        "0",
-        "HL",
-        "AR",
-        "A",
-        "TNK"
-      ],
-      "description": "The balloons pop after Matt says “they’re here.”",
+      "description": "The balloons pop after Matt says \u201cthey\u2019re here.\u201d",
       "id": "scare_09",
-      "offset_from_anchor_ms": 3775,
       "resolved_time_ms": 4166000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AAM",
-        "NT",
-        "KN",
-        "LS",
-        "A",
-        "AAM",
-        "NT",
-        "KN",
-        "LS",
-        "A",
-        "T"
-      ],
       "description": "Jess gets pulled into the sky.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 4035,
       "resolved_time_ms": 4406000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:22.774Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Gracefield Incident",
   "tmdb_id": 327253
 }

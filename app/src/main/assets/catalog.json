@@ -1,41 +1,41 @@
 [
   {
-    "tmdb_id": 250546,
-    "title": "Annabelle",
+    "has_acoustic_sync": true,
+    "poster_path": "/yLsuU2P2SpDYFwtZQ7dtfVAf6TE.jpg",
     "release_year": 2014,
     "runtime_minutes": 99,
     "scare_count": 11,
-    "poster_path": "/yLsuU2P2SpDYFwtZQ7dtfVAf6TE.jpg",
-    "has_subtitles": false,
     "sync_type": "audio_hash",
     "tags": [
       "HOT"
-    ]
+    ],
+    "title": "Annabelle",
+    "tmdb_id": 250546
   },
   {
-    "tmdb_id": 447332,
-    "title": "A Quiet Place",
+    "has_acoustic_sync": true,
+    "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
     "release_year": 2018,
     "runtime_minutes": 90,
     "scare_count": 4,
-    "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
-    "has_subtitles": false,
     "sync_type": "audio_hash",
     "tags": [
       "HOT"
-    ]
+    ],
+    "title": "A Quiet Place",
+    "tmdb_id": 447332
   },
   {
-    "tmdb_id": 242224,
-    "title": "The Babadook",
+    "has_acoustic_sync": false,
+    "poster_path": "/shN9PzIew1YqZkFszE12WbK8k0Z.jpg",
     "release_year": 2014,
     "runtime_minutes": 94,
     "scare_count": 5,
-    "poster_path": "/shN9PzIew1YqZkFszE12WbK8k0Z.jpg",
-    "has_subtitles": true,
-    "sync_type": "subtitles",
+    "sync_type": "audio_hash",
     "tags": [
       "HOT"
-    ]
+    ],
+    "title": "The Babadook",
+    "tmdb_id": 242224
   }
 ]

@@ -3,31 +3,21 @@
   "runtime_minutes": 80,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A hand hits the floor and a scream is heard.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 121000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KKST",
-        "MN",
-        "SNL",
-        "T",
-        "SRT"
-      ],
       "description": "As they open the door a box falls down.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 650,
       "resolved_time_ms": 1966000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:35.968Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Stay Out Of The Attic",
   "tmdb_id": 787009
 }

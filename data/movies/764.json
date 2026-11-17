@@ -3,274 +3,141 @@
   "runtime_minutes": 85,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "There is a noise from behind a door in the cellar.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 824000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Scotty jumps out and scares Ash.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 884000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KM",
-        "AN",
-        "A",
-        "JST",
-        "ANT",
-        "T",
-        "HR",
-        "0",
-        "RST",
-        "AF",
-        "AT"
-      ],
       "description": "A branch falls through the window of the cabin.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 34832,
       "resolved_time_ms": 1121000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "HRT",
-        "A",
-        "A",
-        "HRT",
-        "A",
-        "AN",
-        "0",
-        "SLR"
-      ],
       "description": "A loud noise startles Cheryl.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 5872,
       "resolved_time_ms": 1469000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Ash grabs Cheryl’s wrist as she struggles to get in the house.",
+      "description": "Ash grabs Cheryl\u2019s wrist as she struggles to get in the house.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1762000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "AR",
-        "A",
-        "STPNK",
-        "AT",
-        "HR",
-        "A",
-        "MNT"
-      ],
       "description": "A branch drops down in front of Cheryl.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 54306,
       "resolved_time_ms": 2000000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "T",
-        "AF",
-        "SPTS",
-        "JK",
-        "AF",
-        "TMNTS"
-      ],
       "description": "Cheryl turns around to reveal that her face has become demonic. [Video].",
       "id": "scare_07",
-      "offset_from_anchor_ms": 4365,
       "resolved_time_ms": 2141000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "TT",
-        "A",
-        "S",
-        "HR",
-        "AS",
-        "AX",
-        "AAM",
-        "SKRT",
-        "ATTS",
-        "RNK",
-        "A0",
-        "HR"
-      ],
       "description": "Possessed Cheryl suddenly jumps up and stabs Linda with a pencil.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 21527,
       "resolved_time_ms": 2205000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Shelly grabs Scotty around the neck. [Video].",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2603000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "The dismembered hand attacks Scotty. [Video].",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2819000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0N",
-        "A",
-        "AL",
-        "LK",
-        "A",
-        "AP",
-        "AN",
-        "0",
-        "SLR"
-      ],
       "description": "Linda opens her eyes and sits up in bed suddenly, revealing she has also been possessed.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 37875,
       "resolved_time_ms": 3083000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0N",
-        "A",
-        "AL",
-        "LK",
-        "A",
-        "AP",
-        "AN",
-        "0",
-        "SLR"
-      ],
       "description": "Scotty grabs hold of Ash, begging for help.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 55875,
       "resolved_time_ms": 3101000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANLK",
-        "0S",
-        "XN",
-        "ANT",
-        "LT",
-        "M",
-        "AT"
-      ],
-      "description": "Cheryl’s hand comes through the cellar door and grabs Ash. [Video].",
+      "description": "Cheryl\u2019s hand comes through the cellar door and grabs Ash. [Video].",
       "id": "scare_13",
-      "offset_from_anchor_ms": 51600,
       "resolved_time_ms": 3372000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "PT",
-        "AT",
-        "LK",
-        "0T",
-        "ALTNNT",
-        "A"
-      ],
       "description": "Linda attacks Ash with a dagger.",
       "id": "scare_14",
-      "offset_from_anchor_ms": 28848,
       "resolved_time_ms": 3518000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Cheryl grabs Ash’s ankle.",
+      "description": "Cheryl grabs Ash\u2019s ankle.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3561000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Linda’s hand comes out of the ground to grab Ash.",
+      "description": "Linda\u2019s hand comes out of the ground to grab Ash.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3901000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Cheryl appears at the window.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4078000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Cheryl pops up again.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4091000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A pipe in the cellar breaks and blood gushes out.",
       "id": "scare_19",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4195000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Hands break through the door behind Ash and grab him around the neck. [Video].",
       "id": "scare_20",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4547000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "Scotty sits up suddenly and grabs Ash.",
       "id": "scare_21",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4579000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "An arm bursts out of Cheryl’s body.",
+      "description": "An arm bursts out of Cheryl\u2019s body.",
       "id": "scare_22",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4841000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:13.950Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Evil Dead",
   "tmdb_id": 764
 }

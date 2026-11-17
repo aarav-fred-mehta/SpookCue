@@ -3,25 +3,15 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": [
-        "FR",
-        "AT",
-        "X",
-        "S",
-        "AN",
-        "0T",
-        "FN"
-      ],
-      "description": "The face from Alice’s phone footage suddenly comes towards the camera. [Video].",
+      "description": "The face from Alice\u2019s phone footage suddenly comes towards the camera. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": 7211,
       "resolved_time_ms": 4249000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:17.368Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Lake Mungo",
   "tmdb_id": 27374
 }

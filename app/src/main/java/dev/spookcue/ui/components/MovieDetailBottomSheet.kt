@@ -189,24 +189,10 @@ fun MovieDetailBottomSheet(
                     Spacer(modifier = Modifier.height(6.dp))
 
                     // Sync capability status
-                    val effectiveSyncType = movieDetails?.syncType ?: movie.syncType
-                    val isAudioHash = effectiveSyncType == "audio_hash"
-                    val isDialogueSync = !isAudioHash && (movie.hasSubtitles || effectiveSyncType == "subtitles")
-                    val syncLabel = when {
-                        isAudioHash -> "Acoustic Landmark Sync"
-                        isDialogueSync -> "Phonetic Dialogue Sync"
-                        else -> "Clock Sync Only"
-                    }
-                    val syncIcon = when {
-                        isAudioHash -> Icons.Default.GraphicEq
-                        isDialogueSync -> Icons.Default.GraphicEq
-                        else -> Icons.Default.AccessTime
-                    }
-                    val syncColor = when {
-                        isAudioHash -> CrimsonLight
-                        isDialogueSync -> CrimsonLight
-                        else -> TextSecondary
-                    }
+                    val hasAcoustic = movie.hasAcousticSync
+                    val syncLabel = if (hasAcoustic) "Acoustic Landmark Sync" else "Manual Clock Sync"
+                    val syncIcon = if (hasAcoustic) Icons.Default.GraphicEq else Icons.Default.AccessTime
+                    val syncColor = if (hasAcoustic) CrimsonLight else TextSecondary
 
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(
@@ -340,6 +326,7 @@ fun MovieDetailBottomSheet(
             Spacer(modifier = Modifier.height(24.dp))
 
             // Primary Action: Start Sync
+            val buttonText = if (movie.hasAcousticSync) "START ACOUSTIC SYNC" else "START MANUAL SYNC"
             Button(
                 onClick = onStartSync,
                 modifier = Modifier
@@ -358,7 +345,7 @@ fun MovieDetailBottomSheet(
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
-                    text = "START SYNC",
+                    text = buttonText,
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Bold,
                     letterSpacing = 1.sp

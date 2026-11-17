@@ -3,131 +3,57 @@
   "runtime_minutes": 94,
   "scares": [
     {
-      "anchor_phonetic": [
-        "HH",
-        "FSTR",
-        "PT",
-        "AAM",
-        "SMRTR",
-        "P",
-        "AT",
-        "LST",
-        "T",
-        "STNTRT",
-        "TFXNS"
-      ],
       "description": "Doris crawls around the corner and snarls at Tyler.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 40151,
       "resolved_time_ms": 1222000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "AF",
-        "AR",
-        "KN",
-        "APN",
-        "0",
-        "TR",
-        "JST",
-        "APN",
-        "AT",
-        "FR",
-        "A",
-        "LTL",
-        "PT"
-      ],
       "description": "Doris runs past the door as Tyler looks out.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 39172,
       "resolved_time_ms": 2410000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AAM",
-        "JST",
-        "KTNK",
-        "PRTRTS",
-        "AF",
-        "AFRPT"
-      ],
       "description": "Rebecca bursts through a door to scare Tyler.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 52579,
       "resolved_time_ms": 3017000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Doris pops up in front of the camera and snarls.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3332000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Doris bangs hard on the children’s bedroom door.",
+      "description": "Doris bangs hard on the children\u2019s bedroom door.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3415000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "PN",
-        "STNK",
-        "A0",
-        "0S",
-        "PPL",
-        "0",
-        "AL",
-        "TM"
-      ],
       "description": "Doris bangs on the window.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 23024,
       "resolved_time_ms": 4085000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Doris appears in front of the camera.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4767000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "HF",
-        "T",
-        "K",
-        "T",
-        "0",
-        "TRN",
-        "T",
-        "K",
-        "T",
-        "0",
-        "KSTM",
-        "PRT"
-      ],
-      "description": "Doris’s hand comes up from underneath the bed and she laughs maniacally.",
+      "description": "Doris\u2019s hand comes up from underneath the bed and she laughs maniacally.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 34125,
       "resolved_time_ms": 4829000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:09.771Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Visit",
   "tmdb_id": 298312
 }

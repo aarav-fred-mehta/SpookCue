@@ -3,33 +3,21 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "The rear window of the truck is broken as a Hyper reaches in.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2185000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "N",
-        "AT",
-        "AR",
-        "TLKNK",
-        "APT"
-      ],
       "description": "Another Hyper appears behind Fred.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 20264,
       "resolved_time_ms": 2214000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:29.729Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Vfw",
   "tmdb_id": 624779
 }

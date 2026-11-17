@@ -3,50 +3,21 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": [
-        "XT",
-        "A",
-        "ASLS",
-        "A",
-        "AR",
-        "A",
-        "A",
-        "SN",
-        "AF",
-        "A",
-        "PX",
-        "KM",
-        "AT",
-        "A",
-        "PSTRT"
-      ],
       "description": "Something bumps into the car and it violently shakes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 2584,
       "resolved_time_ms": 1465000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "AS",
-        "A",
-        "FKNK",
-        "FRK",
-        "ALRT",
-        "A",
-        "FRK"
-      ],
       "description": "The camera cuts from the driver to a man standing in the road.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 4417,
       "resolved_time_ms": 1598000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:54.224Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Baskin",
   "tmdb_id": 334394
 }

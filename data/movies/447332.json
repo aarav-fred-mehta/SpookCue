@@ -3,114 +3,86 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Beau is attacked by one of the creatures (while we get some warning the attack is quite loud and violent).",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 604000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Regan knocks over a lamp during a game of monopoly and the ensuing loud noise during a previously quiet scene may be quite startling for some viewers.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1161000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "There is a loud bang on the roof of the house.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1226000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "As Lee listens by a window, a raccoon suddenly screeches and runs past.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1270000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "A raccoon is suddenly attacked by one of the creatures.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1304000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "As Regan is about to descend the stairs, Lee grabs her and pulls her back.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1665000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "Marcus walks past an old man who is watching him in the background.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2545000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A creature walks past the doorway above the stairs.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2757000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The creature makes a loud noise.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2774000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Evelyn puts a bloodied hand on the shower window startling Lee.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3206000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "As Regan goes to pick up the torch, Marcus grabs her wrist.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3652000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Marcus falls through a metal door and lands in the grain silo.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4008000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The creature drops down into the grain silo beside Regan.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4179000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "After a period of silence we see the creature outside the car, the creature then breaks through the window with a loud crash.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4437000,
       "type": "minor"
     }

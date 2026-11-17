@@ -3,73 +3,33 @@
   "runtime_minutes": 124,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AT",
-        "KN",
-        "A",
-        "JST",
-        "PLS"
-      ],
       "description": "An ambulance crashes into a car in front of Malorie and Jess.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 2521,
       "resolved_time_ms": 627000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AAM",
-        "NT",
-        "HR",
-        "T",
-        "HRT",
-        "A",
-        "A",
-        "KN",
-        "PL",
-        "A",
-        "T",
-        "XR"
-      ],
-      "description": "After Malorie shoots her gun several times, the stranger suddenly grabs her and yells “take your damn blindfold off”.",
+      "description": "After Malorie shoots her gun several times, the stranger suddenly grabs her and yells \u201ctake your damn blindfold off\u201d.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 10604,
       "resolved_time_ms": 2227000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SM0NK",
-        "AS",
-        "RNK",
-        "A0",
-        "MLR"
-      ],
-      "description": "After repeating Malorie’s name several times, the girl is pulled to the ground and dragged away.",
+      "description": "After repeating Malorie\u2019s name several times, the girl is pulled to the ground and dragged away.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 53938,
       "resolved_time_ms": 3721000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0S",
-        "AS",
-        "AT",
-        "STRPR",
-        "TSTS",
-        "LK"
-      ],
       "description": "A loud gunshot may startle very sensitive viewers.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 29396,
       "resolved_time_ms": 5779000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:58.031Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Bird Box",
   "tmdb_id": 405774
 }

@@ -3,17 +3,15 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Scene change with loud noises",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3090000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-02-24T19:29:21.007Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Plague",
   "tmdb_id": 1370814
 }

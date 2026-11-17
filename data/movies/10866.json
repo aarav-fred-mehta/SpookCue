@@ -3,35 +3,21 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Venna is grabbed from behind inside the corn field.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4428000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "A",
-        "SR",
-        "AS",
-        "HL",
-        "ANNT",
-        "TL",
-        "0",
-        "KPS"
-      ],
       "description": "While Fuller is looking through the back window, the truck driver breaks the window from the inside.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 14979,
       "resolved_time_ms": 5084000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:09.697Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Joy Ride",
   "tmdb_id": 10866
 }

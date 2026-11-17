@@ -3,108 +3,51 @@
   "runtime_minutes": 131,
   "scares": [
     {
-      "anchor_phonetic": [
-        "TT",
-        "A",
-        "NTS",
-        "0",
-        "PK",
-        "TR",
-        "JMS"
-      ],
-      "description": "A gloved hand suddenly appears as Michèle attempts to close the glass doors.",
+      "description": "A gloved hand suddenly appears as Mich\u00e8le attempts to close the glass doors.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 48167,
       "resolved_time_ms": 960000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "SM",
-        "PPL",
-        "ANNT",
-        "JST",
-        "TS",
-        "KRP"
-      ],
-      "description": "There is an abrupt flashback to the masked man attacking Michèle.",
+      "description": "There is an abrupt flashback to the masked man attacking Mich\u00e8le.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 8883,
       "resolved_time_ms": 1847000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SM",
-        "PPL",
-        "ANNT",
-        "JST",
-        "TS",
-        "KRP"
-      ],
       "description": "A bird flies into a window.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 54883,
       "resolved_time_ms": 1893000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "MK",
-        "AF",
-        "KTN",
-        "N",
-        "XNJ",
-        "AP",
-        "AT",
-        "T"
-      ],
-      "description": "Michèle’s cat jumps on her during a tense scene.",
+      "description": "Mich\u00e8le\u2019s cat jumps on her during a tense scene.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 58267,
       "resolved_time_ms": 4303000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "STL",
-        "KT",
-        "0",
-        "KRNT"
-      ],
-      "description": "The masked man appears behind Michèle.",
+      "description": "The masked man appears behind Mich\u00e8le.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 57600,
       "resolved_time_ms": 4977000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "AN",
-        "APRTNT",
-        "FR",
-        "A"
-      ],
-      "description": "A deer jumps in front of Michèle’s car.",
+      "description": "A deer jumps in front of Mich\u00e8le\u2019s car.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 1642,
       "resolved_time_ms": 5374000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Michèle turns around and the masked man is standing in front of her.",
+      "description": "Mich\u00e8le turns around and the masked man is standing in front of her.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 6962000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-06T20:21:35.351Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Elle",
   "tmdb_id": 337674
 }

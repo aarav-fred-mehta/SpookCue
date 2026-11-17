@@ -3,72 +3,39 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "The old lady groans and appears suddenly beside Mun.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 986000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Mun walks slowly down a corridor, as she approaches a light there is a rattling noise behind her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1483000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "ATTS",
-        "ARJNT",
-        "A",
-        "KN",
-        "PJ",
-        "HM",
-        "FR",
-        "A",
-        "N"
-      ],
-      "description": "A woman suddenly appears while Mun is learning calligraphy. She asks “why are you sitting on my chair?” and lunges at Mun. [Video].",
+      "description": "A woman suddenly appears while Mun is learning calligraphy. She asks \u201cwhy are you sitting on my chair?\u201d and lunges at Mun. [Video].",
       "id": "scare_03",
-      "offset_from_anchor_ms": 41400,
       "resolved_time_ms": 2176000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "HF",
-        "A",
-        "SN",
-        "M",
-        "RPRT",
-        "KRT"
-      ],
       "description": "An elderly man appears in the lift with Mun.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 2640,
       "resolved_time_ms": 2888000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANK",
-        "ANK",
-        "HS",
-        "ALRT"
-      ],
       "description": "Mun sees a dark figure standing behind Ying Ying.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 22840,
       "resolved_time_ms": 3507000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:13.955Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Eye",
   "tmdb_id": 10389
 }

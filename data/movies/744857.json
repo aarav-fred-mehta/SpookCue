@@ -3,40 +3,21 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": [
-        "A",
-        "AL",
-        "P",
-        "PRNTS",
-        "TNNT",
-        "T",
-        "AT",
-        "PLS"
-      ],
       "description": "A person receives an axe blow to the face",
       "id": "scare_01",
-      "offset_from_anchor_ms": 38234,
       "resolved_time_ms": 1639000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "STP",
-        "ALNK",
-        "LF",
-        "A",
-        "HR"
-      ],
       "description": "A dog attacks a child",
       "id": "scare_02",
-      "offset_from_anchor_ms": 424,
       "resolved_time_ms": 2162000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-10-31T15:19:07.229Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "When Evil Lurks",
   "tmdb_id": 744857
 }

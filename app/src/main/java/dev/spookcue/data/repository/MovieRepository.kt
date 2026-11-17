@@ -156,6 +156,7 @@ class MovieRepositoryImpl @Inject constructor(
                     movieDao.updatePosterPath(item.tmdbId, item.posterPath)
                 }
                 movieDao.updateSyncType(item.tmdbId, item.syncType)
+                movieDao.updateHasAcousticSync(item.tmdbId, item.hasAcousticSync)
             }
         }
     }

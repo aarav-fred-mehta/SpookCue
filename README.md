@@ -1,6 +1,6 @@
 # SpookCue
 
-> **Offline horror-movie jump-scare alerter.** Listens to distant movie audio → transcribes speech on-device → matches phonetic dialogue fingerprints against 1,164 horror films (~9,754 jump scares) → fires haptic/visual alerts ±2 s before the scare — all while the phone is locked in a pocket.
+> **Offline horror-movie jump-scare alerter.** Listens to distant movie audio → extracts acoustic landmark fingerprints on-device → matches against horror film timelines (1,185 films, ~9,700+ jump scares) → fires haptic/visual alerts before the scare — all while the phone is locked in a pocket.
 
 ---
 
@@ -15,21 +15,21 @@ SpookCue/
 │       └── release_apk.yml          # Builds signed release APK on version tag (v*)
 ├── scraper/                         # Python data pipeline
 │   ├── pyproject.toml
-│   ├── src/spookcue_scraper/        # Scraper, TMDB fetcher, sanitizer & phonetic indexer
+│   ├── src/spookcue_scraper/        # Scraper, TMDB metadata fetcher
 │   └── tests/                       # Scraper unit tests
 ├── data/                            # Committed output (served via CDN & GitHub Pages)
 │   ├── version.json                 # { "v": 42, "updated": "2026-10-20", ... }
 │   ├── catalog.json                 # All horror movies (metadata & scare counts)
-│   └── movies/                      # Per-movie phonetic indexes & jump-scare anchors
+│   ├── movies/                      # Per-movie scare timelines
+│   └── sync/                        # Acoustic landmark hash sync assets
 ├── app/                             # Android Kotlin project (Jetpack Compose)
 │   ├── build.gradle.kts
 │   ├── src/main/
 │   │   ├── AndroidManifest.xml
-│   │   ├── assets/                  # Bundled catalog + initial movie JSONs
+│   │   ├── assets/                  # Bundled catalog + initial movie JSONs & sync data
 │   │   ├── java/dev/spookcue/       # Application code & services
 │   │   └── res/                     # Dark crimson theme resources
 │   └── src/test/                    # Android unit tests
-├── models/                          # ONNX models (Silero VAD + Moonshine-Tiny STT)
 └── PLAN.md                          # Full multi-phase implementation roadmap
 ```
 
@@ -86,7 +86,6 @@ To enable daily scraping and signed APK releases, configure the following secret
 | Secret | Description |
 |---|---|
 | `TMDB_API_KEY` | TMDB API v3 developer token for metadata and poster paths |
-| `SUBDL_API_KEY` | SubDL API token for downloading English SRT subtitle tracks |
 | `KEYSTORE_BASE64` | Base64-encoded release `.jks` keystore (`base64 -w 0 release-key.jks`) |
 | `KEYSTORE_PASSWORD` | Keystore password |
 | `KEY_ALIAS` | Key alias in the release keystore |
@@ -105,7 +104,7 @@ The Android client downloads delta updates from jsDelivr by default, with automa
 
 ## Architecture Highlights
 
-1. **Two-Stage Acoustic Engine**: Silero VAD (voice activity detection) filters out 80%+ of audio frames (music, screams, silence) so Moonshine-Tiny / Whisper STT runs only during spoken dialogue.
-2. **Double Metaphone Phonetic Fingerprinting**: Matches dialogue based on speech sounds rather than exact orthography, tolerating transcription errors caused by cinema reverb, phone fabric, or ambient noise.
-3. **Dialogue-Relative Anchoring**: Jump scares are anchored to preceding dialogue lines, making synchronization immune to different movie cuts, theatrical vs. unrated editions, and framerate conversions.
-4. **Pocket Mode**: Operates in the background with a partial wake-lock, pulsing distinct vibration waveforms 10s, 5s, and 2s before major scares without turning the screen on.
+1. **Acoustic Landmark Fingerprinting**: Robust peak constellation hashing (16 kHz, 1024 FFT, 512 hop, 4 frequency bands) extracts invariant acoustic spectral landmarks from music, Foley, sound effects, and screams.
+2. **Offset Histogram Voting & Trajectory Consensus**: Offset histogram voting with stop-word frequency pruning and forward trajectory agreement locks movie playback within 2–3 short sampling windows.
+3. **Pure Kotlin Audio Engine**: 100% lightweight Kotlin engine with zero native C++ binaries, zero ONNX runtime, and zero heavy neural models — slashing app bundle size by ~450+ MB.
+4. **Pocket Mode**: Operates in the background with a partial wake-lock, pulsing distinct vibration waveforms before major scares without turning the screen on.

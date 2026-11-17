@@ -3,247 +3,117 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A torch is briefly shone on a figure before the camera footage cuts out.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 66000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "JST",
-        "HRT",
-        "SM0NK",
-        "MFNK",
-        "ATST"
-      ],
       "description": "A loud bang startles James in his tent.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 42750,
       "resolved_time_ms": 1550000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Lisa suddenly bursts into James’ tent.",
+      "description": "Lisa suddenly bursts into James\u2019 tent.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1577000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "0RS",
-        "SM0NK",
-        "AT",
-        "0R",
-        "AT",
-        "AN",
-        "0",
-        "ATS",
-        "LK",
-        "A",
-        "PR"
-      ],
       "description": "There is a burst of static from the walkie-talkie during a quiet scene.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 13510,
       "resolved_time_ms": 1595000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PT",
-        "SNTS",
-        "KN",
-        "TRFL",
-        "PRT",
-        "FR",
-        "AT",
-        "HR"
-      ],
       "description": "Lane suddenly appears in front of Talia and James.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 4880,
       "resolved_time_ms": 1751000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "SNTT",
-        "LK",
-        "AN0R",
-        "TR",
-        "FLNK",
-        "TK",
-        "0S"
-      ],
       "description": "Something appears to pull Peter away and the camera footage cuts out.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 56850,
       "resolved_time_ms": 2756000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PTR",
-        "AF",
-        "A",
-        "KN",
-        "HR",
-        "M",
-        "JST",
-        "PRS",
-        "0",
-        "PTN",
-        "AN",
-        "AR",
-        "ALK",
-        "TLK"
-      ],
-      "description": "Ashley suddenly pulls Lisa’s hand away from the camera.",
+      "description": "Ashley suddenly pulls Lisa\u2019s hand away from the camera.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 51150,
       "resolved_time_ms": 2862000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "ALT",
-        "AFRN",
-        "STP",
-        "TNK",
-        "0T"
-      ],
       "description": "James startles Lisa.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 360,
       "resolved_time_ms": 2894000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0R",
-        "KN",
-        "P",
-        "HR",
-        "FRFR"
-      ],
-      "description": "The camera gradually approaches the back of Talia’s head and she suddenly screams.",
+      "description": "The camera gradually approaches the back of Talia\u2019s head and she suddenly screams.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 22460,
       "resolved_time_ms": 3106000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "HF",
-        "T",
-        "K",
-        "A",
-        "HF",
-        "T",
-        "K",
-        "A",
-        "HF",
-        "T",
-        "K"
-      ],
       "description": "A branch snaps and a hysterical Talia appears in front of James.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 110,
       "resolved_time_ms": 3268000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "KN",
-        "P",
-        "ATTS",
-        "KN",
-        "P"
-      ],
       "description": "A tent flies into the air.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 3230,
       "resolved_time_ms": 3364000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "An unseen force pulls Ashley out of the tree.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3872000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A flash of lightning illuminates the room and a woman can briefly be seen watching James.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4163000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "LS",
-        "A",
-        "AS",
-        "0T",
-        "A",
-        "LK",
-        "AKSKTL",
-        "H",
-        "A",
-        "RMMPR"
-      ],
       "description": "A disheveled Lane suddenly appears in front of Lisa.",
       "id": "scare_14",
-      "offset_from_anchor_ms": 830,
       "resolved_time_ms": 4301000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "Lane runs at Lisa while screaming.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4613000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "There are several loud whooshing noises.",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4629000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Lane sees a tall thin figure coming towards her in a hallway.",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4656000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "James runs into Lisa.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4685000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:01.617Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Blair Witch",
   "tmdb_id": 351211
 }

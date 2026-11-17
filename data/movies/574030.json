@@ -3,44 +3,21 @@
   "runtime_minutes": 80,
   "scares": [
     {
-      "anchor_phonetic": [
-        "0",
-        "AL",
-        "ST",
-        "APN",
-        "0",
-        "0RN",
-        "AF",
-        "PLT"
-      ],
       "description": "As they touch the woman she reanimates as a demon and the music comes in very loudly.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 24969,
       "resolved_time_ms": 2308000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AFR",
-        "T",
-        "0S",
-        "PST",
-        "AR",
-        "AAF",
-        "RKRTT",
-        "0T",
-        "TSSN"
-      ],
       "description": "Jessica yells now as a demon.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 4473,
       "resolved_time_ms": 2951000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:41.095Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Here Comes Hell",
   "tmdb_id": 574030
 }

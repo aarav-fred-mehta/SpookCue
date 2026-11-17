@@ -3,74 +3,33 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AL",
-        "MP",
-        "AAL",
-        "PK",
-        "A",
-        "P",
-        "A",
-        "0NK",
-        "A",
-        "S",
-        "SM",
-        "PLKPR"
-      ],
-      "description": "The phone is yanked out of Lily’s hand.",
+      "description": "The phone is yanked out of Lily\u2019s hand.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 3642,
       "resolved_time_ms": 1071000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "A",
-        "TNNT",
-        "MNT",
-        "TLNK",
-        "A",
-        "A",
-        "AS",
-        "A",
-        "LTL",
-        "ART"
-      ],
       "description": "Lily turns around and sees Iris watching her from the doorway.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 33822,
       "resolved_time_ms": 1379000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "AMS",
-        "N",
-        "AMS",
-        "N",
-        "AMS",
-        "STP"
-      ],
       "description": "Lily catches a glimpse of Polly in the reflection of the television screen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 3062,
       "resolved_time_ms": 2652000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Lily gasps and the reflection of Polly can be seen in Lily’s eye.",
+      "description": "Lily gasps and the reflection of Polly can be seen in Lily\u2019s eye.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4244000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:52.430Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "I Am The Pretty Thing That Lives In The House",
   "tmdb_id": 407559
 }

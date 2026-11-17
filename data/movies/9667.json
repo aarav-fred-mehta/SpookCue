@@ -3,110 +3,45 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "anchor_phonetic": [
-        "PT",
-        "N0R",
-        "AF",
-        "AS",
-        "KN",
-        "T",
-        "AN0NK",
-        "APT",
-        "0T",
-        "N"
-      ],
       "description": "Various images flash across the screen while Jack lies in the dark.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 39078,
       "resolved_time_ms": 875000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KNNT",
-        "PR0",
-        "AN",
-        "HR",
-        "A",
-        "KNNT",
-        "PR0",
-        "AN",
-        "HR"
-      ],
       "description": "Images flash across the screen as Jack lies in the dark once more.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 20207,
       "resolved_time_ms": 1353000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "ANT",
-        "A",
-        "TRNK",
-        "N",
-        "AAM"
-      ],
       "description": "Jack sees a bright flash as a glass breaks.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 9463,
       "resolved_time_ms": 1545000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A0",
-        "AFR",
-        "ANTNXN",
-        "AF",
-        "HLPNK",
-        "A"
-      ],
       "description": "Images of the shooting briefly flash across the screen.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 26978,
       "resolved_time_ms": 4508000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "0",
-        "LST",
-        "TM",
-        "0",
-        "LST",
-        "TM"
-      ],
       "description": "More images flash across the screen.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 10224,
       "resolved_time_ms": 4579000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AL",
-        "RT",
-        "A",
-        "KT",
-        "AT",
-        "A",
-        "KT",
-        "AT"
-      ],
       "description": "Jack experiences several more flash-backs which cause him to fall over.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 3305,
       "resolved_time_ms": 5325000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:32.824Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Jacket",
   "tmdb_id": 9667
 }

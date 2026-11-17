@@ -43,6 +43,9 @@ interface MovieDao {
     @Query("UPDATE movies SET syncType = :syncType WHERE tmdbId = :tmdbId")
     suspend fun updateSyncType(tmdbId: Int, syncType: String)
 
+    @Query("UPDATE movies SET hasAcousticSync = :hasAcousticSync WHERE tmdbId = :tmdbId")
+    suspend fun updateHasAcousticSync(tmdbId: Int, hasAcousticSync: Boolean)
+
     @Query("DELETE FROM movies")
     suspend fun deleteAllMovies()
 }

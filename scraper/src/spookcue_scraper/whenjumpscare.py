@@ -16,7 +16,22 @@ from urllib.robotparser import RobotFileParser
 
 import httpx
 from bs4 import BeautifulSoup
-from spookcue_scraper.resolver import parse_timestamp_to_ms
+
+def parse_timestamp_to_ms(time_str: str) -> Optional[int]:
+    """Parse HH:MM:SS or MM:SS to milliseconds."""
+    if not time_str:
+        return None
+    parts = time_str.strip().split(":")
+    try:
+        if len(parts) == 3:
+            h, m, s = int(parts[0]), int(parts[1]), float(parts[2])
+            return int((h * 3600 + m * 60 + s) * 1000)
+        elif len(parts) == 2:
+            m, s = int(parts[0]), float(parts[1])
+            return int((m * 60 + s) * 1000)
+    except (ValueError, TypeError):
+        return None
+    return None
 
 logger = logging.getLogger(__name__)
 

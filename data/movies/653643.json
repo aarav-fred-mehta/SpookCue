@@ -3,47 +3,33 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "The title appears with a music cue.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 44000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The electricity suddenly goes out.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 693000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "PRNNK",
-        "MNLT",
-        "ALRT",
-        "FN"
-      ],
-      "description": "Fanny suddenly says “Let me out!”",
+      "description": "Fanny suddenly says \u201cLet me out!\u201d",
       "id": "scare_03",
-      "offset_from_anchor_ms": 1160,
       "resolved_time_ms": 1217000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Sudden music cue.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5672000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:17.326Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Scare Me",
   "tmdb_id": 653643
 }

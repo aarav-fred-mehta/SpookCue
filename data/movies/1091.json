@@ -3,103 +3,51 @@
   "runtime_minutes": 109,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A dog leaps out at Clark.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1779000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "A",
-        "SKST",
-        "A",
-        "ANL",
-        "AT",
-        "AT",
-        "AF",
-        "KNS"
-      ],
       "description": "Something moves past a doorway in front of Fuchs.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 40523,
       "resolved_time_ms": 3937000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "ASL",
-        "AT",
-        "HF",
-        "TN",
-        "0",
-        "SM",
-        "0NK"
-      ],
       "description": "Norris and Nauls attack MacReady from behind.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 10514,
       "resolved_time_ms": 4417000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "ANN",
-        "TRS",
-        "T",
-        "AK",
-        "M"
-      ],
-      "description": "Copper attempts to defibrillate Norris when a giant hole opens in Norris’s chest.",
+      "description": "Copper attempts to defibrillate Norris when a giant hole opens in Norris\u2019s chest.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 19710,
       "resolved_time_ms": 4522000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "AR",
-        "0",
-        "ANL",
-        "AN",
-        "0T",
-        "KLTTF",
-        "KT",
-        "T",
-        "0T",
-        "PLT"
-      ],
-      "description": "Palmer’s blood has a violent reaction when MacReady tests it with the copper wire.",
+      "description": "Palmer\u2019s blood has a violent reaction when MacReady tests it with the copper wire.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 7659,
       "resolved_time_ms": 4978000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "Blair appears behind Garry.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5741000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The ground begins to erupt in front of MacReady.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5859000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-10-31T16:25:46.706Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Thing",
   "tmdb_id": 1091
 }

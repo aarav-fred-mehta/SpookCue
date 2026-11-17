@@ -3,76 +3,39 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
-      "description": "There’s an abrupt scene of a few dead animals on the wall.",
+      "description": "There\u2019s an abrupt scene of a few dead animals on the wall.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 690000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "While walking up the stairs, Barbara discovers a corpse.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 790000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "PT",
-        "TN",
-        "0R",
-        "A0",
-        "N",
-        "ANTS",
-        "AF",
-        "A",
-        "RSK",
-        "PRT",
-        "TT",
-        "KM",
-        "A",
-        "ALTNNT",
-        "AFN",
-        "N",
-        "AT"
-      ],
       "description": "Two arms reach through holes in the barricade and grab Ben.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 2035,
       "resolved_time_ms": 2678000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "MST",
-        "HF",
-        "0T",
-        "SMPT",
-        "AS",
-        "AN",
-        "0R"
-      ],
       "description": "The lights suddenly turn off.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 1395,
       "resolved_time_ms": 4820000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Helen reanimates and opens her eyes.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5268000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:36.571Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Night Of The Living Dead",
   "tmdb_id": 10331
 }

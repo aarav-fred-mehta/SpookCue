@@ -3,184 +3,81 @@
   "runtime_minutes": 85,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AF",
-        "A",
-        "ANT",
-        "T",
-        "TR",
-        "0",
-        "XMN",
-        "AR",
-        "KNK",
-        "TN",
-        "FRST"
-      ],
       "description": "A large fish swims out of a window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 12310,
       "resolved_time_ms": 1610000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "M",
-        "M",
-        "KRNTM",
-        "HT",
-        "AN",
-        "JST",
-        "LK",
-        "0T"
-      ],
       "description": "A doll floats into view, and Tina gasps.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 18270,
       "resolved_time_ms": 1740000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "T",
-        "A",
-        "0NK",
-        "AR",
-        "FLRS",
-        "AL",
-        "LF",
-        "AT"
-      ],
       "description": "A silhouette is seen sitting inside a bed canopy.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 5390,
       "resolved_time_ms": 2017000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SR",
-        "0",
-        "PTRS",
-        "ARNNT",
-        "TT",
-        "0R",
-        "PRNT",
-        "N"
-      ],
-      "description": "A statue of Jesus appears in the drone’s feed .",
+      "description": "A statue of Jesus appears in the drone\u2019s feed .",
       "id": "scare_04",
-      "offset_from_anchor_ms": 3870,
       "resolved_time_ms": 2437000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "KNT",
-        "AF",
-        "STF",
-        "AR",
-        "0",
-        "FLMNK"
-      ],
       "description": "A light illuminates some pale legs floating underwater.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 8990,
       "resolved_time_ms": 2655000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "KN",
-        "P",
-        "FN",
-        "PR0",
-        "LK",
-        "M"
-      ],
-      "description": "An undead woman appears over Ben’s shoulder.",
+      "description": "An undead woman appears over Ben\u2019s shoulder.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 2190,
       "resolved_time_ms": 2908000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "AAL",
-        "TR",
-        "ANT",
-        "APN",
-        "0",
-        "XTRS"
-      ],
       "description": "A fish darts across the camera.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 26190,
       "resolved_time_ms": 3026000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "0",
-        "ANRS",
-        "AF",
-        "0",
-        "HS"
-      ],
       "description": "The undead chained up couple open their eyes.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 4990,
       "resolved_time_ms": 3327000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "The undead father appears standing by a wall. After the light dims, he appears seconds later, much closer, chasing Tina.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3827000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "The undead daughter appears beneath the bed, and lunges for Ben.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3864000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "AR",
-        "A",
-        "TLKNK",
-        "APT",
-        "A",
-        "TNNT",
-        "KR"
-      ],
       "description": "A rip appears in the projection, and the undead daughter swims through it.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 14870,
       "resolved_time_ms": 4241000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Ben grabs Tina from behind.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4300000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-04-30T02:12:20.457Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Deep House",
   "tmdb_id": 672582
 }

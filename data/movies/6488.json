@@ -3,10 +3,8 @@
   "runtime_minutes": 109,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Spider jumps out of pipe.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5968000,
       "type": "minor"
     }

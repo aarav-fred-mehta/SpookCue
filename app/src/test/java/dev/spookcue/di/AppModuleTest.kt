@@ -3,7 +3,6 @@ package dev.spookcue.di
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
-import dev.spookcue.data.model.PhoneticEntry
 import kotlinx.coroutines.Dispatchers
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
@@ -49,9 +48,7 @@ class AppModuleTest {
                     id = "scare_01",
                     resolvedTimeMs = 1245000L,
                     type = "major",
-                    description = "Clap clap in the cellar",
-                    anchorPhonetic = listOf("KL", "P"),
-                    offsetFromAnchorMs = 4200L
+                    description = "Clap clap in the cellar"
                 )
             )
         )

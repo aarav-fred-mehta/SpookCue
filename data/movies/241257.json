@@ -3,55 +3,27 @@
   "runtime_minutes": 106,
   "scares": [
     {
-      "anchor_phonetic": [
-        "MP",
-        "ATTS",
-        "AS",
-        "T",
-        "0NK",
-        "PPL",
-        "ARNNT",
-        "KPPL",
-        "AF",
-        "TNK",
-        "0NKS",
-        "LK",
-        "0S"
-      ],
       "description": "An abrupt cut from a quiet scene to John screaming may startle some viewers.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 31338,
       "resolved_time_ms": 1778000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A gloved hand grabs Bruce around the mouth while he is in bed.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3276000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "SL",
-        "KT",
-        "KM",
-        "AT",
-        "AF",
-        "0R"
-      ],
       "description": "The cat suddenly yowls at Rose causing her to fall back.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 19852,
       "resolved_time_ms": 3880000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:05.986Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Regression",
   "tmdb_id": 241257
 }

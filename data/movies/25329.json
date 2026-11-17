@@ -3,126 +3,63 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Bobby is suddenly grabbed on the shoulder by a deformed looking hand.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1046000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0R",
-        "A",
-        "K",
-        "TNNT",
-        "A",
-        "AFR",
-        "T",
-        "0T"
-      ],
-      "description": "Bobby’s apartment door suddenly shuts off on its own.",
+      "description": "Bobby\u2019s apartment door suddenly shuts off on its own.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 1869,
       "resolved_time_ms": 1935000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "While Bobby is leaning down to grab the coins, the laundry machine suddenly goes off on its own.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2444000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "JST",
-        "ANT",
-        "A",
-        "T",
-        "P",
-        "KRFL"
-      ],
       "description": "Bobby is suddenly grabbed by bloody hands and dragged away.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 56890,
       "resolved_time_ms": 3671000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "While the man throws his trash down the chute, he is grabbed.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3901000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Bobby opens his eyes and sees a ghost woman floating above him.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4001000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KNNT",
-        "KP",
-        "A",
-        "AN",
-        "ANTL",
-        "0T",
-        "TRNS",
-        "AP"
-      ],
       "description": "A box of pins suddenly drops down on a chair.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 37704,
       "resolved_time_ms": 4206000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "AMN",
-        "A",
-        "ALKT",
-        "AN",
-        "HR",
-        "T",
-        "A"
-      ],
       "description": "The apartment door shuts off on its own.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 4248,
       "resolved_time_ms": 4962000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "AMN",
-        "A",
-        "ALKT",
-        "AN",
-        "HR",
-        "T",
-        "A"
-      ],
       "description": "Carly is grabbed from behind and dragged into the darkness.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 47248,
       "resolved_time_ms": 5005000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:09.790Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Echo",
   "tmdb_id": 25329
 }

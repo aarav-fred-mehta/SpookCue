@@ -4,6 +4,7 @@ import kotlinx.serialization.json.Json
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class ModelSerializationTest {
@@ -24,8 +25,8 @@ class ModelSerializationTest {
                 "runtime_minutes": 112,
                 "scare_count": 12,
                 "poster_path": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
-                "has_subtitles": true,
-                "sync_type": "subtitles"
+                "has_acoustic_sync": true,
+                "sync_type": "audio_hash"
               }
             ]
         """.trimIndent()
@@ -35,7 +36,8 @@ class ModelSerializationTest {
         assertEquals("The Conjuring", items[0].title)
         assertEquals(138843, items[0].tmdbId)
         assertEquals(12, items[0].scareCount)
-        assertEquals("subtitles", items[0].syncType)
+        assertTrue(items[0].hasAcousticSync)
+        assertEquals("audio_hash", items[0].syncType)
     }
 
     @Test
@@ -46,7 +48,7 @@ class ModelSerializationTest {
               "title": "The Conjuring",
               "release_year": 2013,
               "runtime_minutes": 112,
-              "sync_type": "subtitles",
+              "sync_type": "audio_hash",
               "scares": [
                 {
                   "id": "scare_01",
@@ -62,29 +64,7 @@ class ModelSerializationTest {
         assertEquals(138843, movie.tmdbId)
         assertEquals(1, movie.scares.size)
         assertEquals("major", movie.scares[0].type)
-        assertEquals("subtitles", movie.syncType)
-    }
-
-    @Test
-    fun testMovieSyncDataSubtitlesSerialization() {
-        val raw = """
-            {
-              "tmdb_id": 138843,
-              "type": "subtitles",
-              "phonetic_index": [
-                {
-                  "s": 1240800,
-                  "p": ["KL", "P"]
-                }
-              ]
-            }
-        """.trimIndent()
-
-        val syncData = json.decodeFromString<MovieSyncData>(raw)
-        assertEquals(138843, syncData.tmdbId)
-        assertEquals("subtitles", syncData.type)
-        assertEquals(1, syncData.phoneticIndex.size)
-        assertEquals(1240800L, syncData.phoneticIndex[0].startMs)
+        assertEquals("audio_hash", movie.syncType)
     }
 
     @Test
@@ -119,7 +99,7 @@ class ModelSerializationTest {
                 "runtime_minutes": 0,
                 "scare_count": 3,
                 "poster_path": "",
-                "has_subtitles": false
+                "has_acoustic_sync": false
               }
             ]
         """.trimIndent()
@@ -130,5 +110,6 @@ class ModelSerializationTest {
         assertEquals(1107568, items[0].tmdbId)
         assertNull(items[0].releaseYear)
         assertEquals(3, items[0].scareCount)
+        assertEquals(false, items[0].hasAcousticSync)
     }
 }

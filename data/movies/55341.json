@@ -3,204 +3,93 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A machete is thrown into the truck.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 180000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "AN",
-        "N",
-        "FR",
-        "AT"
-      ],
       "description": "Bars shoot out of the ceiling and impale the cop.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 8920,
       "resolved_time_ms": 301000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "AS",
-        "0",
-        "LST",
-        "PLS",
-        "A",
-        "S",
-        "AT"
-      ],
       "description": "A hook shoots out of the back of the Creeper Van.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 11120,
       "resolved_time_ms": 436000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "HF",
-        "A",
-        "STXN",
-        "A0",
-        "0",
-        "AMPNT",
-        "FHKL"
-      ],
       "description": "The Creeper lands on the man in the background.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 58680,
       "resolved_time_ms": 760000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "AS",
-        "JST",
-        "NKNK",
-        "AL",
-        "TNNT"
-      ],
-      "description": "A loud knocking comes from the inside of the Creeper Van after he says “anybody in there?”",
+      "description": "A loud knocking comes from the inside of the Creeper Van after he says \u201canybody in there?\u201d",
       "id": "scare_05",
-      "offset_from_anchor_ms": 710,
       "resolved_time_ms": 1803000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0S",
-        "FLS",
-        "AR",
-        "RL",
-        "0T",
-        "SML",
-        "AS",
-        "RL"
-      ],
       "description": "The gates on the truck suddenly slam shut.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 22620,
       "resolved_time_ms": 1914000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "The hand grabs Gaylen’s hand.",
+      "description": "The hand grabs Gaylen\u2019s hand.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2789000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "RL",
-        "AR",
-        "ANT",
-        "AP",
-        "ATTS",
-        "HPNNK"
-      ],
       "description": "Buddy suddenly opens the truck door.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 1180,
       "resolved_time_ms": 2932000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "TRPT",
-        "HM",
-        "AT",
-        "0R",
-        "SMR"
-      ],
       "description": "A bloodied person slams into the window beside Addison.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 10680,
       "resolved_time_ms": 3016000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "The Creeper drops down beside the truck.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3076000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "A",
-        "TX",
-        "0T",
-        "0NK",
-        "AF",
-        "A",
-        "PT",
-        "AR",
-        "HNT",
-        "AN",
-        "AT"
-      ],
       "description": "The hand reaches through a hole in the pot.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 43630,
       "resolved_time_ms": 3460000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "TR",
-        "0T",
-        "TR",
-        "HNTL"
-      ],
       "description": "Addison accidentally activates a loud horn.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 2750,
       "resolved_time_ms": 3765000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The Creeper rips back the burlap covering Addison.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5065000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "0S",
-        "AS",
-        "AN",
-        "AMRJNS",
-        "PLS",
-        "HLT",
-        "0",
-        "LN"
-      ],
       "description": "The man on the phone is suddenly pulled off screen.",
       "id": "scare_14",
-      "offset_from_anchor_ms": 8180,
       "resolved_time_ms": 5274000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:06.382Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Jeepers Creepers 3",
   "tmdb_id": 55341
 }

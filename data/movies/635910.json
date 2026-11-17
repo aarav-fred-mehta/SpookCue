@@ -3,259 +3,123 @@
   "runtime_minutes": 119,
   "scares": [
     {
-      "anchor_phonetic": [
-        "KT",
-        "HF",
-        "MRS",
-        "AN",
-        "AR",
-        "SLS"
-      ],
       "description": "The quick montage of the various shots of the ship ends with a sudden unrelated shot of Dracula lunging at the camera before the screen cuts to black.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 36073,
       "resolved_time_ms": 229000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Culminating the long suspenseful scene, something suddenly moves inside the pile of dirt, startling Clemens who yelps and jumps back.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1344000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "KRS",
-        "XLT",
-        "P",
-        "T",
-        "AR",
-        "STRPRT"
-      ],
-      "description": "Olgaren moves the spyglass and sees a closeup of Dracula’s face.",
+      "description": "Olgaren moves the spyglass and sees a closeup of Dracula\u2019s face.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 5203,
       "resolved_time_ms": 1635000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "JSS",
-        "KRST",
-        "TT",
-        "A",
-        "S",
-        "AT"
-      ],
       "description": "Someone grabs Clemens by the shoulder from behind.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 1554,
       "resolved_time_ms": 1747000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "0",
-        "HL",
-        "TT",
-        "A",
-        "KM",
-        "FRM"
-      ],
       "description": "Dracula moves and jumps at Petrofsky.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 4329,
       "resolved_time_ms": 2474000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SMRT",
-        "ANT",
-        "ANT",
-        "PRT"
-      ],
       "description": "The hatch of the cargo hold in the foreground of the shot is bumped from below.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 37478,
       "resolved_time_ms": 2926000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SMRT",
-        "ANT",
-        "ANT",
-        "PRT"
-      ],
       "description": "A flash of lightning reveals Dracula standing behind Larsen.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 59478,
       "resolved_time_ms": 2948000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "RNK",
-        "A",
-        "HRT",
-        "AR",
-        "NK"
-      ],
       "description": "Dracula jumps down at Larsen from the mast above him.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 40689,
       "resolved_time_ms": 3050000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "A sudden cut from a quiet tense sequence to a closeup of Toby’s fingers opening the door with a loud sound.",
+      "description": "A sudden cut from a quiet tense sequence to a closeup of Toby\u2019s fingers opening the door with a loud sound.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3483000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "MR",
-        "ALKRN",
-        "AL",
-        "A",
-        "PLS",
-        "K",
-        "A"
-      ],
       "description": "Olgaren bangs on the door after a drawn out moment of quiet tension.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 27667,
       "resolved_time_ms": 3626000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A sudden cut from a quiet tense sequence to a shot with loud voices and frantic movement happening in the foreground.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3744000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Olgaren snarls and lunges at Clemens.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3772000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KNNT",
-        "RX",
-        "0",
-        "LK",
-        "TP"
-      ],
       "description": "Clemens, Captain Eliot and others see Dracula through the hole in the door.",
       "id": "scare_13",
-      "offset_from_anchor_ms": 8397,
       "resolved_time_ms": 3844000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KNNT",
-        "RX",
-        "0",
-        "LK",
-        "TP"
-      ],
       "description": "Dracula jumps down and grabs Toby.",
       "id": "scare_14",
-      "offset_from_anchor_ms": 27397,
       "resolved_time_ms": 3863000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PRFT",
-        "KRK",
-        "KNSNT",
-        "FR",
-        "KRFKS",
-        "AP",
-        "AN",
-        "LNTN"
-      ],
       "description": "Abrams is hit in the head from behind.",
       "id": "scare_15",
-      "offset_from_anchor_ms": 29603,
       "resolved_time_ms": 4359000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KRT",
-        "ANT",
-        "A",
-        "HRT",
-        "M",
-        "FS"
-      ],
-      "description": "A cut to a closeup of Dracula’s snarling face.",
+      "description": "A cut to a closeup of Dracula\u2019s snarling face.",
       "id": "scare_16",
-      "offset_from_anchor_ms": 30597,
       "resolved_time_ms": 4633000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TL",
-        "A",
-        "HH",
-        "ALF",
-        "H",
-        "MFT"
-      ],
-      "description": "Toby’s eyes open, revealing milky white color.",
+      "description": "Toby\u2019s eyes open, revealing milky white color.",
       "id": "scare_17",
-      "offset_from_anchor_ms": 15488,
       "resolved_time_ms": 4860000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "After several seconds of suspense, Dracula suddenly flies directly at the camera out of the mist.",
       "id": "scare_18",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5705000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "HH",
-        "KMNK",
-        "HH",
-        "KMNK"
-      ],
       "description": "Captain Eliot turns around to see snarling Dracula right behind him.",
       "id": "scare_19",
-      "offset_from_anchor_ms": 33869,
       "resolved_time_ms": 5897000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:36.547Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Last Voyage Of The Demeter",
   "tmdb_id": 635910
 }

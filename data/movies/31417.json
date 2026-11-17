@@ -3,25 +3,15 @@
   "runtime_minutes": 84,
   "scares": [
     {
-      "anchor_phonetic": [
-        "TMR",
-        "AL",
-        "P",
-        "T",
-        "LT",
-        "M",
-        "TR"
-      ],
       "description": "The professor suddenly grabs Edna by the mouth with chloroform.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 37214,
       "resolved_time_ms": 2121000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:55.473Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Eyes Without A Face",
   "tmdb_id": 31417
 }

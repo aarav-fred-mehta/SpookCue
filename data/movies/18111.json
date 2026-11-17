@@ -3,17 +3,15 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": null,
-      "description": "Herbert yells “Boo!”",
+      "description": "Herbert yells \u201cBoo!\u201d",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1024000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:05.527Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Bride Of Re Animator",
   "tmdb_id": 18111
 }

@@ -3,42 +3,21 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AS",
-        "KT",
-        "A",
-        "LFL",
-        "0R",
-        "K",
-        "KRT"
-      ],
       "description": "There are three quick cuts to The Reaper ferociously cutting a pot plant accompanied by heavy metal music.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 20210,
       "resolved_time_ms": 2356000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KLT",
-        "PSPL",
-        "TLK",
-        "T",
-        "0",
-        "ANFKTT",
-        "ANTFTL"
-      ],
       "description": "Towers smashes the television screen with his golf club.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 1250,
       "resolved_time_ms": 2996000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:29.152Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Mayhem",
   "tmdb_id": 429733
 }

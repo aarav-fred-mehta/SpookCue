@@ -3,30 +3,15 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": [
-        "APRST",
-        "AT",
-        "AF",
-        "A",
-        "KLT",
-        "KP",
-        "0",
-        "NS",
-        "TN",
-        "A",
-        "LTL",
-        "PT"
-      ],
       "description": "A sudden scream startles Nancy.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 7650,
       "resolved_time_ms": 2284000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:25.810Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Terror Trap",
   "tmdb_id": 48669
 }

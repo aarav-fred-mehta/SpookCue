@@ -3,204 +3,93 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": [
-        "S",
-        "AFR0NKXLT",
-        "P",
-        "ANST"
-      ],
-      "description": "A truck drives by startling Rachel after she says “everything is inside”.",
+      "description": "A truck drives by startling Rachel after she says \u201ceverything is inside\u201d.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 3061,
       "resolved_time_ms": 247000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "AR",
-        "A",
-        "A0",
-        "0S",
-        "ANTS",
-        "HH",
-        "LSNK",
-        "A",
-        "LT",
-        "AF",
-        "PLT"
-      ],
       "description": "The injured man grabs Louis around the arm as he wheels him into theater.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 4195,
       "resolved_time_ms": 985000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KM",
-        "AN",
-        "KM",
-        "PK",
-        "T",
-        "M",
-        "KM",
-        "PK",
-        "KM",
-        "PK"
-      ],
       "description": "The lights flicker and the previously dead man is suddenly sitting up on the bed behind Louis.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 46740,
       "resolved_time_ms": 1047000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "PR",
-        "AS",
-        "NTMNT",
-        "T",
-        "P",
-        "PRKN"
-      ],
       "description": "Louis sits in his car lost in thought  as he goes to drive off a truck suddenly races past in front of him.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 38644,
       "resolved_time_ms": 1092000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "STP",
-        "0",
-        "KRNT",
-        "AS",
-        "SR"
-      ],
-      "description": "Victor’s hand suddenly reaches out to grab Louis around the ankle as he climbs the pile of branches.",
+      "description": "Victor\u2019s hand suddenly reaches out to grab Louis around the ankle as he climbs the pile of branches.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 303,
       "resolved_time_ms": 1482000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PKS",
-        "AT",
-        "TTNNT",
-        "ARK",
-        "AL",
-        "0",
-        "TM"
-      ],
       "description": "During a flashback, young Rachel is startled as her disfigured sister suddenly falls down the dumbwaiter shaft.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 40384,
       "resolved_time_ms": 1746000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "H",
-        "KM",
-        "PK",
-        "LST",
-        "NT"
-      ],
       "description": "Louis opens the closet revealing Church who screeches at him.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 19484,
       "resolved_time_ms": 2190000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SM0NK",
-        "KRS",
-        "AN",
-        "AR",
-        "FR"
-      ],
       "description": "Ellie is suddenly scratched by the cat as she tries to remove something from its fur.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 5463,
       "resolved_time_ms": 2371000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Church screeches at Louis from behind.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2537000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0",
-        "TSTRKXN",
-        "AF",
-        "AL",
-        "A",
-        "LF",
-        "AS",
-        "FR",
-        "NR",
-        "TKTR"
-      ],
       "description": "After Louis walks through a door and finds himself back outside in the woods, a truck horn suddenly blares.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 15086,
       "resolved_time_ms": 2584000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Rachel has a hallucination where the medicine cabinet in the bathroom transforms into the dumbwaiter shaft which her sister once again falls through.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2694000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "After Louis finds the mask, Ellie appears behind him and says “Daddy”.",
+      "description": "After Louis finds the mask, Ellie appears behind him and says \u201cDaddy\u201d.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4214000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Jud spots Church in the hallway and suddenly Ellie stabs him in the ankle.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4902000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "AL",
-        "NFRKT",
-        "AT",
-        "AF",
-        "PT",
-        "AKN"
-      ],
       "description": "After waking from a nightmare Rachel looks up to find Gage safe. Suddenly Ellie leaps at her with a knife.",
       "id": "scare_14",
-      "offset_from_anchor_ms": 15945,
       "resolved_time_ms": 5338000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:48.770Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Pet Sematary",
   "tmdb_id": 157433
 }

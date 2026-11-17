@@ -3,36 +3,21 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "The girl bangs her hand on the glass door.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 148000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PLF",
-        "M",
-        "ANS",
-        "A",
-        "LS",
-        "HP",
-        "AF",
-        "LST",
-        "0",
-        "KM"
-      ],
       "description": "Asakawa suddenly jumps up from the table in anger.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 23564,
       "resolved_time_ms": 3440000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:09.937Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Ring",
   "tmdb_id": 139937
 }

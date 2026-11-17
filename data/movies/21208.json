@@ -3,160 +3,81 @@
   "runtime_minutes": 123,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Kate sees John in the mirror.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 711000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "There is a flash of lightning and Esther can be seen standing over Max’s bed.",
+      "description": "There is a flash of lightning and Esther can be seen standing over Max\u2019s bed.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1597000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "N",
-        "N",
-        "KM",
-        "AN",
-        "A",
-        "HF",
-        "T",
-        "AT",
-        "AT",
-        "AT"
-      ],
       "description": "John sees Esther watching while he and Kate are having sex in the kitchen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 58199,
       "resolved_time_ms": 2320000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A child jumps out in front of Brenda on the playground.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2587000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Esther suddenly appears and pushes Brenda off the slide.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2618000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "AR",
-        "ARMS",
-        "ANT",
-        "MK",
-        "HR",
-        "STP"
-      ],
       "description": "Sister Abigail bends down to check on Max which reveals Esther standing behind her.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 38363,
       "resolved_time_ms": 3345000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KRP",
-        "A",
-        "FT",
-        "ANT",
-        "HLP",
-        "M",
-        "KT",
-        "HR",
-        "AF",
-        "0",
-        "RT"
-      ],
       "description": "Esther appears with the hammer as Abigail is crawling away.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 53392,
       "resolved_time_ms": 3415000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Esther’s hand, holding a box cutter, appears beside Danny while he is sleeping.",
+      "description": "Esther\u2019s hand, holding a box cutter, appears beside Danny while he is sleeping.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3577000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KLT",
-        "A",
-        "JST",
-        "KL",
-        "M",
-        "AS",
-        "SN",
-        "AS",
-        "A",
-        "N",
-        "AN0NK",
-        "PLS",
-        "0NK",
-        "A"
-      ],
       "description": "Esther jumps out from under the covers to scare John.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 52850,
       "resolved_time_ms": 4082000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Esther shoots Kate.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 6477000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Esther runs at Kate and Max.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 6771000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "K",
-        "PK",
-        "ATTS",
-        "T",
-        "TNJRS",
-        "K",
-        "PK"
-      ],
-      "description": "Esther grabs Kate’s leg as she is crawling out of the hole in the ice.",
+      "description": "Esther grabs Kate\u2019s leg as she is crawling out of the hole in the ice.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 6040,
       "resolved_time_ms": 6890000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:39.577Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Orphan",
   "tmdb_id": 21208
 }

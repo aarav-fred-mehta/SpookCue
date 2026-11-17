@@ -3,17 +3,15 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "There is a quick flash of static after doctor closes his eyes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2338000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:31.787Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Spiral",
   "tmdb_id": 9706
 }

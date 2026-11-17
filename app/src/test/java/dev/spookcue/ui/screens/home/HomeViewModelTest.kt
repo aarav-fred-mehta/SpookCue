@@ -39,7 +39,7 @@ class HomeViewModelTest {
         runtimeMinutes = 112,
         scareCount = 12,
         posterPath = "/conjuring.jpg",
-        hasSubtitles = true,
+        hasAcousticSync = true,
         tags = listOf("HOT")
     )
 
@@ -50,7 +50,7 @@ class HomeViewModelTest {
         runtimeMinutes = 125,
         scareCount = 18,
         posterPath = "/terrifier3.jpg",
-        hasSubtitles = true,
+        hasAcousticSync = true,
         tags = listOf("NEW")
     )
 
@@ -61,7 +61,7 @@ class HomeViewModelTest {
         runtimeMinutes = 90,
         scareCount = 4,
         posterPath = "/older.jpg",
-        hasSubtitles = true,
+        hasAcousticSync = true,
         tags = emptyList()
     )
 
@@ -178,7 +178,7 @@ class HomeViewModelTest {
         }
 
         override suspend fun getMovieSyncData(tmdbId: Int): Result<dev.spookcue.data.model.MovieSyncData> {
-            return Result.success(dev.spookcue.data.model.MovieSyncData(tmdbId = tmdbId, type = "subtitles"))
+            return Result.success(dev.spookcue.data.model.MovieSyncData(tmdbId = tmdbId, type = "audio_hash"))
         }
 
         override suspend fun syncCatalog(force: Boolean): Result<Boolean> {

@@ -3,220 +3,93 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AT",
-        "0",
-        "FK",
-        "ART",
-        "A",
-        "PT",
-        "0T",
-        "KNTRLR"
-      ],
       "description": "After pouring a drink, Herman heads back to his game and hears a loud bang from another room.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 3040,
       "resolved_time_ms": 713000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KM",
-        "AN",
-        "AT",
-        "0",
-        "FK",
-        "AS",
-        "0S",
-        "XT"
-      ],
       "description": "Herman pulls away the sheets on his bed revealing no one is there. He then spins around and a man is standing behind him.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 22000,
       "resolved_time_ms": 790000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "SRSL",
-        "TNNT",
-        "FK",
-        "A0",
-        "M"
-      ],
       "description": "Lights flicker down the hallway revealing a girl standing at the end of it.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 11200,
       "resolved_time_ms": 878000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "SRSL",
-        "TNNT",
-        "FK",
-        "A0",
-        "M"
-      ],
       "description": "Herman spins his head back to the hallway but the girl is standing right in front of him.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 21200,
       "resolved_time_ms": 888000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AL",
-        "A",
-        "KS",
-        "XT",
-        "A",
-        "TNNT",
-        "ANT",
-        "T",
-        "ALRM",
-        "A",
-        "RT",
-        "N"
-      ],
       "description": "Herman spins around to face Clarissa and sees a man in underwear standing outside.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 2240,
       "resolved_time_ms": 1198000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "TNNT",
-        "LK",
-        "AT",
-        "HM",
-        "LK",
-        "AT",
-        "M"
-      ],
       "description": "The man in underwear is suddenly standing inside the house.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 200,
       "resolved_time_ms": 1232000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "LK",
-        "A",
-        "ANT",
-        "A",
-        "T",
-        "PT",
-        "AT",
-        "AN",
-        "A",
-        "TSK",
-        "AR",
-        "SM0NK"
-      ],
       "description": "Herman pulls away the sheets to reveal a screaming little girl underneath.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 55040,
       "resolved_time_ms": 1332000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "KLRS",
-        "JF",
-        "M",
-        "AR",
-        "HNTS"
-      ],
       "description": "Something splashes in the pool.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 58800,
       "resolved_time_ms": 1402000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The body lying on the table suddenly jolts upwards after the cameraman begins to cover her face with a sheet.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3509000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "JN",
-        "TT",
-        "A",
-        "HR",
-        "0T",
-        "HR",
-        "AT"
-      ],
       "description": "Aliens burst into the room.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 4200,
       "resolved_time_ms": 4847000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "PLS",
-        "AT",
-        "0",
-        "FK"
-      ],
       "description": "After the police disappear, aliens suddenly appear in the field.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 4440,
       "resolved_time_ms": 5088000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "RNT",
-        "PLS",
-        "KR",
-        "ST",
-        "KLS",
-        "T"
-      ],
       "description": "Aliens appear in the field in front of the camera.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 4080,
       "resolved_time_ms": 5115000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Ayesha suddenly attacks Larry.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5325000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "AR",
-        "A",
-        "TNK",
-        "STP",
-        "AT"
-      ],
       "description": "Ayesha suddenly appears in front of the partially open closet and is shot by Larry.",
       "id": "scare_14",
-      "offset_from_anchor_ms": 45360,
       "resolved_time_ms": 5371000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:25.649Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "V H S 2",
   "tmdb_id": 159117
 }

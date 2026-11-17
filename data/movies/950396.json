@@ -3,30 +3,21 @@
   "runtime_minutes": 128,
   "scares": [
     {
-      "anchor_phonetic": null,
-      "description": "A creatures hand grabs the concrete platform next to Dasa’s boot.",
+      "description": "A creatures hand grabs the concrete platform next to Dasa\u2019s boot.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2207000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "ARS",
-        "0N",
-        "T0"
-      ],
       "description": "Spider/face hugger type thing jumps into the camera",
       "id": "scare_02",
-      "offset_from_anchor_ms": 57394,
       "resolved_time_ms": 4455000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-01-18T05:05:28.897Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Gorge",
   "tmdb_id": 950396
 }

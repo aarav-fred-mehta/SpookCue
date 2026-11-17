@@ -3,65 +3,33 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": [
-        "HRM",
-        "AKNST",
-        "A0R",
-        "PPL",
-        "ANT",
-        "HRM",
-        "AKNST",
-        "ARSLF"
-      ],
-      "description": "During a dream, the witches burst into Sarah’s room and attack her.",
+      "description": "During a dream, the witches burst into Sarah\u2019s room and attack her.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 18558,
       "resolved_time_ms": 4381000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The bathroom stall slams open to reveal the witches standing outside.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4436000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PLS",
-        "PLS",
-        "STP",
-        "STP",
-        "AT"
-      ],
       "description": "Nancy quickly opens a shower door, startling Sarah.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 13120,
       "resolved_time_ms": 4939000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "HRM",
-        "AKNST",
-        "A0R",
-        "PPL",
-        "ANT",
-        "HRM",
-        "AKNST",
-        "ARSLF"
-      ],
       "description": "Nancy suddenly and aggressively attacks Sarah.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 3359,
       "resolved_time_ms": 5525000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:01.280Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Craft",
   "tmdb_id": 9100
 }

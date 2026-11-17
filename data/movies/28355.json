@@ -3,159 +3,69 @@
   "runtime_minutes": 109,
   "scares": [
     {
-      "anchor_phonetic": [
-        "KT",
-        "M",
-        "KT",
-        "N",
-        "HLP",
-        "M"
-      ],
       "description": "Margaret gets up from the floor carrying a knife.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 27023,
       "resolved_time_ms": 1423000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "A",
-        "KLT",
-        "MK",
-        "AT",
-        "K",
-        "A",
-        "A",
-        "ALT"
-      ],
-      "description": "A man knocks on Emily’s car window while she’s focused on something else.",
+      "description": "A man knocks on Emily\u2019s car window while she\u2019s focused on something else.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 54666,
       "resolved_time_ms": 1850000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0",
-        "KT",
-        "AS",
-        "KLMPNK",
-        "0",
-        "ALS"
-      ],
       "description": "A dog jumps at a window and starts to bark.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 523,
       "resolved_time_ms": 2188000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PT",
-        "0R",
-        "JST",
-        "PPL",
-        "LK",
-        "A",
-        "ANT",
-        "M"
-      ],
       "description": "Emily turns around to go back inside and is startled by Lily standing in the door-frame.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 10219,
       "resolved_time_ms": 2586000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "AT",
-        "LK",
-        "A",
-        "KN",
-        "LT",
-        "A",
-        "S",
-        "MR",
-        "SLFN"
-      ],
-      "description": "Margaret’s dishevelled face appears at her cell window.",
+      "description": "Margaret\u2019s dishevelled face appears at her cell window.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 7608,
       "resolved_time_ms": 3643000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "ANT",
-        "T",
-        "RPRT",
-        "A"
-      ],
-      "description": "Emily sees Lily’s feet as she searches for a screw.",
+      "description": "Emily sees Lily\u2019s feet as she searches for a screw.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 36406,
       "resolved_time_ms": 4324000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AML",
-        "PLS",
-        "A",
-        "N",
-        "AR",
-        "AN",
-        "0R"
-      ],
-      "description": "There is a loud bang on Emily’s bedroom door.",
+      "description": "There is a loud bang on Emily\u2019s bedroom door.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 31972,
       "resolved_time_ms": 4625000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "LT",
-        "M",
-        "AN",
-        "LT",
-        "M",
-        "AN",
-        "LT",
-        "M",
-        "AN"
-      ],
-      "description": "A disfigured Margaret appears from between the clothes in Emily’s closet. [Video]",
+      "description": "A disfigured Margaret appears from between the clothes in Emily\u2019s closet. [Video]",
       "id": "scare_08",
-      "offset_from_anchor_ms": 54679,
       "resolved_time_ms": 4692000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Lily grabs Emily’s hand.",
+      "description": "Lily grabs Emily\u2019s hand.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 6110000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Lily’s hand punches through the tail light to grab Emily.",
+      "description": "Lily\u2019s hand punches through the tail light to grab Emily.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 6174000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:12.918Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Case 39",
   "tmdb_id": 28355
 }

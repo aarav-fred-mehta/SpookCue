@@ -171,7 +171,7 @@ fun MovieCard(
 
                     Spacer(modifier = Modifier.width(8.dp))
 
-                    if (movie.syncType == "audio_hash") {
+                    if (movie.hasAcousticSync) {
                         Surface(
                             color = PureBlack,
                             shape = RoundedCornerShape(4.dp),
@@ -184,27 +184,19 @@ fun MovieCard(
                                 modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
                             )
                         }
-                    } else if (!movie.hasSubtitles && movie.syncType != "subtitles") {
+                    } else {
                         Surface(
                             color = PureBlack,
                             shape = RoundedCornerShape(4.dp),
-                            border = androidx.compose.foundation.BorderStroke(1.dp, CrimsonBorder)
+                            border = androidx.compose.foundation.BorderStroke(1.dp, LunarBorder)
                         ) {
                             Text(
-                                text = "Clock sync only",
+                                text = "Manual clock",
                                 color = TextSecondary,
                                 fontSize = 10.sp,
                                 modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
                             )
                         }
-                    } else if (movie.lastSyncedAt != null) {
-                        Text(
-                            text = "Synced ${formatLastSynced(movie.lastSyncedAt)}",
-                            color = TextSecondary,
-                            fontSize = 11.sp,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis
-                        )
                     }
                 }
             }

@@ -3,60 +3,27 @@
   "runtime_minutes": 120,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AR",
-        "ANL",
-        "APXN",
-        "AS",
-        "T",
-        "KT",
-        "0R",
-        "FRST"
-      ],
       "description": "Amelia apears in front of the man.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 840,
       "resolved_time_ms": 2491000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AS",
-        "T",
-        "PLF",
-        "0T",
-        "0",
-        "AR",
-        "RT"
-      ],
       "description": "A shadowy figure is seen in the laptop reflection.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 1360,
       "resolved_time_ms": 3068000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PKS",
-        "AKTL",
-        "0RS",
-        "N",
-        "NTRXNL",
-        "FL",
-        "T",
-        "AN",
-        "AKPLNT"
-      ],
       "description": "M3GAN is seen in mirror.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 1720,
       "resolved_time_ms": 3775000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-22T08:30:20.065Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "M3Gan 2 0",
   "tmdb_id": 1071585
 }

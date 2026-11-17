@@ -3,9 +3,9 @@ package dev.spookcue.sync
 import android.os.SystemClock
 import dev.spookcue.audio.AcousticFingerprinter
 import dev.spookcue.audio.AudioEnergyMeter
+import dev.spookcue.data.model.AudioHashEntry
 import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.model.MovieSyncData
-import dev.spookcue.data.model.PhoneticEntry
 import dev.spookcue.util.AppLogger
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -25,18 +25,11 @@ import kotlin.math.abs
 
 data class SyncDebugInfo(
     val lastText: String = "",
-    val windowText: String = "",
-    val tokens: List<String> = emptyList(),
-    val matchScore: Float = 0f,
     val matchedTimeMs: Long? = null,
-    val candidateCount: Int = 0,
     val consecutiveMisses: Int = 0,
-    val staleMissCount: Int = 0,
-    val windowSegments: Int = 0,
-    val topKScores: List<Float> = emptyList(),
     val instantDb: Float = 0f,
     val stageName: String = "Idle",
-    val syncMode: String = "subtitles",
+    val syncMode: String = "audio_hash",
     val hashCount: Int = 0,
     val hashVotes: Int = 0,
     val hashRunnerUpVotes: Int = 0,
@@ -45,23 +38,13 @@ data class SyncDebugInfo(
 
 @Singleton
 class SyncEngine @Inject constructor(
-    private val phoneticMatcher: PhoneticMatcher,
     val movieClock: MovieClock,
-    private val transcriptWindow: TranscriptWindow,
     val audioHashMatcher: AudioHashMatcher,
     val acousticFingerprinter: AcousticFingerprinter,
     val audioEnergyMeter: AudioEnergyMeter
 ) {
     companion object {
         private const val TAG = "SyncEngine"
-        private const val CANDIDATE_WINDOW_MS = 60_000L
-        private const val TEMPORAL_TOLERANCE_MS = 2_500L
-
-        // Fast-lock thresholds for unique high-information utterances
-        private const val FAST_LOCK_MIN_TOKENS = 6
-        private const val FAST_LOCK_MIN_SCORE = 0.85f
-        private const val FAST_LOCK_MAX_RUNNER_UP_SCORE = 0.70f
-        private const val FAST_LOCK_PROXIMITY_MARGIN_MS = 15_000L
 
         // Stage 2 Checkpoint & Drift Thresholds
         private const val DRIFT_CORRECTION_MIN_MS = 500L
@@ -83,9 +66,6 @@ class SyncEngine @Inject constructor(
     private val _debugInfo = MutableStateFlow(SyncDebugInfo())
     val debugInfo: StateFlow<SyncDebugInfo> = _debugInfo.asStateFlow()
 
-    private val _lastTranscript = MutableStateFlow("")
-    val lastTranscript: StateFlow<String> = _lastTranscript.asStateFlow()
-
     private val _syncHistory = MutableStateFlow<List<SyncHistoryRecord>>(emptyList())
     val syncHistory: StateFlow<List<SyncHistoryRecord>> = _syncHistory.asStateFlow()
 
@@ -95,7 +75,7 @@ class SyncEngine @Inject constructor(
         val record = SyncHistoryRecord(
             timestampMs = System.currentTimeMillis(),
             eventType = eventType,
-            syncMode = currentSyncData?.type ?: "subtitles",
+            syncMode = currentSyncData?.type ?: "audio_hash",
             movieTimeMs = movieTimeMs,
             confidence = confidence,
             details = details
@@ -115,15 +95,6 @@ class SyncEngine @Inject constructor(
 
     private var currentMovie: MovieDetails? = null
     private var currentSyncData: MovieSyncData? = null
-    private var sortedPhoneticIndex: List<PhoneticEntry> = emptyList()
-
-    data class CandidateGroup(
-        val systemTimeMs: Long,
-        val matches: List<PhoneticMatcher.RankedMatch>
-    )
-
-    private val candidateGroups = mutableListOf<CandidateGroup>()
-    private val pausedResumeCandidates = mutableListOf<CandidateGroup>()
     private var consecutiveMissedCheckpoints = 0
     private var activeSoundscapeSustainedMs = 0L
 
@@ -136,23 +107,21 @@ class SyncEngine @Inject constructor(
     private var pendingAcousticCandidate: AcousticCandidate? = null
 
     fun start(movie: MovieDetails, syncData: MovieSyncData) {
-        AppLogger.i(TAG, "Starting 3-Stage Sync for '${movie.title}' (type: ${syncData.type}, scares: ${movie.scares.size})")
-        recordSyncEvent("START", 0L, 1.0f, "Starting sync for '${movie.title}'")
+        AppLogger.i(TAG, "Starting Acoustic Landmark Sync for '${movie.title}' (hashes: ${syncData.audioHashes.size}, scares: ${movie.scares.size})")
+        recordSyncEvent("START", 0L, 1.0f, "Starting acoustic sync for '${movie.title}'")
         currentMovie = movie
         currentSyncData = syncData
-        candidateGroups.clear()
-        pausedResumeCandidates.clear()
-        transcriptWindow.clear()
         movieClock.reset()
         consecutiveMissedCheckpoints = 0
         activeSoundscapeSustainedMs = 0L
         pendingAcousticCandidate = null
 
-        if (syncData.type == "audio_hash") {
-            audioHashMatcher.initIndex(syncData.audioHashes)
-        } else {
-            sortedPhoneticIndex = syncData.phoneticIndex.sortedBy { it.startMs }
-        }
+        audioHashMatcher.initIndex(syncData.audioHashes)
+
+        _debugInfo.value = SyncDebugInfo(
+            stageName = "Stage 1: Finding Progress",
+            syncMode = "audio_hash"
+        )
 
         _state.value = SyncState.FindingProgress(startedAtMs = timeProvider(), candidatesFound = 0)
         startTicker()
@@ -164,10 +133,6 @@ class SyncEngine @Inject constructor(
         tickerJob = null
         currentMovie = null
         currentSyncData = null
-        sortedPhoneticIndex = emptyList()
-        candidateGroups.clear()
-        pausedResumeCandidates.clear()
-        transcriptWindow.clear()
         audioHashMatcher.clear()
         pendingAcousticCandidate = null
         movieClock.reset()
@@ -179,9 +144,6 @@ class SyncEngine @Inject constructor(
     fun forceResync() {
         AppLogger.i(TAG, "Force resync requested")
         recordSyncEvent("RESYNC", 0L, 0f, "Force resync requested")
-        candidateGroups.clear()
-        pausedResumeCandidates.clear()
-        transcriptWindow.clear()
         pendingAcousticCandidate = null
         movieClock.reset()
         consecutiveMissedCheckpoints = 0
@@ -195,8 +157,6 @@ class SyncEngine @Inject constructor(
                 AppLogger.i(TAG, "Manual pause requested")
                 recordSyncEvent("PAUSE", movieClock.getCurrentMovieTimeMs(), 1.0f, "Manual pause requested")
                 movieClock.freeze()
-                transcriptWindow.clear()
-                pausedResumeCandidates.clear()
                 _state.value = SyncState.MoviePaused(
                     pausedAtMovieTimeMs = movieClock.getCurrentMovieTimeMs(),
                     isManual = true
@@ -237,157 +197,9 @@ class SyncEngine @Inject constructor(
     }
 
     /**
-     * Process speech transcribed from audio (Subtitles mode).
+     * Process acoustic hashes extracted from audio.
      */
-    fun onSpeechTranscribed(text: String) {
-        val movie = currentMovie ?: return
-        if (text.isBlank()) return
-
-        _lastTranscript.value = text
-        val segmentTokens = phoneticMatcher.tokenizeAndEncode(text)
-        val windowText = transcriptWindow.push(text)
-        val windowTokens = phoneticMatcher.tokenizeAndEncode(windowText)
-
-        AppLogger.i(TAG, "onSpeechTranscribed: \"$text\" -> tokens: $segmentTokens (State: ${_state.value})")
-
-        when (val currentState = _state.value) {
-            is SyncState.FindingProgress -> {
-                val now = timeProvider()
-
-                // 1. Check Fast-Lock on high-information distinctive sentence
-                if (segmentTokens.size >= FAST_LOCK_MIN_TOKENS) {
-                    val segTopK = phoneticMatcher.evaluateTopK(segmentTokens, sortedPhoneticIndex, k = 3)
-                    if (segTopK.isNotEmpty()) {
-                        val best = segTopK.first()
-                        val runnerUp = segTopK.getOrNull(1)
-                        val isUnique = best.score >= FAST_LOCK_MIN_SCORE &&
-                            (runnerUp == null || runnerUp.score < FAST_LOCK_MAX_RUNNER_UP_SCORE ||
-                             abs(best.entry.startMs - runnerUp.entry.startMs) <= FAST_LOCK_PROXIMITY_MARGIN_MS)
-
-                        if (isUnique) {
-                            movieClock.snap(best.entry.startMs)
-                            transcriptWindow.clear()
-                            candidateGroups.clear()
-                            consecutiveMissedCheckpoints = 0
-                            val movieTime = movieClock.getCurrentMovieTimeMs()
-                            AppLogger.i(TAG, ">>> FAST-LOCKED! Snapped to movie time: ${movieTime / 1000}s (score: ${best.score}) <<<")
-                            recordSyncEvent("LOCK", movieTime, best.score, "Fast-locked with unique phrase (score: ${(best.score * 100).toInt()}%)")
-                            _state.value = SyncState.MoviePlaying(
-                                currentMovieTimeMs = movieTime,
-                                confidence = best.score,
-                                nextScareCountdownMs = calculateNextScareCountdown()
-                            )
-                            return
-                        }
-                    }
-                }
-
-                // 2. Standard 2-Candidate Temporal Consensus
-                val searchTokens = if (segmentTokens.size >= 3) segmentTokens else windowTokens
-                val topK = phoneticMatcher.evaluateTopK(searchTokens, sortedPhoneticIndex, k = 3)
-                updateDebugInfo(text, windowText, searchTokens, topK.firstOrNull()?.score ?: 0f, topK.firstOrNull()?.entry?.startMs)
-
-                if (topK.isNotEmpty()) {
-                    candidateGroups.removeAll { now - it.systemTimeMs > CANDIDATE_WINDOW_MS }
-                    val agreement = findAgreement(topK, now, candidateGroups)
-                    if (agreement != null) {
-                        movieClock.snap(agreement.entry.startMs)
-                        transcriptWindow.clear()
-                        candidateGroups.clear()
-                        consecutiveMissedCheckpoints = 0
-                        val movieTime = movieClock.getCurrentMovieTimeMs()
-                        AppLogger.i(TAG, ">>> CONSENSUS LOCKED! Snapped to movie time: ${movieTime / 1000}s (confidence: ${agreement.score}) <<<")
-                        recordSyncEvent("LOCK", movieTime, agreement.score, "Consensus locked from 2 agreeing utterances (score: ${(agreement.score * 100).toInt()}%)")
-                        _state.value = SyncState.MoviePlaying(
-                            currentMovieTimeMs = movieTime,
-                            confidence = agreement.score,
-                            nextScareCountdownMs = calculateNextScareCountdown()
-                        )
-                    } else {
-                        candidateGroups.add(CandidateGroup(now, topK))
-                        _state.value = currentState.copy(candidatesFound = candidateGroups.size)
-                        recordSyncEvent("CANDIDATE", topK.first().entry.startMs, topK.first().score, "Phonetic candidate (score: ${(topK.first().score * 100).toInt()}%)")
-                    }
-                }
-            }
-
-            is SyncState.MoviePlaying -> {
-                val currentMovieTime = movieClock.getCurrentMovieTimeMs()
-                val topK = phoneticMatcher.evaluateTopKBounded(
-                    windowTokens,
-                    sortedPhoneticIndex,
-                    centerTimeMs = currentMovieTime,
-                    windowMs = 15_000L,
-                    k = 3,
-                    threshold = 0.65f
-                )
-
-                if (topK.isNotEmpty()) {
-                    val best = topK.first()
-                    consecutiveMissedCheckpoints = 0
-                    val drift = best.entry.startMs - currentMovieTime
-                    AppLogger.d(TAG, "MoviePlaying checkpoint matched: drift=${drift}ms, score=${best.score}")
-
-                    // Simple direct drift fix logic
-                    if (abs(drift) in DRIFT_CORRECTION_MIN_MS..DRIFT_CORRECTION_MAX_MS) {
-                        val correction = (DRIFT_DAMPING_FACTOR * drift).toLong()
-                        movieClock.adjustOffset(correction)
-                        AppLogger.i(TAG, "Applied micro-drift correction: ${correction}ms")
-                        recordSyncEvent("DRIFT", currentMovieTime, best.score, "Micro-drift correction applied: ${correction}ms (drift: ${drift}ms)")
-                    }
-                    updateDebugInfo(text, windowText, windowTokens, best.score, best.entry.startMs)
-                } else {
-                    consecutiveMissedCheckpoints++
-                    AppLogger.d(TAG, "Speech checkpoint missed ($consecutiveMissedCheckpoints in a row)")
-                    updateDebugInfo(text, windowText, windowTokens, 0f, null)
-                }
-            }
-
-            is SyncState.MoviePaused -> {
-                val now = timeProvider()
-                // Tier 1: Check against paused position window (±30s)
-                val topK = phoneticMatcher.evaluateTopKBounded(
-                    windowTokens,
-                    sortedPhoneticIndex,
-                    centerTimeMs = currentState.pausedAtMovieTimeMs,
-                    windowMs = PAUSE_LOCAL_WINDOW_MS,
-                    k = 3,
-                    threshold = 0.70f
-                )
-
-                if (topK.isNotEmpty()) {
-                    val best = topK.first()
-                    pausedResumeCandidates.removeAll { now - it.systemTimeMs > CANDIDATE_WINDOW_MS }
-                    val agreement = findAgreement(topK, now, pausedResumeCandidates)
-                    // Either 2 agreeing utterances or high-confidence score >= 0.85
-                    if (agreement != null || best.score >= 0.85f) {
-                        val resumeTime = agreement?.entry?.startMs ?: best.entry.startMs
-                        movieClock.snap(resumeTime)
-                        transcriptWindow.clear()
-                        pausedResumeCandidates.clear()
-                        consecutiveMissedCheckpoints = 0
-                        AppLogger.i(TAG, ">>> MOVIE RESUMED FROM PAUSE! Snapped to ${resumeTime / 1000}s <<<")
-                        _state.value = SyncState.MoviePlaying(
-                            currentMovieTimeMs = resumeTime,
-                            confidence = maxOf(best.score, agreement?.score ?: 0f),
-                            nextScareCountdownMs = calculateNextScareCountdown()
-                        )
-                    } else {
-                        pausedResumeCandidates.add(CandidateGroup(now, topK))
-                    }
-                }
-            }
-
-            else -> Unit
-        }
-    }
-
-    /**
-     * Process acoustic hashes extracted from audio (Acoustic Hash mode).
-     */
-    fun onAudioHashesExtracted(hashes: List<dev.spookcue.data.model.AudioHashEntry>, bufferDurationMs: Long = 3500L) {
-        if (currentSyncData?.type != "audio_hash") return
-
+    fun onAudioHashesExtracted(hashes: List<AudioHashEntry>, bufferDurationMs: Long = 3500L) {
         when (val currentState = _state.value) {
             is SyncState.FindingProgress -> {
                 val result = audioHashMatcher.match(hashes, bufferDurationMs)
@@ -397,7 +209,6 @@ class SyncEngine @Inject constructor(
                     val ratio = if (result.runnerUpVotes > 0) result.votes.toFloat() / result.runnerUpVotes else 999f
 
                     // Fast lock strictly for isolated clean match with zero runner-up votes (e.g. tests or pristine quiet audio).
-                    // NEVER fast-lock on a single window if runnerUpVotes > 0 to eliminate noise-floor false snaps!
                     val isFastLock = (result.runnerUpVotes == 0 && result.votes >= 6)
 
                     var consensusConfirmed = isFastLock
@@ -432,10 +243,6 @@ class SyncEngine @Inject constructor(
                             nextScareCountdownMs = calculateNextScareCountdown()
                         )
                     } else {
-                        // Register or update pending candidate
-                        // Register or update pending candidate:
-                        // If previous candidate was only an unconfirmed single hit and didn't match trajectory,
-                        // or is older than 1500ms, allow any valid candidate (even quiet dialogue) to replace it immediately!
                         if (newHits > 1) {
                             pendingAcousticCandidate = AcousticCandidate(result.movieTimeMs, now, result.votes, consensusHits = newHits)
                             AppLogger.d(TAG, "Acoustic candidate @ ${result.movieTimeMs / 1000}s (votes: ${result.votes}, hits: $newHits) confirmed trajectory — awaiting lock")
@@ -546,28 +353,6 @@ class SyncEngine @Inject constructor(
         )
     }
 
-    private fun findAgreement(
-        currentMatches: List<PhoneticMatcher.RankedMatch>,
-        now: Long,
-        candidates: List<CandidateGroup>
-    ): PhoneticMatcher.RankedMatch? {
-        for (group in candidates) {
-            val expectedMovieDiff = now - group.systemTimeMs
-            for (curr in currentMatches) {
-                for (prev in group.matches) {
-                    val actualMovieDiff = curr.entry.startMs - prev.entry.startMs
-                    if (actualMovieDiff < 1000L) continue
-
-                    val delta = abs(expectedMovieDiff - actualMovieDiff)
-                    if (delta <= TEMPORAL_TOLERANCE_MS) {
-                        return curr
-                    }
-                }
-            }
-        }
-        return null
-    }
-
     private fun calculateNextScareCountdown(): Long? {
         val movie = currentMovie ?: return null
         val currentTime = movieClock.getCurrentMovieTimeMs()
@@ -578,50 +363,18 @@ class SyncEngine @Inject constructor(
         return nextScare?.let { it.resolvedTimeMs - currentTime }
     }
 
-    private fun calculateNextCheckpoint(): Long? {
-        if (sortedPhoneticIndex.isEmpty()) return null
-        val currentMovieTime = movieClock.getCurrentMovieTimeMs()
-        val nextCue = sortedPhoneticIndex.firstOrNull { it.startMs > currentMovieTime }
-        return nextCue?.let { it.startMs - currentMovieTime }
-    }
-
-    private fun updateDebugInfo(lastText: String, windowText: String, tokens: List<String>, score: Float, matchedMs: Long?) {
-        val stageStr = when (_state.value) {
-            is SyncState.FindingProgress -> "Stage 1: Finding Progress"
-            is SyncState.MoviePlaying -> "Stage 2: Movie Playing"
-            is SyncState.MoviePaused -> "Stage 3: Movie Paused"
-            is SyncState.Idle -> "Idle"
-            is SyncState.Error -> "Error"
-        }
-        _debugInfo.value = SyncDebugInfo(
-            lastText = lastText,
-            windowText = windowText,
-            tokens = tokens,
-            matchScore = score,
-            matchedTimeMs = matchedMs,
-            candidateCount = candidateGroups.size,
-            consecutiveMisses = consecutiveMissedCheckpoints,
-            staleMissCount = consecutiveMissedCheckpoints,
-            windowSegments = transcriptWindow.segmentCount(),
-            instantDb = audioEnergyMeter.getInstantEnergyDb(),
-            stageName = stageStr
-        )
-    }
-
     fun tickOnce(now: Long = timeProvider()) {
         when (val s = _state.value) {
             is SyncState.FindingProgress -> {
-                candidateGroups.removeAll { now - it.systemTimeMs > CANDIDATE_WINDOW_MS }
-                _state.value = s.copy(candidatesFound = candidateGroups.size)
+                // Keep candidate state up to date
             }
             is SyncState.MoviePlaying -> {
                 val currentMovieTime = movieClock.getCurrentMovieTimeMs()
                 val nextScare = calculateNextScareCountdown()
-                val nextCheckpoint = calculateNextCheckpoint()
                 _state.value = s.copy(
                     currentMovieTimeMs = currentMovieTime,
                     nextScareCountdownMs = nextScare,
-                    nextCheckpointInMs = nextCheckpoint
+                    nextCheckpointInMs = null
                 )
             }
             is SyncState.MoviePaused -> {

@@ -3,17 +3,15 @@
   "runtime_minutes": 169,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "After a tense scene the spaceship explodes mid sentence.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 7643000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:01.529Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Interstellar",
   "tmdb_id": 157336
 }

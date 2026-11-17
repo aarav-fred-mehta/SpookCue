@@ -3,221 +3,111 @@
   "runtime_minutes": 125,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "Axe-related sound cue (sudden sound)",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 455000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A dead and bloody man with an axe in his throat suddenly close by",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 527000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "An axe driven through a door appears abruptly",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 555000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "MLTPL",
-        "ANTS",
-        "ARFNK",
-        "XRTL"
-      ],
       "description": "The clown grabs someone from behind unexpectedly",
       "id": "scare_04",
-      "offset_from_anchor_ms": 37351,
       "resolved_time_ms": 854000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "HLP",
-        "M",
-        "HLP",
-        "M",
-        "FKR"
-      ],
       "description": "A woman suddenly attacks someone",
       "id": "scare_05",
-      "offset_from_anchor_ms": 10101,
       "resolved_time_ms": 1020000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "NT",
-        "RL",
-        "ATTS",
-        "NT",
-        "RL",
-        "RT"
-      ],
-      "description": "The clown grabs a man’s face out of nowhere",
+      "description": "The clown grabs a man\u2019s face out of nowhere",
       "id": "scare_06",
-      "offset_from_anchor_ms": 16771,
       "resolved_time_ms": 1972000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "XS",
-        "ALS",
-        "NTRS",
-        "FR",
-        "APNNK",
-        "PRSNTS"
-      ],
       "description": "A loud thump on a table and a blood-covered person suddenly seen",
       "id": "scare_07",
-      "offset_from_anchor_ms": 1230,
       "resolved_time_ms": 2273000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KNNT",
-        "TK",
-        "A",
-        "FKNK",
-        "HNT",
-        "KN",
-        "A"
-      ],
       "description": "Someone pulls a gun and immediately shoots another in the neck",
       "id": "scare_08",
-      "offset_from_anchor_ms": 524,
       "resolved_time_ms": 3143000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0R",
-        "NMS",
-        "0R",
-        "NMS",
-        "AR",
-        "PRN",
-        "ANT",
-        "TNS",
-        "ANT"
-      ],
-      "description": "Fire extinguisher spray hits someone’s legs suddenly",
+      "description": "Fire extinguisher spray hits someone\u2019s legs suddenly",
       "id": "scare_09",
-      "offset_from_anchor_ms": 1274,
       "resolved_time_ms": 3289000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "NT",
-        "0RS",
-        "A",
-        "PRT",
-        "AN",
-        "KMPS",
-        "0T",
-        "A",
-        "AS",
-        "ANFTT",
-        "T"
-      ],
       "description": "Somebody suddenly greets Jonathan from behind",
       "id": "scare_10",
-      "offset_from_anchor_ms": 400,
       "resolved_time_ms": 3812000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "A bomb explodes in a boy’s hand unexpectedly",
+      "description": "A bomb explodes in a boy\u2019s hand unexpectedly",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5247000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The clown attacks two people in the shower with a chainsaw",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5293000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "FR",
-        "ALKM",
-        "S0RT"
-      ],
       "description": "Receiving a picture triggers loud flashback with a big sound burst",
       "id": "scare_13",
-      "offset_from_anchor_ms": 6031,
       "resolved_time_ms": 5644000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KRS",
-        "LT",
-        "KRS",
-        "LT"
-      ],
       "description": "Someone comes downstairs and shouts at a figure (sudden reveal)",
       "id": "scare_14",
-      "offset_from_anchor_ms": 657,
       "resolved_time_ms": 5802000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Someone attacks the clown with a gift-knife unexpectedly",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 6655000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "APNT",
-        "AT",
-        "AAM",
-        "A",
-        "SNP",
-        "RMMPR"
-      ],
       "description": "The clown attacks with a chainsaw suddenly",
       "id": "scare_16",
-      "offset_from_anchor_ms": 7492,
       "resolved_time_ms": 6718000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The clown lets out a loud laugh at the end on the bus",
       "id": "scare_17",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 7080000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-11-08T07:50:37.555Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Terrifier 3",
   "tmdb_id": 1034541
 }

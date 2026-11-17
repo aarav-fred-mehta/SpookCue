@@ -3,22 +3,15 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "anchor_phonetic": [
-        "M",
-        "N",
-        "HLT",
-        "AN"
-      ],
       "description": "The lid of a barrel is removed to reveal a decomposed corpse.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 5106,
       "resolved_time_ms": 4153000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:29.082Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Megan Is Missing",
   "tmdb_id": 63197
 }

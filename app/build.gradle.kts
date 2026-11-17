@@ -81,10 +81,6 @@ android {
         compose = true
     }
 
-    androidResources {
-        noCompress += listOf("onnx")
-    }
-
     testOptions {
         unitTests.isReturnDefaultValues = true
     }
@@ -92,9 +88,6 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
-        }
-        jniLibs {
-            pickFirsts += "**/libonnxruntime.so"
         }
     }
 }
@@ -133,9 +126,6 @@ dependencies {
     implementation(libs.okhttp.logging)
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.kotlinx.coroutines.android)
-
-    // ONNX Runtime for acoustic models (Silero VAD + STT)
-    implementation(libs.onnxruntime.android)
 
     // Coil Image Loading
     implementation(libs.coil.compose)

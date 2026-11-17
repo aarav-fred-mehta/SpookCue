@@ -3,47 +3,21 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "N",
-        "KNNT",
-        "S",
-        "AN0NK"
-      ],
       "description": "Unexpected explosion.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 15977,
       "resolved_time_ms": 1288000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "A",
-        "NT",
-        "T",
-        "TLK",
-        "T",
-        "SMN",
-        "AT",
-        "0",
-        "KNSLT",
-        "A",
-        "KN",
-        "HLP",
-        "M"
-      ],
       "description": "Power shuts off abruptly with loud noise.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 21630,
       "resolved_time_ms": 1474000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-05-27T00:36:30.738Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Pope S Exorcist",
   "tmdb_id": 758323
 }

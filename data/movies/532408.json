@@ -3,36 +3,21 @@
   "runtime_minutes": 99,
   "scares": [
     {
-      "anchor_phonetic": [
-        "LSTN",
-        "T",
-        "M",
-        "LSTN",
-        "0RS",
-        "A",
-        "MN",
-        "AN",
-        "0",
-        "HS"
-      ],
       "description": "Sadie's dad comes bursting through a door.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 1051,
       "resolved_time_ms": 1145000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Sawyer's closet door flies open.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1598000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-03-16T21:50:38.943Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Boogeyman",
   "tmdb_id": 532408
 }

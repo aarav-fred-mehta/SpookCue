@@ -3,69 +3,33 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "The archeologist is pulled away.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 150000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "M",
-        "PNTS",
-        "AR",
-        "KN",
-        "KT",
-        "TRT"
-      ],
       "description": "A dog jumps out from the bed of the truck and starts barking.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 2640,
       "resolved_time_ms": 878000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KM",
-        "AN",
-        "A",
-        "KT",
-        "K",
-        "KM",
-        "AN",
-        "0RS",
-        "MR",
-        "KMNK"
-      ],
       "description": "The German is shot in the face.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 20560,
       "resolved_time_ms": 1393000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "HF",
-        "T",
-        "KT",
-        "0M",
-        "AF",
-        "KT",
-        "AT",
-        "AF"
-      ],
       "description": "The vines suddenly wrap around her wrist.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 4640,
       "resolved_time_ms": 3187000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-04-24T01:43:11.460Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Ruins",
   "tmdb_id": 11152
 }

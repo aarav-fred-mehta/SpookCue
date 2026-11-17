@@ -3,25 +3,21 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": null,
-      "description": "A male voice says “I’m a good boy!” and pulls on Sissy’s arm.",
+      "description": "A male voice says \u201cI\u2019m a good boy!\u201d and pulls on Sissy\u2019s arm.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2123000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "There is a crash and the two women scream.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5580000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:33.633Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "We Need To Do Something",
   "tmdb_id": 769364
 }

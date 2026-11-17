@@ -3,53 +3,27 @@
   "runtime_minutes": 110,
   "scares": [
     {
-      "anchor_phonetic": [
-        "JST",
-        "HLT",
-        "AT",
-        "TK0R",
-        "FR",
-        "M"
-      ],
       "description": "A bloody woman runs at the glass door.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 53334,
       "resolved_time_ms": 2195000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "K",
-        "KM",
-        "AN",
-        "K",
-        "LK",
-        "A",
-        "KT",
-        "AT",
-        "K",
-        "K",
-        "N",
-        "K"
-      ],
       "description": "A monster springs up from the water.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 51917,
       "resolved_time_ms": 5178000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Water surges into the chimney.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5554000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-08-10T07:01:32.381Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Last House",
   "tmdb_id": 1284041
 }

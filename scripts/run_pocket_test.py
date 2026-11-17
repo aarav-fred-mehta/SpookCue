@@ -5,11 +5,11 @@ Runs automated sync testing via USB ADB with the phone in your pocket at ~50% th
 
 Supports:
 1. Single Test Run:
-   python scripts/run_pocket_test.py --media "path/to/138843.flac" --tmdb 138843 --start-time 00:01:30 --mode subtitles
+   python scripts/run_pocket_test.py --media "path/to/138843.flac" --tmdb 138843 --start-time 00:01:30 --mode audio_hash
 
-2. Full Automated Batch Suite across all 5 Netflix India movies:
+2. Full Automated Batch Suite across target movies:
    Tests TWO points per movie (Start & After Middle Ad Break), switches between movies and points,
-   and repeats the entire suite once with Subtitle Sync and once with Landmark Constellation Sync.
+   evaluating audio hash sync performance in pocket noise conditions.
    python scripts/run_pocket_test.py --batch --audio-dir "C:/Users/aarav/Documents/Hobbies/Code/Tools/SpookCue Audio Data/Raw Audio"
 """
 
@@ -35,7 +35,7 @@ logger = logging.getLogger("pocket_test")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-# 5 Target Horror Movies on Netflix India with 2 test points each
+# Target test movies with 2 test points each
 TEST_MOVIES_CONFIG = [
     {
         "tmdb_id": 138843,
@@ -183,18 +183,18 @@ def format_seconds_to_time(sec: float) -> str:
 
 
 def find_audio_file_for_tmdb(tmdb_id: int, search_dirs: List[Path]) -> Optional[Path]:
-    """Find <tmdb_id>.flac or <tmdb_id>.mp4 across designated candidate directories."""
+    """Find <tmdb_id>.m4a, <tmdb_id>.flac, or <tmdb_id>.mp4 across designated candidate directories."""
     for d in search_dirs:
         if not d.exists():
             continue
         # Direct matches in folder
-        for ext in [".flac", ".mp4", ".mkv", ".wav"]:
+        for ext in [".m4a", ".flac", ".mp4", ".mkv", ".wav", ".aac"]:
             candidate = d / f"{tmdb_id}{ext}"
             if candidate.exists():
                 return candidate
         # Recursive scan
         for f in d.rglob(f"{tmdb_id}.*"):
-            if f.suffix.lower() in [".flac", ".mp4", ".mkv", ".wav"]:
+            if f.suffix.lower() in [".m4a", ".flac", ".mp4", ".mkv", ".wav", ".aac"]:
                 return f
     return None
 
@@ -564,7 +564,9 @@ class PocketTestRunner:
             "drift_corrections_count": len(self.drift_events),
             "drift_events": self.drift_events,
             "warnings_count": len(self.warning_events),
+            "warning_events": self.warning_events,
             "scares_triggered_count": len(self.scare_events),
+            "scare_events": self.scare_events,
             "rms_readings_summary": {
                 "count": len(self.rms_readings),
                 "min_db": round(min(self.rms_readings), 1) if self.rms_readings else None,
@@ -605,24 +607,24 @@ class PocketTestRunner:
 
     def _render_markdown_report(self, d: Dict[str, Any]) -> str:
         lines = [
-            f"# Pocket Sync Test Report: {d['movie_title']}",
-            f"**Date:** {d['timestamp']}  ",
-            f"**Verdict:** `{'PASS' if d['verdict'] == 'PASS' else 'FAIL'}`  ",
-            f"**TMDB ID:** `{d['tmdb_id']}`  ",
-            f"**Test Point:** `{d['point_name']}` ({format_seconds_to_time(d['start_time_sec'])})  ",
-            f"**Sync Mode:** `{d['sync_mode'].upper()}`  ",
-            f"**Volume:** `{d['volume_pct']}%` (Pocket Test)  \n",
+            f"# Pocket Sync Test Report: {d.get('movie_title', 'Unknown')}",
+            f"**Date:** {d.get('timestamp', '')}  ",
+            f"**Verdict:** `{'PASS' if d.get('verdict') == 'PASS' else 'FAIL'}`  ",
+            f"**TMDB ID:** `{d.get('tmdb_id', '')}`  ",
+            f"**Test Point:** `{d.get('point_name', '')}` ({format_seconds_to_time(d.get('start_time_sec', 0))})  ",
+            f"**Sync Mode:** `{str(d.get('sync_mode', '')).upper()}`  ",
+            f"**Volume:** `{d.get('volume_pct', 50)}%` (Pocket Test)  \n",
             "## Summary",
-            f"- **Initial Lock Latency:** `{d['lock_event']['latency_sec'] if d['lock_event'] else 'N/A'}s`",
-            f"- **Offset Error ($\Delta$):** `{d['lock_event']['offset_delta_ms'] if d['lock_event'] else 'N/A'}ms`",
-            f"- **Sync Mode:** `{d['sync_mode']}`",
-            f"- **Drift Adjustments:** `{d['drift_corrections_count']}`",
-            f"- **Haptic Pre-Warnings:** `{d['warnings_count']}`",
-            f"- **Jump Scares Alerted:** `{d['scares_triggered_count']}`",
-            f"- **Pocket RMS Noise:** `Min: {d['rms_readings_summary']['min_db']}dB | Avg: {d['rms_readings_summary']['avg_db']}dB | Max: {d['rms_readings_summary']['max_db']}dB`\n",
+            f"- **Initial Lock Latency:** `{d['lock_event']['latency_sec'] if d.get('lock_event') else 'N/A'}s`",
+            f"- **Offset Error ($\Delta$):** `{d['lock_event']['offset_delta_ms'] if d.get('lock_event') else 'N/A'}ms`",
+            f"- **Sync Mode:** `{d.get('sync_mode', 'unknown')}`",
+            f"- **Drift Adjustments:** `{d.get('drift_corrections_count', 0)}`",
+            f"- **Haptic Pre-Warnings:** `{d.get('warnings_count', 0)}`",
+            f"- **Jump Scares Alerted:** `{d.get('scares_triggered_count', 0)}`",
+            f"- **Pocket RMS Noise:** `Min: {d.get('rms_readings_summary', {}).get('min_db')}dB | Avg: {d.get('rms_readings_summary', {}).get('avg_db')}dB | Max: {d.get('rms_readings_summary', {}).get('max_db')}dB`\n",
             "## Verification Notes",
         ]
-        for note in d["verdict_notes"]:
+        for note in d.get("verdict_notes", []):
             lines.append(f"- {note}")
 
         lines.extend([
@@ -631,17 +633,17 @@ class PocketTestRunner:
             "|---|---|---|"
         ])
 
-        if d["lock_event"]:
+        if d.get("lock_event"):
             lines.append(f"| T+{d['lock_event']['latency_sec']}s | **LOCK** | Snapped to {format_seconds_to_time(d['lock_event']['phone_movie_time_sec'])} ($\Delta={d['lock_event']['offset_delta_ms']:+d}$ms) |")
 
-        for drift in d["drift_events"]:
-            lines.append(f"| T+{drift['elapsed_sec']}s | DRIFT | Micro-correction: {drift['correction_ms']}ms |")
+        for drift in d.get("drift_events", []):
+            lines.append(f"| T+{drift.get('elapsed_sec', 0)}s | DRIFT | Micro-correction: {drift.get('correction_ms', 0)}ms |")
 
-        for warn in d["warning_events"]:
-            lines.append(f"| T+{warn['elapsed_sec']}s | PRE-WARNING | Haptic warning lead pulse |")
+        for warn in d.get("warning_events", []):
+            lines.append(f"| T+{warn.get('elapsed_sec', 0)}s | PRE-WARNING | Haptic warning lead pulse |")
 
-        for scare in d["scare_events"]:
-            lines.append(f"| T+{scare['elapsed_sec']}s | SCARE | Countdown reached zero |")
+        for scare in d.get("scare_events", []):
+            lines.append(f"| T+{scare.get('elapsed_sec', 0)}s | SCARE | Countdown reached zero |")
 
         return "\n".join(lines)
 
@@ -662,7 +664,7 @@ class BatchTestOrchestrator:
         self.audio_dirs = audio_dirs
         self.selected_movies = selected_movies or [m["tmdb_id"] for m in TEST_MOVIES_CONFIG]
         self.selected_points = selected_points or ["start", "mid_ad_break"]
-        self.modes = modes or ["subtitles", "audio_hash"]
+        self.modes = modes or ["audio_hash"]
         self.volume_pct = volume_pct
         self.device_serial = device_serial
         self.output_dir = output_dir
@@ -738,6 +740,7 @@ class BatchTestOrchestrator:
                     )
 
                     report = runner.run_test()
+                    report["point_id"] = point_id
                     report["point_label"] = pt["label"]
                     report["dialogue"] = pt["dialogue"]
                     report["target_scare_sec"] = pt["target_scare_sec"]
@@ -751,7 +754,7 @@ class BatchTestOrchestrator:
         self.generate_matrix_report()
 
     def generate_matrix_report(self):
-        """Format and save the complete multi-movie, multi-point comparative matrix."""
+        """Format and save the complete multi-movie, multi-point matrix report."""
         timestamp_str = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         json_path = self.output_dir / f"batch_sync_matrix_{timestamp_str}.json"
         with open(json_path, "w", encoding="utf-8") as f:
@@ -759,62 +762,114 @@ class BatchTestOrchestrator:
 
         md_path = self.output_dir / f"batch_sync_matrix_{timestamp_str}.md"
 
-        # Organize by movie and point
-        matrix_rows = []
-        for movie in TEST_MOVIES_CONFIG:
-            tmdb_id = movie["tmdb_id"]
-            title = movie["title"]
+        has_sub = "subtitles" in self.modes
+        has_hash = "audio_hash" in self.modes
 
-            for pt in movie["points"]:
-                point_id = pt["point_id"]
-                sub_res = next((r for r in self.results_matrix if r["tmdb_id"] == tmdb_id and r.get("point_id") == point_id and r.get("sync_mode") == "subtitles"), None)
-                hash_res = next((r for r in self.results_matrix if r["tmdb_id"] == tmdb_id and r.get("point_id") == point_id and r.get("sync_mode") == "audio_hash"), None)
+        if has_sub and has_hash:
+            matrix_rows = []
+            for movie in TEST_MOVIES_CONFIG:
+                tmdb_id = movie["tmdb_id"]
+                title = movie["title"]
 
-                sub_lock = f"{sub_res['lock_event']['latency_sec']}s" if (sub_res and sub_res.get("lock_event")) else "N/A"
-                sub_delta = f"{sub_res['lock_event']['offset_delta_ms']:+d}ms" if (sub_res and sub_res.get("lock_event")) else "N/A"
-                hash_lock = f"{hash_res['lock_event']['latency_sec']}s" if (hash_res and hash_res.get("lock_event")) else "N/A"
-                hash_delta = f"{hash_res['lock_event']['offset_delta_ms']:+d}ms" if (hash_res and hash_res.get("lock_event")) else "N/A"
+                for pt in movie["points"]:
+                    point_id = pt["point_id"]
+                    sub_res = next((r for r in self.results_matrix if r.get("tmdb_id") == tmdb_id and (r.get("point_id") == point_id or r.get("point_name") == point_id) and r.get("sync_mode") == "subtitles"), None)
+                    hash_res = next((r for r in self.results_matrix if r.get("tmdb_id") == tmdb_id and (r.get("point_id") == point_id or r.get("point_name") == point_id) and r.get("sync_mode") == "audio_hash"), None)
 
-                winner = "N/A"
-                if sub_res and sub_res.get("lock_event") and hash_res and hash_res.get("lock_event"):
-                    sub_lat = sub_res["lock_event"]["latency_sec"]
-                    hash_lat = hash_res["lock_event"]["latency_sec"]
-                    winner = "HASH" if hash_lat < sub_lat else "SUBTITLE"
+                    sub_lock = f"{sub_res['lock_event']['latency_sec']}s" if (sub_res and sub_res.get("lock_event")) else "N/A"
+                    sub_delta = f"{sub_res['lock_event']['offset_delta_ms']:+d}ms" if (sub_res and sub_res.get("lock_event")) else "N/A"
+                    hash_lock = f"{hash_res['lock_event']['latency_sec']}s" if (hash_res and hash_res.get("lock_event")) else "N/A"
+                    hash_delta = f"{hash_res['lock_event']['offset_delta_ms']:+d}ms" if (hash_res and hash_res.get("lock_event")) else "N/A"
 
-                matrix_rows.append({
-                    "title": title,
-                    "point": pt["label"],
-                    "sub_lock": sub_lock,
-                    "sub_delta": sub_delta,
-                    "hash_lock": hash_lock,
-                    "hash_delta": hash_delta,
-                    "winner": winner
-                })
+                    winner = "N/A"
+                    if sub_res and sub_res.get("lock_event") and hash_res and hash_res.get("lock_event"):
+                        sub_lat = sub_res["lock_event"]["latency_sec"]
+                        hash_lat = hash_res["lock_event"]["latency_sec"]
+                        winner = "HASH" if hash_lat < sub_lat else "SUBTITLE"
 
-        # Markdown format
-        md_lines = [
-            "# SpookCue Batch Pocket Sync Test Matrix",
-            f"**Date:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  ",
-            f"**Volume Level:** `{self.volume_pct}%` (Pocket Test)  \n",
-            "| Movie | Test Point | Subtitle Lock | Subtitle $\Delta$ | Hash Lock | Hash $\Delta$ | Winner |",
-            "|---|---|---|---|---|---|---|"
-        ]
-        for row in matrix_rows:
-            md_lines.append(f"| **{row['title']}** | {row['point']} | {row['sub_lock']} | {row['sub_delta']} | {row['hash_lock']} | {row['hash_delta']} | **{row['winner']}** |")
+                    matrix_rows.append({
+                        "title": title,
+                        "point": pt["label"],
+                        "sub_lock": sub_lock,
+                        "sub_delta": sub_delta,
+                        "hash_lock": hash_lock,
+                        "hash_delta": hash_delta,
+                        "winner": winner
+                    })
 
-        with open(md_path, "w", encoding="utf-8") as f:
-            f.write("\n".join(md_lines))
+            md_lines = [
+                "# SpookCue Batch Pocket Sync Test Matrix",
+                f"**Date:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  ",
+                f"**Volume Level:** `{self.volume_pct}%` (Pocket Test)  \n",
+                "| Movie | Test Point | Subtitle Lock | Subtitle $\Delta$ | Hash Lock | Hash $\Delta$ | Winner |",
+                "|---|---|---|---|---|---|---|"
+            ]
+            for row in matrix_rows:
+                md_lines.append(f"| **{row['title']}** | {row['point']} | {row['sub_lock']} | {row['sub_delta']} | {row['hash_lock']} | {row['hash_delta']} | **{row['winner']}** |")
 
-        # Print console table
-        print("\n" + "=" * 90)
-        print("                         SPOOKCUE BATCH SYNC COMPARISON MATRIX")
-        print("=" * 90)
-        print(f"{'Movie':<20} {'Point':<30} {'Sub Lock':<10} {'Sub Δ':<10} {'Hash Lock':<10} {'Hash Δ':<10} {'Winner':<8}")
-        print("-" * 90)
-        for row in matrix_rows:
-            print(f"{row['title']:<20} {row['point']:<30} {row['sub_lock']:<10} {row['sub_delta']:<10} {row['hash_lock']:<10} {row['hash_delta']:<10} {row['winner']:<8}")
-        print("=" * 90)
-        print(f"Matrix report saved to: {md_path}\n")
+            with open(md_path, "w", encoding="utf-8") as f:
+                f.write("\n".join(md_lines))
+
+            print("\n" + "=" * 90)
+            print("                         SPOOKCUE BATCH SYNC COMPARISON MATRIX")
+            print("=" * 90)
+            print(f"{'Movie':<20} {'Point':<30} {'Sub Lock':<10} {'Sub Δ':<10} {'Hash Lock':<10} {'Hash Δ':<10} {'Winner':<8}")
+            print("-" * 90)
+            for row in matrix_rows:
+                print(f"{row['title']:<20} {row['point']:<30} {row['sub_lock']:<10} {row['sub_delta']:<10} {row['hash_lock']:<10} {row['hash_delta']:<10} {row['winner']:<8}")
+            print("=" * 90)
+            print(f"Matrix report saved to: {md_path}\n")
+
+        else:
+            primary_mode = self.modes[0] if self.modes else "audio_hash"
+            matrix_rows = []
+            for movie in TEST_MOVIES_CONFIG:
+                tmdb_id = movie["tmdb_id"]
+                title = movie["title"]
+
+                for pt in movie["points"]:
+                    point_id = pt["point_id"]
+                    res = next((r for r in self.results_matrix if r.get("tmdb_id") == tmdb_id and (r.get("point_id") == point_id or r.get("point_name") == point_id) and r.get("sync_mode") == primary_mode), None)
+
+                    lock_sec = f"{res['lock_event']['latency_sec']}s" if (res and res.get("lock_event")) else "N/A"
+                    delta_ms = f"{res['lock_event']['offset_delta_ms']:+d}ms" if (res and res.get("lock_event")) else "N/A"
+                    avg_rms = f"{res['rms_readings_summary']['avg_db']}dB" if (res and res.get("rms_readings_summary") and res['rms_readings_summary'].get('avg_db') is not None) else "N/A"
+                    verdict = res.get("verdict", "N/A") if res else "N/A"
+                    scares = f"{res.get('scares_triggered_count', 0)}" if res else "0"
+
+                    matrix_rows.append({
+                        "title": title,
+                        "point": pt["label"],
+                        "lock": lock_sec,
+                        "delta": delta_ms,
+                        "rms": avg_rms,
+                        "scares": scares,
+                        "verdict": verdict
+                    })
+
+            md_lines = [
+                f"# SpookCue Batch Pocket Sync Matrix ({primary_mode.upper()})",
+                f"**Date:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}  ",
+                f"**Mode:** `{primary_mode.upper()}`  ",
+                f"**Volume Level:** `{self.volume_pct}%` (Pocket Test)  \n",
+                "| Movie | Test Point | Lock Latency | Offset $\Delta$ | RMS Avg | Scares | Verdict |",
+                "|---|---|---|---|---|---|---|"
+            ]
+            for row in matrix_rows:
+                md_lines.append(f"| **{row['title']}** | {row['point']} | {row['lock']} | {row['delta']} | {row['rms']} | {row['scares']} | **{row['verdict']}** |")
+
+            with open(md_path, "w", encoding="utf-8") as f:
+                f.write("\n".join(md_lines))
+
+            print("\n" + "=" * 90)
+            print(f"               SPOOKCUE BATCH SYNC MATRIX ({primary_mode.upper()})")
+            print("=" * 90)
+            print(f"{'Movie':<20} {'Point':<30} {'Lock':<10} {'Offset Δ':<10} {'RMS':<10} {'Scares':<8} {'Verdict':<8}")
+            print("-" * 90)
+            for row in matrix_rows:
+                print(f"{row['title']:<20} {row['point']:<30} {row['lock']:<10} {row['delta']:<10} {row['rms']:<10} {row['scares']:<8} {row['verdict']:<8}")
+            print("=" * 90)
+            print(f"Matrix report saved to: {md_path}\n")
 
 
 def main():
@@ -823,14 +878,14 @@ def main():
     parser.add_argument("--audio-dir", type=Path, action="append", help="Directory where <tmdb_id>.flac or <tmdb_id>.mp4 audio files are stored (can specify multiple)")
     parser.add_argument("--movies", type=int, nargs="+", help="Specific TMDB IDs to test (default: all 5 movies)")
     parser.add_argument("--points", type=str, nargs="+", choices=["start", "mid_ad_break"], help="Test points: 'start', 'mid_ad_break', or both")
-    parser.add_argument("--modes", type=str, nargs="+", choices=["subtitles", "audio_hash"], help="Sync modes to test: 'subtitles', 'audio_hash', or both")
+    parser.add_argument("--modes", type=str, nargs="+", choices=["audio_hash", "subtitles"], default=["audio_hash"], help="Sync modes to test (default: audio_hash)")
 
     # Single test options
     parser.add_argument("--media", "--mp4", dest="media", type=Path, help="Path to single video/audio MP4 or FLAC file")
     parser.add_argument("--tmdb", type=int, help="TMDB ID of single movie to test")
     parser.add_argument("--start-time", "--start", dest="start_time", type=str, default="0", help="Start time in clip (e.g. 00:01:30 or 90)")
     parser.add_argument("--duration", "-t", type=float, default=None, help="Duration of test in seconds (optional)")
-    parser.add_argument("--mode", type=str, choices=["subtitles", "audio_hash"], help="Single run sync mode override")
+    parser.add_argument("--mode", type=str, choices=["audio_hash", "subtitles"], default="audio_hash", help="Single run sync mode override (default: audio_hash)")
     parser.add_argument("--point", type=str, default="start", help="Test point name (e.g. start or mid_ad_break)")
 
     # Common options

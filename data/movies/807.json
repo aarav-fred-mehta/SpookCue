@@ -3,25 +3,15 @@
   "runtime_minutes": 127,
   "scares": [
     {
-      "anchor_phonetic": [
-        "HH",
-        "ALF",
-        "HH",
-        "ALF",
-        "0T",
-        "KKSKRRS",
-        "ALF"
-      ],
       "description": "An emaciated man strapped to a bed suddenly begins to move, revealing that he is in fact still alive.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 998,
       "resolved_time_ms": 3240000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:23.014Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Se7En",
   "tmdb_id": 807
 }

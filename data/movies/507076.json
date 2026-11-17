@@ -3,39 +3,21 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AF",
-        "A",
-        "KLTNNT",
-        "TNS",
-        "AT",
-        "ALT",
-        "A",
-        "T"
-      ],
       "description": "Sudden glitchy static.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 1011,
       "resolved_time_ms": 189000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "0",
-        "FRNX",
-        "TRTMRK"
-      ],
       "description": "Static again.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 18013,
       "resolved_time_ms": 589000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-05-05T02:25:11.778Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Climax",
   "tmdb_id": 507076
 }

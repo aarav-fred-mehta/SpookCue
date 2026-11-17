@@ -47,9 +47,6 @@ class AudioCaptureManager @Inject constructor(
     private val _rmsDb = MutableStateFlow(0f)
     val rmsDb: StateFlow<Float> = _rmsDb.asStateFlow()
 
-    private val _speechDetected = MutableStateFlow(false)
-    val speechDetected: StateFlow<Boolean> = _speechDetected.asStateFlow()
-
     @SuppressLint("MissingPermission")
     fun startCapture(): Boolean {
         if (isRecording) {
@@ -137,7 +134,6 @@ class AudioCaptureManager @Inject constructor(
                     // 2. Track energy via AudioEnergyMeter
                     val db = audioEnergyMeter.processFrame(amplifiedFrame)
                     _rmsDb.value = db
-                    _speechDetected.value = db > 32f
 
                     // 3. Emit amplified audio only if not paused
                     if (!isEmissionPaused) {
@@ -173,7 +169,6 @@ class AudioCaptureManager @Inject constructor(
         readJob?.cancel()
         readJob = null
         _rmsDb.value = 0f
-        _speechDetected.value = false
         audioEnergyMeter.reset()
 
         audioRecord?.apply {

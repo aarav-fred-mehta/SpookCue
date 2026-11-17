@@ -3,224 +3,93 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "anchor_phonetic": [
-        "PT",
-        "A",
-        "AS",
-        "KNK",
-        "T",
-        "P",
-        "ANSRNK",
-        "AR",
-        "KSXNS"
-      ],
       "description": "A cup on the table suddenly moves on its own.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 4197,
       "resolved_time_ms": 605000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PT",
-        "A",
-        "AS",
-        "KNK",
-        "T",
-        "P",
-        "ANSRNK",
-        "AR",
-        "KSXNS"
-      ],
       "description": "As Graham reaches for the cup it suddenly flies off the table.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 14197,
       "resolved_time_ms": 615000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "N",
-        "NT",
-        "AMPRST",
-        "N",
-        "ARN",
-        "HNSTL"
-      ],
       "description": "The pictures on the wall suddenly fall off on their own.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 3205,
       "resolved_time_ms": 997000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "0T",
-        "JS",
-        "AT",
-        "0",
-        "FK",
-        "AT"
-      ],
       "description": "Erin moves to reveal a ghost woman standing right behind her.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 105,
       "resolved_time_ms": 1094000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "0",
-        "TKS",
-        "AR",
-        "NFR",
-        "SN",
-        "AKN"
-      ],
       "description": "As the vlogger approaches a hole in a bricked up wall to investigate a noise, a bird suddenly flies out.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 24686,
       "resolved_time_ms": 1370000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "AT",
-        "TNK",
-        "AS",
-        "AT",
-        "KMNK"
-      ],
       "description": "Erin screams at something and the camera rotates to reveal the ghost woman standing right behind Graham.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 24215,
       "resolved_time_ms": 2008000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "N",
-        "AF",
-        "0",
-        "MKKS",
-        "PKNK",
-        "0T",
-        "AP",
-        "KN",
-        "A",
-        "HR",
-        "0T"
-      ],
       "description": "As the cameraman approaches a doll it suddenly jumps out at him.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 14910,
       "resolved_time_ms": 2403000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "MP",
-        "0",
-        "S",
-        "AR",
-        "A",
-        "LF",
-        "ANLN"
-      ],
       "description": "Graham begins to nudge the sheets on the floor with his foot when the sheets suddenly fly up in the figure of the ghost woman.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 54372,
       "resolved_time_ms": 3380000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "0TTS",
-        "A",
-        "AAM",
-        "KNK",
-        "T",
-        "FKNK",
-        "KL",
-        "A"
-      ],
       "description": "As Graham approaches a room, the ghost woman becomes visible in the corner, which startles him.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 19911,
       "resolved_time_ms": 3806000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "A",
-        "KN",
-        "HNT",
-        "0M",
-        "A",
-        "SPK",
-        "KNT"
-      ],
       "description": "Graham slowly moves into the room when the ghost woman suddenly runs out from behind the corner and towards the camera.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 870,
       "resolved_time_ms": 3828000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "0NK",
-        "ARN",
-        "AS",
-        "RT"
-      ],
-      "description": "The ghost woman’s hands suddenly break out of the wall and grab Graham.",
+      "description": "The ghost woman\u2019s hands suddenly break out of the wall and grab Graham.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 18431,
       "resolved_time_ms": 4385000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "0NK",
-        "ARN",
-        "AS",
-        "RT"
-      ],
       "description": "Graham points the camera at the door which suddenly slams on its own.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 31431,
       "resolved_time_ms": 4398000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Graham opens the door to reveal the ghost woman standing right behind it as she lunges out at him.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4439000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "Graham turns around and the ghost woman is right behind him.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4541000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:33.410Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Death Of A Vlogger",
   "tmdb_id": 614196
 }

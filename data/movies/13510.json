@@ -3,57 +3,27 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": [
-        "KT",
-        "0",
-        "FK",
-        "AT",
-        "AF",
-        "HR",
-        "A",
-        "LTL",
-        "XT"
-      ],
       "description": "A dog bark startles Jenny as she sunbathes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 20284,
       "resolved_time_ms": 738000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "STF",
-        "STP",
-        "MSNK",
-        "ARNT"
-      ],
       "description": "As a joke Steve scares Jenny in the tent.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 10667,
       "resolved_time_ms": 1218000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AF",
-        "AFRN",
-        "ST",
-        "0T",
-        "AR",
-        "ALT",
-        "A",
-        "P"
-      ],
       "description": "A car horn blares during a suspenseful scene.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 55687,
       "resolved_time_ms": 1465000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:46.498Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Eden Lake",
   "tmdb_id": 13510
 }

@@ -41,10 +41,10 @@ object DataModule {
                 "`runtimeMinutes` INTEGER NOT NULL, " +
                 "`scareCount` INTEGER NOT NULL, " +
                 "`posterPath` TEXT, " +
-                "`hasSubtitles` INTEGER NOT NULL, " +
+                "`hasAcousticSync` INTEGER NOT NULL, " +
                 "`lastSyncedAt` INTEGER, " +
                 "`tags` TEXT NOT NULL, " +
-                "`syncType` TEXT NOT NULL DEFAULT 'subtitles', " +
+                "`syncType` TEXT NOT NULL DEFAULT 'audio_hash', " +
                 "PRIMARY KEY(`tmdbId`)" +
             ")"
         )
@@ -73,6 +73,10 @@ object DataModule {
         }
     }
 
+    private val MIGRATION_5_6 = object : Migration(5, 6) {
+        override fun migrate(db: SupportSQLiteDatabase) = resetCatalogTables(db)
+    }
+
     @Provides
     @Singleton
     fun provideCatalogDatabase(
@@ -82,7 +86,7 @@ object DataModule {
         CatalogDatabase::class.java,
         CatalogDatabase.DATABASE_NAME
     )
-        .addMigrations(MIGRATION_1_4, MIGRATION_2_4, MIGRATION_3_4, MIGRATION_4_5)
+        .addMigrations(MIGRATION_1_4, MIGRATION_2_4, MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6)
         .fallbackToDestructiveMigration()
         .fallbackToDestructiveMigrationOnDowngrade()
         .build()

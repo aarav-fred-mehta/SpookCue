@@ -3,65 +3,33 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": [
-        "A",
-        "ANT",
-        "T",
-        "TLK",
-        "APT",
-        "AT",
-        "RT",
-        "HR",
-        "A",
-        "TNNT",
-        "ANT",
-        "T",
-        "K",
-        "ANST",
-        "A0",
-        "A"
-      ],
       "description": "A boy bangs on the car window, startling Carrie.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 20947,
       "resolved_time_ms": 864000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "HF",
-        "AN",
-        "ANX",
-        "KM",
-        "AN"
-      ],
       "description": "A girl smashing into the window in front of Sue may startle some viewers.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 38613,
       "resolved_time_ms": 4553000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Carrie’s mother, who appears to be dead, suddenly gasps.",
+      "description": "Carrie\u2019s mother, who appears to be dead, suddenly gasps.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5385000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "(alternative ending)  As Sue lies on the surgical table after giving birth, a bloodied hand suddenly appears. [Video].",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5733000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:12.832Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Carrie",
   "tmdb_id": 133805
 }

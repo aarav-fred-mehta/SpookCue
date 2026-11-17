@@ -3,107 +3,45 @@
   "runtime_minutes": 113,
   "scares": [
     {
-      "anchor_phonetic": [
-        "T",
-        "ATMPTS",
-        "LFT",
-        "H",
-        "RL",
-        "TT",
-        "XNJ",
-        "0",
-        "KTS"
-      ],
       "description": "A loud alarm blares, startling the people in the elevator.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 1260,
       "resolved_time_ms": 1209000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTL",
-        "TK",
-        "APT",
-        "AN",
-        "HR",
-        "T",
-        "KT",
-        "T",
-        "AR",
-        "LFL"
-      ],
       "description": "As Kira turns to look away for a moment, Olga lunges forward and bangs her head against the window.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 52780,
       "resolved_time_ms": 2563000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0TTS",
-        "0",
-        "SSTM",
-        "LMT"
-      ],
       "description": "There is an explosion in the wall panel on the right.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 14170,
       "resolved_time_ms": 4529000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AT",
-        "APT",
-        "KRKRF",
-        "A",
-        "N",
-        "H",
-        "AS",
-        "KNSLNK",
-        "SM0NK",
-        "AMSNK",
-        "HR"
-      ],
       "description": "Petr suddenly fires his gun during the tense standoff.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 2900,
       "resolved_time_ms": 5175000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "AS",
-        "NKL",
-        "PRPPL",
-        "TT"
-      ],
       "description": "Some wiring crackles loudly behind Anna, startling her.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 3030,
       "resolved_time_ms": 5394000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "HH",
-        "NT",
-        "KMNK",
-        "A0",
-        "AS"
-      ],
       "description": "Sudden rockfall happens in the corridor.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 47880,
       "resolved_time_ms": 5812000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:13.936Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Superdeep",
   "tmdb_id": 579828
 }

@@ -3,69 +3,33 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": [
-        "ST",
-        "KLM",
-        "FTNK",
-        "SLFS",
-        "N0NK",
-        "LK",
-        "FR",
-        "AT"
-      ],
       "description": "There is an explosion from the wreckage of the aircraft.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 3861,
       "resolved_time_ms": 2529000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "0NK",
-        "SMPTS",
-        "KMNK",
-        "HL"
-      ],
-      "description": "A spear pierces through Kara’s neck.",
+      "description": "A spear pierces through Kara\u2019s neck.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 3,
       "resolved_time_ms": 2590000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "One of the tribesmen grabs Justine around the leg.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5436000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "TT",
-        "A",
-        "AFR",
-        "S",
-        "AN0NK",
-        "AF",
-        "0T",
-        "SRT",
-        "AN",
-        "A",
-        "AR",
-        "0R"
-      ],
       "description": "Justine has a dream where she bites Alejandro on the neck after he returns from the jungle.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 7478,
       "resolved_time_ms": 5704000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:22.623Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Green Inferno",
   "tmdb_id": 171424
 }

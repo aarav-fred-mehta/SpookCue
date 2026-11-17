@@ -3,11 +3,11 @@ package dev.spookcue.data.repository
 import dev.spookcue.data.local.AssetLoader
 import dev.spookcue.data.local.MovieDao
 import dev.spookcue.data.local.MovieEntity
+import dev.spookcue.data.model.AudioHashEntry
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.model.MovieSyncData
-import dev.spookcue.data.model.PhoneticEntry
 import dev.spookcue.data.remote.CdnClient
 import dev.spookcue.data.remote.VersionInfo
 import kotlinx.coroutines.Dispatchers
@@ -50,8 +50,8 @@ class MovieRepositoryTest {
             runtimeMinutes = 112,
             scareCount = 12,
             posterPath = "/conjuring.jpg",
-            hasSubtitles = true,
-            syncType = "subtitles"
+            hasAcousticSync = true,
+            syncType = "audio_hash"
         ),
         MovieCatalogItem(
             tmdbId = 58138,
@@ -60,8 +60,8 @@ class MovieRepositoryTest {
             runtimeMinutes = 103,
             scareCount = 14,
             posterPath = "/insidious.jpg",
-            hasSubtitles = true,
-            syncType = "subtitles"
+            hasAcousticSync = true,
+            syncType = "audio_hash"
         )
     )
 
@@ -70,7 +70,7 @@ class MovieRepositoryTest {
         title = "The Conjuring",
         releaseYear = 2013,
         runtimeMinutes = 112,
-        syncType = "subtitles",
+        syncType = "audio_hash",
         scares = listOf(
             JumpScare(
                 id = "scare_01",
@@ -83,9 +83,9 @@ class MovieRepositoryTest {
 
     private val testConjuringSyncData = MovieSyncData(
         tmdbId = 138843,
-        type = "subtitles",
-        phoneticIndex = listOf(
-            PhoneticEntry(startMs = 1240800L, phonetics = listOf("KL", "P"))
+        type = "audio_hash",
+        audioHashes = listOf(
+            AudioHashEntry(h = 1001, t = 1240800L)
         )
     )
 
@@ -175,8 +175,8 @@ class MovieRepositoryTest {
         val syncData = result.getOrNull()
         assertNotNull(syncData)
         assertEquals(138843, syncData?.tmdbId)
-        assertEquals("subtitles", syncData?.type)
-        assertEquals(1, syncData?.phoneticIndex?.size)
+        assertEquals("audio_hash", syncData?.type)
+        assertEquals(1, syncData?.audioHashes?.size)
     }
 
     @Test
@@ -201,14 +201,14 @@ class MovieRepositoryTest {
         val syncDir = File(tempFolder.root, "sync").apply { mkdirs() }
         val cachedSync = MovieSyncData(
             tmdbId = 777,
-            type = "subtitles",
-            phoneticIndex = emptyList()
+            type = "audio_hash",
+            audioHashes = emptyList()
         )
         File(syncDir, "777.json").writeText(json.encodeToString(MovieSyncData.serializer(), cachedSync))
 
         val result = repository.getMovieSyncData(777)
         assertTrue(result.isSuccess)
-        assertEquals("subtitles", result.getOrNull()?.type)
+        assertEquals("audio_hash", result.getOrNull()?.type)
     }
 
     @Test
@@ -302,6 +302,15 @@ class MovieRepositoryTest {
             val index = current.indexOfFirst { it.tmdbId == tmdbId }
             if (index != -1) {
                 current[index] = current[index].copy(syncType = syncType)
+                moviesFlow.value = current
+            }
+        }
+
+        override suspend fun updateHasAcousticSync(tmdbId: Int, hasAcousticSync: Boolean) {
+            val current = moviesFlow.value.toMutableList()
+            val index = current.indexOfFirst { it.tmdbId == tmdbId }
+            if (index != -1) {
+                current[index] = current[index].copy(hasAcousticSync = hasAcousticSync)
                 moviesFlow.value = current
             }
         }

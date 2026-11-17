@@ -3,95 +3,50 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "During a dream, Tricia approaches her husband who has his back turned to her. He suddenly turns around and is shown to be missing his eyes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 783000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "KT",
-        "M",
-        "TSR",
-        "TSR",
-        "PK",
-        "MN"
-      ],
       "description": "Tricia suddenly has a vision of her husband as she closes the door.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 4601,
       "resolved_time_ms": 1114000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "While lying in bed, Tricia has a vision of her husband kneeling over her.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1331000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "NT",
-        "A",
-        "T",
-        "SN",
-        "0",
-        "LST",
-        "LN",
-        "AF",
-        "0",
-        "PTXN"
-      ],
       "description": "Tricia sees her husband standing behind the lawyer.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 16827,
       "resolved_time_ms": 1640000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "While meditating, Tricia hallucinates that her husband is beside her whispering in her ear.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1815000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ATTS",
-        "AN",
-        "AN",
-        "AF",
-        "0",
-        "ALS",
-        "AN",
-        "0R"
-      ],
       "description": "There is a strange chirping noise in the room next to Daniel and Callie, seconds later a large insect like creature crawls past.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 22272,
       "resolved_time_ms": 3200000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "As Callie investigates the bathroom, something comes out from behind the shower curtain and the screen goes black.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3274000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The insectoid briefly appears out of the darkness before the screen goes black again.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4616000,
       "type": "minor"
     }

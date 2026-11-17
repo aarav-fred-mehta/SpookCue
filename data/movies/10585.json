@@ -3,91 +3,57 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "The chair moves, startling Maggie.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1285000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The phone rings.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1319000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "H",
-        "AAM",
-        "XK",
-        "AN",
-        "PL"
-      ],
-      "description": "Chucky’s head turns around suddenly and he talks to Karen.",
+      "description": "Chucky\u2019s head turns around suddenly and he talks to Karen.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 1024,
       "resolved_time_ms": 2619000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Chucky comes in to view holding a knife.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3368000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "XK",
-        "0",
-        "NR0",
-        "KRTR"
-      ],
       "description": "A bright light turns on, moments later Chucky jumps down onto Andy.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 10941,
       "resolved_time_ms": 3947000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Chucky appears at the doorway in front of Andy.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4253000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Chucky appears behind Andy with a baseball bat.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4288000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KL",
-        "HM",
-        "RP",
-        "HS",
-        "0RT",
-        "AT"
-      ],
-      "description": "Chucky’s headless body suddenly breaks through a ventilation duct and attacks Jack. [Video].",
+      "description": "Chucky\u2019s headless body suddenly breaks through a ventilation duct and attacks Jack. [Video].",
       "id": "scare_08",
-      "offset_from_anchor_ms": 899,
       "resolved_time_ms": 4879000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:17.553Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Child S Play",
   "tmdb_id": 10585
 }

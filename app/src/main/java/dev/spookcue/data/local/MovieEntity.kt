@@ -13,8 +13,8 @@ data class MovieEntity(
     val runtimeMinutes: Int,
     val scareCount: Int,
     val posterPath: String? = null,
-    val hasSubtitles: Boolean = true,
-    val syncType: String = "subtitles",
+    val hasAcousticSync: Boolean = false,
+    val syncType: String = "audio_hash",
     val lastSyncedAt: Long? = null,
     val tags: String = ""
 ) {
@@ -25,7 +25,7 @@ data class MovieEntity(
         runtimeMinutes = runtimeMinutes,
         scareCount = scareCount,
         posterPath = posterPath,
-        hasSubtitles = hasSubtitles,
+        hasAcousticSync = hasAcousticSync,
         syncType = syncType,
         lastSyncedAt = lastSyncedAt,
         tags = if (tags.isBlank()) emptyList() else tags.split(",").map { it.trim() }.filter { it.isNotEmpty() }
@@ -39,7 +39,7 @@ data class MovieEntity(
             runtimeMinutes = item.runtimeMinutes,
             scareCount = item.scareCount,
             posterPath = item.posterPath,
-            hasSubtitles = item.hasSubtitles,
+            hasAcousticSync = item.hasAcousticSync,
             syncType = item.syncType,
             lastSyncedAt = item.lastSyncedAt,
             tags = item.tags.joinToString(",")

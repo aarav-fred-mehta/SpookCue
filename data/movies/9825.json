@@ -3,189 +3,81 @@
   "runtime_minutes": 82,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A beaver swims past Walt.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 304000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "AT",
-        "ARS",
-        "A",
-        "H",
-        "A",
-        "A"
-      ],
       "description": "Walt suddenly surfaces in front of the boat.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 20544,
       "resolved_time_ms": 400000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0",
-        "ARNNT",
-        "FTNK",
-        "0R",
-        "SKRT"
-      ],
-      "description": "Kelly and Hank’s boat flips over.",
+      "description": "Kelly and Hank\u2019s boat flips over.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 1682,
       "resolved_time_ms": 1414000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Hank moves a branch to reveal Hector standing behind it.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1876000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "LST",
-        "TRK",
-        "AF",
-        "AT",
-        "PRK",
-        "PL",
-        "AP",
-        "0",
-        "SPKR"
-      ],
-      "description": "The crocodile jumps out of the water and bites off a man’s head.",
+      "description": "The crocodile jumps out of the water and bites off a man\u2019s head.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 10784,
       "resolved_time_ms": 2362000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PT",
-        "A",
-        "0NK",
-        "AT",
-        "ALT",
-        "P",
-        "PST"
-      ],
       "description": "Hank is pulled into the air by a trap.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 3925,
       "resolved_time_ms": 2534000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "FR",
-        "KRSTTS",
-        "SK",
-        "AAM",
-        "NT",
-        "MXNK",
-        "AT"
-      ],
       "description": "Kelly stands on a branch and a decomposing head flies out at her.",
       "id": "scare_07",
-      "offset_from_anchor_ms": 1426,
       "resolved_time_ms": 2995000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "JSS",
-        "AL",
-        "RT",
-        "JST",
-        "A",
-        "LTL",
-        "FR0R"
-      ],
       "description": "The crocodile jumps up and grabs the helicopter.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 21544,
       "resolved_time_ms": 3385000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KN",
-        "A",
-        "S",
-        "AN0NK",
-        "FRM",
-        "AT",
-        "0R"
-      ],
       "description": "The crocodile surfaces beside the helicopter.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 5396,
       "resolved_time_ms": 4023000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "0NK",
-        "A",
-        "S",
-        "HM",
-        "A",
-        "0NK",
-        "A",
-        "S",
-        "HS",
-        "TL"
-      ],
       "description": "The crocodile appears in front of Hank.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 1026,
       "resolved_time_ms": 4066000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "N",
-        "A",
-        "KNNT",
-        "S",
-        "HM"
-      ],
       "description": "The crocodile surfaces once more beside the helicopter.",
       "id": "scare_11",
-      "offset_from_anchor_ms": 4413,
       "resolved_time_ms": 4202000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "JK",
-        "A",
-        "TNNT",
-        "HF",
-        "T",
-        "PLS"
-      ],
       "description": "The crocodile grabs Hector.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 15385,
       "resolved_time_ms": 4350000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:17.442Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Lake Placid",
   "tmdb_id": 9825
 }

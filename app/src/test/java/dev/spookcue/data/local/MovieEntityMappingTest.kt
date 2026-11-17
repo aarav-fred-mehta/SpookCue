@@ -17,7 +17,7 @@ class MovieEntityMappingTest {
             runtimeMinutes = 112,
             scareCount = 12,
             posterPath = "/conjuring.jpg",
-            hasSubtitles = true,
+            hasAcousticSync = true,
             lastSyncedAt = 1700000000000L
         )
 
@@ -29,7 +29,7 @@ class MovieEntityMappingTest {
         assertEquals(112, entity.runtimeMinutes)
         assertEquals(12, entity.scareCount)
         assertEquals("/conjuring.jpg", entity.posterPath)
-        assertTrue(entity.hasSubtitles)
+        assertTrue(entity.hasAcousticSync)
         assertEquals(1700000000000L, entity.lastSyncedAt)
     }
 
@@ -42,7 +42,7 @@ class MovieEntityMappingTest {
             runtimeMinutes = 103,
             scareCount = 14,
             posterPath = null,
-            hasSubtitles = false,
+            hasAcousticSync = false,
             lastSyncedAt = null
         )
 
@@ -54,7 +54,7 @@ class MovieEntityMappingTest {
         assertEquals(103, domain.runtimeMinutes)
         assertEquals(14, domain.scareCount)
         assertNull(domain.posterPath)
-        assertEquals(false, domain.hasSubtitles)
+        assertEquals(false, domain.hasAcousticSync)
         assertNull(domain.lastSyncedAt)
     }
 
@@ -67,7 +67,7 @@ class MovieEntityMappingTest {
             runtimeMinutes = 110,
             scareCount = 11,
             posterPath = "/sinister.jpg",
-            hasSubtitles = true,
+            hasAcousticSync = true,
             lastSyncedAt = 1712345678900L
         )
 

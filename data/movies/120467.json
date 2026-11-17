@@ -3,26 +3,15 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": [
-        "TSTR",
-        "0S",
-        "MSJ",
-        "AL",
-        "M",
-        "LF",
-        "FL",
-        "STP"
-      ],
       "description": "A decapitated head is pulled out of a wicker basket accompanied by a loud sound effect",
       "id": "scare_01",
-      "offset_from_anchor_ms": 4463,
       "resolved_time_ms": 4327000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2026-04-24T01:44:34.576Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Grand Budapest Hotel",
   "tmdb_id": 120467
 }

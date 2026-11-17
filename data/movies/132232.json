@@ -3,163 +3,87 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": [
-        "M",
-        "KLSS",
-        "AR",
-        "PRKN"
-      ],
       "description": "A silhouette runs past the camera.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 37276,
       "resolved_time_ms": 295000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "N",
-        "TT",
-        "LFS",
-        "A",
-        "RT"
-      ],
       "description": "The father is grabbed by something behind him.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 38084,
       "resolved_time_ms": 488000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A small child runs around the corner.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1001000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0TTS",
-        "A",
-        "TFRNT",
-        "STR"
-      ],
       "description": "One of the girls jumps into sight from behind the window.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 13351,
       "resolved_time_ms": 1097000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Isabelle jumps from behind the bench onto the bench while the lights are flickering.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1975000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "TNNT",
-        "N",
-        "AF",
-        "A",
-        "KN",
-        "T",
-        "0S",
-        "LK"
-      ],
       "description": "A dark shadow is seen by Annabel in the mirror.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 27047,
       "resolved_time_ms": 2015000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Lucas looks into a hole in the wall where a dark object launches out.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2137000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Mama appears behind Annabel. [Video].",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2936000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "AL",
-        "KM",
-        "PK",
-        "FRM",
-        "KLFTN",
-        "FRJ",
-        "A0",
-        "AN",
-        "ANSR"
-      ],
       "description": "While Annabel is sleeping, a hand stretches across her face.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 45124,
       "resolved_time_ms": 3558000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Mama appears in the closet when Annabel isn’t looking.",
+      "description": "Mama appears in the closet when Annabel isn\u2019t looking.",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4147000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Victoria tells Lilly not to look at mama, then mama flies towards Lilly when she looks back at her. [Video].",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4818000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "A",
-        "ANPL",
-        "ATTS",
-        "LL"
-      ],
-      "description": "Mama appears on the ceiling in the girl’s room.",
+      "description": "Mama appears on the ceiling in the girl\u2019s room.",
       "id": "scare_12",
-      "offset_from_anchor_ms": 14590,
       "resolved_time_ms": 4863000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AR",
-        "A",
-        "ANPL",
-        "ATTS",
-        "LL"
-      ],
       "description": "Mama jumps out from a room in the hallway.",
       "id": "scare_13",
-      "offset_from_anchor_ms": 30590,
       "resolved_time_ms": 4879000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:25.608Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Mama",
   "tmdb_id": 132232
 }

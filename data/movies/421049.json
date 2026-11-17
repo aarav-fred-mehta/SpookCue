@@ -3,111 +3,51 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "anchor_phonetic": [
-        "AT",
-        "TT",
-        "A",
-        "T",
-        "AT",
-        "TT",
-        "A",
-        "T"
-      ],
       "description": "A bird startles the man.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 35801,
       "resolved_time_ms": 192000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A figure runs across the screen.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 997000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SMN",
-        "AS",
-        "AN",
-        "0R",
-        "A",
-        "A"
-      ],
       "description": "A knock is heard on the window.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 14128,
       "resolved_time_ms": 1886000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "SM",
-        "FLKS",
-        "JST",
-        "ARNNT",
-        "HP",
-        "H",
-        "0S",
-        "NPRT",
-        "AS",
-        "XNJNK"
-      ],
       "description": "A bug crawls across the stuffed toy.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 1565,
       "resolved_time_ms": 2145000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "PT",
-        "A",
-        "RL",
-        "KNNT",
-        "AFRT",
-        "0T",
-        "RT",
-        "N"
-      ],
       "description": "The man if pulled off screen.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 596,
       "resolved_time_ms": 2572000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "S",
-        "A",
-        "HP",
-        "A",
-        "S",
-        "A",
-        "ATTS",
-        "TMR",
-        "AT"
-      ],
       "description": "The watcher opens his mouth wide and screams.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 889,
       "resolved_time_ms": 4490000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
       "description": "The watcher grabs the Mina.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 5395000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-22T08:30:25.788Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "The Watcher",
   "tmdb_id": 421049
 }

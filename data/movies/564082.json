@@ -3,67 +3,39 @@
   "runtime_minutes": 83,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A dog jumps at the car window and barks.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 136000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Jack jumps at Bess to scare her.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 2050000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "0S",
-        "KS",
-        "RL",
-        "MS",
-        "A"
-      ],
       "description": "Amber suddenly slips into the hole and screams.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 10992,
       "resolved_time_ms": 2283000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "AN",
-        "A",
-        "LST",
-        "AKSPKT",
-        "AT"
-      ],
-      "description": "A tree branch suddenly flies through the window and breaks it after Jack says “That’s why I come on when you least expect it.”",
+      "description": "A tree branch suddenly flies through the window and breaks it after Jack says \u201cThat\u2019s why I come on when you least expect it.\u201d",
       "id": "scare_04",
-      "offset_from_anchor_ms": 3286,
       "resolved_time_ms": 2546000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "0NK",
-        "0RS",
-        "SM0NK",
-        "AN"
-      ],
-      "description": "After Paul says “I think there’s something in here” an animal jumps at him.",
+      "description": "After Paul says \u201cI think there\u2019s something in here\u201d an animal jumps at him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 483,
       "resolved_time_ms": 3304000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:33.233Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "30 Miles From Nowhere",
   "tmdb_id": 564082
 }

@@ -1,4 +1,4 @@
-"""Orchestrator for the SpookCue data scraping and indexing pipeline."""
+"""Orchestrator for the SpookCue data scraping and metadata pipeline."""
 
 from __future__ import annotations
 
@@ -29,10 +29,6 @@ except ImportError:
         return json.loads(data.decode("utf-8"))
 
 
-from spookcue_scraper.phonetics import build_phonetic_index, verify_compression
-from spookcue_scraper.resolver import resolve_scares_to_anchors
-from spookcue_scraper.sanitizer import sanitize_subtitles
-from spookcue_scraper.subtitles import SubtitleFetcher
 from spookcue_scraper.tmdb import TmdbClient
 from spookcue_scraper.whenjumpscare import WhenJumpScareScraper
 
@@ -41,7 +37,6 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 )
 logger = logging.getLogger("spookcue_scraper")
-# Suppress low-level HTTP transport noise (avoids confusing HTTP 200 OK with data found)
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
 
@@ -51,7 +46,7 @@ RE_TMDB_TRAIL = re.compile(r"-(\d{5,8})$")
 
 
 def extract_tmdb_id_from_slug(slug_or_url: str) -> Optional[int]:
-    """Extract numeric TMDB ID from slug or URL if embedded (Phase 1.1.3)."""
+    """Extract numeric TMDB ID from slug or URL if embedded."""
     if not slug_or_url:
         return None
 
@@ -99,10 +94,10 @@ async def process_movie(
     item: Dict[str, Any],
     scraper: WhenJumpScareScraper,
     tmdb_client: TmdbClient,
-    subtitles_fetcher: SubtitleFetcher,
     known_tmdb_ids: Dict[str, int],
+    sync_dir: Path,
 ) -> Optional[Dict[str, Any]]:
-    """Scrape jump scares, fetch TMDB metadata & subtitles, sanitize dialogue, and index."""
+    """Scrape jump scares, fetch TMDB metadata, and produce movie metadata document."""
     title = item.get("title", "").strip()
     year = item.get("year")
     slug = item.get("slug", "")
@@ -114,7 +109,7 @@ async def process_movie(
     lookup_key = f"{title.lower()}::{year}"
     tmdb_id = item.get("tmdb_id") or known_tmdb_ids.get(lookup_key)
 
-    # 2. Extract TMDB ID from slug or URL if embedded (Phase 1.1.3 primary path)
+    # 2. Extract TMDB ID from slug or URL if embedded
     if tmdb_id is None:
         tmdb_id = extract_tmdb_id_from_slug(slug) or extract_tmdb_id_from_slug(item.get("url", ""))
 
@@ -134,11 +129,10 @@ async def process_movie(
     raw_scares = movie_page_data.get("scares", [])
     runtime = movie_page_data.get("runtime_minutes") or 0
 
-    # 2. Get TMDB details (poster, confirmed runtime, release date, imdb_id)
+    # Get TMDB details (poster, confirmed runtime, release date)
     tmdb_details = await tmdb_client.get_movie_details(tmdb_id)
     poster_path = tmdb_details.get("poster_path") or ""
     confirmed_runtime = tmdb_details.get("runtime") or runtime or 0
-    imdb_id = tmdb_details.get("imdb_id")
     if year is None and tmdb_details.get("release_date"):
         try:
             y_str = str(tmdb_details["release_date"]).split("-")[0]
@@ -147,47 +141,37 @@ async def process_movie(
         except Exception:
             pass
 
-    # 3. Fetch subtitles
-    srt_content = await subtitles_fetcher.fetch_subtitles(
-        tmdb_id,
-        title=title,
-        year=year,
-        imdb_id=imdb_id,
-    )
-    has_subtitles = srt_content is not None and len(srt_content.strip()) > 0
-
-    phonetic_index: List[Dict[str, Any]] = []
-    resolved_scares: List[Dict[str, Any]] = []
-
-    if has_subtitles and srt_content:
-        # 4. Sanitize subtitles and build phonetic index
-        sanitized_dialogue = sanitize_subtitles(srt_content)
-        phonetic_index = build_phonetic_index(sanitized_dialogue)
-        # 5. Resolve scare anchors
-        resolved_scares = resolve_scares_to_anchors(raw_scares, phonetic_index)
-    else:
-        # Clock-only mode: resolve with no anchors
-        resolved_scares = resolve_scares_to_anchors(raw_scares, [])
+    clean_scares = []
+    for idx, s in enumerate(raw_scares, start=1):
+        clean_scares.append({
+            "id": s.get("id") or f"scare_{idx:02d}",
+            "resolved_time_ms": s.get("resolved_time_ms") or s.get("time_ms", 0),
+            "type": s.get("type", "minor"),
+            "description": s.get("description", ""),
+        })
 
     movie_doc = {
         "tmdb_id": tmdb_id,
         "title": title,
         "release_year": year,
         "runtime_minutes": confirmed_runtime,
-        "scares": resolved_scares,
-        "phonetic_index": phonetic_index,
+        "sync_type": "audio_hash",
+        "scares": clean_scares,
         "source": item.get("source", "whenjumpscare" if "whenjumpscare.com" in item.get("url", "") else "wheresthejump"),
         "source_lastmod": item.get("lastmod"),
     }
+
+    has_acoustic_sync = (sync_dir / f"{tmdb_id}.json").exists()
 
     catalog_entry = {
         "tmdb_id": tmdb_id,
         "title": title,
         "release_year": year or 0,
         "runtime_minutes": confirmed_runtime,
-        "scare_count": len(resolved_scares),
+        "scare_count": len(clean_scares),
         "poster_path": poster_path,
-        "has_subtitles": has_subtitles,
+        "has_acoustic_sync": has_acoustic_sync,
+        "sync_type": "audio_hash",
     }
 
     return {
@@ -202,7 +186,7 @@ async def run_pipeline(
     force: bool = False,
     delay_seconds: float = 2.0,
 ) -> Dict[str, Any]:
-    """Execute the full data pipeline."""
+    """Execute the full metadata pipeline."""
     movies_dir = data_dir / "movies"
     movies_dir.mkdir(parents=True, exist_ok=True)
     sync_dir = data_dir / "sync"
@@ -223,7 +207,7 @@ async def run_pipeline(
         for item in existing_catalog if "title" in item and "tmdb_id" in item
     }
 
-    # Ensure any movie files on disk are indexed even if catalog was deleted or partial
+    # Ensure any movie files on disk are indexed
     if movies_dir.exists():
         for mf in movies_dir.glob("*.json"):
             try:
@@ -237,7 +221,8 @@ async def run_pipeline(
                         "runtime_minutes": doc.get("runtime_minutes", 0),
                         "scare_count": len(doc.get("scares", [])),
                         "poster_path": doc.get("poster_path", ""),
-                        "has_subtitles": len(doc.get("phonetic_index", [])) > 0,
+                        "has_acoustic_sync": (sync_dir / f"{tid}.json").exists(),
+                        "sync_type": "audio_hash",
                     }
                 if tid and doc.get("title"):
                     known_tmdb_ids.setdefault(f"{doc['title'].lower()}::{doc.get('release_year')}", tid)
@@ -246,20 +231,12 @@ async def run_pipeline(
 
     scraper = WhenJumpScareScraper(delay_seconds=delay_seconds)
     tmdb_client = TmdbClient()
-    subtitles_fetcher = SubtitleFetcher()
-
-    if not subtitles_fetcher.has_keys:
-        logger.warning(
-            "No subtitle API keys configured (SUBDL_API_KEY or OPENSUBTITLES_API_KEY). "
-            "Automated subtitle fetching will be skipped. Movies without subtitles will remain in clock-only sync mode."
-        )
 
     try:
-        # Fetch movie index
         movie_items = await scraper.fetch_movie_index()
         if not movie_items:
             if catalog_by_id:
-                logger.warning("No movies found from index; falling back to existing catalog for subtitle checks")
+                logger.warning("No movies found from index; using existing catalog")
                 movie_items = [
                     {
                         "title": m["title"],
@@ -294,7 +271,6 @@ async def run_pipeline(
             item_source = item.get("source", "whenjumpscare" if "whenjumpscare.com" in item_url else "wheresthejump")
             lookup_key = f"{title.lower()}::{year}"
 
-            # 1. Authoritative TMDB ID from WhenJumpScare slug/sitemap vs legacy TMDB ID
             sitemap_tmdb_id = (
                 item.get("tmdb_id")
                 or extract_tmdb_id_from_slug(slug)
@@ -302,7 +278,6 @@ async def run_pipeline(
             )
             legacy_tmdb_id = known_tmdb_ids.get(lookup_key)
 
-            # Reconcile ID if an old file exists under legacy ID but WhenJumpScare gave canonical ID:
             if sitemap_tmdb_id and legacy_tmdb_id and sitemap_tmdb_id != legacy_tmdb_id:
                 old_file = movies_dir / f"{legacy_tmdb_id}.json"
                 new_file = movies_dir / f"{sitemap_tmdb_id}.json"
@@ -311,7 +286,8 @@ async def run_pipeline(
                     try:
                         old_doc = load_json_bytes(old_file.read_bytes())
                         old_doc["tmdb_id"] = sitemap_tmdb_id
-                        legacy_phonetic = old_doc.pop("phonetic_index", None)
+                        old_doc["sync_type"] = "audio_hash"
+                        old_doc.pop("phonetic_index", None)
                         new_file.write_bytes(dump_json_bytes(old_doc))
                         old_file.unlink(missing_ok=True)
 
@@ -322,12 +298,6 @@ async def run_pipeline(
                             old_sync_doc["tmdb_id"] = sitemap_tmdb_id
                             new_sync.write_bytes(dump_json_bytes(old_sync_doc))
                             old_sync.unlink(missing_ok=True)
-                        elif legacy_phonetic and not new_sync.exists():
-                            new_sync.write_bytes(dump_json_bytes({
-                                "tmdb_id": sitemap_tmdb_id,
-                                "type": "subtitles",
-                                "phonetic_index": legacy_phonetic
-                            }))
 
                         if legacy_tmdb_id in catalog_by_id:
                             old_cat = catalog_by_id.pop(legacy_tmdb_id)
@@ -341,7 +311,7 @@ async def run_pipeline(
             existing_tmdb_id = sitemap_tmdb_id or legacy_tmdb_id
             movie_file: Optional[Path] = movies_dir / f"{existing_tmdb_id}.json" if existing_tmdb_id else None
 
-            # 2. Check if movie already exists on disk
+            # Check if movie already exists on disk
             if movie_file and movie_file.exists() and not force:
                 cat_entry = catalog_by_id.get(existing_tmdb_id, {})
                 try:
@@ -354,29 +324,7 @@ async def run_pipeline(
                     existing_source = movie_doc.get("source")
                     existing_lastmod = movie_doc.get("source_lastmod")
                     existing_scares = movie_doc.get("scares", [])
-                    sync_file = sync_dir / f"{existing_tmdb_id}.json"
-                    existing_phonetic = []
-                    has_audio_hash = False
-                    if sync_file.exists():
-                        try:
-                            sync_data = load_json_bytes(sync_file.read_bytes())
-                            existing_phonetic = sync_data.get("phonetic_index", [])
-                            has_audio_hash = (
-                                sync_data.get("type") == "audio_hash"
-                                and len(sync_data.get("audio_hashes", [])) > 0
-                            )
-                        except Exception:
-                            pass
-                    elif "phonetic_index" in movie_doc:
-                        existing_phonetic = movie_doc.get("phonetic_index", [])
 
-                    has_subs = len(existing_phonetic) > 0
-                    is_synced = has_subs or has_audio_hash
-
-                    # Does this movie need jumpscare verification/reconciliation?
-                    # 1. Scraped originally from WTJ (existing_source != "whenjumpscare" while WhenJumpScare is now live)
-                    # 2. Or WhenJumpScare lastmod is newer/different from existing recorded lastmod
-                    # 3. Or existing file had 0 scares while sitemap/index indicates scares exist
                     needs_scare_verification = (
                         (item_source == "whenjumpscare" and existing_source != "whenjumpscare")
                         or (item_lastmod is not None and item_lastmod != existing_lastmod)
@@ -385,7 +333,7 @@ async def run_pipeline(
 
                     if needs_scare_verification:
                         logger.info(
-                            "Verifying & reconciling jump scares from %s for '%s' (%s, TMDB %d)...",
+                            "Verifying jump scares from %s for '%s' (%s, TMDB %d)...",
                             item_source,
                             title,
                             year,
@@ -396,119 +344,49 @@ async def run_pipeline(
                         fresh_runtime = fresh_page.get("runtime_minutes") or movie_doc.get("runtime_minutes", 0)
 
                         if fresh_scares:
-                            # Retain correct data: Keep existing subtitles & phonetic index!
-                            # Re-anchor fresh scares to the existing phonetic index:
-                            resolved_scares = resolve_scares_to_anchors(fresh_scares, existing_phonetic)
+                            clean_fresh_scares = []
+                            for idx, s in enumerate(fresh_scares, start=1):
+                                clean_fresh_scares.append({
+                                    "id": s.get("id") or f"scare_{idx:02d}",
+                                    "resolved_time_ms": s.get("resolved_time_ms") or s.get("time_ms", 0),
+                                    "type": s.get("type", "minor"),
+                                    "description": s.get("description", ""),
+                                })
 
-                            # Compare to see if scare timings, counts, or types changed:
                             scares_changed = (
-                                len(resolved_scares) != len(existing_scares)
+                                len(clean_fresh_scares) != len(existing_scares)
                                 or any(
                                     s1.get("resolved_time_ms") != s2.get("resolved_time_ms")
                                     or s1.get("type") != s2.get("type")
-                                    for s1, s2 in zip(resolved_scares, existing_scares)
+                                    for s1, s2 in zip(clean_fresh_scares, existing_scares)
                                 )
                             )
 
-                            movie_doc["scares"] = resolved_scares
+                            movie_doc["scares"] = clean_fresh_scares
                             movie_doc["runtime_minutes"] = fresh_runtime
                             movie_doc["source"] = item_source
                             movie_doc["source_lastmod"] = item_lastmod
+                            movie_doc["sync_type"] = "audio_hash"
                             movie_doc.pop("phonetic_index", None)
 
-                            cat_entry["scare_count"] = len(resolved_scares)
+                            cat_entry["scare_count"] = len(clean_fresh_scares)
+                            cat_entry["has_acoustic_sync"] = (sync_dir / f"{existing_tmdb_id}.json").exists()
+                            cat_entry["sync_type"] = "audio_hash"
                             if fresh_runtime:
                                 cat_entry["runtime_minutes"] = fresh_runtime
 
                             if scares_changed:
-                                logger.info(
-                                    "Jump scare update for '%s' (TMDB %d): %d -> %d scares (timings reconciled)",
-                                    title,
-                                    existing_tmdb_id,
-                                    len(existing_scares),
-                                    len(resolved_scares),
-                                )
                                 updated_count += 1
-                            else:
-                                logger.debug(
-                                    "Jump scares verified for '%s' (TMDB %d); verified intact",
-                                    title,
-                                    existing_tmdb_id,
-                                )
 
                             movie_file.write_bytes(dump_json_bytes(movie_doc))
-                            if existing_phonetic and not sync_file.exists():
-                                sync_file.write_bytes(dump_json_bytes({
-                                    "tmdb_id": existing_tmdb_id,
-                                    "type": "subtitles",
-                                    "phonetic_index": existing_phonetic,
-                                }))
                             catalog_by_id[existing_tmdb_id] = cat_entry
                         else:
-                            # Fresh page had no scares; mark verified to avoid repeating requests
                             movie_doc["source"] = item_source
                             movie_doc["source_lastmod"] = item_lastmod
+                            movie_doc["sync_type"] = "audio_hash"
                             movie_doc.pop("phonetic_index", None)
                             movie_file.write_bytes(dump_json_bytes(movie_doc))
 
-                    # 3. Subtitle Fetch (if missing and quota not exhausted)
-                    if not is_synced and not subtitles_fetcher.is_exhausted:
-                        logger.info(
-                            "Movie '%s' (%s, TMDB %d) lacks subtitles; attempting subtitle fetch...",
-                            title,
-                            year,
-                            existing_tmdb_id,
-                        )
-                        tmdb_details = await tmdb_client.get_movie_details(existing_tmdb_id)
-                        imdb_id = tmdb_details.get("imdb_id")
-                        srt_content = await subtitles_fetcher.fetch_subtitles(
-                            existing_tmdb_id,
-                            title=title,
-                            year=year,
-                            imdb_id=imdb_id,
-                        )
-                        if srt_content and len(srt_content.strip()) > 0:
-                            sanitized_dialogue = sanitize_subtitles(srt_content)
-                            phonetic_index = build_phonetic_index(sanitized_dialogue)
-                            resolved_scares = resolve_scares_to_anchors(movie_doc.get("scares", []), phonetic_index)
-
-                            movie_doc["scares"] = resolved_scares
-                            movie_doc["sync_type"] = "subtitles"
-                            movie_doc.pop("phonetic_index", None)
-                            movie_file.write_bytes(dump_json_bytes(movie_doc))
-                            sync_doc = {
-                                "tmdb_id": existing_tmdb_id,
-                                "type": "subtitles",
-                                "phonetic_index": phonetic_index
-                            }
-                            sync_file = sync_dir / f"{existing_tmdb_id}.json"
-                            sync_file.write_bytes(dump_json_bytes(sync_doc))
-                            verify_compression(movie_doc)
-
-                            cat_entry["has_subtitles"] = True
-                            catalog_by_id[existing_tmdb_id] = cat_entry
-                            updated_count += 1
-                            logger.info(
-                                "Successfully attached %d subtitle anchors to '%s' (TMDB %d)",
-                                len(phonetic_index),
-                                title,
-                                existing_tmdb_id,
-                            )
-                        else:
-                            if subtitles_fetcher.is_exhausted:
-                                logger.info(
-                                    "Subtitle download quota reached (50/day); '%s' (TMDB %d) will be retried on next run",
-                                    title,
-                                    existing_tmdb_id,
-                                )
-                            else:
-                                logger.info(
-                                    "Subtitles still unavailable for '%s' (TMDB %d); retaining clock-only mode",
-                                    title,
-                                    existing_tmdb_id,
-                                )
-
-                    # Move to next movie
                     continue
 
             logger.info("Processing movie '%s' (%s)...", title, year)
@@ -516,8 +394,8 @@ async def run_pipeline(
                 item=item,
                 scraper=scraper,
                 tmdb_client=tmdb_client,
-                subtitles_fetcher=subtitles_fetcher,
                 known_tmdb_ids=known_tmdb_ids,
+                sync_dir=sync_dir,
             )
 
             if not result:
@@ -527,23 +405,11 @@ async def run_pipeline(
             catalog_entry = result["catalog_entry"]
             tmdb_id = movie_doc["tmdb_id"]
 
-            # Save decoupled movie and sync JSONs
             out_file = movies_dir / f"{tmdb_id}.json"
             is_new = not out_file.exists()
-            phonetic_idx = movie_doc.pop("phonetic_index", [])
-            movie_doc["sync_type"] = "subtitles"
+            movie_doc.pop("phonetic_index", None)
+            movie_doc["sync_type"] = "audio_hash"
             out_file.write_bytes(dump_json_bytes(movie_doc))
-
-            sync_file = sync_dir / f"{tmdb_id}.json"
-            sync_doc = {
-                "tmdb_id": tmdb_id,
-                "type": "subtitles",
-                "phonetic_index": phonetic_idx
-            }
-            sync_file.write_bytes(dump_json_bytes(sync_doc))
-
-            # Phase 1.5.3: Verify per-movie JSON compression (~2.8 KB gzipped)
-            verify_compression(movie_doc)
 
             catalog_by_id[tmdb_id] = catalog_entry
             known_tmdb_ids[lookup_key] = tmdb_id
@@ -568,10 +434,12 @@ async def run_pipeline(
                 if (tid in popular_ids) or (scares >= 12):
                     entry_tags.append("HOT")
                 entry["tags"] = entry_tags
+                entry["has_acoustic_sync"] = (sync_dir / f"{tid}.json").exists()
+                entry["sync_type"] = "audio_hash"
         except Exception as exc:
             logger.debug("Dynamic tagging fallback: %s", exc)
 
-        # Only update catalog and version if changes occurred or catalog was missing
+        # Update catalog and version
         if added_count > 0 or updated_count > 0 or not catalog_path.exists():
             sorted_catalog = sorted(catalog_by_id.values(), key=lambda m: (m.get("title", "").lower()))
             catalog_path.write_bytes(dump_json_bytes(sorted_catalog))
@@ -616,12 +484,11 @@ async def run_pipeline(
     finally:
         await scraper.close()
         await tmdb_client.close()
-        await subtitles_fetcher.close()
 
 
 def main() -> int:
     """CLI entrypoint."""
-    parser = argparse.ArgumentParser(description="SpookCue Jump Scare Scraper and Phonetic Indexer")
+    parser = argparse.ArgumentParser(description="SpookCue Jump Scare Scraper and Metadata Pipeline")
     parser.add_argument("--data-dir", type=Path, default=Path("data"), help="Target data directory")
     parser.add_argument("--limit", type=int, default=None, help="Limit number of movies to scrape")
     parser.add_argument("--force", action="store_true", help="Force re-scrape existing movies")

@@ -3,175 +3,75 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": [
-        "M",
-        "KT",
-        "0RS",
-        "SM0NK",
-        "0R",
-        "0R",
-        "AS",
-        "SM0NK",
-        "RT",
-        "0R"
-      ],
       "description": "A shark fin suddenly appears in the water next to the couple.",
       "id": "scare_01",
-      "offset_from_anchor_ms": 1084,
       "resolved_time_ms": 164000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KM",
-        "AN",
-        "PP",
-        "LK",
-        "HR",
-        "AP"
-      ],
-      "description": "The yacht’s boom hits the girl in the face, knocking her unconscious into the water.",
+      "description": "The yacht\u2019s boom hits the girl in the face, knocking her unconscious into the water.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 36334,
       "resolved_time_ms": 231000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "Benny suddenly turns around to see a severely attacked dead body.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 1599000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "ST",
-        "AF",
-        "STL",
-        "KT",
-        "AFR",
-        "KS",
-        "T",
-        "K"
-      ],
       "description": "An animal bumps into the raft.",
       "id": "scare_04",
-      "offset_from_anchor_ms": 9084,
       "resolved_time_ms": 2476000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "ANT",
-        "AT",
-        "JST",
-        "SMT",
-        "T",
-        "KM",
-        "AT",
-        "AF",
-        "M",
-        "HNT",
-        "AAM",
-        "S",
-        "SR",
-        "AAM",
-        "S",
-        "SR"
-      ],
       "description": "Charlie has a flashback of a shark attack.",
       "id": "scare_05",
-      "offset_from_anchor_ms": 19375,
       "resolved_time_ms": 2959000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "KM",
-        "AN",
-        "ALMST",
-        "0R",
-        "JF",
-        "M",
-        "AR",
-        "HNT",
-        "KT",
-        "A"
-      ],
       "description": "Benny is pulled under the water.",
       "id": "scare_06",
-      "offset_from_anchor_ms": 12625,
       "resolved_time_ms": 3237000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "The shark suddenly rams the raft from underneath.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3645000,
       "type": "major"
     },
     {
-      "anchor_phonetic": [
-        "J",
-        "J",
-        "SM",
-        "SM",
-        "T",
-        "AS",
-        "N"
-      ],
       "description": "Joji is pushed up out of the water by the shark.",
       "id": "scare_08",
-      "offset_from_anchor_ms": 16875,
       "resolved_time_ms": 3706000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "J",
-        "ATTS",
-        "AR",
-        "KN",
-        "KT",
-        "A"
-      ],
       "description": "Joji is taken away quickly by the shark.",
       "id": "scare_09",
-      "offset_from_anchor_ms": 14084,
       "resolved_time_ms": 3791000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "FK",
-        "N",
-        "0R",
-        "HNTNK",
-        "AN",
-        "PKS"
-      ],
       "description": "A massive shark surfaces right next to the raft.",
       "id": "scare_10",
-      "offset_from_anchor_ms": 18875,
       "resolved_time_ms": 4113000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
-      "description": "Michelle suddenly grabs Kaz’s arm.",
+      "description": "Michelle suddenly grabs Kaz\u2019s arm.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 4895000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:16.993Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Great White",
   "tmdb_id": 534072
 }

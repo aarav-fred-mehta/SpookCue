@@ -3,58 +3,33 @@
   "runtime_minutes": 83,
   "scares": [
     {
-      "anchor_phonetic": null,
       "description": "A snowball hits the window.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 570000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "FKR",
-        "SFT",
-        "ANSTRKXNS",
-        "AT",
-        "0",
-        "FK"
-      ],
       "description": "A blast of air comes from the fireplace.",
       "id": "scare_02",
-      "offset_from_anchor_ms": 54523,
       "resolved_time_ms": 1784000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": [
-        "A",
-        "HF",
-        "AN",
-        "HR",
-        "T",
-        "M",
-        "FRST",
-        "SNT",
-        "STP"
-      ],
       "description": "The hand of the corpse moves.",
       "id": "scare_03",
-      "offset_from_anchor_ms": 55687,
       "resolved_time_ms": 2246000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
       "description": "A loud noise plays.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
       "resolved_time_ms": 3501000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:03.032Z",
-  "sync_type": "subtitles",
+  "sync_type": "audio_hash",
   "title": "Rare Exports A Christmas Tale",
   "tmdb_id": 48395
 }

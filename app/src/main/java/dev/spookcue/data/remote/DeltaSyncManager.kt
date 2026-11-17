@@ -3,6 +3,7 @@ package dev.spookcue.data.remote
 import android.content.Context
 import android.content.SharedPreferences
 import dagger.hilt.android.qualifiers.ApplicationContext
+import dev.spookcue.data.local.AssetLoader
 import dev.spookcue.data.local.MovieDao
 import dev.spookcue.data.local.MovieEntity
 import kotlinx.coroutines.Dispatchers
@@ -14,7 +15,8 @@ import javax.inject.Singleton
 class DeltaSyncManager @Inject constructor(
     @ApplicationContext private val context: Context,
     private val cdnClient: CdnClient,
-    private val movieDao: MovieDao
+    private val movieDao: MovieDao,
+    private val assetLoader: AssetLoader
 ) {
     private val prefs: SharedPreferences by lazy {
         context.getSharedPreferences("spookcue_sync_prefs", Context.MODE_PRIVATE)
@@ -48,8 +50,12 @@ class DeltaSyncManager @Inject constructor(
             )
         }
 
+        val bundledSyncIds = assetLoader.getBundledSyncTmdbIds()
         val remoteItems = catalogResult.getOrThrow()
-        val entities = remoteItems.map { MovieEntity.fromDomain(it) }
+        val entities = remoteItems.map { item ->
+            val hasAcoustic = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
+            MovieEntity.fromDomain(item.copy(hasAcousticSync = hasAcoustic))
+        }
         movieDao.insertMovies(entities)
 
         if (remoteVersion > 0) {

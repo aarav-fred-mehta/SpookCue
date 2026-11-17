@@ -142,22 +142,32 @@ class MovieRepositoryImpl @Inject constructor(
 
     override suspend fun initializeCatalogIfNeeded(): Unit = withContext(ioDispatcher) {
         val count = movieDao.getMovieCount()
+        val bundledCatalog = assetLoader.loadCatalog()
+        val bundledSyncIds = assetLoader.getBundledSyncTmdbIds()
+
         if (count == 0) {
-            val bundledCatalog = assetLoader.loadCatalog()
             if (bundledCatalog.isNotEmpty()) {
-                val entities = bundledCatalog.map { MovieEntity.fromDomain(it) }
+                val entities = bundledCatalog.map { item ->
+                    val hasSync = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
+                    MovieEntity.fromDomain(item.copy(hasAcousticSync = hasSync))
+                }
                 movieDao.insertMovies(entities)
             }
         } else {
             // Reconcile and heal bundled movie metadata (posters, sync types) in Room DB
-            val bundledCatalog = assetLoader.loadCatalog()
             for (item in bundledCatalog) {
                 if (item.posterPath != null) {
                     movieDao.updatePosterPath(item.tmdbId, item.posterPath)
                 }
                 movieDao.updateSyncType(item.tmdbId, item.syncType)
-                movieDao.updateHasAcousticSync(item.tmdbId, item.hasAcousticSync)
+                val hasSync = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
+                movieDao.updateHasAcousticSync(item.tmdbId, hasSync)
             }
+        }
+
+        // Always heal all bundled sync IDs to hasAcousticSync = true
+        for (tmdbId in bundledSyncIds) {
+            movieDao.updateHasAcousticSync(tmdbId, true)
         }
     }
 

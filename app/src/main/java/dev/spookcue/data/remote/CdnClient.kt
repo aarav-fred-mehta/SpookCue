@@ -68,16 +68,20 @@ class CdnClientImpl @Inject constructor(
         path: String,
         parser: (String) -> T
     ): Result<T> {
+        val cacheBuster = System.currentTimeMillis() / 60000
         val urls = listOf(
-            "$RAW_GITHUB_BASE/$path",
-            "$JSDELIVR_BASE/$path",
-            "$GITHUB_PAGES_BASE/$path"
+            "$RAW_GITHUB_BASE/$path?_cb=$cacheBuster",
+            "$JSDELIVR_BASE/$path?_cb=$cacheBuster",
+            "$GITHUB_PAGES_BASE/$path?_cb=$cacheBuster"
         )
         var lastException: Throwable = IOException("No CDN endpoints attempted")
 
         for (url in urls) {
             try {
-                val request = Request.Builder().url(url).build()
+                val request = Request.Builder()
+                    .url(url)
+                    .header("Cache-Control", "no-cache")
+                    .build()
                 okHttpClient.newCall(request).execute().use { response ->
                     if (response.isSuccessful) {
                         val body = response.body?.string() ?: throw IOException("Empty response body from $url")

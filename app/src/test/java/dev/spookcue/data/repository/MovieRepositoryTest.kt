@@ -328,6 +328,7 @@ class MovieRepositoryTest {
         override fun loadCatalog(): List<MovieCatalogItem> = catalog
         override fun loadMovieDetails(tmdbId: Int): MovieDetails? = detailsMap[tmdbId]
         override fun loadMovieSyncData(tmdbId: Int): MovieSyncData? = syncMap[tmdbId]
+        override fun getBundledSyncTmdbIds(): Set<Int> = syncMap.keys
     }
 
     private class FakeCdnClient : CdnClient {

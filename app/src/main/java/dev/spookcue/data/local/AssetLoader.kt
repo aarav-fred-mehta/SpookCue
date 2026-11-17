@@ -14,6 +14,7 @@ interface AssetLoader {
     fun loadCatalog(): List<MovieCatalogItem>
     fun loadMovieDetails(tmdbId: Int): MovieDetails?
     fun loadMovieSyncData(tmdbId: Int): MovieSyncData?
+    fun getBundledSyncTmdbIds(): Set<Int>
 }
 
 @Singleton
@@ -21,6 +22,16 @@ class AssetLoaderImpl @Inject constructor(
     @ApplicationContext private val context: Context,
     private val json: Json
 ) : AssetLoader {
+
+    private val bundledSyncIds: Set<Int> by lazy {
+        runCatching {
+            context.assets.list("sync")?.mapNotNull { filename ->
+                filename.removeSuffix(".json").toIntOrNull()
+            }?.toSet() ?: emptySet()
+        }.getOrDefault(emptySet())
+    }
+
+    override fun getBundledSyncTmdbIds(): Set<Int> = bundledSyncIds
 
     override fun loadCatalog(): List<MovieCatalogItem> {
         return runCatching {

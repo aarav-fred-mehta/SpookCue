@@ -11,26 +11,54 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AAM",
+        "S",
+        "HP",
+        "0T",
+        "K",
+        "HF",
+        "AR",
+        "AN",
+        "KT"
+      ],
       "description": "When Gail and Luke are playing the piano, the keyboard lid slams shut out of nowhere.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 972,
       "resolved_time_ms": 722000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TTNS",
+        "NP",
+        "0RS",
+        "N",
+        "TTNS",
+        "AN",
+        "HR"
+      ],
       "description": "Ruth suddenly appears behind Gail and Josh.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1439,
       "resolved_time_ms": 1189000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "KNNT",
+        "HLP",
+        "A",
+        "ANLS",
+        "A",
+        "ANT",
+        "M"
+      ],
       "description": "Josh suddenly screams.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2798,
       "resolved_time_ms": 4268000,
       "type": "minor"
     }

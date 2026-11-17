@@ -3,10 +3,17 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "K",
+        "AN",
+        "PL",
+        "0",
+        "TRKR",
+        "JST"
+      ],
       "description": "The scene jump cuts from Vicki practicing her gun shooting skills to a champagne bottle popping and the sorority girls screaming in excitement.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 17039,
       "resolved_time_ms": 556000,
       "type": "minor"
     },
@@ -19,10 +26,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "AS",
+        "SMPT",
+        "TRNS",
+        "0M",
+        "AN"
+      ],
       "description": "Stevie kicks a chain in the dark boiler room beneath the pool and startles herself.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48069,
       "resolved_time_ms": 2188000,
       "type": "minor"
     },
@@ -35,10 +49,21 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KN",
+        "FNT",
+        "HR",
+        "PT",
+        "AR",
+        "KN",
+        "HF",
+        "T",
+        "HR"
+      ],
       "description": "Diane frightens Jeanie in the garden looking for Mrs. Slater.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39919,
       "resolved_time_ms": 2657000,
       "type": "minor"
     },
@@ -59,10 +84,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KT",
+        "AT",
+        "AR",
+        "A",
+        "TNK",
+        "AP",
+        "HR"
+      ],
       "description": "Katey is started when she turns around in the attic after discovering a clown costume resembling the Jack-in-the-Box.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 4659,
       "resolved_time_ms": 3300000,
       "type": "minor"
     },

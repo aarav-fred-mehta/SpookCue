@@ -11,10 +11,16 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "RMMPR",
+        "0T",
+        "AS",
+        "AR",
+        "TRM"
+      ],
       "description": "Hermann is hit on the head after the hole says “Remember, that was your dream.”",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1300,
       "resolved_time_ms": 4231000,
       "type": "minor"
     }

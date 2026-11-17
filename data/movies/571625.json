@@ -3,10 +3,17 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "LTTS",
+        "TLK",
+        "AKN",
+        "LTR"
+      ],
       "description": "A sudden violin screeching noise startles Sang-won.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 31498,
       "resolved_time_ms": 1179000,
       "type": "minor"
     },
@@ -19,10 +26,19 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KP",
+        "AR",
+        "PT",
+        "L",
+        "ANT",
+        "TRN",
+        "RT",
+        "SLL"
+      ],
       "description": "A demon appears in front of the camera.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57582,
       "resolved_time_ms": 3195000,
       "type": "minor"
     }

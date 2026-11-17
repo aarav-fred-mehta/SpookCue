@@ -11,34 +11,60 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AR",
+        "N",
+        "AN",
+        "0",
+        "PRSNS"
+      ],
       "description": "Audio tape suddenly stops, the volume of it is in big contrast with the music before and might scare some viewers.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2071,
       "resolved_time_ms": 3839000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "FL",
+        "HR",
+        "PLS",
+        "PLS"
+      ],
       "description": "The woman suddenly collapses into the pie.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 5834,
       "resolved_time_ms": 3981000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AKNLJ",
+        "N",
+        "N",
+        "PLS",
+        "N",
+        "PLS"
+      ],
       "description": "The woman coughs suddenly.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 241,
       "resolved_time_ms": 4033000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "RT",
+        "JST",
+        "AN",
+        "MMNTN"
+      ],
       "description": "The doorbell sounds.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22861,
       "resolved_time_ms": 4099000,
       "type": "minor"
     },
@@ -59,10 +85,21 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "FR",
+        "AR",
+        "P0",
+        "0T",
+        "AF",
+        "LT",
+        "AT",
+        "FR",
+        "M"
+      ],
       "description": "The sister hits him in the head with a spiked 2 x 4",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 36711,
       "resolved_time_ms": 6232000,
       "type": "major"
     }

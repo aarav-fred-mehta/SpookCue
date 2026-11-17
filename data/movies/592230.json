@@ -3,10 +3,18 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "MR",
+        "KSXN",
+        "ATTS",
+        "A",
+        "PK",
+        "AN"
+      ],
       "description": "A dead body suddenly reanimates and growls.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 55889,
       "resolved_time_ms": 2544000,
       "type": "minor"
     }

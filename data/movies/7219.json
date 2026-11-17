@@ -3,50 +3,115 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "K",
+        "PL",
+        "ANT",
+        "LK",
+        "ARNT"
+      ],
       "description": "A zombie breaks through a door and plunges at a police officer.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 56750,
       "resolved_time_ms": 411000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "PLF",
+        "AN0NK",
+        "A",
+        "S",
+        "ANMR"
+      ],
       "description": "While swimming, Susan is grabbed by a decaying hand",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1000,
       "resolved_time_ms": 1634000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PT",
+        "A",
+        "N",
+        "0T",
+        "AFNTL",
+        "A",
+        "ALT",
+        "HF",
+        "T",
+        "FNT",
+        "0",
+        "KRJ",
+        "T",
+        "RLS",
+        "HM"
+      ],
       "description": "A zombie punches through a door",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 51375,
       "resolved_time_ms": 3305000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "JST",
+        "FNT",
+        "0T",
+        "HSPTL",
+        "ANT",
+        "KT",
+        "0",
+        "HL",
+        "AT",
+        "AF",
+        "HR",
+        "AS",
+        "KKL",
+        "AS",
+        "A",
+        "KN"
+      ],
       "description": "A decaying hand emerges from the dirt",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 44917,
       "resolved_time_ms": 3832000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PTR",
+        "AL",
+        "TK",
+        "A",
+        "KK",
+        "FF",
+        "HR"
+      ],
       "description": "A zombie plunges at Susan",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 2875,
       "resolved_time_ms": 4015000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0R",
+        "RT",
+        "PHNT",
+        "AS",
+        "APN",
+        "0",
+        "TR"
+      ],
       "description": "A zombie breaks a window",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 375,
       "resolved_time_ms": 4480000,
       "type": "major"
     }

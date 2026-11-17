@@ -3,18 +3,38 @@
   "runtime_minutes": 93,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LNK",
+        "ANK",
+        "T",
+        "MSTRPT",
+        "NT",
+        "LNK",
+        "AT",
+        "AL",
+        "0N"
+      ],
       "description": "As a person approaches the window from outside, there is a sudden flash with a loud noise.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 52820,
       "resolved_time_ms": 734000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KM",
+        "AN",
+        "SKRNK",
+        "0",
+        "JRLS",
+        "AS",
+        "AN",
+        "0NK",
+        "PT"
+      ],
       "description": "Bloody Mary suddenly appears on the road while Tom is driving.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16450,
       "resolved_time_ms": 2196000,
       "type": "minor"
     },
@@ -27,18 +47,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "A",
+        "N",
+        "A",
+        "0NK",
+        "AAM",
+        "KRS",
+        "PT"
+      ],
       "description": "David is suddenly grabbed from behind with a plastic bag over his face.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3900,
       "resolved_time_ms": 4150000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "AAM",
+        "KL",
+        "AAL",
+        "AT",
+        "AN",
+        "0",
+        "FN"
+      ],
       "description": "While Samantha is walking, Bloody Mary suddenly flashes on the screen.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39490,
       "resolved_time_ms": 4342000,
       "type": "minor"
     },

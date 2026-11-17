@@ -19,10 +19,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "HS",
+        "LT",
+        "0RP",
+        "MSK",
+        "H",
+        "HS",
+        "SSNL",
+        "TPRSN"
+      ],
       "description": "After being woken up by Alice, Greg’s sudden move scares the group of girls.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40930,
       "resolved_time_ms": 2744000,
       "type": "minor"
     },

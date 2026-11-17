@@ -11,18 +11,37 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "H",
+        "ANTS",
+        "T",
+        "P",
+        "AR",
+        "FRNT"
+      ],
       "description": "Pinocchio rushes towards James",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8374,
       "resolved_time_ms": 522000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "KLT",
+        "P",
+        "KT",
+        "FR",
+        "0",
+        "P0",
+        "AF",
+        "A"
+      ],
       "description": "When James looks through the keyhole, Pinocchio appears on the other side",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 11753,
       "resolved_time_ms": 586000,
       "type": "minor"
     },
@@ -35,10 +54,16 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "HRT",
+        "0S",
+        "STRNJ",
+        "ALNK"
+      ],
       "description": "Something monster-like in the video starts screaming",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12603,
       "resolved_time_ms": 2579000,
       "type": "minor"
     }

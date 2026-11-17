@@ -19,10 +19,17 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRST",
+        "H",
+        "TT",
+        "0S",
+        "T",
+        "HMSLF"
+      ],
       "description": "A gas mask appears in the darkness with a deafening audio sting.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48770,
       "resolved_time_ms": 2129000,
       "type": "major"
     },
@@ -35,10 +42,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "AS",
+        "A0",
+        "KNFLKT",
+        "AT",
+        "AKSSTS",
+        "ANL",
+        "T",
+        "KNSM"
+      ],
       "description": "A sudden cut shows Captain Hall showering under the white slime.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 15906,
       "resolved_time_ms": 5359000,
       "type": "minor"
     },

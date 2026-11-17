@@ -3,10 +3,17 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JF",
+        "M",
+        "0",
+        "MN",
+        "ST",
+        "0R"
+      ],
       "description": "Hero (Nicholas Cage) storms through the bank door and starts shooting.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1543,
       "resolved_time_ms": 106000,
       "type": "minor"
     }

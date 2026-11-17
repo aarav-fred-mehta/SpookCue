@@ -3,18 +3,31 @@
   "runtime_minutes": 110,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "H",
+        "KT",
+        "SKRT",
+        "0TTS",
+        "AL"
+      ],
       "description": "Damien suddenly appears with vampire like teeth, accompanied by a sound cue.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45219,
       "resolved_time_ms": 2095000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "K",
+        "LK",
+        "AT",
+        "0",
+        "PRTS"
+      ],
       "description": "A gorilla slams against the glass, cracking it.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 20748,
       "resolved_time_ms": 2375000,
       "type": "minor"
     },
@@ -35,18 +48,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "TK",
+        "HM",
+        "FRM",
+        "HR"
+      ],
       "description": "A dog suddenly attacks Robert Thorn.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27841,
       "resolved_time_ms": 4892000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FRM",
+        "AN",
+        "MN",
+        "SRTNL",
+        "NT",
+        "M",
+        "AN",
+        "SN"
+      ],
       "description": "Keith is decapitated.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34779,
       "resolved_time_ms": 5761000,
       "type": "minor"
     },

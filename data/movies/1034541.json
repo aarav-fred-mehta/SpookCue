@@ -27,58 +27,116 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MLTPL",
+        "ANTS",
+        "ARFNK",
+        "XRTL"
+      ],
       "description": "The clown grabs someone from behind unexpectedly",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37351,
       "resolved_time_ms": 854000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HLP",
+        "M",
+        "HLP",
+        "M",
+        "FKR"
+      ],
       "description": "A woman suddenly attacks someone",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10101,
       "resolved_time_ms": 1020000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "NT",
+        "RL",
+        "ATTS",
+        "NT",
+        "RL",
+        "RT"
+      ],
       "description": "The clown grabs a man’s face out of nowhere",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16771,
       "resolved_time_ms": 1972000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XS",
+        "ALS",
+        "NTRS",
+        "FR",
+        "APNNK",
+        "PRSNTS"
+      ],
       "description": "A loud thump on a table and a blood-covered person suddenly seen",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1230,
       "resolved_time_ms": 2273000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KNNT",
+        "TK",
+        "A",
+        "FKNK",
+        "HNT",
+        "KN",
+        "A"
+      ],
       "description": "Someone pulls a gun and immediately shoots another in the neck",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 524,
       "resolved_time_ms": 3143000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ANT",
+        "0R",
+        "NMS",
+        "0R",
+        "NMS",
+        "AR",
+        "PRN",
+        "ANT",
+        "TNS",
+        "ANT"
+      ],
       "description": "Fire extinguisher spray hits someone’s legs suddenly",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1274,
       "resolved_time_ms": 3289000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "0RS",
+        "A",
+        "PRT",
+        "AN",
+        "KMPS",
+        "0T",
+        "A",
+        "AS",
+        "ANFTT",
+        "T"
+      ],
       "description": "Somebody suddenly greets Jonathan from behind",
       "id": "scare_10",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 400,
       "resolved_time_ms": 3812000,
       "type": "minor"
     },
@@ -99,18 +157,28 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "FR",
+        "ALKM",
+        "S0RT"
+      ],
       "description": "Receiving a picture triggers loud flashback with a big sound burst",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 6031,
       "resolved_time_ms": 5644000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KRS",
+        "LT",
+        "KRS",
+        "LT"
+      ],
       "description": "Someone comes downstairs and shouts at a figure (sudden reveal)",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 657,
       "resolved_time_ms": 5802000,
       "type": "minor"
     },
@@ -123,10 +191,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "APNT",
+        "AT",
+        "AAM",
+        "A",
+        "SNP",
+        "RMMPR"
+      ],
       "description": "The clown attacks with a chainsaw suddenly",
       "id": "scare_16",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 7492,
       "resolved_time_ms": 6718000,
       "type": "minor"
     },

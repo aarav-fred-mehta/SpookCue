@@ -3,10 +3,22 @@
   "runtime_minutes": 112,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "MP",
+        "ATTL",
+        "K",
+        "TN",
+        "AN",
+        "0",
+        "A0R",
+        "ST",
+        "AF",
+        "0",
+        "HL"
+      ],
       "description": "The banging on the wall resumes, much louder and faster than before. It continues on and off over the next few minutes.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 34224,
       "resolved_time_ms": 2566000,
       "type": "minor"
     },

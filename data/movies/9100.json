@@ -3,10 +3,19 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HRM",
+        "AKNST",
+        "A0R",
+        "PPL",
+        "ANT",
+        "HRM",
+        "AKNST",
+        "ARSLF"
+      ],
       "description": "During a dream, the witches burst into Sarah’s room and attack her.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 18558,
       "resolved_time_ms": 4381000,
       "type": "minor"
     },
@@ -19,18 +28,33 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "PLS",
+        "PLS",
+        "STP",
+        "STP",
+        "AT"
+      ],
       "description": "Nancy quickly opens a shower door, startling Sarah.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13120,
       "resolved_time_ms": 4939000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HRM",
+        "AKNST",
+        "A0R",
+        "PPL",
+        "ANT",
+        "HRM",
+        "AKNST",
+        "ARSLF"
+      ],
       "description": "Nancy suddenly and aggressively attacks Sarah.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3359,
       "resolved_time_ms": 5525000,
       "type": "minor"
     }

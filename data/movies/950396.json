@@ -11,10 +11,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ATTS",
+        "ARS",
+        "0N",
+        "T0"
+      ],
       "description": "Spider/face hugger type thing jumps into the camera",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 57394,
       "resolved_time_ms": 4455000,
       "type": "minor"
     }

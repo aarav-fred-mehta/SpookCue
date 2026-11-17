@@ -3,10 +3,17 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TRNK",
+        "T",
+        "STL",
+        "M",
+        "0NKS"
+      ],
       "description": "Mrs. Jones suddenly appears behind Elliot.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46,
       "resolved_time_ms": 4239000,
       "type": "minor"
     }

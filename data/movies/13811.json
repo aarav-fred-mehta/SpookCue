@@ -11,10 +11,18 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TT",
+        "PP",
+        "A",
+        "0",
+        "ASPR",
+        "PPL"
+      ],
       "description": "The whisperer’s mouth abruptly opens, releasing blinding lights onto John.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45932,
       "resolved_time_ms": 4539000,
       "type": "minor"
     }

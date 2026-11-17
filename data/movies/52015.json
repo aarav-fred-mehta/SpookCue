@@ -3,10 +3,21 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "ST",
+        "AN",
+        "AR",
+        "HMS",
+        "ANT",
+        "LK",
+        "0",
+        "TRS",
+        "ANT",
+        "ANTS"
+      ],
       "description": "A vampire jumps into frame roaring as the camera pans down from the corner of the room. [Video].",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22330,
       "resolved_time_ms": 270000,
       "type": "major"
     }

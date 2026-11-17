@@ -3,18 +3,30 @@
   "runtime_minutes": 100,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "M",
+        "KLSS",
+        "AR",
+        "PRKN"
+      ],
       "description": "A silhouette runs past the camera.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 37276,
       "resolved_time_ms": 295000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "N",
+        "TT",
+        "LFS",
+        "A",
+        "RT"
+      ],
       "description": "The father is grabbed by something behind him.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 38084,
       "resolved_time_ms": 488000,
       "type": "minor"
     },
@@ -27,10 +39,15 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0TTS",
+        "A",
+        "TFRNT",
+        "STR"
+      ],
       "description": "One of the girls jumps into sight from behind the window.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13351,
       "resolved_time_ms": 1097000,
       "type": "minor"
     },
@@ -43,10 +60,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "TNNT",
+        "N",
+        "AF",
+        "A",
+        "KN",
+        "T",
+        "0S",
+        "LK"
+      ],
       "description": "A dark shadow is seen by Annabel in the mirror.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 27047,
       "resolved_time_ms": 2015000,
       "type": "minor"
     },
@@ -67,10 +94,21 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AL",
+        "KM",
+        "PK",
+        "FRM",
+        "KLFTN",
+        "FRJ",
+        "A0",
+        "AN",
+        "ANSR"
+      ],
       "description": "While Annabel is sleeping, a hand stretches across her face.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 45124,
       "resolved_time_ms": 3558000,
       "type": "minor"
     },
@@ -91,18 +129,30 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "ANPL",
+        "ATTS",
+        "LL"
+      ],
       "description": "Mama appears on the ceiling in the girl’s room.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14590,
       "resolved_time_ms": 4863000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "A",
+        "ANPL",
+        "ATTS",
+        "LL"
+      ],
       "description": "Mama jumps out from a room in the hallway.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 30590,
       "resolved_time_ms": 4879000,
       "type": "minor"
     }

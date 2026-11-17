@@ -3,18 +3,30 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLT",
+        "JST",
+        "P",
+        "AFR0NK",
+        "N"
+      ],
       "description": "A loud gunshot may startle some viewers.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 1323,
       "resolved_time_ms": 1715000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "XLT",
+        "JST",
+        "P",
+        "AFR0NK",
+        "N"
+      ],
       "description": "Accompanied by a sound effect a bloodied man runs into view.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 41323,
       "resolved_time_ms": 1755000,
       "type": "minor"
     },

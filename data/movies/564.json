@@ -19,58 +19,127 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "JNTLMN",
+        "A",
+        "KT",
+        "AS",
+        "A",
+        "AKR",
+        "KT",
+        "AFNNK",
+        "JN0N"
+      ],
       "description": "Rick throws a bag on the table scaring Evy.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 16660,
       "resolved_time_ms": 1566000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FR",
+        "HFNNS",
+        "SK",
+        "JRL",
+        "AT",
+        "ASNNT",
+        "0T",
+        "KT",
+        "AF",
+        "A",
+        "KS",
+        "AN"
+      ],
       "description": "When Evy comes up from picking her brush, Hook from the Medjai is suddenly behind her.",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 14701,
       "resolved_time_ms": 1773000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0",
+        "SKRT",
+        "KMPRTMNT",
+        "XLT",
+        "P",
+        "HTN",
+        "SMR",
+        "ANST",
+        "HR"
+      ],
       "description": "When Rick and the group turns around the group of Americans are pointing guns at them.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 25800,
       "resolved_time_ms": 2561000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LTTS",
+        "S",
+        "AT",
+        "AR",
+        "FRNT",
+        "0",
+        "ARTN",
+        "PLFT",
+        "AN"
+      ],
       "description": "A mild jump scare when Jonathan suddenly takes his hand out of his bag.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8535,
       "resolved_time_ms": 2934000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "LTTS",
+        "S",
+        "AS",
+        "ANST",
+        "XL",
+        "A"
+      ],
       "description": "When Rick and Jonathan first open Imhotep’s sarcophagus, his wet corpse pops out.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10326,
       "resolved_time_ms": 3354000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AT",
+        "SPKS",
+        "AF",
+        "0",
+        "NT",
+        "ANT",
+        "AF",
+        "0",
+        "T"
+      ],
       "description": "When Evy reads from the book of the dead Imhotep´s corpse suddenly wakes up and lets out a roar.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 13508,
       "resolved_time_ms": 3633000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KLT",
+        "A",
+        "HLP",
+        "M",
+        "FNT",
+        "M",
+        "KL"
+      ],
       "description": "A shadow suddenly passes by.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 46888,
       "resolved_time_ms": 3745000,
       "type": "minor"
     },
@@ -83,42 +152,91 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "AR",
+        "0",
+        "A0R",
+        "SKRT",
+        "JRS"
+      ],
       "description": "A hand pops out of the ground.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12320,
       "resolved_time_ms": 4112000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "TNNT",
+        "AR",
+        "APT",
+        "0",
+        "TR"
+      ],
       "description": "Mr. Daniels checks the window and suddenly a sandstorm blows towards him.",
       "id": "scare_12",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40289,
       "resolved_time_ms": 4839000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "NT",
+        "0",
+        "K",
+        "AF",
+        "ATTS",
+        "ANST",
+        "HS",
+        "RPS"
+      ],
       "description": "When Rick decapitates a mummy, the mummy holds his head and Rick then slams the sword to the head causing the mummy´s head to fly towards the screen.",
       "id": "scare_13",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39664,
       "resolved_time_ms": 6298000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "FNX",
+        "0",
+        "ANSKPXN",
+        "AN",
+        "0",
+        "KFR",
+        "ATT",
+        "0N",
+        "A",
+        "KN",
+        "KNTRL",
+        "0M"
+      ],
       "description": "Anck Su Namun pops up behind Rick and Evy.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 12957,
       "resolved_time_ms": 6395000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "KNNT",
+        "FKR",
+        "AT",
+        "0S",
+        "LST",
+        "SMPL",
+        "AT",
+        "TS",
+        "AT",
+        "LK",
+        "LK"
+      ],
       "description": "Evy runs into Anck Su Namuns.",
       "id": "scare_15",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3130,
       "resolved_time_ms": 6462000,
       "type": "minor"
     },

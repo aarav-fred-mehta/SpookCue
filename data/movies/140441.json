@@ -43,34 +43,66 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AXNK",
+        "A",
+        "FT",
+        "KLP",
+        "AN",
+        "AT",
+        "JST",
+        "PFR",
+        "X",
+        "JMPT"
+      ],
       "description": "Akane turns around and Kitayama is standing right in front of her.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 35049,
       "resolved_time_ms": 1176000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "HR",
+        "N",
+        "AT",
+        "ANNT",
+        "HR"
+      ],
       "description": "Sadako jumps out of the PC and grabs Akane by the shoulder.",
       "id": "scare_07",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 8947,
       "resolved_time_ms": 2932000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "S",
+        "KXT",
+        "MT",
+        "0S",
+        "FT",
+        "T",
+        "FNT",
+        "HR"
+      ],
       "description": "As Koiso turns around there is a cut to Sadako standing right in front of the camera.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 53907,
       "resolved_time_ms": 3531000,
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "STP",
+        "AT",
+        "KM",
+        "FL",
+        "M"
+      ],
       "description": "Takanori calls out to Akane, causing her to turn around and see him hanging from a noose.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 22867,
       "resolved_time_ms": 3675000,
       "type": "minor"
     },

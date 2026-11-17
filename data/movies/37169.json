@@ -3,10 +3,16 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A0T",
+        "ANS0S",
+        "ATTS",
+        "AR",
+        "XS"
+      ],
       "description": "Lindsay opens he curtain to reveal Heiter standing there with a gun.",
       "id": "scare_01",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 48983,
       "resolved_time_ms": 2025000,
       "type": "minor"
     },

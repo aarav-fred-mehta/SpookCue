@@ -19,26 +19,44 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "0S",
+        "KS",
+        "RL",
+        "MS",
+        "A"
+      ],
       "description": "Amber suddenly slips into the hole and screams.",
       "id": "scare_03",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 10992,
       "resolved_time_ms": 2283000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AN",
+        "A",
+        "LST",
+        "AKSPKT",
+        "AT"
+      ],
       "description": "A tree branch suddenly flies through the window and breaks it after Jack says “That’s why I come on when you least expect it.”",
       "id": "scare_04",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 3286,
       "resolved_time_ms": 2546000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "0NK",
+        "0RS",
+        "SM0NK",
+        "AN"
+      ],
       "description": "After Paul says “I think there’s something in here” an animal jumps at him.",
       "id": "scare_05",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 483,
       "resolved_time_ms": 3304000,
       "type": "major"
     }

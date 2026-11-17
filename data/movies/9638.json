@@ -11,10 +11,23 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "A",
+        "AS",
+        "MSNK",
+        "ARNT",
+        "AP",
+        "AT",
+        "MRNNKST",
+        "SMTR",
+        "ANT",
+        "A",
+        "S",
+        "SM0NK"
+      ],
       "description": "As Mike rides his motorcycle the camera pans to the Tall Man. There follows a bang and Mike falls off the bike.",
       "id": "scare_02",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39767,
       "resolved_time_ms": 834000,
       "type": "minor"
     },
@@ -43,10 +56,20 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AR",
+        "KN",
+        "FR",
+        "0",
+        "XRF",
+        "K",
+        "KT",
+        "AR",
+        "AFTNS"
+      ],
       "description": "Mike opens the box from which suddenly a creature with wings jumps and screams.",
       "id": "scare_06",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 23973,
       "resolved_time_ms": 2515000,
       "type": "minor"
     },
@@ -59,18 +82,34 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "AL",
+        "S",
+        "A",
+        "PK",
+        "AT",
+        "0",
+        "HS"
+      ],
       "description": "As Reggie creeps through the hall his wife suddenly comes out of a dark corner and screams at him.",
       "id": "scare_08",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40158,
       "resolved_time_ms": 3189000,
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "N",
+        "KSXNS",
+        "A",
+        "MST",
+        "TK",
+        "M",
+        "HM"
+      ],
       "description": "Over Jodie suddenly hands come out of the wall.",
       "id": "scare_09",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 49291,
       "resolved_time_ms": 3439000,
       "type": "minor"
     },
@@ -83,10 +122,25 @@
       "type": "major"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "LK",
+        "AP",
+        "0",
+        "HS",
+        "KT",
+        "MN",
+        "ANT",
+        "ST",
+        "AN",
+        "0R",
+        "AAL",
+        "P",
+        "RT",
+        "PK"
+      ],
       "description": "Mike pulls back the curtain and sees the Tall Man standing outside the window.",
       "id": "scare_11",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 40792,
       "resolved_time_ms": 4776000,
       "type": "major"
     },
@@ -107,10 +161,19 @@
       "type": "minor"
     },
     {
-      "anchor_phonetic": null,
+      "anchor_phonetic": [
+        "KS",
+        "A",
+        "LF",
+        "AN",
+        "0",
+        "SN",
+        "KMS",
+        "AP"
+      ],
       "description": "After the Tall Man says “Boy” Mike is pulled into the mirror.",
       "id": "scare_14",
-      "offset_from_anchor_ms": null,
+      "offset_from_anchor_ms": 39675,
       "resolved_time_ms": 5184000,
       "type": "minor"
     }

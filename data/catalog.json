@@ -355,6 +355,17 @@
     "tmdb_id": 520763
   },
   {
+    "has_acoustic_sync": false,
+    "poster_path": "/zCq3yjkckWeD6UhyUJYfMQ1Pcoo.jpg",
+    "release_year": 2022,
+    "runtime_minutes": 103,
+    "scare_count": 1,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "A Savannah Haunting",
+    "tmdb_id": 852917
+  },
+  {
     "has_acoustic_sync": true,
     "poster_path": "/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
     "release_year": 2026,
@@ -3620,7 +3631,7 @@
     "poster_path": "/92rGctBMTv4uaSlIBVnhz01kRWL.jpg",
     "release_year": 1981,
     "runtime_minutes": 86,
-    "scare_count": 12,
+    "scare_count": 13,
     "sync_type": "audio_hash",
     "tags": [
       "HOT"
@@ -3666,7 +3677,7 @@
     "poster_path": "/1J7zudfR3VLPwAf9lK5YPfSu0n6.jpg",
     "release_year": 1984,
     "runtime_minutes": 91,
-    "scare_count": 7,
+    "scare_count": 10,
     "sync_type": "audio_hash",
     "tags": [],
     "title": "Friday The 13Th The Final Chapter",
@@ -3971,6 +3982,28 @@
     "tags": [],
     "title": "Goal Of The Dead",
     "tmdb_id": 273467
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/2W0Yw0qrgVMgdsSCZRKtfvaAh0i.jpg",
+    "release_year": 1954,
+    "runtime_minutes": 96,
+    "scare_count": 6,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Godzilla",
+    "tmdb_id": 1678
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/tphkjmQq8WebuVwNXelmjLUXuPJ.jpg",
+    "release_year": 2014,
+    "runtime_minutes": 123,
+    "scare_count": 7,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Godzilla",
+    "tmdb_id": 124905
   },
   {
     "has_acoustic_sync": false,
@@ -6015,6 +6048,17 @@
   },
   {
     "has_acoustic_sync": false,
+    "poster_path": "/yyZ7folrZTqEJFD7wUuGf84CmPK.jpg",
+    "release_year": 2014,
+    "runtime_minutes": 90,
+    "scare_count": 11,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Leprechaun Origins",
+    "tmdb_id": 126172
+  },
+  {
+    "has_acoustic_sync": false,
     "poster_path": "/7kToQsV04Jel1ob7VJ471LDz7wD.jpg",
     "release_year": 2018,
     "runtime_minutes": 93,
@@ -6544,6 +6588,19 @@
     "tags": [],
     "title": "Men",
     "tmdb_id": 780609
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/g4MieTOiSc24MjbbL8jSHbX3kHN.jpg",
+    "release_year": 2025,
+    "runtime_minutes": 10,
+    "scare_count": 4,
+    "sync_type": "audio_hash",
+    "tags": [
+      "NEW"
+    ],
+    "title": "Method",
+    "tmdb_id": 1601038
   },
   {
     "has_acoustic_sync": false,
@@ -9203,6 +9260,19 @@
     "tags": [],
     "title": "Superdeep",
     "tmdb_id": 579828
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+    "release_year": 2026,
+    "runtime_minutes": 108,
+    "scare_count": 1,
+    "sync_type": "audio_hash",
+    "tags": [
+      "NEW"
+    ],
+    "title": "Supergirl",
+    "tmdb_id": 1081003
   },
   {
     "has_acoustic_sync": false,
@@ -13410,7 +13480,8 @@
     "scare_count": 9,
     "sync_type": "audio_hash",
     "tags": [
-      "NEW"
+      "NEW",
+      "HOT"
     ],
     "title": "Weapons",
     "tmdb_id": 1078605

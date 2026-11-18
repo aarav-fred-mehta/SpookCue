@@ -1,0 +1,77 @@
+{
+  "release_year": 2014,
+  "runtime_minutes": 90,
+  "scares": [
+    {
+      "description": "A man crawls into frame and screams",
+      "id": "scare_01",
+      "resolved_time_ms": 135000,
+      "type": "minor"
+    },
+    {
+      "description": "A creature runs past a window",
+      "id": "scare_02",
+      "resolved_time_ms": 1599000,
+      "type": "major"
+    },
+    {
+      "description": "The leprechauns hand reaches out and grabs a watch as it roars",
+      "id": "scare_03",
+      "resolved_time_ms": 1699000,
+      "type": "minor"
+    },
+    {
+      "description": "The leprechaun rushes behind a group of people.",
+      "id": "scare_04",
+      "resolved_time_ms": 1873000,
+      "type": "minor"
+    },
+    {
+      "description": "A gunshot fires loudly, may startle some viewers",
+      "id": "scare_05",
+      "resolved_time_ms": 2721000,
+      "type": "minor"
+    },
+    {
+      "description": "Quick cut to an axe slamming into a door",
+      "id": "scare_06",
+      "resolved_time_ms": 2874000,
+      "type": "minor"
+    },
+    {
+      "description": "The leprechaun lunges at one of the characters",
+      "id": "scare_07",
+      "resolved_time_ms": 3288000,
+      "type": "minor"
+    },
+    {
+      "description": "The Leprechaun turns around and roars",
+      "id": "scare_08",
+      "resolved_time_ms": 3603000,
+      "type": "minor"
+    },
+    {
+      "description": "The Leprechaun suddenly jumps at the car",
+      "id": "scare_09",
+      "resolved_time_ms": 3703000,
+      "type": "minor"
+    },
+    {
+      "description": "The Leprechaun roars and jumps out from behind the car door",
+      "id": "scare_10",
+      "resolved_time_ms": 3857000,
+      "type": "minor"
+    },
+    {
+      "description": "The Leprechaun charges past the car",
+      "id": "scare_11",
+      "resolved_time_ms": 4365000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-17T21:39:22.234Z",
+  "sync_type": "audio_hash",
+  "title": "Leprechaun Origins",
+  "tmdb_id": 126172
+}

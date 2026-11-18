@@ -3,80 +3,86 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "description": "In a recap of the first movie, a drowned Jason comes out of the water and grabs Alice.",
+      "description": "A man's foot appears behind the boy accompanied by a jarring sound",
       "id": "scare_01",
+      "resolved_time_ms": 52000,
+      "type": "minor"
+    },
+    {
+      "description": "In a recap of the first movie, a drowned Jason comes out of the water and grabs Alice.",
+      "id": "scare_02",
       "resolved_time_ms": 324000,
       "type": "major"
     },
     {
       "description": "A cat jumps in through the window.",
-      "id": "scare_02",
+      "id": "scare_03",
       "resolved_time_ms": 673000,
       "type": "minor"
     },
     {
       "description": "One of the campers scares the others by disguising himself into a masked killer.",
-      "id": "scare_03",
+      "id": "scare_04",
       "resolved_time_ms": 1585000,
       "type": "minor"
     },
     {
       "description": "A hand holding a hammer suddenly appears and hits the police officer.",
-      "id": "scare_04",
+      "id": "scare_05",
       "resolved_time_ms": 2561000,
       "type": "minor"
     },
     {
       "description": "Mark gets hit by a machete and falls down the stairs.",
-      "id": "scare_05",
+      "id": "scare_06",
       "resolved_time_ms": 3663000,
       "type": "minor"
     },
     {
       "description": "Jason comes up from under the sheets.",
-      "id": "scare_06",
+      "id": "scare_07",
       "resolved_time_ms": 3905000,
       "type": "minor"
     },
     {
       "description": "Jason stands up facing Ginny.",
-      "id": "scare_07",
+      "id": "scare_08",
       "resolved_time_ms": 4110000,
       "type": "minor"
     },
     {
-      "description": "Jason\u2019s hand breaks through the window.",
-      "id": "scare_08",
+      "description": "Jason’s hand breaks through the window.",
+      "id": "scare_09",
       "resolved_time_ms": 4150000,
       "type": "major"
     },
     {
       "description": "A pitchfork breaks through the door.",
-      "id": "scare_09",
+      "id": "scare_10",
       "resolved_time_ms": 4203000,
       "type": "minor"
     },
     {
       "description": "Jason starts reaching into the car.",
-      "id": "scare_10",
+      "id": "scare_11",
       "resolved_time_ms": 4270000,
       "type": "minor"
     },
     {
-      "description": "Jason leaps toward her as she\u2019s running away.",
-      "id": "scare_11",
+      "description": "Jason leaps toward her as she’s running away.",
+      "id": "scare_12",
       "resolved_time_ms": 4360000,
       "type": "minor"
     },
     {
       "description": "Jason jumps in through the window and grabs Ginny.",
-      "id": "scare_12",
+      "id": "scare_13",
       "resolved_time_ms": 5032000,
       "type": "major"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:55:03.534Z",
+  "source_lastmod": "2026-11-14T20:15:31.449Z",
   "sync_type": "audio_hash",
   "title": "Friday The 13Th Part 2",
   "tmdb_id": 9725

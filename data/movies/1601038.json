@@ -1,0 +1,35 @@
+{
+  "release_year": 2025,
+  "runtime_minutes": 10,
+  "scares": [
+    {
+      "description": "The man in the dog costume runs through the door",
+      "id": "scare_01",
+      "resolved_time_ms": 290000,
+      "type": "minor"
+    },
+    {
+      "description": "The man in the dog costume runs out of a room",
+      "id": "scare_02",
+      "resolved_time_ms": 330000,
+      "type": "minor"
+    },
+    {
+      "description": "The man in the dog costume rushes up the bottom of the stairs",
+      "id": "scare_03",
+      "resolved_time_ms": 378000,
+      "type": "minor"
+    },
+    {
+      "description": "The man in the dog costume rushes through the door.",
+      "id": "scare_04",
+      "resolved_time_ms": 592000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-17T21:39:27.965Z",
+  "sync_type": "audio_hash",
+  "title": "Method",
+  "tmdb_id": 1601038
+}

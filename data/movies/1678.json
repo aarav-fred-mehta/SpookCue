@@ -1,0 +1,47 @@
+{
+  "release_year": 1954,
+  "runtime_minutes": 96,
+  "scares": [
+    {
+      "description": "A blinding light suddenly appears followed by an explosion.",
+      "id": "scare_01",
+      "resolved_time_ms": 167000,
+      "type": "minor"
+    },
+    {
+      "description": "An explosion destroys a rescue boat, accompanied by clashing low piano notes.",
+      "id": "scare_02",
+      "resolved_time_ms": 342000,
+      "type": "minor"
+    },
+    {
+      "description": "Godzilla appears behind the mountain",
+      "id": "scare_03",
+      "resolved_time_ms": 1328000,
+      "type": "minor"
+    },
+    {
+      "description": "Emiko is startled by something, followed by clashing notes.",
+      "id": "scare_04",
+      "resolved_time_ms": 2516000,
+      "type": "minor"
+    },
+    {
+      "description": "As a Japanese soldier turns around, Godzilla roars from above a building.",
+      "id": "scare_05",
+      "resolved_time_ms": 3652000,
+      "type": "minor"
+    },
+    {
+      "description": "It is revealed that Emiko was startled by fishes being liquified by the \"oxygen destroyer\", accompanied by clashing low notes.",
+      "id": "scare_06",
+      "resolved_time_ms": 4348000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-17T21:40:46.557Z",
+  "sync_type": "audio_hash",
+  "title": "Godzilla",
+  "tmdb_id": 1678
+}

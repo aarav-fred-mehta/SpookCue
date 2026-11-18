@@ -1,0 +1,17 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 108,
+  "scares": [
+    {
+      "description": "With a very loud sound effect, someone grabs Ruthye",
+      "id": "scare_01",
+      "resolved_time_ms": 4376000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-17T08:54:43.543Z",
+  "sync_type": "audio_hash",
+  "title": "Supergirl",
+  "tmdb_id": 1081003
+}

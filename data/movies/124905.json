@@ -1,0 +1,53 @@
+{
+  "release_year": 2014,
+  "runtime_minutes": 123,
+  "scares": [
+    {
+      "description": "There is an electromagnetic pulse wave that briefly shakes the building.",
+      "id": "scare_01",
+      "resolved_time_ms": 1917000,
+      "type": "minor"
+    },
+    {
+      "description": "The Male MUTO hatches from its nest and immediately attacks the worker.",
+      "id": "scare_02",
+      "resolved_time_ms": 2108000,
+      "type": "major"
+    },
+    {
+      "description": "A blazing tank is launched at the soldiers.",
+      "id": "scare_03",
+      "resolved_time_ms": 4543000,
+      "type": "minor"
+    },
+    {
+      "description": "Female MUTO emerges from view.",
+      "id": "scare_04",
+      "resolved_time_ms": 4594000,
+      "type": "minor"
+    },
+    {
+      "description": "A bird crashes into a window.",
+      "id": "scare_05",
+      "resolved_time_ms": 5076000,
+      "type": "minor"
+    },
+    {
+      "description": "Fighter jet falls in front of a vessel.",
+      "id": "scare_06",
+      "resolved_time_ms": 5288000,
+      "type": "minor"
+    },
+    {
+      "description": "After Male MUTO destroys the vessel, it emerges from the water.",
+      "id": "scare_07",
+      "resolved_time_ms": 5310000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-17T21:39:45.540Z",
+  "sync_type": "audio_hash",
+  "title": "Godzilla",
+  "tmdb_id": 124905
+}

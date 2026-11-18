@@ -1,0 +1,17 @@
+{
+  "release_year": 2022,
+  "runtime_minutes": 103,
+  "scares": [
+    {
+      "description": "Alice is suddenly on top of the bed and screams at Eric",
+      "id": "scare_01",
+      "resolved_time_ms": 5480000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-17T08:54:35.236Z",
+  "sync_type": "audio_hash",
+  "title": "A Savannah Haunting",
+  "tmdb_id": 852917
+}

@@ -6615,6 +6615,17 @@
   },
   {
     "has_acoustic_sync": false,
+    "poster_path": "/d6dIyeVygDULNU68FF6e0twskmt.jpg",
+    "release_year": 2019,
+    "runtime_minutes": 17,
+    "scare_count": 4,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Miner S Mountain",
+    "tmdb_id": 724653
+  },
+  {
+    "has_acoustic_sync": false,
     "poster_path": "/bt5a4ThyLpLTsia2e2ZTLzQjXO0.jpg",
     "release_year": 2008,
     "runtime_minutes": 111,
@@ -7083,7 +7094,7 @@
     "poster_path": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
     "release_year": 2026,
     "runtime_minutes": 93,
-    "scare_count": 18,
+    "scare_count": 20,
     "sync_type": "audio_hash",
     "tags": [
       "NEW",
@@ -7979,8 +7990,8 @@
     "has_acoustic_sync": false,
     "poster_path": "/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
     "release_year": 2026,
-    "runtime_minutes": 95,
-    "scare_count": 12,
+    "runtime_minutes": 94,
+    "scare_count": 13,
     "sync_type": "audio_hash",
     "tags": [
       "NEW",
@@ -10114,6 +10125,19 @@
   },
   {
     "has_acoustic_sync": false,
+    "poster_path": "/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+    "release_year": 2026,
+    "runtime_minutes": 111,
+    "scare_count": 5,
+    "sync_type": "audio_hash",
+    "tags": [
+      "NEW"
+    ],
+    "title": "The Cycle",
+    "tmdb_id": 1290418
+  },
+  {
+    "has_acoustic_sync": false,
     "poster_path": "/iJYPBa2EA6UIsXdrlOXkpnqbeQW.jpg",
     "release_year": 2019,
     "runtime_minutes": 97,
@@ -12042,7 +12066,9 @@
     "runtime_minutes": 144,
     "scare_count": 3,
     "sync_type": "audio_hash",
-    "tags": [],
+    "tags": [
+      "HOT"
+    ],
     "title": "The Shining",
     "tmdb_id": 694
   },
@@ -12889,7 +12915,9 @@
     "runtime_minutes": 118,
     "scare_count": 4,
     "sync_type": "audio_hash",
-    "tags": [],
+    "tags": [
+      "HOT"
+    ],
     "title": "Train To Busan",
     "tmdb_id": 396535
   },
@@ -13480,8 +13508,7 @@
     "scare_count": 9,
     "sync_type": "audio_hash",
     "tags": [
-      "NEW",
-      "HOT"
+      "NEW"
     ],
     "title": "Weapons",
     "tmdb_id": 1078605

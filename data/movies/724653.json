@@ -1,0 +1,35 @@
+{
+  "release_year": 2019,
+  "runtime_minutes": 17,
+  "scares": [
+    {
+      "description": "Fast cut and loud noises revealing a bloodied body on the ground",
+      "id": "scare_01",
+      "resolved_time_ms": 205000,
+      "type": "minor"
+    },
+    {
+      "description": "Loud animal scream may startle some viewers",
+      "id": "scare_02",
+      "resolved_time_ms": 359000,
+      "type": "minor"
+    },
+    {
+      "description": "A deer head slams into the car windshied",
+      "id": "scare_03",
+      "resolved_time_ms": 408000,
+      "type": "minor"
+    },
+    {
+      "description": "The house lights turn on revealing two creatures standing there.",
+      "id": "scare_04",
+      "resolved_time_ms": 879000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-18T19:27:06.360Z",
+  "sync_type": "audio_hash",
+  "title": "Miner S Mountain",
+  "tmdb_id": 724653
+}

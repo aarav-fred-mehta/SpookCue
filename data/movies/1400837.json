@@ -109,10 +109,22 @@
       "id": "scare_18",
       "resolved_time_ms": 3665000,
       "type": "minor"
+    },
+    {
+      "description": "A loud bang interrupts the kiss.",
+      "id": "scare_19",
+      "resolved_time_ms": 4364000,
+      "type": "minor"
+    },
+    {
+      "description": "The dad is attacked.",
+      "id": "scare_20",
+      "resolved_time_ms": 4375000,
+      "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-11-10T15:55:56.833Z",
+  "source_lastmod": "2026-11-18T10:02:32.122Z",
   "sync_type": "audio_hash",
   "title": "Other Mommy",
   "tmdb_id": 1400837

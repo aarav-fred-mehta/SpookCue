@@ -1,11 +1,11 @@
 {
   "release_year": 2026,
-  "runtime_minutes": 95,
+  "runtime_minutes": 94,
   "scares": [
     {
       "description": "A woman walks out of the woods into the road.",
       "id": "scare_01",
-      "resolved_time_ms": 400000,
+      "resolved_time_ms": 373000,
       "type": "minor"
     },
     {
@@ -29,19 +29,19 @@
     {
       "description": "The dog's head bursts through the barn wall.",
       "id": "scare_05",
-      "resolved_time_ms": 1430000,
+      "resolved_time_ms": 1424000,
       "type": "major"
     },
     {
       "description": "Tentacles explode from the dog's face.",
       "id": "scare_06",
-      "resolved_time_ms": 1459000,
+      "resolved_time_ms": 1450000,
       "type": "minor"
     },
     {
       "description": "An old man runs from the hallway and tackles him.",
       "id": "scare_07",
-      "resolved_time_ms": 1821000,
+      "resolved_time_ms": 1816000,
       "type": "major"
     },
     {
@@ -51,32 +51,38 @@
       "type": "minor"
     },
     {
-      "description": "The zombie attacks.",
+      "description": "The steps to the caravan door slide out.",
       "id": "scare_09",
+      "resolved_time_ms": 2225000,
+      "type": "minor"
+    },
+    {
+      "description": "The zombie attacks.",
+      "id": "scare_10",
       "resolved_time_ms": 2434000,
       "type": "minor"
     },
     {
-      "description": "The zombie flinches.",
-      "id": "scare_10",
+      "description": "The zombies legs get pulled further inside the tunnel",
+      "id": "scare_11",
       "resolved_time_ms": 3095000,
       "type": "minor"
     },
     {
       "description": "The zombie gets dragged away.",
-      "id": "scare_11",
+      "id": "scare_12",
       "resolved_time_ms": 3121000,
       "type": "minor"
     },
     {
       "description": "The sack bursts open.",
-      "id": "scare_12",
+      "id": "scare_13",
       "resolved_time_ms": 4538000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-10-31T16:38:20.079Z",
+  "source_lastmod": "2026-11-18T10:02:05.286Z",
   "sync_type": "audio_hash",
   "title": "Resident Evil",
   "tmdb_id": 1423191

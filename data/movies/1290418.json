@@ -1,0 +1,41 @@
+{
+  "release_year": 2026,
+  "runtime_minutes": 111,
+  "scares": [
+    {
+      "description": "The body drops more.",
+      "id": "scare_01",
+      "resolved_time_ms": 1819000,
+      "type": "major"
+    },
+    {
+      "description": "A woman knocks on the door.",
+      "id": "scare_02",
+      "resolved_time_ms": 2164000,
+      "type": "minor"
+    },
+    {
+      "description": "The creature breaks the window.",
+      "id": "scare_03",
+      "resolved_time_ms": 5213000,
+      "type": "major"
+    },
+    {
+      "description": "The creature bangs on the door.",
+      "id": "scare_04",
+      "resolved_time_ms": 5332000,
+      "type": "minor"
+    },
+    {
+      "description": "A gas leaks.",
+      "id": "scare_05",
+      "resolved_time_ms": 5521000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-18T09:59:56.374Z",
+  "sync_type": "audio_hash",
+  "title": "The Cycle",
+  "tmdb_id": 1290418
+}

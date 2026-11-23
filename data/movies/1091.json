@@ -21,13 +21,13 @@
       "type": "minor"
     },
     {
-      "description": "Copper attempts to defibrillate Norris when a giant hole opens in Norris\u2019s chest.",
+      "description": "Copper attempts to defibrillate Norris when a giant hole opens in Norris’s chest.",
       "id": "scare_04",
       "resolved_time_ms": 4522000,
       "type": "major"
     },
     {
-      "description": "Palmer\u2019s blood has a violent reaction when MacReady tests it with the copper wire.",
+      "description": "Palmer’s blood has a violent reaction when MacReady tests it with the copper wire.",
       "id": "scare_05",
       "resolved_time_ms": 4978000,
       "type": "major"
@@ -46,7 +46,7 @@
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-10-31T16:25:46.706Z",
+  "source_lastmod": "2026-07-12T03:06:32.421Z",
   "sync_type": "audio_hash",
   "title": "The Thing",
   "tmdb_id": 1091

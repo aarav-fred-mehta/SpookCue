@@ -21,7 +21,7 @@
       "type": "major"
     },
     {
-      "description": "One of Frank\u2019s bodies falls through as door as Kirsty approaches.",
+      "description": "One of Frank’s bodies falls through as door as Kirsty approaches.",
       "id": "scare_04",
       "resolved_time_ms": 3467000,
       "type": "minor"
@@ -39,14 +39,14 @@
       "type": "minor"
     },
     {
-      "description": "A demon appears over Kirsty\u2019s shoulder.",
+      "description": "A demon appears over Kirsty’s shoulder.",
       "id": "scare_07",
       "resolved_time_ms": 4716000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-10-31T15:17:26.526Z",
+  "source_lastmod": "2026-04-29T01:40:57.087Z",
   "sync_type": "audio_hash",
   "title": "Hellraiser",
   "tmdb_id": 9003

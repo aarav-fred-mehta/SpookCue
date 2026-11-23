@@ -39,13 +39,13 @@
       "type": "minor"
     },
     {
-      "description": "When Rick and Jonathan first open Imhotep\u2019s sarcophagus, his wet corpse pops out.",
+      "description": "When Rick and Jonathan first open Imhotep’s sarcophagus, his wet corpse pops out.",
       "id": "scare_07",
       "resolved_time_ms": 3354000,
       "type": "minor"
     },
     {
-      "description": "When Evy reads from the book of the dead Imhotep\u00b4s corpse suddenly wakes up and lets out a roar.",
+      "description": "When Evy reads from the book of the dead Imhotep´s corpse suddenly wakes up and lets out a roar.",
       "id": "scare_08",
       "resolved_time_ms": 3633000,
       "type": "minor"
@@ -75,7 +75,7 @@
       "type": "minor"
     },
     {
-      "description": "When Rick decapitates a mummy, the mummy holds his head and Rick then slams the sword to the head causing the mummy\u00b4s head to fly towards the screen.",
+      "description": "When Rick decapitates a mummy, the mummy holds his head and Rick then slams the sword to the head causing the mummy´s head to fly towards the screen.",
       "id": "scare_13",
       "resolved_time_ms": 6298000,
       "type": "minor"
@@ -100,7 +100,7 @@
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-10-31T16:36:09.396Z",
+  "source_lastmod": "2025-08-30T11:58:44.445Z",
   "sync_type": "audio_hash",
   "title": "The Mummy",
   "tmdb_id": 564

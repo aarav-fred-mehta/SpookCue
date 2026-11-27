@@ -786,6 +786,19 @@
     "tmdb_id": 1318447
   },
   {
+    "has_acoustic_sync": false,
+    "poster_path": "/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+    "release_year": 2024,
+    "runtime_minutes": 119,
+    "scare_count": 18,
+    "sync_type": "audio_hash",
+    "tags": [
+      "HOT"
+    ],
+    "title": "Apocalypse Z The Beginning Of The End",
+    "tmdb_id": 1118031
+  },
+  {
     "has_acoustic_sync": true,
     "poster_path": "/4bLqU6YncqvKETzvPZPPoVrLUYM.jpg",
     "release_year": 2011,
@@ -1074,6 +1087,19 @@
     "tags": [],
     "title": "Better Watch Out",
     "tmdb_id": 406994
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/tENVMxKvOkslv8kagVNdIEQ13RT.jpg",
+    "release_year": 2026,
+    "runtime_minutes": 103,
+    "scare_count": 2,
+    "sync_type": "audio_hash",
+    "tags": [
+      "NEW"
+    ],
+    "title": "Beware Boiuna",
+    "tmdb_id": 1244523
   },
   {
     "has_acoustic_sync": false,
@@ -1474,7 +1500,8 @@
     "scare_count": 7,
     "sync_type": "audio_hash",
     "tags": [
-      "NEW"
+      "NEW",
+      "HOT"
     ],
     "title": "Buddy",
     "tmdb_id": 1514026
@@ -2990,6 +3017,17 @@
   },
   {
     "has_acoustic_sync": false,
+    "poster_path": "/3ABhnV3kAl8TILHJpSwAq6kdIbg.jpg",
+    "release_year": 2024,
+    "runtime_minutes": 91,
+    "scare_count": 2,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Elevation",
+    "tmdb_id": 1035048
+  },
+  {
+    "has_acoustic_sync": false,
     "poster_path": "/wLKypXb7St0UknM2JIKZB2RtHXV.jpg",
     "release_year": 2019,
     "runtime_minutes": 98,
@@ -3826,7 +3864,9 @@
     "runtime_minutes": 104,
     "scare_count": 10,
     "sync_type": "audio_hash",
-    "tags": [],
+    "tags": [
+      "HOT"
+    ],
     "title": "Get Out",
     "tmdb_id": 419430
   },
@@ -5127,8 +5167,7 @@
     "scare_count": 7,
     "sync_type": "audio_hash",
     "tags": [
-      "NEW",
-      "HOT"
+      "NEW"
     ],
     "title": "Ice Cream Man",
     "tmdb_id": 1477712
@@ -5382,7 +5421,7 @@
     "poster_path": "/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
     "release_year": 2026,
     "runtime_minutes": 106,
-    "scare_count": 30,
+    "scare_count": 31,
     "sync_type": "audio_hash",
     "tags": [
       "NEW",
@@ -5755,6 +5794,17 @@
     ],
     "title": "Ju On The Final Curse",
     "tmdb_id": 347946
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/6q1hlBC6rudc3mHwXsbMBR2xAT6.jpg",
+    "release_year": 2002,
+    "runtime_minutes": 92,
+    "scare_count": 3,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Ju On The Grudge",
+    "tmdb_id": 11838
   },
   {
     "has_acoustic_sync": false,
@@ -6777,6 +6827,17 @@
   },
   {
     "has_acoustic_sync": false,
+    "poster_path": "/xwjWUAajQJPj5aik1tounPguZbz.jpg",
+    "release_year": 2023,
+    "runtime_minutes": 98,
+    "scare_count": 2,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Nefarious",
+    "tmdb_id": 913673
+  },
+  {
+    "has_acoustic_sync": false,
     "poster_path": "/qmSpHC0CSNyNll9WhlwWYuwoQ28.jpg",
     "release_year": 2016,
     "runtime_minutes": 96,
@@ -7094,7 +7155,7 @@
     "poster_path": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
     "release_year": 2026,
     "runtime_minutes": 93,
-    "scare_count": 20,
+    "scare_count": 22,
     "sync_type": "audio_hash",
     "tags": [
       "NEW",
@@ -9408,7 +9469,7 @@
     "poster_path": "/fjXqhGmaeQpB73WerhrYU6HlyV5.jpg",
     "release_year": 2018,
     "runtime_minutes": 84,
-    "scare_count": 18,
+    "scare_count": 19,
     "sync_type": "audio_hash",
     "tags": [
       "HOT"
@@ -10547,7 +10608,7 @@
     "poster_path": "/8gZWMhJHRvaXdXsNhERtqNHYpH3.jpg",
     "release_year": 1986,
     "runtime_minutes": 96,
-    "scare_count": 2,
+    "scare_count": 3,
     "sync_type": "audio_hash",
     "tags": [],
     "title": "The Fly",
@@ -11410,6 +11471,17 @@
     ],
     "title": "The Meg",
     "tmdb_id": 345940
+  },
+  {
+    "has_acoustic_sync": false,
+    "poster_path": "/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg",
+    "release_year": 2022,
+    "runtime_minutes": 107,
+    "scare_count": 8,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "The Menu",
+    "tmdb_id": 593643
   },
   {
     "has_acoustic_sync": false,
@@ -12915,9 +12987,7 @@
     "runtime_minutes": 118,
     "scare_count": 4,
     "sync_type": "audio_hash",
-    "tags": [
-      "HOT"
-    ],
+    "tags": [],
     "title": "Train To Busan",
     "tmdb_id": 396535
   },
@@ -13276,7 +13346,9 @@
     "runtime_minutes": 132,
     "scare_count": 3,
     "sync_type": "audio_hash",
-    "tags": [],
+    "tags": [
+      "HOT"
+    ],
     "title": "Van Helsing",
     "tmdb_id": 7131
   },
@@ -13508,7 +13580,8 @@
     "scare_count": 9,
     "sync_type": "audio_hash",
     "tags": [
-      "NEW"
+      "NEW",
+      "HOT"
     ],
     "title": "Weapons",
     "tmdb_id": 1078605

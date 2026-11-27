@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "After Tara yells \u201cMister!\u201d, the clown grabs her from behind.",
+      "description": "After Tara yells “Mister!”, the clown grabs her from behind.",
       "id": "scare_06",
       "resolved_time_ms": 2047000,
       "type": "major"
@@ -69,50 +69,56 @@
       "type": "minor"
     },
     {
-      "description": "During a tense scene, a mop falls out of a bucket creating a loud noise.",
+      "description": "Sudden shot of a disfigured woman's face",
       "id": "scare_12",
+      "resolved_time_ms": 3669000,
+      "type": "minor"
+    },
+    {
+      "description": "During a tense scene, a mop falls out of a bucket creating a loud noise.",
+      "id": "scare_13",
       "resolved_time_ms": 3677000,
       "type": "major"
     },
     {
-      "description": "The clown suddenly places some plastic wrap over Vicky\u2019s face.",
-      "id": "scare_13",
+      "description": "The clown suddenly places some plastic wrap over Vicky’s face.",
+      "id": "scare_14",
       "resolved_time_ms": 3955000,
       "type": "minor"
     },
     {
-      "description": "There is a sudden cut to Tara\u2019s mutilated corpse.",
-      "id": "scare_14",
+      "description": "There is a sudden cut to Tara’s mutilated corpse.",
+      "id": "scare_15",
       "resolved_time_ms": 4058000,
       "type": "minor"
     },
     {
       "description": "The clown appears through a door and attacks the pest exterminator.",
-      "id": "scare_15",
+      "id": "scare_16",
       "resolved_time_ms": 4293000,
       "type": "minor"
     },
     {
       "description": "The clown reaches through a gap in the doors to grab Vicky.",
-      "id": "scare_16",
+      "id": "scare_17",
       "resolved_time_ms": 4407000,
       "type": "minor"
     },
     {
       "description": "There is a loud noise and the lights start to flicker.",
-      "id": "scare_17",
+      "id": "scare_18",
       "resolved_time_ms": 4784000,
       "type": "minor"
     },
     {
       "description": "The clown grabs the coroner by the neck.",
-      "id": "scare_18",
+      "id": "scare_19",
       "resolved_time_ms": 4821000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-04-24T01:44:31.585Z",
+  "source_lastmod": "2026-11-26T13:30:21.591Z",
   "sync_type": "audio_hash",
   "title": "Terrifier",
   "tmdb_id": 420634

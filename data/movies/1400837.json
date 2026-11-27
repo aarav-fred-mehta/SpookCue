@@ -111,20 +111,32 @@
       "type": "minor"
     },
     {
-      "description": "A loud bang interrupts the kiss.",
+      "description": "The flame from the candle suddenly bursts upwards",
       "id": "scare_19",
+      "resolved_time_ms": 3819000,
+      "type": "minor"
+    },
+    {
+      "description": "Other Mommy appears behind Bela",
+      "id": "scare_20",
+      "resolved_time_ms": 3950000,
+      "type": "major"
+    },
+    {
+      "description": "A loud bang interrupts the kiss.",
+      "id": "scare_21",
       "resolved_time_ms": 4364000,
       "type": "minor"
     },
     {
       "description": "The dad is attacked.",
-      "id": "scare_20",
+      "id": "scare_22",
       "resolved_time_ms": 4375000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-11-18T10:02:32.122Z",
+  "source_lastmod": "2026-11-26T13:30:58.147Z",
   "sync_type": "audio_hash",
   "title": "Other Mommy",
   "tmdb_id": 1400837

@@ -1,0 +1,23 @@
+{
+  "release_year": 2024,
+  "runtime_minutes": 91,
+  "scares": [
+    {
+      "description": "A bat suddenly flies and screeches",
+      "id": "scare_01",
+      "resolved_time_ms": 2590000,
+      "type": "minor"
+    },
+    {
+      "description": "The reaper appears",
+      "id": "scare_02",
+      "resolved_time_ms": 3823000,
+      "type": "minor"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-26T13:29:08.145Z",
+  "sync_type": "audio_hash",
+  "title": "Elevation",
+  "tmdb_id": 1035048
+}

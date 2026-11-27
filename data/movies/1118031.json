@@ -1,0 +1,119 @@
+{
+  "release_year": 2024,
+  "runtime_minutes": 119,
+  "scares": [
+    {
+      "description": "A car goes past very fast beeping its horn causing Julia to suddenly swerve",
+      "id": "scare_01",
+      "resolved_time_ms": 210000,
+      "type": "minor"
+    },
+    {
+      "description": "A truck suddenly hits the car while honking its horn",
+      "id": "scare_02",
+      "resolved_time_ms": 232000,
+      "type": "minor"
+    },
+    {
+      "description": "Manuel has a flash back of the crash as he lays on the couch",
+      "id": "scare_03",
+      "resolved_time_ms": 1239000,
+      "type": "minor"
+    },
+    {
+      "description": "A car behind Manuel reverses into another car",
+      "id": "scare_04",
+      "resolved_time_ms": 1432000,
+      "type": "minor"
+    },
+    {
+      "description": "A man runs up and grabs the food out of Manuel's hands",
+      "id": "scare_05",
+      "resolved_time_ms": 1458000,
+      "type": "minor"
+    },
+    {
+      "description": "An infected person jumps onto a police officer",
+      "id": "scare_06",
+      "resolved_time_ms": 1516000,
+      "type": "minor"
+    },
+    {
+      "description": "A house alarm goes off when the windows is smashed",
+      "id": "scare_07",
+      "resolved_time_ms": 2142000,
+      "type": "minor"
+    },
+    {
+      "description": "A man is standing behind Manuel",
+      "id": "scare_08",
+      "resolved_time_ms": 2305000,
+      "type": "minor"
+    },
+    {
+      "description": "An infected attacks Manuel",
+      "id": "scare_09",
+      "resolved_time_ms": 2810000,
+      "type": "minor"
+    },
+    {
+      "description": "There are flashes of infected running",
+      "id": "scare_10",
+      "resolved_time_ms": 3138000,
+      "type": "minor"
+    },
+    {
+      "description": "There's a body in the water",
+      "id": "scare_11",
+      "resolved_time_ms": 3512000,
+      "type": "minor"
+    },
+    {
+      "description": "Behind the door is an infected baby.  Its only shown for a second but you can hear it crying while off screen",
+      "id": "scare_12",
+      "resolved_time_ms": 3569000,
+      "type": "major"
+    },
+    {
+      "description": "The hostage man is shot in the head",
+      "id": "scare_13",
+      "resolved_time_ms": 4427000,
+      "type": "minor"
+    },
+    {
+      "description": "Manuel turns around to see an infected running at the car",
+      "id": "scare_14",
+      "resolved_time_ms": 4657000,
+      "type": "major"
+    },
+    {
+      "description": "An infected snarls loudly",
+      "id": "scare_15",
+      "resolved_time_ms": 4962000,
+      "type": "minor"
+    },
+    {
+      "description": "An infected runs at Manuel",
+      "id": "scare_16",
+      "resolved_time_ms": 5009000,
+      "type": "minor"
+    },
+    {
+      "description": "A group of infected run through a door",
+      "id": "scare_17",
+      "resolved_time_ms": 5065000,
+      "type": "minor"
+    },
+    {
+      "description": "After the 3rd axe hit an infected bursts through the door",
+      "id": "scare_18",
+      "resolved_time_ms": 5905000,
+      "type": "major"
+    }
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2026-11-26T13:30:18.276Z",
+  "sync_type": "audio_hash",
+  "title": "Apocalypse Z The Beginning Of The End",
+  "tmdb_id": 1118031
+}

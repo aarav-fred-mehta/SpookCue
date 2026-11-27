@@ -3,20 +3,26 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "description": "Brundlefly bursts through the glass window of the hopsital room where Veronica is about to have an abortion.",
+      "description": "Seth suddenly appears in front of Ronnie",
       "id": "scare_01",
+      "resolved_time_ms": 3776000,
+      "type": "minor"
+    },
+    {
+      "description": "Brundlefly bursts through the glass window of the hopsital room where Veronica is about to have an abortion.",
+      "id": "scare_02",
       "resolved_time_ms": 4896000,
       "type": "minor"
     },
     {
       "description": "Brundlefly jumps down from the ceiling onto Borans.",
-      "id": "scare_02",
+      "id": "scare_03",
       "resolved_time_ms": 5110000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2025-08-30T11:58:18.179Z",
+  "source_lastmod": "2026-11-26T13:31:17.032Z",
   "sync_type": "audio_hash",
   "title": "The Fly",
   "tmdb_id": 9426

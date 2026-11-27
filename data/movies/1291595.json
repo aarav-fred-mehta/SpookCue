@@ -27,164 +27,170 @@
       "type": "minor"
     },
     {
-      "description": "The voice says, \u201cThe door is open.\u201d",
+      "description": "Gemma slams her foot into the walkie talkie, this is startling after the previously quiet scene",
       "id": "scare_05",
+      "resolved_time_ms": 886000,
+      "type": "minor"
+    },
+    {
+      "description": "The voice says, “The door is open.”",
+      "id": "scare_06",
       "resolved_time_ms": 1019000,
       "type": "minor"
     },
     {
       "description": "She's standing behind her",
-      "id": "scare_06",
+      "id": "scare_07",
       "resolved_time_ms": 1078000,
       "type": "major"
     },
     {
       "description": "She appears in the little mirror",
-      "id": "scare_07",
+      "id": "scare_08",
       "resolved_time_ms": 1240000,
       "type": "minor"
     },
     {
       "description": "a figure at the end of the tunnel",
-      "id": "scare_08",
+      "id": "scare_09",
       "resolved_time_ms": 1608000,
       "type": "minor"
     },
     {
       "description": "A new figure appears in the tunnel",
-      "id": "scare_09",
+      "id": "scare_10",
       "resolved_time_ms": 1654000,
       "type": "minor"
     },
     {
       "description": "A new figure appears beside her, approaches her, and follows her",
-      "id": "scare_10",
+      "id": "scare_11",
       "resolved_time_ms": 1667000,
       "type": "major"
     },
     {
       "description": "A figure appears as it crawls through the pillows",
-      "id": "scare_11",
+      "id": "scare_12",
       "resolved_time_ms": 1735000,
       "type": "major"
     },
     {
       "description": "the person bites down",
-      "id": "scare_12",
+      "id": "scare_13",
       "resolved_time_ms": 2172000,
       "type": "minor"
     },
     {
       "description": "Someone is standing behind the patient",
-      "id": "scare_13",
+      "id": "scare_14",
       "resolved_time_ms": 2197000,
       "type": "minor"
     },
     {
       "description": "Something is above her, speaking to the figures",
-      "id": "scare_14",
+      "id": "scare_15",
       "resolved_time_ms": 2297000,
       "type": "minor"
     },
     {
       "description": "Creepy figures appear one after another in the light",
-      "id": "scare_15",
+      "id": "scare_16",
       "resolved_time_ms": 2328000,
       "type": "minor"
     },
     {
       "description": "She opens her eyes wide",
-      "id": "scare_16",
+      "id": "scare_17",
       "resolved_time_ms": 2746000,
       "type": "minor"
     },
     {
       "description": "A creepy figure is sitting next to him and is holding a weapon.",
-      "id": "scare_17",
+      "id": "scare_18",
       "resolved_time_ms": 2990000,
       "type": "minor"
     },
     {
       "description": "With a loud sound, she pushes the clothes aside and sees the red door",
-      "id": "scare_18",
+      "id": "scare_19",
       "resolved_time_ms": 3239000,
       "type": "minor"
     },
     {
       "description": "figures behind her",
-      "id": "scare_19",
+      "id": "scare_20",
       "resolved_time_ms": 3256000,
       "type": "minor"
     },
     {
       "description": "A figure is lying in bed as she gets up",
-      "id": "scare_20",
+      "id": "scare_21",
       "resolved_time_ms": 3291000,
       "type": "major"
     },
     {
       "description": "Something grabs her from behind",
-      "id": "scare_21",
+      "id": "scare_22",
       "resolved_time_ms": 3645000,
       "type": "major"
     },
     {
       "description": "A Figure in the Light",
-      "id": "scare_22",
+      "id": "scare_23",
       "resolved_time_ms": 4257000,
       "type": "minor"
     },
     {
       "description": "The figure leaps toward her",
-      "id": "scare_23",
+      "id": "scare_24",
       "resolved_time_ms": 4275000,
       "type": "major"
     },
     {
       "description": "A figure leaps toward her",
-      "id": "scare_24",
+      "id": "scare_25",
       "resolved_time_ms": 4303000,
       "type": "major"
     },
     {
       "description": "The figure reaches for the child",
-      "id": "scare_25",
+      "id": "scare_26",
       "resolved_time_ms": 4785000,
       "type": "minor"
     },
     {
       "description": "The figure is standing behind her",
-      "id": "scare_26",
+      "id": "scare_27",
       "resolved_time_ms": 4914000,
       "type": "minor"
     },
     {
       "description": "There is a figure with her",
-      "id": "scare_27",
+      "id": "scare_28",
       "resolved_time_ms": 5088000,
       "type": "minor"
     },
     {
       "description": "A figure looms over her and tries to grab her",
-      "id": "scare_28",
+      "id": "scare_29",
       "resolved_time_ms": 5152000,
       "type": "minor"
     },
     {
       "description": "Something is attacking her from the side",
-      "id": "scare_29",
+      "id": "scare_30",
       "resolved_time_ms": 5316000,
       "type": "minor"
     },
     {
       "description": "The figure is grasped, and Red Demon appears before him",
-      "id": "scare_30",
+      "id": "scare_31",
       "resolved_time_ms": 5728000,
       "type": "minor"
     }
   ],
   "source": "whenjumpscare",
-  "source_lastmod": "2026-08-25T04:20:43.713Z",
+  "source_lastmod": "2026-11-26T13:31:31.961Z",
   "sync_type": "audio_hash",
   "title": "Insidious Out Of The Further",
   "tmdb_id": 1291595

@@ -43,11 +43,39 @@ RE_TMDB_EXPLICIT = re.compile(r"(?:tmdb|themoviedb)(?:[_-]?id)?[/_=-]?(\d{3,8})\
 RE_TMDB_LEAD = re.compile(r"^(\d{3,8})-[a-z0-9]")
 RE_TMDB_TRAIL = re.compile(r"-(\d{5,8})$")
 RE_BROKEN_TITLE_ARTIFACT = re.compile(
-    r"(?:\b(?:S|T|D|M|Re|Ve|Ll|Ii|Iii|Iv|Vi|Vii|Viii|Llc|Vfw|1Br|M3Gan|3Dd)\b|\b(?:19\d{2}|20\d{2})$)"
+    r"(?<![.\-/])\b(?:S|T|D|M|Re|Ve|Ll|Ii|Iii|Iv|Vi|Vii|Viii|Llc|Vfw|1Br|M3Gan|3Dd)\b(?![.\-/])"
 )
+RE_TRAILING_BARE_YEAR = re.compile(r"^(.+?)\s+((?:19|20)\d{2})$")
+_LEGIT_TRAILING_YEAR_TITLES = frozenset({"dracula 2000", "blade runner 2049"})
 MAX_TMDB_TTL_REFRESHES_PER_RUN = 60
 TMDB_METADATA_REFRESH_DAYS = 150
 HOT_SCARE_THRESHOLD = 20
+
+
+def _has_broken_title(title: str, tmdb_updated_at: Any = None) -> bool:
+    """Detect broken contraction/Roman/acronym tokens or leaked slug years without false-positives."""
+    clean = title.strip()
+    if RE_BROKEN_TITLE_ARTIFACT.search(clean):
+        return True
+    if not tmdb_updated_at and RE_TRAILING_BARE_YEAR.match(clean):
+        low = clean.lower()
+        if low not in _LEGIT_TRAILING_YEAR_TITLES and ": " not in low:
+            return True
+    return False
+
+
+def _is_newer_lastmod(candidate: Optional[str], existing: Optional[str]) -> bool:
+    """Return True only when candidate ISO timestamp is strictly newer than existing."""
+    if not candidate:
+        return False
+    if not existing:
+        return True
+    try:
+        cand_dt = datetime.fromisoformat(str(candidate).replace("Z", "+00:00"))
+        exist_dt = datetime.fromisoformat(str(existing).replace("Z", "+00:00"))
+        return cand_dt > exist_dt
+    except ValueError:
+        return str(candidate) > str(existing)
 
 
 def extract_tmdb_id_from_slug(slug_or_url: str) -> Optional[int]:
@@ -188,6 +216,11 @@ async def process_movie(
         tmdb_id = extract_tmdb_id_from_slug(slug) or extract_tmdb_id_from_slug(item.get("url", ""))
 
     movie_page_data = await scraper.parse_movie_page(item.get("url") or slug)
+    raw_scares = movie_page_data.get("scares", [])
+    if movie_page_data.get("fetch_failed") and not raw_scares:
+        logger.warning("Skipping '%s' (%s): jump scare source unavailable", raw_title, raw_year)
+        return None
+
     if tmdb_id is None:
         tmdb_id = movie_page_data.get("tmdb_id")
 
@@ -198,7 +231,6 @@ async def process_movie(
         logger.warning("Could not resolve TMDB ID for '%s' (%s); skipping", raw_title, raw_year)
         return None
 
-    raw_scares = movie_page_data.get("scares", [])
     runtime = movie_page_data.get("runtime_minutes") or 0
 
     tmdb_details = await tmdb_client.get_movie_details(tmdb_id)
@@ -221,6 +253,10 @@ async def process_movie(
             "description": s.get("description", ""),
         })
 
+    resolved_source = movie_page_data.get("source") or item.get(
+        "source",
+        "whenjumpscare" if "whenjumpscare.com" in item.get("url", "") else "wheresthejump",
+    )
     movie_doc: Dict[str, Any] = {
         "tmdb_id": tmdb_id,
         "title": title,
@@ -228,8 +264,8 @@ async def process_movie(
         "runtime_minutes": confirmed_runtime,
         "sync_type": "audio_hash",
         "scares": clean_scares,
-        "source": item.get("source", "whenjumpscare" if "whenjumpscare.com" in item.get("url", "") else "wheresthejump"),
-        "source_lastmod": item.get("lastmod"),
+        "source": resolved_source,
+        "source_lastmod": item.get("lastmod") if resolved_source == "whenjumpscare" else None,
     }
     if tmdb_details:
         movie_doc["tmdb_updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -398,15 +434,24 @@ async def run_pipeline(
                     existing_source = movie_doc.get("source")
                     existing_lastmod = movie_doc.get("source_lastmod")
                     existing_scares = movie_doc.get("scares", [])
+                    from_bundled_fallback = bool(item.get("from_bundled_fallback")) or bool(
+                        getattr(scraper, "last_index_from_fallback", False)
+                    )
                     doc_changed = False
 
-                    needs_scare_verification = (
-                        (item_source == "whenjumpscare" and existing_source != "whenjumpscare")
-                        or (item_lastmod is not None and item_lastmod != existing_lastmod)
-                        or (len(existing_scares) == 0 and item.get("jump_count", 0) > 0)
-                    )
+                    if len(existing_scares) == 0:
+                        needs_scare_verification = (item.get("jump_count", 0) > 0) or (not from_bundled_fallback)
+                    elif from_bundled_fallback:
+                        # Bundled offline sitemap is a static snapshot; never overwrite existing scares from it
+                        needs_scare_verification = False
+                    else:
+                        needs_scare_verification = (
+                            (item_source == "whenjumpscare" and existing_source != "whenjumpscare")
+                            or _is_newer_lastmod(item_lastmod, existing_lastmod)
+                        )
 
                     if needs_scare_verification:
+                        allow_wtj_fallback = len(existing_scares) == 0 or existing_source != "whenjumpscare"
                         logger.info(
                             "Verifying jump scares from %s for '%s' (%s, TMDB %d)...",
                             item_source,
@@ -414,9 +459,13 @@ async def run_pipeline(
                             year,
                             existing_tmdb_id,
                         )
-                        fresh_page = await scraper.parse_movie_page(item_url or slug)
+                        fresh_page = await scraper.parse_movie_page(
+                            item_url or slug,
+                            allow_wtj_fallback=allow_wtj_fallback,
+                        )
                         fresh_scares = fresh_page.get("scares", [])
                         fresh_runtime = fresh_page.get("runtime_minutes") or movie_doc.get("runtime_minutes", 0)
+                        actual_source = fresh_page.get("source") or item_source
 
                         if fresh_scares:
                             clean_fresh_scares = []
@@ -439,8 +488,11 @@ async def run_pipeline(
 
                             movie_doc["scares"] = clean_fresh_scares
                             movie_doc["runtime_minutes"] = fresh_runtime
-                            movie_doc["source"] = item_source
-                            movie_doc["source_lastmod"] = item_lastmod
+                            movie_doc["source"] = actual_source
+                            if actual_source == "whenjumpscare" and (
+                                _is_newer_lastmod(item_lastmod, existing_lastmod) or not existing_lastmod
+                            ):
+                                movie_doc["source_lastmod"] = item_lastmod
                             movie_doc["sync_type"] = "audio_hash"
                             movie_doc.pop("phonetic_index", None)
                             doc_changed = True
@@ -453,9 +505,7 @@ async def run_pipeline(
 
                             if scares_changed:
                                 updated_count += 1
-                        else:
-                            movie_doc["source"] = item_source
-                            movie_doc["source_lastmod"] = item_lastmod
+                        elif "phonetic_index" in movie_doc or movie_doc.get("sync_type") != "audio_hash":
                             movie_doc["sync_type"] = "audio_hash"
                             movie_doc.pop("phonetic_index", None)
                             doc_changed = True
@@ -463,8 +513,11 @@ async def run_pipeline(
                     # Heal invalid years/titles or refresh TMDB metadata within 6-month cache limit
                     cur_title = str(movie_doc.get("title") or "")
                     cur_year = movie_doc.get("release_year")
-                    has_bad_year = not _is_valid_release_year(cur_year, existing_tmdb_id)
-                    has_broken_title = bool(RE_BROKEN_TITLE_ARTIFACT.search(cur_title))
+                    has_bad_year = (
+                        not _is_valid_release_year(cur_year, existing_tmdb_id)
+                        and not movie_doc.get("tmdb_updated_at")
+                    )
+                    has_broken_title = _has_broken_title(cur_title, movie_doc.get("tmdb_updated_at"))
                     needs_priority_heal = has_bad_year or has_broken_title
                     needs_ttl_refresh = (
                         tmdb_client.has_credentials

@@ -334,8 +334,10 @@ class TestWhenJumpScare(unittest.TestCase):
 
             scraper._fetch_html = mock_fetch_html
             movies = await scraper.fetch_movie_index()
-            self.assertGreaterEqual(len(movies), 1160)
+            self.assertTrue(scraper.last_index_from_fallback)
+            self.assertGreaterEqual(len(movies), 1190)
             by_id = {m["tmdb_id"]: m for m in movies if m.get("tmdb_id")}
+            self.assertTrue(by_id[452507].get("from_bundled_fallback"))
             self.assertEqual(by_id[452507]["title"], "1922")
             self.assertEqual(by_id[452507]["year"], 2017)
             self.assertEqual(by_id[2082]["title"], "Halloween")
@@ -343,6 +345,54 @@ class TestWhenJumpScare(unittest.TestCase):
             self.assertEqual(by_id[79316]["title"], "Devil's Due")
             self.assertEqual(by_id[482373]["title"], "Don't Breathe 2")
             self.assertEqual(by_id[520763]["title"], "A Quiet Place Part II")
+
+        asyncio.run(run_test())
+
+    def test_fetch_html_blocks_origin_after_403_circuit_breaker(self):
+        async def run_test():
+            robots_resp = MagicMock()
+            robots_resp.status_code = 200
+            robots_resp.text = "User-agent: *\nAllow: /"
+
+            page_403 = MagicMock()
+            page_403.status_code = 403
+            page_403.text = "Forbidden"
+
+            client = MagicMock()
+            client.get = AsyncMock(side_effect=[robots_resp, page_403])
+            client.is_closed = False
+
+            scraper = WhenJumpScareScraper(delay_seconds=0.0, client=client)
+            # Sitemap returning 403 trips the origin circuit breaker immediately
+            self.assertIsNone(await scraper._fetch_html("https://www.whenjumpscare.com/sitemap.xml"))
+            self.assertTrue(scraper.is_origin_blocked("https://www.whenjumpscare.com"))
+            self.assertEqual(client.get.call_count, 2)  # robots + sitemap only
+
+            # Further requests to the same blocked origin should be skipped with zero HTTP calls
+            self.assertIsNone(await scraper._fetch_html("https://www.whenjumpscare.com/movie/1091-the-thing-1982"))
+            self.assertEqual(client.get.call_count, 2)
+
+        asyncio.run(run_test())
+
+    def test_parse_movie_page_respects_allow_wtj_fallback_and_fetch_failed(self):
+        async def run_test():
+            scraper = WhenJumpScareScraper(delay_seconds=0.0)
+            fetched_urls = []
+
+            async def mock_fetch_html(url: str):
+                fetched_urls.append(url)
+                return None
+
+            scraper._fetch_html = mock_fetch_html
+
+            res_no_fallback = await scraper.parse_movie_page(
+                "https://www.whenjumpscare.com/movie/1091-the-thing-1982",
+                allow_wtj_fallback=False,
+            )
+            self.assertTrue(res_no_fallback["fetch_failed"])
+            self.assertEqual(res_no_fallback["source"], "whenjumpscare")
+            self.assertEqual(res_no_fallback["scares"], [])
+            self.assertEqual(fetched_urls, ["https://www.whenjumpscare.com/movie/1091-the-thing-1982"])
 
         asyncio.run(run_test())
 

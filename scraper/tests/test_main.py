@@ -561,6 +561,162 @@ class TestMainPipeline(unittest.TestCase):
 
         asyncio.run(run_test())
 
+    def test_pipeline_skips_verification_when_bundled_fallback_or_older_lastmod(self):
+        """Stale bundled fallback or older lastmod never triggers WTJ verification or downgrades source_lastmod."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                movies_seed = [
+                    (1091, "The Thing", 1982, 109, "2026-10-31T16:25:46.706Z"),
+                    (159117, "V/H/S/2", 2013, 96, "2026-10-31T16:25:46.706Z"),
+                    (1694, "Re-Animator", 1985, 86, "2026-10-31T16:25:46.706Z"),
+                    (17692, "Jaws 3-D", 1983, 99, "2026-10-31T16:25:46.706Z"),
+                    (452507, "1922", 2017, 102, "2026-10-31T16:25:46.706Z"),
+                ]
+                cat = []
+                mock_index = []
+                for tid, title, yr, rt, lastmod in movies_seed:
+                    doc = {
+                        "tmdb_id": tid,
+                        "title": title,
+                        "release_year": yr,
+                        "runtime_minutes": rt,
+                        "scares": [{"id": "scare_01", "resolved_time_ms": 1000, "type": "minor", "description": "x"}],
+                        "source": "whenjumpscare",
+                        "source_lastmod": lastmod,
+                        "sync_type": "audio_hash",
+                        "tmdb_updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    }
+                    (movies_dir / f"{tid}.json").write_text(dump_json_bytes(doc).decode("utf-8"))
+                    cat.append({
+                        "tmdb_id": tid,
+                        "title": title,
+                        "release_year": yr,
+                        "runtime_minutes": rt,
+                        "scare_count": 1,
+                        "poster_path": "/p.jpg",
+                        "has_acoustic_sync": False,
+                        "sync_type": "audio_hash",
+                        "tags": [],
+                    })
+                    mock_index.append({
+                        "title": title,
+                        "year": yr,
+                        "tmdb_id": tid,
+                        "url": f"https://www.whenjumpscare.com/movie/{tid}",
+                        "slug": f"{tid}-slug",
+                        "lastmod": "2026-07-12T03:06:32.421Z",
+                        "source": "whenjumpscare",
+                        "from_bundled_fallback": tid == 1091,
+                    })
+                (data_dir / "catalog.json").write_text(dump_json_bytes(cat).decode("utf-8"))
+
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock()) as mock_parse_page, \
+                     patch("spookcue_scraper.main.TmdbClient.get_movie_details", AsyncMock()) as mock_tmdb:
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    self.assertEqual(result["updated"], 0)
+                    mock_parse_page.assert_not_called()
+                    mock_tmdb.assert_not_called()
+
+                    saved_thing = load_json_bytes((movies_dir / "1091.json").read_bytes())
+                    self.assertEqual(saved_thing["source_lastmod"], "2026-10-31T16:25:46.706Z")
+
+        asyncio.run(run_test())
+
+    def test_pipeline_preserves_scares_and_lastmod_when_verification_fails(self):
+        """If live lastmod is newer but WJS returns 403/empty, keep existing scares and lastmod intact."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                doc = {
+                    "tmdb_id": 1091,
+                    "title": "The Thing",
+                    "release_year": 1982,
+                    "runtime_minutes": 109,
+                    "scares": [{"id": "scare_01", "resolved_time_ms": 1779000, "type": "minor", "description": "Dog"}],
+                    "source": "whenjumpscare",
+                    "source_lastmod": "2026-10-31T16:25:46.706Z",
+                    "sync_type": "audio_hash",
+                }
+                (movies_dir / "1091.json").write_text(dump_json_bytes(doc).decode("utf-8"))
+                (data_dir / "catalog.json").write_text(dump_json_bytes([{
+                    "tmdb_id": 1091,
+                    "title": "The Thing",
+                    "release_year": 1982,
+                    "runtime_minutes": 109,
+                    "scare_count": 1,
+                    "poster_path": "/p.jpg",
+                    "has_acoustic_sync": False,
+                    "sync_type": "audio_hash",
+                    "tags": [],
+                }]).decode("utf-8"))
+
+                mock_index = [{
+                    "title": "The Thing",
+                    "year": 1982,
+                    "tmdb_id": 1091,
+                    "url": "https://www.whenjumpscare.com/movie/1091-the-thing-1982",
+                    "slug": "1091-the-thing-1982",
+                    "lastmod": "2026-11-28T00:00:00.000Z",
+                    "source": "whenjumpscare",
+                }]
+                failed_page = {
+                    "title": "",
+                    "year": None,
+                    "runtime_minutes": 0,
+                    "tmdb_id": None,
+                    "scares": [],
+                    "scare_count": 0,
+                    "source": "whenjumpscare",
+                    "fetch_failed": True,
+                }
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock(return_value=failed_page)) as mock_parse:
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    self.assertEqual(result["updated"], 0)
+                    mock_parse.assert_called_once()
+                    self.assertIs(mock_parse.call_args.kwargs.get("allow_wtj_fallback"), False)
+
+                    saved = load_json_bytes((movies_dir / "1091.json").read_bytes())
+                    self.assertEqual(len(saved["scares"]), 1)
+                    self.assertEqual(saved["source"], "whenjumpscare")
+                    self.assertEqual(saved["source_lastmod"], "2026-10-31T16:25:46.706Z")
+
+        asyncio.run(run_test())
+
+    def test_process_movie_skips_when_fetch_failed_on_all_sources(self):
+        async def run_test():
+            item = {
+                "title": "Unknown Horror",
+                "year": 2026,
+                "url": "https://www.whenjumpscare.com/movie/999111-unknown-2026",
+                "slug": "999111-unknown-2026",
+            }
+            scraper = MagicMock()
+            scraper.parse_movie_page = AsyncMock(return_value={
+                "title": "",
+                "scares": [],
+                "source": "whenjumpscare",
+                "fetch_failed": True,
+            })
+            tmdb_client = MagicMock()
+            tmdb_client.search_movie = AsyncMock()
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                result = await process_movie(item, scraper, tmdb_client, {}, Path(tmp_dir))
+                self.assertIsNone(result)
+                tmdb_client.search_movie.assert_not_called()
+
+        asyncio.run(run_test())
+
 
 if __name__ == "__main__":
     unittest.main()

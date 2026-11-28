@@ -229,6 +229,9 @@ class WhenJumpScareScraper:
         self._robots_loaded = False
         self._host_delays: Dict[str, float] = {}
         self._last_request_at: Dict[str, float] = {}
+        self._403_counts: Dict[str, int] = {}
+        self._blocked_origins: set[str] = set()
+        self.last_index_from_fallback: bool = False
 
     @staticmethod
     def _origin_for(url: str) -> str:
@@ -280,6 +283,7 @@ class WhenJumpScareScraper:
 
         try:
             resp = await client.get(robots_url, timeout=10.0)
+            self._last_request_at[target_origin] = time.monotonic()
             if resp.status_code == 200:
                 parser.parse(resp.text.splitlines())
                 self._robot_parsers[target_origin] = parser
@@ -302,11 +306,17 @@ class WhenJumpScareScraper:
                 self._robot_parsers[target_origin] = None
                 logger.debug("robots.txt returned status %d for %s; proceeding with default delay", resp.status_code, robots_url)
         except Exception as exc:
+            self._last_request_at[target_origin] = time.monotonic()
             self._robot_parsers[target_origin] = None
             logger.debug("Could not fetch robots.txt from %s (%s); proceeding with default delay", robots_url, exc)
 
         if origin is None:
             self._robots_loaded = True
+
+    def is_origin_blocked(self, url_or_origin: str) -> bool:
+        """Return True if this origin repeatedly blocked requests with HTTP 403 during this run."""
+        origin = self._origin_for(url_or_origin) or url_or_origin.rstrip("/").lower()
+        return origin in self._blocked_origins
 
     def can_fetch(self, url: str) -> bool:
         """Check if robots.txt permits crawling the given URL."""
@@ -321,6 +331,10 @@ class WhenJumpScareScraper:
     async def _fetch_html(self, target_url: str) -> Optional[str]:
         """Fetch HTML or XML politely using httpx while honoring robots.txt, crawl-delay, and HTTP 429/403."""
         origin = self._origin_for(target_url) or self.base_url.lower()
+        if origin in self._blocked_origins:
+            logger.debug("Skipping %s; %s previously returned HTTP 403", target_url, origin)
+            return None
+
         await self.init_robots_parser(origin)
         if not self.can_fetch(target_url):
             logger.warning("robots.txt disallows crawling %s", target_url)
@@ -331,26 +345,38 @@ class WhenJumpScareScraper:
             await self._respect_rate_limit(target_url)
             try:
                 resp = await client.get(target_url, timeout=15.0)
-                if resp.status_code == 200:
-                    return resp.text
-                if resp.status_code == 429 and attempt == 0:
-                    retry_after_raw = resp.headers.get("Retry-After", "")
-                    try:
-                        wait_s = max(float(retry_after_raw), max(self.delay_seconds, 5.0))
-                    except ValueError:
-                        wait_s = max(self.delay_seconds, 5.0)
-                    wait_s = min(wait_s, 60.0)
-                    logger.warning("HTTP 429 from %s; honoring Retry-After %.1fs", target_url, wait_s)
-                    await asyncio.sleep(wait_s)
-                    continue
-                if resp.status_code == 403:
-                    logger.info("Access to %s returned 403 Forbidden; skipping without bypass", target_url)
-                    return None
-                logger.debug("Unexpected status %d for %s", resp.status_code, target_url)
-                return None
             except Exception as exc:
+                self._last_request_at[origin] = time.monotonic()
                 logger.debug("httpx fetch failed for %s: %s", target_url, exc)
                 return None
+
+            self._last_request_at[origin] = time.monotonic()
+            if resp.status_code == 200:
+                self._403_counts[origin] = 0
+                return resp.text
+            if resp.status_code == 429 and attempt == 0:
+                retry_after_raw = resp.headers.get("Retry-After", "")
+                try:
+                    wait_s = max(float(retry_after_raw), max(self.delay_seconds, 5.0))
+                except ValueError:
+                    wait_s = max(self.delay_seconds, 5.0)
+                wait_s = min(wait_s, 60.0)
+                logger.warning("HTTP 429 from %s; honoring Retry-After %.1fs", target_url, wait_s)
+                await asyncio.sleep(wait_s)
+                continue
+            if resp.status_code == 403:
+                count = self._403_counts.get(origin, 0) + 1
+                self._403_counts[origin] = count
+                logger.info("Access to %s returned 403 Forbidden; skipping without bypass", target_url)
+                if count >= 2 or target_url.rstrip("/").endswith("/sitemap.xml"):
+                    self._blocked_origins.add(origin)
+                    logger.warning(
+                        "Origin %s is blocking requests with HTTP 403; skipping further requests to this host for this run",
+                        origin,
+                    )
+                return None
+            logger.debug("Unexpected status %d for %s", resp.status_code, target_url)
+            return None
         return None
 
     @staticmethod
@@ -647,6 +673,7 @@ class WhenJumpScareScraper:
     async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
         """Fetch all movies from whenjumpscare.com index (sitemap or HTML pagination), with wheresthejump.com fallback."""
         await self.init_robots_parser()
+        self.last_index_from_fallback = False
 
         all_movies: List[Dict[str, Any]] = []
         seen_slugs = set()
@@ -658,11 +685,13 @@ class WhenJumpScareScraper:
             try:
                 logger.info("Attempting to load movie index from sitemap: %s", sitemap_url)
                 sitemap_text = await self._fetch_html(sitemap_url)
+                used_bundled_fallback = False
                 if not sitemap_text or "<urlset" not in sitemap_text:
                     bundled_path = Path(__file__).parent / "data" / "whenjumpscare_sitemap.xml"
                     if bundled_path.exists():
                         logger.info("Live sitemap unavailable; loading bundled sitemap fallback (%s)", bundled_path)
                         sitemap_text = bundled_path.read_text(encoding="utf-8")
+                        used_bundled_fallback = True
 
                 if sitemap_text and "<urlset" in sitemap_text:
                     root = ET.fromstring(sitemap_text)
@@ -681,6 +710,8 @@ class WhenJumpScareScraper:
                             )
                             record = self._parse_sitemap_movie_url(loc_elem.text.strip(), lastmod=lastmod)
                             if record and record["slug"] not in seen_slugs:
+                                if used_bundled_fallback:
+                                    record["from_bundled_fallback"] = True
                                 seen_slugs.add(record["slug"])
                                 all_movies.append(record)
                     else:
@@ -689,11 +720,18 @@ class WhenJumpScareScraper:
                                 continue
                             record = self._parse_sitemap_movie_url(loc.text.strip(), lastmod=None)
                             if record and record["slug"] not in seen_slugs:
+                                if used_bundled_fallback:
+                                    record["from_bundled_fallback"] = True
                                 seen_slugs.add(record["slug"])
                                 all_movies.append(record)
 
                     if all_movies:
-                        logger.info("Successfully loaded %d movies from sitemap.xml", len(all_movies))
+                        self.last_index_from_fallback = used_bundled_fallback
+                        logger.info(
+                            "Successfully loaded %d movies from sitemap.xml%s",
+                            len(all_movies),
+                            " (bundled offline fallback)" if used_bundled_fallback else "",
+                        )
                         return all_movies
                 else:
                     got_blocked = True
@@ -701,13 +739,15 @@ class WhenJumpScareScraper:
                 logger.warning("Could not parse sitemap.xml (%s); falling back to HTML crawling", exc)
 
         # Strategy 2: HTML crawling (strictly respecting robots.txt and crawl-delay)
-        if got_blocked:
-            self.base_url = "https://wheresthejump.com"
-            current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
+        if got_blocked or self.is_origin_blocked(self.base_url):
+            crawl_base_url = "https://wheresthejump.com"
+            current_url: Optional[str] = f"{crawl_base_url}/full-movie-list/"
         elif "whenjumpscare.com" in self.base_url:
-            current_url = f"{self.base_url}/all-jumpscares"
+            crawl_base_url = self.base_url
+            current_url = f"{crawl_base_url}/all-jumpscares"
         else:
-            current_url = f"{self.base_url}/full-movie-list/"
+            crawl_base_url = self.base_url
+            current_url = f"{crawl_base_url}/full-movie-list/"
 
         visited_urls = set()
         page_num = 1
@@ -720,7 +760,7 @@ class WhenJumpScareScraper:
                 got_blocked = True
                 break
 
-            page_movies = self.parse_index_html(html_text, base_url=self.base_url)
+            page_movies = self.parse_index_html(html_text, base_url=crawl_base_url)
             new_movies_on_page = 0
             for m in page_movies:
                 slug = m.get("slug")
@@ -735,29 +775,34 @@ class WhenJumpScareScraper:
             if next_url and next_url not in visited_urls:
                 current_url = next_url
                 page_num += 1
-            elif "whenjumpscare.com" in self.base_url and new_movies_on_page > 0:
+            elif "whenjumpscare.com" in crawl_base_url and new_movies_on_page > 0:
                 page_num += 1
-                current_url = f"{self.base_url}/all-jumpscares?page={page_num}"
+                current_url = f"{crawl_base_url}/all-jumpscares?page={page_num}"
             else:
                 current_url = None
 
         # Strategy 3: Fallback to wheresthejump.com respecting its robots.txt & crawl-delay
         if not all_movies and (got_blocked or "whenjumpscare.com" in self.base_url):
             fallback_url = "https://wheresthejump.com/full-movie-list/"
-            logger.info("No movies fetched from whenjumpscare.com; attempting fallback to %s", fallback_url)
-            fb_html = await self._fetch_html(fallback_url)
-            if fb_html:
-                fb_movies = self.parse_index_html(fb_html, base_url="https://wheresthejump.com")
-                for m in fb_movies:
-                    slug = m.get("slug")
-                    if slug not in seen_slugs:
-                        seen_slugs.add(slug)
-                        all_movies.append(m)
-                logger.info("Fallback to wheresthejump.com yielded %d movies", len(all_movies))
+            if fallback_url not in visited_urls:
+                logger.info("No movies fetched from whenjumpscare.com; attempting fallback to %s", fallback_url)
+                fb_html = await self._fetch_html(fallback_url)
+                if fb_html:
+                    fb_movies = self.parse_index_html(fb_html, base_url="https://wheresthejump.com")
+                    for m in fb_movies:
+                        slug = m.get("slug")
+                        if slug not in seen_slugs:
+                            seen_slugs.add(slug)
+                            all_movies.append(m)
+                    logger.info("Fallback to wheresthejump.com yielded %d movies", len(all_movies))
 
         return all_movies
 
-    async def parse_movie_page(self, movie_url_or_slug: str) -> Dict[str, Any]:
+    async def parse_movie_page(
+        self,
+        movie_url_or_slug: str,
+        allow_wtj_fallback: bool = True,
+    ) -> Dict[str, Any]:
         """Fetch and parse an individual movie jump scare page, respecting robots.txt and rate limits."""
         if movie_url_or_slug.startswith("http://") or movie_url_or_slug.startswith("https://"):
             url = movie_url_or_slug
@@ -771,6 +816,7 @@ class WhenJumpScareScraper:
             else:
                 url = f"{self.base_url}/{clean_slug}/"
 
+        fetched_source = "wheresthejump" if "wheresthejump.com" in url else "whenjumpscare"
         empty_result: Dict[str, Any] = {
             "title": "",
             "year": None,
@@ -778,22 +824,29 @@ class WhenJumpScareScraper:
             "tmdb_id": None,
             "scares": [],
             "scare_count": 0,
+            "source": fetched_source,
+            "fetch_failed": True,
         }
 
         try:
             html_text = await self._fetch_html(url)
-            if not html_text and "whenjumpscare.com" in url:
+            if not html_text and allow_wtj_fallback and "whenjumpscare.com" in url:
                 clean_slug = url.rstrip("/").split("/")[-1]
                 slug_no_id = re.sub(r"^\d+-", "", clean_slug)
                 wtj_url = f"https://wheresthejump.com/jump-scares-in-{slug_no_id}/"
                 logger.info("whenjumpscare unavailable for %s; attempting WTJ fallback: %s", url, wtj_url)
                 html_text = await self._fetch_html(wtj_url)
+                if html_text:
+                    fetched_source = "wheresthejump"
 
             if not html_text:
                 logger.warning("Could not fetch movie page: %s", url)
                 return empty_result
 
-            return self.parse_movie_html(html_text)
+            parsed = self.parse_movie_html(html_text)
+            parsed["source"] = fetched_source
+            parsed["fetch_failed"] = False
+            return parsed
         except Exception as exc:
             logger.error("Failed to parse movie page %s: %s", url, exc)
             return empty_result

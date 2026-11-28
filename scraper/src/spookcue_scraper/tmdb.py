@@ -140,6 +140,7 @@ class TmdbClient:
         self.cache_dir = cache_dir or Path(".tmdb_cache")
         self._client = client
         self._owns_client = client is None
+        self._not_found_endpoints: Set[str] = set()
         self.rate_limiter = rate_limiter or TokenBucket()
 
     @property
@@ -238,6 +239,11 @@ class TmdbClient:
                     await asyncio.sleep(wait_s)
                     continue
 
+                if resp.status_code == 404:
+                    self._not_found_endpoints.add(endpoint)
+                    logger.debug("TMDB HTTP 404 on %s", endpoint)
+                    return None
+
                 resp.raise_for_status()
                 return resp.json()
             except httpx.HTTPStatusError as exc:
@@ -335,8 +341,14 @@ class TmdbClient:
         if cached is not None:
             return cached
 
-        data = await self._request_json(f"/movie/{tmdb_id}")
+        endpoint = f"/movie/{tmdb_id}"
+        data = await self._request_json(endpoint)
         if not data:
+            if endpoint in self._not_found_endpoints:
+                logger.warning("TMDB ID %d returned HTTP 404 (not found on TMDB); caching miss", tmdb_id)
+                not_found_marker: Dict[str, Any] = {"_not_found": True}
+                self._write_cache(cache_key, not_found_marker)
+                return not_found_marker
             logger.error("TMDB get_movie_details failed for ID %d", tmdb_id)
             return {}
 

@@ -200,8 +200,9 @@ async def process_movie(
     tmdb_client: TmdbClient,
     known_tmdb_ids: Dict[str, int],
     sync_dir: Path,
+    use_tmdb: bool = True,
 ) -> Optional[Dict[str, Any]]:
-    """Scrape jump scares, fetch TMDB metadata, and produce movie metadata document."""
+    """Scrape jump scares, optionally fetch TMDB metadata, and produce movie metadata document."""
     raw_title = item.get("title", "").strip()
     raw_year = item.get("year")
     slug = item.get("slug", "")
@@ -224,7 +225,7 @@ async def process_movie(
     if tmdb_id is None:
         tmdb_id = movie_page_data.get("tmdb_id")
 
-    if tmdb_id is None:
+    if tmdb_id is None and use_tmdb:
         tmdb_id = await tmdb_client.search_movie(raw_title, raw_year)
 
     if tmdb_id is None:
@@ -233,7 +234,7 @@ async def process_movie(
 
     runtime = movie_page_data.get("runtime_minutes") or 0
 
-    tmdb_details = await tmdb_client.get_movie_details(tmdb_id)
+    tmdb_details: Dict[str, Any] = await tmdb_client.get_movie_details(tmdb_id) if use_tmdb else {}
     poster_path = tmdb_details.get("poster_path") or ""
     confirmed_runtime = tmdb_details.get("runtime") or runtime or 0
     title, year = _resolve_canonical_title_and_year(
@@ -294,8 +295,15 @@ async def run_pipeline(
     limit: Optional[int] = None,
     force: bool = False,
     delay_seconds: float = 2.0,
+    mode: str = "all",
+    update_sitemap: bool = False,
 ) -> Dict[str, Any]:
-    """Execute the full metadata pipeline."""
+    """Execute the metadata pipeline in 'all', 'whenjumpscare', or 'tmdb' mode."""
+    if mode not in ("all", "whenjumpscare", "tmdb"):
+        raise ValueError(f"Unsupported pipeline mode: {mode!r}")
+    run_scrape = mode in ("all", "whenjumpscare")
+    run_tmdb = mode in ("all", "tmdb")
+
     movies_dir = data_dir / "movies"
     movies_dir.mkdir(parents=True, exist_ok=True)
     sync_dir = data_dir / "sync"
@@ -340,10 +348,25 @@ async def run_pipeline(
     tmdb_client = TmdbClient()
 
     try:
-        if tmdb_client.has_credentials:
+        if run_tmdb and tmdb_client.has_credentials:
             await tmdb_client.get_configuration()
 
-        movie_items = await scraper.fetch_movie_index()
+        if run_scrape:
+            if update_sitemap:
+                sitemap_cache = Path(__file__).parent / "data" / "whenjumpscare_sitemap.xml"
+                movie_items = await scraper.fetch_movie_index(save_sitemap_to=sitemap_cache)
+            else:
+                movie_items = await scraper.fetch_movie_index()
+        else:
+            movie_items = [
+                {
+                    "title": m["title"],
+                    "year": m.get("release_year"),
+                    "tmdb_id": m["tmdb_id"],
+                }
+                for m in catalog_by_id.values()
+            ]
+
         if not movie_items:
             if catalog_by_id:
                 logger.warning("No movies found from index; using existing catalog")
@@ -439,7 +462,9 @@ async def run_pipeline(
                     )
                     doc_changed = False
 
-                    if len(existing_scares) == 0:
+                    if not run_scrape:
+                        needs_scare_verification = False
+                    elif len(existing_scares) == 0:
                         needs_scare_verification = (item.get("jump_count", 0) > 0) or (not from_bundled_fallback)
                     elif from_bundled_fallback:
                         # Bundled offline sitemap is a static snapshot; never overwrite existing scares from it
@@ -511,62 +536,71 @@ async def run_pipeline(
                             doc_changed = True
 
                     # Heal invalid years/titles or refresh TMDB metadata within 6-month cache limit
-                    cur_title = str(movie_doc.get("title") or "")
-                    cur_year = movie_doc.get("release_year")
-                    has_bad_year = (
-                        not _is_valid_release_year(cur_year, existing_tmdb_id)
-                        and not movie_doc.get("tmdb_updated_at")
-                    )
-                    has_broken_title = _has_broken_title(cur_title, movie_doc.get("tmdb_updated_at"))
-                    needs_priority_heal = has_bad_year or has_broken_title
-                    needs_ttl_refresh = (
-                        tmdb_client.has_credentials
-                        and tmdb_ttl_refreshes < MAX_TMDB_TTL_REFRESHES_PER_RUN
-                        and _is_tmdb_metadata_stale(movie_doc, cat_entry)
-                    )
-
-                    if needs_priority_heal or needs_ttl_refresh:
-                        tmdb_details: Dict[str, Any] = {}
-                        if tmdb_client.has_credentials:
-                            tmdb_details = await tmdb_client.get_movie_details(existing_tmdb_id)
-                            if not needs_priority_heal:
-                                tmdb_ttl_refreshes += 1
-
-                        resolved_title, resolved_year = _resolve_canonical_title_and_year(
-                            fallback_title=title if needs_priority_heal else (cur_title or title),
-                            fallback_year=year if has_bad_year else cur_year,
-                            page_data=None,
-                            tmdb_details=tmdb_details,
-                            tmdb_id=existing_tmdb_id,
+                    if run_tmdb:
+                        cur_title = str(movie_doc.get("title") or "")
+                        cur_year = movie_doc.get("release_year")
+                        has_bad_year = (
+                            not _is_valid_release_year(cur_year, existing_tmdb_id)
+                            and not movie_doc.get("tmdb_updated_at")
                         )
-                        meta_changed = False
-                        if resolved_title and resolved_title != cur_title:
-                            movie_doc["title"] = resolved_title
-                            cat_entry["title"] = resolved_title
-                            meta_changed = True
-                        if resolved_year is not None and resolved_year != cur_year:
-                            movie_doc["release_year"] = resolved_year
-                            cat_entry["release_year"] = resolved_year
-                            meta_changed = True
-                        if tmdb_details.get("poster_path") and tmdb_details["poster_path"] != cat_entry.get("poster_path"):
-                            cat_entry["poster_path"] = tmdb_details["poster_path"]
-                            meta_changed = True
-                        if tmdb_details.get("runtime") and tmdb_details["runtime"] != movie_doc.get("runtime_minutes"):
-                            movie_doc["runtime_minutes"] = tmdb_details["runtime"]
-                            cat_entry["runtime_minutes"] = tmdb_details["runtime"]
-                            meta_changed = True
-                        if tmdb_details:
-                            movie_doc["tmdb_updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-                            doc_changed = True
-                        if meta_changed:
-                            doc_changed = True
-                            updated_count += 1
+                        has_broken_title = _has_broken_title(cur_title, movie_doc.get("tmdb_updated_at"))
+                        needs_priority_heal = has_bad_year or has_broken_title
+                        needs_new_enrichment = (
+                            tmdb_client.has_credentials
+                            and not movie_doc.get("tmdb_updated_at")
+                            and (not cat_entry.get("poster_path") or not movie_doc.get("runtime_minutes"))
+                        )
+                        needs_ttl_refresh = (
+                            tmdb_client.has_credentials
+                            and tmdb_ttl_refreshes < MAX_TMDB_TTL_REFRESHES_PER_RUN
+                            and _is_tmdb_metadata_stale(movie_doc, cat_entry)
+                        )
+
+                        if needs_priority_heal or needs_new_enrichment or needs_ttl_refresh:
+                            tmdb_details: Dict[str, Any] = {}
+                            if tmdb_client.has_credentials:
+                                tmdb_details = await tmdb_client.get_movie_details(existing_tmdb_id)
+                                if not needs_priority_heal and not needs_new_enrichment:
+                                    tmdb_ttl_refreshes += 1
+
+                            resolved_title, resolved_year = _resolve_canonical_title_and_year(
+                                fallback_title=title if needs_priority_heal else (cur_title or title),
+                                fallback_year=year if has_bad_year else cur_year,
+                                page_data=None,
+                                tmdb_details=tmdb_details,
+                                tmdb_id=existing_tmdb_id,
+                            )
+                            meta_changed = False
+                            if resolved_title and resolved_title != cur_title:
+                                movie_doc["title"] = resolved_title
+                                cat_entry["title"] = resolved_title
+                                meta_changed = True
+                            if resolved_year is not None and resolved_year != cur_year:
+                                movie_doc["release_year"] = resolved_year
+                                cat_entry["release_year"] = resolved_year
+                                meta_changed = True
+                            if tmdb_details.get("poster_path") and tmdb_details["poster_path"] != cat_entry.get("poster_path"):
+                                cat_entry["poster_path"] = tmdb_details["poster_path"]
+                                meta_changed = True
+                            if tmdb_details.get("runtime") and tmdb_details["runtime"] != movie_doc.get("runtime_minutes"):
+                                movie_doc["runtime_minutes"] = tmdb_details["runtime"]
+                                cat_entry["runtime_minutes"] = tmdb_details["runtime"]
+                                meta_changed = True
+                            if tmdb_details:
+                                movie_doc["tmdb_updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                                doc_changed = True
+                            if meta_changed:
+                                doc_changed = True
+                                updated_count += 1
 
                     if doc_changed:
                         movie_file.write_bytes(dump_json_bytes(movie_doc))
                         catalog_by_id[existing_tmdb_id] = cat_entry
 
                     continue
+
+            if not run_scrape:
+                continue
 
             logger.info("Processing movie '%s' (%s)...", title, year)
             result = await process_movie(
@@ -575,6 +609,7 @@ async def run_pipeline(
                 tmdb_client=tmdb_client,
                 known_tmdb_ids=known_tmdb_ids,
                 sync_dir=sync_dir,
+                use_tmdb=run_tmdb,
             )
 
             if not result:
@@ -600,31 +635,45 @@ async def run_pipeline(
 
         # Dynamic Tagging from TMDB API & current release calendar
         try:
-            now_playing_ids = await tmdb_client.get_now_playing_movie_ids()
-            popular_ids = await tmdb_client.get_popular_horror_ids()
             cur_year = datetime.now(timezone.utc).year
+            if run_tmdb:
+                now_playing_ids = await tmdb_client.get_now_playing_movie_ids()
+                popular_ids = await tmdb_client.get_popular_horror_ids()
+            else:
+                now_playing_ids = set()
+                popular_ids = set()
+
             for entry in catalog_by_id.values():
                 tid = entry.get("tmdb_id")
                 yr = entry.get("release_year")
                 scares = entry.get("scare_count", 0)
-                existing_tags = entry.get("tags", [])
+                existing_tags = entry.get("tags")
                 is_valid_new_year = isinstance(yr, int) and (cur_year - 1) <= yr <= (cur_year + 1)
 
-                entry_tags = []
-                if (tid in now_playing_ids) or is_valid_new_year:
-                    entry_tags.append("NEW")
-
-                if tmdb_client.has_credentials:
-                    if (tid in popular_ids) or (scares >= HOT_SCARE_THRESHOLD):
-                        entry_tags.append("HOT")
+                if not run_tmdb:
+                    if existing_tags is None:
+                        entry_tags = []
+                        if is_valid_new_year:
+                            entry_tags.append("NEW")
+                        if scares >= HOT_SCARE_THRESHOLD:
+                            entry_tags.append("HOT")
+                        entry["tags"] = entry_tags
                 else:
-                    # Without TMDB credentials, preserve existing TMDB-derived HOT tags and apply fallback threshold
-                    if ("HOT" in existing_tags and scares < HOT_SCARE_THRESHOLD and existing_tags) or (
-                        scares >= HOT_SCARE_THRESHOLD
-                    ):
-                        entry_tags.append("HOT")
+                    entry_tags = []
+                    if (tid in now_playing_ids) or is_valid_new_year:
+                        entry_tags.append("NEW")
 
-                entry["tags"] = entry_tags
+                    if tmdb_client.has_credentials:
+                        if (tid in popular_ids) or (scares >= HOT_SCARE_THRESHOLD):
+                            entry_tags.append("HOT")
+                    else:
+                        if ("HOT" in (existing_tags or []) and scares < HOT_SCARE_THRESHOLD) or (
+                            scares >= HOT_SCARE_THRESHOLD
+                        ):
+                            entry_tags.append("HOT")
+
+                    entry["tags"] = entry_tags
+
                 entry["has_acoustic_sync"] = (sync_dir / f"{tid}.json").exists()
                 entry["sync_type"] = "audio_hash"
         except Exception as exc:
@@ -686,6 +735,17 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=None, help="Limit number of movies to scrape")
     parser.add_argument("--force", action="store_true", help="Force re-scrape existing movies")
     parser.add_argument("--delay", type=float, default=2.0, help="Polite delay between requests in seconds")
+    parser.add_argument(
+        "--mode",
+        choices=["all", "whenjumpscare", "tmdb"],
+        default="all",
+        help="Pipeline stage to execute: 'all', 'whenjumpscare', or 'tmdb'",
+    )
+    parser.add_argument(
+        "--update-sitemap",
+        action="store_true",
+        help="Update bundled whenjumpscare_sitemap.xml when live sitemap fetch succeeds",
+    )
 
     args = parser.parse_args()
     asyncio.run(
@@ -694,6 +754,8 @@ def main() -> int:
             limit=args.limit,
             force=args.force,
             delay_seconds=args.delay,
+            mode=args.mode,
+            update_sitemap=args.update_sitemap,
         )
     )
     return 0

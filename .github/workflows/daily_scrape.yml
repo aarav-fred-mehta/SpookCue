@@ -1,13 +1,22 @@
-name: Daily Scrape
+name: Daily TMDB Sync
 on:
   schedule:
     - cron: '0 0 * * *'   # Every day at 00:00 UTC
-  workflow_dispatch: {}     # Manual trigger for testing
+  push:
+    branches: [main]
+    paths:
+      - 'data/movies/**'   # Enrich and re-tag immediately when local scrape pushes new movies
+  workflow_dispatch: {}    # Manual trigger for testing
+
+concurrency:
+  group: daily-scrape-data
+  cancel-in-progress: false
 
 jobs:
-  scrape:
+  tmdb-sync:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 30
     permissions:
       contents: write
     env:
@@ -19,12 +28,12 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -e ./scraper
-      - name: Run scraper pipeline
-        run: python -m spookcue_scraper
+      - name: Run TMDB metadata & tag pipeline
+        run: python -m spookcue_scraper --mode tmdb
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(data): daily scrape update"
+          commit_message: "chore(data): daily TMDB sync"
           file_pattern: "data/**"

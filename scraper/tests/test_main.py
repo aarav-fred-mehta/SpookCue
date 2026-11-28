@@ -717,6 +717,169 @@ class TestMainPipeline(unittest.TestCase):
 
         asyncio.run(run_test())
 
+    def test_pipeline_mode_whenjumpscare_skips_tmdb_and_preserves_tags(self):
+        """mode='whenjumpscare' scrapes new movies without TMDB and preserves existing HOT/NEW tags."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                existing_doc = {
+                    "tmdb_id": 348,
+                    "title": "Alien",
+                    "release_year": 1979,
+                    "runtime_minutes": 117,
+                    "scares": [{"id": "scare_01", "resolved_time_ms": 1000, "type": "minor", "description": ""}],
+                    "source": "whenjumpscare",
+                    "source_lastmod": "2026-10-31T00:00:00Z",
+                    "sync_type": "audio_hash",
+                }
+                (movies_dir / "348.json").write_text(dump_json_bytes(existing_doc).decode("utf-8"))
+                (data_dir / "catalog.json").write_text(dump_json_bytes([{
+                    "tmdb_id": 348,
+                    "title": "Alien",
+                    "release_year": 1979,
+                    "runtime_minutes": 117,
+                    "scare_count": 1,
+                    "poster_path": "/alien.jpg",
+                    "has_acoustic_sync": False,
+                    "sync_type": "audio_hash",
+                    "tags": ["HOT"],
+                }]).decode("utf-8"))
+
+                mock_index = [
+                    {
+                        "title": "Alien",
+                        "year": 1979,
+                        "tmdb_id": 348,
+                        "url": "https://www.whenjumpscare.com/movie/348-alien-1979",
+                        "slug": "348-alien-1979",
+                        "lastmod": "2026-10-31T00:00:00Z",
+                        "source": "whenjumpscare",
+                    },
+                    {
+                        "title": "Fresh Fear",
+                        "year": 2026,
+                        "tmdb_id": 999222,
+                        "url": "https://www.whenjumpscare.com/movie/999222-fresh-fear-2026",
+                        "slug": "999222-fresh-fear-2026",
+                        "lastmod": "2026-11-28T00:00:00Z",
+                        "source": "whenjumpscare",
+                    },
+                ]
+                scraped_new = {
+                    "title": "Fresh Fear",
+                    "year": 2026,
+                    "runtime_minutes": 95,
+                    "tmdb_id": 999222,
+                    "scares": [{"resolved_time_ms": 5000, "type": "major", "description": "Bang"}],
+                    "scare_count": 1,
+                    "source": "whenjumpscare",
+                    "fetch_failed": False,
+                }
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock(return_value=scraped_new)), \
+                     patch("spookcue_scraper.main.TmdbClient.get_movie_details", AsyncMock()) as mock_tmdb_details, \
+                     patch("spookcue_scraper.main.TmdbClient.get_now_playing_movie_ids", AsyncMock()) as mock_np:
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0, mode="whenjumpscare")
+                    self.assertEqual(result["added"], 1)
+                    mock_tmdb_details.assert_not_called()
+                    mock_np.assert_not_called()
+
+                    cat = {m["tmdb_id"]: m for m in load_json_bytes((data_dir / "catalog.json").read_bytes())}
+                    self.assertEqual(cat[348]["tags"], ["HOT"])
+                    self.assertEqual(cat[348]["poster_path"], "/alien.jpg")
+                    self.assertEqual(cat[999222]["poster_path"], "")
+                    self.assertIn("NEW", cat[999222]["tags"])
+
+        asyncio.run(run_test())
+
+    def test_pipeline_mode_tmdb_skips_scraper_and_enriches_new_and_404_movies(self):
+        """mode='tmdb' skips scraping, enriches missing posters immediately, and stamps 404 misses."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                doc_new = {
+                    "tmdb_id": 999222,
+                    "title": "Fresh Fear",
+                    "release_year": 2026,
+                    "runtime_minutes": 95,
+                    "scares": [{"id": "scare_01", "resolved_time_ms": 5000, "type": "major", "description": "Bang"}],
+                    "source": "whenjumpscare",
+                    "sync_type": "audio_hash",
+                }
+                doc_404 = {
+                    "tmdb_id": 1107568,
+                    "title": "Liar Liar",
+                    "release_year": None,
+                    "runtime_minutes": 0,
+                    "scares": [{"id": "scare_01", "resolved_time_ms": 1000, "type": "minor", "description": "x"}],
+                    "source": "whenjumpscare",
+                    "sync_type": "audio_hash",
+                }
+                (movies_dir / "999222.json").write_text(dump_json_bytes(doc_new).decode("utf-8"))
+                (movies_dir / "1107568.json").write_text(dump_json_bytes(doc_404).decode("utf-8"))
+                (data_dir / "catalog.json").write_text(dump_json_bytes([
+                    {
+                        "tmdb_id": 999222,
+                        "title": "Fresh Fear",
+                        "release_year": 2026,
+                        "runtime_minutes": 95,
+                        "scare_count": 1,
+                        "poster_path": "",
+                        "has_acoustic_sync": False,
+                        "sync_type": "audio_hash",
+                        "tags": [],
+                    },
+                    {
+                        "tmdb_id": 1107568,
+                        "title": "Liar Liar",
+                        "release_year": 0,
+                        "runtime_minutes": 0,
+                        "scare_count": 1,
+                        "poster_path": "",
+                        "has_acoustic_sync": False,
+                        "sync_type": "audio_hash",
+                        "tags": [],
+                    },
+                ]).decode("utf-8"))
+
+                async def fake_details(tid: int):
+                    if tid == 999222:
+                        return {
+                            "title": "Fresh Fear: Official",
+                            "release_date": "2026-10-31",
+                            "runtime": 98,
+                            "poster_path": "/fresh.jpg",
+                        }
+                    return {"_not_found": True}
+
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock()) as mock_idx, \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock()) as mock_page, \
+                     patch.dict("os.environ", {"TMDB_API_KEY": "fake_key"}), \
+                     patch("spookcue_scraper.main.TmdbClient.get_movie_details", AsyncMock(side_effect=fake_details)), \
+                     patch("spookcue_scraper.main.TmdbClient.get_popular_horror_ids", AsyncMock(return_value={999222})):
+
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0, mode="tmdb")
+                    mock_idx.assert_not_called()
+                    mock_page.assert_not_called()
+                    self.assertEqual(result["updated"], 1)
+
+                    cat = {m["tmdb_id"]: m for m in load_json_bytes((data_dir / "catalog.json").read_bytes())}
+                    self.assertEqual(cat[999222]["poster_path"], "/fresh.jpg")
+                    self.assertEqual(cat[999222]["runtime_minutes"], 98)
+                    self.assertEqual(cat[999222]["tags"], ["NEW", "HOT"])
+
+                    saved_404 = load_json_bytes((movies_dir / "1107568.json").read_bytes())
+                    self.assertIn("tmdb_updated_at", saved_404)
+
+        asyncio.run(run_test())
+
 
 if __name__ == "__main__":
     unittest.main()

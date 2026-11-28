@@ -139,6 +139,24 @@ class TestTmdb(unittest.IsolatedAsyncioTestCase):
             pop_ids = await tmdb_client.get_popular_horror_ids()
             self.assertEqual(pop_ids, {138843, 348})
 
+    async def test_get_movie_details_caches_404_not_found(self):
+        """HTTP 404 from TMDB caches a _not_found marker instead of failing as a server outage."""
+        client_mock = MagicMock()
+        client_mock.is_closed = False
+        resp_404 = MagicMock()
+        resp_404.status_code = 404
+        client_mock.get = AsyncMock(return_value=resp_404)
+
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmdb_client = TmdbClient(api_key="mock_key", cache_dir=Path(tmp_dir), client=client_mock)
+            first = await tmdb_client.get_movie_details(1107568)
+            self.assertEqual(first, {"_not_found": True})
+            self.assertEqual(client_mock.get.call_count, 1)
+
+            second = await tmdb_client.get_movie_details(1107568)
+            self.assertEqual(second, {"_not_found": True})
+            self.assertEqual(client_mock.get.call_count, 1)
+
     def test_cache_read_write(self):
         with tempfile.TemporaryDirectory() as tmp_dir:
             cache_path = Path(tmp_dir)

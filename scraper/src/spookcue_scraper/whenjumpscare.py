@@ -670,7 +670,11 @@ class WhenJumpScareScraper:
             "scare_count": len(scares),
         }
 
-    async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
+    async def fetch_movie_index(
+        self,
+        max_pages: int = 50,
+        save_sitemap_to: Optional[Path] = None,
+    ) -> List[Dict[str, Any]]:
         """Fetch all movies from whenjumpscare.com index (sitemap or HTML pagination), with wheresthejump.com fallback."""
         await self.init_robots_parser()
         self.last_index_from_fallback = False
@@ -727,6 +731,14 @@ class WhenJumpScareScraper:
 
                     if all_movies:
                         self.last_index_from_fallback = used_bundled_fallback
+                        if save_sitemap_to and not used_bundled_fallback:
+                            try:
+                                save_sitemap_to.parent.mkdir(parents=True, exist_ok=True)
+                                if not save_sitemap_to.exists() or save_sitemap_to.read_text(encoding="utf-8") != sitemap_text:
+                                    save_sitemap_to.write_text(sitemap_text, encoding="utf-8")
+                                    logger.info("Updated bundled sitemap cache at %s (%d movies)", save_sitemap_to, len(all_movies))
+                            except Exception as save_exc:
+                                logger.debug("Could not update sitemap cache %s: %s", save_sitemap_to, save_exc)
                         logger.info(
                             "Successfully loaded %d movies from sitemap.xml%s",
                             len(all_movies),

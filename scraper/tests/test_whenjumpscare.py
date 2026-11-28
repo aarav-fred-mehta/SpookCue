@@ -396,6 +396,34 @@ class TestWhenJumpScare(unittest.TestCase):
 
         asyncio.run(run_test())
 
+    def test_fetch_movie_index_updates_sitemap_cache_on_live_success(self):
+        import tempfile
+        from pathlib import Path
+
+        live_xml = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.whenjumpscare.com/movie/1091-the-thing-1982</loc>
+    <lastmod>2026-11-28T00:00:00.000Z</lastmod>
+  </url>
+</urlset>"""
+
+        async def run_test():
+            scraper = WhenJumpScareScraper(delay_seconds=0.0)
+            scraper._robots_loaded = True
+            scraper._robot_parsers["https://www.whenjumpscare.com"] = None
+            scraper._fetch_html = AsyncMock(return_value=live_xml)
+
+            with tempfile.TemporaryDirectory() as td:
+                dest = Path(td) / "sitemap.xml"
+                movies = await scraper.fetch_movie_index(save_sitemap_to=dest)
+                self.assertEqual(len(movies), 1)
+                self.assertFalse(scraper.last_index_from_fallback)
+                self.assertTrue(dest.exists())
+                self.assertIn("1091-the-thing-1982", dest.read_text(encoding="utf-8"))
+
+        asyncio.run(run_test())
+
 
 if __name__ == "__main__":
     unittest.main()

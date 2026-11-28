@@ -3,7 +3,7 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "description": "Elvira\u2019s mom run over something with her car.",
+      "description": "Elvira’s mom run over something with her car.",
       "id": "scare_01",
       "resolved_time_ms": 161000,
       "type": "minor"
@@ -45,7 +45,7 @@
       "type": "major"
     },
     {
-      "description": "There\u2019s a loud sound when the camera cuts to Meja acting strange.",
+      "description": "There’s a loud sound when the camera cuts to Meja acting strange.",
       "id": "scare_08",
       "resolved_time_ms": 2518000,
       "type": "minor"
@@ -73,5 +73,6 @@
   "source_lastmod": "2025-08-30T11:57:10.074Z",
   "sync_type": "audio_hash",
   "title": "Room 213",
-  "tmdb_id": 427337
+  "tmdb_id": 427337,
+  "tmdb_updated_at": "2026-11-28T03:23:51Z"
 }

@@ -3,7 +3,7 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "description": "Someone appears beside the driver\u2019s side window of the car.",
+      "description": "Someone appears beside the driver’s side window of the car.",
       "id": "scare_01",
       "resolved_time_ms": 499000,
       "type": "minor"
@@ -39,7 +39,7 @@
       "type": "minor"
     },
     {
-      "description": "The phone booth is lit up by a car\u2019s lights.",
+      "description": "The phone booth is lit up by a car’s lights.",
       "id": "scare_07",
       "resolved_time_ms": 2603000,
       "type": "minor"
@@ -79,5 +79,6 @@
   "source_lastmod": "2025-08-30T11:59:25.727Z",
   "sync_type": "audio_hash",
   "title": "Vacancy",
-  "tmdb_id": 10294
+  "tmdb_id": 10294,
+  "tmdb_updated_at": "2026-11-28T03:23:48Z"
 }

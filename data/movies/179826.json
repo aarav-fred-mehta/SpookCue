@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Odd\u2019s hand is suddenly pulled into a hole in the door.",
+      "description": "Odd’s hand is suddenly pulled into a hole in the door.",
       "id": "scare_04",
       "resolved_time_ms": 1461000,
       "type": "minor"
@@ -67,5 +67,6 @@
   "source_lastmod": "2025-08-30T11:56:39.647Z",
   "sync_type": "audio_hash",
   "title": "Odd Thomas",
-  "tmdb_id": 179826
+  "tmdb_id": 179826,
+  "tmdb_updated_at": "2026-11-28T03:23:52Z"
 }

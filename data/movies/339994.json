@@ -27,19 +27,19 @@
       "type": "minor"
     },
     {
-      "description": "An unseen person calls out \u201cThere you are!\u201d as Sean looks for Ethan outside.",
+      "description": "An unseen person calls out “There you are!” as Sean looks for Ethan outside.",
       "id": "scare_05",
       "resolved_time_ms": 1794000,
       "type": "major"
     },
     {
-      "description": "Ethan\u2019s mother suddenly bursts into the bedroom.",
+      "description": "Ethan’s mother suddenly bursts into the bedroom.",
       "id": "scare_06",
       "resolved_time_ms": 2604000,
       "type": "minor"
     },
     {
-      "description": "The window in Grainey\u2019s room shatters.",
+      "description": "The window in Grainey’s room shatters.",
       "id": "scare_07",
       "resolved_time_ms": 2801000,
       "type": "minor"
@@ -49,5 +49,6 @@
   "source_lastmod": "2025-08-30T11:58:22.695Z",
   "sync_type": "audio_hash",
   "title": "The Good Neighbor",
-  "tmdb_id": 339994
+  "tmdb_id": 339994,
+  "tmdb_updated_at": "2026-11-28T03:23:52Z"
 }

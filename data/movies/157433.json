@@ -3,7 +3,7 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "description": "A truck drives by startling Rachel after she says \u201ceverything is inside\u201d.",
+      "description": "A truck drives by startling Rachel after she says “everything is inside”.",
       "id": "scare_01",
       "resolved_time_ms": 247000,
       "type": "minor"
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "Victor\u2019s hand suddenly reaches out to grab Louis around the ankle as he climbs the pile of branches.",
+      "description": "Victor’s hand suddenly reaches out to grab Louis around the ankle as he climbs the pile of branches.",
       "id": "scare_05",
       "resolved_time_ms": 1482000,
       "type": "minor"
@@ -69,7 +69,7 @@
       "type": "minor"
     },
     {
-      "description": "After Louis finds the mask, Ellie appears behind him and says \u201cDaddy\u201d.",
+      "description": "After Louis finds the mask, Ellie appears behind him and says “Daddy”.",
       "id": "scare_12",
       "resolved_time_ms": 4214000,
       "type": "minor"
@@ -91,5 +91,6 @@
   "source_lastmod": "2025-08-30T11:56:48.770Z",
   "sync_type": "audio_hash",
   "title": "Pet Sematary",
-  "tmdb_id": 157433
+  "tmdb_id": 157433,
+  "tmdb_updated_at": "2026-11-28T03:23:51Z"
 }

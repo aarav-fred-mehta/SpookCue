@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "When Shawn moves the tablet down, Mildred\u2019s face is behind it.",
+      "description": "When Shawn moves the tablet down, Mildred’s face is behind it.",
       "id": "scare_04",
       "resolved_time_ms": 2837000,
       "type": "major"
@@ -51,7 +51,7 @@
       "type": "minor"
     },
     {
-      "description": "A man\u2019s hand comes out of the bathtub and strangles Shawn.",
+      "description": "A man’s hand comes out of the bathtub and strangles Shawn.",
       "id": "scare_09",
       "resolved_time_ms": 4486000,
       "type": "minor"
@@ -69,7 +69,7 @@
       "type": "major"
     },
     {
-      "description": "Shawn screams when he sees a \u201cstick man\u201d nearby.",
+      "description": "Shawn screams when he sees a “stick man” nearby.",
       "id": "scare_12",
       "resolved_time_ms": 22680000,
       "type": "minor"
@@ -91,5 +91,6 @@
   "source_lastmod": "2025-09-06T20:21:35.215Z",
   "sync_type": "audio_hash",
   "title": "Deadstream",
-  "tmdb_id": 886083
+  "tmdb_id": 886083,
+  "tmdb_updated_at": "2026-11-28T03:23:47Z"
 }

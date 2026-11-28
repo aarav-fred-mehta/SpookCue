@@ -3,7 +3,7 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "description": "A woman is suddenly shot in the head after saying \u201cthat almost hit me\u201d.",
+      "description": "A woman is suddenly shot in the head after saying “that almost hit me”.",
       "id": "scare_01",
       "resolved_time_ms": 817000,
       "type": "minor"
@@ -31,5 +31,6 @@
   "source_lastmod": "2025-08-30T11:58:32.961Z",
   "sync_type": "audio_hash",
   "title": "The Hunt",
-  "tmdb_id": 514847
+  "tmdb_id": 514847,
+  "tmdb_updated_at": "2026-11-28T03:23:51Z"
 }

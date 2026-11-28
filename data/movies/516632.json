@@ -3,7 +3,7 @@
   "runtime_minutes": 137,
   "scares": [
     {
-      "description": "The camera is zoomed in on a sleeping woman\u2019s face, then suddenly cuts to a zoomed out shot to reveal Paul whispering something into her ear, accompanied by a loud sound.",
+      "description": "The camera is zoomed in on a sleeping woman’s face, then suddenly cuts to a zoomed out shot to reveal Paul whispering something into her ear, accompanied by a loud sound.",
       "id": "scare_01",
       "resolved_time_ms": 1143000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "James looks out into the hallway and sees a shadowy figure that suddenly springs up to reveal that it\u2019s the empty man.",
+      "description": "James looks out into the hallway and sees a shadowy figure that suddenly springs up to reveal that it’s the empty man.",
       "id": "scare_04",
       "resolved_time_ms": 6076000,
       "type": "minor"
@@ -37,5 +37,6 @@
   "source_lastmod": "2025-08-30T11:58:09.856Z",
   "sync_type": "audio_hash",
   "title": "The Empty Man",
-  "tmdb_id": 516632
+  "tmdb_id": 516632,
+  "tmdb_updated_at": "2026-11-28T03:23:50Z"
 }

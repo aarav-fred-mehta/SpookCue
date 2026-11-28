@@ -3,7 +3,7 @@
   "runtime_minutes": 124,
   "scares": [
     {
-      "description": "Hooper looks into a hole in Ben Gardner\u2019s boat when a human head appears from inside.",
+      "description": "Hooper looks into a hole in Ben Gardner’s boat when a human head appears from inside.",
       "id": "scare_01",
       "resolved_time_ms": 2873000,
       "type": "major"
@@ -31,5 +31,6 @@
   "source_lastmod": "2026-05-30T14:57:12.124Z",
   "sync_type": "audio_hash",
   "title": "Jaws",
-  "tmdb_id": 578
+  "tmdb_id": 578,
+  "tmdb_updated_at": "2026-11-28T03:23:52Z"
 }

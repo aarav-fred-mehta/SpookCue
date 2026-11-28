@@ -75,7 +75,7 @@
       "type": "major"
     },
     {
-      "description": "The demon screams Rose\u2019s name and the scene abruptly changes.",
+      "description": "The demon screams Rose’s name and the scene abruptly changes.",
       "id": "scare_13",
       "resolved_time_ms": 3133000,
       "type": "major"
@@ -87,19 +87,19 @@
       "type": "minor"
     },
     {
-      "description": "Holly\u2019s head unnaturally drops from her shoulders and dangles in front of the car window.",
+      "description": "Holly’s head unnaturally drops from her shoulders and dangles in front of the car window.",
       "id": "scare_15",
       "resolved_time_ms": 4199000,
       "type": "major"
     },
     {
-      "description": "The demon grabs Rose\u2019s face and proceeds to scream.",
+      "description": "The demon grabs Rose’s face and proceeds to scream.",
       "id": "scare_16",
       "resolved_time_ms": 5098000,
       "type": "minor"
     },
     {
-      "description": "The doctor knocks on Rose\u2019s car window, startling her.",
+      "description": "The doctor knocks on Rose’s car window, startling her.",
       "id": "scare_17",
       "resolved_time_ms": 5314000,
       "type": "minor"
@@ -111,7 +111,7 @@
       "type": "major"
     },
     {
-      "description": "Rose\u2019s mother yells her name.",
+      "description": "Rose’s mother yells her name.",
       "id": "scare_19",
       "resolved_time_ms": 5672000,
       "type": "minor"
@@ -145,5 +145,6 @@
   "source_lastmod": "2026-01-27T08:33:41.426Z",
   "sync_type": "audio_hash",
   "title": "Smile",
-  "tmdb_id": 882598
+  "tmdb_id": 882598,
+  "tmdb_updated_at": "2026-11-28T03:23:52Z"
 }

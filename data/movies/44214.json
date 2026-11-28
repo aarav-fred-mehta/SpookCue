@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "Nina backs into a nurse while in Beth\u2019s hospital room.",
+      "description": "Nina backs into a nurse while in Beth’s hospital room.",
       "id": "scare_03",
       "resolved_time_ms": 2623000,
       "type": "minor"
@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "Beth grabs Nina\u2019s hand.",
+      "description": "Beth grabs Nina’s hand.",
       "id": "scare_06",
       "resolved_time_ms": 4906000,
       "type": "minor"
@@ -51,7 +51,7 @@
       "type": "major"
     },
     {
-      "description": "Nina turns on a light and her mother\u2019s paintings begin to talk.",
+      "description": "Nina turns on a light and her mother’s paintings begin to talk.",
       "id": "scare_09",
       "resolved_time_ms": 5032000,
       "type": "minor"
@@ -67,5 +67,6 @@
   "source_lastmod": "2025-08-30T11:53:58.165Z",
   "sync_type": "audio_hash",
   "title": "Black Swan",
-  "tmdb_id": 44214
+  "tmdb_id": 44214,
+  "tmdb_updated_at": "2026-11-28T03:23:49Z"
 }

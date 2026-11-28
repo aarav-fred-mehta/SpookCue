@@ -9,7 +9,7 @@
       "type": "minor"
     },
     {
-      "description": "A neighbor says \u201chey kid!\u201d as he\u2019s trying to get into the cellar.",
+      "description": "A neighbor says “hey kid!” as he’s trying to get into the cellar.",
       "id": "scare_02",
       "resolved_time_ms": 716000,
       "type": "minor"
@@ -25,5 +25,6 @@
   "source_lastmod": "2025-08-30T11:55:08.037Z",
   "sync_type": "audio_hash",
   "title": "Fright Night",
-  "tmdb_id": 11797
+  "tmdb_id": 11797,
+  "tmdb_updated_at": "2026-11-28T03:23:51Z"
 }

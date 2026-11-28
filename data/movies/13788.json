@@ -1,6 +1,6 @@
 {
   "release_year": 2009,
-  "runtime_minutes": 87,
+  "runtime_minutes": 88,
   "scares": [
     {
       "description": "Casey uncovers a fetus which suddenly opens its eyes.",
@@ -57,7 +57,7 @@
       "type": "major"
     },
     {
-      "description": "We see a close up of the boy on Casey\u2019s laptop (accompanied by a sound effect).",
+      "description": "We see a close up of the boy on Casey’s laptop (accompanied by a sound effect).",
       "id": "scare_10",
       "resolved_time_ms": 3701000,
       "type": "minor"
@@ -91,5 +91,6 @@
   "source_lastmod": "2025-08-30T11:59:05.471Z",
   "sync_type": "audio_hash",
   "title": "The Unborn",
-  "tmdb_id": 13788
+  "tmdb_id": 13788,
+  "tmdb_updated_at": "2026-11-28T03:23:52Z"
 }

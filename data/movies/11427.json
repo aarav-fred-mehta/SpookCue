@@ -3,7 +3,7 @@
   "runtime_minutes": 83,
   "scares": [
     {
-      "description": "A woman dressed in white appears beside Frank\u2019s car window.",
+      "description": "A woman dressed in white appears beside Frank’s car window.",
       "id": "scare_01",
       "resolved_time_ms": 509000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Richard gets out of the car to investigate the baby\u2019s pram on the road, as he looks in he pretends to be pulled into the carriage and eaten.",
+      "description": "Richard gets out of the car to investigate the baby’s pram on the road, as he looks in he pretends to be pulled into the carriage and eaten.",
       "id": "scare_04",
       "resolved_time_ms": 1603000,
       "type": "minor"
@@ -61,5 +61,6 @@
   "source_lastmod": "2025-08-30T11:54:29.128Z",
   "sync_type": "audio_hash",
   "title": "Dead End",
-  "tmdb_id": 11427
+  "tmdb_id": 11427,
+  "tmdb_updated_at": "2026-11-28T03:23:47Z"
 }

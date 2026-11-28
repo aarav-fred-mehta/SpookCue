@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "After Steve goes off screen, there\u2019s a loud sound of cans falling down.",
+      "description": "After Steve goes off screen, there’s a loud sound of cans falling down.",
       "id": "scare_03",
       "resolved_time_ms": 3280000,
       "type": "minor"
@@ -25,5 +25,6 @@
   "source_lastmod": "2025-08-30T11:57:52.910Z",
   "sync_type": "audio_hash",
   "title": "The Blob",
-  "tmdb_id": 8851
+  "tmdb_id": 8851,
+  "tmdb_updated_at": "2026-11-28T03:23:52Z"
 }

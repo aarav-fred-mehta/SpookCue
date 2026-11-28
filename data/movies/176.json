@@ -9,7 +9,7 @@
       "type": "minor"
     },
     {
-      "description": "After Zepp\u2019s eye is revealed in Daina\u2019s closet, the closet doors slam open.",
+      "description": "After Zepp’s eye is revealed in Daina’s closet, the closet doors slam open.",
       "id": "scare_02",
       "resolved_time_ms": 2379000,
       "type": "minor"
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "Adam\u2019s camera flashes to reveal a masked man hiding in a cupboard.",
+      "description": "Adam’s camera flashes to reveal a masked man hiding in a cupboard.",
       "id": "scare_05",
       "resolved_time_ms": 4243000,
       "type": "major"
@@ -43,5 +43,6 @@
   "source_lastmod": "2025-08-30T11:57:13.794Z",
   "sync_type": "audio_hash",
   "title": "Saw",
-  "tmdb_id": 176
+  "tmdb_id": 176,
+  "tmdb_updated_at": "2026-11-28T03:23:49Z"
 }

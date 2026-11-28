@@ -51,7 +51,7 @@
       "type": "minor"
     },
     {
-      "description": "A cat suddenly jumps on Tina\u2019s hand.",
+      "description": "A cat suddenly jumps on Tina’s hand.",
       "id": "scare_09",
       "resolved_time_ms": 3229000,
       "type": "major"
@@ -63,13 +63,13 @@
       "type": "minor"
     },
     {
-      "description": "Spitz suddenly grabs Sammy\u2019s leg.",
+      "description": "Spitz suddenly grabs Sammy’s leg.",
       "id": "scare_11",
       "resolved_time_ms": 3377000,
       "type": "minor"
     },
     {
-      "description": "Spitz and Sammy\u2019s bodies fall on Tina.",
+      "description": "Spitz and Sammy’s bodies fall on Tina.",
       "id": "scare_12",
       "resolved_time_ms": 3749000,
       "type": "major"
@@ -102,6 +102,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:21.076Z",
   "sync_type": "audio_hash",
-  "title": "Halloween 5 The Revenge Of Michael Myers",
+  "title": "Halloween 5: The Revenge of Michael Myers",
   "tmdb_id": 11361
 }

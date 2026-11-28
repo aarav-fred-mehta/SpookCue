@@ -3,7 +3,7 @@
   "runtime_minutes": 87,
   "scares": [
     {
-      "description": "Gretel\u2019s mother suddenly hits the table with an axe.",
+      "description": "Gretel’s mother suddenly hits the table with an axe.",
       "id": "scare_01",
       "resolved_time_ms": 544000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "A cut to Hansel in the witch\u2019s house follows. There is loud music and the witch suddenly stands in the left corner.",
+      "description": "A cut to Hansel in the witch’s house follows. There is loud music and the witch suddenly stands in the left corner.",
       "id": "scare_04",
       "resolved_time_ms": 1489000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2026-07-18T07:29:52.060Z",
   "sync_type": "audio_hash",
-  "title": "Gretel And Hansel",
+  "title": "Gretel & Hansel",
   "tmdb_id": 542224
 }

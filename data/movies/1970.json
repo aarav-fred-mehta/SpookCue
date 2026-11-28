@@ -1,9 +1,9 @@
 {
-  "release_year": 1970,
+  "release_year": 2004,
   "runtime_minutes": 92,
   "scares": [
     {
-      "description": "Yoko turns around in the attic and sees a ghostly woman\u2019s face.",
+      "description": "Yoko turns around in the attic and sees a ghostly woman’s face.",
       "id": "scare_01",
       "resolved_time_ms": 455000,
       "type": "minor"
@@ -39,7 +39,7 @@
       "type": "minor"
     },
     {
-      "description": "A hand comes out of a bath tub and grabs a man\u2019s arm.",
+      "description": "A hand comes out of a bath tub and grabs a man’s arm.",
       "id": "scare_07",
       "resolved_time_ms": 1596000,
       "type": "minor"
@@ -51,7 +51,7 @@
       "type": "minor"
     },
     {
-      "description": "A boy pops out from beside Jen\u2019s bed and hisses at Matt.",
+      "description": "A boy pops out from beside Jen’s bed and hisses at Matt.",
       "id": "scare_09",
       "resolved_time_ms": 2092000,
       "type": "minor"
@@ -99,7 +99,7 @@
       "type": "minor"
     },
     {
-      "description": "The boy opens his eyes then pushes Detective Nakagawa\u2019s head into the bathtub.",
+      "description": "The boy opens his eyes then pushes Detective Nakagawa’s head into the bathtub.",
       "id": "scare_17",
       "resolved_time_ms": 4657000,
       "type": "minor"
@@ -117,19 +117,19 @@
       "type": "minor"
     },
     {
-      "description": "Doug\u2019s hand reaches out and grabs Karen\u2019s foot as she looks into the mirror.",
+      "description": "Doug’s hand reaches out and grabs Karen’s foot as she looks into the mirror.",
       "id": "scare_20",
       "resolved_time_ms": 5344000,
       "type": "minor"
     },
     {
-      "description": "Karen opens a door and sees the ghostly woman\u2019s face behind it.",
+      "description": "Karen opens a door and sees the ghostly woman’s face behind it.",
       "id": "scare_21",
       "resolved_time_ms": 5472000,
       "type": "minor"
     },
     {
-      "description": "Karen goes to lift the sheet covering Doug\u2019s body when it begins to twitch.",
+      "description": "Karen goes to lift the sheet covering Doug’s body when it begins to twitch.",
       "id": "scare_22",
       "resolved_time_ms": 5666000,
       "type": "minor"
@@ -144,6 +144,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:22.694Z",
   "sync_type": "audio_hash",
-  "title": "The Grudge 2004",
+  "title": "The Grudge",
   "tmdb_id": 1970
 }

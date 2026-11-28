@@ -299,6 +299,48 @@ fun SettingsScreen(
                 Spacer(modifier = Modifier.height(10.dp))
                 Text(text = msg, color = LunarSlate, fontSize = 12.sp)
             }
+
+            Spacer(modifier = Modifier.height(24.dp))
+            HorizontalDivider(color = LunarBorder)
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Text(
+                text = "DATA SOURCES & ATTRIBUTION",
+                fontSize = 11.sp,
+                fontWeight = FontWeight.Bold,
+                color = LunarSlateMuted,
+                letterSpacing = 1.sp
+            )
+
+            Spacer(modifier = Modifier.height(10.dp))
+
+            Text(
+                text = "TMDB",
+                color = LunarWhite,
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 13.sp
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+                color = LunarSlateDim,
+                fontSize = 12.sp
+            )
+
+            Spacer(modifier = Modifier.height(12.dp))
+
+            Text(
+                text = "Jump Scare Timelines",
+                color = LunarWhite,
+                fontWeight = FontWeight.SemiBold,
+                fontSize = 13.sp
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "Jump scare timestamps and descriptions are sourced from WhenJumpScare and Where's The Jump?.",
+                color = LunarSlateDim,
+                fontSize = 12.sp
+            )
         }
     }
 }

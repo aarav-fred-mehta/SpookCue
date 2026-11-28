@@ -3,7 +3,7 @@
   "runtime_minutes": 118,
   "scares": [
     {
-      "description": "There is a loud bang from a man\u2019s truck as he reaches for his phone.",
+      "description": "There is a loud bang from a man’s truck as he reaches for his phone.",
       "id": "scare_01",
       "resolved_time_ms": 143000,
       "type": "minor"
@@ -30,6 +30,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:18.051Z",
   "sync_type": "audio_hash",
-  "title": "Train To Busan",
+  "title": "Train to Busan",
   "tmdb_id": 396535
 }

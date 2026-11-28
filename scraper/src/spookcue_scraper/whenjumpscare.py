@@ -1,21 +1,70 @@
 """WhenJumpScare scraper (with Where's The Jump? fallback).
 
 Scrapes movie listings, jump scare timestamps, major/minor designations,
-and text descriptions from whenjumpscare.com, with robots.txt compliance and pagination.
+and text descriptions from whenjumpscare.com, with per-host robots.txt
+compliance, crawl-delay enforcement, and polite rate limiting.
 """
 
 from __future__ import annotations
 
 import asyncio
-from pathlib import Path
 import logging
+from pathlib import Path
 import re
+import time
 from typing import Any, Dict, List, Optional
 from urllib.parse import urljoin, urlparse
 from urllib.robotparser import RobotFileParser
+import xml.etree.ElementTree as ET
 
-import httpx
 from bs4 import BeautifulSoup
+import httpx
+
+logger = logging.getLogger(__name__)
+
+TIME_PATTERN = re.compile(r"\b(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\b")
+RUNTIME_PATTERN = re.compile(r"(\d+)\s*(?:minutes?|mins?|m\b)", re.IGNORECASE)
+YEAR_PATTERN = re.compile(r"\((\d{4})\)|\b(19\d{2}|20\d{2})\b")
+TRAILING_PAREN_YEAR_RE = re.compile(r"\s*\(((?:18|19|20)\d{2})\)\s*$")
+TRAILING_BARE_YEAR_RE = re.compile(r"\s+((?:19|20)\d{2})\s*$")
+SLUG_TRAILING_YEAR_RE = re.compile(r"-((?:19|20)\d{2})$")
+
+_MINOR_TITLE_WORDS = frozenset({
+    "a", "an", "and", "as", "at", "by", "for", "from",
+    "in", "nor", "of", "on", "or", "the", "to", "with",
+})
+_ROMAN_NUMERALS = frozenset({
+    "ii", "iii", "iv", "vi", "vii", "viii", "ix", "xi", "xii", "xiii",
+})
+_CONTRACTIONS_T = frozenset({
+    "aren", "can", "couldn", "didn", "doesn", "don", "hadn", "hasn",
+    "haven", "isn", "mustn", "shouldn", "wasn", "weren", "won", "wouldn",
+})
+_SPECIAL_SLUGS: Dict[str, str] = {
+    "c-h-u-d": "C.H.U.D.",
+    "m3gan": "M3GAN",
+    "m3gan-2-0": "M3GAN 2.0",
+    "1br": "1BR",
+    "vfw": "VFW",
+    "se7en": "Se7en",
+    "alien3": "Alien³",
+    "rec": "[REC]",
+    "rec-2": "[REC] 2",
+    "rec-3-genesis": "[REC] 3: Genesis",
+    "rec-4-apocalypse": "[REC] 4: Apocalypse",
+    "they-them": "They/Them",
+    "trick-r-treat": "Trick 'r Treat",
+    "all-hallows-eve": "All Hallows' Eve",
+    "bubba-ho-tep": "Bubba Ho-Tep",
+    "re-animator": "Re-Animator",
+    "bride-of-re-animator": "Bride of Re-Animator",
+    "jaws-3-d": "Jaws 3-D",
+    "piranha-3dd": "Piranha 3DD",
+    "spider-man": "Spider-Man",
+    "spider-man-2": "Spider-Man 2",
+    "gretel-and-hansel": "Gretel & Hansel",
+}
+
 
 def parse_timestamp_to_ms(time_str: str) -> Optional[int]:
     """Parse HH:MM:SS or MM:SS to milliseconds."""
@@ -26,41 +75,143 @@ def parse_timestamp_to_ms(time_str: str) -> Optional[int]:
         if len(parts) == 3:
             h, m, s = int(parts[0]), int(parts[1]), float(parts[2])
             return int((h * 3600 + m * 60 + s) * 1000)
-        elif len(parts) == 2:
+        if len(parts) == 2:
             m, s = int(parts[0]), float(parts[1])
             return int((m * 60 + s) * 1000)
     except (ValueError, TypeError):
         return None
     return None
 
-logger = logging.getLogger(__name__)
 
-TIME_PATTERN = re.compile(r"\b(\d{1,2}:\d{2}:\d{2}|\d{1,2}:\d{2})\b")
-RUNTIME_PATTERN = re.compile(r"(\d+)\s*(?:minutes?|mins?|m\b)", re.IGNORECASE)
-YEAR_PATTERN = re.compile(r"\((\d{4})\)|\b(19\d{2}|20\d{2})\b")
+def clean_slug_title(slug_body: str) -> str:
+    """Convert a cleaned movie slug (without TMDB ID or release year) into a readable title."""
+    raw = slug_body.strip("- ").lower()
+    if not raw:
+        return ""
+
+    if raw in _SPECIAL_SLUGS:
+        return _SPECIAL_SLUGS[raw]
+
+    if raw == "v-h-s":
+        return "V/H/S"
+    if raw.startswith("v-h-s-"):
+        rest = clean_slug_title(raw[len("v-h-s-"):])
+        return f"V/H/S/{rest}" if rest else "V/H/S"
+
+    tokens = [t for t in raw.split("-") if t]
+    merged: List[str] = []
+    i = 0
+    while i < len(tokens):
+        tok = tokens[i]
+        next_tok = tokens[i + 1] if i + 1 < len(tokens) else None
+
+        if next_tok == "s" and tok not in ("v", "h"):
+            merged.append(f"{tok}'s")
+            i += 2
+            continue
+        if next_tok == "t" and tok in _CONTRACTIONS_T:
+            merged.append(f"{tok}'t")
+            i += 2
+            continue
+        if next_tok == "re" and tok in ("you", "we", "they"):
+            merged.append(f"{tok}'re")
+            i += 2
+            continue
+        if tok == "i" and next_tok in ("m", "ve", "ll", "d"):
+            merged.append(f"I'{next_tok}")
+            i += 2
+            continue
+        if tok == "re" and next_tok == "animator":
+            merged.append("Re-Animator")
+            i += 2
+            continue
+        if tok == "spider" and next_tok == "man":
+            merged.append("Spider-Man")
+            i += 2
+            continue
+        if tok == "bubba" and next_tok == "ho" and i + 2 < len(tokens) and tokens[i + 2] == "tep":
+            merged.append("Bubba Ho-Tep")
+            i += 3
+            continue
+        merged.append(tok)
+        i += 1
+
+    formatted: List[str] = []
+    total = len(merged)
+    for idx, tok in enumerate(merged):
+        low = tok.lower()
+        if low in _ROMAN_NUMERALS:
+            formatted.append(low.upper())
+        elif low == "llc":
+            formatted.append("LLC")
+        elif low == "vfw":
+            formatted.append("VFW")
+        elif low == "1br":
+            formatted.append("1BR")
+        elif low == "m3gan":
+            formatted.append("M3GAN")
+        elif low == "3d":
+            formatted.append("3D")
+        elif low == "3dd":
+            formatted.append("3DD")
+        elif low == "vs":
+            formatted.append("vs.")
+        elif re.fullmatch(r"\d+(?:st|nd|rd|th)", low):
+            formatted.append(low)
+        elif "'" in tok:
+            head, tail = tok.split("'", 1)
+            head_fmt = "I" if head.lower() == "i" else head.capitalize()
+            formatted.append(f"{head_fmt}'{tail.lower()}")
+        elif low in _MINOR_TITLE_WORDS and 0 < idx < total - 1:
+            formatted.append(low)
+        elif any(ch.isupper() for ch in tok):
+            formatted.append(tok)
+        else:
+            formatted.append(tok.capitalize())
+
+    return " ".join(formatted)
+
+
+def _extract_title_and_year(raw_title: str) -> tuple[str, Optional[int]]:
+    """Extract release year from the end of a title string without consuming years inside titles."""
+    clean = raw_title.strip()
+    year: Optional[int] = None
+
+    paren_match = TRAILING_PAREN_YEAR_RE.search(clean)
+    if paren_match:
+        year = int(paren_match.group(1))
+        clean = clean[:paren_match.start()].strip()
+        return clean, year
+
+    # Check any parenthetical 4-digit year near the end (e.g. "Title (2013) [Unrated]")
+    all_parens = list(re.finditer(r"\(((?:18|19|20)\d{2})\)", clean))
+    if all_parens:
+        last_paren = all_parens[-1]
+        prefix = clean[:last_paren.start()].strip()
+        if prefix:
+            year = int(last_paren.group(1))
+            clean = prefix
+            return clean, year
+
+    bare_match = TRAILING_BARE_YEAR_RE.search(clean)
+    if bare_match:
+        prefix = clean[:bare_match.start()].strip()
+        if prefix:
+            year = int(bare_match.group(1))
+            clean = prefix
+
+    return clean, year
 
 
 class WhenJumpScareScraper:
     """Scrapes movie indices and jump scare timestamps from whenjumpscare.com and wheresthejump.com."""
 
     DEFAULT_BASE_URL = "https://www.whenjumpscare.com"
-    USER_AGENT = (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    )
+    USER_AGENT = "SpookCueBot/0.1 (+https://github.com/aarav-fred-mehta/SpookCue)"
     DEFAULT_HEADERS = {
         "User-Agent": USER_AGENT,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
-        "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-        "Sec-Ch-Ua-Mobile": "?0",
-        "Sec-Ch-Ua-Platform": '"Windows"',
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
-        "Sec-Fetch-User": "?1",
-        "Upgrade-Insecure-Requests": "1",
     }
 
     def __init__(
@@ -74,7 +225,17 @@ class WhenJumpScareScraper:
         self._client = client
         self._owns_client = client is None
         self._robot_parser: Optional[RobotFileParser] = None
+        self._robot_parsers: Dict[str, Optional[RobotFileParser]] = {}
         self._robots_loaded = False
+        self._host_delays: Dict[str, float] = {}
+        self._last_request_at: Dict[str, float] = {}
+
+    @staticmethod
+    def _origin_for(url: str) -> str:
+        parsed = urlparse(url)
+        if parsed.scheme and parsed.netloc:
+            return f"{parsed.scheme}://{parsed.netloc}".lower()
+        return ""
 
     async def _get_client(self) -> httpx.AsyncClient:
         if self._client is None or self._client.is_closed:
@@ -91,38 +252,29 @@ class WhenJumpScareScraper:
         if self._owns_client and self._client and not self._client.is_closed:
             await self._client.aclose()
 
-    async def _fetch_html(self, target_url: str) -> Optional[str]:
-        """Fetch HTML content with curl_cffi Chrome impersonation (bypassing Cloudflare WAF) or httpx fallback."""
-        try:
-            from curl_cffi.requests import AsyncSession
-            async with AsyncSession(impersonate="chrome124") as s:
-                c_resp = await s.get(target_url, timeout=15)
-                if c_resp.status_code == 200:
-                    return c_resp.text
-                elif c_resp.status_code == 403:
-                    logger.info("Access to %s returned 403 (Cloudflare WAF on datacenter IP)", target_url)
-        except ImportError:
-            pass
-        except Exception as c_exc:
-            logger.debug("curl_cffi fetch failed for %s: %s", target_url, c_exc)
+    async def _respect_rate_limit(self, url: str) -> None:
+        origin = self._origin_for(url) or self.base_url.lower()
+        required_delay = max(self.delay_seconds, self._host_delays.get(origin, 0.0))
+        if required_delay <= 0:
+            return
+        now = time.monotonic()
+        last = self._last_request_at.get(origin)
+        if last is not None:
+            remaining = required_delay - (now - last)
+            if remaining > 0:
+                await asyncio.sleep(remaining)
+        self._last_request_at[origin] = time.monotonic()
 
-        try:
-            client = await self._get_client()
-            h_resp = await client.get(target_url, timeout=15.0)
-            if h_resp.status_code == 200:
-                return h_resp.text
-            elif h_resp.status_code == 403:
-                logger.info("Access to %s protected by Cloudflare WAF (403)", target_url)
-        except Exception as h_exc:
-            logger.debug("httpx fetch failed for %s: %s", target_url, h_exc)
-        return None
-
-    async def init_robots_parser(self) -> None:
-        """Fetch and parse robots.txt to verify crawling permissions and crawl delay."""
-        if self._robots_loaded:
+    async def init_robots_parser(self, origin: Optional[str] = None) -> None:
+        """Fetch and parse robots.txt per host to verify crawling permissions and crawl-delay."""
+        target_origin = (origin or self.base_url).rstrip("/").lower()
+        if target_origin in self._robot_parsers:
+            return
+        if origin is None and self._robots_loaded and self._robot_parser is not None:
+            self._robot_parsers[target_origin] = self._robot_parser
             return
 
-        robots_url = f"{self.base_url}/robots.txt"
+        robots_url = f"{target_origin}/robots.txt"
         client = await self._get_client()
         parser = RobotFileParser()
 
@@ -130,33 +282,120 @@ class WhenJumpScareScraper:
             resp = await client.get(robots_url, timeout=10.0)
             if resp.status_code == 200:
                 parser.parse(resp.text.splitlines())
-                self._robot_parser = parser
-                # Check crawl-delay for our user-agent or wildcard
+                self._robot_parsers[target_origin] = parser
+                if target_origin == self.base_url.lower():
+                    self._robot_parser = parser
                 crawl_delay = parser.crawl_delay(self.USER_AGENT) or parser.crawl_delay("*")
                 if crawl_delay is not None:
-                    # Cap crawl-delay to avoid stalling runs (e.g. Where's The Jump's 20s rule)
-                    capped_delay = min(float(crawl_delay), max(self.delay_seconds, 2.0))
-                    logger.info("Robots.txt specified crawl-delay %.1fs (using %.1fs)", float(crawl_delay), capped_delay)
-                    self.delay_seconds = capped_delay
+                    effective_delay = max(self.delay_seconds, float(crawl_delay))
+                    self._host_delays[target_origin] = effective_delay
+                    if target_origin == self.base_url.lower():
+                        self.delay_seconds = effective_delay
+                    logger.info(
+                        "robots.txt (%s) specified Crawl-delay %.1fs (enforcing %.1fs)",
+                        target_origin,
+                        float(crawl_delay),
+                        effective_delay,
+                    )
                 logger.info("Successfully loaded robots.txt from %s", robots_url)
             else:
-                logger.debug("robots.txt returned status %d; proceeding with default delay", resp.status_code)
+                self._robot_parsers[target_origin] = None
+                logger.debug("robots.txt returned status %d for %s; proceeding with default delay", resp.status_code, robots_url)
         except Exception as exc:
-            logger.debug("Could not fetch robots.txt (%s); proceeding with default delay", exc)
+            self._robot_parsers[target_origin] = None
+            logger.debug("Could not fetch robots.txt from %s (%s); proceeding with default delay", robots_url, exc)
 
-        self._robots_loaded = True
+        if origin is None:
+            self._robots_loaded = True
 
     def can_fetch(self, url: str) -> bool:
         """Check if robots.txt permits crawling the given URL."""
-        if self._robot_parser:
-            return self._robot_parser.can_fetch(self.USER_AGENT, url)
+        origin = self._origin_for(url)
+        parser = self._robot_parsers.get(origin) if origin else None
+        if parser is None:
+            parser = self._robot_parser
+        if parser is not None:
+            return parser.can_fetch(self.USER_AGENT, url)
         return True
+
+    async def _fetch_html(self, target_url: str) -> Optional[str]:
+        """Fetch HTML or XML politely using httpx while honoring robots.txt, crawl-delay, and HTTP 429/403."""
+        origin = self._origin_for(target_url) or self.base_url.lower()
+        await self.init_robots_parser(origin)
+        if not self.can_fetch(target_url):
+            logger.warning("robots.txt disallows crawling %s", target_url)
+            return None
+
+        client = await self._get_client()
+        for attempt in range(2):
+            await self._respect_rate_limit(target_url)
+            try:
+                resp = await client.get(target_url, timeout=15.0)
+                if resp.status_code == 200:
+                    return resp.text
+                if resp.status_code == 429 and attempt == 0:
+                    retry_after_raw = resp.headers.get("Retry-After", "")
+                    try:
+                        wait_s = max(float(retry_after_raw), max(self.delay_seconds, 5.0))
+                    except ValueError:
+                        wait_s = max(self.delay_seconds, 5.0)
+                    wait_s = min(wait_s, 60.0)
+                    logger.warning("HTTP 429 from %s; honoring Retry-After %.1fs", target_url, wait_s)
+                    await asyncio.sleep(wait_s)
+                    continue
+                if resp.status_code == 403:
+                    logger.info("Access to %s returned 403 Forbidden; skipping without bypass", target_url)
+                    return None
+                logger.debug("Unexpected status %d for %s", resp.status_code, target_url)
+                return None
+            except Exception as exc:
+                logger.debug("httpx fetch failed for %s: %s", target_url, exc)
+                return None
+        return None
+
+    @staticmethod
+    def _parse_sitemap_movie_url(url: str, lastmod: Optional[str] = None) -> Optional[Dict[str, Any]]:
+        """Parse a WhenJumpScare sitemap movie URL into structured metadata."""
+        if "/movie/" not in url:
+            return None
+        slug = url.rstrip("/").split("/")[-1]
+        if not slug:
+            return None
+
+        m_tmdb = re.search(r"/movie/(\d+)-", url)
+        tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
+
+        # Strip leading TMDB ID first so IDs like 2082 or 1992 are never parsed as years
+        clean_slug = re.sub(r"^\d+-", "", slug)
+
+        # Extract trailing release year only from the end of the slug (so 1922-2017 -> year=2017, title="1922")
+        year: Optional[int] = None
+        year_match = SLUG_TRAILING_YEAR_RE.search(clean_slug)
+        if year_match:
+            year = int(year_match.group(1))
+            clean_slug = clean_slug[:year_match.start()]
+
+        title = clean_slug_title(clean_slug)
+        if not title:
+            return None
+
+        return {
+            "title": title,
+            "url": url,
+            "slug": slug,
+            "year": year,
+            "tmdb_id": tmdb_id,
+            "lastmod": lastmod,
+            "source": "whenjumpscare",
+            "director": "",
+            "jump_count": 0,
+            "rating": 0.0,
+        }
 
     @staticmethod
     def parse_pagination_next_url(html: str, current_url: str) -> Optional[str]:
         """Detect and extract 'next' page URL from pagination controls if present."""
         soup = BeautifulSoup(html, "html.parser")
-        # Check standard pagination patterns: class contains 'next', rel='next', aria-label, etc.
         next_tag = soup.find("a", class_=lambda c: c and "next" in c.lower(), href=True)
         if not next_tag:
             next_tag = soup.find("a", rel=lambda r: r and "next" in str(r).lower(), href=True)
@@ -178,11 +417,10 @@ class WhenJumpScareScraper:
 
         table = soup.find("table")
         if not table:
-            # Fallback for whenjumpscare.com or modern card-based lists: look for all movie links
             non_movie_slugs = {
                 "movie", "movies", "all-jumpscares", "popular-movies", "recently-added",
                 "find-movie", "submit-jumpscare", "contact", "about", "privacy-policy",
-                "terms", "terms-of-service", "disclaimer", "watch-along", "live-companion"
+                "terms", "terms-of-service", "disclaimer", "watch-along", "live-companion",
             }
             links = soup.find_all("a", href=True)
             for link in links:
@@ -200,18 +438,11 @@ class WhenJumpScareScraper:
 
                     title = link.get_text(strip=True)
                     if title and len(title) > 1:
-                        # Clean title if it contains "Jump Scares", branding suffixes, etc.
                         clean_title = re.sub(r"^Jump Scares in\s+", "", title, flags=re.IGNORECASE)
                         clean_title = re.sub(r"\s+Jump Scares.*$", "", clean_title, flags=re.IGNORECASE)
                         clean_title = re.sub(r"\s*[|–—-]\s*WhenJumpScare.*$", "", clean_title, flags=re.IGNORECASE).strip()
 
-                        year = None
-                        year_match = YEAR_PATTERN.search(clean_title)
-                        if year_match:
-                            y_str = year_match.group(1) or year_match.group(2)
-                            if y_str:
-                                year = int(y_str)
-                                clean_title = clean_title[:year_match.start()].strip()
+                        clean_title, year = _extract_title_and_year(clean_title)
 
                         movies.append({
                             "title": clean_title,
@@ -275,39 +506,30 @@ class WhenJumpScareScraper:
         """Parse individual movie jump scare page HTML into structured metadata and scares."""
         soup = BeautifulSoup(html, "html.parser")
 
-        # 1. Title and Year
         title = ""
         year: Optional[int] = None
 
         h1 = soup.find("h1")
         if h1:
             h1_text = h1.get_text(strip=True)
-            # Remove "Jump Scares in " prefix, trailing "Jump Scares", or branding
             clean_title = re.sub(r"^Jump Scares in\s+", "", h1_text, flags=re.IGNORECASE)
             clean_title = re.sub(r"\s+Jump Scares.*$", "", clean_title, flags=re.IGNORECASE)
             clean_title = re.sub(r"\s*[|–—-]\s*WhenJumpScare.*$", "", clean_title, flags=re.IGNORECASE).strip()
 
-            # Check for year in title e.g. "The Conjuring (2013)"
-            year_match = YEAR_PATTERN.search(clean_title)
-            if year_match:
-                year_str = year_match.group(1) or year_match.group(2)
-                if year_str:
-                    year = int(year_str)
-                    clean_title = clean_title[:year_match.start()].strip()
-            title = clean_title
+            title, year = _extract_title_and_year(clean_title)
 
-        # Check for year in span if not found in title (e.g. WhenJumpScare <span class="timecode text-bone-2">2013</span>)
         if year is None:
-            span_year = soup.find("span", class_=lambda c: c and "timecode" in c and any(cls in c for cls in ["text-bone-2", "text-bone"]))
+            span_year = soup.find(
+                "span",
+                class_=lambda c: c and "timecode" in c and any(cls in c for cls in ["text-bone-2", "text-bone"]),
+            )
             if span_year and span_year.get_text().strip().isdigit():
                 y_val = int(span_year.get_text().strip())
                 if 1900 <= y_val <= 2100:
                     year = y_val
 
-        # 2. Runtime
         runtime_minutes = 0
         content_text = soup.get_text()
-        # Check "1h 52m" format first
         hm_match = re.search(r"(\d+)\s*h(?:ours?)?\s*(\d+)?\s*m", content_text, re.IGNORECASE)
         if hm_match:
             try:
@@ -324,7 +546,6 @@ class WhenJumpScareScraper:
                 except ValueError:
                     pass
 
-        # 3. Check for embedded TMDB ID or IMDb link
         tmdb_id: Optional[int] = None
         for a in soup.find_all("a", href=True):
             href = a["href"]
@@ -333,11 +554,9 @@ class WhenJumpScareScraper:
                 tmdb_id = int(m_tmdb.group(1))
                 break
 
-        # 4. Scares
         scares: List[Dict[str, Any]] = []
         seen_timestamps = set()
 
-        # Check modern WhenJumpScare layout with <time> tags in <li> elements
         time_tags = soup.find_all("time")
         if time_tags:
             for t_tag in time_tags:
@@ -346,7 +565,7 @@ class WhenJumpScareScraper:
                 if not m:
                     continue
                 time_ms = parse_timestamp_to_ms(time_str)
-                if time_ms in seen_timestamps:
+                if time_ms is None or time_ms in seen_timestamps:
                     continue
                 seen_timestamps.add(time_ms)
 
@@ -368,8 +587,6 @@ class WhenJumpScareScraper:
                 })
         else:
             for tag in soup.find_all(["p", "li", "tr", "div"]):
-                # Skip if this element has child block tags that also contain timestamps
-                # to avoid double-processing container divs
                 child_has_time = any(
                     child.name in ["p", "li", "tr", "div"] and TIME_PATTERN.search(child.get_text())
                     for child in tag.find_all(["p", "li", "tr", "div"])
@@ -382,19 +599,16 @@ class WhenJumpScareScraper:
                 if not m:
                     continue
 
-                # Skip header or metadata sections (e.g. "Runtime: 112 minutes")
                 lower_text = tag_text.lower()
                 if "runtime" in lower_text and len(tag_text) < 40:
                     continue
 
                 time_str = m.group(1)
                 time_ms = parse_timestamp_to_ms(time_str)
-
-                if time_ms in seen_timestamps:
+                if time_ms is None or time_ms in seen_timestamps:
                     continue
                 seen_timestamps.add(time_ms)
 
-                # Determine major vs minor:
                 bold_tag = tag.find(["strong", "b"])
                 is_bold = bold_tag is not None and time_str in bold_tag.get_text()
                 tag_class = " ".join(tag.get("class", [])) if isinstance(tag.get("class"), list) else str(tag.get("class", ""))
@@ -405,7 +619,6 @@ class WhenJumpScareScraper:
                 )
                 is_major = has_major_marker or is_bold
 
-                # Extract description text after timestamp
                 desc_part = tag_text[m.end():]
                 desc = re.sub(r"^\s*\[?(?:major|minor)\]?\s*[-–—:]?\s*", "", desc_part, flags=re.IGNORECASE)
                 desc = desc.strip(" \t\n\r–—-:")
@@ -418,7 +631,6 @@ class WhenJumpScareScraper:
                     "description": desc,
                 })
 
-        # Sort scares chronologically
         scares.sort(key=lambda s: s["resolved_time_ms"])
         for idx, s in enumerate(scares, start=1):
             s["id"] = f"scare_{idx:02d}"
@@ -435,13 +647,12 @@ class WhenJumpScareScraper:
     async def fetch_movie_index(self, max_pages: int = 50) -> List[Dict[str, Any]]:
         """Fetch all movies from whenjumpscare.com index (sitemap or HTML pagination), with wheresthejump.com fallback."""
         await self.init_robots_parser()
-        client = await self._get_client()
 
         all_movies: List[Dict[str, Any]] = []
         seen_slugs = set()
-        got_403 = False
+        got_blocked = False
 
-        # Strategy 1: Sitemap from whenjumpscare.com (Contains all 1,167 films)
+        # Strategy 1: Sitemap from whenjumpscare.com (with bundled XML fallback when live fetch is unavailable)
         if "whenjumpscare.com" in self.base_url:
             sitemap_url = f"{self.base_url}/sitemap.xml"
             try:
@@ -450,172 +661,104 @@ class WhenJumpScareScraper:
                 if not sitemap_text or "<urlset" not in sitemap_text:
                     bundled_path = Path(__file__).parent / "data" / "whenjumpscare_sitemap.xml"
                     if bundled_path.exists():
-                        logger.info("Live sitemap blocked or unavailable; loading bundled sitemap fallback (%s)", bundled_path)
+                        logger.info("Live sitemap unavailable; loading bundled sitemap fallback (%s)", bundled_path)
                         sitemap_text = bundled_path.read_text(encoding="utf-8")
 
                 if sitemap_text and "<urlset" in sitemap_text:
-                    import xml.etree.ElementTree as ET
                     root = ET.fromstring(sitemap_text)
-                    url_elements = list(root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}url"))
-                    if not url_elements:
-                        for loc in root.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"):
-                            if not loc.text:
-                                continue
-                            url = loc.text.strip()
-                            if "/movie/" in url:
-                                slug = url.rstrip("/").split("/")[-1]
-                                if slug not in seen_slugs:
-                                    seen_slugs.add(slug)
-                                    m_tmdb = re.search(r"/movie/(\d+)-", url)
-                                    tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
-                                    year = None
-                                    year_match = YEAR_PATTERN.search(slug)
-                                    if year_match:
-                                        y_str = year_match.group(1) or year_match.group(2)
-                                        if y_str:
-                                            year = int(y_str)
-                                    clean_slug = re.sub(r"^\d+-", "", slug)
-                                    if year:
-                                        clean_slug = re.sub(rf"-{year}$", "", clean_slug)
-                                    title = clean_slug.replace("-", " ").title()
-                                    all_movies.append({
-                                        "title": title,
-                                        "url": url,
-                                        "slug": slug,
-                                        "year": year,
-                                        "tmdb_id": tmdb_id,
-                                        "lastmod": None,
-                                        "source": "whenjumpscare",
-                                        "director": "",
-                                        "jump_count": 0,
-                                        "rating": 0.0,
-                                    })
-                    else:
+                    ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+                    url_elements = list(root.iter(f"{ns}url"))
+                    if url_elements:
                         for url_elem in url_elements:
-                            loc_elem = url_elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+                            loc_elem = url_elem.find(f"{ns}loc")
                             if loc_elem is None or not loc_elem.text:
                                 continue
-                            url = loc_elem.text.strip()
-                            if "/movie/" in url:
-                                slug = url.rstrip("/").split("/")[-1]
-                                if slug not in seen_slugs:
-                                    seen_slugs.add(slug)
-                                    lastmod_elem = url_elem.find("{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod")
-                                    lastmod = lastmod_elem.text.strip() if (lastmod_elem is not None and lastmod_elem.text) else None
-                                    m_tmdb = re.search(r"/movie/(\d+)-", url)
-                                    tmdb_id = int(m_tmdb.group(1)) if m_tmdb else None
-                                    year = None
-                                    year_match = YEAR_PATTERN.search(slug)
-                                    if year_match:
-                                        y_str = year_match.group(1) or year_match.group(2)
-                                        if y_str:
-                                            year = int(y_str)
-                                    clean_slug = re.sub(r"^\d+-", "", slug)
-                                    if year:
-                                        clean_slug = re.sub(rf"-{year}$", "", clean_slug)
-                                    title = clean_slug.replace("-", " ").title()
-                                    all_movies.append({
-                                        "title": title,
-                                        "url": url,
-                                        "slug": slug,
-                                        "year": year,
-                                        "tmdb_id": tmdb_id,
-                                        "lastmod": lastmod,
-                                        "source": "whenjumpscare",
-                                        "director": "",
-                                        "jump_count": 0,
-                                        "rating": 0.0,
-                                    })
+                            lastmod_elem = url_elem.find(f"{ns}lastmod")
+                            lastmod = (
+                                lastmod_elem.text.strip()
+                                if (lastmod_elem is not None and lastmod_elem.text)
+                                else None
+                            )
+                            record = self._parse_sitemap_movie_url(loc_elem.text.strip(), lastmod=lastmod)
+                            if record and record["slug"] not in seen_slugs:
+                                seen_slugs.add(record["slug"])
+                                all_movies.append(record)
+                    else:
+                        for loc in root.iter(f"{ns}loc"):
+                            if not loc.text:
+                                continue
+                            record = self._parse_sitemap_movie_url(loc.text.strip(), lastmod=None)
+                            if record and record["slug"] not in seen_slugs:
+                                seen_slugs.add(record["slug"])
+                                all_movies.append(record)
+
                     if all_movies:
-                        logger.info("Successfully fetched %d movies from sitemap.xml", len(all_movies))
+                        logger.info("Successfully loaded %d movies from sitemap.xml", len(all_movies))
                         return all_movies
                 else:
-                    got_403 = True
+                    got_blocked = True
             except Exception as exc:
                 logger.warning("Could not parse sitemap.xml (%s); falling back to HTML crawling", exc)
 
-        # Strategy 2: HTML crawling
-        if got_403:
-            # Switch base_url directly to fallback to prevent repeating 403 on whenjumpscare
+        # Strategy 2: HTML crawling (strictly respecting robots.txt and crawl-delay)
+        if got_blocked:
             self.base_url = "https://wheresthejump.com"
             current_url: Optional[str] = f"{self.base_url}/full-movie-list/"
         elif "whenjumpscare.com" in self.base_url:
             current_url = f"{self.base_url}/all-jumpscares"
         else:
             current_url = f"{self.base_url}/full-movie-list/"
+
         visited_urls = set()
         page_num = 1
 
         while current_url and current_url not in visited_urls and page_num <= max_pages:
             visited_urls.add(current_url)
-
-            if not self.can_fetch(current_url):
-                logger.warning("robots.txt disallows crawling %s; halting index pagination", current_url)
+            logger.info("Fetching movie index (page %d): %s", page_num, current_url)
+            html_text = await self._fetch_html(current_url)
+            if not html_text:
+                got_blocked = True
                 break
 
-            logger.info("Fetching movie index (page %d): %s", page_num, current_url)
-            try:
-                resp = await client.get(current_url)
-                if resp.status_code == 403:
-                    logger.warning("Index page %s returned 403 Forbidden (Cloudflare WAF)", current_url)
-                    got_403 = True
-                    break
-                resp.raise_for_status()
+            page_movies = self.parse_index_html(html_text, base_url=self.base_url)
+            new_movies_on_page = 0
+            for m in page_movies:
+                slug = m.get("slug")
+                if slug not in seen_slugs:
+                    seen_slugs.add(slug)
+                    all_movies.append(m)
+                    new_movies_on_page += 1
 
-                page_movies = self.parse_index_html(resp.text, base_url=self.base_url)
-                new_movies_on_page = 0
-                for m in page_movies:
+            logger.info("Page %d yielded %d new movies (total: %d)", page_num, new_movies_on_page, len(all_movies))
+
+            next_url = self.parse_pagination_next_url(html_text, current_url)
+            if next_url and next_url not in visited_urls:
+                current_url = next_url
+                page_num += 1
+            elif "whenjumpscare.com" in self.base_url and new_movies_on_page > 0:
+                page_num += 1
+                current_url = f"{self.base_url}/all-jumpscares?page={page_num}"
+            else:
+                current_url = None
+
+        # Strategy 3: Fallback to wheresthejump.com respecting its robots.txt & crawl-delay
+        if not all_movies and (got_blocked or "whenjumpscare.com" in self.base_url):
+            fallback_url = "https://wheresthejump.com/full-movie-list/"
+            logger.info("No movies fetched from whenjumpscare.com; attempting fallback to %s", fallback_url)
+            fb_html = await self._fetch_html(fallback_url)
+            if fb_html:
+                fb_movies = self.parse_index_html(fb_html, base_url="https://wheresthejump.com")
+                for m in fb_movies:
                     slug = m.get("slug")
                     if slug not in seen_slugs:
                         seen_slugs.add(slug)
                         all_movies.append(m)
-                        new_movies_on_page += 1
-
-                logger.info("Page %d yielded %d new movies (total: %d)", page_num, new_movies_on_page, len(all_movies))
-
-                # Check if there is a next page
-                next_url = self.parse_pagination_next_url(resp.text, current_url)
-                if next_url and next_url not in visited_urls:
-                    current_url = next_url
-                    page_num += 1
-                    if self.delay_seconds > 0:
-                        await asyncio.sleep(self.delay_seconds)
-                elif "whenjumpscare.com" in self.base_url and new_movies_on_page > 0:
-                    page_num += 1
-                    current_url = f"{self.base_url}/all-jumpscares?page={page_num}"
-                    if self.delay_seconds > 0:
-                        await asyncio.sleep(self.delay_seconds)
-                else:
-                    current_url = None
-
-            except Exception as exc:
-                logger.error("Failed to fetch index page %s: %s", current_url, exc)
-                break
-
-        # Strategy 3: Automatic fallback to wheresthejump.com if whenjumpscare was blocked by Cloudflare (403)
-        if not all_movies and (got_403 or "whenjumpscare.com" in self.base_url):
-            fallback_url = "https://wheresthejump.com/full-movie-list/"
-            logger.info("No movies fetched from whenjumpscare.com; attempting fallback to %s", fallback_url)
-            try:
-                fb_resp = await client.get(fallback_url)
-                if fb_resp.status_code == 200:
-                    fb_movies = self.parse_index_html(fb_resp.text, base_url="https://wheresthejump.com")
-                    for m in fb_movies:
-                        slug = m.get("slug")
-                        if slug not in seen_slugs:
-                            seen_slugs.add(slug)
-                            all_movies.append(m)
-                    logger.info("Fallback to wheresthejump.com yielded %d movies", len(all_movies))
-            except Exception as exc:
-                logger.error("Fallback to wheresthejump.com failed: %s", exc)
+                logger.info("Fallback to wheresthejump.com yielded %d movies", len(all_movies))
 
         return all_movies
 
     async def parse_movie_page(self, movie_url_or_slug: str) -> Dict[str, Any]:
         """Fetch and parse an individual movie jump scare page, respecting robots.txt and rate limits."""
-        await self.init_robots_parser()
-        client = await self._get_client()
-
         if movie_url_or_slug.startswith("http://") or movie_url_or_slug.startswith("https://"):
             url = movie_url_or_slug
         else:
@@ -628,19 +771,14 @@ class WhenJumpScareScraper:
             else:
                 url = f"{self.base_url}/{clean_slug}/"
 
-        if not self.can_fetch(url):
-            logger.warning("robots.txt disallows crawling %s", url)
-            return {
-                "title": "",
-                "year": None,
-                "runtime_minutes": 0,
-                "tmdb_id": None,
-                "scares": [],
-                "scare_count": 0,
-            }
-
-        if self.delay_seconds > 0:
-            await asyncio.sleep(self.delay_seconds)
+        empty_result: Dict[str, Any] = {
+            "title": "",
+            "year": None,
+            "runtime_minutes": 0,
+            "tmdb_id": None,
+            "scares": [],
+            "scare_count": 0,
+        }
 
         try:
             html_text = await self._fetch_html(url)
@@ -648,29 +786,14 @@ class WhenJumpScareScraper:
                 clean_slug = url.rstrip("/").split("/")[-1]
                 slug_no_id = re.sub(r"^\d+-", "", clean_slug)
                 wtj_url = f"https://wheresthejump.com/jump-scares-in-{slug_no_id}/"
-                logger.info("whenjumpscare blocked/unavailable for %s; attempting WTJ fallback: %s", url, wtj_url)
+                logger.info("whenjumpscare unavailable for %s; attempting WTJ fallback: %s", url, wtj_url)
                 html_text = await self._fetch_html(wtj_url)
 
             if not html_text:
                 logger.warning("Could not fetch movie page: %s", url)
-                return {
-                    "title": "",
-                    "year": None,
-                    "runtime_minutes": 0,
-                    "tmdb_id": None,
-                    "scares": [],
-                    "scare_count": 0,
-                }
+                return empty_result
 
-            data = self.parse_movie_html(html_text)
-            return data
+            return self.parse_movie_html(html_text)
         except Exception as exc:
             logger.error("Failed to parse movie page %s: %s", url, exc)
-            return {
-                "title": "",
-                "year": None,
-                "runtime_minutes": 0,
-                "tmdb_id": None,
-                "scares": [],
-                "scare_count": 0,
-            }
+            return empty_result

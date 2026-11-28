@@ -3,7 +3,7 @@
   "runtime_minutes": 68,
   "scares": [
     {
-      "description": "Frank quickly removes a woman\u2019s hood and underneath is revealed to be a burnt corpse that begins to growl.",
+      "description": "Frank quickly removes a woman’s hood and underneath is revealed to be a burnt corpse that begins to growl.",
       "id": "scare_01",
       "resolved_time_ms": 55000,
       "type": "minor"
@@ -54,6 +54,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:48.203Z",
   "sync_type": "audio_hash",
-  "title": "Hotel Inferno 3 The Castle Of Screams",
+  "title": "Hotel Inferno 3: The Castle of Screams",
   "tmdb_id": 588440
 }

@@ -3,7 +3,7 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "description": "The phone is yanked out of Lily\u2019s hand.",
+      "description": "The phone is yanked out of Lily’s hand.",
       "id": "scare_01",
       "resolved_time_ms": 1071000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Lily gasps and the reflection of Polly can be seen in Lily\u2019s eye.",
+      "description": "Lily gasps and the reflection of Polly can be seen in Lily’s eye.",
       "id": "scare_04",
       "resolved_time_ms": 4244000,
       "type": "minor"
@@ -30,6 +30,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:52.430Z",
   "sync_type": "audio_hash",
-  "title": "I Am The Pretty Thing That Lives In The House",
+  "title": "I Am the Pretty Thing That Lives in the House",
   "tmdb_id": 407559
 }

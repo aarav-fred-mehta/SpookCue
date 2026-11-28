@@ -3,7 +3,7 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "description": "A man bangs on the front window of the plane from the outside, after which it\u2019s revealed the plane is actually a set.",
+      "description": "A man bangs on the front window of the plane from the outside, after which it’s revealed the plane is actually a set.",
       "id": "scare_01",
       "resolved_time_ms": 315000,
       "type": "minor"
@@ -60,6 +60,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:25.509Z",
   "sync_type": "audio_hash",
-  "title": "Urban Legends Final Cut",
+  "title": "Urban Legends: Final Cut",
   "tmdb_id": 12212
 }

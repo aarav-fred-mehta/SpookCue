@@ -3,7 +3,7 @@
   "runtime_minutes": 96,
   "scares": [
     {
-      "description": "There\u2019s an abrupt scene of a few dead animals on the wall.",
+      "description": "There’s an abrupt scene of a few dead animals on the wall.",
       "id": "scare_01",
       "resolved_time_ms": 690000,
       "type": "minor"
@@ -36,6 +36,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:36.571Z",
   "sync_type": "audio_hash",
-  "title": "Night Of The Living Dead",
+  "title": "Night of the Living Dead",
   "tmdb_id": 10331
 }

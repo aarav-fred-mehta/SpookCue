@@ -3,7 +3,7 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "description": "A hand reaches out and grabs Jesse\u2019s walkie talkie which is lying on the ground.",
+      "description": "A hand reaches out and grabs Jesse’s walkie talkie which is lying on the ground.",
       "id": "scare_01",
       "resolved_time_ms": 153000,
       "type": "minor"
@@ -45,7 +45,7 @@
       "type": "minor"
     },
     {
-      "description": "Jim puts his hand on Paul\u2019s shoulder.",
+      "description": "Jim puts his hand on Paul’s shoulder.",
       "id": "scare_08",
       "resolved_time_ms": 3521000,
       "type": "major"
@@ -102,6 +102,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:28.892Z",
   "sync_type": "audio_hash",
-  "title": "Dark Was The Night",
+  "title": "Dark Was the Night",
   "tmdb_id": 300467
 }

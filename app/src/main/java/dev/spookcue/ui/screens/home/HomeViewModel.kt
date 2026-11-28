@@ -73,32 +73,44 @@ class HomeViewModel @Inject constructor(
     private fun categorizeCatalog(catalog: List<MovieCatalogItem>): Pair<List<MovieCatalogItem>, List<MovieCatalogItem>> {
         val currentYear = Calendar.getInstance().get(Calendar.YEAR)
 
-        // 1. Theater / New Releases (dynamically tagged "NEW" or released in current/previous calendar year)
+        // 1. Theater / New Releases (dynamically tagged "NEW" or released in current/previous calendar year, guarding invalid future years)
         val theater = catalog
-            .filter { "NEW" in it.tags || ((it.releaseYear ?: 0) >= (currentYear - 1)) }
+            .filter {
+                val yr = it.releaseYear ?: 0
+                val isRecentYear = yr in (currentYear - 1)..(currentYear + 1)
+                ("NEW" in it.tags && (yr == 0 || yr <= currentYear + 1)) || isRecentYear
+            }
             .sortedWith(
-                compareByDescending<MovieCatalogItem> { it.releaseYear ?: 0 }
+                compareByDescending<MovieCatalogItem> { if ("NEW" in it.tags) 1 else 0 }
+                    .thenByDescending { (it.releaseYear ?: 0).coerceAtMost(currentYear + 1) }
+                    .thenByDescending { if (it.hasAcousticSync) 1 else 0 }
                     .thenByDescending { it.scareCount }
             )
             .take(16)
 
-        // 2. Popular Home Watch (dynamically tagged "HOT", iconic classics, or high scare counts)
-        val popularTitles = setOf(
-            "The Conjuring", "The Conjuring 2", "Insidious", "Sinister", "Hereditary",
-            "It Follows", "[Rec]", "A Quiet Place", "The Ring", "Lights Out",
-            "Annabelle: Creation", "Don't Breathe", "The Babadook", "Oculus",
-            "The Autopsy of Jane Doe", "28 Days Later", "The Descent", "Paranormal Activity",
-            "Alien", "The Shining", "Midsommar", "Barbarian", "Terrifier 2", "Smile", "Scream 6"
+        // 2. Popular Home Watch (TMDB popular/trending "HOT", iconic classics, acoustic-sync ready, high scare counts)
+        val popularTitlesLower = setOf(
+            "the conjuring", "the conjuring 2", "insidious", "sinister", "hereditary",
+            "it follows", "[rec]", "a quiet place", "a quiet place part ii", "the ring",
+            "lights out", "annabelle: creation", "don't breathe", "the babadook", "oculus",
+            "the autopsy of jane doe", "28 days later", "the descent", "paranormal activity",
+            "alien", "the shining", "midsommar", "barbarian", "terrifier 2", "smile",
+            "scream vi", "get out", "talk to me", "longlegs"
         )
-        val home = catalog
-            .filter { "HOT" in it.tags || it.title in popularTitles || it.scareCount >= 14 }
+        val theaterIds = theater.map { it.tmdbId }.toSet()
+        val homeCandidates = catalog
+            .filter { "HOT" in it.tags || it.title.lowercase() in popularTitlesLower || it.scareCount >= 14 }
             .distinctBy { it.tmdbId }
+        val nonTheaterCandidates = homeCandidates.filter { it.tmdbId !in theaterIds }
+        val homePool = if (nonTheaterCandidates.size >= 16) nonTheaterCandidates else homeCandidates
+
+        val home = homePool
             .sortedByDescending {
-                when {
-                    "HOT" in it.tags -> 200 + it.scareCount
-                    it.title in popularTitles -> 100 + it.scareCount
-                    else -> it.scareCount
-                }
+                var score = it.scareCount.coerceAtMost(25)
+                if (it.title.lowercase() in popularTitlesLower) score += 400
+                if ("HOT" in it.tags) score += 200
+                if (it.hasAcousticSync) score += 150
+                score
             }
             .take(16)
 
@@ -174,7 +186,7 @@ class HomeViewModel @Inject constructor(
             coroutineScope {
                 items.map { movie ->
                     async(Dispatchers.IO) {
-                        val posterPath = movie.posterPath ?: return@async
+                        val posterPath = movie.posterPath?.takeIf { it.isNotBlank() } ?: return@async
                         val url = "https://image.tmdb.org/t/p/w185$posterPath"
                         val request = ImageRequest.Builder(appContext)
                             .data(url)
@@ -201,7 +213,7 @@ class HomeViewModel @Inject constructor(
         prefetchJob?.cancel()
         prefetchJob = viewModelScope.launch(Dispatchers.IO) {
             items.take(8).forEach { movie ->
-                val posterPath = movie.posterPath ?: return@forEach
+                val posterPath = movie.posterPath?.takeIf { it.isNotBlank() } ?: return@forEach
                 val url = "https://image.tmdb.org/t/p/w185$posterPath"
                 val request = ImageRequest.Builder(appContext)
                     .data(url)

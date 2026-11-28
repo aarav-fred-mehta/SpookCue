@@ -51,7 +51,7 @@
       "type": "minor"
     },
     {
-      "description": "Oliver\u2019s corpse can briefly be seen in the doorway.",
+      "description": "Oliver’s corpse can briefly be seen in the doorway.",
       "id": "scare_09",
       "resolved_time_ms": 3356000,
       "type": "minor"
@@ -75,7 +75,7 @@
       "type": "minor"
     },
     {
-      "description": "The Lucy \u201cclone\u201d turns around to reveal a contorted face.",
+      "description": "The Lucy “clone” turns around to reveal a contorted face.",
       "id": "scare_13",
       "resolved_time_ms": 3859000,
       "type": "minor"
@@ -93,7 +93,7 @@
       "type": "minor"
     },
     {
-      "description": "A man standing outside Michael\u2019s car knocks on the window and suddenly screams at him.",
+      "description": "A man standing outside Michael’s car knocks on the window and suddenly screams at him.",
       "id": "scare_16",
       "resolved_time_ms": 4592000,
       "type": "minor"
@@ -102,6 +102,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-06T20:21:43.712Z",
   "sync_type": "audio_hash",
-  "title": "The Other Side Of The Door",
+  "title": "The Other Side of the Door",
   "tmdb_id": 364116
 }

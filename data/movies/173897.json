@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "After colliding with Alice\u2019s car, the creature suddenly roars at Alice.",
+      "description": "After colliding with Alice’s car, the creature suddenly roars at Alice.",
       "id": "scare_06",
       "resolved_time_ms": 609000,
       "type": "minor"
@@ -51,7 +51,7 @@
       "type": "minor"
     },
     {
-      "description": "The red queen says \u201cbehind you\u201d and Alice turns around to see a mutant running at her.",
+      "description": "The red queen says “behind you” and Alice turns around to see a mutant running at her.",
       "id": "scare_09",
       "resolved_time_ms": 846000,
       "type": "minor"
@@ -69,7 +69,7 @@
       "type": "minor"
     },
     {
-      "description": "A zombie rushes at Alice as she enters Dr. Isaacs\u2019 tank.",
+      "description": "A zombie rushes at Alice as she enters Dr. Isaacs’ tank.",
       "id": "scare_12",
       "resolved_time_ms": 2697000,
       "type": "minor"
@@ -159,7 +159,7 @@
       "type": "minor"
     },
     {
-      "description": "Doc puts his hand on Alice\u2019s shoulder.",
+      "description": "Doc puts his hand on Alice’s shoulder.",
       "id": "scare_27",
       "resolved_time_ms": 4212000,
       "type": "minor"
@@ -180,6 +180,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:06.132Z",
   "sync_type": "audio_hash",
-  "title": "Resident Evil The Final Chapter",
+  "title": "Resident Evil: The Final Chapter",
   "tmdb_id": 173897
 }

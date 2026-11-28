@@ -135,7 +135,10 @@ fun SyncScreen(
     }
 
     val allScares = movie?.scares ?: emptyList()
-    val totalDurationMs = (movie?.runtimeMinutes?.toLong() ?: 120L) * 60_000L
+    val totalDurationMs = (movie?.runtimeMinutes ?: 0).let { rt ->
+        if (rt > 0) rt.toLong() * 60_000L
+        else allScares.maxOfOrNull { it.resolvedTimeMs }?.plus(60_000L) ?: (120L * 60_000L)
+    }
     val currentMovieTime = when (val s = syncState) {
         is SyncState.MoviePlaying -> s.currentMovieTimeMs
         is SyncState.MoviePaused -> s.pausedAtMovieTimeMs

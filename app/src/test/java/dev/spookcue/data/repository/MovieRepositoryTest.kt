@@ -3,6 +3,7 @@ package dev.spookcue.data.repository
 import dev.spookcue.data.local.AssetLoader
 import dev.spookcue.data.local.MovieDao
 import dev.spookcue.data.local.MovieEntity
+import dev.spookcue.data.local.SyncedMovieTimestamp
 import dev.spookcue.data.model.AudioHashEntry
 import dev.spookcue.data.model.JumpScare
 import dev.spookcue.data.model.MovieCatalogItem
@@ -144,6 +145,99 @@ class MovieRepositoryTest {
     }
 
     @Test
+    fun testInitializeCatalogHealsExistingCorruptedMetadataWhilePreservingLastSynced() = runBlocking {
+        val syncedAt = 1712345678000L
+        fakeMovieDao.insertMovies(
+            listOf(
+                MovieEntity(
+                    tmdbId = 138843,
+                    title = "Old Mangled Title",
+                    releaseYear = 2082,
+                    runtimeMinutes = 100,
+                    scareCount = 1,
+                    posterPath = "/old.jpg",
+                    hasAcousticSync = false,
+                    syncType = "audio_hash",
+                    lastSyncedAt = syncedAt,
+                    tags = "NEW"
+                )
+            )
+        )
+
+        repository.initializeCatalogIfNeeded()
+
+        val healed = fakeMovieDao.getMovieById(138843)
+        assertNotNull(healed)
+        assertEquals("The Conjuring", healed?.title)
+        assertEquals(2013, healed?.releaseYear)
+        assertEquals(112, healed?.runtimeMinutes)
+        assertEquals(12, healed?.scareCount)
+        assertEquals("/conjuring.jpg", healed?.posterPath)
+        assertEquals(syncedAt, healed?.lastSyncedAt)
+        assertEquals("", healed?.tags)
+    }
+
+    @Test
+    fun testReplaceCatalogPreservingSyncRemovesStaleAndKeepsSyncedAt() = runBlocking {
+        val syncedAt = 1712345678000L
+        fakeMovieDao.insertMovies(
+            listOf(
+                MovieEntity(
+                    tmdbId = 138843,
+                    title = "Old Conjuring",
+                    releaseYear = 2013,
+                    runtimeMinutes = 112,
+                    scareCount = 12,
+                    lastSyncedAt = syncedAt
+                ),
+                MovieEntity(
+                    tmdbId = 999999,
+                    title = "Removed Legacy Movie",
+                    releaseYear = 2004,
+                    runtimeMinutes = 90,
+                    scareCount = 2
+                )
+            )
+        )
+
+        fakeMovieDao.replaceCatalogPreservingSync(testCatalog.map { MovieEntity.fromDomain(it) })
+
+        assertEquals(2, fakeMovieDao.getMovieCount())
+        assertEquals(null, fakeMovieDao.getMovieById(999999))
+        val conjuring = fakeMovieDao.getMovieById(138843)
+        assertEquals("The Conjuring", conjuring?.title)
+        assertEquals(syncedAt, conjuring?.lastSyncedAt)
+    }
+
+    @Test
+    fun testGetMovieDetailsFetchesCdnWhenBundledAssetStale() = runBlocking {
+        // DB expects "The Babadook" with 23 scares, while stale bundled asset has old title/scare count
+        fakeMovieDao.insertMovies(
+            listOf(
+                MovieEntity(
+                    tmdbId = 138843,
+                    title = "The Conjuring",
+                    releaseYear = 2013,
+                    runtimeMinutes = 112,
+                    scareCount = 2,
+                    syncType = "audio_hash"
+                )
+            )
+        )
+        val freshRemote = testConjuringDetails.copy(
+            scares = listOf(
+                JumpScare("scare_01", 1000L, "major", "S1"),
+                JumpScare("scare_02", 2000L, "minor", "S2")
+            )
+        )
+        fakeCdnClient.movieDetailsMap[138843] = freshRemote
+
+        val result = repository.getMovieDetails(138843)
+        assertTrue(result.isSuccess)
+        assertEquals(2, result.getOrNull()?.scares?.size)
+    }
+
+    @Test
     fun testSearchCatalog() = runBlocking {
         fakeMovieDao.insertMovies(testCatalog.map { MovieEntity.fromDomain(it) })
 
@@ -226,7 +320,6 @@ class MovieRepositoryTest {
         assertTrue(result.isSuccess)
         assertEquals("Remote Movie", result.getOrNull()?.title)
 
-        // Verify it was written to disk cache
         val diskFile = File(tempFolder.root, "movies/888.json")
         assertTrue(diskFile.exists())
         val decoded = json.decodeFromString<MovieDetails>(diskFile.readText())
@@ -244,7 +337,6 @@ class MovieRepositoryTest {
         assertEquals(syncTime, updated?.lastSyncedAt)
     }
 
-    // Fakes for testing
     private class FakeMovieDao : MovieDao {
         private val moviesFlow = MutableStateFlow<List<MovieEntity>>(emptyList())
 
@@ -270,6 +362,14 @@ class MovieRepositoryTest {
 
         override suspend fun getMovieCount(): Int = moviesFlow.value.size
 
+        override suspend fun getAllMovieIds(): List<Int> = moviesFlow.value.map { it.tmdbId }
+
+        override suspend fun getSyncedTimestamps(): List<SyncedMovieTimestamp> {
+            return moviesFlow.value.mapNotNull { m ->
+                m.lastSyncedAt?.let { SyncedMovieTimestamp(m.tmdbId, it) }
+            }
+        }
+
         override suspend fun insertMovies(movies: List<MovieEntity>) {
             val current = moviesFlow.value.toMutableList()
             for (movie in movies) {
@@ -277,6 +377,11 @@ class MovieRepositoryTest {
                 current.add(movie)
             }
             moviesFlow.value = current
+        }
+
+        override suspend fun deleteMoviesByIds(tmdbIds: List<Int>) {
+            val idSet = tmdbIds.toSet()
+            moviesFlow.value = moviesFlow.value.filterNot { it.tmdbId in idSet }
         }
 
         override suspend fun updateLastSynced(tmdbId: Int, timestamp: Long) {
@@ -311,6 +416,35 @@ class MovieRepositoryTest {
             val index = current.indexOfFirst { it.tmdbId == tmdbId }
             if (index != -1) {
                 current[index] = current[index].copy(hasAcousticSync = hasAcousticSync)
+                moviesFlow.value = current
+            }
+        }
+
+        override suspend fun updateCatalogMetadata(
+            tmdbId: Int,
+            title: String,
+            releaseYear: Int,
+            runtimeMinutes: Int,
+            scareCount: Int,
+            posterPath: String?,
+            hasAcousticSync: Boolean,
+            syncType: String,
+            tags: String
+        ) {
+            val current = moviesFlow.value.toMutableList()
+            val index = current.indexOfFirst { it.tmdbId == tmdbId }
+            if (index != -1) {
+                val prev = current[index]
+                current[index] = prev.copy(
+                    title = title,
+                    releaseYear = releaseYear,
+                    runtimeMinutes = runtimeMinutes,
+                    scareCount = scareCount,
+                    posterPath = posterPath ?: prev.posterPath,
+                    hasAcousticSync = hasAcousticSync,
+                    syncType = syncType,
+                    tags = tags
+                )
                 moviesFlow.value = current
             }
         }

@@ -21,13 +21,13 @@
       "type": "major"
     },
     {
-      "description": "Oscar\u2019s brother is suddenly in the room",
+      "description": "Oscar’s brother is suddenly in the room",
       "id": "scare_04",
       "resolved_time_ms": 1131000,
       "type": "minor"
     },
     {
-      "description": "A hand grabs Jesse\u2019s date from the cellar",
+      "description": "A hand grabs Jesse’s date from the cellar",
       "id": "scare_05",
       "resolved_time_ms": 2154000,
       "type": "minor"
@@ -39,7 +39,7 @@
       "type": "minor"
     },
     {
-      "description": "Oscar\u2019s body drops onto a car",
+      "description": "Oscar’s body drops onto a car",
       "id": "scare_07",
       "resolved_time_ms": 2290000,
       "type": "major"
@@ -51,7 +51,7 @@
       "type": "major"
     },
     {
-      "description": "Jesse grabs his grandmother\u2019s hand",
+      "description": "Jesse grabs his grandmother’s hand",
       "id": "scare_09",
       "resolved_time_ms": 3477000,
       "type": "minor"
@@ -63,13 +63,13 @@
       "type": "major"
     },
     {
-      "description": "Jesse breaks Hector\u2019s car window",
+      "description": "Jesse breaks Hector’s car window",
       "id": "scare_11",
       "resolved_time_ms": 3914000,
       "type": "major"
     },
     {
-      "description": "Hector\u2019s car is hit at an intersection",
+      "description": "Hector’s car is hit at an intersection",
       "id": "scare_12",
       "resolved_time_ms": 3946000,
       "type": "minor"
@@ -87,7 +87,7 @@
       "type": "major"
     },
     {
-      "description": "Marisol\u2019s body is dropped through the ceiling",
+      "description": "Marisol’s body is dropped through the ceiling",
       "id": "scare_15",
       "resolved_time_ms": 4411000,
       "type": "major"
@@ -114,6 +114,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2026-09-11T05:53:50.511Z",
   "sync_type": "audio_hash",
-  "title": "Paranormal Activity The Marked Ones",
+  "title": "Paranormal Activity: The Marked Ones",
   "tmdb_id": 227348
 }

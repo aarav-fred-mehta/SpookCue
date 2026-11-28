@@ -1,5 +1,5 @@
 {
-  "release_year": 1978,
+  "release_year": 2021,
   "runtime_minutes": 111,
   "scares": [
     {
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "As Cindy walks through the darkness, Alice says \u201cBoo!\u201d and startles her with a sound cue.",
+      "description": "As Cindy walks through the darkness, Alice says “Boo!” and startles her with a sound cue.",
       "id": "scare_04",
       "resolved_time_ms": 3034000,
       "type": "minor"
@@ -96,6 +96,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:59.561Z",
   "sync_type": "audio_hash",
-  "title": "Fear Street 1978 2021",
+  "title": "Fear Street Part Two: 1978",
   "tmdb_id": 591274
 }

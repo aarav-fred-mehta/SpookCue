@@ -3,7 +3,7 @@
   "runtime_minutes": 123,
   "scares": [
     {
-      "description": "As Alice is looking at Margaret, there is a sudden cut to someone\u2019s face in the darkness, and a male voice hums a melody.",
+      "description": "As Alice is looking at Margaret, there is a sudden cut to someone’s face in the darkness, and a male voice hums a melody.",
       "id": "scare_01",
       "resolved_time_ms": 623000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "As Margaret\u2019s husband pulls the curtain, there is a brief flash of some face with wide open eyes for 2 frames.",
+      "description": "As Margaret’s husband pulls the curtain, there is a brief flash of some face with wide open eyes for 2 frames.",
       "id": "scare_04",
       "resolved_time_ms": 1319000,
       "type": "minor"
@@ -72,6 +72,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-09-06T20:21:35.215Z",
   "sync_type": "audio_hash",
-  "title": "Don T Worry Darling",
+  "title": "Don't Worry Darling",
   "tmdb_id": 619730
 }

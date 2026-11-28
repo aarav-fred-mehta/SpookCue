@@ -114,6 +114,48 @@ class HomeViewModelTest {
     }
 
     @Test
+    fun testNewExcludesInvalidFutureYearsAndHotPrioritizesPopularClassics() {
+        val invalidFutureTagged = MovieCatalogItem(
+            tmdbId = 2082,
+            title = "Halloween",
+            releaseYear = 2082,
+            runtimeMinutes = 110,
+            scareCount = 9,
+            tags = listOf("NEW")
+        )
+        val iconicClassic = MovieCatalogItem(
+            tmdbId = 8329,
+            title = "[REC]",
+            releaseYear = 2007,
+            runtimeMinutes = 78,
+            scareCount = 11,
+            hasAcousticSync = true,
+            tags = emptyList()
+        )
+        val obscureHighScare = MovieCatalogItem(
+            tmdbId = 999002,
+            title = "Random High Scare",
+            releaseYear = 2014,
+            runtimeMinutes = 90,
+            scareCount = 30,
+            hasAcousticSync = false,
+            tags = listOf("HOT")
+        )
+
+        val repo = FakeMovieRepository(
+            initialMovies = listOf(testNewItem, invalidFutureTagged, iconicClassic, obscureHighScare),
+            detailsMap = emptyMap()
+        )
+        val vm = HomeViewModel(repo)
+        val state = vm.uiState.value
+
+        assertFalse(state.theaterMovies.any { it.tmdbId == 2082 })
+        assertTrue(state.theaterMovies.any { it.tmdbId == testNewItem.tmdbId })
+        assertTrue(state.popularHomeMovies.any { it.tmdbId == 8329 })
+        assertEquals(8329, state.popularHomeMovies.first().tmdbId)
+    }
+
+    @Test
     fun testSearchQueryChanged() {
         assertEquals("", viewModel.uiState.value.searchQuery)
         viewModel.onSearchQueryChanged("conjuring")

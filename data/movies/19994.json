@@ -3,7 +3,7 @@
   "runtime_minutes": 107,
   "scares": [
     {
-      "description": "Needy suddenly appears at Jennifer\u2019s window.",
+      "description": "Needy suddenly appears at Jennifer’s window.",
       "id": "scare_01",
       "resolved_time_ms": 317000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Jennifer suddenly lands on top of Needy\u2019s car.",
+      "description": "Jennifer suddenly lands on top of Needy’s car.",
       "id": "scare_04",
       "resolved_time_ms": 3470000,
       "type": "major"
@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "Needy bursts through Jennifer\u2019s bedroom window.",
+      "description": "Needy bursts through Jennifer’s bedroom window.",
       "id": "scare_06",
       "resolved_time_ms": 5715000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:09.638Z",
   "sync_type": "audio_hash",
-  "title": "Jennifer S Body",
+  "title": "Jennifer's Body",
   "tmdb_id": 19994
 }

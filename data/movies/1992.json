@@ -1,9 +1,9 @@
 {
-  "release_year": 1992,
+  "release_year": 2007,
   "runtime_minutes": 105,
   "scares": [
     {
-      "description": "A grotesque looking hand comes through the roof of Abby\u2019s car.",
+      "description": "A grotesque looking hand comes through the roof of Abby’s car.",
       "id": "scare_01",
       "resolved_time_ms": 799000,
       "type": "minor"
@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "A zombie breaks into El Wray\u2019s truck.",
+      "description": "A zombie breaks into El Wray’s truck.",
       "id": "scare_03",
       "resolved_time_ms": 1768000,
       "type": "minor"
@@ -45,13 +45,13 @@
       "type": "major"
     },
     {
-      "description": "A burning man bumps into Dakota\u2019s car.",
+      "description": "A burning man bumps into Dakota’s car.",
       "id": "scare_08",
       "resolved_time_ms": 3005000,
       "type": "minor"
     },
     {
-      "description": "A crow bar slams into Dakota\u2019s car window.",
+      "description": "A crow bar slams into Dakota’s car window.",
       "id": "scare_09",
       "resolved_time_ms": 3345000,
       "type": "minor"
@@ -90,6 +90,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:54.553Z",
   "sync_type": "audio_hash",
-  "title": "Planet Terror 2007",
+  "title": "Planet Terror",
   "tmdb_id": 1992
 }

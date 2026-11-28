@@ -3,13 +3,13 @@
   "runtime_minutes": 108,
   "scares": [
     {
-      "description": "Kerry wipes the steam off the mirror and sees Eric\u2019s reflection.",
+      "description": "Kerry wipes the steam off the mirror and sees Eric’s reflection.",
       "id": "scare_01",
       "resolved_time_ms": 708000,
       "type": "minor"
     },
     {
-      "description": "A person wearing a pig\u2019s mask suddenly jumps out at Lynn while she is on the phone in the locker room.",
+      "description": "A person wearing a pig’s mask suddenly jumps out at Lynn while she is on the phone in the locker room.",
       "id": "scare_02",
       "resolved_time_ms": 1290000,
       "type": "minor"
@@ -36,6 +36,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:13.925Z",
   "sync_type": "audio_hash",
-  "title": "Saw Iii",
+  "title": "Saw III",
   "tmdb_id": 214
 }

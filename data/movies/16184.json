@@ -3,7 +3,7 @@
   "runtime_minutes": 113,
   "scares": [
     {
-      "description": "The camera slowly zooms in on a silhouette on the window, and then quickly cuts to the dead guest\u2019s disfigured face.",
+      "description": "The camera slowly zooms in on a silhouette on the window, and then quickly cuts to the dead guest’s disfigured face.",
       "id": "scare_01",
       "resolved_time_ms": 2197000,
       "type": "minor"
@@ -30,6 +30,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:22.623Z",
   "sync_type": "audio_hash",
-  "title": "The Happiness Of The Katakuris",
+  "title": "The Happiness of the Katakuris",
   "tmdb_id": 16184
 }

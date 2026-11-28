@@ -1,5 +1,5 @@
 {
-  "release_year": 1975,
+  "release_year": 2006,
   "runtime_minutes": 102,
   "scares": [
     {
@@ -27,13 +27,13 @@
       "type": "minor"
     },
     {
-      "description": "A hand can briefly be seen gripping Karen\u2019s arm.",
+      "description": "A hand can briefly be seen gripping Karen’s arm.",
       "id": "scare_05",
       "resolved_time_ms": 1705000,
       "type": "minor"
     },
     {
-      "description": "After a series of flashes, Kayako\u2019s face rushes toward the camera.",
+      "description": "After a series of flashes, Kayako’s face rushes toward the camera.",
       "id": "scare_06",
       "resolved_time_ms": 1777000,
       "type": "minor"
@@ -45,7 +45,7 @@
       "type": "minor"
     },
     {
-      "description": "Karen\u2019s body smashes to the ground.",
+      "description": "Karen’s body smashes to the ground.",
       "id": "scare_08",
       "resolved_time_ms": 1881000,
       "type": "minor"
@@ -75,7 +75,7 @@
       "type": "minor"
     },
     {
-      "description": "A hand grabs Allison\u2019s arm.",
+      "description": "A hand grabs Allison’s arm.",
       "id": "scare_13",
       "resolved_time_ms": 3372000,
       "type": "minor"
@@ -87,7 +87,7 @@
       "type": "minor"
     },
     {
-      "description": "Ghostly hands suddenly grab Vanessa\u2019s legs.",
+      "description": "Ghostly hands suddenly grab Vanessa’s legs.",
       "id": "scare_15",
       "resolved_time_ms": 3663000,
       "type": "minor"
@@ -111,7 +111,7 @@
       "type": "minor"
     },
     {
-      "description": "The music makes a high-pitched note after the sentence \u201cthey are right here\u201d.",
+      "description": "The music makes a high-pitched note after the sentence “they are right here”.",
       "id": "scare_19",
       "resolved_time_ms": 5008000,
       "type": "minor"
@@ -132,6 +132,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:22.773Z",
   "sync_type": "audio_hash",
-  "title": "The Grudge 2 2006",
+  "title": "The Grudge 2",
   "tmdb_id": 1975
 }

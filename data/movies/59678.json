@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "The alien attacks Hi Hatz\u2019 henchman as he turns around.",
+      "description": "The alien attacks Hi Hatz’ henchman as he turns around.",
       "id": "scare_05",
       "resolved_time_ms": 1984000,
       "type": "minor"
@@ -69,7 +69,7 @@
       "type": "minor"
     },
     {
-      "description": "Jerome grabs Pest\u2019s ankle.",
+      "description": "Jerome grabs Pest’s ankle.",
       "id": "scare_12",
       "resolved_time_ms": 3852000,
       "type": "minor"
@@ -78,6 +78,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:54.084Z",
   "sync_type": "audio_hash",
-  "title": "Attack The Block",
+  "title": "Attack the Block",
   "tmdb_id": 59678
 }

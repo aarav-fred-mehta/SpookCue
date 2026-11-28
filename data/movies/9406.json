@@ -21,13 +21,13 @@
       "type": "minor"
     },
     {
-      "description": "Andy sees the disfigured ghost of Serafine\u2019s mother.",
+      "description": "Andy sees the disfigured ghost of Serafine’s mother.",
       "id": "scare_04",
       "resolved_time_ms": 2619000,
       "type": "minor"
     },
     {
-      "description": "Andy sees Brad\u2019s head on a plate of food.",
+      "description": "Andy sees Brad’s head on a plate of food.",
       "id": "scare_05",
       "resolved_time_ms": 3045000,
       "type": "minor"
@@ -39,7 +39,7 @@
       "type": "minor"
     },
     {
-      "description": "Andy\u2019s shadow appears on the wall behind Amy.",
+      "description": "Andy’s shadow appears on the wall behind Amy.",
       "id": "scare_07",
       "resolved_time_ms": 3431000,
       "type": "minor"
@@ -72,6 +72,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:46.084Z",
   "sync_type": "audio_hash",
-  "title": "An American Werewolf In Paris",
+  "title": "An American Werewolf in Paris",
   "tmdb_id": 9406
 }

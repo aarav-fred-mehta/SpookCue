@@ -3,13 +3,13 @@
   "runtime_minutes": 111,
   "scares": [
     {
-      "description": "The headlights of Ward\u2019s car come on.",
+      "description": "The headlights of Ward’s car come on.",
       "id": "scare_01",
       "resolved_time_ms": 1983000,
       "type": "minor"
     },
     {
-      "description": "Theresa screams \u201cLook out!\u201d and there is a cut to a mutilated looking G-Spot (the name of the cat) shrieking on the road.",
+      "description": "Theresa screams “Look out!” and there is a cut to a mutilated looking G-Spot (the name of the cat) shrieking on the road.",
       "id": "scare_02",
       "resolved_time_ms": 3065000,
       "type": "minor"
@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "After calling out Lavinia\u2019s name, there is a sudden cut to Theresa crawling towards her.",
+      "description": "After calling out Lavinia’s name, there is a sudden cut to Theresa crawling towards her.",
       "id": "scare_04",
       "resolved_time_ms": 5379000,
       "type": "minor"
@@ -30,6 +30,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:17.627Z",
   "sync_type": "audio_hash",
-  "title": "Color Out Of Space",
+  "title": "Color Out of Space",
   "tmdb_id": 548473
 }

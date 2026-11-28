@@ -3,7 +3,7 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "description": "A boy runs past the screen in the background after Christian asks Elise \u201cWhat are you doing?\u201d.",
+      "description": "A boy runs past the screen in the background after Christian asks Elise “What are you doing?”.",
       "id": "scare_01",
       "resolved_time_ms": 456000,
       "type": "minor"
@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "The spirit of Elise\u2019s father carrying his wife passes by in front of Elise as she approaches the end of the hallway.",
+      "description": "The spirit of Elise’s father carrying his wife passes by in front of Elise as she approaches the end of the hallway.",
       "id": "scare_06",
       "resolved_time_ms": 1597000,
       "type": "major"
@@ -45,7 +45,7 @@
       "type": "minor"
     },
     {
-      "description": "Elise reaches out to touch the ghost woman in front of her, suddenly the woman appears right beside Elise and says \u201chelp her\u201d.",
+      "description": "Elise reaches out to touch the ghost woman in front of her, suddenly the woman appears right beside Elise and says “help her”.",
       "id": "scare_08",
       "resolved_time_ms": 2142000,
       "type": "major"
@@ -87,7 +87,7 @@
       "type": "minor"
     },
     {
-      "description": "Elise has a vision of the demon from the first film looking through a window into Dalton\u2019s bedroom.",
+      "description": "Elise has a vision of the demon from the first film looking through a window into Dalton’s bedroom.",
       "id": "scare_15",
       "resolved_time_ms": 5741000,
       "type": "major"
@@ -96,6 +96,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:01.256Z",
   "sync_type": "audio_hash",
-  "title": "Insidious The Last Key",
+  "title": "Insidious: The Last Key",
   "tmdb_id": 406563
 }

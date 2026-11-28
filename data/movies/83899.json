@@ -9,7 +9,7 @@
       "type": "minor"
     },
     {
-      "description": "A loud bang can be heard from\u00a0upstairs.",
+      "description": "A loud bang can be heard from upstairs.",
       "id": "scare_02",
       "resolved_time_ms": 485000,
       "type": "minor"
@@ -72,6 +72,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:41.755Z",
   "sync_type": "audio_hash",
-  "title": "You Re Next",
+  "title": "You're Next",
   "tmdb_id": 83899
 }

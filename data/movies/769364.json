@@ -3,7 +3,7 @@
   "runtime_minutes": 97,
   "scares": [
     {
-      "description": "A male voice says \u201cI\u2019m a good boy!\u201d and pulls on Sissy\u2019s arm.",
+      "description": "A male voice says “I’m a good boy!” and pulls on Sissy’s arm.",
       "id": "scare_01",
       "resolved_time_ms": 2123000,
       "type": "major"
@@ -18,6 +18,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:33.633Z",
   "sync_type": "audio_hash",
-  "title": "We Need To Do Something",
+  "title": "We Need to Do Something",
   "tmdb_id": 769364
 }

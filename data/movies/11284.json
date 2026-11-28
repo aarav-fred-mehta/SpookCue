@@ -3,13 +3,13 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "description": "The plane\u2019s ceiling suddenly flies off.",
+      "description": "The plane’s ceiling suddenly flies off.",
       "id": "scare_01",
       "resolved_time_ms": 179000,
       "type": "minor"
     },
     {
-      "description": "Tracy grabs Spencer on the shoulder while he\u2019s looking into a room, scaring him.",
+      "description": "Tracy grabs Spencer on the shoulder while he’s looking into a room, scaring him.",
       "id": "scare_02",
       "resolved_time_ms": 1948000,
       "type": "minor"
@@ -36,6 +36,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:03.641Z",
   "sync_type": "audio_hash",
-  "title": "Freddy S Dead The Final Nightmare",
+  "title": "Freddy's Dead: The Final Nightmare",
   "tmdb_id": 11284
 }

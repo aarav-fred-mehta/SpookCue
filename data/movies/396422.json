@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Samuel grabs Janice\u2019s hand as she goes to open a door.",
+      "description": "Samuel grabs Janice’s hand as she goes to open a door.",
       "id": "scare_04",
       "resolved_time_ms": 955000,
       "type": "minor"
@@ -63,19 +63,19 @@
       "type": "minor"
     },
     {
-      "description": "The toy gun is suddenly pulled out of Linda\u2019s hand.",
+      "description": "The toy gun is suddenly pulled out of Linda’s hand.",
       "id": "scare_11",
       "resolved_time_ms": 3651000,
       "type": "minor"
     },
     {
-      "description": "Janice\u2019s wheelchair is hit by an unseen force.",
+      "description": "Janice’s wheelchair is hit by an unseen force.",
       "id": "scare_12",
       "resolved_time_ms": 3850000,
       "type": "minor"
     },
     {
-      "description": "Janice\u2019s wheelchair is flung away from Janice\u2019s outstretched hand.",
+      "description": "Janice’s wheelchair is flung away from Janice’s outstretched hand.",
       "id": "scare_13",
       "resolved_time_ms": 3893000,
       "type": "minor"
@@ -123,7 +123,7 @@
       "type": "minor"
     },
     {
-      "description": "Esther\u2019s torso suddenly comes to life and chases after Linda.",
+      "description": "Esther’s torso suddenly comes to life and chases after Linda.",
       "id": "scare_21",
       "resolved_time_ms": 5497000,
       "type": "major"
@@ -144,6 +144,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:50.147Z",
   "sync_type": "audio_hash",
-  "title": "Annabelle Creation",
+  "title": "Annabelle: Creation",
   "tmdb_id": 396422
 }

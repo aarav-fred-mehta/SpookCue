@@ -1,33 +1,95 @@
 {
-  "tmdb_id": 447332,
-  "title": "A Quiet Place",
   "release_year": 2018,
-  "runtime_minutes": 90,
-  "sync_type": "audio_hash",
+  "runtime_minutes": 91,
   "scares": [
     {
+      "description": "Beau is attacked by one of the creatures (while we get some warning the attack is quite loud and violent).",
       "id": "scare_01",
-      "resolved_time_ms": 510000,
-      "type": "major",
-      "description": "The creature snatches Beau from the bridge after the space shuttle toy sounds."
+      "resolved_time_ms": 604000,
+      "type": "minor"
     },
     {
+      "description": "Regan knocks over a lamp during a game of monopoly and the ensuing loud noise during a previously quiet scene may be quite startling for some viewers.",
       "id": "scare_02",
-      "resolved_time_ms": 2240000,
-      "type": "major",
-      "description": "Evelyn accidentally steps on an upturned nail on the cellar stairs."
+      "resolved_time_ms": 1161000,
+      "type": "minor"
     },
     {
+      "description": "There is a loud bang on the roof of the house.",
       "id": "scare_03",
-      "resolved_time_ms": 3310000,
-      "type": "major",
-      "description": "A creature claws through the flooded cellar wall directly behind Evelyn."
+      "resolved_time_ms": 1226000,
+      "type": "minor"
     },
     {
+      "description": "As Lee listens by a window, a raccoon suddenly screeches and runs past.",
       "id": "scare_04",
-      "resolved_time_ms": 4620000,
-      "type": "major",
-      "description": "Lee screams to save his children as the creature strikes the truck."
+      "resolved_time_ms": 1270000,
+      "type": "major"
+    },
+    {
+      "description": "A raccoon is suddenly attacked by one of the creatures.",
+      "id": "scare_05",
+      "resolved_time_ms": 1304000,
+      "type": "major"
+    },
+    {
+      "description": "As Regan is about to descend the stairs, Lee grabs her and pulls her back.",
+      "id": "scare_06",
+      "resolved_time_ms": 1665000,
+      "type": "major"
+    },
+    {
+      "description": "Marcus walks past an old man who is watching him in the background.",
+      "id": "scare_07",
+      "resolved_time_ms": 2545000,
+      "type": "minor"
+    },
+    {
+      "description": "A creature walks past the doorway above the stairs.",
+      "id": "scare_08",
+      "resolved_time_ms": 2757000,
+      "type": "minor"
+    },
+    {
+      "description": "The creature makes a loud noise.",
+      "id": "scare_09",
+      "resolved_time_ms": 2774000,
+      "type": "minor"
+    },
+    {
+      "description": "Evelyn puts a bloodied hand on the shower window startling Lee.",
+      "id": "scare_10",
+      "resolved_time_ms": 3206000,
+      "type": "minor"
+    },
+    {
+      "description": "As Regan goes to pick up the torch, Marcus grabs her wrist.",
+      "id": "scare_11",
+      "resolved_time_ms": 3652000,
+      "type": "minor"
+    },
+    {
+      "description": "Marcus falls through a metal door and lands in the grain silo.",
+      "id": "scare_12",
+      "resolved_time_ms": 4008000,
+      "type": "minor"
+    },
+    {
+      "description": "The creature drops down into the grain silo beside Regan.",
+      "id": "scare_13",
+      "resolved_time_ms": 4179000,
+      "type": "major"
+    },
+    {
+      "description": "After a period of silence we see the creature outside the car, the creature then breaks through the window with a loud crash.",
+      "id": "scare_14",
+      "resolved_time_ms": 4437000,
+      "type": "minor"
     }
-  ]
+  ],
+  "source": "whenjumpscare",
+  "source_lastmod": "2025-08-30T11:53:36.939Z",
+  "sync_type": "audio_hash",
+  "title": "A Quiet Place",
+  "tmdb_id": 447332
 }

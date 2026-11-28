@@ -15,7 +15,7 @@
       "type": "major"
     },
     {
-      "description": "The neighbor\u2019s dog grabs M3GAN\u2019s arm",
+      "description": "The neighbor’s dog grabs M3GAN’s arm",
       "id": "scare_03",
       "resolved_time_ms": 2100000,
       "type": "major"
@@ -27,7 +27,7 @@
       "type": "major"
     },
     {
-      "description": "M3GAN grabs Brandon\u2019s arm in the woods",
+      "description": "M3GAN grabs Brandon’s arm in the woods",
       "id": "scare_05",
       "resolved_time_ms": 3341000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2026-10-09T03:04:09.693Z",
   "sync_type": "audio_hash",
-  "title": "M3Gan",
+  "title": "M3GAN",
   "tmdb_id": 536554
 }

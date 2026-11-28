@@ -3,13 +3,13 @@
   "runtime_minutes": 89,
   "scares": [
     {
-      "description": "A dog lunges at the window of Rocky\u2019s side of the car.",
+      "description": "A dog lunges at the window of Rocky’s side of the car.",
       "id": "scare_01",
       "resolved_time_ms": 795000,
       "type": "major"
     },
     {
-      "description": "Money calls out \u201cdone\u201d loudly during a quiet scene.",
+      "description": "Money calls out “done” loudly during a quiet scene.",
       "id": "scare_02",
       "resolved_time_ms": 1491000,
       "type": "minor"
@@ -108,6 +108,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:41.655Z",
   "sync_type": "audio_hash",
-  "title": "Don T Breathe",
+  "title": "Don't Breathe",
   "tmdb_id": 300669
 }

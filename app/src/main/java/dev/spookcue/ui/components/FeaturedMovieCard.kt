@@ -50,7 +50,7 @@ fun FeaturedMovieCard(
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
-    val posterUrl = movie.posterPath?.let { "https://image.tmdb.org/t/p/w185$it" }
+    val posterUrl = movie.posterPath?.takeIf { it.isNotBlank() }?.let { "https://image.tmdb.org/t/p/w185$it" }
 
     val imageRequest = remember(posterUrl) {
         ImageRequest.Builder(context)

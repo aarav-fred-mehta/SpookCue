@@ -3,7 +3,7 @@
   "runtime_minutes": 122,
   "scares": [
     {
-      "description": "Scene abruptly cuts to a cat\u2019s loud hiss.",
+      "description": "Scene abruptly cuts to a cat’s loud hiss.",
       "id": "scare_01",
       "resolved_time_ms": 684000,
       "type": "minor"
@@ -60,6 +60,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:13.950Z",
   "sync_type": "audio_hash",
-  "title": "The Exorcism Of Emily Rose",
+  "title": "The Exorcism of Emily Rose",
   "tmdb_id": 8643
 }

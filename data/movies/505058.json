@@ -3,13 +3,13 @@
   "runtime_minutes": 92,
   "scares": [
     {
-      "description": "Loud music begins to play after AJ says \u201cI just got these new speakers\u201d.",
+      "description": "Loud music begins to play after AJ says “I just got these new speakers”.",
       "id": "scare_01",
       "resolved_time_ms": 1136000,
       "type": "minor"
     },
     {
-      "description": "During the \u201cAgatha\u201d movie, there is a loud metallic noise as a girl is restrained by chains as she tries to escape.",
+      "description": "During the “Agatha” movie, there is a loud metallic noise as a girl is restrained by chains as she tries to escape.",
       "id": "scare_02",
       "resolved_time_ms": 2237000,
       "type": "minor"
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "There is a loud bang on the door of AJ\u2019s house.",
+      "description": "There is a loud bang on the door of AJ’s house.",
       "id": "scare_05",
       "resolved_time_ms": 4281000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:21.579Z",
   "sync_type": "audio_hash",
-  "title": "Unfriended Dark Web",
+  "title": "Unfriended: Dark Web",
   "tmdb_id": 505058
 }

@@ -85,7 +85,7 @@ fun MovieDetailBottomSheet(
 ) {
     val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val context = LocalContext.current
-    val posterUrl = movie.posterPath?.let { "https://image.tmdb.org/t/p/w185$it" }
+    val posterUrl = movie.posterPath?.takeIf { it.isNotBlank() }?.let { "https://image.tmdb.org/t/p/w185$it" }
 
     val imageRequest = remember(posterUrl) {
         ImageRequest.Builder(context)
@@ -160,8 +160,12 @@ fun MovieDetailBottomSheet(
 
                     Spacer(modifier = Modifier.height(4.dp))
 
+                    val metaText = listOfNotNull(
+                        movie.releaseYear?.takeIf { it > 0 }?.toString(),
+                        movie.runtimeMinutes.takeIf { it > 0 }?.let { "$it min" }
+                    ).joinToString(" • ").ifEmpty { "Runtime unknown" }
                     Text(
-                        text = "${movie.releaseYear?.let { if (it > 0) "$it • " else "" } ?: ""}${movie.runtimeMinutes} min",
+                        text = metaText,
                         style = MaterialTheme.typography.bodyMedium,
                         color = TextSecondary
                     )
@@ -267,7 +271,11 @@ fun MovieDetailBottomSheet(
             Spacer(modifier = Modifier.height(8.dp))
 
             val scares = movieDetails?.scares ?: emptyList()
-            val totalDurationMs = movie.runtimeMinutes * 60_000L
+            val totalDurationMs = if (movie.runtimeMinutes > 0) {
+                movie.runtimeMinutes * 60_000L
+            } else {
+                scares.maxOfOrNull { it.resolvedTimeMs }?.plus(60_000L) ?: 0L
+            }
 
             if (isLoadingDetails) {
                 Box(

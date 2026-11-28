@@ -15,7 +15,7 @@
       "type": "major"
     },
     {
-      "description": "Olgaren moves the spyglass and sees a closeup of Dracula\u2019s face.",
+      "description": "Olgaren moves the spyglass and sees a closeup of Dracula’s face.",
       "id": "scare_03",
       "resolved_time_ms": 1635000,
       "type": "minor"
@@ -51,7 +51,7 @@
       "type": "minor"
     },
     {
-      "description": "A sudden cut from a quiet tense sequence to a closeup of Toby\u2019s fingers opening the door with a loud sound.",
+      "description": "A sudden cut from a quiet tense sequence to a closeup of Toby’s fingers opening the door with a loud sound.",
       "id": "scare_09",
       "resolved_time_ms": 3483000,
       "type": "minor"
@@ -93,13 +93,13 @@
       "type": "minor"
     },
     {
-      "description": "A cut to a closeup of Dracula\u2019s snarling face.",
+      "description": "A cut to a closeup of Dracula’s snarling face.",
       "id": "scare_16",
       "resolved_time_ms": 4633000,
       "type": "minor"
     },
     {
-      "description": "Toby\u2019s eyes open, revealing milky white color.",
+      "description": "Toby’s eyes open, revealing milky white color.",
       "id": "scare_17",
       "resolved_time_ms": 4860000,
       "type": "minor"
@@ -120,6 +120,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:36.547Z",
   "sync_type": "audio_hash",
-  "title": "The Last Voyage Of The Demeter",
+  "title": "The Last Voyage of the Demeter",
   "tmdb_id": 635910
 }

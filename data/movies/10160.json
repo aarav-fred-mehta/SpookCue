@@ -33,19 +33,19 @@
       "type": "minor"
     },
     {
-      "description": "The diner (a greenscreen) suddenly turns into a close-up of Daniel\u2019s mangled face as he screams, scaring Alice.",
+      "description": "The diner (a greenscreen) suddenly turns into a close-up of Daniel’s mangled face as he screams, scaring Alice.",
       "id": "scare_06",
       "resolved_time_ms": 1764000,
       "type": "major"
     },
     {
-      "description": "Daniel\u2019s corpse springs back upwards.",
+      "description": "Daniel’s corpse springs back upwards.",
       "id": "scare_07",
       "resolved_time_ms": 1806000,
       "type": "minor"
     },
     {
-      "description": "The upper half of Greta\u2019s body appears out of the side of a rotting fridge and begins to scream.",
+      "description": "The upper half of Greta’s body appears out of the side of a rotting fridge and begins to scream.",
       "id": "scare_08",
       "resolved_time_ms": 2456000,
       "type": "minor"
@@ -66,6 +66,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.938Z",
   "sync_type": "audio_hash",
-  "title": "A Nightmare On Elm Street The Dream Child",
+  "title": "A Nightmare on Elm Street: The Dream Child",
   "tmdb_id": 10160
 }

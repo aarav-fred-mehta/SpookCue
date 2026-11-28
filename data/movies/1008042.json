@@ -9,13 +9,13 @@
       "type": "minor"
     },
     {
-      "description": "Mia says \u201ctalk to me\u201d and turns to see a man in front of her.",
+      "description": "Mia says “talk to me” and turns to see a man in front of her.",
       "id": "scare_02",
       "resolved_time_ms": 1151000,
       "type": "minor"
     },
     {
-      "description": "Mia says \u201ctalk to me\u201d again and a drowned woman appears in front of her.",
+      "description": "Mia says “talk to me” again and a drowned woman appears in front of her.",
       "id": "scare_03",
       "resolved_time_ms": 1211000,
       "type": "minor"
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "Daniel says \u201cI let you in\u201d and his head tilts backwards.",
+      "description": "Daniel says “I let you in” and his head tilts backwards.",
       "id": "scare_05",
       "resolved_time_ms": 2021000,
       "type": "minor"
@@ -60,6 +60,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2026-05-30T01:37:35.051Z",
   "sync_type": "audio_hash",
-  "title": "Talk To Me",
+  "title": "Talk to Me",
   "tmdb_id": 1008042
 }

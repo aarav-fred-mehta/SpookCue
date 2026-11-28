@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Sam grabs Zach\u2019s wrist.",
+      "description": "Sam grabs Zach’s wrist.",
       "id": "scare_04",
       "resolved_time_ms": 1556000,
       "type": "minor"
@@ -39,7 +39,7 @@
       "type": "minor"
     },
     {
-      "description": "Sam suddenly appears in front of the camera screaming \u201cget out\u201d. [Video].",
+      "description": "Sam suddenly appears in front of the camera screaming “get out”. [Video].",
       "id": "scare_07",
       "resolved_time_ms": 2753000,
       "type": "major"
@@ -57,7 +57,7 @@
       "type": "minor"
     },
     {
-      "description": "Sam screams and the door slams shut. A few seconds later the door is blasted off it\u2019s hinges.",
+      "description": "Sam screams and the door slams shut. A few seconds later the door is blasted off it’s hinges.",
       "id": "scare_10",
       "resolved_time_ms": 4207000,
       "type": "minor"
@@ -84,6 +84,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:37.273Z",
   "sync_type": "audio_hash",
-  "title": "Devil S Due",
+  "title": "Devil's Due",
   "tmdb_id": 79316
 }

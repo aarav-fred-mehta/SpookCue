@@ -39,13 +39,13 @@
       "type": "minor"
     },
     {
-      "description": "Jimmy puts his hand on Jill\u2019s shoulder.",
+      "description": "Jimmy puts his hand on Jill’s shoulder.",
       "id": "scare_07",
       "resolved_time_ms": 3860000,
       "type": "minor"
     },
     {
-      "description": "A sudden cut to Myers\u2019 face may startle some people.",
+      "description": "A sudden cut to Myers’ face may startle some people.",
       "id": "scare_08",
       "resolved_time_ms": 4729000,
       "type": "minor"
@@ -54,6 +54,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:25.705Z",
   "sync_type": "audio_hash",
-  "title": "Halloween Ii",
+  "title": "Halloween II",
   "tmdb_id": 11281
 }

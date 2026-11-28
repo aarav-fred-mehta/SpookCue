@@ -1,5 +1,5 @@
 {
-  "release_year": 2082,
+  "release_year": 2007,
   "runtime_minutes": 110,
   "scares": [
     {
@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "Laurie\u2019s father is abruptly attacked by a knife-wielding Michael. [Video].",
+      "description": "Laurie’s father is abruptly attacked by a knife-wielding Michael. [Video].",
       "id": "scare_03",
       "resolved_time_ms": 4545000,
       "type": "major"
@@ -60,6 +60,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:21.300Z",
   "sync_type": "audio_hash",
-  "title": "Halloween 2007",
+  "title": "Halloween",
   "tmdb_id": 2082
 }

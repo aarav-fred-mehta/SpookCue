@@ -27,13 +27,13 @@
       "type": "minor"
     },
     {
-      "description": "Danny\u2019s laptop starts to make a ringing noise.",
+      "description": "Danny’s laptop starts to make a ringing noise.",
       "id": "scare_05",
       "resolved_time_ms": 850000,
       "type": "minor"
     },
     {
-      "description": "A scary face suddenly appears on Chloe\u2019s laptop screen.",
+      "description": "A scary face suddenly appears on Chloe’s laptop screen.",
       "id": "scare_06",
       "resolved_time_ms": 910000,
       "type": "major"
@@ -75,7 +75,7 @@
       "type": "minor"
     },
     {
-      "description": "A woman suddenly appears in front of Chloe shouting \u201cRUN!\u201d.",
+      "description": "A woman suddenly appears in front of Chloe shouting “RUN!”.",
       "id": "scare_13",
       "resolved_time_ms": 3260000,
       "type": "major"
@@ -120,6 +120,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:41.554Z",
   "sync_type": "audio_hash",
-  "title": "Don T Knock Twice",
+  "title": "Don't Knock Twice",
   "tmdb_id": 420245
 }

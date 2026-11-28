@@ -85,11 +85,18 @@ To enable daily scraping and signed APK releases, configure the following secret
 
 | Secret | Description |
 |---|---|
-| `TMDB_API_KEY` | TMDB API v3 developer token for metadata and poster paths |
+| `TMDB_API_KEY` | TMDB API v3 key or v4 Read Access Token for metadata and poster paths |
 | `KEYSTORE_BASE64` | Base64-encoded release `.jks` keystore (`base64 -w 0 release-key.jks`) |
 | `KEYSTORE_PASSWORD` | Keystore password |
 | `KEY_ALIAS` | Key alias in the release keystore |
 | `KEY_PASSWORD` | Private key password |
+
+---
+
+## Data Sources & API Attribution
+
+- **TMDB**: *This product uses the TMDB API but is not endorsed or certified by TMDB.* Metadata requests follow TMDB rate limits, HTTP 429 `Retry-After` handling, `/configuration` checks, and the 6-month cache retention cap.
+- **WhenJumpScare & Where's The Jump?**: Jump scare timestamps and descriptions are collected politely with per-host `robots.txt` and `Crawl-delay` compliance.
 
 ### GitHub Pages CDN Fallback
 

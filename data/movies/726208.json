@@ -3,7 +3,7 @@
   "runtime_minutes": 98,
   "scares": [
     {
-      "description": "The toy\u2019s sudden noise may startle some viewers.",
+      "description": "The toy’s sudden noise may startle some viewers.",
       "id": "scare_01",
       "resolved_time_ms": 209000,
       "type": "minor"
@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "The toy\u2019s noise startles Eric.",
+      "description": "The toy’s noise startles Eric.",
       "id": "scare_03",
       "resolved_time_ms": 770000,
       "type": "minor"
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "After a tense scene, Daniel\u2019s hand suddenly covers Eric\u2019s mouth.",
+      "description": "After a tense scene, Daniel’s hand suddenly covers Eric’s mouth.",
       "id": "scare_05",
       "resolved_time_ms": 922000,
       "type": "major"
@@ -39,13 +39,13 @@
       "type": "minor"
     },
     {
-      "description": "Daniel jumping from the chair after hearing to Eric\u2019s voice along with a loud sound may startle some viewers.",
+      "description": "Daniel jumping from the chair after hearing to Eric’s voice along with a loud sound may startle some viewers.",
       "id": "scare_07",
       "resolved_time_ms": 1961000,
       "type": "minor"
     },
     {
-      "description": "Daniel\u2019s voice scares Ruth.",
+      "description": "Daniel’s voice scares Ruth.",
       "id": "scare_08",
       "resolved_time_ms": 2373000,
       "type": "minor"
@@ -57,7 +57,7 @@
       "type": "minor"
     },
     {
-      "description": "After a tense scene, a loud noise comes out of G\u00e9rman\u2019s headphones.",
+      "description": "After a tense scene, a loud noise comes out of Gérman’s headphones.",
       "id": "scare_10",
       "resolved_time_ms": 2705000,
       "type": "minor"
@@ -69,7 +69,7 @@
       "type": "major"
     },
     {
-      "description": "A toy\u2019s noise spooks Sara.",
+      "description": "A toy’s noise spooks Sara.",
       "id": "scare_12",
       "resolved_time_ms": 3414000,
       "type": "minor"
@@ -87,13 +87,13 @@
       "type": "major"
     },
     {
-      "description": "The witch puts her hand on Sara\u2019s face accompanied by a loud noise.",
+      "description": "The witch puts her hand on Sara’s face accompanied by a loud noise.",
       "id": "scare_15",
       "resolved_time_ms": 3575000,
       "type": "major"
     },
     {
-      "description": "The hanged body of Sara bursts through the room\u2019s window.",
+      "description": "The hanged body of Sara bursts through the room’s window.",
       "id": "scare_16",
       "resolved_time_ms": 3629000,
       "type": "major"
@@ -105,7 +105,7 @@
       "type": "major"
     },
     {
-      "description": "A gunshot is fired frightening Ruth and G\u00e9rman.",
+      "description": "A gunshot is fired frightening Ruth and Gérman.",
       "id": "scare_18",
       "resolved_time_ms": 4070000,
       "type": "minor"
@@ -117,13 +117,13 @@
       "type": "minor"
     },
     {
-      "description": "A screaming woman runs by in front of G\u00e9rman.",
+      "description": "A screaming woman runs by in front of Gérman.",
       "id": "scare_20",
       "resolved_time_ms": 4521000,
       "type": "major"
     },
     {
-      "description": "The witch jumps on G\u00e9rman.",
+      "description": "The witch jumps on Gérman.",
       "id": "scare_21",
       "resolved_time_ms": 4664000,
       "type": "major"
@@ -147,13 +147,13 @@
       "type": "major"
     },
     {
-      "description": "Some viewers might get scared when Ruth shows up in front of G\u00e9rman.",
+      "description": "Some viewers might get scared when Ruth shows up in front of Gérman.",
       "id": "scare_25",
       "resolved_time_ms": 5080000,
       "type": "minor"
     },
     {
-      "description": "Eric\u2019s voice on the walkie-talkie may startle some viewers.",
+      "description": "Eric’s voice on the walkie-talkie may startle some viewers.",
       "id": "scare_26",
       "resolved_time_ms": 5437000,
       "type": "minor"
@@ -168,6 +168,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:41.622Z",
   "sync_type": "audio_hash",
-  "title": "Don T Listen",
+  "title": "Don't Listen",
   "tmdb_id": 726208
 }

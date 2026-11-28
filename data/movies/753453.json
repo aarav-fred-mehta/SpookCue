@@ -3,7 +3,7 @@
   "runtime_minutes": 103,
   "scares": [
     {
-      "description": "An eye appears in the man\u2019s belongings.",
+      "description": "An eye appears in the man’s belongings.",
       "id": "scare_01",
       "resolved_time_ms": 780000,
       "type": "minor"
@@ -63,7 +63,7 @@
       "type": "minor"
     },
     {
-      "description": "A strange creature eats a man\u2019s face.",
+      "description": "A strange creature eats a man’s face.",
       "id": "scare_11",
       "resolved_time_ms": 5603000,
       "type": "major"
@@ -78,6 +78,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:25.727Z",
   "sync_type": "audio_hash",
-  "title": "V H S 94",
+  "title": "V/H/S/94",
   "tmdb_id": 753453
 }

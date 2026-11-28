@@ -3,13 +3,13 @@
   "runtime_minutes": 101,
   "scares": [
     {
-      "description": "A sudden cut to a closeup of the zombie\u2019s face in a flashback.",
+      "description": "A sudden cut to a closeup of the zombie’s face in a flashback.",
       "id": "scare_01",
       "resolved_time_ms": 1426000,
       "type": "minor"
     },
     {
-      "description": "Buzzer\u2019s severed head suddenly opens eyes.",
+      "description": "Buzzer’s severed head suddenly opens eyes.",
       "id": "scare_02",
       "resolved_time_ms": 1602000,
       "type": "minor"
@@ -21,13 +21,13 @@
       "type": "minor"
     },
     {
-      "description": "The motorcycle suddenly traps the priest\u2019s fingers.",
+      "description": "The motorcycle suddenly traps the priest’s fingers.",
       "id": "scare_04",
       "resolved_time_ms": 3898000,
       "type": "minor"
     },
     {
-      "description": "The surface of the motorcycle\u2019s fuel tank reacts to holy water.",
+      "description": "The surface of the motorcycle’s fuel tank reacts to holy water.",
       "id": "scare_05",
       "resolved_time_ms": 4551000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:52.643Z",
   "sync_type": "audio_hash",
-  "title": "I Bought A Vampire Motorcycle",
+  "title": "I Bought a Vampire Motorcycle",
   "tmdb_id": 41153
 }

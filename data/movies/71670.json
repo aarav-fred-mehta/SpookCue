@@ -3,7 +3,7 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "description": "A bag is suddenly thrown over Scott\u2019s head after he knocks on the door.",
+      "description": "A bag is suddenly thrown over Scott’s head after he knocks on the door.",
       "id": "scare_01",
       "resolved_time_ms": 1185000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:44.853Z",
   "sync_type": "audio_hash",
-  "title": "Hostel Part Iii",
+  "title": "Hostel: Part III",
   "tmdb_id": 71670
 }

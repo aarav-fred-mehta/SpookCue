@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Accompanied by a \u201cjump scare\u201d sound effect, the lights turn off.",
+      "description": "Accompanied by a “jump scare” sound effect, the lights turn off.",
       "id": "scare_04",
       "resolved_time_ms": 2461000,
       "type": "minor"
@@ -63,7 +63,7 @@
       "type": "minor"
     },
     {
-      "description": "Accompanied by a \u201cjump scare\u201d sound effect, the lights turn off.",
+      "description": "Accompanied by a “jump scare” sound effect, the lights turn off.",
       "id": "scare_11",
       "resolved_time_ms": 4888000,
       "type": "minor"
@@ -81,7 +81,7 @@
       "type": "minor"
     },
     {
-      "description": "The seemingly dead sheriff suddenly grabs Elizabeth\u2019s arm.",
+      "description": "The seemingly dead sheriff suddenly grabs Elizabeth’s arm.",
       "id": "scare_14",
       "resolved_time_ms": 5296000,
       "type": "minor"
@@ -102,6 +102,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:41.263Z",
   "sync_type": "audio_hash",
-  "title": "Hide And Seek",
+  "title": "Hide and Seek",
   "tmdb_id": 11096
 }

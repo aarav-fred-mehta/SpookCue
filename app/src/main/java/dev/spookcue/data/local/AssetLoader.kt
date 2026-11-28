@@ -5,6 +5,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dev.spookcue.data.model.MovieCatalogItem
 import dev.spookcue.data.model.MovieDetails
 import dev.spookcue.data.model.MovieSyncData
+import dev.spookcue.data.remote.VersionInfo
 import kotlinx.serialization.json.Json
 import java.io.InputStreamReader
 import javax.inject.Inject
@@ -15,6 +16,7 @@ interface AssetLoader {
     fun loadMovieDetails(tmdbId: Int): MovieDetails?
     fun loadMovieSyncData(tmdbId: Int): MovieSyncData?
     fun getBundledSyncTmdbIds(): Set<Int>
+    fun loadVersion(): VersionInfo? = null
 }
 
 @Singleton
@@ -58,6 +60,16 @@ class AssetLoaderImpl @Inject constructor(
             context.assets.open("sync/$tmdbId.json").use { inputStream ->
                 InputStreamReader(inputStream).use { reader ->
                     json.decodeFromString<MovieSyncData>(reader.readText())
+                }
+            }
+        }.getOrNull()
+    }
+
+    override fun loadVersion(): VersionInfo? {
+        return runCatching {
+            context.assets.open("version.json").use { inputStream ->
+                InputStreamReader(inputStream).use { reader ->
+                    json.decodeFromString<VersionInfo>(reader.readText())
                 }
             }
         }.getOrNull()

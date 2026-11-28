@@ -3,7 +3,7 @@
   "runtime_minutes": 91,
   "scares": [
     {
-      "description": "Chucky attempts to bite Andy\u2019s hand.",
+      "description": "Chucky attempts to bite Andy’s hand.",
       "id": "scare_01",
       "resolved_time_ms": 307000,
       "type": "major"
@@ -33,19 +33,19 @@
       "type": "minor"
     },
     {
-      "description": "Chucky smashes a bottle over Foley\u2019s head.",
+      "description": "Chucky smashes a bottle over Foley’s head.",
       "id": "scare_06",
       "resolved_time_ms": 3023000,
       "type": "minor"
     },
     {
-      "description": "An image of Chucky\u2019s mangled face flashes across the screen twice (accompanied by a piercing sound effect).",
+      "description": "An image of Chucky’s mangled face flashes across the screen twice (accompanied by a piercing sound effect).",
       "id": "scare_07",
       "resolved_time_ms": 3174000,
       "type": "minor"
     },
     {
-      "description": "Foley suddenly yells \u201cMadeleine!\u201d during a tense scene.",
+      "description": "Foley suddenly yells “Madeleine!” during a tense scene.",
       "id": "scare_08",
       "resolved_time_ms": 3490000,
       "type": "minor"
@@ -63,7 +63,7 @@
       "type": "minor"
     },
     {
-      "description": "There is a sudden cut to Chucky with his arm in Madeleine\u2019s mouth.",
+      "description": "There is a sudden cut to Chucky with his arm in Madeleine’s mouth.",
       "id": "scare_11",
       "resolved_time_ms": 4035000,
       "type": "minor"
@@ -90,6 +90,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:25.808Z",
   "sync_type": "audio_hash",
-  "title": "Cult Of Chucky",
+  "title": "Cult of Chucky",
   "tmdb_id": 393345
 }

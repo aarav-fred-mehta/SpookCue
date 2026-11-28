@@ -3,6 +3,7 @@
 import asyncio
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import AsyncMock, MagicMock, patch
 
@@ -21,12 +22,16 @@ class TestMainPipeline(unittest.TestCase):
     def setUp(self):
         self.patcher1 = patch("spookcue_scraper.main.TmdbClient.get_now_playing_movie_ids", AsyncMock(return_value=set()))
         self.patcher2 = patch("spookcue_scraper.main.TmdbClient.get_popular_horror_ids", AsyncMock(return_value=set()))
+        self.patcher3 = patch("spookcue_scraper.main.TmdbClient.get_configuration", AsyncMock(return_value={}))
         self.patcher1.start()
         self.patcher2.start()
+        self.patcher3.start()
 
     def tearDown(self):
         self.patcher1.stop()
         self.patcher2.stop()
+        self.patcher3.stop()
+
     def test_load_existing_catalog_missing(self):
         result = load_existing_catalog(Path("non_existent_catalog.json"))
         self.assertEqual(result, [])
@@ -40,7 +45,6 @@ class TestMainPipeline(unittest.TestCase):
         self.assertEqual(extract_tmdb_id_from_slug("the-conjuring-138843"), 138843)
         self.assertEqual(extract_tmdb_id_from_slug("https://example.com/movie/tmdb-138843/"), 138843)
         self.assertEqual(extract_tmdb_id_from_slug("movie?tmdb_id=138843"), 138843)
-        # Year only (e.g. 2013) should not be mistaken for 5+ digit TMDB ID
         self.assertIsNone(extract_tmdb_id_from_slug("jump-scares-in-the-conjuring-2013"))
 
     def test_process_movie_with_mocked_clients(self):
@@ -72,6 +76,8 @@ class TestMainPipeline(unittest.TestCase):
             tmdb_client.search_movie = AsyncMock(return_value=138843)
             tmdb_client.get_movie_details = AsyncMock(
                 return_value={
+                    "title": "The Conjuring",
+                    "release_date": "2013-07-19",
                     "runtime": 112,
                     "poster_path": "/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
                 }
@@ -104,6 +110,49 @@ class TestMainPipeline(unittest.TestCase):
                 self.assertEqual(scare["type"], "major")
                 self.assertNotIn("anchor_phonetic", scare)
                 self.assertNotIn("offset_from_anchor_ms", scare)
+
+        asyncio.run(run_test())
+
+    def test_process_movie_prefers_canonical_tmdb_title_and_year(self):
+        """Verify TMDB title and release_date override mangled slug titles/years (e.g. 1922 (2017))."""
+        async def run_test():
+            item = {
+                "title": "1922 2017",
+                "year": 1922,
+                "slug": "452507-1922-2017",
+            }
+
+            scraper = MagicMock()
+            scraper.parse_movie_page = AsyncMock(
+                return_value={"title": "", "year": None, "runtime_minutes": 102, "scares": []}
+            )
+
+            tmdb_client = MagicMock()
+            tmdb_client.search_movie = AsyncMock()
+            tmdb_client.get_movie_details = AsyncMock(
+                return_value={
+                    "title": "1922",
+                    "release_date": "2017-10-20",
+                    "runtime": 102,
+                    "poster_path": "/poster.jpg",
+                }
+            )
+
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                sync_dir = Path(tmp_dir) / "sync"
+                sync_dir.mkdir(parents=True)
+
+                result = await process_movie(
+                    item=item,
+                    scraper=scraper,
+                    tmdb_client=tmdb_client,
+                    known_tmdb_ids={},
+                    sync_dir=sync_dir,
+                )
+                self.assertEqual(result["movie_doc"]["title"], "1922")
+                self.assertEqual(result["movie_doc"]["release_year"], 2017)
+                self.assertEqual(result["catalog_entry"]["title"], "1922")
+                self.assertEqual(result["catalog_entry"]["release_year"], 2017)
 
         asyncio.run(run_test())
 
@@ -210,6 +259,100 @@ class TestMainPipeline(unittest.TestCase):
                     self.assertEqual(result["added"], 0)
                     self.assertEqual(result["updated"], 0)
                     mock_parse.assert_not_called()
+
+        asyncio.run(run_test())
+
+    def test_pipeline_heals_broken_year_and_title_and_updates_tags(self):
+        """Verify pipeline heals bogus years/titles like 2082 Halloween 2007 and updates NEW/HOT tags."""
+        async def run_test():
+            with tempfile.TemporaryDirectory() as tmp_dir:
+                data_dir = Path(tmp_dir)
+                movies_dir = data_dir / "movies"
+                movies_dir.mkdir(parents=True)
+
+                cur_year = datetime.now(timezone.utc).year
+                movie_doc = {
+                    "tmdb_id": 2082,
+                    "title": "Halloween 2007",
+                    "release_year": 2082,
+                    "runtime_minutes": 110,
+                    "scares": [{"id": "scare_01", "resolved_time_ms": 1000, "type": "minor", "description": ""}],
+                    "source": "whenjumpscare",
+                    "source_lastmod": "2026-10-28T12:00:00Z",
+                    "sync_type": "audio_hash",
+                }
+                (movies_dir / "2082.json").write_text(dump_json_bytes(movie_doc).decode("utf-8"))
+
+                recent_doc = {
+                    "tmdb_id": 999001,
+                    "title": "Recent Slasher",
+                    "release_year": cur_year,
+                    "runtime_minutes": 95,
+                    "scares": [{"id": f"scare_{i:02d}", "resolved_time_ms": i * 1000, "type": "minor", "description": ""} for i in range(1, 22)],
+                    "source": "whenjumpscare",
+                    "source_lastmod": "2026-10-28T12:00:00Z",
+                    "sync_type": "audio_hash",
+                }
+                (movies_dir / "999001.json").write_text(dump_json_bytes(recent_doc).decode("utf-8"))
+
+                catalog_data = [
+                    {
+                        "tmdb_id": 2082,
+                        "title": "Halloween 2007",
+                        "release_year": 2082,
+                        "runtime_minutes": 110,
+                        "scare_count": 1,
+                        "poster_path": "/p.jpg",
+                        "has_acoustic_sync": False,
+                        "sync_type": "audio_hash",
+                        "tags": ["NEW"],
+                    },
+                    {
+                        "tmdb_id": 999001,
+                        "title": "Recent Slasher",
+                        "release_year": cur_year,
+                        "runtime_minutes": 95,
+                        "scare_count": 21,
+                        "poster_path": "/r.jpg",
+                        "has_acoustic_sync": False,
+                        "sync_type": "audio_hash",
+                        "tags": [],
+                    },
+                ]
+                (data_dir / "catalog.json").write_text(dump_json_bytes(catalog_data).decode("utf-8"))
+
+                mock_index = [
+                    {
+                        "title": "Halloween",
+                        "year": 2007,
+                        "tmdb_id": 2082,
+                        "source": "whenjumpscare",
+                        "lastmod": "2026-10-28T12:00:00Z",
+                        "jump_count": 1,
+                    },
+                    {
+                        "title": "Recent Slasher",
+                        "year": cur_year,
+                        "tmdb_id": 999001,
+                        "source": "whenjumpscare",
+                        "lastmod": "2026-10-28T12:00:00Z",
+                        "jump_count": 21,
+                    },
+                ]
+                with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
+                     patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock()):
+                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    self.assertGreaterEqual(result["updated"], 1)
+
+                healed_doc = load_json_bytes((movies_dir / "2082.json").read_bytes())
+                self.assertEqual(healed_doc["title"], "Halloween")
+                self.assertEqual(healed_doc["release_year"], 2007)
+
+                updated_catalog = {m["tmdb_id"]: m for m in load_json_bytes((data_dir / "catalog.json").read_bytes())}
+                self.assertEqual(updated_catalog[2082]["title"], "Halloween")
+                self.assertEqual(updated_catalog[2082]["release_year"], 2007)
+                self.assertNotIn("NEW", updated_catalog[2082]["tags"])
+                self.assertEqual(updated_catalog[999001]["tags"], ["NEW", "HOT"])
 
         asyncio.run(run_test())
 
@@ -348,9 +491,8 @@ class TestMainPipeline(unittest.TestCase):
                 with patch("spookcue_scraper.main.WhenJumpScareScraper.fetch_movie_index", AsyncMock(return_value=mock_index)), \
                      patch("spookcue_scraper.main.WhenJumpScareScraper.parse_movie_page", AsyncMock(return_value={"scares": [], "runtime_minutes": 103})):
 
-                    result = await run_pipeline(data_dir=data_dir, delay_seconds=0)
+                    await run_pipeline(data_dir=data_dir, delay_seconds=0)
 
-                    # Verify old file was deleted and migrated to 176.json
                     self.assertFalse((movies_dir / "999999.json").exists())
                     self.assertTrue((movies_dir / "176.json").exists())
 

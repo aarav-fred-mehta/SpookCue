@@ -3,7 +3,7 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "description": "The boy grabs Johan\u2019s leg.",
+      "description": "The boy grabs Johan’s leg.",
       "id": "scare_01",
       "resolved_time_ms": 3402000,
       "type": "minor"
@@ -12,6 +12,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:55:48.410Z",
   "sync_type": "audio_hash",
-  "title": "Hour Of The Wolf",
+  "title": "Hour of the Wolf",
   "tmdb_id": 18333
 }

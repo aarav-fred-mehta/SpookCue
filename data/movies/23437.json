@@ -21,19 +21,19 @@
       "type": "minor"
     },
     {
-      "description": "Someone jumps into view from outside Kris\u2019s window.",
+      "description": "Someone jumps into view from outside Kris’s window.",
       "id": "scare_04",
       "resolved_time_ms": 1424000,
       "type": "minor"
     },
     {
-      "description": "A silhouette walks past the camera when\u00a0 Kris is in a hallway.",
+      "description": "A silhouette walks past the camera when  Kris is in a hallway.",
       "id": "scare_05",
       "resolved_time_ms": 1650000,
       "type": "minor"
     },
     {
-      "description": "Kris lies back down on her bed but Freddy is lying there and says \u201cfound you\u201d.",
+      "description": "Kris lies back down on her bed but Freddy is lying there and says “found you”.",
       "id": "scare_06",
       "resolved_time_ms": 1763000,
       "type": "minor"
@@ -81,13 +81,13 @@
       "type": "minor"
     },
     {
-      "description": "As Jesse hides in the closet, Freddy appears next to her and says \u201cboo!\u201d.",
+      "description": "As Jesse hides in the closet, Freddy appears next to her and says “boo!”.",
       "id": "scare_14",
       "resolved_time_ms": 4970000,
       "type": "minor"
     },
     {
-      "description": "Freddy appears in the mirror behind Nancy\u2019s mother.",
+      "description": "Freddy appears in the mirror behind Nancy’s mother.",
       "id": "scare_15",
       "resolved_time_ms": 5428000,
       "type": "minor"
@@ -96,6 +96,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:36.855Z",
   "sync_type": "audio_hash",
-  "title": "A Nightmare On Elm Street",
+  "title": "A Nightmare on Elm Street",
   "tmdb_id": 23437
 }

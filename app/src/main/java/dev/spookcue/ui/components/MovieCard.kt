@@ -58,9 +58,11 @@ fun MovieCard(
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
-    val posterUrl = movie.posterPath?.let { "https://image.tmdb.org/t/p/w185$it" }
-    val isMovieNew = remember(movie.tags, movie.releaseYear) {
-        "NEW" in movie.tags || ((movie.releaseYear ?: 0) >= (java.util.Calendar.getInstance().get(java.util.Calendar.YEAR) - 1))
+    val posterUrl = movie.posterPath?.takeIf { it.isNotBlank() }?.let { "https://image.tmdb.org/t/p/w185$it" }
+    val currentYear = remember { java.util.Calendar.getInstance().get(java.util.Calendar.YEAR) }
+    val isMovieNew = remember(movie.tags, movie.releaseYear, currentYear) {
+        val yr = movie.releaseYear ?: 0
+        ("NEW" in movie.tags && (yr == 0 || yr <= currentYear + 1)) || yr in (currentYear - 1)..(currentYear + 1)
     }
 
     val imageRequest = remember(posterUrl) {
@@ -147,8 +149,12 @@ fun MovieCard(
 
                 Spacer(modifier = Modifier.height(4.dp))
 
+                val metaText = listOfNotNull(
+                    movie.releaseYear?.takeIf { it > 0 }?.toString(),
+                    movie.runtimeMinutes.takeIf { it > 0 }?.let { "$it min" }
+                ).joinToString(" • ").ifEmpty { "Runtime unknown" }
                 Text(
-                    text = "${movie.releaseYear?.let { if (it > 0) "$it • " else "" } ?: ""}${movie.runtimeMinutes} min",
+                    text = metaText,
                     style = MaterialTheme.typography.bodyMedium,
                     color = TextSecondary
                 )

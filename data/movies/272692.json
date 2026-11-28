@@ -39,7 +39,7 @@
       "type": "major"
     },
     {
-      "description": "During Michael\u2019s hypnotism, everything goes quiet briefly before Michael suddenly appears standing directly in front of the camera.",
+      "description": "During Michael’s hypnotism, everything goes quiet briefly before Michael suddenly appears standing directly in front of the camera.",
       "id": "scare_07",
       "resolved_time_ms": 2192000,
       "type": "minor"
@@ -51,7 +51,7 @@
       "type": "major"
     },
     {
-      "description": "Ellie\u2019s toy makes a noise from behind Michael.",
+      "description": "Ellie’s toy makes a noise from behind Michael.",
       "id": "scare_09",
       "resolved_time_ms": 2314000,
       "type": "minor"
@@ -75,7 +75,7 @@
       "type": "minor"
     },
     {
-      "description": "Something sparks in the background after Michael says \u201cWhy are you doing this?\u201d",
+      "description": "Something sparks in the background after Michael says “Why are you doing this?”",
       "id": "scare_13",
       "resolved_time_ms": 3300000,
       "type": "minor"
@@ -126,6 +126,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:58:52.916Z",
   "sync_type": "audio_hash",
-  "title": "The Possession Of Michael King",
+  "title": "The Possession of Michael King",
   "tmdb_id": 272692
 }

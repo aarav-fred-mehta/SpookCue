@@ -3,7 +3,7 @@
   "runtime_minutes": 88,
   "scares": [
     {
-      "description": "After Father Simon says \u201cNow,\u201d the camera pans to the left to show Alan being pulled out of a bathtub by someone and screaming.",
+      "description": "After Father Simon says “Now,” the camera pans to the left to show Alan being pulled out of a bathtub by someone and screaming.",
       "id": "scare_01",
       "resolved_time_ms": 2781000,
       "type": "minor"
@@ -18,6 +18,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:17.690Z",
   "sync_type": "audio_hash",
-  "title": "Children Of Sorrow",
+  "title": "Children of Sorrow",
   "tmdb_id": 201024
 }

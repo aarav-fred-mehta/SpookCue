@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "A zombie\u2019s head is suddenly blown off.",
+      "description": "A zombie’s head is suddenly blown off.",
       "id": "scare_03",
       "resolved_time_ms": 1036000,
       "type": "minor"
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "A zombie\u2019s head is blown off.",
+      "description": "A zombie’s head is blown off.",
       "id": "scare_05",
       "resolved_time_ms": 2216000,
       "type": "minor"
@@ -48,6 +48,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:59.429Z",
   "sync_type": "audio_hash",
-  "title": "Pride And Prejudice And Zombies",
+  "title": "Pride and Prejudice and Zombies",
   "tmdb_id": 58431
 }

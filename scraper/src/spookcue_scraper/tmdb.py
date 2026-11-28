@@ -1,22 +1,26 @@
-"""TMDB API client for movie metadata and poster retrieval."""
+"""TMDB API client for movie metadata, discovery, and poster retrieval."""
 
 from __future__ import annotations
 
 import asyncio
+from datetime import datetime, timedelta, timezone
 import json
 import logging
 import os
 from pathlib import Path
 import re
 import time
-from typing import Any, Set, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 import httpx
 
 logger = logging.getLogger(__name__)
 
-# Cache duration: 6 months (~180 days)
-CACHE_TTL_SECONDS = 180 * 24 * 3600
+# TMDB Terms of Use cap cached API data at 6 months; use 150 days to stay safely under cap.
+CACHE_TTL_SECONDS = 150 * 24 * 3600
+CONFIG_CACHE_TTL_SECONDS = 7 * 24 * 3600
+HORROR_GENRE_ID = 27
+MAX_RETRIES = 3
 
 RE_EDITION_SUFFIX = re.compile(
     r"\s*(?:[-–—:]\s*|\()\s*(?:Director['’]s Cut|Extended Cut|Unrated.*|Original Australian.*|Blu-Ray.*|Collector['’]s Edition|Alternate Ending|Special Edition|Remastered|Theatrical Cut|Ultimate Edition|International Cut|Final Cut|Restored|\d+fps).*",
@@ -31,40 +35,33 @@ KNOWN_TITLE_ALIASES: Dict[str, int] = {
 }
 
 
-
 def generate_title_candidates(title: str) -> List[str]:
     """Generate search candidates for a title by normalizing punctuation, stripping edition qualifiers, and trying sub-titles."""
     if not title:
         return []
 
-    # Normalize unicode apostrophes/quotes
     normalized = title.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"').strip()
     candidates = [normalized]
 
-    # 1. & vs and variations (e.g. "Things Heard and Seen" <-> "Things Heard & Seen")
     if " and " in normalized.lower():
         candidates.append(re.sub(r"\band\b", "&", normalized, flags=re.IGNORECASE).strip())
     if " & " in normalized:
         candidates.append(normalized.replace(" & ", " and ").strip())
 
-    # 2. Strip common edition/cut patterns (e.g. " – Director’s Cut", " (Extended Cut)")
     cleaned = RE_EDITION_SUFFIX.sub("", normalized).rstrip(" )").strip()
     if cleaned and cleaned not in candidates:
         candidates.append(cleaned)
 
-    # 3. Split on dash/en-dash/em-dash if present (e.g. "Army of Darkness – Director's Cut")
     for sep in (" – ", " — ", " - "):
         if sep in normalized:
             base = normalized.split(sep)[0].strip()
             if base and base not in candidates:
                 candidates.append(base)
 
-    # 4. Strip parenthetical qualifiers (e.g. "Movie Title (US)")
     no_parens = re.sub(r"\s*\([^)]*\)", "", normalized).strip()
     if no_parens and no_parens not in candidates:
         candidates.append(no_parens)
 
-    # 5. Handle colon separated subtitles (e.g. "Vacancy 3: Terror Trap" -> "Terror Trap")
     if ":" in normalized:
         parts = [p.strip() for p in normalized.split(":", 1) if p.strip()]
         if len(parts) == 2:
@@ -77,7 +74,6 @@ def generate_title_candidates(title: str) -> List[str]:
             if space_ver not in candidates:
                 candidates.append(space_ver)
 
-    # Return unique ordered list (case-insensitive deduplication)
     seen = set()
     result = []
     for c in candidates:
@@ -117,26 +113,48 @@ class TokenBucket:
 
 
 class TmdbClient:
-    """Interacts with TMDB API v3 with token-bucket rate limiting and caching."""
+    """Interacts with TMDB API v3 with rate limiting, 429 Retry-After backoff, and TTL caching."""
 
     BASE_URL = "https://api.themoviedb.org/3"
+    USER_AGENT = "SpookCue-Pipeline/0.1 (+https://github.com/aarav-fred-mehta/SpookCue)"
 
     def __init__(
         self,
         api_key: Optional[str] = None,
+        access_token: Optional[str] = None,
         cache_dir: Optional[Path] = None,
         client: Optional[httpx.AsyncClient] = None,
         rate_limiter: Optional[TokenBucket] = None,
     ) -> None:
-        self.api_key = api_key or os.environ.get("TMDB_API_KEY", "")
+        raw_key = (api_key if api_key is not None else os.environ.get("TMDB_API_KEY", "")).strip()
+        raw_token = (access_token if access_token is not None else os.environ.get("TMDB_ACCESS_TOKEN", "")).strip()
+
+        # Auto-detect TMDB v4 Read Access Token (JWT) even if passed via TMDB_API_KEY
+        if not raw_token and raw_key.startswith("eyJ") and "." in raw_key:
+            self.access_token = raw_key
+            self.api_key = ""
+        else:
+            self.access_token = raw_token
+            self.api_key = raw_key
+
         self.cache_dir = cache_dir or Path(".tmdb_cache")
         self._client = client
         self._owns_client = client is None
         self.rate_limiter = rate_limiter or TokenBucket()
 
+    @property
+    def has_credentials(self) -> bool:
+        return bool(self.access_token or self.api_key)
+
     async def _get_client(self) -> httpx.AsyncClient:
         if self._client is None or self._client.is_closed is True:
-            self._client = httpx.AsyncClient(timeout=15.0)
+            headers = {
+                "Accept": "application/json",
+                "User-Agent": self.USER_AGENT,
+            }
+            if self.access_token:
+                headers["Authorization"] = f"Bearer {self.access_token}"
+            self._client = httpx.AsyncClient(headers=headers, timeout=15.0)
             self._owns_client = True
         return self._client
 
@@ -148,7 +166,7 @@ class TmdbClient:
         safe_key = "".join(c if c.isalnum() or c in "-_" else "_" for c in key)
         return self.cache_dir / f"{safe_key}.json"
 
-    def _read_cache(self, key: str) -> Optional[Dict[str, Any]]:
+    def _read_cache(self, key: str, ttl_seconds: int = CACHE_TTL_SECONDS) -> Optional[Dict[str, Any]]:
         path = self._get_cache_path(key)
         if not path.exists():
             return None
@@ -156,7 +174,7 @@ class TmdbClient:
             with open(path, "r", encoding="utf-8") as f:
                 entry = json.load(f)
             cached_at = entry.get("cached_at", 0)
-            if time.time() - cached_at < CACHE_TTL_SECONDS:
+            if time.time() - cached_at < ttl_seconds:
                 return entry.get("data")
         except Exception as exc:
             logger.debug("Error reading cache for %s: %s", key, exc)
@@ -171,40 +189,108 @@ class TmdbClient:
         except Exception as exc:
             logger.debug("Error writing cache for %s: %s", key, exc)
 
+    def _auth_params(self, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        merged = dict(params or {})
+        if not self.access_token and self.api_key:
+            merged["api_key"] = self.api_key
+        return merged
+
+    def _auth_headers(self) -> Dict[str, str]:
+        if self.access_token:
+            return {"Authorization": f"Bearer {self.access_token}", "Accept": "application/json"}
+        return {"Accept": "application/json"}
+
+    async def _request_json(
+        self,
+        endpoint: str,
+        params: Optional[Dict[str, Any]] = None,
+    ) -> Optional[Dict[str, Any]]:
+        """Execute a TMDB API GET request with rate limiting, Retry-After 429 handling, and safe logging."""
+        if not self.has_credentials:
+            return None
+
+        client = await self._get_client()
+        url = f"{self.BASE_URL}{endpoint}"
+        query_params = self._auth_params(params)
+
+        for attempt in range(MAX_RETRIES):
+            await self.rate_limiter.acquire()
+            try:
+                kwargs: Dict[str, Any] = {"params": query_params}
+                if self.access_token and not self._owns_client:
+                    kwargs["headers"] = self._auth_headers()
+                resp = await client.get(url, **kwargs)
+
+                if resp.status_code == 429:
+                    retry_after_raw = resp.headers.get("Retry-After", "") if hasattr(resp, "headers") else ""
+                    try:
+                        wait_s = max(float(retry_after_raw), float(2 ** attempt))
+                    except (ValueError, TypeError):
+                        wait_s = float(2 ** (attempt + 1))
+                    wait_s = min(wait_s, 30.0)
+                    logger.warning("TMDB HTTP 429 on %s; backing off %.1fs (attempt %d/%d)", endpoint, wait_s, attempt + 1, MAX_RETRIES)
+                    await asyncio.sleep(wait_s)
+                    continue
+
+                if resp.status_code in (500, 502, 503, 504) and attempt < MAX_RETRIES - 1:
+                    wait_s = float(2 ** attempt)
+                    logger.warning("TMDB transient HTTP %d on %s; retrying in %.1fs", resp.status_code, endpoint, wait_s)
+                    await asyncio.sleep(wait_s)
+                    continue
+
+                resp.raise_for_status()
+                return resp.json()
+            except httpx.HTTPStatusError as exc:
+                logger.debug("TMDB HTTP %d on %s", exc.response.status_code, endpoint)
+                return None
+            except Exception as exc:
+                logger.debug("TMDB request failed for %s: %s", endpoint, type(exc).__name__)
+                if attempt < MAX_RETRIES - 1:
+                    await asyncio.sleep(float(2 ** attempt))
+                    continue
+                return None
+        return None
+
+    async def get_configuration(self) -> Dict[str, Any]:
+        """Fetch and cache TMDB API image configuration per TMDB guidelines."""
+        if not self.has_credentials:
+            return {}
+        cached = self._read_cache("tmdb_configuration", ttl_seconds=CONFIG_CACHE_TTL_SECONDS)
+        if cached is not None:
+            return cached
+        data = await self._request_json("/configuration")
+        if data:
+            self._write_cache("tmdb_configuration", data)
+            return data
+        return {}
+
     async def _query_tmdb_search(
         self,
-        client: httpx.AsyncClient,
         query: str,
         year: Optional[int] = None,
     ) -> Optional[int]:
         """Execute a single TMDB search query with rate limiting."""
-        await self.rate_limiter.acquire()
         params: Dict[str, Any] = {
-            "api_key": self.api_key,
             "query": query,
             "include_adult": False,
         }
         if year:
             params["year"] = year
 
-        try:
-            resp = await client.get(f"{self.BASE_URL}/search/movie", params=params)
-            resp.raise_for_status()
-            data = resp.json()
-            results = data.get("results", [])
-            if results:
-                return results[0].get("id")
-        except Exception as exc:
-            logger.debug("TMDB search query failed for '%s' (%s): %s", query, year, exc)
+        data = await self._request_json("/search/movie", params=params)
+        if not data:
+            return None
+        results = data.get("results", [])
+        if results:
+            return results[0].get("id")
         return None
 
     async def search_movie(self, title: str, year: Optional[int] = None) -> Optional[int]:
         """Search for TMDB ID given movie title and release year, using candidate fallback."""
-        if not self.api_key:
-            logger.warning("No TMDB_API_KEY provided; skipping TMDB search for '%s'", title)
+        if not self.has_credentials:
+            logger.warning("No TMDB credentials provided; skipping TMDB search for '%s'", title)
             return None
 
-        # Check known aliases
         normalized_title = title.strip().lower()
         if normalized_title in KNOWN_TITLE_ALIASES:
             return KNOWN_TITLE_ALIASES[normalized_title]
@@ -214,28 +300,24 @@ class TmdbClient:
         if cached is not None:
             return cached.get("tmdb_id")
 
-        client = await self._get_client()
         candidates = generate_title_candidates(title)
 
-        # 1. Try each candidate with exact year
         for candidate in candidates:
-            tmdb_id = await self._query_tmdb_search(client, candidate, year)
+            tmdb_id = await self._query_tmdb_search(candidate, year)
             if tmdb_id:
                 self._write_cache(cache_key, {"tmdb_id": tmdb_id})
                 return tmdb_id
 
-        # 2. If not found and year was provided, try year - 1 and year + 1 (festival premiere offset)
         if year:
             for offset in (-1, 1):
                 for candidate in candidates:
-                    tmdb_id = await self._query_tmdb_search(client, candidate, year + offset)
+                    tmdb_id = await self._query_tmdb_search(candidate, year + offset)
                     if tmdb_id:
                         self._write_cache(cache_key, {"tmdb_id": tmdb_id})
                         return tmdb_id
 
-        # 3. If still not found, try candidates without year
         for candidate in candidates:
-            tmdb_id = await self._query_tmdb_search(client, candidate, None)
+            tmdb_id = await self._query_tmdb_search(candidate, None)
             if tmdb_id:
                 self._write_cache(cache_key, {"tmdb_id": tmdb_id})
                 return tmdb_id
@@ -243,9 +325,9 @@ class TmdbClient:
         return None
 
     async def get_movie_details(self, tmdb_id: int) -> Dict[str, Any]:
-        """Fetch details: runtime, poster_path, genres, original_language."""
-        if not self.api_key:
-            logger.warning("No TMDB_API_KEY provided; returning empty details for TMDB ID %d", tmdb_id)
+        """Fetch details: runtime, poster_path, genres, original_language, release_date, title."""
+        if not self.has_credentials:
+            logger.warning("No TMDB credentials provided; returning empty details for TMDB ID %d", tmdb_id)
             return {}
 
         cache_key = f"movie_{tmdb_id}"
@@ -253,65 +335,119 @@ class TmdbClient:
         if cached is not None:
             return cached
 
-        client = await self._get_client()
-        await self.rate_limiter.acquire()
-
-        params = {"api_key": self.api_key}
-        try:
-            resp = await client.get(f"{self.BASE_URL}/movie/{tmdb_id}", params=params)
-            resp.raise_for_status()
-            data = resp.json()
-            details = {
-                "runtime": data.get("runtime"),
-                "poster_path": data.get("poster_path"),
-                "genres": [g.get("name") for g in data.get("genres", []) if "name" in g],
-                "original_language": data.get("original_language"),
-                "release_date": data.get("release_date"),
-                "title": data.get("title"),
-                "imdb_id": data.get("imdb_id"),
-            }
-            self._write_cache(cache_key, details)
-            return details
-        except Exception as exc:
-            logger.error("TMDB get_movie_details failed for ID %d: %s", tmdb_id, exc)
+        data = await self._request_json(f"/movie/{tmdb_id}")
+        if not data:
+            logger.error("TMDB get_movie_details failed for ID %d", tmdb_id)
             return {}
 
+        details = {
+            "runtime": data.get("runtime"),
+            "poster_path": data.get("poster_path"),
+            "genres": [g.get("name") for g in data.get("genres", []) if "name" in g],
+            "original_language": data.get("original_language"),
+            "release_date": data.get("release_date"),
+            "title": data.get("title"),
+            "imdb_id": data.get("imdb_id"),
+        }
+        self._write_cache(cache_key, details)
+        return details
+
     async def get_now_playing_movie_ids(self) -> Set[int]:
-        """Fetch currently running theatrical & trending horror TMDB IDs from free TMDB API."""
-        if not self.api_key:
+        """Fetch currently running theatrical horror TMDB IDs using valid TMDB endpoints & params."""
+        if not self.has_credentials:
             return set()
-        client = await self._get_client()
+
         now_playing_ids: Set[int] = set()
-        endpoints = [
-            f"{self.BASE_URL}/movie/now_playing?api_key={self.api_key}&with_genres=27",
-            f"{self.BASE_URL}/trending/movie/week?api_key={self.api_key}",
-        ]
-        for url in endpoints:
-            try:
-                resp = await client.get(url)
-                if resp.status_code == 200:
-                    for item in resp.json().get("results", []):
-                        mid = item.get("id")
-                        if mid:
-                            now_playing_ids.add(mid)
-            except Exception as exc:
-                logger.debug("Failed to query now_playing/trending: %s", exc)
+        now_utc = datetime.now(timezone.utc)
+        min_year = now_utc.year - 2
+
+        # 1. /movie/now_playing (valid params: language, page; filter horror genre & recent release date client-side)
+        for page in (1, 2, 3):
+            data = await self._request_json(
+                "/movie/now_playing",
+                params={"language": "en-US", "page": page},
+            )
+            if not data:
+                break
+            results = data.get("results", [])
+            for item in results:
+                mid = item.get("id")
+                genre_ids = item.get("genre_ids", [])
+                rel_date = str(item.get("release_date") or "")
+                rel_year = int(rel_date[:4]) if len(rel_date) >= 4 and rel_date[:4].isdigit() else None
+                is_recent = rel_year is None or rel_year >= min_year
+                if mid and HORROR_GENRE_ID in genre_ids and is_recent:
+                    now_playing_ids.add(mid)
+            if page >= int(data.get("total_pages", 1)):
+                break
+
+        # 2. /discover/movie for recent theatrical horror (last 90 days)
+        start_date = (now_utc - timedelta(days=90)).strftime("%Y-%m-%d")
+        end_date = now_utc.strftime("%Y-%m-%d")
+        for page in (1, 2):
+            data = await self._request_json(
+                "/discover/movie",
+                params={
+                    "language": "en-US",
+                    "include_adult": False,
+                    "with_genres": HORROR_GENRE_ID,
+                    "with_release_type": "2|3",
+                    "primary_release_date.gte": start_date,
+                    "primary_release_date.lte": end_date,
+                    "sort_by": "popularity.desc",
+                    "page": page,
+                },
+            )
+            if not data:
+                break
+            for item in data.get("results", []):
+                mid = item.get("id")
+                if mid:
+                    now_playing_ids.add(mid)
+            if page >= int(data.get("total_pages", 1)):
+                break
+
         return now_playing_ids
 
     async def get_popular_horror_ids(self) -> Set[int]:
-        """Fetch top popular horror movie TMDB IDs from free TMDB discover API."""
-        if not self.api_key:
+        """Fetch top popular & weekly trending horror movie TMDB IDs."""
+        if not self.has_credentials:
             return set()
-        client = await self._get_client()
+
         popular_ids: Set[int] = set()
-        url = f"{self.BASE_URL}/discover/movie?api_key={self.api_key}&with_genres=27&sort_by=popularity.desc&vote_count.gte=300"
-        try:
-            resp = await client.get(url)
-            if resp.status_code == 200:
-                for item in resp.json().get("results", []):
-                    mid = item.get("id")
-                    if mid:
-                        popular_ids.add(mid)
-        except Exception as exc:
-            logger.debug("Failed to query popular horror: %s", exc)
+
+        # 1. Discover top popular horror films (pages 1..5 = up to 100 films)
+        for page in range(1, 6):
+            data = await self._request_json(
+                "/discover/movie",
+                params={
+                    "language": "en-US",
+                    "include_adult": False,
+                    "with_genres": HORROR_GENRE_ID,
+                    "sort_by": "popularity.desc",
+                    "vote_count.gte": 300,
+                    "page": page,
+                },
+            )
+            if not data:
+                break
+            for item in data.get("results", []):
+                mid = item.get("id")
+                if mid:
+                    popular_ids.add(mid)
+            if page >= int(data.get("total_pages", 1)):
+                break
+
+        # 2. Weekly trending movies filtered to horror
+        trending_data = await self._request_json(
+            "/trending/movie/week",
+            params={"language": "en-US"},
+        )
+        if trending_data:
+            for item in trending_data.get("results", []):
+                mid = item.get("id")
+                genre_ids = item.get("genre_ids", [])
+                if mid and HORROR_GENRE_ID in genre_ids:
+                    popular_ids.add(mid)
+
         return popular_ids

@@ -21,7 +21,7 @@
       "type": "minor"
     },
     {
-      "description": "Ellie scares Jan with a green mask while she\u2019s reading in bed.",
+      "description": "Ellie scares Jan with a green mask while she’s reading in bed.",
       "id": "scare_04",
       "resolved_time_ms": 768000,
       "type": "minor"
@@ -57,7 +57,7 @@
       "type": "minor"
     },
     {
-      "description": "A bird screeches and flies into Jan\u2019s face.",
+      "description": "A bird screeches and flies into Jan’s face.",
       "id": "scare_10",
       "resolved_time_ms": 2390000,
       "type": "minor"
@@ -78,6 +78,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:13.637Z",
   "sync_type": "audio_hash",
-  "title": "The Watcher In The Woods",
+  "title": "The Watcher in the Woods",
   "tmdb_id": 21970
 }

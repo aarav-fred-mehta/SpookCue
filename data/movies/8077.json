@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "The alien suddenly spits acid in Murphy\u2019s face.",
+      "description": "The alien suddenly spits acid in Murphy’s face.",
       "id": "scare_05",
       "resolved_time_ms": 2339000,
       "type": "minor"
@@ -45,7 +45,7 @@
       "type": "minor"
     },
     {
-      "description": "The scene suddenly cuts to Bishop\u2019s remains being thrown onto a table.",
+      "description": "The scene suddenly cuts to Bishop’s remains being thrown onto a table.",
       "id": "scare_08",
       "resolved_time_ms": 3352000,
       "type": "minor"
@@ -90,6 +90,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:41.568Z",
   "sync_type": "audio_hash",
-  "title": "Alien3",
+  "title": "Alien³",
   "tmdb_id": 8077
 }

@@ -9,13 +9,13 @@
       "type": "minor"
     },
     {
-      "description": "A lady runs up to Ana\u2019s car and pleads for help.",
+      "description": "A lady runs up to Ana’s car and pleads for help.",
       "id": "scare_02",
       "resolved_time_ms": 548000,
       "type": "minor"
     },
     {
-      "description": "Someone opens the drivers side door of Ana\u2019s car.",
+      "description": "Someone opens the drivers side door of Ana’s car.",
       "id": "scare_03",
       "resolved_time_ms": 622000,
       "type": "minor"
@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "A zombie jumps down onto Bart\u2019s back.",
+      "description": "A zombie jumps down onto Bart’s back.",
       "id": "scare_06",
       "resolved_time_ms": 4019000,
       "type": "minor"
@@ -66,6 +66,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:29.048Z",
   "sync_type": "audio_hash",
-  "title": "Dawn Of The Dead",
+  "title": "Dawn of the Dead",
   "tmdb_id": 924
 }

@@ -1,5 +1,5 @@
 {
-  "release_year": 1994,
+  "release_year": 2021,
   "runtime_minutes": 108,
   "scares": [
     {
@@ -27,7 +27,7 @@
       "type": "minor"
     },
     {
-      "description": "One of Deena\u2019s friends jumps out from behind a toilet stall to scare her as a joke.",
+      "description": "One of Deena’s friends jumps out from behind a toilet stall to scare her as a joke.",
       "id": "scare_05",
       "resolved_time_ms": 855000,
       "type": "minor"
@@ -78,6 +78,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:55.542Z",
   "sync_type": "audio_hash",
-  "title": "Fear Street 1994 2021",
+  "title": "Fear Street Part One: 1994",
   "tmdb_id": 591273
 }

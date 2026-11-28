@@ -3,7 +3,7 @@
   "runtime_minutes": 55,
   "scares": [
     {
-      "description": "There is a sudden loud noise as Jack and Elsa \u201cbump\u201d into each other.",
+      "description": "There is a sudden loud noise as Jack and Elsa “bump” into each other.",
       "id": "scare_01",
       "resolved_time_ms": 938000,
       "type": "minor"
@@ -42,6 +42,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:59:33.418Z",
   "sync_type": "audio_hash",
-  "title": "Werewolf By Night",
+  "title": "Werewolf by Night",
   "tmdb_id": 894205
 }

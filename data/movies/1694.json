@@ -3,7 +3,7 @@
   "runtime_minutes": 86,
   "scares": [
     {
-      "description": "The cat jumps up at Dan\u2019s face.",
+      "description": "The cat jumps up at Dan’s face.",
       "id": "scare_01",
       "resolved_time_ms": 2151000,
       "type": "major"
@@ -15,7 +15,7 @@
       "type": "minor"
     },
     {
-      "description": "Megan\u2019s father abruptly hits his head on the window behind Megan.",
+      "description": "Megan’s father abruptly hits his head on the window behind Megan.",
       "id": "scare_03",
       "resolved_time_ms": 3837000,
       "type": "minor"
@@ -30,6 +30,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:57:06.052Z",
   "sync_type": "audio_hash",
-  "title": "Re Animator",
+  "title": "Re-Animator",
   "tmdb_id": 1694
 }

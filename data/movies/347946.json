@@ -3,13 +3,13 @@
   "runtime_minutes": 90,
   "scares": [
     {
-      "description": "A ghostly boy\u2019s hand is seen holding a woman\u2019s waist.",
+      "description": "A ghostly boy’s hand is seen holding a woman’s waist.",
       "id": "scare_01",
       "resolved_time_ms": 306000,
       "type": "minor"
     },
     {
-      "description": "A ghostly boy\u2019s face is seen underneath a glass table.",
+      "description": "A ghostly boy’s face is seen underneath a glass table.",
       "id": "scare_02",
       "resolved_time_ms": 325000,
       "type": "minor"
@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "A man\u2019s voice suddenly distorts.",
+      "description": "A man’s voice suddenly distorts.",
       "id": "scare_06",
       "resolved_time_ms": 1423000,
       "type": "minor"
@@ -96,6 +96,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:09.845Z",
   "sync_type": "audio_hash",
-  "title": "Ju On The Final Curse",
+  "title": "Ju on the Final Curse",
   "tmdb_id": 347946
 }

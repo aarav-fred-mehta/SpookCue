@@ -15,13 +15,13 @@
       "type": "minor"
     },
     {
-      "description": "A man\u2019s face turns to a skeleton.",
+      "description": "A man’s face turns to a skeleton.",
       "id": "scare_03",
       "resolved_time_ms": 1233000,
       "type": "minor"
     },
     {
-      "description": "The man with the crow mask\u2019s face distorts with a loud sound in the background.",
+      "description": "The man with the crow mask’s face distorts with a loud sound in the background.",
       "id": "scare_04",
       "resolved_time_ms": 1267000,
       "type": "minor"
@@ -57,13 +57,13 @@
       "type": "minor"
     },
     {
-      "description": "The clown appears in front of the woman\u2019s car window.",
+      "description": "The clown appears in front of the woman’s car window.",
       "id": "scare_10",
       "resolved_time_ms": 3763000,
       "type": "minor"
     },
     {
-      "description": "The woman turns the driver over to see that it\u2019s a man with a severely disfigured face.",
+      "description": "The woman turns the driver over to see that it’s a man with a severely disfigured face.",
       "id": "scare_11",
       "resolved_time_ms": 3819000,
       "type": "minor"
@@ -75,7 +75,7 @@
       "type": "minor"
     },
     {
-      "description": "The video suddenly zooms in on the clown\u2019s face.",
+      "description": "The video suddenly zooms in on the clown’s face.",
       "id": "scare_13",
       "resolved_time_ms": 4399000,
       "type": "minor"
@@ -84,6 +84,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:53:41.721Z",
   "sync_type": "audio_hash",
-  "title": "All Hallows Eve",
+  "title": "All Hallows' Eve",
   "tmdb_id": 231001
 }

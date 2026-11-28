@@ -33,13 +33,13 @@
       "type": "major"
     },
     {
-      "description": "Joseph\u2019s bed suddenly moves.",
+      "description": "Joseph’s bed suddenly moves.",
       "id": "scare_06",
       "resolved_time_ms": 2647000,
       "type": "minor"
     },
     {
-      "description": "Joseph\u2019s eyes open and the bed begins to shake violently.",
+      "description": "Joseph’s eyes open and the bed begins to shake violently.",
       "id": "scare_07",
       "resolved_time_ms": 2674000,
       "type": "minor"
@@ -81,7 +81,7 @@
       "type": "major"
     },
     {
-      "description": "A sound effect plays as the shroud around Joseph\u2019s bed is ripped away to reveal a large number of villagers standing around him.",
+      "description": "A sound effect plays as the shroud around Joseph’s bed is ripped away to reveal a large number of villagers standing around him.",
       "id": "scare_14",
       "resolved_time_ms": 3957000,
       "type": "minor"
@@ -99,7 +99,7 @@
       "type": "major"
     },
     {
-      "description": "The lantern turns back on to reveal Sarah\u2019s possessed face.",
+      "description": "The lantern turns back on to reveal Sarah’s possessed face.",
       "id": "scare_17",
       "resolved_time_ms": 5716000,
       "type": "minor"
@@ -108,6 +108,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:54:50.907Z",
   "sync_type": "audio_hash",
-  "title": "Exorcist The Beginning",
+  "title": "Exorcist: The Beginning",
   "tmdb_id": 11026
 }

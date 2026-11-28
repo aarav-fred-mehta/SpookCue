@@ -24,6 +24,12 @@ class DeltaSyncManager @Inject constructor(
 
     fun getLocalVersion(): Long = prefs.getLong(KEY_LOCAL_VERSION, 0L)
 
+    fun syncBundledVersionIfHigher(bundledVersion: Long) {
+        if (bundledVersion > getLocalVersion()) {
+            setLocalVersion(bundledVersion)
+        }
+    }
+
     private fun setLocalVersion(version: Long) {
         prefs.edit().putLong(KEY_LOCAL_VERSION, version).apply()
     }
@@ -52,11 +58,13 @@ class DeltaSyncManager @Inject constructor(
 
         val bundledSyncIds = assetLoader.getBundledSyncTmdbIds()
         val remoteItems = catalogResult.getOrThrow()
-        val entities = remoteItems.map { item ->
-            val hasAcoustic = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
-            MovieEntity.fromDomain(item.copy(hasAcousticSync = hasAcoustic))
+        if (remoteItems.isNotEmpty()) {
+            val entities = remoteItems.map { item ->
+                val hasAcoustic = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
+                MovieEntity.fromDomain(item.copy(hasAcousticSync = hasAcoustic))
+            }
+            movieDao.replaceCatalogPreservingSync(entities)
         }
-        movieDao.insertMovies(entities)
 
         if (remoteVersion > 0) {
             setLocalVersion(remoteVersion)

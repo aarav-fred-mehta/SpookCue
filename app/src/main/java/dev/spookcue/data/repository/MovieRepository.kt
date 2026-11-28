@@ -73,27 +73,28 @@ class MovieRepositoryImpl @Inject constructor(
     }
 
     override suspend fun getMovieDetails(tmdbId: Int): Result<MovieDetails> = withContext(ioDispatcher) {
-        // 1. Check bundled assets first (assets/movies/{tmdbId}.json)
+        val dbEntity = movieDao.getMovieById(tmdbId)
+
+        // 1. Check local disk cache if fresh against DB catalog metadata
+        val diskFile = File(baseFilesDir, "movies/$tmdbId.json")
+        val diskDetails = if (diskFile.exists()) {
+            runCatching {
+                json.decodeFromString<MovieDetails>(diskFile.readText())
+            }.getOrNull()
+        } else {
+            null
+        }
+        if (diskDetails != null && (dbEntity == null || isDetailsFresh(diskDetails, dbEntity))) {
+            return@withContext Result.success(diskDetails)
+        }
+
+        // 2. Check bundled assets (assets/movies/{tmdbId}.json) if fresh against DB catalog metadata
         val bundled = assetLoader.loadMovieDetails(tmdbId)
-        if (bundled != null) {
+        if (bundled != null && (dbEntity == null || isDetailsFresh(bundled, dbEntity))) {
             return@withContext Result.success(bundled)
         }
 
-        // 2. Check local disk cache (downloaded from CDN for unbundled movies)
-        val diskFile = File(baseFilesDir, "movies/$tmdbId.json")
-        if (diskFile.exists()) {
-            runCatching {
-                val text = diskFile.readText()
-                json.decodeFromString<MovieDetails>(text)
-            }.onSuccess { cached ->
-                val dbEntity = movieDao.getMovieById(tmdbId)
-                if (dbEntity == null || dbEntity.syncType == cached.syncType) {
-                    return@withContext Result.success(cached)
-                }
-            }
-        }
-
-        // 3. Fallback to remote CDN
+        // 3. Fetch updated details from remote CDN
         val remoteResult = cdnClient.fetchMovieDetails(tmdbId)
         remoteResult.onSuccess { details ->
             runCatching {
@@ -101,7 +102,24 @@ class MovieRepositoryImpl @Inject constructor(
                 diskFile.writeText(json.encodeToString(MovieDetails.serializer(), details))
             }
         }
+        if (remoteResult.isSuccess) {
+            return@withContext remoteResult
+        }
+
+        // 4. Offline fallback to stale disk cache or bundled asset
+        if (diskDetails != null) {
+            return@withContext Result.success(diskDetails)
+        }
+        if (bundled != null) {
+            return@withContext Result.success(bundled)
+        }
         remoteResult
+    }
+
+    private fun isDetailsFresh(details: MovieDetails, dbEntity: MovieEntity): Boolean {
+        return dbEntity.syncType == details.syncType &&
+            dbEntity.scareCount == details.scares.size &&
+            dbEntity.title == details.title
     }
 
     override suspend fun getMovieSyncData(tmdbId: Int): Result<MovieSyncData> = withContext(ioDispatcher) {
@@ -144,30 +162,35 @@ class MovieRepositoryImpl @Inject constructor(
         val count = movieDao.getMovieCount()
         val bundledCatalog = assetLoader.loadCatalog()
         val bundledSyncIds = assetLoader.getBundledSyncTmdbIds()
+        val bundledVersion = assetLoader.loadVersion()?.v ?: 0L
 
-        if (count == 0) {
-            if (bundledCatalog.isNotEmpty()) {
-                val entities = bundledCatalog.map { item ->
-                    val hasSync = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
-                    MovieEntity.fromDomain(item.copy(hasAcousticSync = hasSync))
-                }
-                movieDao.insertMovies(entities)
-            }
-        } else {
-            // Reconcile and heal bundled movie metadata (posters, sync types) in Room DB
-            for (item in bundledCatalog) {
-                if (item.posterPath != null) {
-                    movieDao.updatePosterPath(item.tmdbId, item.posterPath)
-                }
-                movieDao.updateSyncType(item.tmdbId, item.syncType)
+        if (bundledCatalog.isNotEmpty()) {
+            val entities = bundledCatalog.map { item ->
                 val hasSync = item.hasAcousticSync || bundledSyncIds.contains(item.tmdbId)
-                movieDao.updateHasAcousticSync(item.tmdbId, hasSync)
+                MovieEntity.fromDomain(item.copy(hasAcousticSync = hasSync))
+            }
+
+            if (count == 0) {
+                movieDao.insertMovies(entities)
+                if (bundledVersion > 0L) {
+                    deltaSyncManager?.syncBundledVersionIfHigher(bundledVersion)
+                }
+            } else if (bundledVersion > 0L && bundledVersion > (deltaSyncManager?.getLocalVersion() ?: 0L)) {
+                // Bundled assets in APK update are newer than local DB: replace catalog while preserving sync history
+                movieDao.replaceCatalogPreservingSync(entities)
+                deltaSyncManager?.syncBundledVersionIfHigher(bundledVersion)
+            } else {
+                // Heal all metadata fields (titles, years, tags, posters, sync types) for existing rows in one transaction
+                movieDao.reconcileCatalogMetadata(entities)
             }
         }
 
-        // Always heal all bundled sync IDs to hasAcousticSync = true
+        // Ensure any bundled sync IDs not yet flagged are marked acoustic-ready
+        val existingIds = movieDao.getAllMovieIds().toSet()
         for (tmdbId in bundledSyncIds) {
-            movieDao.updateHasAcousticSync(tmdbId, true)
+            if (tmdbId in existingIds) {
+                movieDao.updateHasAcousticSync(tmdbId, true)
+            }
         }
     }
 

@@ -1,8 +1,11 @@
-"""Unit tests for WhenJumpScare / Where's The Jump? HTML parser and crawler."""
+"""Unit tests for WhenJumpScare / Where's The Jump? HTML parser and polite crawler."""
 
+import asyncio
 import unittest
+from unittest.mock import AsyncMock, MagicMock
 from urllib.robotparser import RobotFileParser
-from spookcue_scraper.whenjumpscare import WhenJumpScareScraper
+
+from spookcue_scraper.whenjumpscare import WhenJumpScareScraper, clean_slug_title
 
 SAMPLE_INDEX_HTML = """
 <html>
@@ -59,6 +62,11 @@ Disallow: /private/
 Crawl-delay: 2
 """
 
+SAMPLE_HIGH_DELAY_ROBOTS_TXT = """
+User-agent: *
+Disallow: /admin/
+Crawl-delay: 20
+"""
 
 SAMPLE_WHENJUMPSCARE_INDEX_HTML = """
 <html>
@@ -151,19 +159,50 @@ class TestWhenJumpScare(unittest.TestCase):
         scares = data["scares"]
         self.assertEqual(len(scares), 4)
 
-        # First scare: minor
         self.assertEqual(scares[0]["id"], "scare_01")
         self.assertEqual(scares[0]["time"], "00:03:36")
         self.assertEqual(scares[0]["resolved_time_ms"], 216000)
         self.assertEqual(scares[0]["type"], "minor")
         self.assertIn("loud bang", scares[0]["description"])
 
-        # Second scare: major (in strong tag)
         self.assertEqual(scares[1]["id"], "scare_02")
         self.assertEqual(scares[1]["time"], "00:40:38")
         self.assertEqual(scares[1]["resolved_time_ms"], 2438000)
         self.assertEqual(scares[1]["type"], "major")
         self.assertIn("Hands clap", scares[1]["description"])
+
+    def test_parse_movie_html_year_in_title(self):
+        html = "<html><body><h1>1922 (2017) Jump Scares | WhenJumpScare</h1></body></html>"
+        data = WhenJumpScareScraper.parse_movie_html(html)
+        self.assertEqual(data["title"], "1922")
+        self.assertEqual(data["year"], 2017)
+
+    def test_parse_sitemap_movie_url_fixes_ids_years_and_titles(self):
+        cases = [
+            ("https://www.whenjumpscare.com/movie/452507-1922-2017", 452507, "1922", 2017),
+            ("https://www.whenjumpscare.com/movie/2082-halloween-2007", 2082, "Halloween", 2007),
+            ("https://www.whenjumpscare.com/movie/530915-1917-2019", 530915, "1917", 2019),
+            ("https://www.whenjumpscare.com/movie/10577-dracula-2000-2000", 10577, "Dracula 2000", 2000),
+            ("https://www.whenjumpscare.com/movie/79316-devil-s-due-2014", 79316, "Devil's Due", 2014),
+            ("https://www.whenjumpscare.com/movie/482373-don-t-breathe-2-2021", 482373, "Don't Breathe 2", 2021),
+            ("https://www.whenjumpscare.com/movie/520763-a-quiet-place-part-ii-2021", 520763, "A Quiet Place Part II", 2021),
+            ("https://www.whenjumpscare.com/movie/84348-v-h-s-2012", 84348, "V/H/S", 2012),
+            ("https://www.whenjumpscare.com/movie/23730-c-h-u-d-1984", 23730, "C.H.U.D.", 1984),
+        ]
+        for url, exp_tid, exp_title, exp_year in cases:
+            rec = WhenJumpScareScraper._parse_sitemap_movie_url(url)
+            self.assertIsNotNone(rec, url)
+            self.assertEqual(rec["tmdb_id"], exp_tid, url)
+            self.assertEqual(rec["title"], exp_title, url)
+            self.assertEqual(rec["year"], exp_year, url)
+
+    def test_clean_slug_title_special_cases(self):
+        self.assertEqual(clean_slug_title("friday-the-13th-part-viii-jason-takes-manhattan"), "Friday the 13th Part VIII Jason Takes Manhattan")
+        self.assertEqual(clean_slug_title("hell-house-llc-ii-the-abaddon-hotel"), "Hell House LLC II the Abaddon Hotel")
+        self.assertEqual(clean_slug_title("we-re-all-going-to-the-world-s-fair"), "We're All Going to the World's Fair")
+        self.assertEqual(clean_slug_title("you-re-next"), "You're Next")
+        self.assertEqual(clean_slug_title("i-m-thinking-of-ending-things"), "I'm Thinking of Ending Things")
+        self.assertEqual(clean_slug_title("m3gan-2-0"), "M3GAN 2.0")
 
     def test_parse_whenjumpscare_index_html(self):
         movies = WhenJumpScareScraper.parse_index_html(
@@ -204,19 +243,16 @@ class TestWhenJumpScare(unittest.TestCase):
         scares = data["scares"]
         self.assertEqual(len(scares), 3)
 
-        # Scare 1: minor
         self.assertEqual(scares[0]["time"], "00:03:36")
         self.assertEqual(scares[0]["resolved_time_ms"], 216000)
         self.assertEqual(scares[0]["type"], "minor")
         self.assertIn("loud bang", scares[0]["description"])
 
-        # Scare 2: major
         self.assertEqual(scares[1]["time"], "00:40:38")
         self.assertEqual(scares[1]["resolved_time_ms"], 2438000)
         self.assertEqual(scares[1]["type"], "major")
         self.assertIn("Hands clap behind Carolyn", scares[1]["description"])
 
-        # Scare 3: default minor
         self.assertEqual(scares[2]["time"], "01:07:28")
         self.assertEqual(scares[2]["type"], "minor")
 
@@ -231,6 +267,51 @@ class TestWhenJumpScare(unittest.TestCase):
         self.assertFalse(scraper.can_fetch("https://wheresthejump.com/private/secret"))
         self.assertFalse(scraper.can_fetch("https://wheresthejump.com/wp-admin/edit.php"))
 
+    def test_robots_txt_honors_crawl_delay_without_capping(self):
+        async def run_test():
+            mock_resp = MagicMock()
+            mock_resp.status_code = 200
+            mock_resp.text = SAMPLE_HIGH_DELAY_ROBOTS_TXT
+            client = MagicMock()
+            client.get = AsyncMock(return_value=mock_resp)
+            client.is_closed = False
+
+            scraper = WhenJumpScareScraper(base_url="https://wheresthejump.com", delay_seconds=2.0, client=client)
+            await scraper.init_robots_parser()
+            self.assertEqual(scraper.delay_seconds, 20.0)
+            self.assertEqual(scraper._host_delays["https://wheresthejump.com"], 20.0)
+            self.assertFalse(scraper.can_fetch("https://wheresthejump.com/admin/panel"))
+            self.assertTrue(scraper.can_fetch("https://wheresthejump.com/full-movie-list/"))
+
+        asyncio.run(run_test())
+
+    def test_fetch_html_respects_robots_disallow_and_403(self):
+        async def run_test():
+            robots_resp = MagicMock()
+            robots_resp.status_code = 200
+            robots_resp.text = SAMPLE_ROBOTS_TXT
+
+            page_403 = MagicMock()
+            page_403.status_code = 403
+            page_403.text = "Forbidden"
+
+            client = MagicMock()
+            client.get = AsyncMock(side_effect=[robots_resp, page_403])
+            client.is_closed = False
+
+            scraper = WhenJumpScareScraper(delay_seconds=0.0, client=client)
+            # Disallowed URL should never trigger a GET request
+            disallowed = await scraper._fetch_html("https://www.whenjumpscare.com/private/test")
+            self.assertIsNone(disallowed)
+            self.assertEqual(client.get.call_count, 1)  # robots.txt only
+
+            # Allowed URL returning 403 returns None cleanly
+            allowed = await scraper._fetch_html("https://www.whenjumpscare.com/movie/test")
+            self.assertIsNone(allowed)
+            self.assertEqual(client.get.call_count, 2)
+
+        asyncio.run(run_test())
+
     def test_parse_index_html_filters_tv_shows(self):
         html_with_tv = """
         <table>
@@ -243,18 +324,26 @@ class TestWhenJumpScare(unittest.TestCase):
         self.assertEqual(movies[0]["title"], "Saw")
 
     def test_fetch_movie_index_bundled_sitemap_fallback(self):
-        import asyncio
         async def run_test():
-            scraper = WhenJumpScareScraper()
+            scraper = WhenJumpScareScraper(delay_seconds=0.0)
+            scraper._robots_loaded = True
+            scraper._robot_parsers["https://www.whenjumpscare.com"] = None
+
             async def mock_fetch_html(url: str):
                 return None
+
             scraper._fetch_html = mock_fetch_html
             movies = await scraper.fetch_movie_index()
             self.assertGreaterEqual(len(movies), 1160)
-            first = movies[0]
-            self.assertIsNotNone(first.get("tmdb_id"))
-            self.assertIn("url", first)
-            self.assertIn("whenjumpscare.com/movie/", first["url"])
+            by_id = {m["tmdb_id"]: m for m in movies if m.get("tmdb_id")}
+            self.assertEqual(by_id[452507]["title"], "1922")
+            self.assertEqual(by_id[452507]["year"], 2017)
+            self.assertEqual(by_id[2082]["title"], "Halloween")
+            self.assertEqual(by_id[2082]["year"], 2007)
+            self.assertEqual(by_id[79316]["title"], "Devil's Due")
+            self.assertEqual(by_id[482373]["title"], "Don't Breathe 2")
+            self.assertEqual(by_id[520763]["title"], "A Quiet Place Part II")
+
         asyncio.run(run_test())
 
 

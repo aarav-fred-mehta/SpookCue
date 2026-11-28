@@ -3,7 +3,7 @@
   "runtime_minutes": 95,
   "scares": [
     {
-      "description": "Reggie\u2019s coworker opens the door, followed by a cut to a zombified man attacking him.",
+      "description": "Reggie’s coworker opens the door, followed by a cut to a zombified man attacking him.",
       "id": "scare_01",
       "resolved_time_ms": 893000,
       "type": "minor"
@@ -18,6 +18,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:36.390Z",
   "sync_type": "audio_hash",
-  "title": "Night Of The Comet",
+  "title": "Night of the Comet",
   "tmdb_id": 18462
 }

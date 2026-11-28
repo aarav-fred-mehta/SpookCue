@@ -3,7 +3,7 @@
   "runtime_minutes": 118,
   "scares": [
     {
-      "description": "A blind woman whispers in Julia\u2019s ear that there is a man behind her. Julia turns around and sees a man running from the room.",
+      "description": "A blind woman whispers in Julia’s ear that there is a man behind her. Julia turns around and sees a man running from the room.",
       "id": "scare_01",
       "resolved_time_ms": 1144000,
       "type": "minor"
@@ -33,7 +33,7 @@
       "type": "minor"
     },
     {
-      "description": "Lia grabs Julia\u2019s wrist while she is by the window.",
+      "description": "Lia grabs Julia’s wrist while she is by the window.",
       "id": "scare_06",
       "resolved_time_ms": 4589000,
       "type": "minor"
@@ -48,6 +48,6 @@
   "source": "whenjumpscare",
   "source_lastmod": "2025-08-30T11:56:09.704Z",
   "sync_type": "audio_hash",
-  "title": "Julia S Eyes",
+  "title": "Julia's Eyes",
   "tmdb_id": 52274
 }

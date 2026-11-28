@@ -3,7 +3,7 @@
   "runtime_minutes": 104,
   "scares": [
     {
-      "description": "A vehicle suddenly crashes into Michelle\u2019s car.",
+      "description": "A vehicle suddenly crashes into Michelle’s car.",
       "id": "scare_01",
       "resolved_time_ms": 313000,
       "type": "major"
@@ -55,5 +55,6 @@
   "source_lastmod": "2025-08-30T11:53:28.022Z",
   "sync_type": "audio_hash",
   "title": "10 Cloverfield Lane",
-  "tmdb_id": 333371
+  "tmdb_id": 333371,
+  "tmdb_updated_at": "2026-11-28T05:52:07Z"
 }

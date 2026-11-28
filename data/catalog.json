@@ -180,7 +180,7 @@
     "scare_count": 13,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "47 Meters Down Uncaged",
+    "title": "47 Meters Down: Uncaged",
     "tmdb_id": 480105
   },
   {
@@ -191,7 +191,7 @@
     "scare_count": 2,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "8213 Gacy House",
+    "title": "8213: Gacy House",
     "tmdb_id": 57313
   },
   {
@@ -213,7 +213,7 @@
     "scare_count": 16,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "[REC] 2",
+    "title": "[REC]²",
     "tmdb_id": 10664
   },
   {
@@ -224,7 +224,7 @@
     "scare_count": 14,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "[REC] 3: Genesis",
+    "title": "[REC]³ Genesis",
     "tmdb_id": 80280
   },
   {
@@ -235,7 +235,7 @@
     "scare_count": 7,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "[REC] 4: Apocalypse",
+    "title": "[REC]⁴ Apocalypse",
     "tmdb_id": 185341
   },
   {
@@ -306,7 +306,7 @@
   },
   {
     "has_acoustic_sync": true,
-    "poster_path": "/wGTpGGRMZmyFCcrY2YoxVTIBlli.jpg",
+    "poster_path": "/b9rMHAAKISRmIonaQd9Cccx0S4X.jpg",
     "release_year": 1984,
     "runtime_minutes": 91,
     "scare_count": 11,
@@ -505,6 +505,17 @@
   },
   {
     "has_acoustic_sync": true,
+    "poster_path": "/ivgE8yreRjesjApjbe1svgwpHHD.jpg",
+    "release_year": 1997,
+    "runtime_minutes": 109,
+    "scare_count": 9,
+    "sync_type": "audio_hash",
+    "tags": [],
+    "title": "Alien Resurrection",
+    "tmdb_id": 8078
+  },
+  {
+    "has_acoustic_sync": true,
     "poster_path": "/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg",
     "release_year": 2017,
     "runtime_minutes": 122,
@@ -513,19 +524,8 @@
     "tags": [
       "HOT"
     ],
-    "title": "Alien Covenant",
+    "title": "Alien: Covenant",
     "tmdb_id": 126889
-  },
-  {
-    "has_acoustic_sync": true,
-    "poster_path": "/9aRDMlU5Zwpysilm0WCWzU2PCFv.jpg",
-    "release_year": 1997,
-    "runtime_minutes": 109,
-    "scare_count": 9,
-    "sync_type": "audio_hash",
-    "tags": [],
-    "title": "Alien Resurrection",
-    "tmdb_id": 8078
   },
   {
     "has_acoustic_sync": true,
@@ -537,7 +537,7 @@
     "tags": [
       "HOT"
     ],
-    "title": "Alien Romulus",
+    "title": "Alien: Romulus",
     "tmdb_id": 945961
   },
   {
@@ -616,7 +616,7 @@
     "scare_count": 11,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "Amityville the Awakening",
+    "title": "Amityville: The Awakening",
     "tmdb_id": 203835
   },
   {
@@ -682,7 +682,7 @@
     "scare_count": 7,
     "sync_type": "audio_hash",
     "tags": [],
-    "title": "Anacondas the Hunt for the Blood Orchid",
+    "title": "Anacondas: The Hunt for the Blood Orchid",
     "tmdb_id": 11237
   },
   {

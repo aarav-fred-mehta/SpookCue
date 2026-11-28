@@ -81,13 +81,13 @@
       "type": "minor"
     },
     {
-      "description": "Pim sees Ploy\u2019s ghost in the back seat of the car.",
+      "description": "Pim sees Ploy’s ghost in the back seat of the car.",
       "id": "scare_14",
       "resolved_time_ms": 3676000,
       "type": "minor"
     },
     {
-      "description": "Pim see Ploy\u2019s face in the reflection of a window.",
+      "description": "Pim see Ploy’s face in the reflection of a window.",
       "id": "scare_15",
       "resolved_time_ms": 3712000,
       "type": "minor"
@@ -99,7 +99,7 @@
       "type": "minor"
     },
     {
-      "description": "Pim\u2019s mother grabs Wee.",
+      "description": "Pim’s mother grabs Wee.",
       "id": "scare_17",
       "resolved_time_ms": 3843000,
       "type": "minor"
@@ -123,7 +123,7 @@
       "type": "minor"
     },
     {
-      "description": "Wee\u2019s face suddenly transforms into Pim\u2019s ghost.",
+      "description": "Wee’s face suddenly transforms into Pim’s ghost.",
       "id": "scare_21",
       "resolved_time_ms": 4819000,
       "type": "minor"
@@ -133,5 +133,6 @@
   "source_lastmod": "2025-08-30T11:53:41.849Z",
   "sync_type": "audio_hash",
   "title": "Alone",
-  "tmdb_id": 37973
+  "tmdb_id": 37973,
+  "tmdb_updated_at": "2026-11-28T05:52:10Z"
 }

@@ -3,13 +3,13 @@
   "runtime_minutes": 0,
   "scares": [
     {
-      "description": "The monster loudly slides the plate forward, disturbing the son\u2019s thoughts.",
+      "description": "The monster loudly slides the plate forward, disturbing the son’s thoughts.",
       "id": "scare_01",
       "resolved_time_ms": 419000,
       "type": "minor"
     },
     {
-      "description": "The monster\u2019s hand grabs the son\u2019s leg.",
+      "description": "The monster’s hand grabs the son’s leg.",
       "id": "scare_02",
       "resolved_time_ms": 534000,
       "type": "minor"
@@ -25,5 +25,6 @@
   "source_lastmod": "2025-08-30T11:56:21.257Z",
   "sync_type": "audio_hash",
   "title": "Liar Liar",
-  "tmdb_id": 1107568
+  "tmdb_id": 1107568,
+  "tmdb_updated_at": "2026-11-28T05:52:12Z"
 }

@@ -51,13 +51,13 @@
       "type": "minor"
     },
     {
-      "description": "Lisa turns around and Javier\u2019s dead body appears right in front of her.",
+      "description": "Lisa turns around and Javier’s dead body appears right in front of her.",
       "id": "scare_09",
       "resolved_time_ms": 3232000,
       "type": "major"
     },
     {
-      "description": "After Kate says \u201copen the hatch\u201d the shark attacks her.",
+      "description": "After Kate says “open the hatch” the shark attacks her.",
       "id": "scare_10",
       "resolved_time_ms": 3777000,
       "type": "minor"
@@ -73,5 +73,6 @@
   "source_lastmod": "2025-08-30T11:53:33.022Z",
   "sync_type": "audio_hash",
   "title": "47 Meters Down",
-  "tmdb_id": 403119
+  "tmdb_id": 403119,
+  "tmdb_updated_at": "2026-11-28T05:52:08Z"
 }
